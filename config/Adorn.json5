@@ -1,0 +1,31 @@
+{
+	// Client-side settings
+	"client": {
+		// If true, floating tooltips are shown above trading stations.
+		"showTradingStationTooltips": true,
+		// If true, Adorn items will also be shown in matching vanilla item tabs.
+		"showItemsInStandardGroups": true
+	},
+	// Default values for game rules in new worlds
+	"gameRuleDefaults": {
+		// If true, sleeping on sofas can skip the night.
+		"skipNightOnSofas": true,
+		// If true, kitchen sinks are infinite sources for infinite fluids.
+		"infiniteKitchenSinks": true,
+		// If true, broken trading stations drop a locked version with their contents inside.
+		"dropLockedTradingStations": true
+	},
+	// Mod compatibility toggles (enabled: true, disabled: false)
+	"compat": {
+		"byg": true,
+		"traverse": true,
+		"terrestria": true,
+		"cinderscapes": true,
+		"blockus": true,
+		"promenade": true,
+		"woods_and_mires": true,
+		"towelette": true,
+		"biomemakeover": true,
+		"techreborn": true
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "scythe_blacklisted_blocks": [
+    "minecraft:lily_pad"
+  ],
+  "machete_blacklisted_blocks": []
+}

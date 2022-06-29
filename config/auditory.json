@@ -1,0 +1,7 @@
+{
+  "block_sounds": true,
+  "item_use_sounds": true,
+  "item_drop_sounds": true,
+  "interaction_sounds": true,
+  "entity_sounds": true
+}

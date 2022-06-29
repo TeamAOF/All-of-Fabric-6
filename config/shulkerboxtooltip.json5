@@ -1,0 +1,116 @@
+{
+	"preview": {
+		/* Toggles the shulker box preview.
+		   (default value: true)
+		*/
+		"enable": true,
+		/* Locks the preview window above the tooltip.
+		   When locked, the window will not adapt when out of screen.
+		   (default value: false)
+		*/
+		"lock": false,
+		/* Swaps the preview modes.
+		   If true, pressing the preview key will show the full preview instead.
+		   (default value: false)
+		*/
+		"swapModes": false,
+		/* If on, the preview is always displayed, regardless of the preview key being pressed.
+		   (default value: false)
+		*/
+		"alwaysOn": false,
+		/* In compact mode, how should items with the same ID but different NBT data be compacted?
+		   IGNORE: Ignores NBT data
+		   FIRST_ITEM: Items are displayed as all having the same NBT as the first item
+		   SEPARATE: Separates items with different NBT data
+		   (default value: SEPARATE)
+		*/
+		"compactPreviewNbtBehavior": "SEPARATE",
+		/* Controls whether the preview window should be colored.
+		   (default value: true)
+		*/
+		"coloredPreview": true,
+		/* The max number of items in a row.
+		   May not affect modded containers.
+		   (default value: 9)
+		*/
+		"defaultMaxRowSize": 9,
+		/* If on, the client will try to send packets to servers to allow extra preview information such as ender chest previews.
+		   (default value: true)
+		*/
+		"serverIntegration": true,
+		/* The theme to use for preview windows.
+		   MOD_AUTO: ShulkerBoxTooltip's style using the dark mode setting from LibGui, defaults to light theme if not present.
+		   MOD_LIGHT: ShulkerBoxTooltip's style with vanilla colors.
+		   MOD_DARK: ShulkeBoxTooltip's style with gray preview windows instead of white.
+		   VANILLA: Mimics the style of vanilla bundle previews.
+		   (default value: MOD_AUTO)
+		*/
+		"theme": "MOD_AUTO",
+		/* The position of the preview window.
+		   INSIDE: Inside the item's tooltip.
+		   OUTSIDE: Outside the item's tooltip, moves dependening on the screen borders.
+		   OUTSIDE_TOP: Always at the top of the item's tooltip.
+		   OUTSIDE_BOTTOM: Always at the bottom of the item's tooltip.
+		   (default value: INSIDE)
+		*/
+		"position": "INSIDE",
+		/* If on, large item counts in compact previews will be shortened.
+		   (default value: true)
+		*/
+		"shortItemCounts": true
+	},
+	"tooltip": {
+		/* Controls whether the key hints in the container's tooltip should be displayed.
+		   (default value: true)
+		*/
+		"showKeyHints": true,
+		/* The tooltip to use.
+		   VANILLA: The vanilla tooltip (shows the first 5 items)
+		   MOD: The mod's tooltip
+		   NONE: No tooltip
+		   (default value: MOD)
+		*/
+		"type": "MOD",
+		/* Shows info about the current loot table of the item if present.
+		   Visible only when Tooltip Type is set to Modded.
+		   HIDE: No loot table info, default.
+		   SIMPLE: Displays whether the stack uses a loot table.
+		   ADVANCED: Shows the loot table used by the item.
+		   (default value: HIDE)
+		*/
+		"lootTableInfoType": "HIDE",
+		/* If on, the mod hides the custom text on shulker box tooltips.
+		   Use this option when a server-side preview datapack clashes with the mod.
+		   (default value: false)
+		*/
+		"hideShulkerBoxLore": false
+	},
+	"controls": {
+		/* Press this key when hovering a container stack to open the preview window.
+		   (default value: key.keyboard.left.shift)
+		*/
+		"previewKey": {
+			"code": "key.keyboard.left.shift"
+		},
+		/* Press this key when hovering a container stack to open the full preview window.
+		   (default value: key.keyboard.left.alt)
+		*/
+		"fullPreviewKey": {
+			"code": "key.keyboard.left.alt"
+		}
+	},
+	"server": {
+		/* If on, the server will be able to provide extra information about containers to the clients with the mod installed.
+		   Disabling this option will disable all of the options below.
+		   (default value: true)
+		*/
+		"clientIntegration": true,
+		/* Changes the way the ender chest content preview is synchronized.
+		   NONE: No synchronization, prevents clients from seeing a preview of their ender chest.
+		   ACTIVE: Ender chest contents are synchronized when changed.
+		   PASSIVE: Ender chest contents are synchonized when the client opens a preview.
+		   (default value: ACTIVE)
+		*/
+		"enderChestSyncType": "ACTIVE"
+	}
+}

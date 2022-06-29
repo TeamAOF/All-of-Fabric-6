@@ -1,0 +1,65 @@
+{
+  "emotes": {
+    "Bedge": "aofemotes:emotes/bedge.png",
+    "bright_eyes": "aofemotes:emotes/bright-eyes.png",
+    "catCry": "aofemotes:emotes/cat-cry.png",
+    "catScream": "aofemotes:emotes/cat-scream.png",
+    "cryIgnore": "aofemotes:emotes/cry-ignore.png",
+    "ded": "aofemotes:emotes/ded.png",
+    "ggeeAww": "aofemotes:emotes/ggee-aww.png",
+    "ggeeCoffee": "aofemotes:emotes/ggee-coffee.png",
+    "ggeeOOOO": "aofemotes:emotes/ggee-oooo.png",
+    "Hmm": "aofemotes:emotes/hmm.png",
+    "Hmmge": "aofemotes:emotes/hmmge.png",
+    "KEKW": "aofemotes:emotes/kekw.png",
+    "Madge": "aofemotes:emotes/madge.png",
+    "monkaS": "aofemotes:emotes/monkas.png",
+    "Okayge": "aofemotes:emotes/okayge.png",
+    "peepoBlush": "aofemotes:emotes/peepo-blush.png",
+    "peepoHappy": "aofemotes:emotes/peepo-happy.png",
+    "peepoHappyGun": "aofemotes:emotes/peepo-happy-gun.png",
+    "peepoPoint": "aofemotes:emotes/peepo-point.png",
+    "peepoSelfie": "aofemotes:emotes/peepo-selfie.png",
+    "PepeHands": "aofemotes:emotes/pepe-hands.png",
+    "PepeNotes": "aofemotes:emotes/pepe-notes.png",
+    "POGGIES": "aofemotes:emotes/poggies.png",
+    "Prayge": "aofemotes:emotes/prayge.png",
+    "Sadge": "aofemotes:emotes/sadge.png",
+    "Smadge": "aofemotes:emotes/smadge.png",
+    "Starege": "aofemotes:emotes/starege.png",
+    "suffer": "aofemotes:emotes/suffer.png",
+    "Susge": "aofemotes:emotes/susge.png",
+    "catJAM": {
+      "path": "aofemotes:emotes/animated/catjam.png",
+      "frame_time": 40
+    },
+    "HYPERJAMMIES": {
+      "path": "aofemotes:emotes/animated/hyperjammies.png",
+      "frame_time": 20
+    },
+    "HYPERS": {
+      "path": "aofemotes:emotes/animated/hypers.png",
+      "frame_time": 70
+    },
+    "Jammies": {
+      "path": "aofemotes:emotes/animated/jammies.png",
+      "frame_time": 90
+    },
+    "NODDERS": {
+      "path": "aofemotes:emotes/animated/nodders.png",
+      "frame_time": 20
+    },
+    "NOPERS": {
+      "path": "aofemotes:emotes/animated/nopers.png",
+      "frame_time": 70
+    },
+    "peepoShy": {
+      "path": "aofemotes:emotes/animated/peepo-shy.png",
+      "frame_time": 250
+    },
+    "Tastyge": {
+      "path": "aofemotes:emotes/animated/tastyge.png",
+      "frame_time": 30
+    }
+  }
+}

@@ -80,3 +80,7 @@ journeymap/
 client_data/
 
 server_files/
+
+profilekeys/
+
+generated/

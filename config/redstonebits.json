@@ -1,0 +1,18 @@
+{
+  "configVersion": 1,
+  "buttonPressTimes": {
+    "unaffectedPressTicks": 5,
+    "exposedPressTicks": 15,
+    "weatheredPressTicks": 25,
+    "oxidizedPressTicks": 35
+  },
+  "pressurePlateWeights": {
+    "unaffectedWeight": 5,
+    "exposedWeight": 15,
+    "weatheredWeight": 25,
+    "oxidizedWeight": 35
+  },
+  "breaker": {
+    "breakTimeMultiplier": 1.0
+  }
+}

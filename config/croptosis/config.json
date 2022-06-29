@@ -1,0 +1,48 @@
+{
+  "potash_oregen": {
+    "enabled": true,
+    "vein_shape": "uniform",
+    "min_height": 52,
+    "max_height": 204,
+    "per_chunk": 8,
+    "vein_size": 8
+  },
+  "apatite_oregen": {
+    "enabled": true,
+    "vein_shape": "",
+    "min_height": -64,
+    "max_height": 34,
+    "per_chunk": 4,
+    "vein_size": 12
+  },
+  "watering_cans": {
+    "enabled": true,
+    "iron": {
+      "range": 2,
+      "capacity": 12,
+      "chance": 0.02
+    },
+    "gold": {
+      "range": 5,
+      "capacity": 6,
+      "chance": 0.025
+    },
+    "diamond": {
+      "range": 3,
+      "capacity": 16,
+      "chance": 0.025
+    },
+    "netherite": {
+      "range": 4,
+      "capacity": 20,
+      "chance": 0.03
+    }
+  },
+  "fertilizer_items": {
+    "enable_feather_meal": true,
+    "enable_rotten_pile": true
+  },
+  "fertilized_blocks": {
+    "enable_bone_meal_conversion": true
+  }
+}

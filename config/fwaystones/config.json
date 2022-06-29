@@ -1,0 +1,41 @@
+{
+  "worldgen": {
+    "generate_in_villages": true,
+    "min_per_village": 1,
+    "max_per_village": 1,
+    "village_waystone_weight": 2
+  },
+  "teleportation_cost": {
+    "cost_type": "level",
+    "cost_item": "minecraft:ender_pearl",
+    "base_cost": 1,
+    "cost_per_block_distance": 0.0,
+    "cost_multiplier_between_dimensions": 1.0
+  },
+  "discover_with_item": "none",
+  "take_amount_from_discover_item": 0,
+  "consume_infinite_knowledge_scroll_on_use": false,
+  "consume_local_void_on_use": true,
+  "free_local_void_teleport": true,
+  "store_waystone_data_on_sneak_break": true,
+  "can_owners_redeem_payments": false,
+  "waystone_block_hardness": 4.0,
+  "waystone_block_required_mining_level": 1,
+  "prevent_non_owners_from_breaking_waystone": false,
+  "can_players_toggle_global_mode": true,
+  "teleportation_cooldown": {
+    "cooldown_ticks_when_hurt": 0,
+    "cooldown_ticks_from_abyss_watcher": 0,
+    "cooldown_ticks_from_pocket_wormhole": 0,
+    "cooldown_ticks_from_local_void": 0,
+    "cooldown_ticks_from_void_totem": 0,
+    "cooldown_ticks_from_waystone": 0
+  },
+  "add_waystone_structure_piece": {
+    "minecraft:village/plains/houses": "village_waystone",
+    "minecraft:village/savanna/houses": "village_waystone",
+    "minecraft:village/desert/houses": "desert_village_waystone",
+    "minecraft:village/snowy/houses": "village_waystone",
+    "minecraft:village/taiga/houses": "village_waystone"
+  }
+}

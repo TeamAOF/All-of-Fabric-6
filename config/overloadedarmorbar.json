@@ -1,0 +1,20 @@
+{
+  "overloadedarmorbar.config.colors": {
+    "key": "overloadedarmorbar.config.colors",
+    "toolTip": "overloadedarmorbar.config.tt.colors",
+    "value": "#FFFFFF #FF5500 #FFC747 #27FFE3 #00FF00 #7F00FF",
+    "defaultValue": "#FFFFFF #FF5500 #FFC747 #27FFE3 #00FF00 #7F00FF"
+  },
+  "overloadedarmorbar.config.showempty": {
+    "key": "overloadedarmorbar.config.showempty",
+    "toolTip": "overloadedarmorbar.config.tt.showempty",
+    "value": false,
+    "defaultValue": false
+  },
+  "overloadedarmorbar.config.alwaysshow": {
+    "key": "overloadedarmorbar.config.alwaysshow",
+    "toolTip": "overloadedarmorbar.config.tt.alwaysshow",
+    "value": false,
+    "defaultValue": false
+  }
+}

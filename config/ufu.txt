@@ -1,0 +1,4 @@
+// Make sure to make backups!
+// Format is <old identifier> -> <new identifier>
+// Example: removed_mod:bad_block_or_item -> added_mod:good_block_or_item
+// You can press F3 to see block IDs on the right, and F3 + H to see item IDs

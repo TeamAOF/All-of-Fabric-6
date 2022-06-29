@@ -1,0 +1,97 @@
+{
+  "modules": {
+    "barrels": {
+      "compost": {
+        "enabled": true,
+        "rate": 0.01
+      },
+      "enableAlchemy": true,
+      "enableBleeding": true,
+      "enableFluidCombination": true,
+      "enableMilking": true,
+      "enchantments": {
+        "efficiency": true,
+        "thorns": true
+      },
+      "leaking": {
+        "enabled": true,
+        "radius": 2
+      },
+      "tickRate": 6,
+      "transforming": {
+        "boost": 15,
+        "boostRadius": 2,
+        "enabled": true,
+        "rate": 600
+      }
+    },
+    "crucibles": {
+      "baseProcessRate": 810,
+      "efficiency": true,
+      "fireAspect": true,
+      "stoneVolume": 4,
+      "tickRate": 20,
+      "woodVolume": 1,
+      "woodenProcessingRate": 1350
+    },
+    "seeds": {
+      "cactus": true,
+      "chorus": true,
+      "enabled": true,
+      "flowerSeeds": true,
+      "grass": true,
+      "kelp": true,
+      "mycelium": true,
+      "netherSpores": true,
+      "seaPickle": true,
+      "sugarCane": true
+    },
+    "sieves": {
+      "baseProgress": 0.1,
+      "efficiency": true,
+      "efficiencyScaleFactor": 0.05,
+      "fortune": true,
+      "haste": true,
+      "hasteScaleFactor": 1.0,
+      "meshStackSize": 16,
+      "sieveRadius": 2
+    },
+    "silkworms": {
+      "enabled": true,
+      "infestedSpreadAttempts": 4,
+      "infestingSpreadAttempts": 1,
+      "minimumSpreadPercent": 0.15,
+      "progressPerUpdate": 0.015,
+      "spreadChance": 0.5,
+      "updateFrequency": 10
+    },
+    "strainers": {
+      "maxWaitTime": 6000,
+      "minWaitTime": 1200
+    },
+    "witchWater": {
+      "effects": {
+        "blindness": {
+          "duration": 210,
+          "amplifier": 0
+        },
+        "weakness": {
+          "duration": 210,
+          "amplifier": 2
+        },
+        "wither": {
+          "duration": 210,
+          "amplifier": 0
+        },
+        "slowness": {
+          "duration": 210,
+          "amplifier": 0
+        },
+        "hunger": {
+          "duration": 210,
+          "amplifier": 2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+	// Dwarf Coal BurnTime
+	"dwarfCoalBurnTime": 200,
+	// Charcoal Block BurnTime
+	"charcoalBlockBurnTime": 1600,
+	// Dwarf Torch Light Level
+	"lightLevel": 10
+}

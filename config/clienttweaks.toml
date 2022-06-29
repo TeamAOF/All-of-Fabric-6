@@ -1,0 +1,22 @@
+[tweaks]
+autoClimbLadder = false
+doNotUseLastTorch = false
+hideOffhandItem = false
+hideOwnParticleEffects = false
+hideShieldUnlessHoldingWeapon = true
+noOffhandTorchAtAll = false
+noOffhandTorchWithBlock = true
+noOffhandTorchWithFood = true
+noOffhandTorchWithEmptyHand = false
+offhandTorchWithToolOnly = false
+disableStepAssist = false
+disableLogStripping = false
+masterVolumeSlider = true
+musicVolumeSlider = true
+paneBuildingSupport = true
+noRecipeBookShifting = false
+[customization]
+torchItems = ["minecraft:torch", "minecraft:soul_torch", "tconstruct:stone_torch"]
+torchTools = ["minecraft:wooden_pickaxe", "minecraft:stone_pickaxe", "minecraft:iron_pickaxe", "minecraft:golden_pickaxe", "minecraft:diamond_pickaxe", "minecraft:netherite_pickaxe", "tconstruct:pickaxe", "tconstruct:hammer"]
+shieldWeapons = ["tetra:modular_sword"]
+shieldItems = ["basicshields:wooden_shield", "basicshields:golden_shield", "basicshields:diamond_shield", "basicshields:netherite_shield"]
