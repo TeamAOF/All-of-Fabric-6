@@ -1,4 +1,8 @@
 {
+  "horseinfo": {
+    "enabled": true,
+    "ignore_mount": false
+  },
   "waila": {
     "show_blocks": true,
     "show_fluids": false,
@@ -20,7 +24,7 @@
     "jukebox.record": true,
     "breaking_progress.enabled": true,
     "breaking_progress.color": -1426063361,
-    "breaking_progress.bottom_only": false,
+    "breaking_progress.bottom_only": true,
     "spawner_type": true,
     "crop_progress": true,
     "redstone.lever": true,
@@ -34,9 +38,5 @@
     "note_block.note": "SHARP",
     "note_block.int_value": false,
     "pet.hide_unknown_owner": false
-  },
-  "horseinfo": {
-    "enabled": true,
-    "ignore_mount": false
   }
 }

@@ -1,0 +1,89 @@
+{
+  "configVersion": 3,
+  "inventory": {
+    "enabled": false,
+    "itemCount": false,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "entityInventory": {
+    "enabled": false,
+    "itemCount": false,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "energy": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane": 7408640,
+      "indrev": 3885790,
+      "techreborn": 8390656,
+      "wirelessnetworks": 7408640,
+      "lifts": 7408640,
+      "quarrymod": 7408640,
+      "extragenerators": 7408640,
+      "appliedenergistics2": 6556063,
+      "modern_industrialization": 11993088,
+      "ae2": 6556063,
+      "dmlsimulacrum": 12588052
+    },
+    "units": {
+      "megane": "E",
+      "indrev": "LF",
+      "techreborn": "E",
+      "wirelessnetworks": "E",
+      "lifts": "E",
+      "quarrymod": "E",
+      "extragenerators": "E",
+      "appliedenergistics2": "AE",
+      "modern_industrialization": "EU",
+      "ae2": "AE",
+      "dmlsimulacrum": "E"
+    },
+    "blacklist": [
+      "appliedenergistics2:energy_acceptor"
+    ]
+  },
+  "fluid": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane:default": 855385,
+      "minecraft:water": 4159204,
+      "modern_industrialization:hydrogen": 1788620,
+      "indrev:molten_tin_still": 13224393,
+      "indrev:sulfuric_acid_still": 15646,
+      "indrev:toxic_mud_still": 6044430,
+      "kibe:liquid_xp": 5635925,
+      "modern_industrialization:creosote": 6512720,
+      "modern_industrialization:steam": 15658734,
+      "modern_industrialization:synthetic_oil": 5000268,
+      "modern_industrialization:crude_oil": 5524299,
+      "modern_industrialization:lubricant": 16761856,
+      "modern_industrialization:synthetic_rubber": 5000268,
+      "modern_industrialization:uu_matter": 16711927,
+      "minecraft:lava": 13916690
+    },
+    "blacklist": []
+  },
+  "progress": {
+    "enabled": true,
+    "showWhenZero": false,
+    "blacklist": []
+  },
+  "effect": {
+    "enabled": true,
+    "level": true,
+    "roman": false,
+    "hidden": false,
+    "blacklist": []
+  },
+  "catchServerErrors": true,
+  "spawnEgg": false,
+  "playerHead": true
+}

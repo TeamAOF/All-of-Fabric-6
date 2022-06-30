@@ -21,11 +21,11 @@
         "y": "TOP"
       },
       "x": 0,
-      "y": 0,
+      "y": 2,
       "bossBarsOverlap": false
     },
     "color": {
-      "alpha": 80,
+      "alpha": 0,
       "themes": [
         {
           "id": "waila:dark",
@@ -42,11 +42,11 @@
           "fontColor": 10526880
         }
       ],
-      "activeTheme": "waila:vanilla"
+      "activeTheme": "waila:dark"
     },
     "scale": 1.0
   },
-  "formatter": {
+  "formatting": {
     "modName": "§9§o%s",
     "blockName": "§f%s",
     "fluidName": "§f%s",

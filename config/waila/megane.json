@@ -9,8 +9,8 @@
     "blacklist": []
   },
   "entityInventory": {
-    "enabled": true,
-    "itemCount": true,
+    "enabled": false,
+    "itemCount": false,
     "nbt": false,
     "maxWidth": 9,
     "maxHeight": 3,
@@ -47,6 +47,6 @@
     "blacklist": []
   },
   "catchServerErrors": true,
-  "spawnEgg": true,
+  "spawnEgg": false,
   "playerHead": true
 }
