@@ -1,0 +1,52 @@
+{
+  "type": "modern_industrialization:quarry",
+  "eu": 4,
+  "duration": 600,
+  "item_inputs": {
+    "item": "modern_industrialization:bronze_drill",
+    "amount": 1,
+    "probability": 0.01
+  },
+  "item_outputs": [
+    {
+      "item": "minecraft:iron_ore",
+      "amount": 8,
+      "probability": 0.05
+    },
+    {
+      "item": "minecraft:coal_ore",
+      "amount": 8,
+      "probability": 0.05
+    },
+    {
+      "item": "minecraft:copper_ore",
+      "amount": 4,
+      "probability": 0.05
+    },
+    {
+      "item": "modern_industrialization:tin_ore",
+      "amount": 6,
+      "probability": 0.05
+    },
+    {
+      "item": "indrev:silver_ore",
+      "amount": 3,
+      "probability": 0.04
+    },
+    {
+      "item": "minecraft:gold_ore",
+      "amount": 5,
+      "probability": 0.03
+    },
+    {
+      "item": "techreborn:ruby_ore",
+      "amount": 2,
+      "probability": 0.02
+    },
+    {
+      "item": "minecraft:redstone_ore",
+      "amount": 10,
+      "probability": 0.02
+    }
+  ]
+}

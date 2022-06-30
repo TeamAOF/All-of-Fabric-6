@@ -1,0 +1,82 @@
+{
+  "type": "modern_industrialization:quarry",
+  "eu": 12,
+  "duration": 600,
+  "item_inputs": {
+    "item": "modern_industrialization:steel_drill",
+    "amount": 1,
+    "probability": 0.01
+  },
+  "item_outputs": [
+    {
+      "item": "modern_industrialization:antimony_ore",
+      "amount": 5,
+      "probability": 0.04
+    },
+    {
+      "item": "minecraft:diamond_ore",
+      "amount": 6,
+      "probability": 0.02
+    },
+    {
+      "item": "techreborn:sapphire_ore",
+      "amount": 2,
+      "probability": 0.02
+    },
+    {
+      "item": "minecraft:lapis_ore",
+      "amount": 10,
+      "probability": 0.01
+    },
+    {
+      "item": "modern_industrialization:lead_ore",
+      "amount": 5,
+      "probability": 0.05
+    },
+    {
+      "item": "modern_industrialization:nickel_ore",
+      "amount": 6,
+      "probability": 0.03
+    },
+    {
+      "item": "modern_industrialization:bauxite_ore",
+      "amount": 8,
+      "probability": 0.05
+    },
+    {
+      "item": "modern_industrialization:salt_ore",
+      "amount": 4,
+      "probability": 0.03
+    },
+    {
+      "item": "minecraft:emerald_ore",
+      "amount": 4,
+      "probability": 0.025
+    },
+    {
+      "item": "modern_industrialization:quartz_ore",
+      "amount": 10,
+      "probability": 0.02
+    },
+    {
+      "item": "modern_industrialization:lignite_coal_ore",
+      "amount": 6,
+      "probability": 0.04
+    },
+    {
+      "item": "techreborn:galena_ore",
+      "amount": 3,
+      "probability": 0.03
+    },
+    {
+      "item": "ae2:quartz_ore",
+      "amount": 6,
+      "probability": 0.02
+    },
+    {
+      "item": "indrev:nikolite_ore",
+      "amount": 4,
+      "probability": 0.03
+    }
+  ]
+}

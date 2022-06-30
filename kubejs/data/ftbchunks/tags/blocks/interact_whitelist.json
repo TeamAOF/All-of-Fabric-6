@@ -1,0 +1,84 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:crafting_table",
+		"minecraft:bell",
+		{
+			"id": "#tombstone:graves",
+			"required": false
+		},
+		{
+			"id": "waystones:waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:desert_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:red_desert_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:stone_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:nether_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:red_nether_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:end_stone_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:blackstone_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "waystones:deepslate_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "minecraft:enchanting_table",
+			"required": false
+		},
+		{
+			"id": "dark-enchanting:dark_enchanter",
+			"required": false
+		},
+		{
+			"id": "infusion_table:infusion_table",
+			"required": false
+		},
+		{
+			"id": "minecraft:anvil",
+			"required": false
+		},
+		{
+			"id": "minecraft:chipped_anvil",
+			"required": false
+		},
+		{
+			"id": "minecraft:damaged_anvil",
+			"required": false
+		},
+		{
+			"id": "adorn:trading_station",
+			"required": false
+		},
+		{
+			"id": "universal_graves:grave",
+			"required": false
+		},
+		{
+			"id": "yigd:grave",
+			"required": false
+		}
+	
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "gravestone:gravestone",
+			"required": false
+		},
+		{
+			"id": "universal_graves:grave",
+			"required": false
+		},
+		{
+			"id": "yigd:grave",
+			"required": false
+		}
+	]
+}
