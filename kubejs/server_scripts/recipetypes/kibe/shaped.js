@@ -5,7 +5,7 @@
 ////////////////////////
 
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
   // Big Torch
   event.shaped('kibe:big_torch', [

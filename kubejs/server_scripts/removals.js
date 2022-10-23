@@ -1,6 +1,7 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes( (event) => {
 
     const id = [
+    'indrev:shapeless/steel_dust',
     'techreborn:crafting_table/solar_panel/ultimate_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/industrial_solar_panel_alt',
     'techreborn:crafting_table/solar_panel/advanced_solar_panel_alt',
@@ -12,10 +13,9 @@ onEvent('recipes', (event) => {
     'croptopia:cabbage_to_cabbage_seed_shapeless',
     'techreborn:compressor/iridium_plate',
     'techreborn:compressor/iridium_plate_from_block',
-    // 'indrev:shapeless/steel_dust',
-    // 'indrev:infusing/steel_dust',
-    // 'indrev:infusing/electrum_dust',
-    // 'indrev:compressing/empty_upgrade',
+    'indrev:infusing/steel_dust',
+    'indrev:infusing/electrum_dust',
+    'indrev:compressing/empty_upgrade',
     'techreborn:crafting_table/machine_block/basic_machine_frame_alt',
     'techreborn:crafting_table/machine/iron_furnace',
     'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores',
@@ -23,6 +23,15 @@ onEvent('recipes', (event) => {
     'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores_exported_mi_furnace',
     'modern_industrialization:compat/indrev/quarry_nikolite',
     'modern_industrialization:compat/ae2/quarry_ae2',
+    'ad_astra:hammering/iron_plate',
+    'ad_astra:recipes/steel_ingot_from_smelting_iron_ingot',
+    'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
+    'create:smelting/platinum_ingot_compat_modern_industrialization',
+    'create:blasting/platinum_ingot_compat_modern_industrialization',
+    'indrev:smelting/tungsten_ingot_from_raw_ores',
+    'createplus:createplus/ore_processing/nickel/modern_industrialization/smelting',
+    'travelersbackpack:travelers_backpack',
+    'catwalksinc:iron_rod',
 
     ];
 
@@ -43,29 +52,37 @@ onEvent('recipes', (event) => {
     'croptopia:bacon',
     'croptopia:cooked_bacon',
     'croptopia:knife',
-    // 'bewitchment:raw_silver_block',
+    'bewitchment:raw_silver_block',
     'modern_industrialization:replicator',
     'modern_industrialization:uu_matter',
+    'basicaiots:tin_aiot',
+    'basicaiots:copper_aiot',
+    'basicaiots:silver_aiot',
+    'basicaiots:steel_aiot',
+    'basicaiots:lead_aiot',
     'craftingcraft:portable_crafting',
     'kibe:pocket_crafting_table',
-    // 'indrev:bronze_sword',
-    // 'indrev:bronze_pickaxe',
-    // 'indrev:bronze_axe',
-    // 'indrev:bronze_shovel',
-    // 'indrev:bronze_hoe',
-    // 'indrev:item_pipe_mk1',
-    // 'indrev:fluid_pipe_mk1',
+    'indrev:bronze_sword',
+    'indrev:bronze_pickaxe',
+    'indrev:bronze_axe',
+    'indrev:bronze_shovel',
+    'indrev:bronze_hoe',
+    'indrev:item_pipe_mk1',
+    'indrev:fluid_pipe_mk1',
     'kibe:big_torch',
     'dwarfcoal:dwarf_charcoal',
     'mtmechs:iron_gear_item',
-    //  'indrev:hammer',
+    'indrev:hammer',
     'techreborn:iron_alloy_furnace',
     'additionaladditions:gilded_netherite_helmet',
     'additionaladditions:gilded_netherite_chestplate',
     'additionaladditions:gilded_netherite_leggings',
     'additionaladditions:gilded_netherite_boots',
+    'campanion:mre',
     'additionaladditions:fried_egg',
-    // 'twilightforest:uncrafting_table',
+    'twilightforest:uncrafting_table',
+    'kibe:slime_sling',
+    'kibe:slime_boots'
     ];
 
     id.forEach((id) => {
@@ -76,7 +93,6 @@ onEvent('recipes', (event) => {
         event.remove({ output: output });
     });
 
-   /*
     const plates = [
         'tin',
         'gold',
@@ -88,5 +104,20 @@ onEvent('recipes', (event) => {
           plates.forEach((plates) => {
               event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
           });
-          */
+});
+
+BlockEvents.placed( event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+BlockEvents.rightClicked( event => {
+  if (event.block.id == "twilightforest:uncrafting_table") {
+    event.cancel()
+  }
+});
+
+ServerEvents.recipes( event => {
+  event.remove({input:"twilightforest:uncrafting_table"})
 });

@@ -1,0 +1,36 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 23, 2022, 5:10:56 PM
+
+#c:weapon_damage_enhancement
+- minecraft:bane_of_arthropods (from Fabric Convention Tags)
+- minecraft:impaling (from Fabric Convention Tags)
+- minecraft:smite (from Fabric Convention Tags)
+- minecraft:power (from Fabric Convention Tags)
+- minecraft:sharpness (from Fabric Convention Tags)
+- spectrum:improved_critical? (from Spectrum)
+- spectrum:first_strike? (from Spectrum)
+- spectrum:sniper? (from Spectrum)
+
+#twilightforest:phantom_armor_banned_enchants
+- minecraft:vanishing_curse (from The Twilight Forest)
+- minecraft:binding_curse (from The Twilight Forest)
+
+#c:entity_movement_enhancement
+- minecraft:swift_sneak (from Fabric Convention Tags)
+- minecraft:depth_strider (from Fabric Convention Tags)
+- minecraft:soul_speed (from Fabric Convention Tags)
+
+#c:looting
+- minecraft:looting (from Fabric Convention Tags)
+- spectrum:clovers_favor? (from Spectrum)
+- spectrum:treasure_hunter? (from Spectrum)
+
+#c:entity_defense_enhancement
+- minecraft:feather_falling (from Fabric Convention Tags)
+- minecraft:protection (from Fabric Convention Tags)
+- minecraft:blast_protection (from Fabric Convention Tags)
+- minecraft:projectile_protection (from Fabric Convention Tags)
+- minecraft:fire_protection (from Fabric Convention Tags)
+- minecraft:respiration (from Fabric Convention Tags)
+
+#c:fortune
+- minecraft:fortune (from Fabric Convention Tags)

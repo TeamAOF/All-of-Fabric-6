@@ -13,7 +13,7 @@ $CURSEFORGE_USER = "HeyAmAK9"
 # $CURSEFORGE_TOKEN = 
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 635048
+$CURSEFORGE_PROJECT_ID = 548076
 
 # =====================================================================//
 #  MAIN MODPACK SETTINGS
@@ -58,7 +58,7 @@ $CLIENT_CHANGELOG = "[![](https://i.imgur.com/o5aNlUD.jpg)](https://github.com/T
 # @(7722) - is Minecraft 1.15.2
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(9186)
+$GAME_VERSIONS = @(9366)
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "release"
@@ -67,11 +67,11 @@ $CLIENT_RELEASE_TYPE = "release"
 #  DEPENDENCIES
 #=====================================================================//
 
-# File name of the latest https://github.com/TheRandomLabs/ChangelogGenerator/releases
-$CHANGELOG_GENERATOR_JAR = "ChangelogGenerator-2.0.0-pre10.jar"
+# File name of the latest https://github.com/ModdingX/ModListCreator/releases
+$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
 
-# File name of the latest https://github.com/MelanX/ModListCreator/releases
-$MODLIST_CREATOR_JAR = "ModListCreator-2.0.1.jar"
+# File name of the latest https://github.com/ModdingX/ModListCreator/releases
+$MODLIST_CREATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
@@ -130,7 +130,7 @@ $ENABLE_SERVERSTARTER_MODULE = $true
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
 # Default: $false
-$ENABLE_CHANGELOG_GENERATOR_MODULE = $false
+$ENABLE_CHANGELOG_GENERATOR_MODULE = $true
 # Path to the ChangelogGenerator's output file
 $CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 

@@ -1,0 +1,172 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 23, 2022, 5:10:56 PM
+
+#c:fuel
+- ad_astra:fuel (from Ad Astra!)
+- ad_astra:flowing_fuel (from Ad Astra!)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- ad_astra:fuel (from Ad Astra!)
+- ad_astra:flowing_fuel (from Ad Astra!)
+- ad_astra:oil (from Ad Astra!)
+- ad_astra:flowing_oil (from Ad Astra!)
+- ad_astra:cryo_fuel (from Ad Astra!)
+- ad_astra:flowing_cryo_fuel (from Ad Astra!)
+- chemlib:hydrogen_source (from ChemLib)
+- chemlib:hydrogen_flowing (from ChemLib)
+- chemlib:helium_source (from ChemLib)
+- chemlib:helium_flowing (from ChemLib)
+- chemlib:nitrogen_source (from ChemLib)
+- chemlib:nitrogen_flowing (from ChemLib)
+- chemlib:oxygen_source (from ChemLib)
+- chemlib:oxygen_flowing (from ChemLib)
+- chemlib:fluorine_source (from ChemLib)
+- chemlib:fluorine_flowing (from ChemLib)
+- chemlib:neon_source (from ChemLib)
+- chemlib:neon_flowing (from ChemLib)
+- chemlib:chlorine_source (from ChemLib)
+- chemlib:chlorine_flowing (from ChemLib)
+- chemlib:argon_source (from ChemLib)
+- chemlib:argon_flowing (from ChemLib)
+- chemlib:bromine_source (from ChemLib)
+- chemlib:bromine_flowing (from ChemLib)
+- chemlib:krypton_source (from ChemLib)
+- chemlib:krypton_flowing (from ChemLib)
+- chemlib:xenon_source (from ChemLib)
+- chemlib:xenon_flowing (from ChemLib)
+- chemlib:mercury_source (from ChemLib)
+- chemlib:mercury_flowing (from ChemLib)
+- chemlib:radon_source (from ChemLib)
+- chemlib:radon_flowing (from ChemLib)
+- chemlib:carbon_dioxide_source (from ChemLib)
+- chemlib:carbon_dioxide_flowing (from ChemLib)
+- chemlib:ethylene_source (from ChemLib)
+- chemlib:ethylene_flowing (from ChemLib)
+- chemlib:ethanol_source (from ChemLib)
+- chemlib:ethanol_flowing (from ChemLib)
+- chemlib:ammonium_source (from ChemLib)
+- chemlib:ammonium_flowing (from ChemLib)
+- chemlib:methane_source (from ChemLib)
+- chemlib:methane_flowing (from ChemLib)
+- chemlib:ethane_source (from ChemLib)
+- chemlib:ethane_flowing (from ChemLib)
+- chemlib:propane_source (from ChemLib)
+- chemlib:propane_flowing (from ChemLib)
+- chemlib:butane_source (from ChemLib)
+- chemlib:butane_flowing (from ChemLib)
+- chemlib:pentane_source (from ChemLib)
+- chemlib:pentane_flowing (from ChemLib)
+- chemlib:hexane_source (from ChemLib)
+- chemlib:hexane_flowing (from ChemLib)
+- chemlib:epinephrine_source (from ChemLib)
+- chemlib:epinephrine_flowing (from ChemLib)
+- chemlib:hydrochloric_acid_source (from ChemLib)
+- chemlib:hydrochloric_acid_flowing (from ChemLib)
+- chemlib:sulfur_dioxide_source (from ChemLib)
+- chemlib:sulfur_dioxide_flowing (from ChemLib)
+- chemlib:sulfuric_acid_source (from ChemLib)
+- chemlib:sulfuric_acid_flowing (from ChemLib)
+- chemlib:nitric_acid_source (from ChemLib)
+- chemlib:nitric_acid_flowing (from ChemLib)
+- chemlib:nitrogen_dioxide_source (from ChemLib)
+- chemlib:nitrogen_dioxide_flowing (from ChemLib)
+- chemlib:ammonia_source (from ChemLib)
+- chemlib:ammonia_flowing (from ChemLib)
+- chemlib:hydrogen_sulfide_source (from ChemLib)
+- chemlib:hydrogen_sulfide_flowing (from ChemLib)
+- chemlib:acetylene_source (from ChemLib)
+- chemlib:acetylene_flowing (from ChemLib)
+- chemlib:acetic_acid_source (from ChemLib)
+- chemlib:acetic_acid_flowing (from ChemLib)
+- chemlib:carbon_monoxide_source (from ChemLib)
+- chemlib:carbon_monoxide_flowing (from ChemLib)
+- chemlib:nitric_oxide_source (from ChemLib)
+- chemlib:nitric_oxide_flowing (from ChemLib)
+- chemlib:carbon_disulfide_source (from ChemLib)
+- chemlib:carbon_disulfide_flowing (from ChemLib)
+- chemlib:sulfur_trioxide_source (from ChemLib)
+- chemlib:sulfur_trioxide_flowing (from ChemLib)
+- indrev:coolant_still (from Industrial Revolution)
+- indrev:coolant_flowing (from Industrial Revolution)
+- indrev:sulfuric_acid_still (from Industrial Revolution)
+- indrev:sulfuric_acid_flowing (from Industrial Revolution)
+- indrev:toxic_mud_still (from Industrial Revolution)
+- indrev:toxic_mud_flowing (from Industrial Revolution)
+- minecells:sewage (from Mine Cells)
+- minecells:flowing_sewage (from Mine Cells)
+- minecells:ancient_sewage (from Mine Cells)
+- minecells:flowing_ancient_sewage (from Mine Cells)
+- xps:xp_fluid (from Xp Obelisk)
+- xps:flowing_xp (from Xp Obelisk)
+
+#spectrum:swimmable_fluid
+- #spectrum:liquid_crystal (from Spectrum)
+- #spectrum:mud (from Spectrum)
+- #spectrum:midnight_solution (from Spectrum)
+
+#ae2:blacklisted/annihilation_plane
+
+#spectrum:mud
+- spectrum:mud (from Spectrum)
+- spectrum:flowing_mud (from Spectrum)
+
+#c:water
+- #minecraft:water? (from Fabric Convention Tags)
+
+#c:oil
+- ad_astra:oil (from Ad Astra!)
+- ad_astra:flowing_oil (from Ad Astra!)
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from The Twilight Forest)
+
+#c:lava
+- #minecraft:lava? (from Fabric Convention Tags)
+
+#spectrum:midnight_solution_converted
+- #spectrum:liquid_crystal (from Spectrum)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- indrev:molten_netherite_still (from Industrial Revolution)
+- indrev:molten_netherite_flowing (from Industrial Revolution)
+- indrev:molten_iron_still (from Industrial Revolution)
+- indrev:molten_iron_flowing (from Industrial Revolution)
+- indrev:molten_copper_still (from Industrial Revolution)
+- indrev:molten_copper_flowing (from Industrial Revolution)
+- indrev:molten_gold_still (from Industrial Revolution)
+- indrev:molten_gold_flowing (from Industrial Revolution)
+- indrev:molten_tin_still (from Industrial Revolution)
+- indrev:molten_tin_flowing (from Industrial Revolution)
+- indrev:molten_lead_still (from Industrial Revolution)
+- indrev:molten_lead_flowing (from Industrial Revolution)
+- indrev:molten_silver_still (from Industrial Revolution)
+- indrev:molten_silver_flowing (from Industrial Revolution)
+
+#ad_astra:fuels
+- ad_astra:fuel (from Ad Astra!)
+- ad_astra:flowing_fuel (from Ad Astra!)
+- ad_astra:cryo_fuel (from Ad Astra!)
+- ad_astra:flowing_cryo_fuel (from Ad Astra!)
+
+#ad_astra:efficient_fuels
+- ad_astra:cryo_fuel (from Ad Astra!)
+- ad_astra:flowing_cryo_fuel (from Ad Astra!)
+
+#spectrum:midnight_solution
+- spectrum:midnight_solution (from Spectrum)
+- spectrum:flowing_midnight_solution (from Spectrum)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks)
+- decorative_blocks:flowing_thatch (from Decorative Blocks)
+
+#spectrum:liquid_crystal
+- spectrum:liquid_crystal (from Spectrum)
+- spectrum:flowing_liquid_crystal (from Spectrum)
+
+#ad_astra:oil
+- ad_astra:oil (from Ad Astra!)
+- ad_astra:flowing_oil (from Ad Astra!)

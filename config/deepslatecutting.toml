@@ -1,4 +1,0 @@
-# This is the config file for DeepslateCutting
-# By default Deepslate Extras (smoothStuff) are turned off. There is ModMenu Configuration available
-
-smoothStuff = false

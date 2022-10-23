@@ -1,6 +1,9 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
+			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}"
+		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
@@ -50,7 +53,7 @@
 		},
 		// Declares whether REI is visible.
 		"overlayVisible": true,
-		"cheatingStyle": "GRAB",
+		"cheatingStyle": "GIVE",
 		"motion": {
 			"favoritesAnimation": true
 		}
@@ -93,7 +96,7 @@
 			// Declares whether REI should use compact tabs for categories.
 			"useCompactTabs": true,
 			// Declares whether REI should use compact tab buttons for categories.
-			"useCompactTabButtons": true
+			"useCompactTabButtons": false
 		},
 		"search": {
 			// Declares whether search time should be debugged.
@@ -102,6 +105,7 @@
 			"asyncSearch": true,
 			// Declares how many entries should be grouped one async search.
 			"asyncSearchPartitionSize": 100,
+			"patchAsyncThreadCrash": true,
 			"tooltipSearch": "ALWAYS",
 			"tagSearch": "PREFIX",
 			"identifierSearch": "ALWAYS",
@@ -151,6 +155,7 @@
 		"isFocusModeZoomed": false
 	},
 	"functionality": {
+		"inputMethod": null,
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": false,
 		// Declares whether mob effects should be on the left side instead of the right side.

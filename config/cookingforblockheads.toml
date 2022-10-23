@@ -8,3 +8,4 @@ ovenFuelTimeMultiplier = 0.33000001311302185
 ovenCookTimeMultiplier = 1.0
 ovenRequiresCookingOil = false
 showIngredientIcon = true
+allowVeryToastedBread = true

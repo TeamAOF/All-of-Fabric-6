@@ -1,0 +1,10 @@
+addDropsDirectlyToInventory = false
+addDropsDirectlyToInventoryForFakePlayers = true
+allowBoneMealOnSaplings = true
+allowBoneMealOnVines = true
+allowBoneMealOnSugarCanes = true
+compressedBoneMealPower = 4
+extremelyCompressedBoneMealPower = 36
+floristsBoneMealMaxFlowers = 5
+floristsBoneMealMaxRange = 3
+flowerBlocks = ["minecraft:poppy", "minecraft:dandelion", "minecraft:blue_orchid", "minecraft:allium", "minecraft:azure_bluet", "minecraft:red_tulip", "minecraft:orange_tulip", "minecraft:white_tulip", "minecraft:pink_tulip", "minecraft:oxeye_daisy", "minecraft:rose_bush", "minecraft:peony", "minecraft:lilac", "minecraft:sunflower", "minecraft:cornflower", "minecraft:lily_of_the_valley"]

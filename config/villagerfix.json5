@@ -1,0 +1,6 @@
+{
+	// Hero Of The Villager Discount 0.2 = 20%
+	"baseVillagerOfTheHeroDiscount": 0.2,
+	"extraVillagerOfTheHeroDiscount": 0.05,
+	"maxReputationDiscount": 0.2
+}

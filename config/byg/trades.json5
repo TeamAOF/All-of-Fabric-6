@@ -10,6 +10,13 @@ to make editing this file much easier.
 {
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
+		"ae2:fluix_researcher": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"byg:forager": {
 			"1": [
 				{
@@ -187,20 +194,6 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:cartographer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:charm_beekeeper": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:charm_lumberjack": {
 			"1": [],
 			"2": [],
 			"3": [],

@@ -5,7 +5,7 @@
 
 onEvent('recipes', (event) => {
 
-  /*
+  
     event.custom({    
         "type": "modern_industrialization:assembler",
         "id": "aof:replicator",
@@ -42,5 +42,4 @@ onEvent('recipes', (event) => {
             }
         ]
 })
-*/
     })

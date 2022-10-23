@@ -77,6 +77,11 @@
       "item": "indrev:nikolite_ore",
       "amount": 4,
       "probability": 0.03
+    },
+    {
+      "item": "powah:uraninite_ore",
+      "amount": 2,
+      "probability": 0.02
     }
   ]
 }

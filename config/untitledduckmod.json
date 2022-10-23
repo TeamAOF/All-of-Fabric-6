@@ -1,0 +1,6 @@
+{
+  "duck_spawn_weight": 6,
+  "duck_group_size": 4,
+  "goose_spawn_weight": 4,
+  "goose_group_size": 4
+}

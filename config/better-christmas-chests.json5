@@ -1,0 +1,12 @@
+{
+	"christmasModeEnabled": "AT_CHRISTMAS",
+	"charmPresentsEnabled": true,
+	"christmasHorseEnabled": true,
+	"christmasZombieHorseEnabled": true,
+	"christmasDonkeyEnabled": true,
+	"christmasChestEnabled": true,
+	"christmasTrappedChestEnabled": true,
+	"christmasEnderChestEnabled": true,
+	"christmasMinecartWithChestEnabled": true,
+	"christmasChestBoatEnabled": true
+}

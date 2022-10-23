@@ -2,7 +2,7 @@
 /// Made by Team AOF ///
 ////////////////////////
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
   // Gunpowder Block
   event.shaped("blast:gunpowder_block", [

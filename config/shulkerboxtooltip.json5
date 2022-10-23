@@ -4,11 +4,6 @@
 		   (default value: true)
 		*/
 		"enable": true,
-		/* Locks the preview window above the tooltip.
-		   When locked, the window will not adapt when out of screen.
-		   (default value: false)
-		*/
-		"lock": false,
 		/* Swaps the preview modes.
 		   If true, pressing the preview key will show the full preview instead.
 		   (default value: false)
@@ -25,10 +20,6 @@
 		   (default value: SEPARATE)
 		*/
 		"compactPreviewNbtBehavior": "SEPARATE",
-		/* Controls whether the preview window should be colored.
-		   (default value: true)
-		*/
-		"coloredPreview": true,
 		/* The max number of items in a row.
 		   May not affect modded containers.
 		   (default value: 9)
@@ -39,16 +30,15 @@
 		*/
 		"serverIntegration": true,
 		/* The theme to use for preview windows.
-		   MOD_AUTO: ShulkerBoxTooltip's style using the dark mode setting from LibGui, defaults to light theme if not present.
 		   MOD_LIGHT: ShulkerBoxTooltip's style with vanilla colors.
-		   MOD_DARK: ShulkeBoxTooltip's style with gray preview windows instead of white.
+		   MOD_DARK: ShulkerBoxTooltip's style with gray preview windows instead of white.
 		   VANILLA: Mimics the style of vanilla bundle previews.
-		   (default value: MOD_AUTO)
+		   (default value: MOD_LIGHT)
 		*/
-		"theme": "MOD_AUTO",
+		"theme": "MOD_LIGHT",
 		/* The position of the preview window.
 		   INSIDE: Inside the item's tooltip.
-		   OUTSIDE: Outside the item's tooltip, moves dependening on the screen borders.
+		   OUTSIDE: Outside the item's tooltip, moves depending on the screen borders.
 		   OUTSIDE_TOP: Always at the top of the item's tooltip.
 		   OUTSIDE_BOTTOM: Always at the bottom of the item's tooltip.
 		   (default value: INSIDE)
@@ -80,10 +70,60 @@
 		*/
 		"lootTableInfoType": "HIDE",
 		/* If on, the mod hides the custom text on shulker box tooltips.
-		   Use this option when a server-side preview datapack clashes with the mod.
+		   Use this option when a server-side preview data pack clashes with the mod.
 		   (default value: false)
 		*/
 		"hideShulkerBoxLore": false
+	},
+	"colors": {
+		/* Controls whether the preview window should be colored.
+		   (default value: true)
+		*/
+		"coloredPreview": true,
+		"colors": {
+			"shulkerboxtooltip:shulker_boxes": {
+				// (default value: 0x976797)
+				"shulker_box": 0x976797,
+				// (default value: 0xf9fffe)
+				"white_shulker_box": 0xf9fffe,
+				// (default value: 0xf98026)
+				"orange_shulker_box": 0xf98026,
+				// (default value: 0xc74ebd)
+				"magenta_shulker_box": 0xc74ebd,
+				// (default value: 0x3ab3da)
+				"light_blue_shulker_box": 0x3ab3da,
+				// (default value: 0xfed83d)
+				"yellow_shulker_box": 0xfed83d,
+				// (default value: 0x80c726)
+				"lime_shulker_box": 0x80c726,
+				// (default value: 0xf38baa)
+				"pink_shulker_box": 0xf38baa,
+				// (default value: 0x474f52)
+				"gray_shulker_box": 0x474f52,
+				// (default value: 0x9d9d97)
+				"light_gray_shulker_box": 0x9d9d97,
+				// (default value: 0x269c9c)
+				"cyan_shulker_box": 0x269c9c,
+				// (default value: 0x8932b8)
+				"purple_shulker_box": 0x8932b8,
+				// (default value: 0x3c44aa)
+				"blue_shulker_box": 0x3c44aa,
+				// (default value: 0x835432)
+				"brown_shulker_box": 0x835432,
+				// (default value: 0x5e7c26)
+				"green_shulker_box": 0x5e7c26,
+				// (default value: 0xb02e26)
+				"red_shulker_box": 0xb02e26,
+				// (default value: 0x262626)
+				"black_shulker_box": 0x262626
+			},
+			"shulkerboxtooltip:default": {
+				// (default value: 0xffffff)
+				"default": 0xffffff,
+				// (default value: 0xb4b41)
+				"ender_chest": 0xb4b41
+			}
+		}
 	},
 	"controls": {
 		/* Press this key when hovering a container stack to open the preview window.
@@ -108,7 +148,7 @@
 		/* Changes the way the ender chest content preview is synchronized.
 		   NONE: No synchronization, prevents clients from seeing a preview of their ender chest.
 		   ACTIVE: Ender chest contents are synchronized when changed.
-		   PASSIVE: Ender chest contents are synchonized when the client opens a preview.
+		   PASSIVE: Ender chest contents are synchronized when the client opens a preview.
 		   (default value: ACTIVE)
 		*/
 		"enderChestSyncType": "ACTIVE"

@@ -1,0 +1,20 @@
+{
+  "rendering": {
+    // default: false
+    "opaqueParticles": false,
+    // default: true
+    "shockerGlow": true,
+    // default: true
+    "grenadierGlow": true,
+    // default: true
+    "leapingZombieGlow": true,
+    // default: true
+    "disgustingWormGlow": true,
+    // default: true
+    "protectorGlow": true,
+    // default: true
+    "rancidRatGlow": true,
+    // default: true
+    "scorpionGlow": true
+  }
+}

@@ -1,3 +1,4 @@
 {
-  "screenshotsEnabled": false
+  "screenshotsEnabled": false,
+  "useLegacyDeathDetection": false
 }

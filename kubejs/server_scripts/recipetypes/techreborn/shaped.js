@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
       pattern: ['BBB', 'ADA', 'ACA'],
       key: {
         A: 'minecraft:stone',
-        B: '#c:iron_plates',
+        B: 'modern_industrialization:iron_plate',
         C: 'techreborn:basic_machine_frame',
         D: 'techreborn:electronic_circuit'
       },
@@ -28,7 +28,6 @@ onEvent('recipes', (event) => {
       },
       id: 'techreborn:crafting_table/machine_block/basic_machine_frame'
     },
-    /*
     {
       output: 'techreborn:grinder',
       pattern: ['DCD', 'EBE', 'EAE'],
@@ -37,11 +36,10 @@ onEvent('recipes', (event) => {
         B: 'techreborn:red_cell_battery',
         C: 'indrev:fan',
         D: 'minecraft:flint',
-        E: '#c:iron_plates'
+        E: 'modern_industrialization:iron_plate'
       },
       id: 'techreborn:crafting_table/machine/grinder'
     },
-    */
         {
       output: 'techreborn:alloy_smelter',
       pattern: ['CEC', 'DAD', 'CBC'],

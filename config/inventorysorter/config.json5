@@ -4,7 +4,7 @@
 	// Middle click slot to sort inventorys
 	"middleClick": true,
 	// Double click slot to sort inventorys
-	"doubleClickSort": false,
+	"doubleClickSort": true,
 	// Enable second 'Sort' button in player inv
 	"seperateBtn": false,
 	// Sorting inv also sorts player inv
@@ -12,7 +12,7 @@
 	// Method of sorting, NAME,CATEGORY,MOD
 	"sortType": "NAME",
 	// Display Sort Button Tooltip
-	"displayTooltip": true,
+	"displayTooltip": false,
 	// Sort Inventory key
 	"keybinding": "key.mouse.middle",
 	// Should sort half of open inv highlighted by mouse

@@ -1,0 +1,14 @@
+{
+  "elevator": {
+    // default: 256, min: 64, max: 320
+    "maxAssemblyHeight": 256,
+    // default: 1, min: 1, max: 10
+    "minAssemblyHeight": 1,
+    // default: 1.0, min: 0.1, max: 2.5
+    "speed": 1.0,
+    // default: 0.01, min: 0.001, max: 0.1
+    "acceleration": 0.01,
+    // default: 10.0, min: 0.0, max: 20.0
+    "damage": 10.0
+  }
+}

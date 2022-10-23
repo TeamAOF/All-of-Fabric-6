@@ -1,3 +1,4 @@
+logs/
 
 mods/
 
@@ -73,14 +74,40 @@ imgui.ini
 
 not-enough-crashes/
 
+
 logs/
+
+
 
 journeymap/
 
+
+
 client_data/
+
+
 
 server_files/
 
-profilekeys/
 
-generated/
+
+rhino.local.properties
+
+
+
+backups/
+
+
+
+irisUpdateInfo.json
+
+
+shaderpacks/
+
+chiselsandbits/
+
+defaultconfigs/
+
+ModListCreator-4.0.1-fatjar.jar
+
+data/

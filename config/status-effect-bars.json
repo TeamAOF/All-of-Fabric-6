@@ -1,0 +1,27 @@
+{
+  "colorMode": "EFFECT_COLOR",
+  "backgroundColor": -2147483648,
+  "beneficialForegroundColor": -2130706433,
+  "harmfulForegroundColor": -2130706433,
+  "neutralForegroundColor": -2130706433,
+  "maxRemainingDuration": 2147483647,
+  "minAmbientAge": 90,
+  "hudLayout": {
+    "enabled": true,
+    "direction": "LEFT_TO_RIGHT",
+    "relativeToEnd": true,
+    "thickness": 1,
+    "collinearPadding": 3,
+    "collinearOffset": 0,
+    "orthogonalOffset": 2
+  },
+  "inventoryLayout": {
+    "enabled": true,
+    "direction": "LEFT_TO_RIGHT",
+    "relativeToEnd": true,
+    "thickness": 1,
+    "collinearPadding": 4,
+    "collinearOffset": 0,
+    "orthogonalOffset": 3
+  }
+}

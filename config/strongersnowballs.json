@@ -1,0 +1,9 @@
+{
+  "snowballDamage": 3.0,
+  "slownessEffect": {
+    "enabled": true,
+    "durationTicks": 35,
+    "amplifier": 10,
+    "chance": 1.0
+  }
+}

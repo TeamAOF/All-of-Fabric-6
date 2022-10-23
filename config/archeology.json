@@ -1,0 +1,9 @@
+{
+  "releaseUseKeyAfterBrushing": false,
+  "brushingLayerChance": 0.35,
+  "brushingLowerThreshold": 0.02,
+  "brushingBreakingSpeed": 3.0,
+  "brushingRepairSpeed": 1.0,
+  "disableBrushingAnimation": false,
+  "removeShardsItemGroup": false
+}

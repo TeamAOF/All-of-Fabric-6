@@ -1,5 +1,5 @@
 [tweaks]
-autoClimbLadder = false
+autoClimbLadder = true
 doNotUseLastTorch = false
 hideOffhandItem = false
 hideOwnParticleEffects = false
@@ -9,7 +9,7 @@ noOffhandTorchWithBlock = true
 noOffhandTorchWithFood = true
 noOffhandTorchWithEmptyHand = false
 offhandTorchWithToolOnly = false
-disableStepAssist = false
+disableStepAssist = true
 disableLogStripping = false
 masterVolumeSlider = true
 musicVolumeSlider = true

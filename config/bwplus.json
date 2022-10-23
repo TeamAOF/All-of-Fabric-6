@@ -1,0 +1,21 @@
+{
+  "blackDogBiomeCategories": [
+    "TagKey[minecraft:worldgen/biome / c:plains]"
+  ],
+  "blackDogWeight": 8,
+  "blackDogMinGroupCount": 0,
+  "blackDogMaxGroupCount": 2,
+  "cambionBiomeCategories": [
+    "TagKey[minecraft:worldgen/biome / c:in_nether]",
+    "TagKey[minecraft:worldgen/biome / c:desert]"
+  ],
+  "cambionWeight": 12,
+  "cambionMinGroupCount": 0,
+  "cambionMaxGroupCount": 2,
+  "blackDogStructureSpawn": true,
+  "cambionVillageStructureSpawn": true,
+  "yewTreeWeight": 10,
+  "lotusTreeWeight": 50.0,
+  "allowGetVampBloodFromGobletAndAthame": false,
+  "allowSummoningPlayersWithDeathGearInsteadOfDeath": false
+}

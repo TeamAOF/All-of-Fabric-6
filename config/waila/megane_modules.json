@@ -1,71 +1,33 @@
 {
   "modules": {
     "megane-kibe": {
-      "badasintended.megane.impl.Kibe": true,
       "lol.bai.megane.module.kibe.MeganeKibe": true
     },
+    "megane-reborn-core": {
+      "lol.bai.megane.module.reborncore.MeganeRebornCore": true
+    },
     "megane-industrial-revolution": {
-      "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true,
-      "badasintended.megane.impl.IndustrialRevolution": true
+      "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true
     },
-    "fabricaeexnihilo": {
-      "wraith.fabricaeexnihilo.compatibility.megane.FENMeganeModule": true
+    "megane-fabric-transfer": {
+      "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true
     },
-    "megane-modern-industrialization": {
-      "badasintended.megane.impl.ModernIndustrialization": true
+    "megane-tech-reborn": {
+      "lol.bai.megane.module.techreborn.MeganeTechReborn": true
     },
     "modern_industrialization": {
       "aztech.modern_industrialization.compat.megane.MIMeganeModule": true
     },
-    "megane-fast-transfer-lib": {
-      "badasintended.megane.impl.FastTransferLib": true
-    },
-    "megane-deep-mob-learning-simulacrum": {
-      "lol.bai.megane.module.dmlsimulacrum.MeganeDmlSimulacrum": true
-    },
-    "megane-team-reborn-energy": {
-      "badasintended.megane.impl.TeamRebornEnergy": true,
-      "badasintended.megane.impl.LegacyTeamRebornEnergy": true
-    },
-    "megane-create": {
-      "lol.bai.megane.module.create.MeganeCreate": true
-    },
-    "megane-reborn-core": {
-      "lol.bai.megane.module.reborncore.MeganeRebornCore": true,
-      "badasintended.megane.impl.RebornCore": true
-    },
-    "megane-fabric-transfer": {
-      "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true,
-      "badasintended.megane.impl.FabricTransfer": true
-    },
-    "megane-tech-reborn": {
-      "lol.bai.megane.module.techreborn.MeganeTechReborn": true,
-      "badasintended.megane.impl.TechReborn": true
-    },
-    "megane-extra-generators": {
-      "lol.bai.megane.module.extragenerators.MeganeExtraGenerators": true,
-      "badasintended.megane.impl.ExtraGenerators": true
-    },
-    "megane-lib-block-attributes": {
-      "lol.bai.megane.module.lba.MeganeLibBlockAttributes": true,
-      "badasintended.megane.impl.LibBlockAttributesFluids": true
+    "megane-luggage": {
+      "lol.bai.megane.module.luggage.MeganeLuggage": true
     },
     "megane-applied-energistics-2": {
-      "lol.bai.megane.module.ae2.MeganeAppliedEnergistics2": true,
-      "badasintended.megane.impl.AppliedEnergistics2": true
-    },
-    "megane-dml-simulacrum": {
-      "badasintended.megane.impl.DmlSimulacrum": true
+      "lol.bai.megane.module.ae2.MeganeAppliedEnergistics2": true
     },
     "megane-reborn-energy": {
       "lol.bai.megane.module.rebornenergy.MeganeRebornEnergy": true
     },
-    "megane-wireless-networks": {
-      "badasintended.megane.impl.WirelessNetworks": true,
-      "lol.bai.megane.module.wirelessnetworks.MeganeWirelessNetworks": true
-    },
     "megane-vanilla": {
-      "badasintended.megane.impl.Minecraft": true,
       "lol.bai.megane.module.vanilla.MeganeVanilla": true
     }
   }

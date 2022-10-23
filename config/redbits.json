@@ -1,0 +1,6 @@
+{
+  "disable_burnout": true,
+  "jukebox_integration": true,
+  "campfire_integration": true,
+  "add_guide_to_loot_tables": true
+}

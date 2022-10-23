@@ -2,13 +2,12 @@
   "general": {
     "displayTooltip": true,
     "shiftForDetails": false,
+    "hideShiftText": false,
     "displayMode": "TOGGLE",
     "hideFromPlayerList": true,
     "hideFromDebug": true,
     "enableTextToSpeech": false,
-    "rateLimit": 250,
-    "maxHealthForRender": 40,
-    "maxHeartsPerLine": 10
+    "rateLimit": 250
   },
   "overlay": {
     "position": {
@@ -21,7 +20,7 @@
         "y": "TOP"
       },
       "x": 0,
-      "y": 2,
+      "y": 0,
       "bossBarsOverlap": false
     },
     "color": {
@@ -42,11 +41,11 @@
           "fontColor": 10526880
         }
       ],
-      "activeTheme": "waila:dark"
+      "activeTheme": "waila:vanilla"
     },
     "scale": 1.0
   },
-  "formatting": {
+  "formatter": {
     "modName": "§9§o%s",
     "blockName": "§f%s",
     "fluidName": "§f%s",

@@ -1,0 +1,31 @@
+{
+  "snowy_season": {
+    "snow_season_start": {
+      "month": 12,
+      "day": 20
+    },
+    "snow_season_end": {
+      "month": 1,
+      "day": 30
+    },
+    "season_mod_compat": {
+      "enabled": false
+    }
+  },
+  "misc": {
+    "pack_dependant_assets": true,
+    "debug_save_dynamic_pack": false,
+    "custom_configured_screen": true,
+    "mod_creative_tab": false
+  },
+  "blocks_and_items": {
+    "sleds": true,
+    "gumdrops": true,
+    "glow_lights": true,
+    "candy_cane": true,
+    "ginger": true,
+    "eggnog": true,
+    "wreath": true,
+    "snow_globe": true
+  }
+}

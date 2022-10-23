@@ -12,7 +12,9 @@
     "convert_mineshafts": true
   },
   "breaking": {
-    "disable_break": false
+    "disable_break": false,
+    "power_comparators": true,
+    "blast_resistant": false
   },
   "lists": {
     "dimension_whitelist": [],

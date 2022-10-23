@@ -10,5 +10,7 @@
 	// Set this to true to use Shift instead of Ctrl for the inventory quick lookup feature.
 	"useShiftForQuickLookup": false,
 	// Set how to handle text overflow: OVERFLOW the text off the page, TRUNCATE overflowed text, or RESIZE everything to fit. Relogin after changing.
-	"textOverflowMode": "RESIZE"
+	"textOverflowMode": "RESIZE",
+	// How long in ticks the quick lookup key needs to be pressed before the book opens
+	"quickLookupTime": 10
 }

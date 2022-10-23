@@ -1,0 +1,10 @@
+{
+	// 20 ticks = 1 second
+	"weapon_blocking_cooldown": 60,
+	// 20 ticks = 1 second
+	"shield_blocking_cooldown": 40,
+	// Includes war axe and battle axe
+	"extra_weapon_shield_blocking_cooldown": 60,
+	"old_healing_staff_behavior": false,
+	"healing_staff_owner_healing": false
+}

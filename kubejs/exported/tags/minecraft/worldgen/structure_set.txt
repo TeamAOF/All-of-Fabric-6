@@ -1,0 +1,52 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 23, 2022, 5:10:55 PM
+
+#repurposed_structures:nether_shipwreck_avoid
+- repurposed_structures:temples_nether (from Repurposed Structures)
+- repurposed_structures:outposts_nether (from Repurposed Structures)
+- repurposed_structures:villages_nether (from Repurposed Structures)
+- minecraft:nether_complexes (from Repurposed Structures)
+
+#repurposed_structures:nether_city_avoid
+- repurposed_structures:shipwrecks_nether (from Repurposed Structures)
+- repurposed_structures:outposts_nether (from Repurposed Structures)
+- minecraft:nether_complexes (from Repurposed Structures)
+
+#repurposed_structures:nether_monument_avoid
+- repurposed_structures:cities_nether (from Repurposed Structures)
+- repurposed_structures:shipwrecks_nether (from Repurposed Structures)
+- repurposed_structures:outposts_nether (from Repurposed Structures)
+- minecraft:nether_complexes (from Repurposed Structures)
+
+#repurposed_structures:overworld_village_avoid
+- minecraft:villages (from Repurposed Structures)
+- minecraft:pillager_outposts (from Repurposed Structures)
+
+#repurposed_structures:nether_village_avoid
+- repurposed_structures:outposts_nether (from Repurposed Structures)
+
+#repurposed_structures:overworld_outpost_avoid
+- repurposed_structures:villages_overworld (from Repurposed Structures)
+- minecraft:villages (from Repurposed Structures)
+
+#repurposed_structures:mansion_avoid
+- minecraft:woodland_mansions (from Repurposed Structures)
+
+#repurposed_structures:underground_bastion_avoid
+- minecraft:strongholds (from Repurposed Structures)
+- minecraft:ancient_cities (from Repurposed Structures)
+
+#repurposed_structures:end_outpost_avoid
+- minecraft:end_cities (from Repurposed Structures)
+
+#repurposed_structures:overworld_city_avoid
+- repurposed_structures:mansions_overworld (from Repurposed Structures)
+- minecraft:woodland_mansions (from Repurposed Structures)
+
+#repurposed_structures:overworld_monument_avoid
+- repurposed_structures:fortresses_overworld (from Repurposed Structures)
+- repurposed_structures:mansions_overworld (from Repurposed Structures)
+- repurposed_structures:villages_overworld (from Repurposed Structures)
+- minecraft:villages (from Repurposed Structures)
+
+#repurposed_structures:end_mineshaft_avoid
+- repurposed_structures:strongholds_end (from Repurposed Structures)

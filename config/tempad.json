@@ -1,0 +1,21 @@
+{
+  "timedoorPlacementOffsetInBlocks": 3,
+  "timedoorCloseWaitingTimeInTicks": 60,
+  "onEntityThroughDoorAdditionalTimeInTicks": 40,
+  "timedoorUsageType": "TIMER",
+  "kangTimedoorUsageType": "UNLIMITED",
+  "configurationOptionsForTempad": {
+    "timedoor_cooldown_if_usage_type_is_set_to_TIMER": 180,
+    "timedoor_experience_cost_if_usage_type_is_set_to_EXP_POINTS": 100,
+    "timedoor_experience_level_cost_if_usage_type_is_set_to_EXP_LEVELS": 5,
+    "timedoor_energy_capacity_if_usage_type_is_set_to_ENERGY": 1000000,
+    "timedoor_energy_cost_if_usage_type_is_set_to_ENERGY": 100000
+  },
+  "configurationOptionsForHeWhoRemainsTempad": {
+    "timedoor_cooldown_if_usage_type_is_set_to_TIMER": 60,
+    "timedoor_experience_cost_if_usage_type_is_set_to_EXP_POINTS": 60,
+    "timedoor_experience_level_cost_if_usage_type_is_set_to_EXP_LEVELS": 3,
+    "timedoor_energy_capacity_if_usage_type_is_set_to_ENERGY": 5000000,
+    "timedoor_energy_cost_if_usage_type_is_set_to_ENERGY": 25000
+  }
+}

@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
 
     event.replaceInput({}, '#c:barrel', '#c:barrel');
 
-    event.replaceInput({}, 'mtmechs:iron_gear_item', 'modern_industrialization:iron_gear');
+    event.replaceInput({id: "staffofbuilding:wooden_builder_staff"}, 'minecraft:oak_planks', '#minecraft:planks');
 
     event.replaceInput({id: "minecraft:oak_sign"}, 'minecraft:oak_planks', '#minecraft:planks');
 
@@ -22,5 +22,9 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'techreborn:chrome_dust', 'modern_industrialization:chromium_dust');
     event.replaceInput({}, 'techreborn:chrome_plate', 'modern_industrialization:chromium_plate');
     event.replaceInput({}, 'techreborn:chrome_storage_block', 'modern_industrialization:chromium_block');
+
+    // TConstruct
+
+    event.replaceInput({}, 'tconstruct:copper_nugget', 'modern_industrialization:copper_nugget');
     
 });
