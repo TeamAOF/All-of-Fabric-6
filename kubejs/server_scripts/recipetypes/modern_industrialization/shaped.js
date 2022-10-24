@@ -5,7 +5,7 @@
 ////////////////////////
 
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
   // Iron Plate from Hammer
   event.shaped('modern_industrialization:iron_plate', [
