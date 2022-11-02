@@ -23,7 +23,6 @@ ServerEvents.recipes(event => {
     'jacaranda',
     'lament',
     'mahogany',
-    'mangrove',
     'maple',
     'nightshade',
     'palm',

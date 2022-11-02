@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
       id: 'indrev:shaped/machine_block'
     },
 
-    {
+   /* {
       output: '8x indrev:item_pipe_mk1',
       pattern: ['BAB'],
       key: {
@@ -25,6 +25,7 @@ ServerEvents.recipes(event => {
     },
       id: 'indrev:shaped/item_pipe_mk1'
     },
+    */
 
      {
       output: '8x indrev:fluid_pipe_mk1',

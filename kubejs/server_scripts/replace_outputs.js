@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
     // Chromium
     event.replaceOutput({}, 'techreborn:chrome_ingot', 'modern_industrialization:chromium_ingot');

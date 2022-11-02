@@ -8,6 +8,7 @@
 ServerEvents.recipes(event => {
 
   // Iron Plate from Hammer
+  /*
   event.shaped('modern_industrialization:iron_plate', [
     'BA ',
     'AA '
@@ -15,6 +16,7 @@ ServerEvents.recipes(event => {
     B: Item.of('ad_astra:hammer').ignoreNBT(),
     A: 'minecraft:iron_ingot'
   }).damageIngredient(0).keepIngredient('ad_astra:hammer')
+  */
     
   const recipes = [
 {

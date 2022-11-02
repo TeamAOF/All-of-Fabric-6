@@ -3,13 +3,9 @@
 ////////////////////////
 
 
-onEvent('tags.items', event => {
+ServerEvents.tags('item', event => {
 
     const replicator = [
-        'create:handheld_worldshaper',
-        'harvest_scythes:creative_machete',
-        'harvest_scythes:creative_scythe',
-        'create:creative_blaze_cake',
         'indrev:tank',
         'indrev:portable_charger',
         'indrev:modular_armor_helmet',
@@ -72,6 +68,7 @@ onEvent('tags.items', event => {
         'dankstorage:dank_5',
         'dankstorage:dank_6',
         'dankstorage:dank_7',
+        /*
         'botania:dice',
         'botania:infinite_fruit',
         'botania:king_key',
@@ -82,12 +79,11 @@ onEvent('tags.items', event => {
         'botania:mana_tablet',
         'botania:mana_ring',
         'botania:mana_ring_greater',
+        */
         'minecraft:dragon_egg',
-        'spectrum:void_bundle',
         'kibe:golden_lasso',
         'kibe:cursed_lasso',
         'kibe:diamond_lasso',
-        'conjuring:stabilized_conjuring_focus',
         'gofish:wooden_crate',
         'gofish:iron_crate',
         'gofish:golden_crate',

@@ -4,7 +4,7 @@
 ////////////////////////
 
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
   const recipes = [
     {

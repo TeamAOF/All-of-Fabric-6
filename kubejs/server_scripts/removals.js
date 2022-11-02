@@ -32,6 +32,7 @@ ServerEvents.recipes( (event) => {
     'createplus:createplus/ore_processing/nickel/modern_industrialization/smelting',
     'travelersbackpack:travelers_backpack',
     'catwalksinc:iron_rod',
+    'twilightforest:jeed/hunger',
 
     ];
 
@@ -82,7 +83,8 @@ ServerEvents.recipes( (event) => {
     'additionaladditions:fried_egg',
     'twilightforest:uncrafting_table',
     'kibe:slime_sling',
-    'kibe:slime_boots'
+    'kibe:slime_boots',
+    'twilightforest:jeed/hunger'
     ];
 
     id.forEach((id) => {
@@ -104,20 +106,4 @@ ServerEvents.recipes( (event) => {
           plates.forEach((plates) => {
               event.remove({ id: 'indrev:shapeless/' + plates + '_plate_from_hammer' });
           });
-});
-
-BlockEvents.placed( event => {
-  if (event.block.id == "twilightforest:uncrafting_table") {
-    event.cancel()
-  }
-});
-
-BlockEvents.rightClicked( event => {
-  if (event.block.id == "twilightforest:uncrafting_table") {
-    event.cancel()
-  }
-});
-
-ServerEvents.recipes( event => {
-  event.remove({input:"twilightforest:uncrafting_table"})
 });

@@ -3,7 +3,7 @@
 ////////////////////////
 
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
   
     event.custom({    

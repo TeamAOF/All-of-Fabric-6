@@ -54,6 +54,7 @@ ServerEvents.recipes(event => {
 
      });
 
+     /*
      // Zinc
      event.recipes.indrev.pulverize({
         
@@ -70,6 +71,7 @@ ServerEvents.recipes(event => {
         processTime: 300
     
          });
+         */
 
 const mi_raw = [
     "tungsten",
