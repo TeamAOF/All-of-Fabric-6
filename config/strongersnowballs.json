@@ -5,5 +5,6 @@
     "durationTicks": 35,
     "amplifier": 10,
     "chance": 1.0
-  }
+  },
+  "damageAllMobs": false
 }

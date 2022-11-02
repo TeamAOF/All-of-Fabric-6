@@ -1,0 +1,8 @@
+{
+  "canGenerateEnderOrchids": true,
+  "enderOrchidSpawnRate": 2,
+  "hasEnderOrchidStrictPlacement": true,
+  "enderOrchidRegularGrowthRate": 8,
+  "enderOrchidSpecialGrowthRate": 12,
+  "useCarrierBlacklist": true
+}

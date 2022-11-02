@@ -3,6 +3,7 @@
   "enableEncryption": false,
   "encryptPublic": true,
   "showEncryptionButton": true,
+  "showEncryptionIndicators": true,
   "encryptionKey": "blfrngArk3chG6wzncOZ5A\u003d\u003d",
   "encryptionPassphrase": "",
   "algorithmName": "AES/CFB8+Base64",

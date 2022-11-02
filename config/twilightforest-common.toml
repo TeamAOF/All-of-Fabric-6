@@ -30,24 +30,6 @@ skull_candles = false
 	#If true, players spawning for the first time will spawn in the Twilight Forest.
 	newPlayersSpawnInTF = false
 
-#Defines custom stalactites generated in hollow hills.
-#Format is "modid:block size maxLength minHeight weight", where the properties are:
-#Size - the maximum length of the stalactite relative to the space between hill floor and ceiling,
-#Max length - maximum length of a stalactite in blocks,
-#Min height - minimum space between the hill floor and the stalactite to let it generate,
-#Weight - how often it generates.
-#
-#For example: "minecraft:iron_ore 0.7 8 1 24" would add a stalactite equal to the default iron ore stalactite.
-["Custom Hollow Hill Stalactites"]
-	#Blocks generating as stalactites in all hills
-	smallHill = []
-	#Blocks generating as stalactites in medium and large hills
-	mediumHill = []
-	#Blocks generating as stalactites in large hills only
-	largeHill = []
-	#If true, default stalactites and stalactites defined by other mods will not be used.
-	useConfigOnly = false
-
 #Settings for all things related to the uncrafting table.
 ["Uncrafting Table"]
 	#Setting this to true will make it so you dont have to pay XP to repair and recraft stuff in the uncrafting table. This wont affect uncrafting cost.

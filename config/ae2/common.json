@@ -105,5 +105,16 @@
     "ItemTunnelMax": 60,
     "LightTunnelMin": 5,
     "LightTunnelMax": 60
+  },
+  "vibrationChamber": {
+    "_comment": "Settings for the Vibration Chamber",
+    "energyPerFuelTick_comment": "AE energy produced per fuel burn tick (reminder: coal \u003d 1600, block of coal \u003d 16000, lava bucket \u003d 20000 burn ticks)",
+    "energyPerFuelTick": 5.0,
+    "minEnergyPerGameTick_comment": "Minimum amount of AE/t the vibration chamber can slow down to when energy is being wasted.",
+    "minEnergyPerGameTick": 4,
+    "maxEnergyPerGameTick_comment": "Maximum amount of AE/t the vibration chamber can speed up to when generated energy is being fully consumed.",
+    "maxEnergyPerGameTick": 40,
+    "initialEnergyPerGameTick_comment": "An amount of AE/t between minEnergyPerGameTick and maxEnergyPerGameTick that the vibration chamber starts at initially.",
+    "initialEnergyPerGameTick": 20
   }
 }

@@ -11,6 +11,11 @@
                 "modmenu": ""
             }
         },
+        "wondrouswilds": {
+            "-depends": {
+                "geckolib3": ""
+            }
+        },
         "loading-timer": {
             "-depends": {
                 "minecraft": ""

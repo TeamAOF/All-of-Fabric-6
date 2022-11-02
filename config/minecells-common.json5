@@ -10,5 +10,9 @@
     "acceleration": 0.01,
     // default: 10.0, min: 0.0, max: 20.0
     "damage": 10.0
+  },
+  "entities": {
+    // default: 1.0, min: 0.0, max: 10.0
+    "cellDropChanceModifier": 0.0
   }
 }

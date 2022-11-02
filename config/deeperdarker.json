@@ -1,0 +1,14 @@
+{
+  "warden_armor_durability": 45,
+  "warden_armor_toughness": 3.0,
+  "warden_armor_knockback_resistance": 0.5,
+  "soul_elytra_armor_modifier": 4.0,
+  "warden_tools_durability": 2464,
+  "warden_tools_speed": 11.0,
+  "warden_tools_damage": 7.0,
+  "shattered_spawning": true,
+  "phantom_spawning": true,
+  "sculk_snapper_spawning": true,
+  "sculk_centipede_spawning": true,
+  "sculk_blocks_in_otherside": true
+}
