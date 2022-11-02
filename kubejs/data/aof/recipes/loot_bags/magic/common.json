@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Magic Common Lootbag",
+  "color": "#ff8afb",
+  "rarity": "COMMON",
+  "output": {
+    "table": "aof:loot_bags/magic_common"
+  }
+}

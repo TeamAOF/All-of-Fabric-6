@@ -1,0 +1,1155 @@
+{
+	id: "3F91472CA2C9CFDD"
+	group: "0815C5D80307ECDF"
+	order_index: 0
+	filename: "ad_astra"
+	title: "Ad Astra"
+	icon: {
+		id: "ad_astra:tier_1_rocket"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Ad Astra"
+			x: -5.5d
+			y: 0.0d
+			subtitle: "To the Stars!"
+			description: [
+				"The phrase \"Ad Astra\" means \"To The Stars\" in ye old Latin. And while you cannot physically land on a star in this mod, you *can* explore the planets and moons amongst the stars that revolves around Earth."
+				""
+				"The guidebook in Ad Astra has helpful information on the various mobs, resources, and structures you can find on the different planets."
+			]
+			id: "112810B97BA58A9C"
+			tasks: [{
+				id: "3897B33AFFD9F54F"
+				type: "item"
+				item: {
+					id: "ad_astra:astrodux"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "To the Moon!"
+			x: -1.5d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "You're finally ready to go to space! "
+			description: [
+				"After gathering all the requisite materials, you're finally ready to go into space!"
+				""
+				"Simply make a 3x3 square out of the launch pads and right click with your rocket to place it."
+				""
+				"Shift right click the rocket to open it's GUI. There, you can fill its internal storage with your extra buckets of rocket fuel, oxygen, and launch pads. You can also fuel your rocket itself in this menu."
+			]
+			dependencies: [
+				"39553F6B02384BFB"
+				"6E9A973B387987F7"
+				"6DABB3DDA44D6377"
+				"30F1C5601C3ECEF1"
+				"2DD1E268E40C2508"
+				"112C0C7C49867DE2"
+				"3178EF6B62E2D458"
+			]
+			size: 1.5d
+			id: "0DED6D5C8A4C96B9"
+			tasks: [{
+				id: "0F9A475DDBED7F70"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "44F35E5939C02079"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Launch Pad Setup"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Getting Ready for Launch!"
+			description: [
+				"In order to propell your rocket into the air, it needs a base to launch from. You're able to place your rocket in the center and shift right click it to fill it with fuel"
+				""
+				"Please note! Your launch pad does not come with you, so bring extra launch pads!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"112810B97BA58A9C"
+				"112C0C7C49867DE2"
+			]
+			id: "6E9A973B387987F7"
+			tasks: [{
+				id: "10456FA8FB4B2BB3"
+				type: "item"
+				item: "ad_astra:launch_pad"
+			}]
+			rewards: [{
+				id: "675B6DF562FF19C9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
+			}]
+		}
+		{
+			icon: "ad_astra:fuel_refinery"
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Don't tell California"
+			description: [
+				"Rockets can't exactly go into space without something propelling them into it. Oil naturally generated around the world allows you to refine it and turn it into suitable fuel for launching the rocket."
+				""
+				"Please note! Fuel gets depleted when launching the rocket, so bringing extra fuel with you so you can get back home when you launch is extremely important! 6 buckets should be enough to go to space and back"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"112810B97BA58A9C"
+				"112C0C7C49867DE2"
+			]
+			id: "39553F6B02384BFB"
+			tasks: [
+				{
+					id: "38A4E36F4439731A"
+					type: "item"
+					item: "ad_astra:fuel_refinery"
+				}
+				{
+					id: "5BAE522782F8831E"
+					type: "item"
+					item: "ad_astra:fuel_bucket"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "3D5D5A3845291029"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Space Suit"
+			icon: {
+				id: "ad_astra:space_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Buzz Lightyear to Star Command"
+			description: [
+				"Unlike our lovely planet Earth, the Moon (just like most of the other planets) does not have a breathable atmosphere. You'll need a space suit of some kind in order to be able to breathe."
+				""
+				"In order to add oxygen to your suit, you'll need to use an Oxygen Loader."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"112810B97BA58A9C"
+				"112C0C7C49867DE2"
+			]
+			id: "6DABB3DDA44D6377"
+			tasks: [
+				{
+					id: "4364CD32845DB97B"
+					type: "item"
+					item: {
+						id: "ad_astra:space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B2AFCC0AA031133"
+					type: "item"
+					item: {
+						id: "ad_astra:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FA15C04D7874CBC"
+					type: "item"
+					item: {
+						id: "ad_astra:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AEB0ADDB18E0C78"
+					type: "item"
+					item: {
+						id: "ad_astra:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7DD7D1CF91C45510"
+					type: "command"
+					title: "Ad Astra Common Loot Bag"
+					icon: "kubejs:loot_bag_common"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_common"
+					player_command: false
+				}
+				{
+					id: "18F8A2AC6AD01EA2"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 11763949
+							Name: "Ad Astra! Common Lootbag"
+							Loot: "aof:loot_bags/ad_astra/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Oxygen Generation"
+			icon: "ad_astra:oxygen_loader"
+			x: -0.5d
+			y: 1.0d
+			shape: "circle"
+			subtitle: "Where'd the Hydrogen go???"
+			description: [
+				"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
+				""
+				"Each bucket of water creates 50 mb of oxygen, so you'll need alot of water to make sufficient oxygen to survive on other planets"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"112810B97BA58A9C"
+				"112C0C7C49867DE2"
+			]
+			id: "30F1C5601C3ECEF1"
+			tasks: [
+				{
+					id: "6BCCBA22565698C8"
+					type: "item"
+					item: "ad_astra:oxygen_loader"
+				}
+				{
+					id: "3209CCD3E86EDD04"
+					type: "item"
+					item: "ad_astra:oxygen_bucket"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "2D327DD48A310FE7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			subtitle: "Its not hard, just rocket science!"
+			description: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
+			hide_dependency_lines: true
+			dependencies: [
+				"112810B97BA58A9C"
+				"112C0C7C49867DE2"
+			]
+			id: "2DD1E268E40C2508"
+			tasks: [{
+				id: "686AE214D9240B7A"
+				type: "item"
+				item: "ad_astra:nasa_workbench"
+			}]
+			rewards: [{
+				id: "3384F7FAFB2B78ED"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "To Mars!"
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Beat Elon to it!"
+			description: [
+				"Once you've gathered plenty of desh, you can craft a tier 2 rocket in much the same fashion that you made the tier 1 rocket."
+				""
+				"Virtually everything is the same about how to prepare for this flight to Mars vs the Moon, except the rocket uses Desh parts instead of steel."
+			]
+			dependencies: [
+				"4F0886FF37E1101A"
+				"47D456E43D42EBC9"
+				"2CDAB93BD674197F"
+				"1384C1D8BD79C6D0"
+				"6582513D8887DF04"
+				"58132755E921E778"
+				"4288B73FA65D8229"
+			]
+			size: 1.5d
+			id: "1C711856985D4A81"
+			tasks: [{
+				id: "71D614D537FADCE9"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_2_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "28EEA58283CE387C"
+					type: "command"
+					title: "Ad Astra Epic Loot Bag"
+					icon: "kubejs:loot_bag_epic"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/ad_astra_epic"
+					player_command: false
+				}
+				{
+					id: "4DBE4F2A8B29DCF5"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "EPIC"
+							Color: 11763949
+							Name: "Ad Astra! Epic Lootbag"
+							Loot: "aof:loot_bags/ad_astra/epic"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Moon Metal"
+			x: 0.7500000000000071d
+			y: 0.010204081632650741d
+			subtitle: "Dish, Desh, Ding"
+			description: [
+				"Once you're on the Moon, there's plenty to do. One of the most important resources to gather while you're here is Desh."
+				""
+				"Desh is a key resource in the next phase of technology in Ad Astra, and an aquiring a large amount of Desh will be necessary to getting to the next planet; Mars."
+				""
+				"Please note! The outer quests in this phase are not required to unlock the rocket quest, but are highly encouraged to explore all the possible uses of Desh while on the moon!"
+			]
+			dependencies: ["0DED6D5C8A4C96B9"]
+			id: "4F0886FF37E1101A"
+			tasks: [{
+				id: "5FC0EB271676835B"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+				count: 20L
+			}]
+			rewards: [{
+				id: "69C472FB62AF4303"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Seriously though, where's the Hydrogen???"
+			description: [
+				"Having to constantly replace the oxygen in your space suit can get annoying, so automating the distribution of oxygen in your living space is essential to long term living in space."
+				""
+				"When supplied with enough oxygen in a completely closed environment, you can provide oxygen to said room, making the space livable to any living being (including you!)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4F0886FF37E1101A"]
+			optional: true
+			id: "58132755E921E778"
+			tasks: [{
+				id: "44A56AA0B6264AE9"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+			rewards: [{
+				id: "1C2A03C3DD8D7EBB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mucho Queso"
+			x: 4.0d
+			y: -1.0d
+			subtitle: "¡Queso Delicioso!"
+			description: [
+				"Ahora que estás en la luna, puedes conseguir el material más importante de todo el mod; Queso."
+				""
+				"Queso es un material comestible que no tiene mucho uso dentro de \"Ad Astra\", pero es sabroso y el alimento más fácil de encontrar en la Luna."
+				""
+				"TL;DR cheese good. eat some."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4F0886FF37E1101A"]
+			optional: true
+			id: "6582513D8887DF04"
+			tasks: [{
+				id: "485EA3679EAAA035"
+				type: "item"
+				item: "ad_astra:cheese"
+				count: 16L
+			}]
+			rewards: [{
+				id: "6345CC3EB9BD98CB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Photosynthe!... wait thats not right..."
+			description: [
+				"Once you have access to Desh, you're able to auotmate a few processes that make your life easier. One of those being energy generation."
+				""
+				"The Solar Panel generates energy when in sunlight. The amount it generates varies depending on the planet/moon's distance from the sun and how much fog covers that celestial body."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4F0886FF37E1101A"]
+			optional: true
+			id: "4288B73FA65D8229"
+			tasks: [{
+				id: "278C6932C7FA6742"
+				type: "item"
+				item: "ad_astra:solar_panel"
+			}]
+			rewards: [{
+				id: "7D61139A6347647C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Desh Distribution"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Dish, Desh, Dash"
+			description: ["Desh cables are a more advanced version of the steel cables, capable of transfering 256 ⚡/t"]
+			hide_dependency_lines: true
+			dependencies: ["4F0886FF37E1101A"]
+			optional: true
+			id: "47D456E43D42EBC9"
+			tasks: [{
+				id: "76CA4925C14F42BD"
+				type: "item"
+				item: "ad_astra:desh_cable"
+				count: 12L
+			}]
+			rewards: [{
+				id: "55237609F37EBAE8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Space Rover"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Mark Rober Minecraft Mod when?"
+			description: [
+				"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
+				""
+				"It requires fuel to run, and can accept 2 passengers; a driver and a passenger."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4F0886FF37E1101A"]
+			optional: true
+			id: "2CDAB93BD674197F"
+			tasks: [{
+				id: "7B576F4EBEB08269"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rover"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3BE3FBA567414CC5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Desh Draining"
+			icon: "ad_astra:desh_fluid_pipe"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "Dish, Desh, Drip"
+			description: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
+			hide_dependency_lines: true
+			dependencies: ["4F0886FF37E1101A"]
+			optional: true
+			id: "1384C1D8BD79C6D0"
+			tasks: [
+				{
+					id: "5E255931B74E243C"
+					type: "item"
+					item: "ad_astra:desh_fluid_pipe"
+					count: 12L
+				}
+				{
+					id: "753ECC1F6ACD0414"
+					type: "item"
+					item: "ad_astra:wrench"
+				}
+			]
+			rewards: [{
+				id: "0FC1A2BA80448382"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 11763949
+						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mars Metal"
+			x: 5.282312925170075d
+			y: -0.017006802721095227d
+			subtitle: "On goes Ostrum"
+			description: ["A new material exclusive to Mars that you'll need to progress from here is Ostrum. Gather plenty of it, you'll need it for your rocket and to upgrade much of your current machinery"]
+			dependencies: ["1C711856985D4A81"]
+			id: "760572711CF727BB"
+			tasks: [{
+				id: "275AD0703F620408"
+				type: "item"
+				item: "ad_astra:ostrum_ingot"
+			}]
+			rewards: [{
+				id: "250B49FA04316495"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
+			}]
+		}
+		{
+			title: "To the Hotter Planets!"
+			x: 7.5d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Sizzling Space"
+			description: [
+				"You know the deal by now. Gather enough Ostrum to craft the Tier 3 rocket."
+				""
+				"Please note! Travel to the hotter planets requires a netherite space suit or fire resistance or you will burn up and die."
+			]
+			dependencies: [
+				"760572711CF727BB"
+				"2223D0AFDF5C10FB"
+				"7311ED0FFC4444EB"
+				"1C2AAE8F4E119084"
+				"6D01C247A8864071"
+				"5A2581CBAB21D071"
+				"6A298F887D96C0E8"
+			]
+			size: 1.5d
+			id: "6E4D99BBFFDFB961"
+			tasks: [{
+				id: "0ED147E69FC78915"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7F3BA25DD56FE746"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			subtitle: "Guess we'll never find the hydrogen"
+			description: ["A simple block that can detect whether or not the area has oxygen. Useful for making sure your air lock is working."]
+			hide_dependency_lines: true
+			dependencies: ["760572711CF727BB"]
+			optional: true
+			id: "2223D0AFDF5C10FB"
+			tasks: [{
+				id: "79C7AC3F6ABEE10E"
+				type: "item"
+				item: "ad_astra:oxygen_sensor"
+			}]
+			rewards: [{
+				id: "0C75732A3206C570"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
+			}]
+		}
+		{
+			title: "Netherite Space Suit"
+			icon: {
+				id: "ad_astra:netherite_space_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.5d
+			y: -1.5d
+			subtitle: "Come in star command"
+			description: [
+				"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
+				""
+				"The Netherite Space Suit is the best way to survive on the hotter planets, but you can also avoid heat damage by drinking a fire resistance potion."
+			]
+			hide_dependency_lines: true
+			dependencies: ["760572711CF727BB"]
+			id: "7311ED0FFC4444EB"
+			tasks: [
+				{
+					id: "37582EAB850A7B72"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03EE99C5593D694A"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09E1846F0A5D3745"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "660B1F9EED301A76"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0966F906BFBE1059"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			subtitle: "So *this* is what Walt Disney used.."
+			description: [
+				"Making more efficient fuel starts with the cryo freezer. You can use ice shards you find while mining on the Moon or Mars, or you can just use regular packed ice."
+				""
+				"This fuel is 3 times more efficient than normal rocket fuel, certainly an upgrade from having to get 6 buckets of fuel just to make sure you can make it home."
+			]
+			hide_dependency_lines: true
+			dependencies: ["760572711CF727BB"]
+			id: "1C2AAE8F4E119084"
+			tasks: [{
+				id: "39D1927E6B54D5D6"
+				type: "item"
+				item: "ad_astra:cryo_freezer"
+			}]
+			rewards: [{
+				id: "12EC47150EA32980"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			subtitle: "Overclocked Ostrum"
+			description: ["The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate."]
+			hide_dependency_lines: true
+			dependencies: ["760572711CF727BB"]
+			optional: true
+			id: "6D01C247A8864071"
+			tasks: [{
+				id: "0BB137802A1EADAE"
+				type: "item"
+				item: "ad_astra:ostrum_fluid_pipe"
+			}]
+			rewards: [{
+				id: "10794B239A676B9B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Electrifying Elements"
+			description: [
+				"This useful block can be used to store and redistrubute energy. It both accepts and automatically pushes energy to adjacent energy storages."
+				""
+				"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["760572711CF727BB"]
+			id: "5A2581CBAB21D071"
+			tasks: [{
+				id: "61DAE68312869B3F"
+				type: "item"
+				item: "ad_astra:energizer"
+			}]
+			rewards: [{
+				id: "0BF2CD27A0F486BA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
+			}]
+		}
+		{
+			title: "Cryo Fuel"
+			x: 8.5d
+			y: 1.0d
+			subtitle: "Freezing Good Fuel"
+			description: [
+				"Cryo fuel is an innovation in fuel technology, allowing you to get fuel from easier to find chilly resources, like ice."
+				""
+				"While normal rocket fuel requires 3 buckets in order to successfully make it to your destination, you only need a 1 bucket of cryo fuel to make a successful space flight. Make sure you take 2, one for the trip and one for the way back!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["760572711CF727BB"]
+			id: "6A298F887D96C0E8"
+			tasks: [{
+				id: "77961F4E08250EF7"
+				type: "item"
+				item: "ad_astra:cryo_fuel_bucket"
+				count: 2L
+			}]
+			rewards: [{
+				id: "2E70087ECC461D73"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 11763949
+						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
+					}
+				}
+			}]
+		}
+		{
+			title: "To ... Beyond?"
+			x: 12.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Beyond the Milky Way"
+			description: ["The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio"]
+			dependencies: [
+				"6114CC6BE5D2627F"
+				"40CB98FD334EB3CE"
+			]
+			size: 1.5d
+			id: "6E8BF9F8A67D1B66"
+			tasks: [{
+				id: "32A03D8D447B4DE3"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_4_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4E618268B0A93696"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mercury Metal"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Pretty red ingot go brrr"
+			description: ["Calorite is the final planetary metal you can find in Ad Astra. With it, you can upgrade your space suit one more time to add jet propulsion, and to create the fourth tier of the rocket to allow you to travel to other solar systems."]
+			dependencies: ["6E4D99BBFFDFB961"]
+			id: "6114CC6BE5D2627F"
+			tasks: [{
+				id: "2E8BDD166863C9C2"
+				type: "item"
+				item: "ad_astra:calorite_ingot"
+				count: 20L
+			}]
+			rewards: [{
+				id: "7EFC219087F08ABE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Earth Metal"
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Yes, more steel"
+			description: ["Steel is the basis of your pre intragalactic technology. With it, you can make all of the equipment and rockets required to go to space."]
+			dependencies: ["112810B97BA58A9C"]
+			id: "112C0C7C49867DE2"
+			tasks: [{
+				id: "2CF8CFD14DD624D0"
+				type: "item"
+				item: "modern_industrialization:steel_ingot"
+				count: 20L
+			}]
+			rewards: [{
+				id: "68AC4A8CFA4392A5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Surging Steel"
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Zip Zap Steel"
+			description: [
+				"Ad Astra adds 2 variants of an energy transfering cable and a fluid transfering pipe. The steel variant of the energy cable transfers 64 ⚡/t, which is more than enough to get started."
+				""
+				"The cables and pipes in Ad Astra are really neat. Not because I wrote the functionality, definitely not because of that. They're just cool okay. >:("
+				""
+				"- CodexAdrian"
+			]
+			hide_dependency_lines: true
+			dependencies: ["112C0C7C49867DE2"]
+			optional: true
+			id: "3178EF6B62E2D458"
+			tasks: [{
+				id: "31A7218BE3AFE490"
+				type: "item"
+				item: "ad_astra:steel_cable"
+				count: 12L
+			}]
+			rewards: [{
+				id: "4A41B355CCAF85B7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 11763949
+						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Jet Suit"
+			x: 12.0d
+			y: -1.5d
+			subtitle: "Star command, do you read me??"
+			description: [
+				"The most advanced version of the space suit, the Jet Suit offers even more protection than the netherite suit, while providing additional benefits, like a jetpack for flight."
+				""
+				"The Jet Suit must be charged in order to propell you into the air, and can be easily charged in the Energizer."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6114CC6BE5D2627F"]
+			id: "40CB98FD334EB3CE"
+			tasks: [
+				{
+					id: "0EE7478528103B2C"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "256E8056449A2DAA"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "722D360EDCC43234"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33FB0FA0F5AF87A1"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0A41D5F69105722E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 11763949
+						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
+					}
+				}
+			}]
+		}
+	]
+}

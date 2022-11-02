@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Industrial Revolution Common Lootbag",
+  "color": "#7b73f0",
+  "rarity": "COMMON",
+  "output": {
+    "table": "aof:loot_bags/industrial_revolution_loot_common"
+  }
+}

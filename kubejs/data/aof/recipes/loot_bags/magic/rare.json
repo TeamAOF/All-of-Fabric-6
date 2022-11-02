@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Magic Rare Lootbag",
+  "color": "#ff8afb",
+  "rarity": "RARE",
+  "output": {
+    "table": "aof:loot_bags/magic_rare"
+  }
+}

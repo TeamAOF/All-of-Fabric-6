@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Artifact Lootbag",
+  "color": "#f5b949",
+  "rarity": "LEGENDARY",
+  "output": {
+    "table": "aof:loot_bags/artifacts_loot"
+  }
+}

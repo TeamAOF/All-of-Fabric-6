@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "count": 40,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:broken_spawner",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:crude_soul_crystal",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:crystal_pedestal",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:pedestal",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:soul_crystal",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:soul_glass",
+          "functions": [
+            {
+              "count": 48,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:soul_slate",
+          "functions": [
+            {
+              "count": 40,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:soul_steel_ingot",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

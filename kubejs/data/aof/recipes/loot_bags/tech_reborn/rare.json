@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Tech Reborn Rare Lootbag",
+  "color": "#388eff",
+  "rarity": "RARE",
+  "output": {
+    "table": "aof:loot_bags/tech_reborn_rare"
+  }
+}

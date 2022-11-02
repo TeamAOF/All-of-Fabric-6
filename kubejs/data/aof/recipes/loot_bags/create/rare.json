@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Create Rare Lootbag",
+  "color": "#edaf80",
+  "rarity": "RARE",
+  "output": {
+    "table": "aof:loot_bags/create_rare"
+  }
+}

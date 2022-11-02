@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:shaft",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:cogwheel",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:large_cogwheel",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:water_wheel",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:andesite_alloy",
+          "functions": [
+            {
+              "count": 32,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:belt_connector",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:depot",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:encased_chain_drive",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:andesite_casing",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:andesite_encased_large_cogwheel",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:goggles",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

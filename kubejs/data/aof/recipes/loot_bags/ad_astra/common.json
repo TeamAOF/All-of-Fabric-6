@@ -1,0 +1,95 @@
+{
+  "type": "lootbags:loot",
+  "name": "Ad Astra! Common Lootbag",
+  "color": "#b380ed",
+  "rarity": "COMMON",
+  "output": {
+    "entries": [
+      {
+        "weight": 2,
+        "stack": "ad_astra:oxygen_gear"
+      },
+      {
+        "weight": 3,
+        "stack": "ad_astra:coal_generator"
+      },
+      {
+        "weight": 1,
+        "stack": "ad_astra:steel_tank"
+      },
+      {
+        "weight": 2,
+        "stack": "ad_astra:iron_sliding_door"
+      },
+      {
+        "weight": 2,
+        "stack": "ad_astra:launch_pad"
+      },
+      {
+        "weight": 1,
+        "stack": "ad_astra:steel_engine"
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "ad_astra:oil_bucket",
+          "count": 3
+        }
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "ad_astra:rocket_fin",
+          "count": 2
+        }
+      },
+      {
+        "weight": 1,
+        "stack": "ad_astra:steel_sliding_door"
+      },
+      {
+        "weight": 1,
+        "stack": {
+          "id": "modern_industrialization:steel_plate",
+          "count": 4
+        }
+      },
+      {
+        "weight": 2,
+        "stack": "ad_astra:oxygen_tank"
+      },
+      {
+        "weight": 3,
+        "stack": {
+          "id": "modern_industrialization:iron_plate",
+          "count": 16
+        }
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "ad_astra:steel_cable",
+          "count": 4
+        }
+      },
+      {
+        "weight": 1,
+        "stack": {
+          "id": "modern_industrialization:steel_ingot",
+          "count": 4
+        }
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "ad_astra:oxygen_bucket",
+          "count": 3
+        }
+      },
+      {
+        "weight": 3,
+        "stack": "ad_astra:compressor"
+      }
+    ]
+  }
+}

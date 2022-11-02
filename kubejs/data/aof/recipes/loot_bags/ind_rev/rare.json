@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Industrial Revolution Rare Lootbag",
+  "color": "#7b73f0",
+  "rarity": "RARE",
+  "output": {
+    "table": "aof:loot_bags/industrial_revolution_loot_rare"
+  }
+}

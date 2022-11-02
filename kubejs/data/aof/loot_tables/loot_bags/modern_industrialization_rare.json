@@ -1,0 +1,175 @@
+  {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "modern_industrialization:steel_ingot",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 16
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "modern_industrialization:iron_gear",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "modern_industrialization:bronze_gear",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "modern_industrialization:steel_gear",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "modern_industrialization:fluid_pipe",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 16
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "modern_industrialization:item_pipe",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 16
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:analog_circuit",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:basic_machine_hull",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:lv_steam_turbine",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:motor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:resistor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 64
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:basic_upgrade",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:advanced_upgrade",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:bronze_drill",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "modern_industrialization:steel_drill",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }

@@ -1,0 +1,219 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:andesite_alloy",
+          "functions": [
+            {
+              "count": 48,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:andesite_casing",
+          "functions": [
+            {
+              "count": 6,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:steam_engine",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:cogwheel",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:copper_casing",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:depot",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:encased_chain_drive",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:fluid_pipe",
+          "functions": [
+            {
+              "count": 12,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:item_drain",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:mechanical_pump",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:smart_fluid_pipe",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:spout",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:mechanical_mixer",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:mechanical_saw",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:mechanical_plough",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:encased_fan",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:crushing_wheel",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "count": 18,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:empty_blaze_burner",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

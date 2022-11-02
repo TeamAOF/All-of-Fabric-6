@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Ad Astra! Legendary Lootbag",
+  "color": "#b380ed",
+  "rarity": "LEGENDARY",
+  "output": {
+    "table": "aof:loot_bags/ad_astra_legendary"
+  }
+}

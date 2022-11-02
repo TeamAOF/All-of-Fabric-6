@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Ad Astra! Epic Lootbag",
+  "color": "#b380ed",
+  "rarity": "EPIC",
+  "output": {
+    "table": "aof:loot_bags/ad_astra_epic"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:railway_casing",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:brass_casing",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:copper_casing",
+          "functions": [
+            {
+              "count": 12,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:andesite_casing",
+          "functions": [
+            {
+              "count": 16,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:track_observer",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:train_door",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:train_trapdoor",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:track_signal",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:sturdy_sheet",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "count": 32,
+              "function": "set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

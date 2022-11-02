@@ -1,0 +1,131 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "techreborn:superconductor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:titanium_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:glassfiber_cable",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "techreborn:industrial_machine_frame",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "techreborn:industrial_machine_casing",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:industrial_circuit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:energy_flow_chip",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:overclocker_upgrade",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:platinum_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:industrial_solar_panel",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:uu_matter",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

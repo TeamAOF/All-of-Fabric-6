@@ -1,0 +1,121 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:platinum_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:processing_unit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:turbo_machine_hull",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 8
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:highly_advanced_machine_hull",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:hv_steam_turbine",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:advanced_motor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:advanced_pump",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:large_advanced_motor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 8
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:large_advanced_pump",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:highly_advanced_upgrade",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

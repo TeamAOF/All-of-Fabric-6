@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Utilities Lootbag",
+  "color": "#66ffb5",
+  "rarity": "UNCOMMON",
+  "output": {
+    "table": "aof:loot_bags/utilities_loot"
+  }
+}

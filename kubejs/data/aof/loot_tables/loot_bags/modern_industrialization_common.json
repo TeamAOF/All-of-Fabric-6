@@ -1,0 +1,142 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:coal_ore",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "modern_industrialization:lignite_coal_ore",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:iron_ore",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:copper_ore",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:tin_ore",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:bricks",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:bronze_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "modern_industrialization:steel_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 8
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:resistor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 8
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:capacitor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:inductor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:gold_drill",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

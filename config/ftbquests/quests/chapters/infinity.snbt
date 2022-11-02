@@ -1,0 +1,487 @@
+{
+	id: "55534E1BE135C3C1"
+	group: "36480AFE3722FADC"
+	order_index: 4
+	filename: "infinity"
+	title: "Challenges"
+	icon: "croptopia:starfruit"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Are you worthy?"
+			x: 1.0d
+			y: 7.0d
+			subtitle: "Kill the Ender Dragon to unlock challenges."
+			size: 2.0d
+			id: "512CAEB25CD9B4E2"
+			tasks: [{
+				id: "3A9ABB487CD82821"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			title: "Hell's Kitchen"
+			icon: "farmersdelight:cooking_pot"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
+			description: [
+				"To submit items, left click the food type of choice and hand in."
+				""
+				"Recommended to make Water Bottles from Croptopia for the recipes requiring it."
+				""
+				"Water Bottles can be automated with a simple Drain from Tech Reborn and a Tank Unit below it."
+				""
+				"Put buckets in said Tank Unit and have them output into either a buffer or directly into ME, craft these into Water Bottles from Croptopia."
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "18035D9544EC01DA"
+			tasks: [
+				{
+					id: "6E802DA4BECBA8FD"
+					type: "item"
+					item: "farmersdelight:steak_and_potatoes"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "220729A89B4CACBC"
+					type: "item"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "73CDF0DFBCE93D91"
+					type: "item"
+					item: "farmersdelight:grilled_salmon"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "776FA22E4BF48CA4"
+					type: "item"
+					item: "farmersdelight:stuffed_potato"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "116F0EAC536F98E0"
+					type: "item"
+					item: "farmersdelight:barbecue_stick"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "2ECF53D6587A8AA1"
+					type: "item"
+					item: "farmersdelight:roast_chicken_block"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "36AD733AEFC78B15"
+					type: "item"
+					item: "croptopia:fish_and_chips"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "71C16F3D34ABA15E"
+					type: "item"
+					item: "farmersdelight:dumplings"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "2E2A693C93C5A838"
+					type: "item"
+					item: "croptopia:tres_leche_cake"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "0881465B825D57BD"
+					type: "item"
+					item: "croptopia:trifle"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "12D4B1763C101794"
+					type: "item"
+					item: "croptopia:sticky_toffee_pudding"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "3B3A38AFCEE30AD1"
+					type: "item"
+					item: "croptopia:pumpkin_spice_latte"
+					count: 2500L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Boss Rush"
+			icon: {
+				id: "dragonloot:dragon_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Slay 'em All"
+			description: [
+				"King Slime:"
+				"Craft a Slime Crown and spawn on use."
+				""
+				"Blackstone Golem:"
+				"Can only be summoned with a golem ritual while being in the nether."
+				""
+				"The Eye:"
+				"Can only be summoned at an Eye Shrine."
+				""
+				"Night Lich:"
+				"Found in rare towers in cold biomes. Locate the towers by following soul stars."
+				""
+				"Obsidilith:"
+				"Appears in rare structures in the end islands."
+				""
+				"Nether Gauntlet:"
+				"Appears in rare structures in the nether."
+				""
+				"Void Blossom:"
+				"Appears in rare caves at the bottom of the world. Void lilies will point the way."
+				""
+				"Guardian of Gaia:"
+				"To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead."
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "1F0EE1298663FE88"
+			tasks: [
+				{
+					id: "0DB7AADBA2D37802"
+					type: "kill"
+					icon: "terrarianslimes:slime_crown"
+					entity: "terrarianslimes:king_slime"
+					value: 1L
+				}
+				{
+					id: "6E33DDB7EF109050"
+					type: "kill"
+					icon: "adventurez:stone_golem_heart"
+					entity: "adventurez:stone_golem"
+					value: 1L
+				}
+				{
+					id: "4DA5F492F8AD4449"
+					type: "kill"
+					icon: {
+						id: "adventurez:prime_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "adventurez:the_eye"
+					value: 1L
+				}
+				{
+					id: "1A43CE833FBD4D06"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					entity: "bosses_of_mass_destruction:lich"
+					value: 1L
+				}
+				{
+					id: "0FA9460CCC66FF44"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					entity: "bosses_of_mass_destruction:obsidilith"
+					value: 1L
+				}
+				{
+					id: "799C560B71E547C7"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					entity: "bosses_of_mass_destruction:gauntlet"
+					value: 1L
+				}
+				{
+					id: "31C60566337BA9C2"
+					type: "kill"
+					icon: "bosses_of_mass_destruction:void_thorn"
+					entity: "bosses_of_mass_destruction:void_blossom"
+					value: 1L
+				}
+				{
+					id: "1C502D06D2093A4F"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+				{
+					id: "3AF87A5FED065F14"
+					type: "kill"
+					icon: "twilightforest:naga_trophy"
+					entity: "twilightforest:naga"
+					value: 1L
+				}
+				{
+					id: "09FC7B6D6673F421"
+					type: "kill"
+					icon: "twilightforest:lich_trophy"
+					entity: "twilightforest:lich"
+					value: 1L
+				}
+				{
+					id: "1BACFEB1D7C310D5"
+					type: "kill"
+					icon: "twilightforest:hydra_trophy"
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+				{
+					id: "05C8266730A44B0E"
+					type: "kill"
+					icon: "twilightforest:ur_ghast_trophy"
+					entity: "twilightforest:ur_ghast"
+					value: 1L
+				}
+				{
+					id: "091B5ABFAF80AD47"
+					type: "kill"
+					icon: "twilightforest:minoshroom_trophy"
+					entity: "twilightforest:minoshroom"
+					value: 1L
+				}
+				{
+					id: "53CF636C5F1438C7"
+					type: "kill"
+					icon: "twilightforest:knight_phantom_trophy"
+					entity: "twilightforest:knight_phantom"
+					value: 1L
+				}
+			]
+		}
+		{
+			icon: "farmingforblockheads:feeding_trough"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Breed all the animals!"
+			description: [
+				"> Bee"
+				"> Cat"
+				"> Chicken"
+				"> Cow"
+				"> Donkey"
+				"> Fox"
+				"> Hoglin"
+				"> Horse"
+				"> Llama"
+				"> Mooshroom"
+				"> Mule"
+				"> Ocelot"
+				"> Panda"
+				"> Pig"
+				"> Rabbit"
+				"> Sheep"
+				"> Strider"
+				"> Turtle"
+				"> Wolf"
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "6F99E812CEAA9DCA"
+			tasks: [{
+				id: "4D25DE5A135D9B75"
+				type: "advancement"
+				icon: "spectrum:pig_head"
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Ring of Angels"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Creative flight at your disposal."
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "4394FBA9FF34416C"
+			tasks: [{
+				id: "64A0A716321AC14E"
+				type: "item"
+				item: {
+					id: "kibe:angel_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Quantum Physics"
+			icon: "modern_industrialization:quantum_circuit"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "Ethereal powers!"
+			description: [
+				"Craft everything quantum and shape your own future."
+				""
+				"It'll be a long journey, can you do it?"
+				""
+				"- Quantum Sword"
+				"Uses the raw power of the Schrödinger equation to instantly vaporize any foe (or friend!) you hit with it."
+				""
+				"- Quantum Armor"
+				"Through the gravitational effect of the Heisenberg uncertainty principle, the full Quantum Armor set makes you immune to all damage and grants you creative flight. Each new piece of armour increases by 25% the likelihood of nullifying any damage taken."
+				""
+				"- Replicator"
+				"With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "0A87F01B58718A44"
+			tasks: [
+				{
+					id: "2C0CB64FEB3B5231"
+					type: "item"
+					item: "modern_industrialization:quantum_helmet"
+				}
+				{
+					id: "084F5D6F0CC6EA1B"
+					type: "item"
+					item: "modern_industrialization:quantum_chestplate"
+				}
+				{
+					id: "562636C5CC110A71"
+					type: "item"
+					item: "modern_industrialization:quantum_leggings"
+				}
+				{
+					id: "57330A353CA74D1C"
+					type: "item"
+					item: "modern_industrialization:quantum_boots"
+				}
+				{
+					id: "4A147AB84CC2EABE"
+					type: "item"
+					item: "modern_industrialization:quantum_sword"
+				}
+				{
+					id: "5C5E2952B74F3C83"
+					type: "item"
+					item: "modern_industrialization:replicator"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Become the completionist!"
+			description: [
+				"Challenges are unlocked when you've killed the Ender Dragon."
+				""
+				"These challenges will take you on multiple different paths."
+				""
+				"- Bosses"
+				"- Becoming a Michelin Chef"
+				"- Become the ultimate rancher"
+				"- Quantum Physics"
+				"- Angel Flight"
+				"- Shattering of Worlds"
+				""
+				"Complete them all to become The Completionist!"
+				""
+				"This is the ultimate goal."
+			]
+			dependencies: [
+				"175F5611FB7716A4"
+				"4394FBA9FF34416C"
+				"18035D9544EC01DA"
+				"0A87F01B58718A44"
+				"6F99E812CEAA9DCA"
+				"1F0EE1298663FE88"
+				"2ED18039A031C275"
+			]
+			size: 2.0d
+			id: "477ECBF67056BF45"
+			tasks: [{
+				id: "7E0EE4376BC378B3"
+				type: "checkmark"
+				title: "Challenges"
+				icon: "croptopia:starfruit"
+			}]
+			rewards: [
+				{
+					id: "19C08B9CCD03D034"
+					type: "item"
+					item: "create:handheld_worldshaper"
+				}
+				{
+					id: "563D5DD9E251C2AC"
+					type: "item"
+					item: "croptosis:creative_watering_can"
+				}
+				{
+					id: "47BA9B48671FC557"
+					type: "item"
+					item: "create:creative_blaze_cake"
+				}
+				{
+					id: "5F9C5A1AACDAC695"
+					type: "item"
+					item: "harvest_scythes:creative_machete"
+				}
+				{
+					id: "5462F7521F3402D3"
+					type: "item"
+					item: "harvest_scythes:creative_scythe"
+				}
+				{
+					id: "254BBDDC559B2631"
+					type: "item"
+					item: {
+						id: "automobility:automobile_engine"
+						Count: 1b
+						tag: {
+							engine: "automobility:creative"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Shatterer of Worlds"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Craft the ultimate Terra Shatterer!"
+			description: [
+				"Upgrade a Terra Shatterer to tier (SS)."
+				""
+				"Mana needed: 2,147,483,647"
+			]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "2ED18039A031C275"
+			tasks: [{
+				id: "5F39C971ABE74EAF"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+						mana: 2147483646
+					}
+				}
+			}]
+		}
+	]
+}

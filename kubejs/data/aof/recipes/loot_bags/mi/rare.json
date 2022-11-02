@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Modern Industrialization Rare Lootbag",
+  "color": "#faa243",
+  "rarity": "RARE",
+  "output": {
+    "table": "aof:loot_bags/modern_industrialization_rare"
+  }
+}

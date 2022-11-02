@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Magic Legendary Lootbag",
+  "color": "#ff8afb",
+  "rarity": "LEGENDARY",
+  "output": {
+    "table": "aof:loot_bags/magic_legendary"
+  }
+}

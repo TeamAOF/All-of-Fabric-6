@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Agriculturist Lootbag",
+  "color": "#59de5b",
+  "rarity": "UNCOMMON",
+  "output": {
+    "table": "aof:loot_bags/agriculturist_loot"
+  }
+}

@@ -1,0 +1,2512 @@
+{
+	id: "101875ABBA9AC7E6"
+	group: "36480AFE3722FADC"
+	order_index: 5
+	filename: "tools_and_armor"
+	title: "Tools and Armor"
+	icon: "minecraft:smithing_table"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -6.0d
+			subtitle: "Booking Enchants Downtown."
+			description: [
+				"Lets you remove enchants and put them onto a book!"
+				""
+				"Just right click the table with a book, then the item, and then just right click with Flint and Steel and Watch the Magic!"
+			]
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "1FAD0B24E2253271"
+			tasks: [{
+				id: "015F564C649F1FB1"
+				type: "item"
+				item: "infusion_table:infusion_table"
+			}]
+			rewards: [
+				{
+					id: "6D24214DE06F2B9B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "29EFF203F1FC3355"
+					type: "item"
+					item: "autoworkstations:iron_auto_experience_orb_emitter"
+				}
+			]
+		}
+		{
+			icon: "xps:block_xp_obelisk"
+			x: 2.0d
+			y: -6.0d
+			subtitle: "Enchanting Efficiency"
+			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "73C866780EE5AD4F"
+			tasks: [
+				{
+					id: "61327AB9EC4286FA"
+					type: "item"
+					item: "xps:block_xp_obelisk"
+				}
+				{
+					id: "0F4E345BBC47ADB4"
+					type: "item"
+					item: "xps:xp_remover"
+				}
+			]
+			rewards: [
+				{
+					id: "13B854E24202DC9B"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 2
+					random_bonus: 8
+				}
+				{
+					id: "56C7539B310D5F1C"
+					type: "item"
+					item: "autoworkstations:iron_auto_experience_orb_vacuum"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Choose your way of enchantment."
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "030CFE419C9627F0"
+			tasks: [{
+				id: "2A1E3263D4BC0DE4"
+				type: "item"
+				item: "dark-enchanting:dark_enchanter"
+			}]
+			rewards: [{
+				id: "1FF021C3D958F451"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			subtitle: "Everlasting Longevity!"
+			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "1C8C22D89ACF248F"
+			tasks: [{
+				id: "4B884C1DFE863714"
+				type: "item"
+				item: "dragonloot:dragon_anvil"
+			}]
+			rewards: [
+				{
+					id: "790DDF0E2E764859"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+				{
+					id: "580BF7D56A027A23"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			id: "25B6D9950B1CF03C"
+			tasks: [{
+				id: "00364115C1D01F31"
+				type: "checkmark"
+				title: "Mysterious Enchanting"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			id: "35F0E2CEEE9D9AD0"
+			tasks: [{
+				id: "3FC3E8AFB7E9B57D"
+				type: "checkmark"
+				title: "Armory"
+			}]
+		}
+		{
+			title: "Armory of Dragon"
+			x: -8.5d
+			y: -2.5d
+			subtitle: "Harness the true strength of a dragon."
+			description: ["Scales are dropped by killing the Ender Dragon."]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "4E2C7A0B42F4588F"
+			tasks: [
+				{
+					id: "1F47057584B43E88"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "095A18B52CE967B4"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54DBAF532E7DDDA6"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40E07B86F8DDDF7A"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4665984CDB2D374F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Manasteel Armory"
+			x: -8.5d
+			y: 2.5d
+			subtitle: "Made out of Iron and Mana."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "69EF6FE796539675"
+			tasks: [
+				{
+					id: "384F8EE2142E565A"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "752FEB2ABDA70713"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16D9A0AFCF03C01C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33420EB93311F590"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A01FBD100578278"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Elementium Armory"
+			x: -7.0d
+			y: 2.5d
+			subtitle: "Made in the Portal to Alfheim."
+			description: [
+				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
+				""
+				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
+				""
+				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "0A0EE0B8F2CF1840"
+			tasks: [
+				{
+					id: "6443CB4EA4556356"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F3830E0938CBB40"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3547154495AA785B"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ED55F2B0C34748D"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "754CE8CB0336E6D3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Terrasteel Armory"
+			x: -5.5d
+			y: 2.5d
+			subtitle: "Made via an infusion ritual."
+			description: [
+				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
+				""
+				"> Passive generation of 1 Mana per tick."
+				""
+				"> 20% decrease of Mana cost on all Mana-using tools and rods."
+				""
+				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
+				""
+				"> Effects of all Wills applied to the worn Terrasteel Helmet."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "7E9CEA24C62A5EB5"
+			tasks: [
+				{
+					id: "5AC1B88EE4805986"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3EF0ABC0224C1C77"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "249C7B704AB2BFF6"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73DE3154063549DE"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5E5F8A23E330AF66"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Gilded Netherite"
+			x: -6.5d
+			y: -2.5d
+			subtitle: "More durable than the netherite set and has a full set ability."
+			description: [
+				"The Gilded Netherite Armor is the upgraded netherite armor with a gilded netherite fragment."
+				""
+				"If the player wears all four parts of the armor, they'll be able to press default key “v” to activate the armor indicated by a glowing red layer on the armor."
+				""
+				"It will grant fire resistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "1F084E4BED012340"
+			tasks: [
+				{
+					id: "242FF6C3451B028C"
+					type: "item"
+					item: {
+						id: "adventurez:stone_golem_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37D480823CD0D258"
+					type: "item"
+					item: {
+						id: "adventurez:stone_golem_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CEB516D748B6A62"
+					type: "item"
+					item: {
+						id: "adventurez:stone_golem_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "002E304BF1E3B275"
+					type: "item"
+					item: {
+						id: "adventurez:stone_golem_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "177660FB4D8E2671"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Armory of the Glitch"
+			x: -5.5d
+			y: -2.5d
+			description: [
+				"Barely crafted Glitch Armor pieces are pretty good, but they can be better tho. If you got some extra Pristine Matter you can try using it to upgrade your armor. For this you will need to condense the matter into the armor using a Matter Condenser."
+				""
+				"If you attempt to put a bound Data Model into a piece of armor you will be able to \"inherit\" some effects of the mobs of the category you choose."
+				""
+				"To do that, just get an armor piece in hands and right click, putting a Data Model into the slot."
+				""
+				"The greater the tier of your armor, the greatest the effects you will be gifted with."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "3D26E1D59C05685A"
+			tasks: [
+				{
+					id: "17A3FB85D4D0BA93"
+					type: "item"
+					item: {
+						id: "dml-refabricated:glitch_helmet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "041B9ED96A53B65F"
+					type: "item"
+					item: {
+						id: "dml-refabricated:glitch_chestplate"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "72BC272FD63AB7AD"
+					type: "item"
+					item: {
+						id: "dml-refabricated:glitch_leggings"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "24710A8AEA8CD6BE"
+					type: "item"
+					item: {
+						id: "dml-refabricated:glitch_boots"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "514EED2134A3E6D0"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
+						}
+					}
+				}
+				{
+					id: "00975006C24A398B"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16103753
+							Loot: "aof:loot_bags/misc/artifacts"
+							Name: "Artifact Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Quantum Armory"
+			x: -9.5d
+			y: 0.0d
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "44A2231617CD5156"
+			tasks: [
+				{
+					id: "6D0C751FE61EBB13"
+					type: "item"
+					item: "techreborn:quantum_helmet"
+				}
+				{
+					id: "5FF7FA5541A4D3DB"
+					type: "item"
+					item: "techreborn:quantum_chestplate"
+				}
+				{
+					id: "2A3C59AD2A03D23F"
+					type: "item"
+					item: "techreborn:quantum_leggings"
+				}
+				{
+					id: "023266797B14E0A6"
+					type: "item"
+					item: "techreborn:quantum_boots"
+				}
+			]
+			rewards: [{
+				id: "1D9E0D416C3BF409"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/legendary"
+						Name: "Tech Reborn Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Modular Armory"
+			x: -4.5d
+			y: 0.0d
+			subtitle: "Smash modules on it!"
+			description: [
+				"The Modular Armor is, on it's own, not much, but when you install modules, it can become very powerful!"
+				""
+				"Notice that installing modules cost time and some energy!"
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "415E816A49301DC2"
+			tasks: [
+				{
+					id: "5E654EBB4577464B"
+					type: "item"
+					item: "indrev:modular_armor_helmet"
+				}
+				{
+					id: "3EC5A10FAA01134D"
+					type: "item"
+					item: "indrev:modular_armor_chest"
+				}
+				{
+					id: "163EF88F92507BF1"
+					type: "item"
+					item: "indrev:modular_armor_legs"
+				}
+				{
+					id: "0A1F047C42BCE9CC"
+					type: "item"
+					item: "indrev:modular_armor_boots"
+				}
+			]
+			rewards: [{
+				id: "4FACAFE5C8B57182"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "300FAC6161C1BCDB"
+			tasks: [{
+				id: "56BB7CEC9FE309C4"
+				type: "checkmark"
+				title: "Tools"
+			}]
+		}
+		{
+			title: "Basic Tools"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block."
+				""
+				"Chainsaw could be used as a replacement for Iron Axe. It will cost 50 Energy to break one block."
+				""
+				"Rock Cutter is a Diamond like tool with Silk Touch enchantment. It has 10k Energy storage. It uses Energy instead of durability to break a block. It will cost 10 Energy to break one block."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "2C428C61C56220CD"
+			tasks: [
+				{
+					id: "54835ABF40DD9BCE"
+					type: "item"
+					item: "techreborn:basic_drill"
+				}
+				{
+					id: "67349C80C2672091"
+					type: "item"
+					item: "techreborn:basic_chainsaw"
+				}
+				{
+					id: "7DEF9B9A6932266D"
+					type: "item"
+					item: "techreborn:basic_jackhammer"
+				}
+			]
+			rewards: [{
+				id: "31C7CBA37B9D3432"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Advanced Tools"
+			x: 3.0d
+			y: -0.5d
+			description: [
+				"Advanced Drill is an advanced version of Basic Drill and works same as Diamond Pickaxe or Diamond Shovel."
+				""
+				"Advanced Chainsaw is a more advanced chainsaw compare to Basic Chainsaw."
+				""
+				"Advanced Jackhammer is a more advanced version of Basic Jackhammer. Advanced Jackhammer is capable of 3×3 mining when set to active."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "5BC9A2F404AD73B7"
+			tasks: [
+				{
+					id: "0C330A4FB95CF932"
+					type: "item"
+					item: "techreborn:advanced_drill"
+				}
+				{
+					id: "3F481DAC528F0A17"
+					type: "item"
+					item: "techreborn:advanced_chainsaw"
+				}
+				{
+					id: "0ADB3F49D2FA16CF"
+					type: "item"
+					item: "techreborn:advanced_jackhammer"
+				}
+			]
+			rewards: [{
+				id: "611ADE0A36B53A8D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Industrial Tools"
+			x: 3.0d
+			y: 0.5d
+			description: [
+				"Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. "
+				""
+				"Industrial Chainsaw is a top tier chainsaw.  It has 1M Energy storage. Chainsaw could be used as a replacement for Diamond Axe and able to chop down whole tree at once. It will cost 150 Energy to break one block."
+				""
+				"Industrial Jackhammer is a top tier JackHammer.  It has 1M energy storage.  Industrial Jackhammer is capable of 3×3 and 5×5 AoE mining when set to active. It will cost 150 energy to break one block."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "574F9D5B42852567"
+			tasks: [
+				{
+					id: "6C643470AFDDBCA8"
+					type: "item"
+					item: "techreborn:industrial_drill"
+				}
+				{
+					id: "53482D59ADAE2691"
+					type: "item"
+					item: "techreborn:industrial_chainsaw"
+				}
+				{
+					id: "25E72AB0C71E8D5F"
+					type: "item"
+					item: "techreborn:industrial_jackhammer"
+				}
+			]
+			rewards: [{
+				id: "7D6B7C6B76782BCC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/epic"
+						Name: "Tech Reborn Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mining Drills"
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "2206B744E74F22FF"
+			tasks: [
+				{
+					id: "6CE5BD1D97182281"
+					type: "item"
+					item: "indrev:mining_drill_mk1"
+				}
+				{
+					id: "7BC7C58E0BEBA275"
+					type: "item"
+					item: "indrev:mining_drill_mk2"
+				}
+				{
+					id: "46BA0A38C7280FAF"
+					type: "item"
+					item: "indrev:mining_drill_mk3"
+				}
+				{
+					id: "5496BFC1BB3C532B"
+					type: "item"
+					item: "indrev:mining_drill_mk4"
+				}
+			]
+			rewards: [
+				{
+					id: "6DC0F8DA7E371854"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "additionaladditions:strong_haste_potion"
+						}
+					}
+				}
+				{
+					id: "700C7F9977380FB8"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+				}
+				{
+					id: "0DAEA51F73BEDA12"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Jetpacks"
+			x: -3.0d
+			y: -0.5d
+			subtitle: "Past the Statue of Liberty!"
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "331F2D904BCAC94E"
+			tasks: [
+				{
+					id: "718483A0136EC061"
+					type: "item"
+					item: "iron-jetpacks:bronze_jetpack"
+				}
+				{
+					id: "1C17676F356BF867"
+					type: "item"
+					item: "iron-jetpacks:electrum_jetpack"
+				}
+				{
+					id: "135C91EEEB100021"
+					type: "item"
+					item: "iron-jetpacks:steel_jetpack"
+				}
+			]
+			rewards: [
+				{
+					id: "3ACB6C5DF381C168"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16103753
+							Loot: "aof:loot_bags/misc/artifacts"
+							Name: "Artifact Lootbag"
+						}
+					}
+				}
+				{
+					id: "57710C27688A542D"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 6750133
+							Loot: "aof:loot_bags/misc/utilities"
+							Name: "Utilities Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Universal tool that combines Pickaxe, Axe, Showel, Sheers and even Sword in one simple rod."
+			description: ["It's mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "6974C60B6461BD04"
+			tasks: [{
+				id: "3188B4D5D16B9220"
+				type: "item"
+				item: "techreborn:omni_tool"
+			}]
+			rewards: [{
+				id: "2739B93C7FCDA002"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tools of Dragon"
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Harness the true strength of a dragon."
+			description: ["Scales are dropped by killing the Ender Dragon."]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "19CD33E3BCCBC283"
+			tasks: [
+				{
+					id: "48BEF1026E46FEFC"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C23570FAFDAC0DD"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "699EEDB4F5A5483A"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E11908E8414D5C5"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7DF089A2D0779224"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Gilded Tools"
+			x: -1.0d
+			y: -2.5d
+			subtitle: "Obtain it by bartering with piglins!"
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "048BE9D4C85EC290"
+			tasks: [
+				{
+					id: "2A77CC1F62A3C320"
+					type: "item"
+					item: {
+						id: "additionaladditions:gilded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "503C8BEDE81A069D"
+					type: "item"
+					item: {
+						id: "additionaladditions:gilded_netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A7069C4A87A1963"
+					type: "item"
+					item: {
+						id: "additionaladditions:gilded_netherite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64F311CE9913D45F"
+					type: "item"
+					item: {
+						id: "additionaladditions:gilded_netherite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "20EE3210E85CB0A1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Manasteel Tools"
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "1812006D3BD67F42"
+			tasks: [
+				{
+					id: "78AE4A2866D42033"
+					type: "item"
+					item: {
+						id: "botania:manasteel_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "513C28B868CC07B7"
+					type: "item"
+					item: {
+						id: "botania:manasteel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BEDB0B6192BABAB"
+					type: "item"
+					item: {
+						id: "botania:manasteel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4868DD63695C6A9C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2795C286B3F01E19"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Elementium Tools"
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "491D1CA466F8BEE7"
+			tasks: [
+				{
+					id: "1B7C87583404D823"
+					type: "item"
+					item: {
+						id: "botania:elementium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12761B3B1151BB90"
+					type: "item"
+					item: {
+						id: "botania:elementium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35251431AE99A877"
+					type: "item"
+					item: {
+						id: "botania:elementium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E9208183F259F87"
+					type: "item"
+					item: {
+						id: "botania:elementium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37D446E2E6929333"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Hammers"
+			x: -2.0d
+			y: 2.5d
+			subtitle: "3x3 Mining on your doorstep."
+			description: ["Craft any hammer to complete quest."]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "5AEDB664F213EFAB"
+			tasks: [{
+				id: "0EE022EBDFCCF33F"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "vanilla-hammers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DDBA9198C176C31"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Excavators"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "3x3 Digging on your doorstep."
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "79CF2958691BBBAA"
+			tasks: [{
+				id: "43B6751603A489C2"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "vanillaexcavators"
+					}
+				}
+			}]
+			rewards: [{
+				id: "23509C2598B3CA0F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Machetes"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "Will break surrounding leaf blocks depending on the tool."
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "61B67FB2016F8850"
+			tasks: [{
+				id: "2445476A39A5A7FE"
+				type: "item"
+				item: {
+					id: "itemfilters:item_group"
+					Count: 1b
+					tag: {
+						value: "harvest_scythes.machetes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4075E50674B2F240"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Scythes"
+			x: 2.0d
+			y: 2.5d
+			subtitle: "Harvest crops in a range!"
+			description: [
+				"Right clicking with a scythe will harvest (and replant) nearby crops in a certain range based on the tool, if those crops are fully grown."
+				""
+				"Right clicking on dirt/grass turns it into farmland like a normal hoe."
+				""
+				"Some scythes will harvest in a circular shape, whilst others will harvest in a square shape, based on their tier."
+				""
+				"There is also a scythe-only enchant \"Crop Reaper\" that increases their range."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "2ED5C563BA705FB9"
+			tasks: [{
+				id: "06CBBFF5AC7D4646"
+				type: "item"
+				item: {
+					id: "itemfilters:item_group"
+					Count: 1b
+					tag: {
+						value: "harvest_scythes.scythes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "33D1AEEC6B2CD5AE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "5EA2D6174BCFEC05"
+			tasks: [{
+				id: "3D7700A29760BE66"
+				type: "checkmark"
+				title: "Weaponry"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "43393B11001E56DC"
+			tasks: [{
+				id: "79B14536D0076591"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1ADD5FEFADEDEA80"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "481475646B5351CA"
+			tasks: [{
+				id: "4DF242C8F4DC1856"
+				type: "item"
+				item: {
+					id: "additionaladditions:gilded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "31A6A3A976141EBE"
+				type: "random"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7CE1E91CE65BEEB1"
+			tasks: [{
+				id: "5C2A939D465B1339"
+				type: "item"
+				item: {
+					id: "botania:manasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64788C0E06411E05"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7C5DBA5626CE7D7D"
+			tasks: [{
+				id: "3AFC4119E51084AA"
+				type: "item"
+				item: {
+					id: "botania:elementium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D75E74B635299E0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tools of Terra"
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "6B2A5C9F8F92975B"
+			tasks: [
+				{
+					id: "0EBC1A262BACB90E"
+					type: "item"
+					item: {
+						id: "botania:terra_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
+					}
+				}
+				{
+					id: "1B21CF9911521FE4"
+					type: "item"
+					item: {
+						id: "botania:terra_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1F58E0896CECAB48"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "05F39EED60B5032B"
+			tasks: [{
+				id: "0B6D9A28B4A9B38C"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "494D1269BAC85011"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			subtitle: "An advanced weapon that can be used against hostile mobs, or players."
+			description: [
+				"The Saber requires power to work, every hit done to an entity will cost 150 Energy."
+				""
+				"The nano saber requires being active to work."
+				""
+				"To toggle the active state the user must shift-right click."
+				""
+				"A chat message will appear saying the new mod that the weapon is in."
+			]
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "22260C48A683F434"
+			tasks: [{
+				id: "27F4E72D06FE60DD"
+				type: "item"
+				item: {
+					id: "techreborn:nanosaber"
+					Count: 1b
+					tag: {
+						isActive: 0b
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F2CC6312CAD19A0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Paxels"
+			x: -3.0d
+			y: 1.5d
+			subtitle: "All in One!"
+			description: [
+				"These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits."
+				""
+				"They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "364F9B3D61ED0079"
+			tasks: [{
+				id: "6DACDA252E01FFFE"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "piercingpaxels:wooden_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:stone_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:gold_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:iron_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:diamond_paxel"
+								Count: 1b
+							}
+							{
+								id: "piercingpaxels:netherite_paxel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C054909DFD6F14F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:extended_night_vision"
+						}
+					}
+				}
+				{
+					id: "176E6C862D9E4379"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Charms"
+			x: -3.0d
+			y: -1.5d
+			subtitle: "A practice or expression believed to have magic powers."
+			description: [
+				"The portal charm will allow the wearer to walk through portals instantly."
+				""
+				"The sleep charm allows the wearer to instantly fall asleep in beds. It will also slowly reduce the insomnia counter which will prevent phantoms from spawning and attacking you."
+				""
+				"The experience charm will decrease the pickup delay of experience orbs. It will also slightly increase the amount of experience dropped when killing mobs or mining blocks that drop EXP."
+				""
+				"The gluttony charm will allow the wearer to eat food without delay."
+				""
+				"All charms can be worn as trinkets."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "5FCACC423BE1EB68"
+			tasks: [{
+				id: "06063381E1AB7D20"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "darkutils:charms"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D4924DED53FF093"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			subtitle: "Chance to spawn a missile falling at the targeted block."
+			description: ["The missile deals 5 damage and has a 25% chance to deal double damage."]
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "506164F383491B84"
+			tasks: [{
+				id: "3A1ED13E4F0D7093"
+				type: "item"
+				item: {
+					id: "botania:star_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "018669941B11F461"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			subtitle: "THUNDERSTRIKE!"
+			description: [
+				"When a creature is attacked with this sword, a weak chain lightning attack will deal 5 points of damage to a random monster in an 8 block radius, then jump to a next target in the same range around the previous one, dealing 1 less point in damage. "
+				""
+				"This is repeated until 4 enemies are damaged."
+			]
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "3C2FE1723CE04FB0"
+			tasks: [{
+				id: "6A4DB08A4096EF5A"
+				type: "item"
+				item: {
+					id: "botania:thunder_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "72D15A7D5F8B77BA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Medieval Weapons"
+			x: 8.0d
+			y: 2.5d
+			subtitle: "From Boomerangs to Yo-yos, and Spears to Broadswords."
+			description: [
+				"- Dagger"
+				"A small and nimble weapon. It makes up for short reach with a swift attack speed."
+				""
+				"- Spear"
+				"This weapon is slow and has extended reach, but can also be thrown to impale your enemies from a distance."
+				""
+				"- Broadsword"
+				"The classic Broadsword: slow in speed, yet mighty in attack power."
+				""
+				"- Rapier"
+				"Blazing sharp and swift in speed. Lunge forward to catch up to your enemies!"
+				""
+				"- Haladie"
+				"A unique weapon with a double-hit mechanic. Slap your enemies twice for more impact!"
+				""
+				"- Waraxe"
+				"The Broadsword version of Axes. Use it to smash the ground around you for an AOE attack!"
+				""
+				"- Katana"
+				"You are already dead. Teleport behind your enemies with a quick slash and eliminate them with ease."
+				""
+				"- Bow"
+				"The standard bow, augmented with stronger materials. Each bow offers different damage and draw speed modifications."
+				""
+				"- Shield"
+				"Stronger shields with more durability."
+				""
+				"- Yo-Yo"
+				"A mid-range weapon that is a lot of fun to use. Why hit them with a sword when you could smack them with a Yo-yo?"
+				""
+				"- Boomerang"
+				"Your enemy won't see it coming, quite literally. Dance with grace around your foes as your Boomerang destroys them."
+			]
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "39491A7F275A02BD"
+			tasks: [{
+				id: "01910DCC48E5EAC7"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "medievalweapons"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D7FC305AA8EEA7A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Advanced Netherite"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "6A5ED6653D734805"
+			tasks: [{
+				id: "0809C64ADB415234"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/tools"
+					}
+				}
+			}]
+			rewards: [{
+				id: "198DE1E66743A68B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Advanced Netherite"
+			x: -7.5d
+			y: -2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "1AB242681EF30210"
+			tasks: [{
+				id: "4E2C968C442F487C"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/armor"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AE344D9D6D625DB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			subtitle: "Prevents trampling."
+			dependencies: ["251028DFC955D65F"]
+			id: "6AA43062AC98B59B"
+			tasks: [{
+				id: "0C1F44E719A323DC"
+				type: "item"
+				item: "farmingforblockheads:yellow_fertilizer"
+			}]
+			rewards: [{
+				id: "3987DA35211EFE4D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			subtitle: "Speeds up growth."
+			dependencies: ["251028DFC955D65F"]
+			id: "4AE1EA3349567401"
+			tasks: [{
+				id: "443CD4678AE9D27A"
+				type: "item"
+				item: "farmingforblockheads:red_fertilizer"
+			}]
+			rewards: [{
+				id: "4A97F2118E96E93B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			description: ["Well.. does this make you a blockhead?"]
+			id: "251028DFC955D65F"
+			tasks: [{
+				id: "76E7E15CC252A02B"
+				type: "checkmark"
+				title: "Blockhead"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			subtitle: "Increases crop output."
+			dependencies: ["251028DFC955D65F"]
+			id: "14D42EDBFFCED86E"
+			tasks: [{
+				id: "1604ECD381B21CFB"
+				type: "item"
+				item: "farmingforblockheads:green_fertilizer"
+			}]
+			rewards: [{
+				id: "25E4639758190CED"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.0d
+			subtitle: "Auto-feeds nearby animals."
+			dependencies: ["251028DFC955D65F"]
+			id: "2607DEA382FF044E"
+			tasks: [{
+				id: "755F341295669BDC"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
+			}]
+			rewards: [
+				{
+					id: "6C69C27320454D7A"
+					type: "item"
+					item: "farmingforblockheads:feeding_trough"
+				}
+				{
+					id: "0D9A6A548DB95981"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -7.5d
+			subtitle: "Collects eggs laid by chickens."
+			dependencies: ["251028DFC955D65F"]
+			id: "16FED75C44853ECA"
+			tasks: [{
+				id: "5F2ADAA3F72E4D09"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+			}]
+			rewards: [
+				{
+					id: "4237D2FD3C16A1B0"
+					type: "item"
+					item: "farmingforblockheads:chicken_nest"
+					count: 2
+				}
+				{
+					id: "0F1327437DEFCBD4"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -7.0d
+			subtitle: "Your market of choice for seeds and crops."
+			dependencies: ["251028DFC955D65F"]
+			id: "529FA5C3502DBF4D"
+			tasks: [{
+				id: "62B614931DDB6161"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "1C448F27ADC085DC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "02708D9F4C8C07D6"
+			tasks: [{
+				id: "22F1EEBE89B61279"
+				type: "item"
+				item: "croptopia:olive_oil"
+			}]
+			rewards: [{
+				id: "3DBF7C2323C39DAA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "7D220360845B3061"
+			tasks: [{
+				id: "0BEEEB3684C7E8AB"
+				type: "item"
+				item: "croptopia:salt"
+			}]
+			rewards: [{
+				id: "0824517F399D2D2B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "4D2AA8AA89158B15"
+			tasks: [{
+				id: "3B71D4720FA8282D"
+				type: "item"
+				item: "croptopia:cooking_pot"
+			}]
+			rewards: [{
+				id: "343AAC4CEAFCFADB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "1C89868B15E15FB9"
+			tasks: [{
+				id: "7698D7F854E0BD43"
+				type: "item"
+				item: "croptopia:coffee"
+			}]
+			rewards: [{
+				id: "46C764EE79EFF5CF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "6C1DE22E0E2EBE84"
+			tasks: [{
+				id: "59E9757E49E8926D"
+				type: "item"
+				item: "croptopia:food_press"
+			}]
+			rewards: [{
+				id: "58D6760638B6C442"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "643E23B7AD7A6863"
+			tasks: [{
+				id: "70F481780658F71B"
+				type: "item"
+				item: "croptopia:pepper"
+			}]
+			rewards: [{
+				id: "790CAB3A9A0CEF30"
+				type: "loot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "2423CAC6548B8DE0"
+			tasks: [{
+				id: "7E35A6AE21505CA7"
+				type: "item"
+				item: "croptopia:butter"
+			}]
+			rewards: [{
+				id: "618C26DE446B3D6F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "532B579050FCF665"
+			tasks: [{
+				id: "5EF171AFB4049ADE"
+				type: "item"
+				item: "croptopia:greenonion"
+			}]
+			rewards: [{
+				id: "5EAD41302400B17D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "29DADC10D2308B2E"
+			tasks: [{
+				id: "362E2C0F21ACAE54"
+				type: "item"
+				item: "croptopia:flour"
+			}]
+			rewards: [
+				{
+					id: "590D456AA06B20AE"
+					type: "item"
+					item: "croptopia:lemon_sapling"
+				}
+				{
+					id: "11C43B5E334629CF"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "3277A89378B6D52B"
+			tasks: [{
+				id: "5ABFDDA4A799AA50"
+				type: "item"
+				item: "croptopia:mortar_and_pestle"
+			}]
+			rewards: [{
+				id: "1C35015CB502E0B9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			dependencies: ["68213B32C7BFE139"]
+			id: "633893597215AA91"
+			tasks: [{
+				id: "5D150B567A95C5EE"
+				type: "item"
+				item: "croptopia:noodle"
+			}]
+			rewards: [{
+				id: "13567C929D052086"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: ["68213B32C7BFE139"]
+			id: "73740190C26EDE96"
+			tasks: [{
+				id: "29E1787D0069B2CF"
+				type: "item"
+				item: "croptopia:frying_pan"
+			}]
+			rewards: [{
+				id: "300C0C769C2E4151"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Kitchen Basics"
+			x: 6.5d
+			y: -6.0d
+			subtitle: "Complete your kitchen. Feed the world."
+			description: ["Complete your kitchen to expand your culinary skills."]
+			id: "68213B32C7BFE139"
+			tasks: [{
+				id: "29764768B3A9EEF6"
+				type: "checkmark"
+				title: "Kitchen basics"
+			}]
+		}
+		{
+			title: "Advanced Netherite"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "38832A16DF4E54C3"
+			tasks: [{
+				id: "3615732C6A2C7334"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/tools"
+					}
+				}
+			}]
+			rewards: [{
+				id: "036E6B1FD2BBE842"
+				type: "random"
+			}]
+		}
+		{
+			title: "Advanced Netherite"
+			x: -7.5d
+			y: -2.5d
+			subtitle: "Every Netherite tier has its own unique properties."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "76184D2FC1EAB9C9"
+			tasks: [{
+				id: "795D749CAC452D48"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "advancednetherite:tiers/armor"
+					}
+				}
+			}]
+			rewards: [{
+				id: "70A0FF7C62A8601A"
+				type: "random"
+			}]
+		}
+	]
+}

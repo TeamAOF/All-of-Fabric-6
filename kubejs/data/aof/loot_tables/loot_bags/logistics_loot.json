@@ -1,0 +1,218 @@
+  {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:logic_processor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:calculation_processor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:engineering_processor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:certus_quartz_crystal",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:ender_dust",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:silicon",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:fluix_glass_cable",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:fluix_smart_cable",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:formation_core",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:annihilation_core",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ironchests:iron_chest",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ironchests:gold_chest",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "techreborn:crude_storage_unit",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "techreborn:basic_storage_unit",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "techreborn:basic_tank_unit",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "coxinhautilities:portable_tank_mk1",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "coxinhautilities:portable_tank_mk2",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "dankstorage:dank_1",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "kibe:white_sleeping_bag",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }

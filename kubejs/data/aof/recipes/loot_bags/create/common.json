@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Create Common Lootbag",
+  "color": "#edaf80",
+  "rarity": "COMMON",
+  "output": {
+    "table": "aof:loot_bags/create_common"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Create Legendary Lootbag",
+  "color": "#edaf80",
+  "rarity": "LEGENDARY",
+  "output": {
+    "table": "aof:loot_bags/create_legendary"
+  }
+}

@@ -1,0 +1,2026 @@
+{
+	id: "47B446DF2ABE5972"
+	group: "0815C5D80307ECDF"
+	order_index: 2
+	filename: "industrial_revolution"
+	title: "Industrial Revolution"
+	icon: "indrev:modular_core"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -12.0d
+		y: -8.5d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "indrev:textures/gui/energy_icon.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Configurability"
+			x: -9.5d
+			y: -7.5d
+			subtitle: "Quit screwing around and wrench it off"
+			description: [
+				"The Wrench can be used to rotate blocks and break machines keeping their energy when using it while crouching."
+				""
+				"The Screwdriver is used to configure machines' input and outputs for items and fluids. Can also be used on Lazuli Flux Container to configurate energy sides."
+			]
+			dependencies: ["1CE1C8FC892A6F84"]
+			id: "47BB7143EA6AF423"
+			tasks: [
+				{
+					id: "120ED12697D4981E"
+					type: "item"
+					item: "indrev:wrench"
+				}
+				{
+					id: "6476760A6188EB18"
+					type: "item"
+					item: "indrev:screwdriver"
+				}
+			]
+			rewards: [{
+				id: "7B3AA028EB162EEF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			subtitle: "First near quantum level computer circuits"
+			dependencies: ["72FAE2CEB348AF96"]
+			id: "60E79DB91F2919BD"
+			tasks: [{
+				id: "7D53A62DB0D746E1"
+				type: "item"
+				item: "indrev:circuit_mk1"
+			}]
+			rewards: [{
+				id: "238F5DC73A868F07"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "This helped indrev start their campaign for revolution."
+			dependencies: [
+				"587B0ABFDC5F2428"
+				"60E79DB91F2919BD"
+			]
+			id: "5126D10B28A64460"
+			tasks: [{
+				id: "55EB225CEDCC8BB0"
+				type: "item"
+				item: "indrev:circuit_mk2"
+			}]
+			rewards: [{
+				id: "25DAAEA3159EC8A7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "Just when you thought it couldn't get better."
+			dependencies: [
+				"3BD2945543D442EB"
+				"5126D10B28A64460"
+			]
+			id: "7A318DEE361289B5"
+			tasks: [{
+				id: "153F8D1FE2667FE0"
+				type: "item"
+				item: "indrev:circuit_mk3"
+			}]
+			rewards: [{
+				id: "77E243FC4207E72E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "Circuit go brrrrrr"
+			dependencies: [
+				"2C8663C76CFE101D"
+				"7A318DEE361289B5"
+			]
+			id: "65E60EDD6DE18DC2"
+			tasks: [{
+				id: "6C45B817876223D3"
+				type: "item"
+				item: "indrev:circuit_mk4"
+			}]
+			rewards: [{
+				id: "52BF8DAAFC8EC7A0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["13BA3A6E648DF2E4"]
+			dependency_requirement: "one_completed"
+			id: "68DB32F00BACEEFD"
+			tasks: [{
+				id: "796D98D70BE353A9"
+				type: "item"
+				item: "indrev:machine_block"
+			}]
+			rewards: [
+				{
+					id: "34040D4E9EF57B7F"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+				{
+					id: "781808B2B4034E00"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			dependencies: ["279C25C775C22B7E"]
+			id: "13BA3A6E648DF2E4"
+			tasks: [{
+				id: "0FFED7DEC1728D8A"
+				type: "item"
+				item: "indrev:battery"
+			}]
+			rewards: [{
+				id: "1ECC3DF4AADC805D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.5d
+			subtitle: "Can use, not only coal, but anything a furnace can to generate energy."
+			dependencies: ["13BA3A6E648DF2E4"]
+			id: "6F42118FDF2C343D"
+			tasks: [{
+				id: "7C0D0B3221DF3798"
+				type: "item"
+				item: "indrev:coal_generator_mk1"
+			}]
+			rewards: [{
+				id: "3517F63A89FE34FE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			subtitle: "Will generate energy as long as the sunlight can reach it."
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "735E0A553EDF0FBB"
+			tasks: [{
+				id: "2CA2353FB904C629"
+				type: "item"
+				item: "indrev:solar_generator_mk1"
+			}]
+			rewards: [{
+				id: "7E3DC1FFEEA94B68"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["21DB7EDD5C496202"]
+			id: "587B0ABFDC5F2428"
+			tasks: [{
+				id: "7A11B4D7826DE872"
+				type: "item"
+				item: "indrev:nikolite_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "16F4C873564D448B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Name: "Industrial Revolution Rare Lootbag"
+						Loot: "aof:loot_bags/ind_rev/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Vanilla Upgrades"
+			x: -8.5d
+			y: 3.0d
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "7A607496DD461235"
+			tasks: [
+				{
+					id: "2F8A9A1509DDD699"
+					type: "item"
+					item: "indrev:electric_furnace_mk1"
+				}
+				{
+					id: "43B579461130A023"
+					type: "item"
+					item: "indrev:sawmill_mk1"
+				}
+			]
+			rewards: [{
+				id: "57C269CE0DF67034"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			subtitle: "Mainly used for processing ores into two dusts."
+			description: [
+				"Make sure to check the Revolutionary Guide for more info on ore tripling and quadrupling."
+				""
+				"The Pulverizer will turn 1 ore into 2 dusts which can then be smelted into 2 ingots."
+			]
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "0C00CEF0D380206E"
+			tasks: [{
+				id: "7BFD5C78BE44AE81"
+				type: "item"
+				item: "indrev:pulverizer_mk1"
+			}]
+			rewards: [{
+				id: "46131EB89CEFFECD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Has the capability of mixing two ingredients into a different one."
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "21DB7EDD5C496202"
+			tasks: [{
+				id: "149E01643E01157E"
+				type: "item"
+				item: "indrev:solid_infuser_mk1"
+			}]
+			rewards: [{
+				id: "410ED412233723AF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			subtitle: "This material helped spark a myriad of devices. Forever changing the universe."
+			description: ["Main component used in machines, from basic to advanced."]
+			dependencies: ["1CE1C8FC892A6F84"]
+			id: "72FAE2CEB348AF96"
+			tasks: [{
+				id: "096656EAD28C0878"
+				type: "item"
+				item: "indrev:nikolite_dust"
+			}]
+			rewards: [
+				{
+					id: "361AEFAEDC96E694"
+					type: "item"
+					item: "indrev:nikolite_dust"
+					count: 4
+				}
+				{
+					id: "527570C9F4CBA8BB"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Farming"
+			x: -9.5d
+			y: 2.0d
+			subtitle: "Note that it requires some items for it to function: (put them in the 2x2 square)"
+			description: [
+				"Chopper is a machine focused in automating wood farming, and it also supports enhancement upgrades."
+				""
+				"> Axe: if present in the inventory, will retrieve any wood and leaves in range (leaves will not consume durability)"
+				""
+				"> Sapling: if present in the inventory, will be planted in every block possible inside it's range."
+				""
+				"> Bone meal: will be applied to any saplings inside it's range."
+				""
+				"Farmer is a machine focused in crop farming, and it also supports enhancement upgrades."
+				""
+				"> Seeds: if present will be planted in the farmer's range. Note that it will try to match a crop and its seeds so you can use multiple crops."
+				""
+				"> Bone meal: if present, will fertilize any crops possible within range."
+				""
+				"Rancher is a machine focused in automating animal farming, and it also supports enhancement upgrades."
+				""
+				"> Sword: if present in the inventory, will kill animals if there are more than 7 in its range."
+				""
+				"> Wheat/Seed/Carrot: if present in the inventory, will be fed to the respective animals in it's range."
+				""
+				"Bucket: if present in the inventory, will collect milk from cows."
+			]
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "66D17897621E815B"
+			tasks: [
+				{
+					id: "786D0D6A0CA678EB"
+					type: "item"
+					item: "indrev:chopper_mk1"
+				}
+				{
+					id: "7FB3E7F7BD760904"
+					type: "item"
+					item: "indrev:farmer_mk1"
+				}
+				{
+					id: "69782A1D5B774112"
+					type: "item"
+					item: "indrev:slaughter_mk1"
+				}
+				{
+					id: "26E28715D93D8084"
+					type: "item"
+					item: "indrev:rancher_mk1"
+				}
+			]
+			rewards: [{
+				id: "3E53C278EB695099"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			subtitle: "Mainly used for compressing ingots into plates."
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "47E0E13C53777452"
+			tasks: [{
+				id: "1A45BB2D75F41120"
+				type: "item"
+				item: "indrev:compressor_mk1"
+			}]
+			rewards: [{
+				id: "7A8B758D007E31B4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			subtitle: "Used for advanced infusing with fluids. It's main current use is for ore quadrupling."
+			description: ["Can also be used to turn Sand into Clay and Concrete Powder into Concrete."]
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "3984A36C1D03501E"
+			tasks: [{
+				id: "297F433AB752D7CF"
+				type: "item"
+				item: "indrev:fluid_infuser_mk1"
+			}]
+			rewards: [{
+				id: "35D35206DCBD8187"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "With a desire for the finest. Indrev tech needs only the best diamonds."
+			dependencies: ["0C00CEF0D380206E"]
+			id: "53B5B78EB44C710B"
+			tasks: [{
+				id: "2A7E8398F675F060"
+				type: "item"
+				item: "modern_industrialization:diamond_dust"
+				count: 4L
+			}]
+			rewards: [{
+				id: "74FA63591DEBE176"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: [
+				"53B5B78EB44C710B"
+				"587B0ABFDC5F2428"
+			]
+			id: "3BD2945543D442EB"
+			tasks: [{
+				id: "0C2E5913E46CCEE9"
+				type: "item"
+				item: "indrev:enriched_nikolite_dust"
+				count: 4L
+			}]
+			rewards: [{
+				id: "70FE93467EB59E75"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["3BD2945543D442EB"]
+			id: "2C8663C76CFE101D"
+			tasks: [{
+				id: "300DF9751F4E8837"
+				type: "item"
+				item: "indrev:enriched_nikolite_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2F78EABB9CDE6439"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			subtitle: "Tells you the current stored energy in machines and, in some machines, also tells the energy consumption per tick."
+			dependencies: ["60E79DB91F2919BD"]
+			id: "397827B0621A2FB8"
+			tasks: [{
+				id: "32475889E503F43A"
+				type: "item"
+				item: "indrev:energy_reader"
+			}]
+			rewards: [
+				{
+					id: "76AC752565C62F15"
+					type: "loot"
+				}
+				{
+					id: "06C0F4DB51EB6ABC"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			subtitle: "A machine focused in fish farming, and it also supports enhancement upgrades."
+			description: ["It's only requirement is a Fishing Rod."]
+			dependencies: ["47E0E13C53777452"]
+			id: "130566BD27135220"
+			tasks: [{
+				id: "2160975BE87B0F26"
+				type: "item"
+				item: "indrev:fisher_mk2"
+			}]
+			rewards: [{
+				id: "6CD7DDCAC7634A6D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Solar Generator MK3"
+			x: -11.0d
+			y: 0.0d
+			subtitle: "Will generate energy as long as the sunlight can reach it."
+			dependencies: ["735E0A553EDF0FBB"]
+			id: "5AE46F6F569483BF"
+			tasks: [{
+				id: "69D934CCE991022B"
+				type: "item"
+				item: "indrev:solar_generator_mk3"
+			}]
+			rewards: [{
+				id: "14A566B17F4B8DE1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			dependencies: ["130566BD27135220"]
+			id: "01EB2FB2EEEB8A04"
+			tasks: [{
+				id: "56CD51887FCE1BC2"
+				type: "item"
+				item: "indrev:fisher_mk3"
+			}]
+			rewards: [{
+				id: "0E05A463DC5AB13D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			dependencies: ["01EB2FB2EEEB8A04"]
+			id: "2C4C0E81D2335043"
+			tasks: [{
+				id: "365BDA0295FF4F41"
+				type: "item"
+				item: "indrev:fisher_mk4"
+			}]
+			rewards: [{
+				id: "7B4F590CBD04DD6D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			subtitle: "Upgrades can boost machines stats."
+			dependencies: ["47E0E13C53777452"]
+			id: "76C21BAB566F66A9"
+			tasks: [{
+				id: "52DD22CF4838D5B7"
+				type: "item"
+				item: "indrev:empty_enhancer"
+			}]
+			rewards: [{
+				id: "11BF0AB4A36E9625"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Enhancers"
+			x: -12.5d
+			y: 1.0d
+			subtitle: "These upgrades will improve certain aspects of the machine like speed and energy usage."
+			description: [
+				"Speed: will increase the machine's processing speed at cost of energy."
+				""
+				"Buffer: will increase the machine's internal energy capacity."
+				""
+				"Blasting: will make the Electric Furnace accept Blast Furnace recipes."
+				""
+				"Smoker: will make the Electric Furnace accept Smoker recipes."
+			]
+			dependencies: ["76C21BAB566F66A9"]
+			id: "707124C02270FC3E"
+			tasks: [
+				{
+					id: "056A302B4A42091A"
+					type: "item"
+					item: "indrev:buffer_enhancer"
+				}
+				{
+					id: "6AA190C4346A526C"
+					type: "item"
+					item: "indrev:speed_enhancer"
+				}
+				{
+					id: "0D800109FAF6E8CD"
+					type: "item"
+					item: "indrev:blast_furnace_enhancer"
+				}
+				{
+					id: "7D6E4AA15A9FC4D7"
+					type: "item"
+					item: "indrev:smoker_enhancer"
+				}
+				{
+					id: "2CC2B59693FA6602"
+					type: "item"
+					item: "indrev:damage_enhancer"
+				}
+			]
+			rewards: [{
+				id: "6B858052DF67DC3E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Poor Man's Compressor"
+			x: -8.0d
+			y: -3.0d
+			subtitle: "Craft a Forge Hammer from MI and make your first plates."
+			description: [
+				"TIP: Use hammers while crafting in the Forge Hammer."
+				""
+				"These hammers will save you lots of resources."
+				""
+				"NOTE: Indrev Hammer is disabled."
+			]
+			dependencies: ["72FAE2CEB348AF96"]
+			dependency_requirement: "all_started"
+			id: "279C25C775C22B7E"
+			tasks: [
+				{
+					id: "38FF00648317CA47"
+					type: "item"
+					item: "modern_industrialization:tin_plate"
+				}
+				{
+					id: "3F644DD10ADA8B85"
+					type: "item"
+					item: "modern_industrialization:copper_plate"
+				}
+				{
+					id: "550F31D9A31FE1AC"
+					type: "item"
+					item: "modern_industrialization:iron_plate"
+				}
+			]
+			rewards: [{
+				id: "278A2E90AFCDB9A0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Factory Components"
+			x: 5.0d
+			y: -4.5d
+			subtitle: "You'll be able to visualize the block positions by right clicking a factory."
+			dependencies: ["2094448C58554B0B"]
+			id: "60A8108BE12AFB39"
+			tasks: [
+				{
+					id: "38ED6ABEB7DBD348"
+					type: "item"
+					item: "indrev:frame"
+					count: 9L
+				}
+				{
+					id: "60ACF87793F77948"
+					type: "item"
+					item: "indrev:silo"
+					count: 6L
+				}
+				{
+					id: "1C5256772EF58948"
+					type: "item"
+					item: "indrev:intake"
+					count: 3L
+				}
+				{
+					id: "73B89854D6DA6CE5"
+					type: "item"
+					item: "indrev:duct"
+					count: 3L
+				}
+				{
+					id: "01915D287A13387C"
+					type: "item"
+					item: "indrev:cabinet"
+					count: 2L
+				}
+				{
+					id: "4484E6789FF66185"
+					type: "item"
+					item: "indrev:warning_strobe"
+				}
+				{
+					id: "6D730271D98B0803"
+					type: "item"
+					item: "indrev:controller"
+				}
+			]
+			rewards: [
+				{
+					id: "5185DE4238D4AB56"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 12
+				}
+				{
+					id: "773CE85966D33F77"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 12
+				}
+				{
+					id: "5696355503C2B666"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "0D6E550E5B126A3D"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -3.5d
+			subtitle: "Don't forget your servos"
+			dependencies: ["6F89CD6C818B0B90"]
+			id: "2199A3717A0431FB"
+			tasks: [{
+				id: "31A68C5E6F3BE266"
+				type: "item"
+				item: "indrev:fluid_pipe_mk2"
+			}]
+			rewards: [{
+				id: "440E72651B7C90D6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.5d
+			subtitle: "Don't forget your servos"
+			dependencies: ["298C314EC06AD61E"]
+			id: "3ECA6414D58449DD"
+			tasks: [{
+				id: "74534788035362A2"
+				type: "item"
+				item: "indrev:item_pipe_mk2"
+			}]
+			rewards: [{
+				id: "0AA6FE219A0D25AA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.5d
+			dependencies: ["22B972FA05163190"]
+			id: "49B55A5E5510AA48"
+			tasks: [{
+				id: "57EABDF07EE79675"
+				type: "item"
+				item: "indrev:cable_mk2"
+			}]
+			rewards: [{
+				id: "07707A91F2F393DF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.5d
+			subtitle: "Fluid pipes can be used to transfer fluids between tanks far apart."
+			dependencies: ["2366955CB2AB1234"]
+			id: "6F89CD6C818B0B90"
+			tasks: [{
+				id: "3D0B6ABE07C06658"
+				type: "item"
+				item: "indrev:fluid_pipe_mk1"
+			}]
+			rewards: [{
+				id: "03D83DCD6EDF3D49"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -5.5d
+			subtitle: "Item pipes can be used to transfer items between inventories far apart."
+			description: [
+				"Don't forget to set the input/output of a machine."
+				""
+				"Don't forget the servos. To optimize on performance, try to use the least amount of piping and servos you can if you decide to do a large operation."
+			]
+			dependencies: ["2366955CB2AB1234"]
+			id: "298C314EC06AD61E"
+			tasks: [{
+				id: "5A97C9ECE9C54E89"
+				type: "item"
+				item: "indrev:item_pipe_mk1"
+			}]
+			rewards: [{
+				id: "0FAF067F082BE5F4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			subtitle: "Cables can be used to transfer power between machines far apart from each other."
+			description: [
+				""
+				"Used to distribute power. Does not require servos."
+			]
+			dependencies: [
+				"096656EAD28C0878"
+				"2366955CB2AB1234"
+			]
+			id: "22B972FA05163190"
+			tasks: [{
+				id: "258B02AFA8680893"
+				type: "item"
+				item: "indrev:cable_mk1"
+			}]
+			rewards: [{
+				id: "09F245D7B37C6427"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Servos"
+			x: -9.5d
+			y: -4.5d
+			subtitle: "Item and fluid pipes require servos to function."
+			description: [
+				"Click on the pipe connected to your container to attach a servo. Use a wrench to remove it."
+				""
+				"Servos have multiple modes to define priorities. Click on the servo to change it."
+				""
+				"Nearest first:  the servo will look for the closest container."
+				""
+				"Furthest first: the servo will look for the furthest container."
+				""
+				"Random: the servo will chose a random container."
+				""
+				"Round Robin: the servo will look for the container with the least amount of the transferred fluid/item."
+				""
+				"The Output Servo will push items/fluids to nearby containers UNLESS they are also marked as output."
+				""
+				"The Retriever Servo will pull items/fluids from nearby UNLESS they are also marked as retriever."
+			]
+			dependencies: [
+				"096656EAD28C0878"
+				"72FAE2CEB348AF96"
+			]
+			id: "2366955CB2AB1234"
+			tasks: [
+				{
+					id: "642EC72609F0F51D"
+					type: "item"
+					item: {
+						id: "indrev:servo_retriever"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "680A01AC3697C85A"
+					type: "item"
+					item: {
+						id: "indrev:servo_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "2782415DD5C958FC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.5d
+			dependencies: ["49B55A5E5510AA48"]
+			id: "03F6EF819F101266"
+			tasks: [{
+				id: "5D2B52C752888C2A"
+				type: "item"
+				item: "indrev:cable_mk3"
+			}]
+			rewards: [{
+				id: "1A9B7A30AAECAE28"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -4.5d
+			dependencies: ["03F6EF819F101266"]
+			id: "5A98B8264695375C"
+			tasks: [{
+				id: "5D405BBC010DDBD7"
+				type: "item"
+				item: "indrev:cable_mk4"
+			}]
+			rewards: [{
+				id: "5CE1354CD0DC0A38"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			dependencies: ["2199A3717A0431FB"]
+			id: "24E0748FC28B20F8"
+			tasks: [{
+				id: "338A6D704171F6EC"
+				type: "item"
+				item: "indrev:fluid_pipe_mk3"
+			}]
+			rewards: [{
+				id: "791B97E8B46C3AB4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -3.5d
+			dependencies: [
+				"24E0748FC28B20F8"
+				"300DF9751F4E8837"
+			]
+			id: "28BC178B714DD47F"
+			tasks: [{
+				id: "39B41CC0BF425639"
+				type: "item"
+				item: "indrev:fluid_pipe_mk4"
+			}]
+			rewards: [{
+				id: "0BC28E58B7DEEE0E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -5.5d
+			dependencies: ["3ECA6414D58449DD"]
+			id: "1C3E816F7AC2A24E"
+			tasks: [{
+				id: "57122F006261DFFC"
+				type: "item"
+				item: "indrev:item_pipe_mk3"
+			}]
+			rewards: [{
+				id: "673C2FEFA35058A6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -5.5d
+			dependencies: ["1C3E816F7AC2A24E"]
+			id: "501F6918D0413C46"
+			tasks: [{
+				id: "211F0434522552E5"
+				type: "item"
+				item: "indrev:item_pipe_mk4"
+			}]
+			rewards: [{
+				id: "5468A1F377DE8E16"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Welcome to the Revolution!"
+			x: -8.0d
+			y: -7.5d
+			subtitle: "Choose the best. Choose INDREV!"
+			description: [
+				"Scientists have done a good job at making machines smart enough not to explode and to benefit from temperature. Every machine has an optimal temperature which will never exceed."
+				""
+				"In order for the machine to stay on its optimal temperature, it needs to cool down often."
+				""
+				"While it's cooling down, it will not have the efficiency boost."
+			]
+			id: "1CE1C8FC892A6F84"
+			tasks: [{
+				id: "5AA23A717BC9D641"
+				type: "checkmark"
+				icon: "indrev:guide_book"
+			}]
+			rewards: [{
+				id: "419AC8433FA360AA"
+				type: "item"
+				item: "indrev:guide_book"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
+			dependencies: ["60A8108BE12AFB39"]
+			id: "4C0B1B9315FEB7D6"
+			tasks: [{
+				id: "62747E8844756A8E"
+				type: "item"
+				item: "indrev:electric_furnace_factory_mk4"
+			}]
+			rewards: [
+				{
+					id: "059C0AB2FCC56E3F"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "700FE718B977F66F"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+				{
+					id: "7788E71BD7C7E08F"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
+			dependencies: ["60A8108BE12AFB39"]
+			id: "6CC13ADEE091FAA7"
+			tasks: [{
+				id: "1790DABC3E5BFAEC"
+				type: "item"
+				item: "indrev:pulverizer_factory_mk4"
+			}]
+			rewards: [
+				{
+					id: "298E39BB35B71199"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "3D4C7471B2235326"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+				{
+					id: "12D9C4DC72A3768D"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
+			dependencies: ["60A8108BE12AFB39"]
+			id: "6AC26B6C1525155B"
+			tasks: [{
+				id: "66777FB617B6DED4"
+				type: "item"
+				item: "indrev:compressor_factory_mk4"
+			}]
+			rewards: [
+				{
+					id: "138AF79E3F362F35"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "65042EC0CA81A52C"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+				{
+					id: "6DD320A876D4E29A"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
+			dependencies: ["60A8108BE12AFB39"]
+			id: "0DFA948FD9DD8943"
+			tasks: [{
+				id: "37B41479BCC582F1"
+				type: "item"
+				item: "indrev:solid_infuser_factory_mk4"
+			}]
+			rewards: [
+				{
+					id: "0C24F97292B6B471"
+					type: "item"
+					item: "modern_industrialization:steel_plate"
+					count: 3
+				}
+				{
+					id: "533A073C50011CC1"
+					type: "item"
+					item: "modern_industrialization:silver_plate"
+					count: 3
+				}
+				{
+					id: "746764C1CC14D22B"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "indrev:pump_mk1"
+			x: -4.5d
+			y: -3.0d
+			subtitle: "Used to pump fluids placed in the world into fluid pipes and tanks."
+			description: [
+				"Usage: You must input energy from the top and take the fluid from the side it is facing."
+				""
+				"After receiving energy, it will drop down a pipe looking for fluids to pump."
+				""
+				"There is no hard limit, except for the fluid's physics."
+				""
+				"As long as there is fluid touching the pump's pipe, source or not, it will look for a source block to pump."
+				""
+				"This means it can be used to drain lava lakes from the Nether."
+			]
+			dependencies: ["60E79DB91F2919BD"]
+			id: "3747C4CCD1F8DBB7"
+			tasks: [
+				{
+					id: "6DA81FA2745A4BFE"
+					type: "item"
+					item: "indrev:pump_mk1"
+				}
+				{
+					id: "425233ED2C940E6D"
+					type: "item"
+					item: "indrev:drain_mk1"
+				}
+			]
+			rewards: [
+				{
+					id: "5C6D97E7668B3098"
+					type: "loot"
+				}
+				{
+					id: "19808F09D6FE3E09"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 8090608
+							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Charging the Core of Modularity"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "The base for every modular tool."
+			description: [
+				"To activate it, you'll need at least one Laser, one Capsule and a lot of stored energy (100M)."
+				""
+				"The Capsule will hold your Core of Modularity during the process of activation."
+				""
+				"It will emit a redstone signal when it's finished."
+				""
+				"Laser Emitters should be placed facing the capsule with AN EXACT 3 BLOCKS DISTANCE. They store up to 2,5M LF and require a redstone signal to be toggled on."
+				""
+				"This process takes time but it goes faster for each laser emitter active."
+				""
+				"You must pay attention to these details to avoid problems:"
+				""
+				"- Pointing the laser emitter to something other than the capsule or and empty capsule will result in explosion."
+				""
+				"- If the laser emitters run out of power during the process, all progress will be lost."
+				""
+				"- Make sure to turn off your laser emitters before retrieving the activated core."
+			]
+			dependencies: ["61096F382C04254A"]
+			id: "3BCE5F8D19C6D53F"
+			tasks: [
+				{
+					id: "14DD0067D573465C"
+					type: "item"
+					item: "indrev:laser_emitter_mk4"
+				}
+				{
+					id: "4496671EA77E9495"
+					type: "item"
+					item: "indrev:capsule"
+				}
+				{
+					id: "70BE041B9B65C2DF"
+					type: "item"
+					item: "indrev:modular_core"
+				}
+			]
+			rewards: [{
+				id: "789B8EBA44137D09"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Module levels can be configured any way you want, go into the Controls menu and add a keybind to Modular item configuration."]
+			dependencies: ["3BCE5F8D19C6D53F"]
+			id: "6873CA3A8CD43343"
+			tasks: [{
+				id: "35D41B3A51A85FF6"
+				type: "item"
+				item: "indrev:modular_core_activated"
+			}]
+			rewards: [{
+				id: "5A5099B092E1219D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Used to install modules onto Modular Armor parts."
+			description: [
+				"Notice that installing modules cost time and some energy!"
+				""
+				"The Modular Armor is, on it's own, not much, but when you install modules, it can become very powerful!"
+				""
+			]
+			dependencies: ["2094448C58554B0B"]
+			id: "61096F382C04254A"
+			tasks: [{
+				id: "140BC8875C9E1DB1"
+				type: "item"
+				item: "indrev:modular_workbench_mk4"
+			}]
+			rewards: [{
+				id: "1C33ED6AFA03FA1F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "2094448C58554B0B"
+			tasks: [{
+				id: "76A9AC313BDD324B"
+				type: "item"
+				item: "modern_industrialization:steel_plate"
+				count: 4L
+			}]
+			rewards: [{
+				id: "37847037A012D05C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			subtitle: "Upgrades MK1 machines to MK2."
+			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
+			dependencies: ["5126D10B28A64460"]
+			id: "38A91661EED44D9D"
+			tasks: [{
+				id: "4F4D8685014D737B"
+				type: "item"
+				item: "indrev:tier_upgrade_mk2"
+			}]
+			rewards: [{
+				id: "587EA64BEAEB47E2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			subtitle: "Upgrades MK2 machines to MK3."
+			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
+			dependencies: ["7A318DEE361289B5"]
+			id: "34998627D22F1DBE"
+			tasks: [{
+				id: "67E4C8E1A578868E"
+				type: "item"
+				item: "indrev:tier_upgrade_mk3"
+			}]
+			rewards: [{
+				id: "3272E3642C6BAEB3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			subtitle: "Upgrades MK3 machines to MK4."
+			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "3DF54B764A56AF28"
+			tasks: [{
+				id: "0D4A3AF2AE73BE76"
+				type: "item"
+				item: "indrev:tier_upgrade_mk4"
+			}]
+			rewards: [{
+				id: "07F13B3B745111E0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mining Rig"
+			x: 3.0d
+			y: -7.5d
+			subtitle: "I have confidence in mining. I see exciting opportunities in it."
+			description: [
+				""
+				""
+				"Mining Rig Drills are required for the Mining Rig Computer to work. They have to be placed next to the Computer and require drill heads to work. Each Drill increases the mining speed."
+				"Can hold up to 8 mining rig drills, make sure each one has a drill head."
+				""
+				"Note that the Drills can be placed connected or diagonally to the Mining Rig Computer."
+			]
+			dependencies: [
+				"65E60EDD6DE18DC2"
+				"2094448C58554B0B"
+			]
+			id: "01F3CA98E98590FD"
+			tasks: [
+				{
+					id: "3A3A6FA7D635E56C"
+					type: "item"
+					item: "indrev:mining_rig_mk4"
+				}
+				{
+					id: "44DA8D0214330F39"
+					type: "item"
+					item: "indrev:drill_bottom"
+				}
+			]
+			rewards: [{
+				id: "7E48E5130E230EB3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			subtitle: "Recharge your batteries!"
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "7F905EDB05E4BE17"
+			tasks: [{
+				id: "47F075B67F7DD537"
+				type: "item"
+				item: "indrev:charge_pad_mk4"
+			}]
+			rewards: [{
+				id: "1E7965DA8EB42F5A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Ore Multiplication"
+			x: 2.0d
+			y: -7.5d
+			subtitle: "Used in the process of tripling and quadrupling ore."
+			description: [
+				"Insert your ores into an Industrial Smelter. It will smelt them into their fluid forms."
+				""
+				"Move your molten ore into a Condenser."
+				""
+				"It will solidify them into a Ore Chunk."
+				""
+				"Pulverize your Ore Chunk, which will then give you a dust."
+				""
+				"Smelt your dust."
+				""
+				"Done! Now you've transformed 1 ore into 3 ingots!"
+			]
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "0BED18C671FC94A5"
+			tasks: [
+				{
+					id: "0969ABA5C3C54F24"
+					type: "item"
+					item: "indrev:condenser_mk4"
+				}
+				{
+					id: "18A20622211F1C01"
+					type: "item"
+					item: "indrev:smelter_mk4"
+				}
+			]
+			rewards: [{
+				id: "2FCDBB4BBCA0CABD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			subtitle: "Can process organic resources into biomass which can be used for energy generation."
+			dependencies: ["68DB32F00BACEEFD"]
+			id: "7155E1782D7A5CC3"
+			tasks: [{
+				id: "2D28B880B3E44414"
+				type: "item"
+				item: "indrev:recycler_mk2"
+			}]
+			rewards: [{
+				id: "2B02F5E3B81155C5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "This is probably what you are looking for in terms of energy creation."
+			description: ["Will burn biomass to generate energy."]
+			dependencies: ["7155E1782D7A5CC3"]
+			id: "5A66FE8A5EC1BAC5"
+			tasks: [{
+				id: "79C357A391B887D6"
+				type: "item"
+				item: "indrev:biomass_generator_mk3"
+			}]
+			rewards: [{
+				id: "3FEA619A9B299655"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			subtitle: "Will consume lava inside it to generate energy. Pairs up well with the pump."
+			dependencies: ["13BA3A6E648DF2E4"]
+			id: "18B6548E50B087D3"
+			tasks: [{
+				id: "5A05A31972972B83"
+				type: "item"
+				item: "indrev:heat_generator_mk4"
+			}]
+			rewards: [{
+				id: "44EBF25DDD272F6A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+					}
+				}
+			}]
+		}
+	]
+}

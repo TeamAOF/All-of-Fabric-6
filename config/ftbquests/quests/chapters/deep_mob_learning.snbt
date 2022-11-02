@@ -1,0 +1,466 @@
+{
+	id: "36C36FC0225A052C"
+	group: "36480AFE3722FADC"
+	order_index: 1
+	filename: "deep_mob_learning"
+	title: "Deep Mob Learning"
+	icon: "dml-refabricated:deep_learner"
+	always_invisible: true
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.5d
+			y: -2.5d
+			subtitle: "To get started with the mod you will need a Blank Data Model."
+			description: [
+				"A blank data model does absolutely nothing, you will need to bound it with a Category."
+				""
+				"Categories are (as the name suggests) categories of aggressive mobs in Minecraft."
+				""
+				"Currently, these are the categories:"
+				""
+				"- From Hades"
+				"Groups common mobs of the Nether."
+				""
+				"- Overworld"
+				"Groups common mobs of the Overworld."
+				""
+				"- Slimy"
+				"Groups slime-like mobs."
+				""
+				"- Rotten Guys"
+				"Groups zombie mobs."
+				""
+				"- Spooky Scary Skeletons"
+				"Groups skeletons mobs."
+				""
+				"- End Mobs"
+				"Groups common mobs of The End."
+				""
+				"- From Emeritus"
+				"Groups Ghost mobs."
+				""
+				"- Illager Mobs"
+				"Groups Illager-like mobs."
+				""
+				"- Poseidon Children"
+				"Groups ocean mobs."
+			]
+			dependencies: ["394DCDE468051067"]
+			id: "2EA2885C13B2C158"
+			tasks: [{
+				id: "6FD0D261E90790A2"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "640CD95998E28E2D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			subtitle: "Collect data about the mobs you want to learn."
+			description: [
+				"Right-click with it and you will be presented to its GUI."
+				""
+				"Pick your Data Model and put in one of the slots, you will be able to preview in the left side which mobs are in the category you chosen."
+				""
+				"A single Deep Learner supports 4 Data Models at the same time, you can navigate through them using the arrow buttons above the slots."
+				""
+				"The Deep Learner also shows the current model's Data Amount and Tier. You can also view this just by putting your mouse above the Data Model and looking at its tooltip."
+				""
+				"Just keep your Deep Learner in hands (in your hotbar) and start killing mobs!"
+				""
+				"Just keep killing mobs and you will notice the Data Amount of your Data Models getting higher, and its Tier will be higher too."
+			]
+			dependencies: ["0CCCC61B10044F46"]
+			id: "5A7277E2D1A1C51D"
+			tasks: [{
+				id: "1F74315ED1FF9FCB"
+				type: "item"
+				item: "dml-refabricated:deep_learner"
+			}]
+			rewards: [{
+				id: "4009893D92F2BBE3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			subtitle: "Craft a Trial Keystone."
+			description: [
+				"The Trial Key used in the crafting has no effect, so I's suggest you to use an Unbound one to avoid loosing your precious data."
+				""
+				"After you have one, put it in a good location in the world and start getting ready for your fight."
+				""
+				"Before getting into the fight, I'd like to present to you who you gonna fight:"
+				""
+				"> The System Glitch is a pretty strong mob, its life will vary depending of the tier of the Trial you are running. He is also pretty fast, and will be teleporting and tricking you."
+				""
+				"To get started, get a bound Trial Key and click in the Trial Keystone!"
+			]
+			dependencies: ["2EF788D6F29C5EDA"]
+			id: "01D568488C874E51"
+			tasks: [{
+				id: "1CAE14E935895EEE"
+				type: "item"
+				item: "dml-refabricated:trial_keystone"
+			}]
+			rewards: [{
+				id: "04A1C279905FF779"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			subtitle: "Challenge to a fight!"
+			description: [
+				"Trial Keys are what you will be using to getting the attention of the System Glitch and challenging it to a fight."
+				""
+				"Now that you have a Trial Key, you should bound it to the category and tier you want to fight."
+				""
+				"Just put an unbound Trial Key in the crafting table next to a Data Model."
+				""
+				"All the data inside your Trial Model will be transferred to the Trial Key, and the Data Model well be gone."
+				""
+				"Pay attention to the tier and category of the Data Model you bind to the Key. Certain categories are harder than others, and high tiered trials can be very difficult."
+				""
+				"You may have noticed that your Trial Key also has a \"Affixes\" list. Those are special effects that can occur during the trial. Some of them may help you, some of them not."
+			]
+			dependencies: ["5A7277E2D1A1C51D"]
+			id: "2EF788D6F29C5EDA"
+			tasks: [{
+				id: "1712246FD3D1B782"
+				type: "item"
+				item: {
+					id: "dml-refabricated:trial_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "68922F15BA7974D2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			subtitle: "Turn Pristine Matter into loot!"
+			description: [
+				"Loot Fabricator is the machine you will be using to turn Pristine Matter into something useful."
+				""
+				"You can put those inside a Loot Fabricator and wait until it turns into mob loot."
+				""
+				"Each Pristine Matter is equivalent of killing 16 mobs of its category."
+				""
+				"In other words the loot that will be given to you is what you would gain if you kill 16 mobs (with no Loot enchantment) of the matter's category."
+				""
+				"You can input and extract items to/from the Loot Fabricator by using hoppers or pipes."
+			]
+			dependencies: ["7CB1D7180312E135"]
+			id: "22AED97627B96620"
+			tasks: [{
+				id: "26F16521AC49E60B"
+				type: "item"
+				item: "dml-refabricated:loot_fabricator"
+			}]
+			rewards: [{
+				id: "4722E3648A60B43E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot."
+			description: [
+				"As I said before, you will be facing the System Glitch at your fight, but it is not alone!"
+				""
+				""
+				"Higher tiers will have bigger waves, and they will be called faster. So, pay attention to it."
+				""
+				"Sometimes the waves will be enemies even harder than the System Glitch itself."
+				""
+				"Those ingots alone are completely useless. But maybe if you combine with a piece of netherite armor you will get something useful. Try doing it in the Smithing Table."
+			]
+			dependencies: ["01D568488C874E51"]
+			id: "3F69B97A783AC81C"
+			tasks: [{
+				id: "763F3B0C76A6CB16"
+				type: "item"
+				item: "dml-refabricated:glitch_ingot"
+			}]
+			rewards: [{
+				id: "02388A14D1691B7B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Data Models"
+			x: -8.0d
+			y: -2.5d
+			subtitle: "Craft a Data Model of choice."
+			description: ["Data Models are chips where you will store the information of mobs you learn."]
+			dependencies: ["2EA2885C13B2C158"]
+			id: "0CCCC61B10044F46"
+			tasks: [{
+				id: "4A4F270C7B4CB954"
+				type: "item"
+				title: "Get a data model"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "dml-refabricated:data_model_illager"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_ocean"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_slimy"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_overworld"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_zombie"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_nether"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_skeleton"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_end"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "dml-refabricated:data_model_ghost"
+								tag: { }
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "51A4345B62855F6F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			subtitle: "Now that you have some Data Models that are leveled up to at least Basic tier, we can move on to the good stuff."
+			description: [
+				"Provide the Simulation Chamber with energy and place some Polymer Clay in the top right slot that has an E in it."
+				""
+				"Now, you will have to put one of your Data Models into the Simulation Machine."
+				""
+				"Shift left click on a Data Model in your inventory to move it into the Simulation Chamber."
+				""
+				"Once the Simulation Chamber has a Data Model that is a minimum of Basic Tier, some polymer clay, and some energy, it will start running simulations."
+				""
+				"There are 4 types of ordinary matter: Overworldian Matter, Hellish Matter, Extraterrestrial Matter, and Twilight Matter."
+				""
+				"The matter that is produced by a simulation depends on the dimension from which the mob in the Data Model originates."
+				""
+				"For example, an Enderman Data Model produces Extraterrestrial Matter. Holding shift while hovering your mouse over a Data Model will tell you what kind of Data Model it is."
+			]
+			dependencies: ["7CB1D7180312E135"]
+			id: "0DEE3926C25C2221"
+			tasks: [{
+				id: "79866817A5588058"
+				type: "item"
+				item: "dmlsimulacrum:simulation_chamber"
+			}]
+			rewards: [{
+				id: "2604E932DD35A4D8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.5d
+			subtitle: "Upgrade your armor!"
+			description: [
+				"Grab a bit of Pristine Matter and start filling your Matter Condenser with the armor piece you want to upgrade and the matter."
+				""
+				"Its pretty expensive tho, but it may be worth it."
+				""
+				"The armor protection amounts will be increasing as the armor tier increases too. Soon there will be some sick extra features about that"
+			]
+			dependencies: ["7CB1D7180312E135"]
+			id: "6F9393A8015541A8"
+			tasks: [{
+				id: "195D1CB694FDCF69"
+				type: "item"
+				item: "dml-refabricated:matter_condenser"
+			}]
+			rewards: [{
+				id: "14F32FFE7B104847"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			subtitle: "Craft a Soot Machine Casing."
+			dependencies: ["394DCDE468051067"]
+			id: "7CB1D7180312E135"
+			tasks: [{
+				id: "6C44B445254F46B8"
+				type: "item"
+				item: "dml-refabricated:machine_casing"
+			}]
+			rewards: [{
+				id: "1F6FE2FE8D3A61E5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			subtitle: "Rub your redstone on a block of coal."
+			description: [
+				"To progress in Deep Mob Learning you will need Soot-covered Redstone. Those are created by punching redstone against a Coal Block."
+				""
+				"This is a key ingredient."
+			]
+			id: "394DCDE468051067"
+			tasks: [{
+				id: "5EEB04255651FBAE"
+				type: "item"
+				item: "dml-refabricated:soot_redstone"
+			}]
+		}
+	]
+}

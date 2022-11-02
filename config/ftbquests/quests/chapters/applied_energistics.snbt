@@ -1,0 +1,1266 @@
+{
+	id: "1C4A7D73409E23C9"
+	group: "33A417364C0A17FE"
+	order_index: 1
+	filename: "applied_energistics"
+	title: "Applied Energistics 2"
+	icon: "ae2:singularity"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Crystals are the way"
+			x: -6.5d
+			y: -5.5d
+			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			id: "409FDC9E0FBF40CB"
+			tasks: [{
+				id: "057AFA385B6AD0B6"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			subtitle: "Use a powered Charger to charge Certus Quartz Crystal."
+			dependencies: ["4AC1C083537E8706"]
+			id: "4ACC10C8890C306E"
+			tasks: [{
+				id: "2BCC42993452589F"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "491253597D5084B5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.0d
+			dependencies: ["4ACC10C8890C306E"]
+			id: "033814C6CFAF56E6"
+			tasks: [{
+				id: "58065B40437B33DA"
+				type: "item"
+				item: "ae2:fluix_crystal"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "70DEAF9769F2D581"
+					type: "command"
+					title: "Logistics Loot Bag"
+					icon: "kubejs:loot_bag_rare"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
+					player_command: false
+				}
+				{
+					id: "58F4C75D516E78DA"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 16747259
+							Name: "Logistics & Storage Lootbag"
+							Loot: "aof:loot_bags/misc/logistics"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			subtitle: "Used to press items using various Inscriber Plates."
+			dependencies: ["4ACC10C8890C306E"]
+			id: "42721BC1F7734286"
+			tasks: [{
+				id: "2BDA459026191334"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+			rewards: [{
+				id: "595FF2C171F73766"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			subtitle: "Provides a way to charge supported tools through the ME Network."
+			description: [
+				"Power can be provided via the top or bottom, via either Fluix ME Glass Cable or other Cables, or other mod power cables. Items can be inserted or removed from any side."
+				""
+				"Can also be used to create Charged Certus Quartz Crystal from Certus Quartz Crystal."
+			]
+			dependencies: ["409FDC9E0FBF40CB"]
+			id: "4AC1C083537E8706"
+			tasks: [{
+				id: "283357E45102D87C"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "1B79CC50243E5337"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.5d
+			subtitle: "Converts energy from external systems into AE and stores it in the network."
+			dependencies: ["033814C6CFAF56E6"]
+			id: "44B22A645FC94C64"
+			tasks: [{
+				id: "7C8924F839D8D61E"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "1B210AE5834986EE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.0d
+			subtitle: "The simplest cable to make, transfers power."
+			description: [
+				"To craft colored cables surround a dye of any type with 8 cables of the same type ( color of the cables dosn't matter, but they must be the same type, glass, smart, etc ). You can also paint cables with any forge compatible paint brush in world."
+				""
+				"You can craft any colored cable with a water bucket to remove the dye."
+				""
+				"You can cover the cable with wool to create Fluix ME Covered Cable, and craft Fluix ME Smart Cable to get a better idea of what is going on with your Channels."
+			]
+			dependencies: ["44B22A645FC94C64"]
+			id: "3C12FD23932C3522"
+			tasks: [{
+				id: "1582C3D80B414E43"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+				count: 6L
+			}]
+			rewards: [{
+				id: "593C15EE90684F09"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			subtitle: "Used to accelerate crystal growth, which allows you to create Certus Quartz Crystal and Fluix Crystal from crystal dust."
+			dependencies: ["3C12FD23932C3522"]
+			id: "7B3F4A3D79F2988B"
+			tasks: [{
+				id: "7AA503B6ABF481D7"
+				type: "item"
+				item: "ae2:quartz_growth_accelerator"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1EB59762D58C2812"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			subtitle: "Throw em in water!"
+			description: [
+				"The Certus Quartz Dust you find can be grown into a Certus Quartz Crystal."
+				""
+				"First you must make a seed by combining the crystal dust with Sand. Then simply drop/throw the seed in water. The seed will not despawn and turn into a crystal over time."
+				""
+				"This process is very slow without the help of the Crystal Growth Accelerator."
+			]
+			dependencies: ["7B3F4A3D79F2988B"]
+			id: "7595957E9616FC92"
+			tasks: [{
+				id: "02C1F3E82404AE7E"
+				type: "item"
+				item: "ae2:fluix_crystal_seed"
+			}]
+			rewards: [{
+				id: "3F21DADFF0B35392"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			subtitle: "A Network requires power, which can be provided by various blocks, and may require ME Controller(s) if you require more than 8 channels on a single network."
+			dependencies: ["5683C69200EBC4CD"]
+			id: "696536A55ED81D6B"
+			tasks: [{
+				id: "6CB5F66C1E628B0E"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "1A3D29A06813FDB2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.5d
+			subtitle: "A smarter cable?"
+			description: [
+				"While bearing some similarity to Fluix ME Covered Cable in appearance, they provide diagnostic function by visualizing the channel usage on the cables, the channels appear as lit colored lines that run along the black stripe on the cables giving you an understanding of how your channels are being used on your network."
+				""
+				"The first four channels show as lines matching the color of the cable, the next four show as white lines."
+			]
+			dependencies: ["5683C69200EBC4CD"]
+			id: "2B641E7A30686BCF"
+			tasks: [{
+				id: "733C8308DEA8FB07"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+			rewards: [{
+				id: "008D0877DCEC2A6D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.0d
+			subtitle: "A block designed to do one thing, store Storage Cells."
+			description: [
+				"This block holds 10 storage cells so you can tightly pack your storage into a very small space."
+				""
+				"Shows their contents and the storage cell status on the front of the drive face."
+				""
+				"Red - Indicates the Storage Cell is Full."
+				""
+				"Orange - Indicates the Storage Cell cannot hold any more types, but it can store more items."
+				""
+				"Green - Indicates the cell can hold more types, or more items."
+				""
+				"Black - Indicates there is no channel, or power is offline."
+				""
+				"Its important to note, that without a ME Network this block does nothing. Its only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each Storage Cell stored inside it."
+			]
+			dependencies: ["5683C69200EBC4CD"]
+			id: "19FBAF9A70549BF5"
+			tasks: [{
+				id: "04A70F331336A1D5"
+				type: "item"
+				item: "ae2:drive"
+			}]
+			rewards: [{
+				id: "7E9F4AA168E58A8E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.5d
+			subtitle: "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
+			dependencies: ["19FBAF9A70549BF5"]
+			id: "3988E16DAA388261"
+			tasks: [{
+				id: "0FCC6C4E3FB97D07"
+				type: "item"
+				item: "ae2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "75CE478D2B8FB8D3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			subtitle: "A versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage."
+			description: [
+				"Tunnels are 1 input to N outputs. This means you can output to as many points as you want, but only input at a single point per tunnel."
+				""
+				"Networks can support any number of tunnels, of any different types, and they all function independently."
+				""
+				"ME Tunnels can be used to carry channels from one location to another, and can carry up to 32 channels, same as a Fluix ME Dense Covered Cable, while only requiring a single channel per point, making tunnels a very powerful tool to expand me networks, especially over a distance."
+				""
+				"The channel required by a P2P-Tunnel cannot be carried through another P2P-Tunnel."
+				""
+				"To configure a ME P2P Tunnel you must first attune the tunnel to carry what you want it to, then you need to configure the outputs to their input."
+				""
+				"You configure the connections by using the Memory Card; First Shift+Right Click the input to save it on your memory card, then simply right-click the different outputs to store the input onto the outputs."
+			]
+			dependencies: ["696536A55ED81D6B"]
+			id: "1286F9F4255B9A38"
+			tasks: [{
+				id: "5723EBB3D22A39E7"
+				type: "item"
+				item: "ae2:me_p2p_tunnel"
+			}]
+			rewards: [{
+				id: "7EDBD50C41804FD8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			dependencies: ["1286F9F4255B9A38"]
+			id: "5DD87AC2BC5F87F2"
+			tasks: [{
+				id: "07906B740B4ADB80"
+				type: "item"
+				item: {
+					id: "ae2:memory_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "01D6378FA78301D9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -5.5d
+			subtitle: "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
+			description: ["However it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels. Shows load similarly to Fluix ME Smart Cable, with each line lit representing four channels in use."]
+			dependencies: ["2B641E7A30686BCF"]
+			id: "1E435A4C1547934D"
+			tasks: [{
+				id: "4D657D4CBB6A2016"
+				type: "item"
+				item: "ae2:fluix_smart_dense_cable"
+			}]
+			rewards: [{
+				id: "20148FD6ABF3A786"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -9.5d
+			subtitle: "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
+			description: [
+				"1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks,while holding 63 Different items."
+				""
+				"The 1k Storage Cell uses 8 bytes of data to store a single type."
+			]
+			dependencies: ["19FBAF9A70549BF5"]
+			id: "215EF29F7DD6B37C"
+			tasks: [{
+				id: "3FDDED57431181C3"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3862AF9AC3809275"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: -9.5d
+			subtitle: "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
+			description: [
+				"4,096 bytes of storage can hold 508 Stacks of a single item. or 260 Stacks,while holding 63 Different items."
+				""
+				"The 4k Storage Cell uses 32 bytes of data to store a single type."
+			]
+			dependencies: ["19FBAF9A70549BF5"]
+			id: "5AB8DB04F4DA2F40"
+			tasks: [{
+				id: "2E155470D8151510"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7871D12FA7E70681"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -9.5d
+			subtitle: "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
+			description: [
+				"16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items."
+				""
+				"The 16k Storage Cell uses 128 bytes of data to store a single type."
+			]
+			dependencies: ["19FBAF9A70549BF5"]
+			id: "2A358437484E61CF"
+			tasks: [{
+				id: "0950907AA16E55FA"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5D2F3FC017AB8F28"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -9.5d
+			subtitle: "Highest Tier Storage Cell, which can contain 65,536 bytes of storage."
+			description: [
+				"65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items."
+				""
+				"The 64k Storage Cell uses 512 bytes of data to store a single type."
+			]
+			dependencies: ["19FBAF9A70549BF5"]
+			id: "451C8D5D92F1BAED"
+			tasks: [{
+				id: "7FAF15C54C21DDF8"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1A6F41E491B21E42"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.0d
+			subtitle: "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
+			description: [
+				"Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns."
+				""
+				"There are two modes for pattern encoding. Crafting Patterns, and Processing Patterns."
+				""
+				"Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines. "
+				""
+				"To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create Crafting Patterns, and when it shows a furnace, it will create Processing Patterns."
+			]
+			dependencies: [
+				"3988E16DAA388261"
+				"4555AD508D9C6CEB"
+			]
+			id: "34550EB511DF1DBC"
+			tasks: [{
+				id: "2A1935843BEBBF9F"
+				type: "item"
+				item: "ae2:pattern_encoding_terminal"
+			}]
+			rewards: [{
+				id: "7C6A62A9D5588C0E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.5d
+			subtitle: "A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
+			description: [
+				"It has the ability to sort and search, as well as filter by using View Cell. It requires a channel to function."
+				""
+				"Can be upgraded into a ME Crafting Terminal."
+			]
+			dependencies: ["19FBAF9A70549BF5"]
+			id: "4555AD508D9C6CEB"
+			tasks: [{
+				id: "2FEE9FBD8CE4FE03"
+				type: "item"
+				item: "ae2:terminal"
+			}]
+			rewards: [{
+				id: "26F52C51601BD009"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			subtitle: "Read ME Pattern Provider quest for more info."
+			dependencies: ["2BE8127E1180DA21"]
+			id: "115B865B26BE47E5"
+			tasks: [{
+				id: "5F3D81B7D3F27CA2"
+				type: "item"
+				item: "ae2:interface"
+			}]
+			rewards: [{
+				id: "0B4FDBCBAA5831A2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			subtitle: "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
+			description: ["It is the base for crafting the other functional components of a crafting CPU."]
+			dependencies: ["2BE8127E1180DA21"]
+			id: "159C31FE32578AD2"
+			tasks: [{
+				id: "2641A595A151CEC8"
+				type: "item"
+				item: "ae2:crafting_unit"
+			}]
+			rewards: [{
+				id: "30BE24275F44F396"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			subtitle: "Read ME Pattern Provider quest for more info."
+			dependencies: ["2BE8127E1180DA21"]
+			id: "63DF8DED795008EA"
+			tasks: [{
+				id: "1E101186DD63E8A3"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "178F2BFE35FEC675"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Provides 1024 bytes of storage for crafting."
+			dependencies: ["2BE8127E1180DA21"]
+			id: "719707385946F7F4"
+			tasks: [{
+				id: "00690EE1F30F9B99"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "4FB4B90AE6EC0CF9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Provides 4,096 bytes of storage for crafting."
+			dependencies: ["2BE8127E1180DA21"]
+			id: "2C7ABB61B3B1AD85"
+			tasks: [{
+				id: "640B719C25B50B4B"
+				type: "item"
+				item: "ae2:4k_crafting_storage"
+			}]
+			rewards: [{
+				id: "13598BC5905E2209"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Provides 16,384 bytes of storage for crafting."
+			dependencies: ["2BE8127E1180DA21"]
+			id: "1C9473DDA8CA1AC1"
+			tasks: [{
+				id: "3B28508C9447ACAC"
+				type: "item"
+				item: "ae2:16k_crafting_storage"
+			}]
+			rewards: [{
+				id: "332C3330F3C4B4EC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Provides 65,536 bytes of storage for crafting."
+			dependencies: ["2BE8127E1180DA21"]
+			id: "6862A2B7639A470E"
+			tasks: [{
+				id: "0505C3A757A97D86"
+				type: "item"
+				item: "ae2:64k_crafting_storage"
+			}]
+			rewards: [{
+				id: "6332444F21332D05"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			dependencies: ["115B865B26BE47E5"]
+			id: "5386766A061332CA"
+			tasks: [{
+				id: "6DD06942CEC418CB"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+			rewards: [{
+				id: "5DAFFE8DA3C58AF6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["5386766A061332CA"]
+			id: "05F88D164E0A2988"
+			tasks: [{
+				id: "006B723E69E57816"
+				type: "item"
+				item: "ae2:import_bus"
+			}]
+			rewards: [{
+				id: "3BF763104481DA3F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.0d
+			dependencies: ["05F88D164E0A2988"]
+			id: "578F8DD2ACBA9C6C"
+			tasks: [{
+				id: "3D82F453CBD0740A"
+				type: "item"
+				item: "ae2:export_bus"
+			}]
+			rewards: [{
+				id: "7BD6535BC687C272"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "Allows you to configure which users, and what permissions the users have with the ME System."
+			description: [
+				"By existing it enforces permissions on the usage of the system."
+				""
+				"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal."
+				""
+				"If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security."
+				""
+				"The player who places the ME Security Terminal has full control over the network and cannot exclude himself any rights."
+				""
+				"By adding a blank Biometric Card you define a default behavior for every player who has no own Biometric Card registered."
+				""
+				"Other than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly."
+			]
+			dependencies: ["679955AA48F79365"]
+			id: "57507836248CB116"
+			tasks: [{
+				id: "6FDD185D41E3E494"
+				type: "item"
+				item: "ae2:security_station"
+			}]
+			rewards: [{
+				id: "08E65237A30C764B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["57507836248CB116"]
+			id: "563432F2BB1EE1AF"
+			tasks: [{
+				id: "21C4930537157E49"
+				type: "item"
+				item: "ae2:biometric_card"
+			}]
+			rewards: [{
+				id: "7365A36669E59540"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			subtitle: "Allows wireless access via a Wireless Terminal."
+			description: [
+				"Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point."
+				""
+				"A network can have any number of ME Wireless Access Point with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup."
+				""
+				"Requires a channel to be operational."
+			]
+			dependencies: ["563432F2BB1EE1AF"]
+			id: "69597F2A6D80AE29"
+			tasks: [{
+				id: "4E38E22FE7B37FE6"
+				type: "item"
+				item: "ae2:wireless_access_point"
+			}]
+			rewards: [{
+				id: "040F18CE77CA8AB1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			subtitle: "Links up the WAT to the network."
+			dependencies: ["69597F2A6D80AE29"]
+			id: "0B27217B40C19911"
+			tasks: [{
+				id: "1CFC818DEC3E5B6C"
+				type: "item"
+				item: "ae2:wireless_terminal"
+			}]
+			rewards: [{
+				id: "11FF7CC765FBADB7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			subtitle: "Used to increase the range of the ME Wireless Access Point."
+			dependencies: ["0B27217B40C19911"]
+			id: "7814B078C6256761"
+			tasks: [{
+				id: "6C0BA4228CC4B8B0"
+				type: "item"
+				item: "ae2:wireless_booster"
+			}]
+			rewards: [{
+				id: "5CDAAC778DF57F6F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			subtitle: "Required to create a connection between to Quantum Network Bridges."
+			description: [
+				"They are always produced in matching pairs, to create a connection place 1 of the pair of Quantum Entangled Singularity into the ME Quantum Link Chamber of the bridge on each side."
+				""
+				"They are crafted by causing a reaction between Ender Pearl or Ender Dustand a Singularity. Any explosive force should be enough to trigger the reaction."
+				""
+				"Nearly any explosion - even creepers - will work."
+				""
+				"Always produced in pairs, but only require a single Singularity."
+				""
+				"It might be a good idea to label these with names when you create them using the vanilla anvil."
+			]
+			dependencies: ["679955AA48F79365"]
+			id: "5CF50859A98E45FB"
+			tasks: [{
+				id: "435ED5858F476384"
+				type: "item"
+				item: "ae2:quantum_entangled_singularity"
+			}]
+			rewards: [{
+				id: "3D8C0E1DF719FF5A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge."
+			description: [
+				"This block doesn't connect to any cables and only registers as part of the network with the full bridge is made."
+				""
+				"This blocks inventory can only hold a single Quantum Entangled Singularity and is automation accessible."
+			]
+			dependencies: ["5CF50859A98E45FB"]
+			id: "2FB251E717EA2F3C"
+			tasks: [{
+				id: "0DAFE1BDC893DE5F"
+				type: "item"
+				item: "ae2:quantum_link"
+			}]
+			rewards: [{
+				id: "0C4F350123A5E240"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			subtitle: "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
+			description: ["Only the 4 ME Quantum Ring blocks adjacent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables."]
+			dependencies: ["2FB251E717EA2F3C"]
+			id: "300343A7965531DD"
+			tasks: [{
+				id: "422C32A11B9803B4"
+				type: "item"
+				item: "ae2:quantum_ring"
+			}]
+			rewards: [{
+				id: "63263DBFF0651EE0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Security, Wireless and Beyond"
+			x: -6.5d
+			y: -3.0d
+			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			id: "679955AA48F79365"
+			tasks: [{
+				id: "1349A47C54D391CA"
+				type: "checkmark"
+				title: "Security and Wireless"
+			}]
+		}
+		{
+			title: "Automation is key!"
+			x: 2.5d
+			y: -3.0d
+			subtitle: "Use various interfaces and automate your network."
+			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			id: "2BE8127E1180DA21"
+			tasks: [{
+				id: "2E567019AD31DD51"
+				type: "checkmark"
+				title: "So you want to automate?"
+			}]
+		}
+		{
+			title: "Storage and Transport"
+			x: -11.0d
+			y: -5.5d
+			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			id: "5683C69200EBC4CD"
+			tasks: [{
+				id: "35DEBD075D82821D"
+				type: "checkmark"
+				title: "Storage and transport"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "Recipes need to be encoded into patterns to be usable by crafting CPUs."
+			description: [
+				"The encoded patterns need to be put into pattern providers on the same network as the Crafting CPU itself."
+				""
+				"When the crafting CPU then needs to craft the primary result of that pattern, it'll delegate this to the pattern provider."
+				""
+				"Normally, the pattern provider will then push out the ingredients to an adjacent block (a Molecular Assembler for crafting recipes, for example), and crafting continues once the result enters the network again."
+				""
+				"This can be achieved by pushing the crafting result back into the pattern provider, an ME Interface or any other means that would import the crafting result into the network."
+				""
+				"Molecular assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided the ingredients."
+			]
+			dependencies: ["2BE8127E1180DA21"]
+			id: "20AD73B935309188"
+			tasks: [{
+				id: "1A5F4DE4911B984A"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+			rewards: [{
+				id: "35D5FB8E01A3A074"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+	]
+}

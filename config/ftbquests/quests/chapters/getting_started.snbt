@@ -1,0 +1,192 @@
+{
+	id: "77498621DD383E8B"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	icon: "kibe:pocket_crafting_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to All of Fabric 6"
+			icon: "kubejs:aof6_logo"
+			x: 7.5d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "A Whole New World!"
+			description: [
+				"This chapter will introduce you to the basics of the pack."
+				""
+				"All of Fabric 6 offers the following:"
+				""
+				"- Challenges"
+				"- Learning Mods"
+				"- Adventuring"
+				"- Becoming a Chef"
+				""
+				"The adventures are ahead!"
+			]
+			size: 1.5d
+			id: "175F5611FB7716A4"
+			tasks: [{
+				id: "25B2DFAFD351900E"
+				type: "checkmark"
+				title: "Welcome to All of Fabric 5"
+				icon: "kubejs:aof5_logo"
+			}]
+			rewards: [{
+				id: "300CDF28987696BC"
+				type: "item"
+				item: {
+					id: "inmis:baby_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Ores Be Gone!"
+			description: [
+				"Excavate is by default bound to keybind \"Grave\""
+				""
+				"You can change this keybind by going into options and change the FTB Ultimine keybinds."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "7050DE96E151D1D1"
+			tasks: [{
+				id: "520CE3437306804D"
+				type: "checkmark"
+				title: "Excavate"
+				icon: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "techreborn:wrench"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Feel lost? Do not worry!"
+			description: [
+				"Mods are split into 4 categories:"
+				""
+				"- Technology"
+				"- Magic"
+				"- Utilities"
+				"- Logistics"
+				""
+				"Respectively, each chapter will guide you through progression."
+				""
+				"Certain chapters will have tips and tricks on how to ease your adventures with useful trinkets and gadgets."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "257EAB9268907E1D"
+			tasks: [{
+				id: "60A1EB763CF25699"
+				type: "checkmark"
+				title: "Learning Mods"
+			}]
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.5d
+			y: 4.5d
+			subtitle: "If you truly love nature, you will find beauty everywhere."
+			description: [
+				"Dont feel like running thousands of blocks for that favorite biome of yours?"
+				""
+				"The Nature's Compass saves your day!"
+				""
+				"Search for the biome of choice, clap 3 times and start running!"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "4D39B9BD9B99383E"
+			tasks: [{
+				id: "1E78FE3CAE735910"
+				type: "checkmark"
+				title: "Where to settle down?"
+			}]
+			rewards: [{
+				id: "197C077CA5118D52"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Recipe Wizardry"
+			icon: "mcwtrpdoors:print_paper"
+			x: 7.5d
+			y: -1.0d
+			subtitle: "A recipe is a story that ends with a good meal."
+			description: [
+				"How to use an item? Hover over the item in REI and press \"U\" this will show you the uses, pay attention to the tabs."
+				""
+				"Dont know how to craft an item? Hover over the item and press \"R\"."
+				""
+				"Sometimes you have to start out processing a nugget, instead of an ingot or a block."
+				""
+				"You may need to look at the recipes for the material's respective nugget or sometimes even powders."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "2AB91711E9E7B298"
+			tasks: [{
+				id: "0657F4EC97E5ACAC"
+				type: "checkmark"
+				title: "I know how to use U and R"
+			}]
+		}
+		{
+			title: "Don't be a tourist, be a traveler"
+			x: 9.5d
+			y: 4.5d
+			subtitle: "Inventory cramped? Fear not!"
+			description: [
+				"The traveler's backpack can provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
+				""
+				"All inventory slots and tanks can be accessed via external pipes."
+				""
+				"The backpack also provides special buttons - sort, quick stack and transfer to manage inventory!"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "5A382E13722186FA"
+			tasks: [{
+				id: "418AF38E1BF686D8"
+				type: "item"
+				item: {
+					id: "travelersbackpack:standard"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "38AC5FFB000778CC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+	]
+}

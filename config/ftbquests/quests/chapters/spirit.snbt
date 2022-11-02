@@ -1,0 +1,483 @@
+{
+	id: "096178E8745A7B81"
+	group: "1039AC171AB01709"
+	order_index: 2
+	filename: "spirit"
+	title: "Spirit"
+	icon: "spirit:soul_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Make a Soul Fire"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "A Soulful Beginning"
+			description: ["Getting started in Spirit starts with making a simple soul fire. Most of the recipes will involve throwing items into a soul fire, sometimes surrounded by a multiblock structure."]
+			id: "7DB12309CFBAC872"
+			tasks: [
+				{
+					id: "6880E51D8E1909C7"
+					type: "item"
+					title: "Any soul fire base block"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:soul_fire_base_blocks"
+						}
+					}
+				}
+				{
+					id: "75AC0526B7114C4D"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "392FE58A974F5204"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.1d
+			y: 0.0d
+			subtitle: "No its not Floo powder"
+			description: [
+				"The start of almost any recipe in Spirit involves Soul Powder. Simply throw glowstone dust or blocks into soul fire and it will produce soul powder"
+				""
+				"You can use this soul powder to make the various crystals in the game, or to make soul steel for the various pedestals in Spirit."
+			]
+			dependencies: ["7DB12309CFBAC872"]
+			id: "4DCAFBE2471538E1"
+			tasks: [{
+				id: "0A8F36FC5B5AA0E5"
+				type: "item"
+				item: "spirit:soul_powder"
+			}]
+			rewards: [{
+				id: "2F7EE2C7D50F035B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.2d
+			y: 0.0d
+			subtitle: "Spiritually Reinforced"
+			description: [
+				"Soul Steel is the basis for more advanced uses of souls in Spirit. Its used as a crafting component for the pedestals in Spirit, as well as the tools and the soul cage."
+				""
+				"Although the soul steel tools need soul steel as a crafting component, they cannot be used as a repair material. Rather, throwing your tools into a soul fire will allow them to regain their durability."
+			]
+			dependencies: ["4DCAFBE2471538E1"]
+			id: "3C0EA955C527A549"
+			tasks: [{
+				id: "267E7829F047EDD4"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+			}]
+			rewards: [{
+				id: "3A7C3A6AE22BB61F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.1d
+			y: 1.5d
+			subtitle: "Soul Ensnarement"
+			description: [
+				"Spirit being a mod about souls, having a receptacle for souls is fairly important. By killing mobs, you can store souls in one of 3 kinds of crystals; Soul Crystal Shard, the Crude Soul Crystal, and the Soul Crystal."
+				""
+				"The Soul Crystal Shard can hold 1 soul of any type. This is fairly useful when you are just getting started with soul transmutation recipes, as the more expensive Soul Crystal is the only other way to store specific kinda of souls"
+				""
+				"The Crude Soul crystal can store a large amount of any kind of soul. While its useful for storing a large amount of souls, it unfortunately is unable to retain a specific kind of soul. This can be useful for storing large amounts of 'Crude' Souls for recipes or for ammo with the Soul Steel Bow."
+				""
+				"Lastly is the Soul Crystal. It can store the most of all the crystals, and can only store a souls of 1 kind of mob. This crystal is the most powerful of the crystal varieties, allowing you to harness the souls in the crystal to perform special abilities and to create a powerful mob spawner."
+			]
+			dependencies: ["4DCAFBE2471538E1"]
+			id: "5A48AB6285838A58"
+			tasks: [{
+				id: "3EC8BA43C7F70879"
+				type: "item"
+				item: "spirit:soul_crystal"
+			}]
+			rewards: [{
+				id: "7C7AA97C4093406B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.4d
+			y: 0.0d
+			subtitle: "Soulful Summoning"
+			description: [
+				"With enough soul steel, you are able to craft the Soul Cage. The Soul Cage is used to summon mobs of the same type found in the soul crystal inside of it."
+				""
+				"In order to summon mobs, the Soul Crystal inside the cage needs a minimum of 64 souls, with each tier after that needing twice as many souls (64, 128, 256, 512). Each tier grants new benefits or improvements to the soul cage, benefits that can be viewed in REI by pressing 'U' on the Soul Cage or Soul Crystal."
+				""
+				"Please note, even though you need to kill souls in order to increase the soul count on a crystal, mobs summoned from the Soul Cage do NOT increase the number of souls in the Soul Cage"
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "7F08BC132061C6B7"
+			tasks: [{
+				id: "70EC88D69A4EC1C4"
+				type: "item"
+				item: "spirit:soul_cage"
+			}]
+			rewards: [{
+				id: "0C909584AC4852DD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.40000000000000013d
+			y: 1.5d
+			subtitle: "Crystal Math"
+			description: [
+				"The Crystal Pedestal is a key tool for managing the souls in your soul crystal. By placing the soul crystal onto the pedestal, you are able to collect the souls from mobs that a player kills nearby it. This allows you to collect souls with other people! Note however, that the range is only around 4 blocks in each direction."
+				""
+				"By placing a soul crystal, you can also move souls off of one crystal onto another. Souls will always move from the players hand onto the pedestal. Note though, you can only combine souls of the same kind if you use the Soul Crystal, and souls transferred onto a Crude Soul Crystal lose their specificity."
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "68224BA2D42CF05B"
+			tasks: [{
+				id: "361310780454A9AA"
+				type: "item"
+				item: "spirit:crystal_pedestal"
+			}]
+			rewards: [{
+				id: "6127471AAEFBB469"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Cultish Tendencies"
+			description: [
+				"Some recipes in Spirit involve creating a ritual to perform Soul Transmutation. By setting up these pedestals in this EXACT setup, you can use souls and items to craft mobs and even other souls."
+				"{image:spirit:textures/quests/diagram.png width:160 height:100 align:1}"
+				""
+				"Right click the Soul Pedestal with a crystal containing souls to place a soul onto it. Using a Crude Soul Crystal will place a Crude Soul onto the table, while a Soul Crystal Shard or Soul Crystal will place a specific kind of soul."
+				""
+				"Right clicking a table with a specific kind of soul with a Soul Steel Wand will turn the soul into a Crude Soul."
+			]
+			dependencies: ["68224BA2D42CF05B"]
+			id: "10D39CBF282C6B93"
+			tasks: [
+				{
+					id: "08E1C94D9A75D5DD"
+					type: "item"
+					item: "spirit:soul_pedestal"
+				}
+				{
+					id: "010783BF82678A2D"
+					type: "item"
+					item: "spirit:pedestal"
+					count: 8L
+				}
+				{
+					id: "18473B617BB90585"
+					type: "item"
+					item: "spirit:soul_steel_wand"
+				}
+			]
+			rewards: [{
+				id: "1DE6E63DE8E883C8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5999999999999996d
+			y: -1.6999999999999993d
+			description: [
+				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
+				""
+				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "3983DD620664505B"
+			tasks: [{
+				id: "2247BF5E35761781"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "60B7100F991366BE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.6999999999999993d
+			description: [
+				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
+				""
+				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "63765EF8D9210758"
+			tasks: [{
+				id: "0F8B3D7F170345C3"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C8181AA57290CBF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.6999999999999997d
+			y: -1.6999999999999993d
+			description: [
+				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
+				""
+				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "046943F4BC7EEC3D"
+			tasks: [{
+				id: "4E463E6E28C2871F"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B527FB9BE3D0407"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.6d
+			y: -1.7000000000000002d
+			description: [
+				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
+				""
+				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "1CB2FC4B816A1192"
+			tasks: [{
+				id: "585B52946452042B"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "166ACB654A016528"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.7999999999999994d
+			y: -1.6999999999999997d
+			description: [
+				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
+				""
+				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "728998EC35AE202F"
+			tasks: [{
+				id: "07AF6B6A41E4DCF5"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CFFB6AE97983E59"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.899999999999999d
+			y: -1.6999999999999997d
+			description: [
+				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
+				""
+				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
+			]
+			dependencies: ["3C0EA955C527A549"]
+			id: "12F05D8C465678CB"
+			tasks: [{
+				id: "27DAAAFC96BD193E"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "71E3A5E434007D54"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+	]
+}

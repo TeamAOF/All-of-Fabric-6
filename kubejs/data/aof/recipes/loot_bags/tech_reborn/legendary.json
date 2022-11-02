@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Tech Reborn Legendary Lootbag",
+  "color": "#388eff",
+  "rarity": "LEGENDARY",
+  "output": {
+    "table": "aof:loot_bags/tech_reborn_legendary"
+  }
+}

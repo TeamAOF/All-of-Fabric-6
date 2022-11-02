@@ -1,0 +1,1175 @@
+{
+	id: "2D905E8603BFEC34"
+	group: "33A417364C0A17FE"
+	order_index: 0
+	filename: "storage"
+	title: "Storage"
+	icon: "twilightforest:twilight_oak_chest"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Bigger Chests"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "A looters choice of storage."
+			dependencies: ["14B66E70E819E971"]
+			id: "775BEA78AEB9EE77"
+			tasks: [{
+				id: "4E720A38A6D9CFE6"
+				type: "item"
+				item: "ironchests:iron_chest"
+			}]
+			rewards: [{
+				id: "72E6657DCBC091DD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Even bigger chests"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "May the chests be shining."
+			dependencies: ["775BEA78AEB9EE77"]
+			id: "04E1293B787FF906"
+			tasks: [{
+				id: "3D1ED067C24B1134"
+				type: "item"
+				item: "ironchests:gold_chest"
+			}]
+			rewards: [{
+				id: "0C6B40A1D5259F9B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["04E1293B787FF906"]
+			id: "7F69917A95491A52"
+			tasks: [{
+				id: "1ED0C18AAD522A97"
+				type: "item"
+				item: "ironchests:diamond_chest"
+			}]
+			rewards: [{
+				id: "0FDD16C621DE343E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["7F69917A95491A52"]
+			id: "723E09B161CC9E33"
+			tasks: [{
+				id: "6C3A22620D3799C5"
+				type: "item"
+				item: "ironchests:obsidian_chest"
+			}]
+			rewards: [{
+				id: "63EF1C387A4302C1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["723E09B161CC9E33"]
+			id: "072E1CD9A57ABD85"
+			tasks: [{
+				id: "29DEDBBF10195987"
+				type: "item"
+				item: "ironchests:netherite_chest"
+			}]
+			rewards: [{
+				id: "55B3A2B649CEF34A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.5d
+			subtitle: "Another storage drawer in disguise."
+			description: [
+				"Bronze barrels can used to store and move 32 stacks of one item."
+				""
+				"Amount of stacks allowed increase for each tier of barrel."
+			]
+			dependencies: ["523A049CF07AD75B"]
+			id: "701620712CC907D7"
+			tasks: [{
+				id: "00779B056A43DEEA"
+				type: "item"
+				item: "modern_industrialization:bronze_barrel"
+			}]
+			rewards: [{
+				id: "44DDE4E812AD843B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["701620712CC907D7"]
+			id: "3E9D89B146C5CD1A"
+			tasks: [{
+				id: "31025F43DEF2146E"
+				type: "item"
+				item: "modern_industrialization:steel_barrel"
+			}]
+			rewards: [{
+				id: "039EF16C6D85EDF1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["3E9D89B146C5CD1A"]
+			id: "4D0BDC938DA76D16"
+			tasks: [{
+				id: "6A117D9E6E6C396A"
+				type: "item"
+				item: "modern_industrialization:aluminum_barrel"
+			}]
+			rewards: [{
+				id: "2F49B370CC6AAFB5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: ["4D0BDC938DA76D16"]
+			id: "11A648D56AFA31D1"
+			tasks: [{
+				id: "1D224B514E4D27BB"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_barrel"
+			}]
+			rewards: [{
+				id: "015360CE95B7EA54"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["11A648D56AFA31D1"]
+			id: "4D59362F0B630ACA"
+			tasks: [{
+				id: "477D2F4E7B22493B"
+				type: "item"
+				item: "modern_industrialization:titanium_barrel"
+			}]
+			rewards: [{
+				id: "17B951959802C1F7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["4D59362F0B630ACA"]
+			id: "21BD1BBF2F0833A9"
+			tasks: [{
+				id: "01BCEFA7EAD4F9DB"
+				type: "item"
+				item: "modern_industrialization:quantum_barrel"
+			}]
+			rewards: [{
+				id: "6856885AE5974BD5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			subtitle: "Right-click with buckets or other tanks to transfer fluids."
+			description: [
+				"Bronze Tanks can store up to 4 buckets each."
+				"You can use that to interact with machines and can also be placed in the world."
+				""
+				"TIP: Tanks are stackable if containing the same fluid."
+			]
+			dependencies: ["523A049CF07AD75B"]
+			id: "3C5A8EA9636BF12F"
+			tasks: [{
+				id: "0E647B945E58B453"
+				type: "item"
+				item: "modern_industrialization:bronze_tank"
+			}]
+			rewards: [{
+				id: "5B399AB56686D38F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			dependencies: ["3C5A8EA9636BF12F"]
+			id: "57370D36B9C896E2"
+			tasks: [{
+				id: "0AA5B170D809E302"
+				type: "item"
+				item: "modern_industrialization:steel_tank"
+			}]
+			rewards: [{
+				id: "198C06FE0F96B338"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["57370D36B9C896E2"]
+			id: "4DC3D05A8F8BBF75"
+			tasks: [{
+				id: "0D0319BE9A5E8567"
+				type: "item"
+				item: "modern_industrialization:aluminum_tank"
+			}]
+			rewards: [{
+				id: "2562D23B5521DBDC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: ["4DC3D05A8F8BBF75"]
+			id: "7493E18AF65B41DE"
+			tasks: [{
+				id: "6436BE309468817B"
+				type: "item"
+				item: "modern_industrialization:stainless_steel_tank"
+			}]
+			rewards: [{
+				id: "4BCF3FAC9810A238"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["7493E18AF65B41DE"]
+			id: "73629FD7B57CD7AB"
+			tasks: [{
+				id: "535970933372DF89"
+				type: "item"
+				item: "modern_industrialization:titanium_tank"
+			}]
+			rewards: [{
+				id: "754C49A9229F07B1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["73629FD7B57CD7AB"]
+			id: "49DE26F91AA4CE1A"
+			tasks: [{
+				id: "0F1698CB2970E678"
+				type: "item"
+				item: "modern_industrialization:quantum_tank"
+			}]
+			rewards: [{
+				id: "32E6F0A5F23DDEC7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dank MK1"
+			x: 5.5d
+			y: -3.5d
+			subtitle: "Miner's pickup tool of choice."
+			description: [
+				"Bag Mode:"
+				""
+				"- In bag mode, the dank acts like a backpack."
+				""
+				"- Sneaking while hovering the tooltip will show contained items and the currently assigned keybind."
+				""
+				"Construction Mode:"
+				""
+				"- While in construction mode, the dank can no longer be placed down and will gain the enchantment glow to show that it's in construction mode."
+				""
+				"- While in construction mode, the dank storage has a selected slot, sneak - mousewheel will change the selected slot, pickblock functionality also works as well."
+				""
+				"- Right-clicking while the dank is in this state will attempt to use the currently selected item whether it be a block, a snowball, or even shears. Even potions and most food items can be consumed this way."
+			]
+			dependencies: ["6F2E92752228528C"]
+			id: "08812AFA81E0361B"
+			tasks: [{
+				id: "5AC950AE1240C497"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "1A3BD1E2A0F65CE7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dank MK2"
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["08812AFA81E0361B"]
+			id: "237A9481E48FF78E"
+			tasks: [{
+				id: "7458103DE8D41CFD"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+			rewards: [{
+				id: "1B10D91F6BD5D966"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dank MK3"
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["237A9481E48FF78E"]
+			id: "1ACB51C22A6CD24E"
+			tasks: [{
+				id: "6B69BD987268BFE9"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+			rewards: [{
+				id: "77BFF9E98FDCEF93"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dank MK4"
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["1ACB51C22A6CD24E"]
+			id: "3F2424B1D10C7EE9"
+			tasks: [{
+				id: "1C9D9C9CDC0730F0"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+			rewards: [{
+				id: "3C963338958D7F56"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dank MK5"
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["3F2424B1D10C7EE9"]
+			id: "08B93BF6A7AE7007"
+			tasks: [{
+				id: "78E8E5FE38C585C4"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+			rewards: [{
+				id: "6E910A9942E4853F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dank MK6"
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["08B93BF6A7AE7007"]
+			id: "39AD0699B2DBAE16"
+			tasks: [{
+				id: "6F2EBCEF613C0B9B"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+			rewards: [{
+				id: "004F8F160C4AC433"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dank MK7"
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["39AD0699B2DBAE16"]
+			id: "2557F1066749B6D7"
+			tasks: [{
+				id: "015B208F0D6BEDCF"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+			rewards: [{
+				id: "5B023D3FF530D24F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			subtitle: "Right click with buckets or other tanks to transfer fluids."
+			dependencies: ["64082742D6539923"]
+			id: "691F1102DCB3851D"
+			tasks: [{
+				id: "2D8DB2A4B2A7CCBE"
+				type: "item"
+				item: "techreborn:basic_tank_unit"
+			}]
+			rewards: [{
+				id: "7F39C502358FD965"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			title: "Crude Storage Unit"
+			x: 8.0d
+			y: -3.5d
+			subtitle: "Storage drawer in disguise."
+			dependencies: ["64082742D6539923"]
+			id: "16D84060C075DC03"
+			tasks: [{
+				id: "14EAC75C541EAC9F"
+				type: "item"
+				item: "techreborn:crude_storage_unit"
+			}]
+			rewards: [{
+				id: "2D4672D6BE065F13"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["16D84060C075DC03"]
+			id: "3E37A08E65F102D8"
+			tasks: [{
+				id: "332A6C8DE153FB8A"
+				type: "item"
+				item: "techreborn:basic_storage_unit"
+			}]
+			rewards: [{
+				id: "700802785069C43C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["691F1102DCB3851D"]
+			id: "2AEBEE27B2451EEA"
+			tasks: [{
+				id: "34281E506046CD51"
+				type: "item"
+				item: "techreborn:advanced_tank_unit"
+			}]
+			rewards: [{
+				id: "7BD2C81CF7A59B8D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["3E37A08E65F102D8"]
+			id: "3BBD2850B68661AB"
+			tasks: [{
+				id: "22CE468B3AC15142"
+				type: "item"
+				item: "techreborn:advanced_storage_unit"
+			}]
+			rewards: [{
+				id: "1F9D5E66AD68A1CD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["3BBD2850B68661AB"]
+			id: "6A0AF132BE5A8AAE"
+			tasks: [{
+				id: "012C6C1DF6C46F0F"
+				type: "item"
+				item: "techreborn:industrial_storage_unit"
+			}]
+			rewards: [{
+				id: "3116B64A5A85BD93"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["6A0AF132BE5A8AAE"]
+			id: "3A44CCFDB872EA17"
+			tasks: [{
+				id: "272347DF31B60E19"
+				type: "item"
+				item: "techreborn:quantum_storage_unit"
+			}]
+			rewards: [{
+				id: "4A15D46C23B25C09"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["2AEBEE27B2451EEA"]
+			id: "1A19CF23FD98EC6B"
+			tasks: [{
+				id: "41F08E4226C2B034"
+				type: "item"
+				item: "techreborn:industrial_tank_unit"
+			}]
+			rewards: [{
+				id: "7AFB9E67691BDBC8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["1A19CF23FD98EC6B"]
+			id: "7F5430EAC0D58A99"
+			tasks: [{
+				id: "1B1315F65EE4559C"
+				type: "item"
+				item: "techreborn:quantum_tank_unit"
+			}]
+			rewards: [{
+				id: "1A21AC074B8E024E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			subtitle: "Barrels and tanks of different sizes. You know what they are.. They have no disguises."
+			description: [
+				"Barrels are used for mass storage of the same item. Shows count and item on front. "
+				""
+				"Tanks are used for high amounts of fluid storage."
+				"Can be used as a buffer and is movable with contents intact on break."
+				"Tanks are stackable if containing the same fluid."
+			]
+			id: "523A049CF07AD75B"
+			tasks: [{
+				id: "7279364B4E1843D4"
+				type: "checkmark"
+				title: "Modern Industrialization"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			description: [
+				"Storage units are single item, mass storage devices with an inventory count on the face."
+				""
+				"Tank units store liquids.. that's about it."
+				""
+				"Battery Box, MFE, MFSU and Interdimensional SU are energy storage devices."
+				"You can view their inventory and use the slot they have to charge devices."
+			]
+			id: "64082742D6539923"
+			tasks: [{
+				id: "77F4F6BBF4F8AF10"
+				type: "checkmark"
+				title: "Tech Reborn"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			subtitle: "Learn about the basics of storage."
+			description: [
+				"Backpacks for increased inventory"
+				""
+				"Chests for mass storage"
+				""
+				"Barrels for buffers in automation or so you can access it's inventory in tight spots."
+				""
+				"Danks for automatic portable storage and dynamic inventory block placement."
+			]
+			id: "6F2E92752228528C"
+			tasks: [{
+				id: "4A26CDEE07DCD4B8"
+				type: "checkmark"
+				title: "Basic Storage"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			subtitle: "Stores energy and charges items. "
+			dependencies: ["64082742D6539923"]
+			id: "02C255C9CAC286C8"
+			tasks: [{
+				id: "2901054D6A1E5169"
+				type: "item"
+				item: "techreborn:low_voltage_su"
+			}]
+			rewards: [{
+				id: "3C0BA78DE2245A7A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["02C255C9CAC286C8"]
+			id: "363CEF71CB948F73"
+			tasks: [{
+				id: "3E91DD78CB3B5A29"
+				type: "item"
+				item: "techreborn:medium_voltage_su"
+			}]
+			rewards: [{
+				id: "6788BF9184B6D5FE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["363CEF71CB948F73"]
+			id: "1DA0468352954BA9"
+			tasks: [{
+				id: "729C6F46550B4901"
+				type: "item"
+				item: "techreborn:high_voltage_su"
+			}]
+			rewards: [{
+				id: "5A504F6C577A5282"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["1DA0468352954BA9"]
+			id: "247204A995A00576"
+			tasks: [{
+				id: "619C6FB574819C0A"
+				type: "item"
+				item: "techreborn:interdimensional_su"
+			}]
+			rewards: [{
+				id: "2E86B7FAE02703F6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			subtitle: "Let the energy revolutionize!"
+			description: ["An Indrevian version of an energy storage device."]
+			id: "679464B1F04B106E"
+			tasks: [{
+				id: "0FB2E00F0013C475"
+				type: "checkmark"
+				title: "Industrial Revolution"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.5d
+			subtitle: "Stores energy and charges items. "
+			dependencies: ["679464B1F04B106E"]
+			id: "17F540DAE69F9836"
+			tasks: [{
+				id: "7659005A22D97F38"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk1"
+			}]
+			rewards: [{
+				id: "276DCC3715091A7E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			dependencies: ["17F540DAE69F9836"]
+			id: "4D4D4AB0102E6B6E"
+			tasks: [{
+				id: "6C0809992B96502B"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk2"
+			}]
+			rewards: [{
+				id: "6F48461E12F09FD4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			dependencies: ["4D4D4AB0102E6B6E"]
+			id: "02B1E8CECB57D77C"
+			tasks: [{
+				id: "20203EEE0087B7A5"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk3"
+			}]
+			rewards: [{
+				id: "1D6EDBAE03267B45"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -0.5d
+			dependencies: ["02B1E8CECB57D77C"]
+			id: "4A9EAB93BC030448"
+			tasks: [{
+				id: "46EBA4968DDC5066"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk4"
+			}]
+			rewards: [{
+				id: "0F1B6F6BF9A961B9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["6F2E92752228528C"]
+			id: "14B66E70E819E971"
+			tasks: [{
+				id: "374969D1C1F94B2C"
+				type: "item"
+				item: "ironchests:copper_chest"
+			}]
+			rewards: [{
+				id: "545C569BD9E1A752"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+					}
+				}
+			}]
+		}
+	]
+}

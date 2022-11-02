@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Tech Reborn Epic Lootbag",
+  "color": "#388eff",
+  "rarity": "EPIC",
+  "output": {
+    "table": "aof:loot_bags/tech_reborn_epic"
+  }
+}

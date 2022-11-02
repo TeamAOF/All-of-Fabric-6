@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Logistics & Storage Lootbag",
+  "color": "#ff8afb",
+  "rarity": "UNCOMMON",
+  "output": {
+    "table": "aof:loot_bags/logistics_loot"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Magic Epic Lootbag",
+  "color": "#ff8afb",
+  "rarity": "EPIC",
+  "output": {
+    "table": "aof:loot_bags/magic_epic"
+  }
+}

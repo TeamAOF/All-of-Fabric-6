@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Modern Industrialization Common Lootbag",
+  "color": "#faa243",
+  "rarity": "COMMON",
+  "output": {
+    "table": "aof:loot_bags/modern_industrialization_common"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Create Epic Lootbag",
+  "color": "#edaf80",
+  "rarity": "EPIC",
+  "output": {
+    "table": "aof:loot_bags/create_epic"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Ad Astra! Rare Lootbag",
+  "color": "#b380ed",
+  "rarity": "RARE",
+  "output": {
+    "table": "aof:loot_bags/ad_astra_rare"
+  }
+}

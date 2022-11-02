@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "modern_industrialization:iron_gear",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:refined_iron_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:rubber",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "techreborn:basic_machine_frame",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "techreborn:basic_machine_casing",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "techreborn:electronic_circuit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
