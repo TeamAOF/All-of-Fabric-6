@@ -13,5 +13,4 @@ ServerEvents.recipes(event => {
     ['modern_industrialization:diamond_plate',    '#minecraft:logs',                'modern_industrialization:diamond_plate'],
     ['modern_industrialization:gold_large_plate', '#minecraft:logs',                'modern_industrialization:gold_large_plate'],
   ]);
-
 });

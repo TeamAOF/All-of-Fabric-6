@@ -29,6 +29,39 @@
             {
               "type": "minecraft:item",
               "weight": 1,
+              "name": "farmingforblockheads:green_fertilizer",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmingforblockheads:red_fertilizer",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmingforblockheads:yellow_fertilizer",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
               "name": "farmersdelight:noodle_soup",
               "functions": [
                 {
@@ -568,28 +601,6 @@
               "type": "minecraft:item",
               "weight": 1,
               "name": "farmersdelight:diamond_knife",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "croptosis:iron_watering_can",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "croptosis:gold_watering_can",
               "functions": [
                 {
                   "function": "set_count",

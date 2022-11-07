@@ -1,52 +1,13 @@
 {
 	id: "101875ABBA9AC7E6"
-	group: "36480AFE3722FADC"
-	order_index: 5
+	group: "76C22988F9A7C9CE"
+	order_index: 1
 	filename: "tools_and_armor"
 	title: "Tools and Armor"
 	icon: "minecraft:smithing_table"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
-		{
-			x: -2.0d
-			y: -6.0d
-			subtitle: "Booking Enchants Downtown."
-			description: [
-				"Lets you remove enchants and put them onto a book!"
-				""
-				"Just right click the table with a book, then the item, and then just right click with Flint and Steel and Watch the Magic!"
-			]
-			dependencies: ["25B6D9950B1CF03C"]
-			id: "1FAD0B24E2253271"
-			tasks: [{
-				id: "015F564C649F1FB1"
-				type: "item"
-				item: "infusion_table:infusion_table"
-			}]
-			rewards: [
-				{
-					id: "6D24214DE06F2B9B"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s
-								id: "minecraft:looting"
-							}]
-						}
-					}
-				}
-				{
-					id: "29EFF203F1FC3355"
-					type: "item"
-					item: "autoworkstations:iron_auto_experience_orb_emitter"
-				}
-			]
-		}
 		{
 			icon: "xps:block_xp_obelisk"
 			x: 2.0d
@@ -83,25 +44,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
-			subtitle: "Choose your way of enchantment."
-			dependencies: ["25B6D9950B1CF03C"]
-			id: "030CFE419C9627F0"
-			tasks: [{
-				id: "2A1E3263D4BC0DE4"
-				type: "item"
-				item: "dark-enchanting:dark_enchanter"
-			}]
-			rewards: [{
-				id: "1FF021C3D958F451"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-		}
-		{
-			x: 0.0d
-			y: -8.0d
+			x: -2.0d
+			y: -6.0d
 			subtitle: "Everlasting Longevity!"
 			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
 			dependencies: ["25B6D9950B1CF03C"]
@@ -126,8 +70,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -216,8 +160,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -284,8 +228,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -359,8 +303,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -438,15 +382,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
 		}
 		{
 			title: "Gilded Netherite"
-			x: -6.5d
+			x: -5.5d
 			y: -2.5d
 			subtitle: "More durable than the netherite set and has a full set ability."
 			description: [
@@ -513,95 +457,11 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
-		}
-		{
-			title: "Armory of the Glitch"
-			x: -5.5d
-			y: -2.5d
-			description: [
-				"Barely crafted Glitch Armor pieces are pretty good, but they can be better tho. If you got some extra Pristine Matter you can try using it to upgrade your armor. For this you will need to condense the matter into the armor using a Matter Condenser."
-				""
-				"If you attempt to put a bound Data Model into a piece of armor you will be able to \"inherit\" some effects of the mobs of the category you choose."
-				""
-				"To do that, just get an armor piece in hands and right click, putting a Data Model into the slot."
-				""
-				"The greater the tier of your armor, the greatest the effects you will be gifted with."
-			]
-			dependencies: ["35F0E2CEEE9D9AD0"]
-			id: "3D26E1D59C05685A"
-			tasks: [
-				{
-					id: "17A3FB85D4D0BA93"
-					type: "item"
-					item: {
-						id: "dml-refabricated:glitch_helmet"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "041B9ED96A53B65F"
-					type: "item"
-					item: {
-						id: "dml-refabricated:glitch_chestplate"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "72BC272FD63AB7AD"
-					type: "item"
-					item: {
-						id: "dml-refabricated:glitch_leggings"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "24710A8AEA8CD6BE"
-					type: "item"
-					item: {
-						id: "dml-refabricated:glitch_boots"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "514EED2134A3E6D0"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
-					}
-				}
-				{
-					id: "00975006C24A398B"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "LEGENDARY"
-							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
-							Name: "Artifact Lootbag"
-						}
-					}
-				}
-			]
 		}
 		{
 			title: "Quantum Armory"
@@ -640,8 +500,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/legendary"
 						Name: "Tech Reborn Legendary Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/legendary"
 					}
 				}
 			}]
@@ -689,8 +549,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/rare"
 						Name: "Industrial Revolution Rare Lootbag"
+						Loot: "aof:loot_bags/ind_rev/rare"
 					}
 				}
 			}]
@@ -708,7 +568,7 @@
 		{
 			title: "Basic Tools"
 			x: 3.0d
-			y: -1.5d
+			y: -1.0d
 			description: [
 				"Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block."
 				""
@@ -744,8 +604,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/common"
 						Name: "Tech Reborn Common Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/common"
 					}
 				}
 			}]
@@ -753,7 +613,7 @@
 		{
 			title: "Advanced Tools"
 			x: 3.0d
-			y: -0.5d
+			y: 0.0d
 			description: [
 				"Advanced Drill is an advanced version of Basic Drill and works same as Diamond Pickaxe or Diamond Shovel."
 				""
@@ -789,8 +649,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -798,7 +658,7 @@
 		{
 			title: "Industrial Tools"
 			x: 3.0d
-			y: 0.5d
+			y: 1.0d
 			description: [
 				"Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. "
 				""
@@ -834,8 +694,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -843,7 +703,7 @@
 		{
 			title: "Mining Drills"
 			x: -3.0d
-			y: 0.5d
+			y: 1.0d
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "2206B744E74F22FF"
 			tasks: [
@@ -889,8 +749,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -903,71 +763,16 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/rare"
 							Name: "Industrial Revolution Rare Lootbag"
+							Loot: "aof:loot_bags/ind_rev/rare"
 						}
 					}
 				}
 			]
 		}
 		{
-			title: "Jetpacks"
 			x: -3.0d
-			y: -0.5d
-			subtitle: "Past the Statue of Liberty!"
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "331F2D904BCAC94E"
-			tasks: [
-				{
-					id: "718483A0136EC061"
-					type: "item"
-					item: "iron-jetpacks:bronze_jetpack"
-				}
-				{
-					id: "1C17676F356BF867"
-					type: "item"
-					item: "iron-jetpacks:electrum_jetpack"
-				}
-				{
-					id: "135C91EEEB100021"
-					type: "item"
-					item: "iron-jetpacks:steel_jetpack"
-				}
-			]
-			rewards: [
-				{
-					id: "3ACB6C5DF381C168"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "LEGENDARY"
-							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
-							Name: "Artifact Lootbag"
-						}
-					}
-				}
-				{
-					id: "57710C27688A542D"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 6750133
-							Loot: "aof:loot_bags/misc/utilities"
-							Name: "Utilities Lootbag"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 1.5d
+			y: 0.0d
 			subtitle: "Universal tool that combines Pickaxe, Axe, Showel, Sheers and even Sword in one simple rod."
 			description: ["It's mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
 			dependencies: ["300FAC6161C1BCDB"]
@@ -986,8 +791,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1055,83 +860,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			title: "Gilded Tools"
-			x: -1.0d
-			y: -2.5d
-			subtitle: "Obtain it by bartering with piglins!"
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "048BE9D4C85EC290"
-			tasks: [
-				{
-					id: "2A77CC1F62A3C320"
-					type: "item"
-					item: {
-						id: "additionaladditions:gilded_netherite_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "503C8BEDE81A069D"
-					type: "item"
-					item: {
-						id: "additionaladditions:gilded_netherite_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "5A7069C4A87A1963"
-					type: "item"
-					item: {
-						id: "additionaladditions:gilded_netherite_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "64F311CE9913D45F"
-					type: "item"
-					item: {
-						id: "additionaladditions:gilded_netherite_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "20EE3210E85CB0A1"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
 						Loot: "aof:loot_bags/misc/artifacts"
-						Name: "Artifact Lootbag"
 					}
 				}
 			}]
 		}
 		{
 			title: "Manasteel Tools"
-			x: 0.0d
+			x: 2.0d
 			y: -2.5d
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "1812006D3BD67F42"
@@ -1190,8 +927,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1257,8 +994,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1291,41 +1028,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			title: "Excavators"
-			x: 0.0d
-			y: 2.5d
-			subtitle: "3x3 Digging on your doorstep."
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "79CF2958691BBBAA"
-			tasks: [{
-				id: "43B6751603A489C2"
-				type: "item"
-				item: {
-					id: "itemfilters:mod"
-					Count: 1b
-					tag: {
-						value: "vanillaexcavators"
-					}
-				}
-			}]
-			rewards: [{
-				id: "23509C2598B3CA0F"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
 						Loot: "aof:loot_bags/misc/agriculturist"
-						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -1357,8 +1061,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -1399,8 +1103,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -1416,7 +1120,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: -2.5d
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "43393B11001E56DC"
@@ -1440,35 +1144,14 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.5d
-			dependencies: ["5EA2D6174BCFEC05"]
-			id: "481475646B5351CA"
-			tasks: [{
-				id: "4DF242C8F4DC1856"
-				type: "item"
-				item: {
-					id: "additionaladditions:gilded_netherite_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "31A6A3A976141EBE"
-				type: "random"
-			}]
-		}
-		{
-			x: 6.5d
+			x: 6.0d
 			y: -2.5d
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "7CE1E91CE65BEEB1"
@@ -1492,14 +1175,14 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
 		}
 		{
-			x: 7.5d
+			x: 7.0d
 			y: -2.5d
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "7C5DBA5626CE7D7D"
@@ -1523,15 +1206,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
 			title: "Tools of Terra"
-			x: 2.0d
+			x: -1.0d
 			y: -2.5d
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "6B2A5C9F8F92975B"
@@ -1569,14 +1252,14 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
-			x: 8.5d
+			x: 8.0d
 			y: -2.5d
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "05F39EED60B5032B"
@@ -1600,8 +1283,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1641,16 +1324,16 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
 		}
 		{
 			title: "Paxels"
-			x: -3.0d
-			y: 1.5d
+			x: 0.0d
+			y: 2.5d
 			subtitle: "All in One!"
 			description: [
 				"These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits."
@@ -1716,8 +1399,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -1726,7 +1409,7 @@
 		{
 			title: "Charms"
 			x: -3.0d
-			y: -1.5d
+			y: -1.0d
 			subtitle: "A practice or expression believed to have magic powers."
 			description: [
 				"The portal charm will allow the wearer to walk through portals instantly."
@@ -1761,8 +1444,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1794,8 +1477,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1831,8 +1514,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1898,74 +1581,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			title: "Advanced Netherite"
-			x: -1.0d
-			y: 2.5d
-			subtitle: "Every Netherite tier has its own unique properties."
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "6A5ED6653D734805"
-			tasks: [{
-				id: "0809C64ADB415234"
-				type: "item"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "advancednetherite:tiers/tools"
-					}
-				}
-			}]
-			rewards: [{
-				id: "198DE1E66743A68B"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
 						Loot: "aof:loot_bags/misc/artifacts"
-						Name: "Artifact Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			title: "Advanced Netherite"
-			x: -7.5d
-			y: -2.5d
-			subtitle: "Every Netherite tier has its own unique properties."
-			dependencies: ["35F0E2CEEE9D9AD0"]
-			id: "1AB242681EF30210"
-			tasks: [{
-				id: "4E2C968C442F487C"
-				type: "item"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "advancednetherite:tiers/armor"
-					}
-				}
-			}]
-			rewards: [{
-				id: "7AE344D9D6D625DB"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
-						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1990,8 +1607,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2016,8 +1633,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2053,8 +1670,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2085,8 +1702,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -2119,8 +1736,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -2146,8 +1763,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2171,8 +1788,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2196,8 +1813,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2221,8 +1838,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2246,8 +1863,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2271,8 +1888,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2311,8 +1928,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2336,8 +1953,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2367,8 +1984,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -2393,8 +2010,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2418,8 +2035,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2443,8 +2060,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -2487,7 +2104,7 @@
 		}
 		{
 			title: "Advanced Netherite"
-			x: -7.5d
+			x: -7.0d
 			y: -2.5d
 			subtitle: "Every Netherite tier has its own unique properties."
 			dependencies: ["35F0E2CEEE9D9AD0"]

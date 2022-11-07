@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "accent": "#9B27DC",
+    "base": "#606060"
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "minecraft:block.bell.use"
+    }
+  },
+  "item": {
+    "item": "dragonloot:dragon_helmet",
+    "count": 1
+  },
+  "animation": {
+      "type": "spinning",
+      "speed": 0.20
+    },
+  "name": {
+    "color": "#9B27DC",
+    "text": "Boss Rush Trophy"
+  }
+}

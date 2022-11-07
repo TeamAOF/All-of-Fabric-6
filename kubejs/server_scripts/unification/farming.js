@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
  ServerEvents.tags('item', event => {
 
     // Farmland
-    event.add('c:farmland', 'byg:lush_farmland')
+    // event.add('c:farmland', 'byg:lush_farmland')
     event.add('c:farmland', 'farmersdelight:rich_soil_farmland')
     /*
     event.add('c:farmland', 'farmingforblockheads:fertilized_farmland_rich')

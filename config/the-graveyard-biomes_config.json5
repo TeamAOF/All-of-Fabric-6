@@ -1,0 +1,66 @@
+{
+  // Welcome to The Graveyard Biomes Config!
+  //
+  // Configure the weight of the biomes by changing "theGraveyardBiomesWeight".
+  // Configure which minecraft biomes can be replaced by The Graveyard biomes.
+  // A full list of all the biomes can be found here https:minecraft.fandom.com/wiki/Biome#Biome_IDs.
+  // Configure fog density and fog height.
+  "biomeConfigEntries": {
+    "haunted_lakes": {
+      "canGenerate": true,
+      "replaceableBiomes": [
+        "swamp"
+      ]
+    },
+    "haunted_forest": {
+      "canGenerate": true,
+      "replaceableBiomes": [
+        "windswept_forest"
+      ]
+    },
+    "eroded_haunted_forest": {
+      "canGenerate": true,
+      "replaceableBiomes": [
+        "meadow"
+      ]
+    },
+    "ancient_dead_coral_reef": {
+      "canGenerate": true,
+      "replaceableBiomes": [
+        "beach"
+      ]
+    },
+    "deep_dark_forest": {
+      "canGenerate": true,
+      "replaceableBiomes": [
+        "dark_forest"
+      ]
+    }
+  },
+  "biomeFogConfigEntries": {
+    "haunted_forest_fog": {
+      "enabled": true,
+      "density": 0.35,
+      "minY": 63,
+      "maxY": 148
+    },
+    "haunted_lakes_fog": {
+      "enabled": true,
+      "density": 0.3,
+      "minY": 63,
+      "maxY": 128
+    },
+    "eroded_haunted_forest_fog": {
+      "enabled": true,
+      "density": 0.35,
+      "minY": 93,
+      "maxY": 160
+    }
+  },
+  "miscConfigEntries": {
+    "useSoulLanternsInHauntedLakes": false
+  },
+  "biomeGeneration": {
+    "theGraveyardBiomesWeight": 1
+  }
+}

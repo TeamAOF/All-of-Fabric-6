@@ -28,109 +28,125 @@ mainMenu {
         }
 
         text = literal("All of Fabric 6 - 0.1.0")
+        shadow = true
     }
 
     button {
         position {
-            x {it / 3 + 105}
-            y { it / 2 + 25}
+            x {it / 2}
+            y {it / 2 + 5}
         }
-        width = 100
+        width = 150
         height = 20
-
-        text = literal("Mods")
-        onClicked = modMenu()
-    }
-    button {
-        position {
-            x {it / 3}
-            y { it / 2 + 25}
-        }
-        width = 100
-        height = 20
-
-        text = literal("Languages")
-        onClicked = language()
-    }
-    button {
-        position {
-            x {it / 3}
-            y {it / 2 - 50}
-        }
-        width = 204
-        height = 20
-		align = "left"
+		align = "center"
         text = translatable("menu.singleplayer")
+        color = 0x0000000
         onClicked = singleplayer()
     }
     button {
         position {
-            x {it / 3}
-            y {it / 2 - 25}
+            x {it / 2}
+            y {it / 2 + 30}
         }
-        width = 204
+        width = 150
         height = 20
+        align = "center"
 
         text = translatable("menu.multiplayer")
         onClicked = multiplayer()
     }
+
+     button {
+        position {
+            x {it / 2}
+            y { it / 2 + 55}
+        }
+        width = 150
+        height = 20
+        align = "center"
+
+        text = literal("Mods")
+        onClicked = modMenu()
+    }
+
+     button {
+        position {
+            x {it / 2}
+            y { it / 2 + 80}
+        }
+        width = 150
+        height = 20
+        align = "center"
+
+        text = literal("Rent A Server")
+        onClicked = url("https://www.bisecthosting.com/AOF")
+    }
     
-    
+    /*
     button {
         position {
-            x {it / 2 + 100}
+            x {it / 2 + 230}
             y {it / 2}
         }
-        width = 100
+        width = 70
         height = 20
 
         text = literal("Reload")
         onClicked = reloadCts()
     }
-    
+    */
+
+     button {
+        position {
+            x {it / 2 - 20}
+            y { it / 2 + 105}
+        }
+        width = 25
+        height = 25
+        align = "center"
+
+        texture = file("config/slightguimodifications/languages_button.png")
+        hoveredTexture = file("config/slightguimodifications/languages_button_hovered.png")
+        onClicked = language()
+    }
     
     button {
         position {
-            x {it / 3 + 105}
-            y { it / 2 + 50}
+            x {it / 2 + 60}
+            y { it / 2 + 105}
         }
-        width = 100
-        height = 20
+        width = 25
+        height = 25
+        align = "center"
 
-        text = translatable("menu.quit")
+        texture = file("config/slightguimodifications/exit_button.png")
+        hoveredTexture = file("config/slightguimodifications/exit_button_hovered.png")
         onClicked = exit()
     }
     button {
         position {
-            x {it / 3}
-            y { it / 2 + 50}
+            x {it / 2 + 20}
+            y { it / 2 + 105}
         }
-        width = 100
-        height = 20
+        width = 25
+        height = 25
+        align = "center"
 
-        text = translatable("menu.options")
+        texture = file("config/slightguimodifications/config_button.png")
+        hoveredTexture = file("config/slightguimodifications/config_button_hovered.png")
         onClicked = options()
     }
     button {
         position {
-            x {it / 3 + 105}
-            y { it / 2 - 0}
+            x {it / 2 - 60}
+            y { it / 2 + 105}
         }
-        width = 100
-        height = 20
+        width = 25
+        height = 25
+        align = "center"
 
-        text = literal("Rent A Server")
-        onClicked = url("https://www.bisecthosting.com/AOF")
-    }
-    button {
-        position {
-            x {it / 3}
-            y { it / 2 - 0}
-        }
-        width = 100
-        height = 20
-
-        text = literal("Discord")
+        texture = file("config/slightguimodifications/discord_button.png")
+        hoveredTexture = file("config/slightguimodifications/discord_button_hovered.png")
         onClicked = url("https://discord.gg/6rkdm48")
     }
 }

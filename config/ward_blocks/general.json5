@@ -1,0 +1,135 @@
+{
+	/* 
+	   
+	   ***********************
+	   Enable-Disable Blocks
+	   ***********************
+	*/
+	"enableGrowthBlock": true,
+	"enableHealthBlock": true,
+	"enableDefenseBlock": true,
+	"enableExpBlock": true,
+	"enableAttackBlock": true,
+	"enableLootBlock": true,
+	/* 
+	   
+	   ***********************
+	   Block Loot Chances
+	   ***********************
+	*/
+	"growthBlockChance": 0.03999999910593033,
+	"healthBlockChance": 0.03999999910593033,
+	"defenseBlockChance": 0.03999999910593033,
+	"expBlockChance": 0.03999999910593033,
+	"attackBlockChance": 0.03999999910593033,
+	"lootBlockChance": 0.03999999910593033,
+	/* 
+	   
+	   ***********************
+	   Health Ward
+	   ***********************
+	*/
+	"healthHorizRadius": 12,
+	"healthVertRadius": 4,
+	"healthLevel": 0,
+	"enableYellowHearts": true,
+	"healthYellowHearts": 20.0,
+	"effectTickInterval": 8,
+	"enableSinkingMobs": false,
+	/* 
+	   
+	   ***********************
+	   Defense Ward
+	   ***********************
+	*/
+	"defenseHorizRadius": 12,
+	"defenseVertRadius": 8,
+	"defenseLevel": 0,
+	/* 
+	   
+	   ***********************
+	   Growth Ward
+	   ***********************
+	*/
+	"growthHoriz": 10,
+	"growthHeight": 5,
+	"baseTickDelay": 90,
+	"cactusTickDelay": 20,
+	/* 
+	   
+	   ***********************
+	   Exp Ward
+	   ***********************
+	*/
+	"expHorizRadius": 12,
+	"expVertRadius": 8,
+	"expLevel": 1,
+	/* 
+	   
+	   ***********************
+	   Attack Ward
+	   ***********************
+	*/
+	"attackHorizRadius": 12,
+	"attackVertRadius": 8,
+	"damageAmount": 10,
+	/* 
+	   
+	   ***********************
+	   Loot Ward
+	   ***********************
+	*/
+	"lootHorizRadius": 12,
+	"lootVertRadius": 8,
+	"skipNamedEndermite": false,
+	/* 
+	   
+	   ***********************
+	   Loot Ward - Drops
+	   - only use values between .01 to .99
+	   - values cannot overlap
+	   - values should be in decending order from
+	   cutoff, common, uncommon, and rare
+	   - values above cutoff threshold get a carrot
+	   ***********************
+	*/
+	"defaultDrop": "minecraft:carrot",
+	"cutoffThreshold": 0.48,
+	"commonThreshold": 0.28,
+	"uncommonThreshold": 0.12,
+	"rareThreshold": 0.04,
+	/* 
+	   
+	   ***********************
+	   No Spawn in Overworld Biomes
+	   ***********************
+	*/
+	"enableNoMobOverworld": false,
+	/* 
+	   
+	   ***********************
+	   No Spawn in Specific Biomes
+	   - requires datapack
+	   ***********************
+	*/
+	"enableNoMobBiomes": false,
+	/* 
+	   
+	   ***********************
+	   Only Spawn in Specific Biomes
+	   - requires datapack
+	   ***********************
+	*/
+	"enableOnlyMobBiomes": false,
+	/* 
+	   
+	   ***********************
+	   No Spawn Near Specific Blocks
+	   - requires datapack
+	   Not recommended for servers
+	   ***********************
+	*/
+	"enablenNoSpawnBlock": false,
+	"noSpawnBlockHorizRadius": 10,
+	"noSpawnBlockVertRadius": 5
+}

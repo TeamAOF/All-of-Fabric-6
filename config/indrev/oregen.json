@@ -1,9 +1,9 @@
 {
-  "tin": true,
+  "tin": false,
   "nikolite": true,
-  "lead": true,
-  "silver": true,
-  "tungsten": true,
+  "lead": false,
+  "silver": false,
+  "tungsten": false,
   "sulfuricAcidLake": true,
   "sulfurCrystals": true
 }

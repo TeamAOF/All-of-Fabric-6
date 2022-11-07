@@ -23,7 +23,6 @@
 				"- Challenges"
 				"- Learning Mods"
 				"- Adventuring"
-				"- Becoming a Chef"
 				""
 				"The adventures are ahead!"
 			]
@@ -182,8 +181,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]

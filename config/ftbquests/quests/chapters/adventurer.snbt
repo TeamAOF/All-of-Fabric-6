@@ -28,7 +28,7 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
+			x: 0.5d
 			y: 2.0d
 			subtitle: "Fishing should be fun."
 			description: [
@@ -96,8 +96,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -132,8 +132,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -172,8 +172,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -213,8 +213,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -259,8 +259,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
 							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
 						}
 					}
 				}
@@ -273,8 +273,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -287,7 +287,7 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -1.0d
+			x: -1.5d
 			y: 2.0d
 			subtitle: "To the moon!"
 			description: [
@@ -324,8 +324,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 11763949
-							Loot: "aof:loot_bags/ad_astra/rare"
 							Name: "Ad Astra! Rare Lootbag"
+							Loot: "aof:loot_bags/ad_astra/rare"
 						}
 					}
 				}
@@ -334,7 +334,7 @@
 		{
 			title: "Archeology"
 			x: -2.5d
-			y: 1.0d
+			y: 0.5d
 			subtitle: "Know your prehistory."
 			description: [
 				"The Archeology System introduces the following:"
@@ -378,8 +378,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -419,8 +419,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -429,7 +429,7 @@
 		{
 			title: "Mine Cells"
 			x: 1.5d
-			y: 1.0d
+			y: 0.5d
 			subtitle: "Dive into the story of Dead Cells!"
 			description: [
 				"To start your adventure with Mine Cells, find a portal structure."

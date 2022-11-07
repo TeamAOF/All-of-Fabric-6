@@ -1,0 +1,908 @@
+{
+
+  "groupOverrides": {
+
+    "farmingforblockheads:saplings": {
+      "icon": {
+        "item": "croptopia:apple_sapling"
+      }
+    }
+  },
+
+	  "customEntries": [
+
+    {
+      "output": {
+        "item": "biomemakeover:ancient_oak_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "biomemakeover:blighted_balsa_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "biomemakeover:swamp_cypress_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "biomemakeover:willow_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:apple_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:banana_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:orange_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:persimmon_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:plum_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:cherry_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:lemon_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:grapefruit_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:kumquat_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:peach_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:coconut_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:nutmeg_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:fig_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:nectarine_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:mango_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:dragonfruit_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:starfruit_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:avocado_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:apricot_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:pear_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:lime_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:date_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:almond_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:cashew_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:pecan_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:walnut_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    {
+      "output": {
+        "item": "croptopia:cinnamon_sapling"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:saplings"
+    },
+
+    
+
+    {
+      "output": {
+        "item": "croptopia:artichoke_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+
+   {
+      "output": {
+        "item": "croptopia:asparagus_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },
+
+   {
+      "output": {
+        "item": "croptopia:bellpepper_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },  
+
+   {
+      "output": {
+        "item": "croptopia:blackbean_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+   {
+      "output": {
+        "item": "croptopia:blackberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },    
+
+   {
+      "output": {
+        "item": "croptopia:blueberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },   
+
+   {
+      "output": {
+        "item": "croptopia:broccoli_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },    
+
+   {
+      "output": {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },    
+
+   {
+      "output": {
+        "item": "croptopia:cantaloupe_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },     
+
+    {
+      "output": {
+        "item": "croptopia:elderberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },   
+
+    {
+      "output": {
+        "item": "croptopia:eggplant_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },  
+
+    {
+      "output": {
+        "item": "croptopia:currant_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    },      
+
+    {
+      "output": {
+        "item": "croptopia:cucumber_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:cranberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:corn_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:coffee_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:celery_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:cauliflower_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:garlic_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:grape_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:greenbean_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:greenonion_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:honeydew_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:hops_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:kale_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:kiwi_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:leek_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:lettuce_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:olive_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:onion_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:peanut_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:pineapple_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:radish_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:raspberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:rhubarb_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:rice_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:rutabaga_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:saguaro_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:spinach_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:squash_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:strawberry_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:sweetpotato_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:tomatillo_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "farmersdelight:tomato_seeds"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:turnip_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:yam_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:zucchini_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:mustard_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:chile_pepper_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:turmeric_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:ginger_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:basil_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:oat_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:barley_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:soybean_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:vanilla_seeds"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:tea_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }, 
+
+    {
+      "output": {
+        "item": "croptopia:pepper_seed"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "farmingforblockheads:seeds"
+    }
+
+
+  ]
+}

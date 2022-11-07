@@ -20,11 +20,11 @@
         "y": "TOP"
       },
       "x": 0,
-      "y": 0,
+      "y": 4,
       "bossBarsOverlap": false
     },
     "color": {
-      "alpha": 0,
+      "alpha": 75,
       "themes": [
         {
           "id": "waila:dark",
@@ -41,7 +41,7 @@
           "fontColor": 10526880
         }
       ],
-      "activeTheme": "waila:vanilla"
+      "activeTheme": "waila:dark"
     },
     "scale": 1.0
   },

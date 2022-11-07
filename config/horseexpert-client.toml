@@ -1,0 +1,28 @@
+#Show speed and jump height for llamas. They have those attributes as they inherit all functionality from horses, but don't really use them for anything.
+all_llama_attributes = false
+#Percentage value below which a value is considered to be low when shown on statistics tooltips.
+#Range: 0.0 ~ 1.0
+low_value_percentage = 0.25
+#Only show statistics tooltips while sneaking (still requires a monocle to be worn).
+requires_sneaking = false
+#Offset on x-axis for statistics tooltips from original position.
+#Range: > -2147483648
+offset_x = 0
+#Percentage value above which a value is considered to be high when shown on statistics tooltips.
+#Range: 0.0 ~ 1.0
+high_value_percentage = 0.75
+#Offset on y-axis for statistics tooltips from original position.
+#Range: > -2147483648
+offset_y = 0
+#Color used for highlighting high attribute values on statistics tooltips.
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+high_value_color = "GREEN"
+#Color used for highlighting low attribute values on statistics tooltips.
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+low_value_color = "RED"
+#Color used for highlighting medium attribute values on statistics tooltips.
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+medium_value_color = "GOLD"
+#Must the mount be tamed for any statistics to show.
+must_be_tamed = true
+

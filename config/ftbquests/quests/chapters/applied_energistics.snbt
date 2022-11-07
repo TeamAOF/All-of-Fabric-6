@@ -39,8 +39,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -74,8 +74,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 16747259
-							Name: "Logistics & Storage Lootbag"
 							Loot: "aof:loot_bags/misc/logistics"
+							Name: "Logistics & Storage Lootbag"
 						}
 					}
 				}
@@ -101,8 +101,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -132,8 +132,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -158,8 +158,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -192,8 +192,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -219,41 +219,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
-					}
-				}
-			}]
-		}
-		{
-			x: -0.5d
-			y: -10.0d
-			subtitle: "Throw em in water!"
-			description: [
-				"The Certus Quartz Dust you find can be grown into a Certus Quartz Crystal."
-				""
-				"First you must make a seed by combining the crystal dust with Sand. Then simply drop/throw the seed in water. The seed will not despawn and turn into a crystal over time."
-				""
-				"This process is very slow without the help of the Crystal Growth Accelerator."
-			]
-			dependencies: ["7B3F4A3D79F2988B"]
-			id: "7595957E9616FC92"
-			tasks: [{
-				id: "02C1F3E82404AE7E"
-				type: "item"
-				item: "ae2:fluix_crystal_seed"
-			}]
-			rewards: [{
-				id: "3F21DADFF0B35392"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 16747259
 						Name: "Logistics & Storage Lootbag"
-						Loot: "aof:loot_bags/misc/logistics"
 					}
 				}
 			}]
@@ -278,8 +245,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -309,8 +276,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -350,8 +317,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -376,8 +343,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -415,8 +382,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -444,8 +411,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -471,8 +438,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -506,8 +473,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -541,8 +508,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -576,8 +543,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -611,8 +578,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -649,8 +616,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -680,8 +647,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -706,8 +673,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -733,8 +700,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -759,8 +726,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -785,8 +752,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -811,8 +778,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -837,8 +804,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -863,8 +830,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -888,8 +855,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -913,8 +880,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -938,8 +905,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -977,8 +944,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1002,8 +969,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1035,8 +1002,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1061,8 +1028,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1087,8 +1054,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1124,8 +1091,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1155,8 +1122,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1182,8 +1149,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -1256,8 +1223,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]

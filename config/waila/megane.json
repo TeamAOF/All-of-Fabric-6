@@ -9,7 +9,7 @@
     "blacklist": []
   },
   "entityInventory": {
-    "enabled": true,
+    "enabled": false,
     "itemCount": true,
     "nbt": false,
     "maxWidth": 9,
@@ -20,10 +20,12 @@
     "enabled": true,
     "expandWhenSneak": false,
     "colors": {
-      "megane": 7408640
+      "megane": 7408640,
+      "indrev": 3885790
     },
     "units": {
-      "megane": "E"
+      "megane": "E",
+      "indrev": "LF"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -47,6 +49,6 @@
     "blacklist": []
   },
   "catchServerErrors": true,
-  "spawnEgg": true,
+  "spawnEgg": false,
   "playerHead": true
 }

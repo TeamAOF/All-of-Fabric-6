@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#DA8B26",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 1.0
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "farmersdelight:cooking_pot",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#DA8B26",
+      "text": "Hell's Kitchen Trophy"
+    }
+  }

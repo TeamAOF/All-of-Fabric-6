@@ -1,0 +1,44 @@
+{
+  "dragonDifficulty": {
+    "desc:": "Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0",
+    "dragonDifficulty": 2
+  },
+  "crystalRespawnTimeModifier": {
+    "desc:": "Modifies crystal respawn time, 0.5 \u003d spawns twice as fast, 2 \u003d twice as slow. default:1.0",
+    "crystalRespawnTimeModifier": 1.0
+  },
+  "lightningExplosionDensity": {
+    "desc:": "Modifies lightning and explosion density, 0.5 \u003d half as many, 2 \u003d twice as many. default:1.0",
+    "lightningExplosionDensity": 1.0
+  },
+  "disableLightning": {
+    "desc:": "Disables lightning spawns: default:false",
+    "disableLightning": false
+  },
+  "printDragonPhases": {
+    "desc:": "Prints the dragon phase in chat if enabled: default:false",
+    "printDragonPhases": false
+  },
+  "disableDragonAreaSpawns": {
+    "desc:": "Disables mob spawning on the Dragon island during the fight: default:true",
+    "disableDragonAreaSpawns": true
+  },
+  "spawnoncrystaldestroy": {
+    "desc:": "List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "spawnoncrystaldestroy": [
+      "minecraft:phantom"
+    ]
+  },
+  "spawnoncrystalrespawn": {
+    "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "spawnoncrystalrespawn": [
+      "minecraft:blaze"
+    ]
+  },
+  "spawnwhilelanded": {
+    "desc:": "List of mobs spawning while the dragon is sitting in the middle, intended to be melee and not vulnerable to ranged: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "spawnwhilelanded": [
+      "minecraft:enderman"
+    ]
+  }
+}

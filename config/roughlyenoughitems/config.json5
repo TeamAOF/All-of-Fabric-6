@@ -66,7 +66,21 @@
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
 				"{id:\"roughlyenoughitems:basic\",rule:{}}"
 			],
-			"filteredStacks": []
+			"filteringQuickCraftCategories": { },
+			"filteredStacks": [
+				"{Count:1b,id:\"indrev:bronze_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:steel_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:steel_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:steel_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:steel_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}"
+			]
 		},
 		"enableJeiCompatibilityLayer": true,
 		"tooltips": {

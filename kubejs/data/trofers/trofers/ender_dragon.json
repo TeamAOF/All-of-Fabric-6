@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "accent": "#AF6ED3",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": {
+      "y": 1.5
+    },
+    "scale": 0.5
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "minecraft:block.bell.use"
+    }
+  },
+  "item": {
+    "item": "minecraft:dragon_head",
+    "count": 1
+  },
+  "animation": {
+      "type": "spinning",
+      "speed": 0.20
+    },
+  "name": {
+    "color": "#AF6ED3",
+    "text": "Ender Dragon Trophy"
+  }
+}

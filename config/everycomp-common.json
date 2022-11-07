@@ -1,0 +1,9 @@
+{
+  "general": {
+    "creative_tab": true,
+    "remap_other_mods": false,
+    "remap_self": true,
+    "assets_depend_on_loaded_packs": true,
+    "save_debug_resources": false
+  }
+}

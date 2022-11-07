@@ -2,6 +2,7 @@
 generateGraves = true
 retrievalType = "ON_USE"
 compactRetrieveItems = true
+retrievalRequireShovel = false
 dropType = "IN_INVENTORY"
 dropPlayerHead = false
 dropGraveBlock = false
@@ -57,12 +58,18 @@ lossRangeFrom = 0
 lossRangeTo = 5
 percentChanceOfLoss = 100
 
+[graveSettings.randomSpawnSettings]
+percentSpawnChance = 0
+spawnEntity = "minecraft:zombie"
+spawnNbt = "{ArmorItems:[{},{},{},{id:\"minecraft:player_head\",tag:{SkullOwner:{Name:\"${name}\",Id:\"${uuid}\"}},Count:1b}]}"
+
 [graveSettings.blockUnderGrave]
 generateBlockUnder = true
 inOverWorld = "minecraft:cobblestone"
 inNether = "minecraft:soul_soil"
 inTheEnd = "minecraft:end_stone"
 inCustom = "minecraft:dirt"
+generateWhenProtected = false
 
 [graveSettings.graveCompatConfig]
 levelzXpInGraves = true

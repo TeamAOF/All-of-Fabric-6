@@ -69,17 +69,6 @@
               "function": "set_count"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "hexcasting:sub_sandwich",
-          "functions": [
-            {
-              "count": 16,
-              "function": "set_count"
-            }
-          ]
         }
       ]
     }

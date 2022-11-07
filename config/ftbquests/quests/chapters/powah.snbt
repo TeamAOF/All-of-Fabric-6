@@ -1,0 +1,850 @@
+{
+	id: "009F61C80E1E69B9"
+	group: "0815C5D80307ECDF"
+	order_index: 4
+	filename: "powah"
+	title: "Powah"
+	icon: "powah:capacitor_nitro"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["34CB6C162F5ABA54"]
+			id: "48D9BC5F27EB7EFC"
+			tasks: [{
+				id: "244F4D657A724BD7"
+				type: "item"
+				title: "Basic Capacitor"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:capacitor_basic_tiny"
+								Count: 1b
+							}
+							{
+								id: "powah:capacitor_basic"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.0d
+			id: "34CB6C162F5ABA54"
+			tasks: [{
+				id: "12EFACEEF2CB7BB2"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+			rewards: [
+				{
+					id: "6672CBBA98D952AA"
+					type: "item"
+					item: "powah:book"
+				}
+				{
+					id: "48B3296F55328CBE"
+					type: "item"
+					item: {
+						id: "powah:wrench"
+						Count: 1b
+						tag: {
+							PowahWrenchNBT: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -3.5d
+			dependencies: ["72868D5235EEB1D1"]
+			id: "6E73A1FC54068F9D"
+			tasks: [{
+				id: "7C11C6028FA55AD5"
+				type: "item"
+				title: "Battery"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:battery_starter"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "powah:battery_basic"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "powah:battery_hardened"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "powah:battery_blazing"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "powah:battery_niotic"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "powah:battery_spirited"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "powah:battery_nitro"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.0d
+			dependencies: ["72868D5235EEB1D1"]
+			id: "63E3FE37529D0653"
+			tasks: [{
+				id: "02FE38964253A488"
+				type: "item"
+				title: "Energy Cell"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:energy_cell_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Energizing"
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["48D9BC5F27EB7EFC"]
+			id: "3AAEDB182C3919CC"
+			tasks: [
+				{
+					id: "3A877A84B52510B5"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "07D998F67B8E9745"
+					type: "item"
+					title: "Energizing Rod"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "powah:energizing_rod_starter"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_basic"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_hardened"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_blazing"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_niotic"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_spirited"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_nitro"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["3AAEDB182C3919CC"]
+			id: "4768DD5F60DE3F4A"
+			tasks: [{
+				id: "147B469C5C23C57F"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			dependencies: ["3AAEDB182C3919CC"]
+			id: "4D86F088280981A2"
+			tasks: [{
+				id: "5907F70C58C684D5"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["3AAEDB182C3919CC"]
+			id: "0DBF3DBFA978291D"
+			tasks: [{
+				id: "40F2DC6B69FD7D07"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			dependencies: ["3AAEDB182C3919CC"]
+			id: "45E782AC2C3E97EE"
+			tasks: [{
+				id: "151572FE22F1BD41"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			dependencies: ["3AAEDB182C3919CC"]
+			id: "5F4CDC52244B937E"
+			tasks: [{
+				id: "0FA248D18B3B6AB8"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			dependencies: [
+				"5D08158FE91F8A63"
+				"48D9BC5F27EB7EFC"
+			]
+			id: "435B42806E447D20"
+			tasks: [{
+				id: "32F11CA22D877230"
+				type: "item"
+				title: "Reactor"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:reactor_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 36L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			id: "5D08158FE91F8A63"
+			tasks: [{
+				id: "62B7B724197D88C5"
+				type: "item"
+				item: "powah:uraninite"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			dependencies: ["22E4363ECF659C5B"]
+			id: "70197A6164010B19"
+			tasks: [{
+				id: "2EC3E158BE82E999"
+				type: "item"
+				title: "Ender Cell"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:ender_cell_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			dependencies: ["3AAEDB182C3919CC"]
+			id: "22E4363ECF659C5B"
+			tasks: [{
+				id: "4DD0E201A56082AA"
+				type: "item"
+				item: "powah:ender_core"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -2.0d
+			id: "72868D5235EEB1D1"
+			tasks: [{
+				id: "2ABFE7FABC8CAD49"
+				type: "checkmark"
+				title: "Energy Storage"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["718CD4D1272E5DD3"]
+			id: "28290CA40D704C6B"
+			tasks: [{
+				id: "29E65C4BDBDF7F65"
+				type: "item"
+				title: "Thermo Generator"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:thermo_generator_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["718CD4D1272E5DD3"]
+			id: "4E09AA1CA6FF2AD4"
+			tasks: [{
+				id: "3236CFA20A013269"
+				type: "item"
+				title: "Magmator"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:magmator_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["718CD4D1272E5DD3"]
+			id: "3093AD7CAFEA9113"
+			tasks: [{
+				id: "59EC736AD9AF7F8B"
+				type: "item"
+				title: "Furnator"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:furnator_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["718CD4D1272E5DD3"]
+			id: "644DEDB36A0827D7"
+			tasks: [{
+				id: "1D3ADC1945CD78B2"
+				type: "item"
+				title: "Solar Panel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:solar_panel_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			dependencies: ["48D9BC5F27EB7EFC"]
+			id: "28C0FEFEEC51B963"
+			tasks: [{
+				id: "4DC73CF40FA3BCAD"
+				type: "item"
+				title: "Energy Cable"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:energy_cable_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["22E4363ECF659C5B"]
+			id: "277D203450B35083"
+			tasks: [{
+				id: "2D1D8A371C3653DE"
+				type: "item"
+				title: "Ender Gate"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:ender_gate_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["4E0D6F1DDD305855"]
+			id: "74F0AD6CC49C1CF6"
+			tasks: [{
+				id: "5217531A148059EF"
+				type: "item"
+				title: "Energy Discharger"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:energy_discharger_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_discharger_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_discharger_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_discharger_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_discharger_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_discharger_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_discharger_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["4E0D6F1DDD305855"]
+			id: "47B76A23E66EA846"
+			tasks: [{
+				id: "3ACC4487665F8FCC"
+				type: "item"
+				title: "Energy Hopper"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:energy_hopper_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_hopper_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_hopper_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_hopper_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_hopper_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_hopper_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_hopper_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["4E0D6F1DDD305855"]
+			id: "75BE62C479A3DDAB"
+			tasks: [{
+				id: "6F978E3B646765B5"
+				type: "item"
+				title: "Player Transmitter"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:player_transmitter_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:player_transmitter_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:player_transmitter_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:player_transmitter_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:player_transmitter_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:player_transmitter_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:player_transmitter_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "4E0D6F1DDD305855"
+			tasks: [{
+				id: "4C9742E00DB6B275"
+				type: "checkmark"
+				title: "Item Charging"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "718CD4D1272E5DD3"
+			tasks: [{
+				id: "3F96255BD6DC5A4B"
+				type: "checkmark"
+				title: "Energy Generation"
+			}]
+		}
+	]
+}

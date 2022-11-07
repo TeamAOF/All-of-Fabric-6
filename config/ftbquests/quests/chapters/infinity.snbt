@@ -1,11 +1,10 @@
 {
 	id: "55534E1BE135C3C1"
-	group: "36480AFE3722FADC"
-	order_index: 4
+	group: ""
+	order_index: 2
 	filename: "infinity"
 	title: "Challenges"
 	icon: "croptopia:starfruit"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -23,11 +22,24 @@
 				entity: "minecraft:ender_dragon"
 				value: 1L
 			}]
+			rewards: [{
+				id: "431C0986E611D988"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ender_dragon"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Hell's Kitchen"
 			icon: "farmersdelight:cooking_pot"
-			x: 4.0d
+			x: 3.5d
 			y: 3.0d
 			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
 			description: [
@@ -127,6 +139,19 @@
 					consume_items: true
 				}
 			]
+			rewards: [{
+				id: "7D84DE2A7D4C2586"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:cooking"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Boss Rush"
@@ -141,9 +166,6 @@
 			y: 3.0d
 			subtitle: "Slay 'em All"
 			description: [
-				"King Slime:"
-				"Craft a Slime Crown and spawn on use."
-				""
 				"Blackstone Golem:"
 				"Can only be summoned with a golem ritual while being in the nether."
 				""
@@ -168,13 +190,6 @@
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "1F0EE1298663FE88"
 			tasks: [
-				{
-					id: "0DB7AADBA2D37802"
-					type: "kill"
-					icon: "terrarianslimes:slime_crown"
-					entity: "terrarianslimes:king_slime"
-					value: 1L
-				}
 				{
 					id: "6E33DDB7EF109050"
 					type: "kill"
@@ -273,41 +288,18 @@
 					value: 1L
 				}
 			]
-		}
-		{
-			icon: "farmingforblockheads:feeding_trough"
-			x: 3.0d
-			y: 3.0d
-			subtitle: "Breed all the animals!"
-			description: [
-				"> Bee"
-				"> Cat"
-				"> Chicken"
-				"> Cow"
-				"> Donkey"
-				"> Fox"
-				"> Hoglin"
-				"> Horse"
-				"> Llama"
-				"> Mooshroom"
-				"> Mule"
-				"> Ocelot"
-				"> Panda"
-				"> Pig"
-				"> Rabbit"
-				"> Sheep"
-				"> Strider"
-				"> Turtle"
-				"> Wolf"
-			]
-			dependencies: ["512CAEB25CD9B4E2"]
-			id: "6F99E812CEAA9DCA"
-			tasks: [{
-				id: "4D25DE5A135D9B75"
-				type: "advancement"
-				icon: "spectrum:pig_head"
-				advancement: "minecraft:husbandry/bred_all_animals"
-				criterion: ""
+			rewards: [{
+				id: "33B8F578C9A9D999"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:boss_rush"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -326,11 +318,24 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "149036984D62AD6A"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:angel_ring"
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Quantum Physics"
-			icon: "modern_industrialization:quantum_circuit"
-			x: -1.0d
+			icon: "modern_industrialization:quantum_upgrade"
+			x: -1.5d
 			y: 3.0d
 			subtitle: "Ethereal powers!"
 			description: [
@@ -381,11 +386,26 @@
 					item: "modern_industrialization:replicator"
 				}
 			]
+			rewards: [{
+				id: "3AE3A57C68514949"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:quantum"
+						}
+					}
+				}
+			}]
 		}
 		{
+			title: "The Completionist"
+			icon: "kubejs:completionist"
 			x: 1.0d
 			y: -1.0d
-			subtitle: "Become the completionist!"
+			subtitle: "Complete them all, become the best!"
 			description: [
 				"Challenges are unlocked when you've killed the Ender Dragon."
 				""
@@ -396,7 +416,6 @@
 				"- Become the ultimate rancher"
 				"- Quantum Physics"
 				"- Angel Flight"
-				"- Shattering of Worlds"
 				""
 				"Complete them all to become The Completionist!"
 				""
@@ -407,9 +426,7 @@
 				"4394FBA9FF34416C"
 				"18035D9544EC01DA"
 				"0A87F01B58718A44"
-				"6F99E812CEAA9DCA"
 				"1F0EE1298663FE88"
-				"2ED18039A031C275"
 			]
 			size: 2.0d
 			id: "477ECBF67056BF45"
@@ -421,21 +438,6 @@
 			}]
 			rewards: [
 				{
-					id: "19C08B9CCD03D034"
-					type: "item"
-					item: "create:handheld_worldshaper"
-				}
-				{
-					id: "563D5DD9E251C2AC"
-					type: "item"
-					item: "croptosis:creative_watering_can"
-				}
-				{
-					id: "47BA9B48671FC557"
-					type: "item"
-					item: "create:creative_blaze_cake"
-				}
-				{
 					id: "5F9C5A1AACDAC695"
 					type: "item"
 					item: "harvest_scythes:creative_machete"
@@ -446,42 +448,29 @@
 					item: "harvest_scythes:creative_scythe"
 				}
 				{
-					id: "254BBDDC559B2631"
+					id: "05F996165760D327"
+					type: "item"
+					item: "ae2:creative_item_cell"
+				}
+				{
+					id: "1B86B5FE31EF7766"
+					type: "item"
+					item: "ae2:creative_fluid_cell"
+				}
+				{
+					id: "05B5B34C0CBCD83A"
 					type: "item"
 					item: {
-						id: "automobility:automobile_engine"
+						id: "trofers:medium_pillar"
 						Count: 1b
 						tag: {
-							engine: "automobility:creative"
+							BlockEntityTag: {
+								Trophy: "trofers:completionist"
+							}
 						}
 					}
 				}
 			]
-		}
-		{
-			title: "Shatterer of Worlds"
-			x: -2.0d
-			y: 3.0d
-			subtitle: "Craft the ultimate Terra Shatterer!"
-			description: [
-				"Upgrade a Terra Shatterer to tier (SS)."
-				""
-				"Mana needed: 2,147,483,647"
-			]
-			dependencies: ["512CAEB25CD9B4E2"]
-			id: "2ED18039A031C275"
-			tasks: [{
-				id: "5F39C971ABE74EAF"
-				type: "item"
-				item: {
-					id: "botania:terra_pick"
-					Count: 1b
-					tag: {
-						Damage: 0
-						mana: 2147483646
-					}
-				}
-			}]
 		}
 	]
 }
