@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
           {"item": "piercingpaxels:upgrade_unbreakable"},
           {"item": "modern_industrialization:gravichestplate"}
         ],
-        "energy": "40000000",
+        "energy": "200000000",
         "result": {
           "item": "kibe:angel_ring"
         }
