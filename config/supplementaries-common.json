@@ -1,6 +1,10 @@
 {
   "blocks": {
+    "urn": {
+      "critter_spawn_chance": 0.009999999776482582
+    },
     "bamboo_spikes": {
+      "player_loot": false,
       "alternative_mode": true
     },
     "sugar_cube": {
