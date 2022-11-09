@@ -54,7 +54,6 @@ ServerEvents.recipes( (event) => {
     'croptopia:cooked_bacon',
     'croptopia:knife',
     'bewitchment:raw_silver_block',
-    'modern_industrialization:replicator',
     'modern_industrialization:uu_matter',
     'basicaiots:tin_aiot',
     'basicaiots:copper_aiot',
