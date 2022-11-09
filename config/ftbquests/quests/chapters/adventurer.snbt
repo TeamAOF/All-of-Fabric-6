@@ -20,7 +20,7 @@
 			}]
 		}
 		{
-			title: "Fishes and Crates!"
+			title: "&bFishes and Crates!"
 			icon: {
 				id: "gofish:celestial_rod"
 				Count: 1b
@@ -28,45 +28,45 @@
 					Damage: 0
 				}
 			}
-			x: 0.5d
-			y: 2.0d
+			x: 1.5d
+			y: 0.5d
 			subtitle: "Fishing should be fun."
 			description: [
-				"Go Fish adds in general Fish, which are obtainable globally in any area for each dimension, and biome-specific Fish, which are only obtainable in certain areas (See below)."
+				"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
 				""
-				"Overworld (Global):"
-				"- Wooden Crate"
-				"- Iron Crate"
-				"- Golden Crate"
-				"- Diamond Crate"
+				"&6Overworld (Global)&r:"
+				"- &bWooden Crate"
+				"- &bIron Crate"
+				"- &bGolden Crate"
+				"- &bDiamond Crate"
 				""
-				"During a full moon:"
-				"- Lunarfish"
-				"- Galaxy Starfish"
-				"- Starry Salmon"
-				"- Nebula Swordfish"
-				"- Astral Crate"
+				"&6During a full moon&r:"
+				"- &bLunarfish"
+				"- &bGalaxy Starfish"
+				"- &bStarry Salmon"
+				"- &bNebula Swordfish"
+				"- &bAstral Crate"
 				""
-				"The Nether (Global):"
-				"- Smokey Salmon"
-				"- Magma Cod"
-				"- Bonefish"
-				"- Obsidian Halibut"
-				"- Basalt Bass"
-				"- Spikerfish"
-				"- Fiery Crate"
+				"&6The Nether (Global)&r:"
+				"- &bSmokey Salmon"
+				"- &bMagma Cod"
+				"- &bBonefish"
+				"- &bObsidian Halibut"
+				"- &bBasalt Bass"
+				"- &bSpikerfish"
+				"- &bFiery Crate"
 				""
-				"Basalt Deltas:"
-				"- Gilded Blackstone Carp"
-				"- Gilded Blackstone Crate"
-				"- Blackstone Trout"
+				"&6Basalt Deltas:"
+				"- &bGilded Blackstone Carp"
+				"- &bGilded Blackstone Crate"
+				"- &bBlackstone Trout"
 				""
-				"Soul Sand Valley:"
-				"- Soul Salmon"
-				"- Soul Crate"
+				"&6Soul Sand Valley:"
+				"- &bSoul Salmon"
+				"- &bSoul Crate"
 				""
-				"The End:"
-				"- Baked Endfish"
+				"&6The End:"
+				"- &bBaked Endfish"
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "1941554F8883F5BE"
@@ -81,34 +81,27 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "02DAD3BF2785BF33"
-					type: "item"
-					item: "gofish:simple_lure"
-				}
-				{
-					id: "401B0FCEDA6E06C3"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
+			rewards: [{
+				id: "401B0FCEDA6E06C3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
-			]
+			}]
 		}
 		{
-			title: "Waystones"
-			x: -2.0d
-			y: -2.0d
+			title: "&3Waystones"
+			x: -1.5d
+			y: -2.5d
 			subtitle: "Discover your first Waystone, can be found in villages."
-			description: ["You can break the waystones and use them for creative ways of teleportation."]
+			description: ["&6You can break &rthe &bWaystones &rand use them for creative ways of teleportation."]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "23C3589FAFB40AD5"
 			tasks: [{
@@ -139,10 +132,10 @@
 			}]
 		}
 		{
-			title: "Find a Graveyard"
+			title: "&4Find a Graveyard"
 			icon: "graveyard:skull_with_rib_cage"
-			x: 1.0d
-			y: -2.0d
+			x: 0.5d
+			y: -2.5d
 			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
 			id: "14DE762F4663D1C9"
@@ -180,16 +173,16 @@
 			]
 		}
 		{
-			title: "Artifacts"
+			title: "&6Artifacts"
 			x: -0.5d
 			y: -3.0d
 			subtitle: "Magical items with great power."
 			description: [
-				"The items added by this mod can be found in chests."
+				"The &bitems &radded by this &6mod &rcan be found in &bChests&r."
 				""
-				"All artifacts only have a few chests in which they can be found, so go out and explore!"
+				"All &bArtifacts &ronly have a few &bChests &rin which they can be found, so go out and explore!"
 				""
-				"Additionally, a new underground campsite structure has been added. Mimics occasionally spawn in these campsites instead of a chests, which are dangerous enemies that attack players that get too close. Mimics always drop a random artifact when killed."
+				"Additionally, a new &bUnderground Campsite &rstructure has been added. &bMimics &roccasionally &6spawn in these &bCampsites &rinstead of a &bChests&r, which are dangerous &benemies &rthat &6attack &rplayers that get too close. &bMimics &ralways drop a random artifact when killed."
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "32910C1041DE2764"
@@ -220,15 +213,15 @@
 			}]
 		}
 		{
-			title: "The Twilight Forest"
+			title: "&5The Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -3.0d
-			y: -1.0d
+			x: 0.5d
+			y: 1.5d
 			subtitle: "Step into the Twilight Realm!"
 			description: [
-				"To make a portal to the Twilight Forest, make a 2x2 shallow pool (4 squares) of water in a grassy area, and surround it entirely with natural stuff (flowers, mushrooms, saplings, leaves, grass, anything considered a \"plant\" or \"leaves\")."
+				"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
 				""
-				"Twilight Forest is a dimension exploration mod focused on adventure that will take you on a journey to meet strange creatures, exploring dungeons, and much more."
+				"&bTwilight Forest &ris a dimension exploration mod focused on adventure that will &6take you on a journey &rto meet strange &bcreatures&r, &bexploring dungeons&r, &band much more&r."
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "36D37A1AFFC1B369"
@@ -238,68 +231,41 @@
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				dimension: "twilightforest:twilight_forest"
 			}]
-			rewards: [
-				{
-					id: "0C335696ED832D65"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "goblintraders:extended_night_vision"
-						}
+			rewards: [{
+				id: "42D3A36BA50C2E3F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
-				{
-					id: "42D3A36BA50C2E3F"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "LEGENDARY"
-							Color: 16103753
-							Name: "Artifact Lootbag"
-							Loot: "aof:loot_bags/misc/artifacts"
-						}
-					}
-				}
-				{
-					id: "1E08275CC8BC3F6E"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
-			title: "Space Travels"
+			title: "&9Space Travels"
 			icon: {
 				id: "ad_astra:tier_1_rocket"
 				Count: 1b
 				tag: { }
 			}
-			x: -1.5d
-			y: 2.0d
+			x: -2.5d
+			y: -1.5d
 			subtitle: "To the moon!"
 			description: [
-				"Ad Astra is a technology and space exploration mod."
+				"&6Ad Astra &ris a &btechnology &rand &bspace exploration &rmod."
 				""
-				"It allows you to build rockets capable of space travel. Yes, even mineable cheese."
+				"It allows you to build &bRockets &rcapable of &bSpace Travel&r. Yes, even mineable &eCheese."
 				""
-				"You can explore multiple planets throughout the Solar System, build oxygenated space stations and bases and survive in space."
+				"&6You can explore &rmultiple planets throughout the &bSolar System&r, build &boxygenated &rspace stations and &bbases &rsurvivable in space."
 				""
 				"Had dreams about being an astronaut? This is it!"
 				""
-				"Complete this quest by crafting the Astrodux."
+				"&6Complete this quest &rby crafting the &bAstrodux&r."
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "1F68089CE40CABC9"
@@ -332,22 +298,22 @@
 			]
 		}
 		{
-			title: "Archeology"
+			title: "&dArcheology"
 			x: -2.5d
 			y: 0.5d
 			subtitle: "Know your prehistory."
 			description: [
-				"The Archeology System introduces the following:"
+				"&bThe Archeology System &6introduces the following&r:"
 				""
-				"The Copper Brush is a new tool used for excavating special blocks for getting loot."
+				"&bThe Copper Brush &ris a new tool used for &6excavating special blocks &rfor getting loot."
 				""
-				"Brushing Excavation Blocks: "
+				"&bBrushing Excavation Blocks: "
 				""
-				"Currently, there are two excavation blocks in the mod: Excavation Dirt and Gravel."
+				"Currently, there are two excavation blocks in the mod: &bExcavation Dirt &rand &bGravel&r."
 				""
 				"When fully brushed off, the block drops random loot based on where you found it and how oxidated it is."
 				""
-				"While brushing, you should move your cursor to stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!"
+				"While &6brushing&r, you should &6move your cursor &rto stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!"
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "5DDFDC4C2426CF6F"
@@ -386,14 +352,14 @@
 			]
 		}
 		{
-			title: "Lootr"
-			x: 2.0d
-			y: -1.0d
+			title: "&6Lootr"
+			x: 1.5d
+			y: -1.5d
 			subtitle: "Unique instanced loot for every player!"
 			description: [
 				"What does this mean?"
 				""
-				"When you open a loot chest (distinctly textured from Vanilla chests), what items you get are unique to you (as though you had opened an Ender Chest)."
+				"When you &6open a loot chest &r(distinctly textured from &bVanilla chests&r), what items you get are unique to you (as though you had opened an &bEnder Chest&r)."
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "34216A1573B90BBB"
@@ -403,42 +369,34 @@
 				advancement: "lootr:1chest"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "25EAACDE5F300527"
-					type: "item"
-					item: "minecraft:emerald"
-					count: 3
-				}
-				{
-					id: "100D3CA6E3B2212C"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
+			rewards: [{
+				id: "100D3CA6E3B2212C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
-			]
+			}]
 		}
 		{
-			title: "Mine Cells"
-			x: 1.5d
-			y: 0.5d
+			title: "&6Mine Cells"
+			x: -1.5d
+			y: 1.5d
 			subtitle: "Dive into the story of Dead Cells!"
 			description: [
-				"To start your adventure with Mine Cells, find a portal structure."
+				"To start your adventure &rwith &bMine Cells&r, &6find a portal structure&r."
 				""
-				"Mine Cells features new monsters which attempt to faithfully recreate the look and feel of the original game."
+				"&bMine Cells &rfeatures new &bMonsters &rwhich attempt to faithfully recreate the look and feel of the original game."
 				""
-				"Mine Cells introduces one new boss - The Conjunctivius."
+				"&bMine Cells &6introduces one new boss&r - &bThe Conjunctivius&r."
 				""
-				"You can find her lair in the Prison structure / dimension."
+				"You can find her lair in the &bPrison structure &r/ &bdimension&r."
 			]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "6AA8C1349BCC891D"
@@ -447,6 +405,49 @@
 				type: "dimension"
 				icon: "minecells:charged_interdimensional_rune"
 				dimension: "minecells:prison"
+			}]
+			rewards: [{
+				id: "75521584B37DD8A1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&eThe Bumblezone"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
+			description: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "438319FC721F0274"
+			tasks: [{
+				id: "4B47C614D6F2C796"
+				type: "dimension"
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+			rewards: [{
+				id: "265BD5CE05DD0429"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
 			}]
 		}
 	]

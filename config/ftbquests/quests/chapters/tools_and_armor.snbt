@@ -498,10 +498,10 @@
 					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						Type: "LEGENDARY"
+						Type: "EPIC"
 						Color: 3706623
-						Name: "Tech Reborn Legendary Lootbag"
-						Loot: "aof:loot_bags/tech_reborn/legendary"
+						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2121,8 +2121,18 @@
 				}
 			}]
 			rewards: [{
-				id: "70A0FF7C62A8601A"
-				type: "random"
+				id: "52ED16348FDFD65A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
 			}]
 		}
 	]

@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Are you worthy?"
+			title: "&3Are you worthy?"
 			x: 1.0d
 			y: 7.0d
 			subtitle: "Kill the Ender Dragon to unlock challenges."
@@ -37,19 +37,19 @@
 			}]
 		}
 		{
-			title: "Hell's Kitchen"
+			title: "&aHell's Kitchen"
 			icon: "farmersdelight:cooking_pot"
 			x: 3.5d
 			y: 3.0d
 			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
 			description: [
-				"To submit items, left click the food type of choice and hand in."
+				"&6To submit items&r, left click the &bfood type&r of choice and &6hand in&r."
 				""
-				"Recommended to make Water Bottles from Croptopia for the recipes requiring it."
+				"Recommended to make &bWater Bottles &rfrom &6Croptopia &rfor the recipes requiring it."
 				""
-				"Water Bottles can be automated with a simple Drain from Tech Reborn and a Tank Unit below it."
+				"&bWater Bottles &rcan be automated with a simple &bDrain &rfrom &6Tech Reborn &rand a &bTank Unit &rbelow it."
 				""
-				"Put buckets in said Tank Unit and have them output into either a buffer or directly into ME, craft these into Water Bottles from Croptopia."
+				"Put buckets in said &bTank Unit &rand have them output into either a buffer or directly into &bME&r, craft these into &bWater Bottles &rfrom &6Croptopia."
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "18035D9544EC01DA"
@@ -154,7 +154,7 @@
 			}]
 		}
 		{
-			title: "Boss Rush"
+			title: "&5Boss Rush"
 			icon: {
 				id: "dragonloot:dragon_helmet"
 				Count: 1b
@@ -166,25 +166,25 @@
 			y: 3.0d
 			subtitle: "Slay 'em All"
 			description: [
-				"Blackstone Golem:"
+				"&bBlackstone Golem:"
 				"Can only be summoned with a golem ritual while being in the nether."
 				""
-				"The Eye:"
+				"&bThe Eye:"
 				"Can only be summoned at an Eye Shrine."
 				""
-				"Night Lich:"
+				"&bNight Lich:"
 				"Found in rare towers in cold biomes. Locate the towers by following soul stars."
 				""
-				"Obsidilith:"
+				"&bObsidilith:"
 				"Appears in rare structures in the end islands."
 				""
-				"Nether Gauntlet:"
+				"&bNether Gauntlet:"
 				"Appears in rare structures in the nether."
 				""
-				"Void Blossom:"
+				"&bVoid Blossom:"
 				"Appears in rare caves at the bottom of the world. Void lilies will point the way."
 				""
-				"Guardian of Gaia:"
+				"&bGuardian of Gaia:"
 				"To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead."
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
@@ -236,13 +236,6 @@
 					type: "kill"
 					icon: "bosses_of_mass_destruction:void_thorn"
 					entity: "bosses_of_mass_destruction:void_blossom"
-					value: 1L
-				}
-				{
-					id: "1C502D06D2093A4F"
-					type: "kill"
-					icon: "botania:gaia_head"
-					entity: "botania:doppleganger"
 					value: 1L
 				}
 				{
@@ -303,7 +296,7 @@
 			}]
 		}
 		{
-			title: "Ring of Angels"
+			title: "&eRing of Angels"
 			x: 0.0d
 			y: 3.0d
 			subtitle: "Creative flight at your disposal."
@@ -333,23 +326,23 @@
 			}]
 		}
 		{
-			title: "Quantum Physics"
+			title: "&dQuantum Physics"
 			icon: "modern_industrialization:quantum_upgrade"
 			x: -1.5d
 			y: 3.0d
 			subtitle: "Ethereal powers!"
 			description: [
-				"Craft everything quantum and shape your own future."
+				"Craft &reverything &bquantum &rand shape your own future&r."
 				""
 				"It'll be a long journey, can you do it?"
 				""
-				"- Quantum Sword"
+				"- &bQuantum Sword"
 				"Uses the raw power of the Schrödinger equation to instantly vaporize any foe (or friend!) you hit with it."
 				""
-				"- Quantum Armor"
+				"- &bQuantum Armor"
 				"Through the gravitational effect of the Heisenberg uncertainty principle, the full Quantum Armor set makes you immune to all damage and grants you creative flight. Each new piece of armour increases by 25% the likelihood of nullifying any damage taken."
 				""
-				"- Replicator"
+				"- &bThe Replicator"
 				"With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
@@ -401,25 +394,22 @@
 			}]
 		}
 		{
-			title: "The Completionist"
+			title: "&6The Completionist"
 			icon: "kubejs:completionist"
 			x: 1.0d
 			y: -1.0d
 			subtitle: "Complete them all, become the best!"
 			description: [
-				"Challenges are unlocked when you've killed the Ender Dragon."
+				"Challenges are unlocked when you've killed the &bEnder Dragon."
 				""
-				"These challenges will take you on multiple different paths."
+				"These &6Challenges &rwill take you on multiple different paths:"
 				""
-				"- Bosses"
-				"- Becoming a Michelin Chef"
-				"- Become the ultimate rancher"
-				"- Quantum Physics"
-				"- Angel Flight"
+				"- &bBosses"
+				"- &bBecoming a Michelin Chef"
+				"- &bQuantum Physics"
+				"- &bAngel Flight"
 				""
-				"Complete them all to become The Completionist!"
-				""
-				"This is the ultimate goal."
+				"Complete them all to become &6The Completionist!"
 			]
 			dependencies: [
 				"175F5611FB7716A4"
@@ -436,41 +426,19 @@
 				title: "Challenges"
 				icon: "croptopia:starfruit"
 			}]
-			rewards: [
-				{
-					id: "5F9C5A1AACDAC695"
-					type: "item"
-					item: "harvest_scythes:creative_machete"
-				}
-				{
-					id: "5462F7521F3402D3"
-					type: "item"
-					item: "harvest_scythes:creative_scythe"
-				}
-				{
-					id: "05F996165760D327"
-					type: "item"
-					item: "ae2:creative_item_cell"
-				}
-				{
-					id: "1B86B5FE31EF7766"
-					type: "item"
-					item: "ae2:creative_fluid_cell"
-				}
-				{
-					id: "05B5B34C0CBCD83A"
-					type: "item"
-					item: {
-						id: "trofers:medium_pillar"
-						Count: 1b
-						tag: {
-							BlockEntityTag: {
-								Trophy: "trofers:completionist"
-							}
+			rewards: [{
+				id: "05B5B34C0CBCD83A"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:completionist"
 						}
 					}
 				}
-			]
+			}]
 		}
 	]
 }

@@ -4,7 +4,7 @@
 	order_index: 4
 	filename: "powah"
 	title: "Powah"
-	icon: "powah:capacitor_nitro"
+	icon: "powah:energy_cell_nitro"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -118,6 +118,7 @@
 			}]
 		}
 		{
+			title: "Energy Cells"
 			x: -14.0d
 			y: -2.0d
 			dependencies: ["72868D5235EEB1D1"]
@@ -275,6 +276,7 @@
 			}]
 		}
 		{
+			title: "Reactors"
 			x: -10.5d
 			y: 2.0d
 			dependencies: [
@@ -336,6 +338,7 @@
 			}]
 		}
 		{
+			title: "Ender Cells"
 			x: -9.0d
 			y: -2.0d
 			dependencies: ["22E4363ECF659C5B"]
@@ -592,6 +595,7 @@
 			}]
 		}
 		{
+			title: "Energy Cables"
 			x: -10.5d
 			y: -2.0d
 			dependencies: ["48D9BC5F27EB7EFC"]
@@ -639,6 +643,7 @@
 			}]
 		}
 		{
+			title: "Ender Gates"
 			x: -7.5d
 			y: -3.5d
 			dependencies: ["22E4363ECF659C5B"]

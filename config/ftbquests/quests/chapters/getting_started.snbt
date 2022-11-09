@@ -9,22 +9,22 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Welcome to All of Fabric 6"
+			title: "&eWelcome to All of Fabric 6"
 			icon: "kubejs:aof6_logo"
 			x: 7.5d
 			y: 2.0d
 			shape: "hexagon"
 			subtitle: "A Whole New World!"
 			description: [
-				"This chapter will introduce you to the basics of the pack."
+				"&bThis chapter &rwill &6introduce &ryou to the basics of the pack."
 				""
-				"All of Fabric 6 offers the following:"
+				"&eAll of Fabric 6 &roffers the following:"
 				""
-				"- Challenges"
-				"- Learning Mods"
-				"- Adventuring"
+				"- &bChallenges"
+				"- &bLearning Mods"
+				"- &bAdventuring"
 				""
-				"The adventures are ahead!"
+				"&6The adventures are ahead&r!"
 			]
 			size: 1.5d
 			id: "175F5611FB7716A4"
@@ -33,6 +33,7 @@
 				type: "checkmark"
 				title: "Welcome to All of Fabric 5"
 				icon: "kubejs:aof5_logo"
+				disable_toast: true
 			}]
 			rewards: [{
 				id: "300CDF28987696BC"
@@ -45,13 +46,14 @@
 			}]
 		}
 		{
+			title: "&bExcavate"
 			x: 10.0d
 			y: 0.0d
 			subtitle: "Ores Be Gone!"
 			description: [
-				"Excavate is by default bound to keybind \"Grave\""
+				"&bExcavate &ris by default bound to keybind \"&6Grave&r\""
 				""
-				"You can change this keybind by going into options and change the FTB Ultimine keybinds."
+				"You can change this keybind &rby going into &6options &rand change the &bFTB Ultimine &rkeybinds."
 			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "7050DE96E151D1D1"
@@ -69,6 +71,7 @@
 			}]
 		}
 		{
+			title: "&9Learning Mods"
 			icon: "techreborn:wrench"
 			x: 5.0d
 			y: 0.0d
@@ -76,14 +79,14 @@
 			description: [
 				"Mods are split into 4 categories:"
 				""
-				"- Technology"
-				"- Magic"
-				"- Utilities"
-				"- Logistics"
+				"- &bTechnology"
+				"- &bMagic"
+				"- &bUtilities"
+				"- &bLogistics"
 				""
-				"Respectively, each chapter will guide you through progression."
+				"Respectively, &6each chapter will guide you through progression&r."
 				""
-				"Certain chapters will have tips and tricks on how to ease your adventures with useful trinkets and gadgets."
+				"Certain chapters will have &btips and tricks &ron how to ease your adventures with useful trinkets and gadgets."
 			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "257EAB9268907E1D"
@@ -94,6 +97,7 @@
 			}]
 		}
 		{
+			title: "&aWhere to settle down?"
 			icon: {
 				id: "naturescompass:naturescompass"
 				Count: 1b
@@ -103,11 +107,11 @@
 			y: 4.5d
 			subtitle: "If you truly love nature, you will find beauty everywhere."
 			description: [
-				"Dont feel like running thousands of blocks for that favorite biome of yours?"
+				"Dont feel like &6running &rthousands of blocks for that favorite biome of yours?"
 				""
-				"The Nature's Compass saves your day!"
+				"The &bNature's Compass &rsaves your day!"
 				""
-				"Search for the biome of choice, clap 3 times and start running!"
+				"&6Search for the biome of choice, &rclap 3 times and start running!"
 			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "4D39B9BD9B99383E"
@@ -127,19 +131,19 @@
 			}]
 		}
 		{
-			title: "Recipe Wizardry"
+			title: "&cRecipe Wizardry"
 			icon: "mcwtrpdoors:print_paper"
 			x: 7.5d
 			y: -1.0d
 			subtitle: "A recipe is a story that ends with a good meal."
 			description: [
-				"How to use an item? Hover over the item in REI and press \"U\" this will show you the uses, pay attention to the tabs."
+				"How to use an item? &6Hover over the item in REI &rand press &b\"U\" &rthis will show you the uses, pay attention to the tabs."
 				""
-				"Dont know how to craft an item? Hover over the item and press \"R\"."
+				"Dont know how to craft an item? &6Hover over the item &rand press &b\"R\"&r."
 				""
-				"Sometimes you have to start out processing a nugget, instead of an ingot or a block."
+				"Sometimes you have to start out processing a nugget, instead of &ban ingot &ror &ba block."
 				""
-				"You may need to look at the recipes for the material's respective nugget or sometimes even powders."
+				"&6You may need to look at the recipes &rfor the material's respective &bnugget &ror sometimes even &bpowders&r."
 			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "2AB91711E9E7B298"
@@ -150,16 +154,16 @@
 			}]
 		}
 		{
-			title: "Don't be a tourist, be a traveler"
+			title: "&3Don't be a tourist, be a traveler"
 			x: 9.5d
 			y: 4.5d
 			subtitle: "Inventory cramped? Fear not!"
 			description: [
-				"The traveler's backpack can provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
+				"The &bTraveler's Backpack &rcan provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
 				""
-				"All inventory slots and tanks can be accessed via external pipes."
+				"All &binventory slots &rand &btanks &6can be accessed via external pipes&r."
 				""
-				"The backpack also provides special buttons - sort, quick stack and transfer to manage inventory!"
+				"&bThe Backpack &ralso &6provides special buttons &r- &bsort, quick stack &rand &btransfer &rto manage inventory!"
 			]
 			dependencies: ["175F5611FB7716A4"]
 			id: "5A382E13722186FA"
