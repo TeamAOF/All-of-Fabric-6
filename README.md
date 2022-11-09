@@ -1,5 +1,5 @@
-# All-of-Fabric-6
-Modpack containing the latest &amp; best of Fabric on 1.19
+# All of Fabric 6 - 1.19.2
+
 
 # Setup
 Follow the instructions below to get your workspace setup:
