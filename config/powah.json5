@@ -120,7 +120,7 @@
 			"generation_rates": {
 				"starter": 150,
 				"basic": 700,
-				"hardened": 1800,
+				"hardened": 2000,
 				"blazing": 7000,
 				"niotic": 18000,
 				"spirited": 60000,

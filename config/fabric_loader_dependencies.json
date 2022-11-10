@@ -11,6 +11,11 @@
                 "modmenu": ""
             }
         },
+        "ftbquests": {
+            "-depends": {
+                "ftblibrary": ""
+            }
+        },
         "wondrouswilds": {
             "-depends": {
                 "geckolib3": ""
