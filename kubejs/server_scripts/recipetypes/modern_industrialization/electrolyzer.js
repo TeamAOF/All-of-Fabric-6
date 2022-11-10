@@ -2,13 +2,13 @@
 /// Made by Team AOF ///
 ////////////////////////
 
-/*
+
 ServerEvents.recipes(event => {
 
   
     event.custom({    
         "type": "modern_industrialization:electrolyzer",
-        "id": "aof:uu_matter",
+        "id": "modern_industrialization:materials/electrolyzer/uu_matter",
         "eu": 80,
         "duration": 2500,
         "item_inputs": [
@@ -26,4 +26,3 @@ ServerEvents.recipes(event => {
         ]
 })
     })
-    */
