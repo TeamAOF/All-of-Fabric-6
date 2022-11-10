@@ -7,7 +7,7 @@
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -67,18 +67,18 @@
 			],
 			"filteringQuickCraftCategories": { },
 			"filteredStacks": [
-				"{Count:1b,id:\"indrev:bronze_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:bronze_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:steel_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:silver_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:steel_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:steel_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:bronze_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:bronze_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"indrev:silver_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"indrev:silver_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:steel_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:silver_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}"
+				"{Count:1b,id:\"indrev:silver_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_boots\",tag:{Damage:0},type:\"minecraft:item\"}"
 			]
 		},
 		"enableJeiCompatibilityLayer": true,
@@ -174,7 +174,7 @@
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": true,
 		// Declares whether mob effects should be on the left side instead of the right side.
-		"leftSideMobEffects": false,
+		"leftSideMobEffects": true,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true,
