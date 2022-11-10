@@ -1,11 +1,11 @@
 {
   "modPriorities": [
+    "minecraft",
     "modern_industrialization",
+    "techreborn",
     "ad_astra",
-    "create",
     "indrev",
     "bewitchment",
-    "techreborn",
     "farmersdelight",
     "croptopia",
     "tinycoal",
@@ -31,8 +31,11 @@
     "c:{material}_plates",
     "c:{material}_rods",
     "c:{material}_wires",
+    "c:{material}_blocks",
     "c:{material}_storage_blocks",
     "c:raw_{material}_storage_blocks",
+    "c:raw_{material}_blocks",
+    "c:raw_{material}_ores",
     "c:crops/{material}",
     "c:seeds/{material}"
   ],
@@ -56,7 +59,6 @@
     "manganese",
     "nickel",
     "platinum",
-    "quartz",
     "ruby",
     "silicon",
     "silver",
@@ -78,11 +80,16 @@
     "onion",
     "bacon",
     "cooked_bacon",
-    "garlic"
+    "garlic",
+    "quartz"
   ],
   "priorityOverrides": {},
   "ignoredTags": [],
-  "ignoredItems": [],
+  "ignoredItems": [
+    "minecraft:nether_quartz_ore",
+    "minecraft:nether_gold_ore",
+    "minecraft:quartz_ore"
+  ],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],
   "itemsHidingJeiRei": true
