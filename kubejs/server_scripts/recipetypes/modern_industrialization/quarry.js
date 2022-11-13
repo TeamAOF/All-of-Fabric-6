@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
       {
         "item": "powah:uraninite_ore",
         "amount": 1,
-        "probability": 0.10
+        "probability": 0.08
       }
     ]
   })
