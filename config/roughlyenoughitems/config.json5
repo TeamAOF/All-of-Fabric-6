@@ -1,9 +1,9 @@
 {
 	"basics": {
 		"favorites": [
-			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
 			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
-			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}"
+			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
+			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
@@ -68,18 +68,25 @@
 			],
 			"filteringQuickCraftCategories": { },
 			"filteredStacks": [
-				"{Count:1b,id:\"techreborn:steel_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:silver_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"techreborn:steel_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"techreborn:steel_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:silver_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:silver_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:bronze_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:bronze_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"techreborn:steel_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:bronze_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_hoe\",tag:{Damage:0},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"indrev:silver_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"indrev:bronze_boots\",tag:{Damage:0},type:\"minecraft:item\"}"
+				"{Count:1b,id:\"indrev:bronze_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kibe:pocket_crafting_table\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_pickaxe\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_shovel\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_leggings\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"techreborn:steel_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_sword\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_boots\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"craftingcraft:portable_crafting\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_chestplate\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:silver_helmet\",tag:{Damage:0},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"indrev:bronze_axe\",tag:{Damage:0},type:\"minecraft:item\"}"
 			]
 		},
 		"enableJeiCompatibilityLayer": true,
