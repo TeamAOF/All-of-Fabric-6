@@ -4,6 +4,7 @@
   "defaultDuplicateRules": {
     "ignoredFields": [
       "fabric:conditions",
+      "cookingTime",
       "group"
     ],
     "rules": {

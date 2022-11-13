@@ -2,6 +2,7 @@
   "modPriorities": [
     "minecraft",
     "modern_industrialization",
+    "create",
     "techreborn",
     "ad_astra",
     "indrev",
@@ -86,9 +87,9 @@
   "priorityOverrides": {},
   "ignoredTags": [],
   "ignoredItems": [
-    "minecraft:nether_quartz_ore",
+    "minecraft:quartz_ore",
     "minecraft:nether_gold_ore",
-    "minecraft:quartz_ore"
+    "minecraft:nether_quartz_ore"
   ],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],
