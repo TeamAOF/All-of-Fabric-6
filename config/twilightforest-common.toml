@@ -42,7 +42,7 @@ skull_candles = false
 	#If you want to disable the xp cost for repairing and recrafting, see the below option.
 	disableUncraftingXpCost = false
 	#If true, this will invert the above option from a blacklist to a whitelist.
-	flipIdList = false
+	flipIdList = true
 	#Here, you can disable all items from certain mods from being uncrafted.
 	#Input a valid mod id to disable all uncrafting recipes from that mod.
 	#Example: "twilightforest" will disable all uncrafting recipes from this mod.
@@ -54,7 +54,7 @@ skull_candles = false
 	#If you have a problematic ingredient, like infested towerwood for example, add the item to the "twilightforest:banned_uncrafting_ingredients" item tag.
 	disableUncraftingRecipes = ["twilightforest:giant_log_to_oak_planks"]
 	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
-	disableUncrafting = false
+	disableUncrafting = true
 
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
