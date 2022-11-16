@@ -143,17 +143,17 @@ ServerEvents.recipes(event => {
       },
       {
         "item": "techreborn:sphalerite_ore",
-        "amount": 5,
+        "amount": 2,
         "probability": 0.05
       },
       {
         "item": "techreborn:pyrite_ore",
-        "amount": 3,
+        "amount": 1,
         "probability": 0.04
       },
       {
         "item": "techreborn:cinnabar_ore",
-        "amount": 3,
+        "amount": 1,
         "probability": 0.04
       }
     ]
@@ -204,7 +204,17 @@ ServerEvents.recipes(event => {
       {
         "item": "techreborn:ruby_ore",
         "amount": 1,
-        "probability": 0.05
+        "probability": 0.02
+      },
+      {
+        "item": "techreborn:sapphire_ore",
+        "amount": 1,
+        "probability": 0.02
+      },
+      {
+        "item": "create:zinc_ore",
+        "amount": 1,
+        "probability": 0.10
       },
       {
         "item": "techreborn:silver_ore",
