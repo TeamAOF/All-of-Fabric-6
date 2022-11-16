@@ -13,7 +13,7 @@ $CURSEFORGE_USER = "HeyAmAK9"
 # $CURSEFORGE_TOKEN = 
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 548076
+$CURSEFORGE_PROJECT_ID = 695890
 
 # =====================================================================//
 #  MAIN MODPACK SETTINGS
