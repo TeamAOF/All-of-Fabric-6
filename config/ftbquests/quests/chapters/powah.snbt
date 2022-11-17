@@ -11,6 +11,8 @@
 		{
 			x: -10.5d
 			y: 0.0d
+			subtitle: "I have to make how many of these!?"
+			description: ["Capacitors are one of the basic units required for crafting in Powah, and are used in any machine the needs to transfer or store energy."]
 			dependencies: ["34CB6C162F5ABA54"]
 			id: "48D9BC5F27EB7EFC"
 			tasks: [{
@@ -34,10 +36,30 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "19FC42004CE4ACF0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -12.5d
 			y: 0.0d
+			subtitle: "Getting Started"
+			description: [
+				"Powah is a powerful tech mod that centers around transfering, storing and producing large amounts of Powah."
+				""
+				"Dielectric paste is the base for much of what you'll be working with, insulating your high power electrical equipment from your fingies"
+			]
 			id: "34CB6C162F5ABA54"
 			tasks: [{
 				id: "12EFACEEF2CB7BB2"
@@ -61,11 +83,27 @@
 						}
 					}
 				}
+				{
+					id: "3D6B696EB3A61233"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 14731911
+							Loot: "aof:loot_bags/powah/common"
+							Name: "Powah! Common Lootbag"
+						}
+					}
+				}
 			]
 		}
 		{
 			x: -12.5d
 			y: -3.5d
+			subtitle: "The power of the sun in the palm of my hand"
+			description: ["While there aren't many inventory items in Powah that require energy, the batteries from Powah are quite helpful in helping you power your tools from other mods, like Industrial Revolution or Tech Reborn."]
 			dependencies: ["72868D5235EEB1D1"]
 			id: "6E73A1FC54068F9D"
 			tasks: [{
@@ -79,40 +117,54 @@
 						items: [
 							{
 								id: "powah:battery_starter"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "powah:battery_basic"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "powah:battery_hardened"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "powah:battery_blazing"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "powah:battery_niotic"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "powah:battery_spirited"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "powah:battery_nitro"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "65518AA5E8ECF7D0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
 					}
 				}
 			}]
@@ -121,6 +173,8 @@
 			title: "Energy Cells"
 			x: -14.0d
 			y: -2.0d
+			subtitle: "Big Box Storin'"
+			description: ["Energy cells are a great way to store energy and redistribute it later when your machines need it most."]
 			dependencies: ["72868D5235EEB1D1"]
 			id: "63E3FE37529D0653"
 			tasks: [{
@@ -164,11 +218,31 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "039CAD1A22774986"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			title: "Energizing"
 			x: -7.5d
 			y: 0.0d
+			subtitle: "Light 'em up boys"
+			description: [
+				"The energizer is used to infuse 1 or more items with energy to create a new item"
+				""
+				"Multiple infusers allow you to infuse the item(s) with energy faster and therefore craft faster, very useful when making items that require a large amount of infused energy"
+			]
 			dependencies: ["48D9BC5F27EB7EFC"]
 			id: "3AAEDB182C3919CC"
 			tasks: [
@@ -219,10 +293,26 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "189E7C1448EBEB75"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
 			y: -2.0d
+			subtitle: "Hard as ... Steel?"
+			description: ["Energized steel is a crafting material made from gold and iron, used as a base for the Hardened level of machinery in Powah"]
 			dependencies: ["3AAEDB182C3919CC"]
 			id: "4768DD5F60DE3F4A"
 			tasks: [{
@@ -230,10 +320,26 @@
 				type: "item"
 				item: "powah:steel_energized"
 			}]
+			rewards: [{
+				id: "034C40BA404D4DFA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: -1.0d
+			subtitle: "Sizzle pop"
+			description: ["Blazing crystals are made from a material you would never suspect: Blaze powder. Its used as the material for the blazing tier of machines"]
 			dependencies: ["3AAEDB182C3919CC"]
 			id: "4D86F088280981A2"
 			tasks: [{
@@ -241,10 +347,26 @@
 				type: "item"
 				item: "powah:crystal_blazing"
 			}]
+			rewards: [{
+				id: "2160D5AD476713DB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -5.0d
 			y: 0.0d
+			subtitle: "Blue Crystals :)"
+			description: ["Niotic crystals are made from Diamonds, and are a key component for the Niotic tier of machines"]
 			dependencies: ["3AAEDB182C3919CC"]
 			id: "0DBF3DBFA978291D"
 			tasks: [{
@@ -252,10 +374,26 @@
 				type: "item"
 				item: "powah:crystal_niotic"
 			}]
+			rewards: [{
+				id: "2F4802C8A8F47A08"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/epic"
+						Name: "Powah! Epic Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -5.5d
 			y: 1.0d
+			subtitle: "I thought Spirits were blue"
+			description: ["This resource uses emeralds, and is necessary for the Spirited level of machines"]
 			dependencies: ["3AAEDB182C3919CC"]
 			id: "45E782AC2C3E97EE"
 			tasks: [{
@@ -263,10 +401,26 @@
 				type: "item"
 				item: "powah:crystal_spirited"
 			}]
+			rewards: [{
+				id: "61F58E9782C28446"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/epic"
+						Name: "Powah! Epic Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
 			y: 2.0d
+			subtitle: "Now only $2.99!"
+			description: ["Nitro crystals are materials required for the highest tier of machinery, Nitro, and are made with Nether Stars and redstone. If used properly they will also enable you to use animated emojis in chat."]
 			dependencies: ["3AAEDB182C3919CC"]
 			id: "5F4CDC52244B937E"
 			tasks: [{
@@ -274,11 +428,31 @@
 				type: "item"
 				item: "powah:crystal_nitro"
 			}]
+			rewards: [{
+				id: "6282C39A0E7F5D3D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/legendary"
+						Name: "Powah! Legendary Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			title: "Reactors"
 			x: -10.5d
 			y: 2.0d
+			subtitle: "RADIOACTIVE RADIOACTIVE WOAHaaOAAh"
+			description: [
+				"Reactors are powerful generators that enable you to make varying amounts of energy from Uranite that you can find underground."
+				""
+				"You'll need 36 to form the multiblock. Rightclicking the ground with 36 reactor blocks will automatically form the reactor."
+			]
 			dependencies: [
 				"5D08158FE91F8A63"
 				"48D9BC5F27EB7EFC"
@@ -326,21 +500,53 @@
 				}
 				count: 36L
 			}]
+			rewards: [{
+				id: "479A964FC6EB434D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -12.5d
 			y: 2.0d
+			subtitle: "This seems unsafe"
+			description: ["Uranite is a resource you can find underground, and is a required component for creating and fueling a Powah reactor"]
 			id: "5D08158FE91F8A63"
 			tasks: [{
 				id: "62B7B724197D88C5"
 				type: "item"
 				item: "powah:uraninite"
 			}]
+			rewards: [{
+				id: "1B27386FE4C091A0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			title: "Ender Cells"
 			x: -9.0d
 			y: -2.0d
+			subtitle: "Call your Carrier"
+			description: ["Ender Cells are part of an wireless network of energy. You can add ender cells to expand the capacity of your network."]
 			dependencies: ["22E4363ECF659C5B"]
 			id: "70197A6164010B19"
 			tasks: [{
@@ -384,10 +590,26 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "76F183A92789C904"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -7.5d
 			y: -2.0d
+			subtitle: "Energy! Now on 5G"
+			description: ["The ender core is the base of a frequency based wireless energy network. You can tap into the network or add energy to it using blocks made from this core"]
 			dependencies: ["3AAEDB182C3919CC"]
 			id: "22E4363ECF659C5B"
 			tasks: [{
@@ -395,10 +617,26 @@
 				type: "item"
 				item: "powah:ender_core"
 			}]
+			rewards: [{
+				id: "3FC9BE8BD8A05E10"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -12.5d
 			y: -2.0d
+			subtitle: "Zzzt Zzzt"
+			description: ["Powah is quite a powerful mod that will quickly makes your machines full of power. You'll want to find a way to store energy both on the go and in your base to make a more effective setup."]
 			id: "72868D5235EEB1D1"
 			tasks: [{
 				id: "2ABFE7FABC8CAD49"
@@ -409,6 +647,8 @@
 		{
 			x: -3.0d
 			y: 0.0d
+			subtitle: "Bring on da Heat!"
+			description: ["This generator generates energy by harnessing energy from a heat source underneath it and consuming a liquid coolant."]
 			dependencies: ["718CD4D1272E5DD3"]
 			id: "28290CA40D704C6B"
 			tasks: [{
@@ -452,10 +692,26 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0C62EE01DB5CE5B5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -3.0d
 			y: 2.0d
+			subtitle: "Fluid Flux"
+			description: ["This generator can create energy by burning liquid fuels."]
 			dependencies: ["718CD4D1272E5DD3"]
 			id: "4E09AA1CA6FF2AD4"
 			tasks: [{
@@ -499,10 +755,26 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "54B8CA4496D74966"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -1.0d
 			y: 2.0d
+			subtitle: "Haven't seen one of these before."
+			description: ["This extremely unique generator creates energy from burning item fuel."]
 			dependencies: ["718CD4D1272E5DD3"]
 			id: "3093AD7CAFEA9113"
 			tasks: [{
@@ -546,10 +818,26 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4A94D0274ADE9199"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -1.0d
 			y: 0.0d
+			subtitle: "Photosynthesis \\o/"
+			description: ["A simple sheet of metal that generates energy from the power of the sun."]
 			dependencies: ["718CD4D1272E5DD3"]
 			id: "644DEDB36A0827D7"
 			tasks: [{
@@ -593,11 +881,27 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3ACC311027719B86"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			title: "Energy Cables"
 			x: -10.5d
 			y: -2.0d
+			subtitle: "YAMTAC (Yet another mod that adds cables)"
+			description: ["Powah cables help you transfer large amounts of energy to and from generators and machines."]
 			dependencies: ["48D9BC5F27EB7EFC"]
 			id: "28C0FEFEEC51B963"
 			tasks: [{
@@ -641,11 +945,31 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7106F5020C92D855"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			title: "Ender Gates"
 			x: -7.5d
 			y: -3.5d
+			subtitle: "Downloading..."
+			description: [
+				"The Ender gate is an item that allows you to tap into you ender network to input or output energy."
+				""
+				"Its cheaper than ender cells, making it better for transfer to your machines, but doesn't have an internal capacity so it will not increase your ender network's capacity"
+			]
 			dependencies: ["22E4363ECF659C5B"]
 			id: "277D203450B35083"
 			tasks: [{
@@ -689,10 +1013,30 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5EC7F4DF91964C90"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -3.5d
 			y: -2.0d
+			subtitle: "Energy Draino"
+			description: [
+				"This machine allows you to drain the energy found inside of any energy holding item that supports extraction."
+				""
+				"It'll store the energy in an internal buffer, and allows you to extract it to distribute into your nearby machines."
+			]
 			dependencies: ["4E0D6F1DDD305855"]
 			id: "74F0AD6CC49C1CF6"
 			tasks: [{
@@ -736,10 +1080,26 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "765EC647D774674C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -2.0d
 			y: -3.5d
+			subtitle: "Sidecar Energy"
+			description: ["This nifty little machine will insert energy into energy containing items found in a container on the output face of an energy hopper"]
 			dependencies: ["4E0D6F1DDD305855"]
 			id: "47B76A23E66EA846"
 			tasks: [{
@@ -783,10 +1143,30 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "576EF2E667A51455"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
 			y: -2.0d
+			subtitle: "Bluetooh could never"
+			description: [
+				"The player transmitter is a useful block that emits energy and beams it straight into your hands."
+				""
+				"It wirelessly charges items in your armor slots or hand slots of a linked player."
+			]
 			dependencies: ["4E0D6F1DDD305855"]
 			id: "75BE62C479A3DDAB"
 			tasks: [{
@@ -827,6 +1207,20 @@
 								Count: 1b
 							}
 						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "11482DD40581C651"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
 					}
 				}
 			}]

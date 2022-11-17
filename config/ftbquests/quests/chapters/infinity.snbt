@@ -4,7 +4,7 @@
 	order_index: 2
 	filename: "infinity"
 	title: "Challenges"
-	icon: "croptopia:starfruit"
+	icon: "kubejs:completionist"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -186,6 +186,9 @@
 				""
 				"&bGuardian of Gaia:"
 				"To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead."
+				""
+				"&bConjunctivius:"
+				"Can be found in the Mine Cells dimension (See Adventurer quest chapter)."
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "1F0EE1298663FE88"
@@ -278,6 +281,19 @@
 					type: "kill"
 					icon: "twilightforest:knight_phantom_trophy"
 					entity: "twilightforest:knight_phantom"
+					value: 1L
+				}
+				{
+					id: "32108A16CEAA297E"
+					type: "kill"
+					icon: {
+						id: "minecells:tentacle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecells:conjunctivius"
 					value: 1L
 				}
 			]

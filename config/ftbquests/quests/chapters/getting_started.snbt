@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "getting_started"
 	title: "Getting Started"
-	icon: "kibe:pocket_crafting_table"
+	icon: "portable_tables:portable_crafting_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -1,7 +1,7 @@
 {
 	id: "19424F3F4D7521A2"
 	group: "36480AFE3722FADC"
-	order_index: 4
+	order_index: 3
 	filename: "gadgets"
 	title: "Building"
 	icon: {
@@ -685,6 +685,571 @@
 				id: "2468CAEE0E3DFE45"
 				type: "checkmark"
 				title: "Block Variations"
+			}]
+		}
+		{
+			title: "Manasteel Armory"
+			x: -2.5d
+			y: 7.0d
+			subtitle: "Made out of Iron and Mana."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "69EF6FE796539675"
+			tasks: [
+				{
+					id: "384F8EE2142E565A"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "752FEB2ABDA70713"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16D9A0AFCF03C01C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33420EB93311F590"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A01FBD100578278"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Elementium Armory"
+			x: -3.5d
+			y: 6.0d
+			subtitle: "Made in the Portal to Alfheim."
+			description: [
+				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
+				""
+				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
+				""
+				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "0A0EE0B8F2CF1840"
+			tasks: [
+				{
+					id: "6443CB4EA4556356"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F3830E0938CBB40"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3547154495AA785B"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ED55F2B0C34748D"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "754CE8CB0336E6D3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			title: "Terrasteel Armory"
+			x: 0.5d
+			y: 7.0d
+			subtitle: "Made via an infusion ritual."
+			description: [
+				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
+				""
+				"> Passive generation of 1 Mana per tick."
+				""
+				"> 20% decrease of Mana cost on all Mana-using tools and rods."
+				""
+				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
+				""
+				"> Effects of all Wills applied to the worn Terrasteel Helmet."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "7E9CEA24C62A5EB5"
+			tasks: [
+				{
+					id: "5AC1B88EE4805986"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3EF0ABC0224C1C77"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "249C7B704AB2BFF6"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73DE3154063549DE"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5E5F8A23E330AF66"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.0d
+			subtitle: "THUNDERSTRIKE!"
+			description: [
+				"When a creature is attacked with this sword, a weak chain lightning attack will deal 5 points of damage to a random monster in an 8 block radius, then jump to a next target in the same range around the previous one, dealing 1 less point in damage. "
+				""
+				"This is repeated until 4 enemies are damaged."
+			]
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "3C2FE1723CE04FB0"
+			tasks: [{
+				id: "6A4DB08A4096EF5A"
+				type: "item"
+				item: {
+					id: "botania:thunder_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "72D15A7D5F8B77BA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 12.0d
+			subtitle: "Chance to spawn a missile falling at the targeted block."
+			description: ["The missile deals 5 damage and has a 25% chance to deal double damage."]
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "506164F383491B84"
+			tasks: [{
+				id: "3A1ED13E4F0D7093"
+				type: "item"
+				item: {
+					id: "botania:star_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "018669941B11F461"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.0d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "05F39EED60B5032B"
+			tasks: [{
+				id: "0B6D9A28B4A9B38C"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "494D1269BAC85011"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.0d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7C5DBA5626CE7D7D"
+			tasks: [{
+				id: "3AFC4119E51084AA"
+				type: "item"
+				item: {
+					id: "botania:elementium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D75E74B635299E0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.0d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7CE1E91CE65BEEB1"
+			tasks: [{
+				id: "5C2A939D465B1339"
+				type: "item"
+				item: {
+					id: "botania:manasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64788C0E06411E05"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tools of Terra"
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "6B2A5C9F8F92975B"
+			tasks: [
+				{
+					id: "0EBC1A262BACB90E"
+					type: "item"
+					item: {
+						id: "botania:terra_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
+					}
+				}
+				{
+					id: "1B21CF9911521FE4"
+					type: "item"
+					item: {
+						id: "botania:terra_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1F58E0896CECAB48"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "Elementium Tools"
+			x: 4.0d
+			y: 7.0d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "491D1CA466F8BEE7"
+			tasks: [
+				{
+					id: "1B7C87583404D823"
+					type: "item"
+					item: {
+						id: "botania:elementium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12761B3B1151BB90"
+					type: "item"
+					item: {
+						id: "botania:elementium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35251431AE99A877"
+					type: "item"
+					item: {
+						id: "botania:elementium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E9208183F259F87"
+					type: "item"
+					item: {
+						id: "botania:elementium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37D446E2E6929333"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "Manasteel Tools"
+			x: 5.0d
+			y: 7.0d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "1812006D3BD67F42"
+			tasks: [
+				{
+					id: "78AE4A2866D42033"
+					type: "item"
+					item: {
+						id: "botania:manasteel_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "513C28B868CC07B7"
+					type: "item"
+					item: {
+						id: "botania:manasteel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BEDB0B6192BABAB"
+					type: "item"
+					item: {
+						id: "botania:manasteel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4868DD63695C6A9C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2795C286B3F01E19"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
 			}]
 		}
 	]

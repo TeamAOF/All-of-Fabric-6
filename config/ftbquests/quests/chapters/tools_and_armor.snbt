@@ -3,7 +3,7 @@
 	group: "76C22988F9A7C9CE"
 	order_index: 1
 	filename: "tools_and_armor"
-	title: "Tools and Armor"
+	title: "Tools and Armory"
 	icon: "minecraft:smithing_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -98,9 +98,9 @@
 			}]
 		}
 		{
-			title: "Armory of Dragon"
-			x: -8.5d
-			y: -2.5d
+			title: "&5Armory of Dragon"
+			x: -5.5d
+			y: 2.5d
 			subtitle: "Harness the true strength of a dragon."
 			description: ["Scales are dropped by killing the Ender Dragon."]
 			dependencies: ["35F0E2CEEE9D9AD0"]
@@ -167,229 +167,7 @@
 			}]
 		}
 		{
-			title: "Manasteel Armory"
-			x: -8.5d
-			y: 2.5d
-			subtitle: "Made out of Iron and Mana."
-			dependencies: ["35F0E2CEEE9D9AD0"]
-			id: "69EF6FE796539675"
-			tasks: [
-				{
-					id: "384F8EE2142E565A"
-					type: "item"
-					item: {
-						id: "botania:manasteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "752FEB2ABDA70713"
-					type: "item"
-					item: {
-						id: "botania:manasteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "16D9A0AFCF03C01C"
-					type: "item"
-					item: {
-						id: "botania:manasteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "33420EB93311F590"
-					type: "item"
-					item: {
-						id: "botania:manasteel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "5A01FBD100578278"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Name: "Magic Rare Lootbag"
-						Loot: "aof:loot_bags/magic/rare"
-					}
-				}
-			}]
-		}
-		{
-			title: "Elementium Armory"
-			x: -7.0d
-			y: 2.5d
-			subtitle: "Made in the Portal to Alfheim."
-			description: [
-				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
-				""
-				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
-				""
-				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
-			]
-			dependencies: ["35F0E2CEEE9D9AD0"]
-			id: "0A0EE0B8F2CF1840"
-			tasks: [
-				{
-					id: "6443CB4EA4556356"
-					type: "item"
-					item: {
-						id: "botania:elementium_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3F3830E0938CBB40"
-					type: "item"
-					item: {
-						id: "botania:elementium_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3547154495AA785B"
-					type: "item"
-					item: {
-						id: "botania:elementium_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6ED55F2B0C34748D"
-					type: "item"
-					item: {
-						id: "botania:elementium_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "754CE8CB0336E6D3"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 16747259
-						Name: "Magic Epic Lootbag"
-						Loot: "aof:loot_bags/magic/epic"
-					}
-				}
-			}]
-		}
-		{
-			title: "Terrasteel Armory"
-			x: -5.5d
-			y: 2.5d
-			subtitle: "Made via an infusion ritual."
-			description: [
-				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
-				""
-				"> Passive generation of 1 Mana per tick."
-				""
-				"> 20% decrease of Mana cost on all Mana-using tools and rods."
-				""
-				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
-				""
-				"> Effects of all Wills applied to the worn Terrasteel Helmet."
-			]
-			dependencies: ["35F0E2CEEE9D9AD0"]
-			id: "7E9CEA24C62A5EB5"
-			tasks: [
-				{
-					id: "5AC1B88EE4805986"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3EF0ABC0224C1C77"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "249C7B704AB2BFF6"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "73DE3154063549DE"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "5E5F8A23E330AF66"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16747259
-						Name: "Magic Legendary Lootbag"
-						Loot: "aof:loot_bags/magic/legendary"
-					}
-				}
-			}]
-		}
-		{
-			title: "Gilded Netherite"
+			title: "&6Gilded Netherite"
 			x: -5.5d
 			y: -2.5d
 			subtitle: "More durable than the netherite set and has a full set ability."
@@ -464,9 +242,9 @@
 			}]
 		}
 		{
-			title: "Quantum Armory"
-			x: -9.5d
-			y: 0.0d
+			title: "&bQuantum Armory"
+			x: -8.5d
+			y: 2.5d
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "44A2231617CD5156"
 			tasks: [
@@ -508,8 +286,8 @@
 		}
 		{
 			title: "Modular Armory"
-			x: -4.5d
-			y: 0.0d
+			x: -8.5d
+			y: -2.5d
 			subtitle: "Smash modules on it!"
 			description: [
 				"The Modular Armor is, on it's own, not much, but when you install modules, it can become very powerful!"
@@ -798,8 +576,8 @@
 			}]
 		}
 		{
-			title: "Tools of Dragon"
-			x: -2.0d
+			title: "&5Dragon's Tools"
+			x: 0.0d
 			y: -2.5d
 			subtitle: "Harness the true strength of a dragon."
 			description: ["Scales are dropped by killing the Ender Dragon."]
@@ -867,142 +645,8 @@
 			}]
 		}
 		{
-			title: "Manasteel Tools"
-			x: 2.0d
-			y: -2.5d
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "1812006D3BD67F42"
-			tasks: [
-				{
-					id: "78AE4A2866D42033"
-					type: "item"
-					item: {
-						id: "botania:manasteel_pick"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "513C28B868CC07B7"
-					type: "item"
-					item: {
-						id: "botania:manasteel_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0BEDB0B6192BABAB"
-					type: "item"
-					item: {
-						id: "botania:manasteel_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4868DD63695C6A9C"
-					type: "item"
-					item: {
-						id: "botania:manasteel_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "2795C286B3F01E19"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
-						Name: "Artifact Lootbag"
-						Loot: "aof:loot_bags/misc/artifacts"
-					}
-				}
-			}]
-		}
-		{
-			title: "Elementium Tools"
-			x: 1.0d
-			y: -2.5d
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "491D1CA466F8BEE7"
-			tasks: [
-				{
-					id: "1B7C87583404D823"
-					type: "item"
-					item: {
-						id: "botania:elementium_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "12761B3B1151BB90"
-					type: "item"
-					item: {
-						id: "botania:elementium_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "35251431AE99A877"
-					type: "item"
-					item: {
-						id: "botania:elementium_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7E9208183F259F87"
-					type: "item"
-					item: {
-						id: "botania:elementium_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "37D446E2E6929333"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
-						Name: "Artifact Lootbag"
-						Loot: "aof:loot_bags/misc/artifacts"
-					}
-				}
-			}]
-		}
-		{
 			title: "Hammers"
-			x: -2.0d
+			x: -1.5d
 			y: 2.5d
 			subtitle: "3x3 Mining on your doorstep."
 			description: ["Craft any hammer to complete quest."]
@@ -1036,7 +680,7 @@
 		}
 		{
 			title: "Machetes"
-			x: 1.0d
+			x: 0.5d
 			y: 2.5d
 			subtitle: "Will break surrounding leaf blocks depending on the tool."
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1069,7 +713,7 @@
 		}
 		{
 			title: "Scythes"
-			x: 2.0d
+			x: 1.5d
 			y: 2.5d
 			subtitle: "Harvest crops in a range!"
 			description: [
@@ -1120,8 +764,10 @@
 			}]
 		}
 		{
+			title: "&5Dragon's Sword"
 			x: 5.0d
 			y: -2.5d
+			subtitle: "Harness the true strength of a dragon."
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "43393B11001E56DC"
 			tasks: [{
@@ -1151,146 +797,7 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.5d
-			dependencies: ["5EA2D6174BCFEC05"]
-			id: "7CE1E91CE65BEEB1"
-			tasks: [{
-				id: "5C2A939D465B1339"
-				type: "item"
-				item: {
-					id: "botania:manasteel_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "64788C0E06411E05"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Name: "Magic Rare Lootbag"
-						Loot: "aof:loot_bags/magic/rare"
-					}
-				}
-			}]
-		}
-		{
-			x: 7.0d
-			y: -2.5d
-			dependencies: ["5EA2D6174BCFEC05"]
-			id: "7C5DBA5626CE7D7D"
-			tasks: [{
-				id: "3AFC4119E51084AA"
-				type: "item"
-				item: {
-					id: "botania:elementium_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "2D75E74B635299E0"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 16747259
-						Name: "Magic Epic Lootbag"
-						Loot: "aof:loot_bags/magic/epic"
-					}
-				}
-			}]
-		}
-		{
-			title: "Tools of Terra"
-			x: -1.0d
-			y: -2.5d
-			dependencies: ["300FAC6161C1BCDB"]
-			id: "6B2A5C9F8F92975B"
-			tasks: [
-				{
-					id: "0EBC1A262BACB90E"
-					type: "item"
-					item: {
-						id: "botania:terra_pick"
-						Count: 1b
-						tag: {
-							Damage: 0
-							mana: 9999
-						}
-					}
-				}
-				{
-					id: "1B21CF9911521FE4"
-					type: "item"
-					item: {
-						id: "botania:terra_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "1F58E0896CECAB48"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
-						Name: "Artifact Lootbag"
-						Loot: "aof:loot_bags/misc/artifacts"
-					}
-				}
-			}]
-		}
-		{
-			x: 8.0d
-			y: -2.5d
-			dependencies: ["5EA2D6174BCFEC05"]
-			id: "05F39EED60B5032B"
-			tasks: [{
-				id: "0B6D9A28B4A9B38C"
-				type: "item"
-				item: {
-					id: "botania:terra_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "494D1269BAC85011"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16747259
-						Name: "Magic Legendary Lootbag"
-						Loot: "aof:loot_bags/magic/legendary"
-					}
-				}
-			}]
-		}
-		{
-			x: 7.0d
+			x: 5.0d
 			y: 2.5d
 			subtitle: "An advanced weapon that can be used against hostile mobs, or players."
 			description: [
@@ -1332,7 +839,7 @@
 		}
 		{
 			title: "Paxels"
-			x: 0.0d
+			x: -0.5d
 			y: 2.5d
 			subtitle: "All in One!"
 			description: [
@@ -1451,78 +958,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.5d
-			subtitle: "Chance to spawn a missile falling at the targeted block."
-			description: ["The missile deals 5 damage and has a 25% chance to deal double damage."]
-			dependencies: ["5EA2D6174BCFEC05"]
-			id: "506164F383491B84"
-			tasks: [{
-				id: "3A1ED13E4F0D7093"
-				type: "item"
-				item: {
-					id: "botania:star_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "018669941B11F461"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16747259
-						Name: "Magic Legendary Lootbag"
-						Loot: "aof:loot_bags/magic/legendary"
-					}
-				}
-			}]
-		}
-		{
-			x: 6.0d
-			y: 2.5d
-			subtitle: "THUNDERSTRIKE!"
-			description: [
-				"When a creature is attacked with this sword, a weak chain lightning attack will deal 5 points of damage to a random monster in an 8 block radius, then jump to a next target in the same range around the previous one, dealing 1 less point in damage. "
-				""
-				"This is repeated until 4 enemies are damaged."
-			]
-			dependencies: ["5EA2D6174BCFEC05"]
-			id: "3C2FE1723CE04FB0"
-			tasks: [{
-				id: "6A4DB08A4096EF5A"
-				type: "item"
-				item: {
-					id: "botania:thunder_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "72D15A7D5F8B77BA"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16747259
-						Name: "Magic Legendary Lootbag"
-						Loot: "aof:loot_bags/magic/legendary"
-					}
-				}
-			}]
-		}
-		{
 			title: "Medieval Weapons"
-			x: 8.0d
+			x: 6.5d
 			y: 2.5d
 			subtitle: "From Boomerangs to Yo-yos, and Spears to Broadswords."
 			description: [
@@ -2080,9 +1517,9 @@
 			}]
 		}
 		{
-			title: "Advanced Netherite"
-			x: -1.0d
-			y: 2.5d
+			title: "&cAdvanced Netherite"
+			x: 1.5d
+			y: -2.5d
 			subtitle: "Every Netherite tier has its own unique properties."
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "38832A16DF4E54C3"
@@ -2097,13 +1534,39 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "036E6B1FD2BBE842"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "53F18A9AA229B505"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16103753
+							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
+						}
+					}
+				}
+				{
+					id: "5042EEAE31068F62"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
+						}
+					}
+				}
+			]
 		}
 		{
-			title: "Advanced Netherite"
+			title: "&cAdvanced Netherite"
 			x: -7.0d
 			y: -2.5d
 			subtitle: "Every Netherite tier has its own unique properties."
@@ -2122,6 +1585,275 @@
 			}]
 			rewards: [{
 				id: "52ED16348FDFD65A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bArmory of the Warden"
+			x: -7.0d
+			y: 2.5d
+			subtitle: "You feel the true power of the Warden!"
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "6EC36423E7AFFC6A"
+			tasks: [
+				{
+					id: "6520C11D866E605C"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BBF2201EF7ACCFF"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BA808F0CBF8121C"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2501119BAFEF8F97"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "204186ABAF820E5A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bWeaponry of the Warden"
+			x: 8.0d
+			y: -2.5d
+			subtitle: "You feel the true power of the Warden!"
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "4EBE275982E447AC"
+			tasks: [{
+				id: "6562E0D76672FC86"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AA9547EA4F721C1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bWarden's Artifacts"
+			x: 8.0d
+			y: 2.5d
+			subtitle: "Kill the Warden, gather them all!"
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "23E9A36DB8BF3155"
+			tasks: [
+				{
+					id: "5F5EBBDF830E1F3E"
+					type: "item"
+					item: {
+						id: "echoingdepths:illuminated_depths"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "718B56BD8B38D1E1"
+					type: "item"
+					item: {
+						id: "echoingdepths:echo_piercer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A3B76AD9C0FBD0D"
+					type: "item"
+					item: {
+						id: "echoingdepths:soul_descent"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "120576F85075C059"
+					type: "item"
+					item: {
+						id: "echoingdepths:knowledge_of_dark_depths"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "52AC792EA1F58C3F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bTools of the Warden"
+			x: -1.5d
+			y: -2.5d
+			subtitle: "Gardener? Nah, more like... Wardener!"
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "1B3B5304E3BA3A75"
+			tasks: [
+				{
+					id: "5C8CB0C4DCA62663"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "319ADC4407E7BDA4"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C36CCC608658408"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "792B29B8C0FC8DC5"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0FEDA1050C7144B1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "The curse be upon you!"
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "237580846E5B0C1C"
+			tasks: [{
+				id: "6D4FBC238D9972F4"
+				type: "item"
+				item: {
+					id: "minecells:cursed_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "752C833AF3F183F0"
 				type: "item"
 				item: {
 					id: "lootbags:loot_bag"

@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "All of Fabric 6"
+	title: "&lAll of Fabric 6"
 	icon: "kubejs:aof6_logo"
 	default_reward_team: false
 	default_consume_items: false

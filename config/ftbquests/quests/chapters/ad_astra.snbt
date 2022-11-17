@@ -5,7 +5,7 @@
 	filename: "ad_astra"
 	title: "Ad Astra"
 	icon: {
-		id: "ad_astra:tier_1_rocket"
+		id: "ad_astra:tier_3_rocket"
 		Count: 1b
 		tag: { }
 	}
@@ -13,7 +13,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Ad Astra"
+			title: "&9Ad Astra"
 			x: -5.5d
 			y: 0.0d
 			subtitle: "To the Stars!"
@@ -389,7 +389,7 @@
 			]
 		}
 		{
-			title: "Moon Metal"
+			title: "&6Moon Metal"
 			x: 0.7500000000000071d
 			y: 0.010204081632650741d
 			subtitle: "Dish, Desh, Ding"
@@ -983,7 +983,7 @@
 			}]
 		}
 		{
-			title: "Mercury Metal"
+			title: "&cMercury Metal"
 			x: 10.0d
 			y: 0.0d
 			subtitle: "Pretty red ingot go brrr"
@@ -1012,7 +1012,7 @@
 			}]
 		}
 		{
-			title: "Earth Metal"
+			title: "&8Earth Metal"
 			x: -3.5d
 			y: 0.0d
 			subtitle: "Yes, more steel"

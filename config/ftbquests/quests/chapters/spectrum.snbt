@@ -36,7 +36,6 @@
 			y: 6.0d
 			description: ["Using your new glow vision helmet, explore the ocean depths. Sparkling sea grass will eventually reveal a treasure."]
 			hide_dependency_lines: true
-			dependencies: ["790E66B088B92037"]
 			hide: true
 			id: "5584A52CAA574CFC"
 			tasks: [{
@@ -1072,30 +1071,6 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
-			description: ["Spectrum Mid Game"]
-			id: "5D1A91608FE45D0A"
-			tasks: [{
-				id: "4BA0EB2C5D96C882"
-				type: "advancement"
-				advancement: "spectrum:midgame/spectrum_midgame"
-				criterion: ""
-			}]
-		}
-		{
-			x: -1.0d
-			y: 0.5d
-			description: ["Spectrum Early Game"]
-			id: "790E66B088B92037"
-			tasks: [{
-				id: "5EA6ED20EC868381"
-				type: "advancement"
-				advancement: "spectrum:spectrum"
-				criterion: ""
-			}]
-		}
-		{
 			x: 14.0d
 			y: 0.0d
 			dependencies: ["1810EB195B0CC509"]
@@ -1281,7 +1256,6 @@
 			y: 7.5d
 			description: ["Craft and place down a Color Picker"]
 			hide_dependency_lines: true
-			dependencies: ["5D1A91608FE45D0A"]
 			hide: true
 			id: "0A895BEB210EA39C"
 			tasks: [{
@@ -1491,17 +1465,19 @@
 				advancement: "spectrum:midgame/manifest_memory"
 				criterion: ""
 			}]
-		}
-		{
-			x: 0.5d
-			y: -1.5d
-			description: ["Spectrum Early Game"]
-			id: "4633BD56EB73878E"
-			tasks: [{
-				id: "40C0CB2A7FAF0059"
-				type: "advancement"
-				advancement: "spectrum:spectrum"
-				criterion: ""
+			rewards: [{
+				id: "4E73BF3DDAD8DF53"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1670,6 +1646,20 @@
 				advancement: "spectrum:midgame/enter_dimension"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "45AB8E4F697891A9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
 		}
 		{
 			title: "Not Yet Available in Survival"
@@ -1684,6 +1674,20 @@
 				type: "advancement"
 				advancement: "spectrum:midgame/collect_moonstone_shard"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "363A9F71C2A20901"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{
@@ -1700,6 +1704,20 @@
 				advancement: "spectrum:midgame/craft_moonstone_pedestal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "78AAD507048E94BA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
 		}
 		{
 			x: 12.5d
@@ -1714,12 +1732,18 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "3BC2CC0916F563FD"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "1DEF164611FE8B2A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
 			}]
 		}
 		{

@@ -1,11 +1,10 @@
 {
 	id: "5811BFDF9E484981"
-	group: "36480AFE3722FADC"
-	order_index: 2
+	group: "0815C5D80307ECDF"
+	order_index: 1
 	filename: "create"
 	title: "Create"
-	icon: "create:wrench"
-	always_invisible: true
+	icon: "create:mechanical_arm"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -57,33 +56,20 @@
 				type: "item"
 				item: "create:mechanical_press"
 			}]
-			rewards: [
-				{
-					id: "31159B332C0059E4"
-					type: "item"
-					item: "modern_industrialization:iron_plate"
-					count: 8
-				}
-				{
-					id: "7D46FECDAF3D338C"
-					type: "item"
-					item: "create:depot"
-				}
-				{
-					id: "179FDF0BD3CBD5FB"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 15576960
-							Loot: "aof:loot_bags/create/common"
-							Name: "Create Common Lootbag"
-						}
+			rewards: [{
+				id: "179FDF0BD3CBD5FB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
-			]
+			}]
 		}
 		{
 			title: "Cogwheels"
@@ -247,7 +233,7 @@
 			x: -4.0d
 			y: 0.5d
 			subtitle: "It's not the endgame autocrafting, but it's close enough"
-			description: ["Crafting Blueprints can be used to craft a template you placed on the blueprint without placing the items on the crafting Menu. Convenient while you still don't have an ME system"]
+			description: ["Crafting &bBlueprints &rcan be used to craft a &bTemplate &ryou placed on the blueprint without placing the items on the crafting Menu. Convenient while you still don't have an ME system."]
 			dependencies: ["624B52BE855CF703"]
 			id: "2AFA49C5659C94F8"
 			tasks: [{
@@ -1239,7 +1225,7 @@
 		{
 			x: 9.0d
 			y: 2.5d
-			subtitle: "When you have too much crops"
+			subtitle: "When you have too many crops"
 			dependencies: ["1BA0F9B77AF73203"]
 			id: "03A9D8346C52AA2C"
 			tasks: [{
@@ -1335,7 +1321,7 @@
 			tasks: [{
 				id: "1CF55C47026EF25D"
 				type: "item"
-				item: "additionaladditions:honeyed_apple"
+				item: "create:honeyed_apple"
 			}]
 			rewards: [{
 				id: "57E821B12459BBDB"
@@ -1793,7 +1779,7 @@
 			x: -4.0d
 			y: 2.5d
 			subtitle: "The poor man's shulker box"
-			description: ["> You can use items from a nearby placed toolbox without opening it"]
+			description: ["> You can use items from a nearby placed toolbox without opening it."]
 			dependencies: ["2AFA49C5659C94F8"]
 			id: "3F89A5E9BF484A60"
 			tasks: [{

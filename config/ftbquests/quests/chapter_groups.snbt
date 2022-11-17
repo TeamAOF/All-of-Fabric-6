@@ -1,9 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "33A417364C0A17FE", title: "Logistics" }
-		{ id: "76C22988F9A7C9CE", title: "Utilities" }
-		{ id: "0815C5D80307ECDF", title: "Technology" }
-		{ id: "1039AC171AB01709", title: "Magic" }
-		{ id: "36480AFE3722FADC", title: "Hidden" }
+		{ id: "33A417364C0A17FE", title: "&lLogistics&r &b⚙" }
+		{ id: "76C22988F9A7C9CE", title: "&lUtilities&r &9⚒" }
+		{ id: "0815C5D80307ECDF", title: "&lTechnology&r &e⚡" }
+		{ id: "1039AC171AB01709", title: "&lMagic&r &d✡" }
+		{ id: "36480AFE3722FADC", title: "&lHidden" }
 	]
 }

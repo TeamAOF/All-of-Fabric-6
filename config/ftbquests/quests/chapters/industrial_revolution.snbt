@@ -4,7 +4,7 @@
 	order_index: 2
 	filename: "industrial_revolution"
 	title: "Industrial Revolution"
-	icon: "indrev:modular_core"
+	icon: "indrev:mining_rig_mk4"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [{
