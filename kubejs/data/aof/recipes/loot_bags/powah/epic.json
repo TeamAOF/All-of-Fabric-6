@@ -1,0 +1,91 @@
+{
+  "type": "lootbags:loot",
+  "name": "Powah! Epic Lootbag",
+  "color": "#e0ca87",
+  "rarity": "EPIC",
+  "output": {
+    "entries": [
+      {
+        "weight": 1,
+        "stack": {
+          "id": "powah:energy_cable_niotic",
+          "count": 16
+        }
+      },
+      {
+        "weight": 1,
+        "stack": "powah:energy_cell_niotic"
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "powah:dielectric_paste",
+          "count": 32
+        }
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "powah:thermoelectric_plate",
+          "count": 12
+        }
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "powah:dielectric_rod",
+          "count": 32
+        }
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "powah:dielectric_casing",
+          "count": 6
+        }
+      },
+      {
+        "weight": 3,
+        "stack": {
+          "id": "powah:photoelectric_pane",
+          "count": 12
+        }
+      },
+      {
+        "weight": 3,
+        "stack": {
+          "id": "powah:dry_ice",
+          "count": 64
+        }
+      },
+      {
+        "weight": 3,
+        "stack": {
+          "id": "powah:capacitor_basic_large",
+          "count": 16
+        }
+      },
+      {
+        "weight": 3,
+        "stack": {
+          "id": "powah:crystal_niotic",
+          "count": 4
+        }
+      },
+      {
+        "weight": 2,
+        "stack": {
+          "id": "powah:crystal_spirited",
+          "count": 4
+        }
+      },
+      {
+        "weight": 3,
+        "stack": {
+          "id": "powah:uraninite",
+          "count": 16
+        }
+      }
+    ]
+  }
+}
