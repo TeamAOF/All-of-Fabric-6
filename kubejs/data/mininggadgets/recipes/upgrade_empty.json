@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "d": {
+        "tag": "c:gems/diamond"
+      },
+      "g": {
+        "tag": "c:glass_panes"
+      },
+      "l": {
+        "tag": "c:gems/lapis"
+      },
+      "r": {
+        "tag": "c:dusts/redstone"
+      }
+    },
+    "pattern": [
+      "rlr",
+      "dgd",
+      "rlr"
+    ],
+    "result": {
+      "item": "mininggadgets:upgrade_empty"
+    }
+  }
