@@ -39,10 +39,6 @@ ServerEvents.recipes( (event) => {
     'cinderscapes:sulfur_quartz_from_blasting_sulfur_quartz_ore',
     'cinderscapes:smoky_quartz_from_blasting_smoky_quartz_ore',
     'cinderscapes:rose_quartz_from_blasting_rose_quartz_ore',
-    'indrev:smelting/tin_ingot_from_ore',
-    'indrev:smelting/lead_ingot_from_ore',
-    'indrev:blasting/lead_ingot_from_ore',
-    'indrev:blasting/tin_ingot_from_ore'
 
     ];
 
