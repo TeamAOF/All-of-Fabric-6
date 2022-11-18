@@ -33,6 +33,6 @@ enableYellowBrickRoad = true
 enablePlatform = true
 enablePortableNether = true
 [doodadWorldGen]
-chestDoodadSpawnRate = 19.0
+chestDoodadSpawnRate = 10.0
 enableDoodadSpawnsInVillages = false
-entityDoodadDropRate = 16.0
+entityDoodadDropRate = 0.0
