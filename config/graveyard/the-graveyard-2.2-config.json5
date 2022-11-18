@@ -230,8 +230,8 @@
     },
     "ruins": {
       "enabled": true,
-      "separation": 26,
-      "spacing": 30,
+      "separation": 12,
+      "spacing": 16,
       "salt": 467108394,
       "biomeWhitelist": [
         "#c:forest"
@@ -262,8 +262,8 @@
     },
     "lich_prison": {
       "enabled": true,
-      "separation": 28,
-      "spacing": 30,
+      "separation": 70,
+      "spacing": 85,
       "salt": 258195719,
       "biomeWhitelist": [
         "#c:ocean"
@@ -315,8 +315,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     },
@@ -332,8 +332,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     },
@@ -349,8 +349,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     },
@@ -366,8 +366,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     },
@@ -383,8 +383,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     },
@@ -400,8 +400,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     },
@@ -417,8 +417,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     },
@@ -447,8 +447,8 @@
       ],
       "blacklist": [
         "minecraft:deep_dark",
-        "minecraft:mushroom_fields",
-        "minecraft:flower_forest"
+        "minecraft:flower_forest",
+        "minecraft:mushroom_fields"
       ],
       "modWhitelist": []
     }
@@ -459,6 +459,34 @@
       "mobSpawnAttempts": 40,
       "ticksUntilNextSpawn": 24000,
       "additionalRandomizedTicks": 1200
+    }
+  },
+  "corruptedChampionConfigEntries": {
+    "corrupted_champion": {
+      "healthInCastingPhase": 400.0,
+      "healthInHuntingPhase": 200.0,
+      "damageCastingPhase": 30.0,
+      "damageHuntingPhaseAddition": 40.0,
+      "armor": 18.0,
+      "armorToughness": 14.0,
+      "speedInHuntPhase": 0.15,
+      "durationHuntingPhase": 800,
+      "durationFallingCorpseSpell": 400,
+      "durationHealingSpell": 700,
+      "durationLevitationSpell": 150,
+      "maxAmountSkullsInShootSkullSpell": 5,
+      "maxSummonedMobs": 30,
+      "maxGroupSizeSummonedMobs": 5,
+      "ghoulSpawnTimerInFight": 6000,
+      "isBloodCollectableEntity": [
+        "entity.minecraft.villager"
+      ],
+      "isBossSummonableItem": [
+        "item.minecraft.debug_stick"
+      ],
+      "summoningNeedsStaffFragments": true,
+      "isMultiphaseFight": true,
+      "isInvulnerableDuringSpells": true
     }
   },
   "booleanEntries": {

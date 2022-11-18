@@ -33,12 +33,12 @@ ServerEvents.recipes( (event) => {
     'travelersbackpack:travelers_backpack',
     'catwalksinc:iron_rod',
     'twilightforest:jeed/hunger',
-    'cinderscapes:sulfur_quartz_from_smelting_sulfur_quartz_ore',
-    'cinderscapes:smoky_quartz_from_smelting_smoky_quartz_ore',
-    'cinderscapes:rose_quartz_from_smelting_rose_quartz_ore',
-    'cinderscapes:sulfur_quartz_from_blasting_sulfur_quartz_ore',
-    'cinderscapes:smoky_quartz_from_blasting_smoky_quartz_ore',
-    'cinderscapes:rose_quartz_from_blasting_rose_quartz_ore',
+    'bewitchment:silver_ingot_from_smelting_deepslate_silver_ore',
+    'bewitchment:silver_ingot_from_blasting_deepslate_silver_ore',
+    'bewitchment:silver_ingot_from_smelting_raw_silver',
+    'bewitchment:silver_ingot_from_blasting_raw_silver',
+    'bewitchment:raw_silver',
+    'bewitchment:raw_silver_block',
 
     ];
 

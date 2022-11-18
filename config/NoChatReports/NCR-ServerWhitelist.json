@@ -1,3 +1,5 @@
 {
-  "whitelistedServers": []
+  "whitelistedServers": [
+    "localhost:25565"
+  ]
 }

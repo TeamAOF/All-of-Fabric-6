@@ -90,8 +90,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -130,8 +130,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -171,8 +171,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -239,8 +239,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -298,8 +298,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -329,8 +329,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -356,8 +356,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -383,8 +383,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -414,8 +414,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -441,8 +441,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -472,8 +472,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -536,8 +536,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -608,30 +608,30 @@
 							items: [
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:item"
 										}
 									}
-									Count: 1b
 								}
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:fluid"
 										}
 									}
-									Count: 1b
 								}
 								{
 									id: "compactmachines:tunnel"
+									Count: 1b
 									tag: {
 										definition: {
 											id: "compactmachines:energy"
 										}
 									}
-									Count: 1b
 								}
 							]
 						}
@@ -749,8 +749,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -824,8 +824,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -903,8 +903,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -940,8 +940,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -973,8 +973,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -1004,8 +1004,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -1035,8 +1035,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1066,8 +1066,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1112,8 +1112,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1179,8 +1179,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1246,8 +1246,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]

@@ -105,8 +105,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -145,8 +145,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -175,8 +175,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -216,8 +216,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -250,8 +250,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -288,8 +288,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -316,8 +316,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -333,27 +333,20 @@
 				type: "item"
 				item: "techreborn:extractor"
 			}]
-			rewards: [
-				{
-					id: "2645479B52232AC4"
-					type: "item"
-					item: "blockus:soul_o_lantern"
-				}
-				{
-					id: "69DE7D3FE75A1A92"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
-							Loot: "aof:loot_bags/tech_reborn/common"
-						}
+			rewards: [{
+				id: "69DE7D3FE75A1A92"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: -14.5d
@@ -382,8 +375,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -416,8 +409,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 3706623
-							Loot: "aof:loot_bags/tech_reborn/rare"
 							Name: "Tech Reborn Rare Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/rare"
 						}
 					}
 				}
@@ -450,8 +443,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -486,8 +479,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -527,8 +520,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -554,8 +547,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -589,8 +582,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -623,8 +616,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 3706623
-							Loot: "aof:loot_bags/tech_reborn/rare"
 							Name: "Tech Reborn Rare Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/rare"
 						}
 					}
 				}
@@ -657,8 +650,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 3706623
-							Loot: "aof:loot_bags/tech_reborn/epic"
 							Name: "Tech Reborn Epic Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/epic"
 						}
 					}
 				}
@@ -691,8 +684,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 3706623
-							Loot: "aof:loot_bags/tech_reborn/epic"
 							Name: "Tech Reborn Epic Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/epic"
 						}
 					}
 				}
@@ -728,8 +721,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 3706623
-							Loot: "aof:loot_bags/tech_reborn/epic"
 							Name: "Tech Reborn Epic Lootbag"
+							Loot: "aof:loot_bags/tech_reborn/epic"
 						}
 					}
 				}
@@ -755,8 +748,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -801,8 +794,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -840,8 +833,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
 							Loot: "aof:loot_bags/tech_reborn/common"
+							Name: "Tech Reborn Common Lootbag"
 						}
 					}
 				}
@@ -858,33 +851,20 @@
 				type: "item"
 				item: "techreborn:overclocker_upgrade"
 			}]
-			rewards: [
-				{
-					id: "731F9638F5DADAF7"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "goblintraders:dig_speed_extended"
-						}
+			rewards: [{
+				id: "4881E2C5527A9553"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
-				{
-					id: "4881E2C5527A9553"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 3706623
-							Name: "Tech Reborn Common Lootbag"
-							Loot: "aof:loot_bags/tech_reborn/common"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -5.0d
@@ -906,8 +886,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -932,8 +912,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -970,8 +950,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1009,8 +989,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1043,8 +1023,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1082,8 +1062,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1113,8 +1093,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1160,8 +1140,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1202,8 +1182,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1227,8 +1207,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1253,8 +1233,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1290,8 +1270,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1316,8 +1296,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1342,8 +1322,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1367,8 +1347,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1396,8 +1376,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1425,8 +1405,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1453,8 +1433,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1478,8 +1458,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1503,8 +1483,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1531,8 +1511,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1556,8 +1536,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1589,8 +1569,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1615,8 +1595,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -1641,8 +1621,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -1668,8 +1648,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -1695,8 +1675,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1723,8 +1703,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -1752,8 +1732,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1777,8 +1757,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -1805,8 +1785,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -1831,8 +1811,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -1856,8 +1836,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1881,8 +1861,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1910,8 +1890,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1940,8 +1920,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -1965,8 +1945,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -1991,8 +1971,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2020,8 +2000,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2048,8 +2028,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2073,8 +2053,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2098,8 +2078,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -2124,8 +2104,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -2149,8 +2129,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2175,8 +2155,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2201,8 +2181,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2237,8 +2217,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -2266,8 +2246,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2292,8 +2272,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2323,8 +2303,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2351,8 +2331,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2376,8 +2356,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2407,8 +2387,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2438,8 +2418,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2468,8 +2448,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2496,8 +2476,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2521,8 +2501,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2551,8 +2531,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2592,8 +2572,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2631,8 +2611,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2662,8 +2642,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2695,8 +2675,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2720,8 +2700,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -2745,8 +2725,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2771,8 +2751,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -2797,8 +2777,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -2823,8 +2803,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2857,8 +2837,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2898,8 +2878,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2923,8 +2903,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -2950,8 +2930,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -2981,8 +2961,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -3016,8 +2996,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -3042,8 +3022,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -3068,8 +3048,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -3094,8 +3074,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -3140,8 +3120,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -3170,8 +3150,18 @@
 				item: "techreborn:gas_turbine"
 			}]
 			rewards: [{
-				id: "4CD5331D906B3CAA"
-				type: "loot"
+				id: "6CCB3FC5ED062E31"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -3212,8 +3202,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -3238,8 +3228,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -3269,8 +3259,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]

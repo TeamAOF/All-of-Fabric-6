@@ -1,7 +1,7 @@
 {
   "configVersion": 4,
   "inventory": {
-    "enabled": true,
+    "enabled": false,
     "itemCount": true,
     "nbt": false,
     "maxWidth": 9,

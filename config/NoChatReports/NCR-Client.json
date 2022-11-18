@@ -18,5 +18,7 @@
   "reconnectAwaitSeconds": 4,
   "postDisconnectAwaitSeconds": 10,
   "signingCheckDelaySeconds": 43200,
-  "serverSigningChecks": {}
+  "serverSigningChecks": {
+    "localhost:25565": 1668800800
+  }
 }

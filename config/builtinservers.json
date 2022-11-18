@@ -3,8 +3,11 @@
   "builtinServers": [
     {
       "name": "Europe Central",
-      "address": "mc.yoosk.ovh",
-      "forced": false
+      "address": "aof6eu.alloffabric.com"
+    },
+    {
+      "name": "North America",
+      "address": "aof6na.alloffabric.com"
     }
   ]
 }

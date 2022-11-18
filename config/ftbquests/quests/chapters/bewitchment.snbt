@@ -63,40 +63,20 @@
 				type: "item"
 				item: "bewitchment:book_of_shadows"
 			}]
-			rewards: [
-				{
-					id: "148678122C840FA1"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 16747259
-							Name: "Magic Common Lootbag"
-							Loot: "aof:loot_bags/magic/common"
-						}
+			rewards: [{
+				id: "148678122C840FA1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
-				{
-					id: "2675EF167F79C66F"
-					type: "item"
-				}
-				{
-					id: "0B639F8FC6643A27"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 0.0d
@@ -128,8 +108,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -153,8 +133,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -178,8 +158,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -209,8 +189,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
 						}
 					}
 				}
@@ -235,8 +215,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -260,8 +240,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -285,8 +265,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -322,8 +302,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
 						}
 					}
 				}
@@ -354,8 +334,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -385,8 +365,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -416,8 +396,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -447,8 +427,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -478,8 +458,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -509,8 +489,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -540,8 +520,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -571,8 +551,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -602,8 +582,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -642,8 +622,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
 						}
 					}
 				}
@@ -660,8 +640,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 16747259
-							Name: "Magic Rare Lootbag"
 							Loot: "aof:loot_bags/magic/rare"
+							Name: "Magic Rare Lootbag"
 						}
 					}
 				}
@@ -687,8 +667,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -705,40 +685,20 @@
 				type: "item"
 				item: "bewitchment:wood_ash"
 			}]
-			rewards: [
-				{
-					id: "5B19CA4F25A94842"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 16747259
-							Name: "Magic Common Lootbag"
-							Loot: "aof:loot_bags/magic/common"
-						}
+			rewards: [{
+				id: "5B19CA4F25A94842"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
-				{
-					id: "35CB223E30DFD64D"
-					type: "item"
-				}
-				{
-					id: "6D9664F8B0555758"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 9.5d
@@ -758,40 +718,20 @@
 				type: "item"
 				item: "bewitchment:oak_bark"
 			}]
-			rewards: [
-				{
-					id: "01110A2F9D5F6799"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 16747259
-							Name: "Magic Common Lootbag"
-							Loot: "aof:loot_bags/magic/common"
-						}
+			rewards: [{
+				id: "01110A2F9D5F6799"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
-				{
-					id: "61C97EB6955D8F5B"
-					type: "item"
-				}
-				{
-					id: "624D2B53A68CACBC"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 11.5d
@@ -823,40 +763,20 @@
 				type: "item"
 				item: "bewitchment:stone_witch_altar"
 			}]
-			rewards: [
-				{
-					id: "1CF45DE82151433F"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 16747259
-							Name: "Magic Common Lootbag"
-							Loot: "aof:loot_bags/magic/common"
-						}
+			rewards: [{
+				id: "1CF45DE82151433F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
-				{
-					id: "3BDEAFF742BF4AF6"
-					type: "item"
-				}
-				{
-					id: "1C7DF6A149835CDA"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 11.5d
@@ -885,8 +805,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -910,40 +830,20 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "63432E061B2D2063"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 16747259
-							Name: "Magic Common Lootbag"
-							Loot: "aof:loot_bags/magic/common"
-						}
+			rewards: [{
+				id: "63432E061B2D2063"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
-				{
-					id: "0B5A38B3FE12B153"
-					type: "item"
-				}
-				{
-					id: "7EF4932B8A827A8E"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 11.5d
@@ -967,8 +867,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1016,8 +916,18 @@
 					count: 12
 				}
 				{
-					id: "65BB5BCD2DE16F6A"
-					type: "loot"
+					id: "4025B11483CCF66D"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 16747259
+							Loot: "aof:loot_bags/magic/rare"
+							Name: "Magic Rare Lootbag"
+						}
+					}
 				}
 			]
 		}
@@ -1039,33 +949,20 @@
 				type: "item"
 				item: "bewitchment:grotesque_stew"
 			}]
-			rewards: [
-				{
-					id: "340219C343E4C13A"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
+			rewards: [{
+				id: "3F7CD0CEFA8D42B2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
-				{
-					id: "3F7CD0CEFA8D42B2"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 9.0d
@@ -1100,8 +997,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1125,8 +1022,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1162,8 +1059,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1199,8 +1096,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1236,8 +1133,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1255,40 +1152,20 @@
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "4C067C7E68260F46"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 16747259
-							Name: "Magic Common Lootbag"
-							Loot: "aof:loot_bags/magic/common"
-						}
+			rewards: [{
+				id: "3EDB0EB02FACC67B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
-				{
-					id: "2E083A0A77BDCB79"
-					type: "item"
-				}
-				{
-					id: "3EDB0EB02FACC67B"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 	]
 }

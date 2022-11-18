@@ -53,8 +53,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -79,8 +79,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -108,8 +108,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -137,8 +137,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -166,8 +166,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -198,8 +198,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/common"
 							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
 						}
 					}
 				}
@@ -224,8 +224,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -250,8 +250,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -276,8 +276,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -302,8 +302,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/rare"
 						Name: "Industrial Revolution Rare Lootbag"
+						Loot: "aof:loot_bags/ind_rev/rare"
 					}
 				}
 			}]
@@ -335,8 +335,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -366,8 +366,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -392,8 +392,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -426,8 +426,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/common"
 							Name: "Industrial Revolution Common Lootbag"
+							Loot: "aof:loot_bags/ind_rev/common"
 						}
 					}
 				}
@@ -494,8 +494,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -520,8 +520,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -547,8 +547,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -574,8 +574,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -603,8 +603,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -629,8 +629,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -646,26 +646,20 @@
 				type: "item"
 				item: "indrev:energy_reader"
 			}]
-			rewards: [
-				{
-					id: "76AC752565C62F15"
-					type: "loot"
-				}
-				{
-					id: "06C0F4DB51EB6ABC"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/common"
-							Name: "Industrial Revolution Common Lootbag"
-						}
+			rewards: [{
+				id: "06C0F4DB51EB6ABC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: -11.0d
@@ -688,8 +682,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -715,8 +709,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -740,8 +734,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -765,8 +759,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -791,8 +785,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -849,8 +843,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -896,8 +890,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -978,8 +972,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Name: "Industrial Revolution Rare Lootbag"
 							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
 						}
 					}
 				}
@@ -1005,8 +999,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1031,8 +1025,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1056,8 +1050,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1082,8 +1076,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1113,8 +1107,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1146,8 +1140,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1208,8 +1202,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1233,8 +1227,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1258,8 +1252,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1283,8 +1277,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1311,8 +1305,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1336,8 +1330,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1361,8 +1355,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1424,8 +1418,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Name: "Industrial Revolution Rare Lootbag"
 							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
 						}
 					}
 				}
@@ -1464,8 +1458,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Name: "Industrial Revolution Rare Lootbag"
 							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
 						}
 					}
 				}
@@ -1504,8 +1498,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Name: "Industrial Revolution Rare Lootbag"
 							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
 						}
 					}
 				}
@@ -1544,8 +1538,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Name: "Industrial Revolution Rare Lootbag"
 							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
 						}
 					}
 				}
@@ -1581,26 +1575,20 @@
 					item: "indrev:drain_mk1"
 				}
 			]
-			rewards: [
-				{
-					id: "5C6D97E7668B3098"
-					type: "loot"
-				}
-				{
-					id: "19808F09D6FE3E09"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/common"
-							Name: "Industrial Revolution Common Lootbag"
-						}
+			rewards: [{
+				id: "19808F09D6FE3E09"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 8090608
+						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
-			]
+			}]
 		}
 		{
 			title: "Charging the Core of Modularity"
@@ -1654,8 +1642,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1680,8 +1668,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1712,8 +1700,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1738,8 +1726,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1765,8 +1753,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1792,8 +1780,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1819,8 +1807,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1864,8 +1852,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1890,8 +1878,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1937,8 +1925,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -1963,8 +1951,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/common"
 						Name: "Industrial Revolution Common Lootbag"
+						Loot: "aof:loot_bags/ind_rev/common"
 					}
 				}
 			}]
@@ -1990,8 +1978,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -2016,8 +2004,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
