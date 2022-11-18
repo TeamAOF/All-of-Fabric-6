@@ -1,0 +1,13 @@
+{
+  "islandSize": 128.0,
+  "islandSeperation": 800,
+  "domainWarpNoise": {
+    "octaves": 1,
+    "horizontalFrequency": 24.0,
+    "verticalFrequency": 24.0,
+    "amplitude": 14.0,
+    "lacunarity": 1.9,
+    "persistence": 1.9
+  },
+  "hardcoreMode": false
+}

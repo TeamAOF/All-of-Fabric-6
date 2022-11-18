@@ -1,9 +1,9 @@
 {
-  "badgeVisible": true,
+  "badgeVisible": false,
   "builtinServers": [
     {
-      "name": "Default Server",
-      "address": "127.0.0.1",
+      "name": "Europe Central",
+      "address": "mc.yoosk.ovh",
       "forced": false
     }
   ]

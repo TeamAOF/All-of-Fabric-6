@@ -82,7 +82,8 @@
     "crossbows_colors": true,
     "clock_right_click": true,
     "compass_right_click": false,
-    "placeable_books_glint": false
+    "placeable_books_glint": false,
+    "banner_pattern_tooltip": true
   },
   "items": {
     "slingshot": {
