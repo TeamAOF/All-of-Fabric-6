@@ -89,7 +89,22 @@
   "ignoredItems": [
     "minecraft:quartz_ore",
     "minecraft:nether_gold_ore",
-    "minecraft:nether_quartz_ore"
+    "minecraft:nether_quartz_ore",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:deepslate_lapis_lazuli_ore",
+    "modern_industrialization:deepslate_nickel_ore",
+    "modern_industrialization:deepslate_bauxite_ore",
+    "modern_industrialization:deepslate_iridium_ore",
+    "modern_industrialization:deepslate_lead_ore",
+    "modern_industrialization:deepslate_salt_ore",
+    "modern_industrialization:deepslate_tin_ore",
+    "modern_industrialization:deepslate_tungsten_ore",
+    "modern_industrialization:deepslate_uranium_ore"
   ],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],
