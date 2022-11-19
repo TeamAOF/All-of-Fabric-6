@@ -104,7 +104,9 @@
     "modern_industrialization:deepslate_salt_ore",
     "modern_industrialization:deepslate_tin_ore",
     "modern_industrialization:deepslate_tungsten_ore",
-    "modern_industrialization:deepslate_uranium_ore"
+    "modern_industrialization:deepslate_uranium_ore",
+    "techreborn:deepslate_silver_ore",
+    "techreborn:deepslate_ruby_ore"
   ],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],
