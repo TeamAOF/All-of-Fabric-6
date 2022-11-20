@@ -42,4 +42,32 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+
+  const spectrum = [
+    'topaz',
+    'amethyst',
+    'citrine',
+    'onyx'
+];
+
+  spectrum.forEach((item) => { 
+  event.custom({
+    "type": "modern_industrialization:macerator",
+    "eu": 2,
+    "duration": 200,
+    "item_inputs": [
+      {
+        "tag": "spectrum:" + item + "_ores",
+        "amount": 1
+      }
+    ],
+    "item_outputs": [
+      {
+        "item": "spectrum:" + item + "_powder",
+        "amount": 16
+      }
+    ]
+  })
+});
+
 })
