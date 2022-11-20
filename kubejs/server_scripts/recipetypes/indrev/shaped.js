@@ -16,16 +16,16 @@ ServerEvents.recipes(event => {
       id: 'indrev:shaped/machine_block'
     },
 
-   /* {
+    {
       output: '8x indrev:item_pipe_mk1',
       pattern: ['BAB'],
       key: {
-        A: 'goldenhoppers:golden_hopper',
+        A: 'minecraft:gold_ingot',
         B: 'modern_industrialization:iron_plate',
     },
       id: 'indrev:shaped/item_pipe_mk1'
     },
-    */
+    
 
      {
       output: '8x indrev:fluid_pipe_mk1',

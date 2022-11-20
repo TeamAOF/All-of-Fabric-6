@@ -73,8 +73,6 @@ ServerEvents.recipes( (event) => {
     'indrev:bronze_axe',
     'indrev:bronze_shovel',
     'indrev:bronze_hoe',
-    'indrev:item_pipe_mk1',
-    'indrev:fluid_pipe_mk1',
     'kibe:big_torch',
     'dwarfcoal:dwarf_charcoal',
     'mtmechs:iron_gear_item',
