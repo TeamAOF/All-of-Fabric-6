@@ -1,7 +1,7 @@
 {
 	id: "06E76B49ED832B81"
 	group: "1039AC171AB01709"
-	order_index: 1
+	order_index: 2
 	filename: "spectrum"
 	title: "Spectrum"
 	icon: "spectrum:end_portal_cracker"
@@ -53,8 +53,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -81,8 +81,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -108,8 +108,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -135,8 +135,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -169,8 +169,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
 						}
 					}
 				}
@@ -198,8 +198,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -228,8 +228,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -256,8 +256,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -284,8 +284,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -298,9 +298,9 @@
 			hide: true
 			id: "5E0135DE9E0D30CE"
 			tasks: [{
-				id: "6CA9C223DFA792D2"
+				id: "10F76AC81A6D8315"
 				type: "advancement"
-				advancement: "spectrum:collect_sparklestone"
+				advancement: "spectrum:collect_shimmerstone"
 				criterion: ""
 			}]
 			rewards: [{
@@ -312,8 +312,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -344,8 +344,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -376,8 +376,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -404,8 +404,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -432,8 +432,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -473,8 +473,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -500,8 +500,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -527,8 +527,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -554,8 +554,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -581,8 +581,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -608,8 +608,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -635,8 +635,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -662,8 +662,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -689,8 +689,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -716,8 +716,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -743,8 +743,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -770,8 +770,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -800,8 +800,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -827,8 +827,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -854,8 +854,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -888,9 +888,9 @@
 			hide: true
 			id: "2F56655D7C4C3882"
 			tasks: [{
-				id: "0F13414A52097D55"
+				id: "0B7BF1DDF38D6FA6"
 				type: "advancement"
-				advancement: "spectrum:midgame/collect_scarlet"
+				advancement: "spectrum:midgame/collect_stratine"
 				criterion: ""
 			}]
 			rewards: [{
@@ -902,8 +902,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -934,8 +934,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1008,8 +1008,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1036,8 +1036,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1064,8 +1064,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1099,8 +1099,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 16747259
-							Name: "Magic Epic Lootbag"
 							Loot: "aof:loot_bags/magic/epic"
+							Name: "Magic Epic Lootbag"
 						}
 					}
 				}
@@ -1113,8 +1113,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
 						}
 					}
 				}
@@ -1127,8 +1127,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 16747259
-							Name: "Magic Rare Lootbag"
 							Loot: "aof:loot_bags/magic/rare"
+							Name: "Magic Rare Lootbag"
 						}
 					}
 				}
@@ -1141,8 +1141,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 16747259
-							Name: "Magic Rare Lootbag"
 							Loot: "aof:loot_bags/magic/rare"
+							Name: "Magic Rare Lootbag"
 						}
 					}
 				}
@@ -1169,8 +1169,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1197,8 +1197,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1224,8 +1224,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1237,18 +1237,24 @@
 			hide: true
 			id: "00CE2107C6C46BE1"
 			tasks: [{
-				id: "505BC27038A8EF05"
+				id: "3DB165C9840955CE"
 				type: "advancement"
-				advancement: "spectrum:collect_shooting_star"
+				advancement: "spectrum:collect_star_fragment"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "51AC8401050AF888"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
+				id: "477C25D087426F34"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
 			}]
 		}
 		{
@@ -1312,8 +1318,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1339,8 +1345,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1366,8 +1372,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1393,8 +1399,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1420,8 +1426,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -1447,8 +1453,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1474,8 +1480,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -1501,8 +1507,10 @@
 			}]
 		}
 		{
+			title: "Not Yet Available in Survival"
 			x: 21.5d
 			y: 3.0d
+			description: ["Not Yet Available in Survival"]
 			dependencies: ["27A271B2A51373A6"]
 			hide: true
 			id: "0858F0938EC383B5"
@@ -1521,8 +1529,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -1548,8 +1556,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1655,8 +1663,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -1684,8 +1692,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -1713,8 +1721,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1740,8 +1748,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -1875,8 +1883,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
