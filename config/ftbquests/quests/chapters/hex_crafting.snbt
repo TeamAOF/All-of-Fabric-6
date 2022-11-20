@@ -1,17 +1,10 @@
 {
 	id: "4816F22B229A6BFA"
-	group: "36480AFE3722FADC"
-	order_index: 2
+	group: "1039AC171AB01709"
+	order_index: 1
 	filename: "hex_crafting"
 	title: "Hex Casting"
-	icon: {
-		id: "patchouli:guide_book"
-		Count: 1b
-		tag: {
-			"patchouli:book": "hexcasting:thehexbook"
-		}
-	}
-	always_invisible: true
+	icon: "hexcasting:artifact"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -81,12 +74,12 @@
 			tasks: [{
 				id: "60DA89048ED4422C"
 				type: "item"
-				title: "Any #hexcasting:wands"
+				title: "Any Staff"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "hexcasting:wands"
+						value: "hexcasting:staves"
 					}
 				}
 			}]
