@@ -1,3 +1,22 @@
+### All of Fabric 6 | v0.1.2
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.1.md)_
+
+### Changes
+
+* MineCells gear has been buffed overall.
+* Removed tag category as it's causing performance issues on some PCs.
+
+### Fixes
+
+* Conjunctivius boss breaking graves.
+* Debug spamming "1".
+
+### Recipes
+
+* Fixed create recipes using plates as input being yeeted out of existence.
+---
+
 ### All of Fabric 6 | v0.1.1
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.1.md)_

@@ -18,6 +18,12 @@ ServerEvents.tags('item', event => {
   event.add('c:raw_silver_blocks', 'indrev:raw_silver_block')
   event.add('c:raw_tungsten_blocks', 'indrev:raw_tungsten_block')
   event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
+});
+
+  ServerEvents.tags('block', event => {
+
+  // Graves fix
+  event.add('minecells:conjunctivius_unbreakable', 'yigd:grave')
 
 
   

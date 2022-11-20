@@ -12,7 +12,15 @@
     "damage": 10.0
   },
   "entities": {
-    // default: 1.0, min: 0.0, max: 10.0
-    "cellDropChanceModifier": 0.0
+    // default: 1.0, min: 0.1, max: 10.0
+    "cellDropChanceModifier": 0.1,
+    // default: false
+    "allMobsDropCells": false,
+    // Which mobs outside of Mine Cells should drop cells (default: empty)
+    "cellDropWhitelist": []
+  },
+  "items": {
+    // default: false
+    "enableDevelopmentTab": false
   }
 }
