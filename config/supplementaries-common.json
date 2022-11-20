@@ -27,7 +27,7 @@
       "slide_on_fall": true
     },
     "pedestal": {
-      "crystal_enchanting": true
+      "crystal_enchanting": 3
     },
     "globe": {
       "chance": 2

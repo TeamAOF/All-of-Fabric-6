@@ -390,7 +390,7 @@
 			y: 1.5d
 			subtitle: "Dive into the story of Dead Cells!"
 			description: [
-				"To start your adventure &rwith &bMine Cells&r, &6find a portal structure&r."
+				"To start your adventure &rwith &bMine Cells&r, &6find a portal structure&r. The &bportal&r will &6activate&r for you automatically if you've already acquired diamonds in the world."
 				""
 				"&bMine Cells &rfeatures new &bMonsters &rwhich attempt to faithfully recreate the look and feel of the original game."
 				""

@@ -48,6 +48,13 @@
 		{
 			x: -3.5d
 			y: -7.0d
+			description: [
+				"To progress, you need to create &bFluix Crystal&r. You have two options:"
+				""
+				"- Use the compass to find a &6meteorite&r, where you might find some &bFluix Crystal&r."
+				""
+				"- Throw &bCharged Certus Quartz Crystal&r, &bNether Quartz&r, and &bRedstone Dust&r into a pool of water and wait."
+			]
 			dependencies: ["4ACC10C8890C306E"]
 			id: "033814C6CFAF56E6"
 			tasks: [{
@@ -56,30 +63,20 @@
 				item: "ae2:fluix_crystal"
 				count: 16L
 			}]
-			rewards: [
-				{
-					id: "70DEAF9769F2D581"
-					type: "command"
-					title: "Logistics Loot Bag"
-					icon: "kubejs:loot_bag_rare"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/logistics_loot"
-					player_command: false
-				}
-				{
-					id: "58F4C75D516E78DA"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 16747259
-							Name: "Logistics & Storage Lootbag"
-							Loot: "aof:loot_bags/misc/logistics"
-						}
+			rewards: [{
+				id: "58F4C75D516E78DA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 16747259
+						Name: "Logistics & Storage Lootbag"
+						Loot: "aof:loot_bags/misc/logistics"
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: -3.5d
@@ -112,9 +109,9 @@
 			y: -5.5d
 			subtitle: "Provides a way to charge supported tools through the ME Network."
 			description: [
-				"Power can be provided via the top or bottom, via either Fluix ME Glass Cable or other Cables, or other mod power cables. Items can be inserted or removed from any side."
+				"Build a &bCharger&r, and power it with a &bVibration Chamber&r or a generators from others mods."
 				""
-				"Can also be used to create Charged Certus Quartz Crystal from Certus Quartz Crystal."
+				"You can also power it by hand using a &bWooden Crank&r."
 			]
 			dependencies: ["409FDC9E0FBF40CB"]
 			id: "4AC1C083537E8706"
@@ -201,7 +198,8 @@
 		{
 			x: -2.0d
 			y: -10.0d
-			subtitle: "Used to accelerate crystal growth, which allows you to create Certus Quartz Crystal and Fluix Crystal from crystal dust."
+			subtitle: "Used to accelerate crystal growth."
+			description: ["Since growing crystals without any accelerators takes a long time, you should invest your first fluix crystals into building as many &bCrystal Growth Accelerators&r as you can."]
 			dependencies: ["3C12FD23932C3522"]
 			id: "7B3F4A3D79F2988B"
 			tasks: [{

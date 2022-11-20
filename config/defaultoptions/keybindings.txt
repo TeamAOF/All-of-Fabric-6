@@ -74,6 +74,7 @@ key_equipmentcompare.key.showTooltips:key.keyboard.left.shift:NONE
 key_key.findme.search:key.keyboard.y:NONE
 key_key.indrev.modular:key.keyboard.k:NONE
 key_key.indrev.gamer_axe_toggle:key.keyboard.g:NONE
+key_key.antighost.reveal:key.keyboard.unknown:NONE
 key_key.indrev.jetpack_toggle:key.keyboard.j:NONE
 key_key.lightoverlay.enable_overlay:key.keyboard.f7:NONE
 key_keybind.luggage.whistle:key.keyboard.unknown:NONE

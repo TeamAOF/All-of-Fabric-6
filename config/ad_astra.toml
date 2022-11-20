@@ -4,7 +4,6 @@ spawnStarCrawlers = true
 spawnMartianRaptors = true
 spawnMoglers = true
 spawnSulfurCreepers = true
-spawnLunarianWanderingTrader = true
 doEntityGravity = true
 doLivingEntityGravity = true
 acidRainBurns = true
@@ -12,15 +11,19 @@ doOxygen = true
 doSpaceMuffler = true
 oxygenTankSize = 40500
 hammerDurability = 64
-orbitGravity = 3.0
 giveAstroduxAtSpawn = false
 oxygenBarXOffset = 0
 oxygenBarYOffset = 0
 energyBarXOffset = 0
 energyBarYOffset = 0
+spawnLunarianWanderingTrader = true
+orbitGravity = 3.0
 oxygenDamage = 1
 freezeDamage = 1
 heatDamage = 2
+acidRainDamage = 3
+allowFlagImages = true
+disabledPlanets = []
 [spaceSuit]
 spaceSuitTankSize = 81000
 netheriteSpaceSuitTankSize = 162000
@@ -30,10 +33,10 @@ jetSuitUpwardsSpeed = 0.5
 jetSuitEnergyPerTick = 60
 jetSuitTankSize = 324000
 jetSuitMaxEnergy = 1000000
-spawnJetSuitParticles = true
 enableJetSuitFlight = true
 jetSuitProtectionMultiplier = 1
 jetSuitArmorToughness = 5
+spawnJetSuitParticles = true
 [vehicles]
 fallingExplosionThreshold = -1.2
 fallingExplosionMultiplier = 0.7
@@ -45,21 +48,21 @@ countDownTicks = 200
 acceleration = 0.005
 maxSpeed = 0.5
 entitiesBurnUnderRocket = true
-tankBuckets = 3
+tankSize = 243000
 fuelLaunchCost = 243000
 efficientFuelLaunchCost = 81000
 [rover]
 explodeRoverInLava = true
-fuelPerTick = 27
+fuelPerSecond = 810
 turnSpeed = 3.0
 maxTurnSpeed = 6.0
 deceleration = 0.9
 minSpeed = -0.2
 maxSpeed = 0.3
-tankBuckets = 3
+tankSize = 243000
 [lander]
-boosterSpeed = 0.1
 boosterThreshold = -0.1
+boosterSpeed = 0.1
 [coalGenerator]
 maxEnergy = 9000
 energyPerTick = 10
@@ -69,15 +72,15 @@ energyPerTick = 10
 [fuelRefinery]
 maxEnergy = 9000
 energyPerTick = 30
-tankBuckets = 3
+tankSize = 243000
 [oxygenLoader]
 maxEnergy = 9000
 energyPerTick = 10
-tankBuckets = 3
+tankSize = 243000
 [oxygenDistributor]
 maxEnergy = 20000
 fluidConversionEnergyPerTick = 5
-tankBuckets = 3
+tankSize = 486000
 maxBlockChecks = 2000
 refreshTicks = 60
 oxygenMultiplier = 0.8
@@ -88,7 +91,7 @@ energyMultiplier = 1.0
 [waterPump]
 maxEnergy = 9000
 energyPerTick = 10
-tankBuckets = 6
+tankSize = 486000
 transferPerTick = 810
 deleteWaterBelowWaterPump = true
 [energizer]
@@ -97,4 +100,4 @@ energyPerTick = 170
 [cryoFreezer]
 maxEnergy = 30000
 energyPerTick = 24
-tankBuckets = 3
+tankSize = 243000

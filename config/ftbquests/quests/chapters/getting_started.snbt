@@ -31,8 +31,8 @@
 			tasks: [{
 				id: "25B2DFAFD351900E"
 				type: "checkmark"
-				title: "Welcome to All of Fabric 5"
-				icon: "kubejs:aof5_logo"
+				title: "Welcome to All of Fabric 6"
+				icon: "kubejs:aof6_logo"
 				disable_toast: true
 			}]
 			rewards: [{

@@ -786,7 +786,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.5d
 			y: 2.5d
 			subtitle: "An advanced weapon that can be used against hostile mobs, or players."
 			description: [
@@ -935,7 +935,7 @@
 		}
 		{
 			title: "Medieval Weapons"
-			x: 6.5d
+			x: 7.5d
 			y: 2.5d
 			subtitle: "From Boomerangs to Yo-yos, and Spears to Broadswords."
 			description: [
@@ -1672,74 +1672,6 @@
 			}]
 			rewards: [{
 				id: "0AA9547EA4F721C1"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
-						Name: "Artifact Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			title: "&bWarden's Artifacts"
-			x: 8.0d
-			y: 2.5d
-			subtitle: "Kill the Warden, gather them all!"
-			dependencies: ["5EA2D6174BCFEC05"]
-			id: "23E9A36DB8BF3155"
-			tasks: [
-				{
-					id: "5F5EBBDF830E1F3E"
-					type: "item"
-					item: {
-						id: "echoingdepths:illuminated_depths"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "718B56BD8B38D1E1"
-					type: "item"
-					item: {
-						id: "echoingdepths:echo_piercer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6A3B76AD9C0FBD0D"
-					type: "item"
-					item: {
-						id: "echoingdepths:soul_descent"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "120576F85075C059"
-					type: "item"
-					item: {
-						id: "echoingdepths:knowledge_of_dark_depths"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "52AC792EA1F58C3F"
 				type: "item"
 				item: {
 					id: "lootbags:loot_bag"

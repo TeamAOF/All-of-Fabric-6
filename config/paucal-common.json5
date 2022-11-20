@@ -1,0 +1,8 @@
+{
+	// Whether to allow patting players with a shift-right-click.
+	"allowPats": true,
+	/* Whether to load contributor info from the internet.
+	   If false, no one will appear as a contributor.
+	*/
+	"loadContributors": true
+}

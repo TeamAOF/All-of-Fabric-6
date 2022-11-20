@@ -9,6 +9,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "hexcasting:thehexbook"
+				}
+			}
 			x: -6.75d
 			y: 0.0d
 			shape: "hexagon"
@@ -21,7 +28,12 @@
 			size: 1.5d
 			id: "283C1A5435769DC3"
 			tasks: [{
-				id: "106DBE8A609241D3"
+				id: "58244EC6E17EAEFD"
+				type: "checkmark"
+				title: "Hex Casting"
+			}]
+			rewards: [{
+				id: "09B55C1426953E7A"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"

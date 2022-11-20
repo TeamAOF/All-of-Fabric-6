@@ -1,0 +1,37 @@
+{
+	"Spells": {
+		// How many times a spell can recursively cast other spells
+		"maxRecurseDepth": 64,
+		/* The harvest level of the Break Block spell.
+		   0 = wood, 1 = stone, 2 = iron, 3 = diamond, 4 = netherite.
+		*/
+		"opBreakHarvestLevel": 3
+	},
+	"Spell Circles": {
+		// The maximum number of slates in a spell circle.  Must be at least 4.
+		"maxSpellCircleLength": 1024,
+		// Resource locations of disallowed actions within circles. Trying to cast one of these in a circle will result in a mishap.
+		"circleActionDenyList": []
+	},
+	// Resource locations of disallowed actions. Trying to cast one of these will result in a mishap.
+	"actionDenyList": [],
+	// Should villagers take offense when you flay the mind of their fellow villagers?
+	"villagersOffendedByMindMurder": true,
+	"Scrolls in Loot": {
+		// Which loot tables should a small number of Ancient Scrolls be injected into?
+		"fewScrollTables": [
+			"minecraft:chests/jungle_temple",
+			"minecraft:chests/simple_dungeon",
+			"minecraft:chests/village/village_cartographer"
+		],
+		// Which loot tables should a decent number of Ancient Scrolls be injected into?
+		"someScrollTables": [
+			"minecraft:chests/bastion_treasure",
+			"minecraft:chests/shipwreck_map"
+		],
+		// Which loot tables should a huge number of Ancient Scrolls be injected into?
+		"manyScrollTables": [
+			"minecraft:chests/stronghold_library"
+		]
+	}
+}

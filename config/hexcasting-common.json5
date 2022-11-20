@@ -1,0 +1,12 @@
+{
+	"Media Amounts": {
+		// How much media a single Amethyst Dust item is worth
+		"dustMediaAmount": 10000,
+		// How much media a single Amethyst Shard item is worth
+		"shardMediaAmount": 50000,
+		// How much media a single Charged Amethyst Crystal item is worth
+		"chargedCrystalMediaAmount": 100000,
+		// How many points of media a half-heart is worth when casting from HP
+		"mediaToHealthRate": 10000
+	}
+}

@@ -26,7 +26,7 @@ $MODPACK_NAME = "all-of-fabric-6"
 $CLIENT_NAME = "All-of-Fabric-6"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.1.0"
+$MODPACK_VERSION = "0.1.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
@@ -81,7 +81,8 @@ $CLIENT_FILE_AUTHOR = "TeamAOF"
 
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
 	"config",
-	"kubejs")
+	"kubejs",
+	"shaderpacks")
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("spark")
 
