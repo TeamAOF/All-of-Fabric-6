@@ -1,0 +1,40 @@
+{
+    "providers": [
+		{
+            "type": "bitmap",
+            "file": "aof:other/aof6_bannerA.png",
+			"ascent": 7,
+            "height": 60,
+            "chars": ["a"]
+        },
+        		{
+            "type": "bitmap",
+            "file": "aof:other/aof6_bannerB.png",
+			"ascent": 7,
+            "height": 60,
+            "chars": ["b"]
+        },
+        {
+            "type": "bitmap",
+            "file": "aof:other/aof6_bannerC.png",
+			"ascent": 7,
+            "height": 60,
+            "chars": ["c"]
+        },
+        {
+            "type": "bitmap",
+            "file": "aof:other/logo.png",
+			"ascent": 7,
+            "height": 60,
+            "chars": ["d"]
+        },
+		{
+            "type": "space",
+            "advances": {
+                " ": 4,
+                ".": -1,
+                "-": -91
+            }
+        }
+    ]
+}
