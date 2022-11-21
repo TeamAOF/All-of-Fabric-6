@@ -73,6 +73,11 @@ ServerEvents.recipes(event => {
         "probability": 0.10
       },
       {
+        "item": "modern_industrialization:quartz_ore",
+        "amount": 1,
+        "probability": 0.2
+      },
+      {
         "item": "powah:uraninite_ore",
         "amount": 1,
         "probability": 0.08
