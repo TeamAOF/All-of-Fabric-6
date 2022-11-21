@@ -1,6 +1,45 @@
+### All of Fabric 6 | v0.1.3
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.3.md)_
+
+### Changes
+
+* New foods from Farmer's Delight.
+* Lootr chests & barrels can now be opened in FTBChunks Claims.
+
+### Fixes
+
+* Doing hex spells would crash your game due to invalid gridSnapThreshold being set.
+
+### Recipes
+
+* Brought back Iron Alloy Furnace as used for Mettalurgist Villager.
+* Fixed incorrect inputs of copper plates in Create recipes.
+* Fixed incorrect output of Brass Nugget.
+* Unified ender pearl dusts between AE2 and TR.
+* MI quartz ore can once again be obtained with steel drill (electric quarry).
+* Early to lategame MI plates can now be made with create pressing.
+* Removed diamond plate recipe in indrev compressor due to a bug.
+
+### Added Mods
+
+  * [Botarium](https://www.curseforge.com/minecraft/mc-mods/botarium)
+  * [Building Wands](https://www.curseforge.com/minecraft/mc-mods/building-wands)
+  * [Compact Machines - Fabric](https://www.curseforge.com/minecraft/mc-mods/compact-machines-fabric)
+  * [Convenient Name Tags](https://www.curseforge.com/minecraft/mc-mods/convenient-name-tags)
+  * [Glassential (Fabric)](https://www.curseforge.com/minecraft/mc-mods/glassential-fabric)
+  * [Highlight](https://www.curseforge.com/minecraft/mc-mods/highlight)
+
+### Removed Mods
+
+  * [[Fabric/Forge] Market Crates (1.15 to 1.19)](https://www.curseforge.com/minecraft/mc-mods/market-crates)
+  * [Cammie's Minecart Tweaks](https://www.curseforge.com/minecraft/mc-mods/cammies-minecart-tweaks) (Issues with Create trains)
+  * [Staff of Traveling](https://www.curseforge.com/minecraft/mc-mods/staff-of-traveling) (Issues with cooldowns, will be readded when fixed)
+---
+
 ### All of Fabric 6 | v0.1.2
 
-_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.1.md)_
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.2.md)_
 
 ### Changes
 

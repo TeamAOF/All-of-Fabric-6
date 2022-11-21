@@ -8,5 +8,5 @@
 	// Whether scrolling up (as opposed to down) will increase the value of the abacus, and vice versa
 	"invertAbacusScrollDirection": false,
 	// When using a staff, the distance from one dot you have to go to snap to the next dot, where 0.5 means 50% of the way.  Valid range is 0.5 to 1.0, and may cause client crashes if set above or below those values.
-	"gridSnapThreshold": 0
+	"gridSnapThreshold": 0.5
 }

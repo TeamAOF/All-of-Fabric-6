@@ -222,7 +222,10 @@ const DELETED_ITEMS = [
     "indrev:tungsten_plate",
     "techreborn:copper_nugget",
     "indrev:copper_nugget",
-    "croptopia:tomato_seed"
+    "croptopia:tomato_seed",
+    "techreborn:ender_pearl_dust",
+    "create:copper_sheet",
+    "techreborn:brass_nugget"
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));

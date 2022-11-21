@@ -1,4 +1,22 @@
 {
+  "elevator": {
+    "AllowElevatingThroughBlocks": {
+      "comment": "Allow elevating through blocks (i.e. non air)",
+      "value": true
+    },
+    "ElevatorMaxInput": {
+      "comment": "Elevator Max Input (Energy per tick)",
+      "value": 32
+    },
+    "ElevatorEnergyPerBlock": {
+      "comment": "Elevator Energy used per vertical block of transportation",
+      "value": 2
+    },
+    "ElevatorMaxEnergy": {
+      "comment": "Elevator Max Energy",
+      "value": 1000
+    }
+  },
   "lesu": {
     "LesuMaxEnergyPerBlock": {
       "comment": "LESU Max Energy Per Block",
@@ -59,6 +77,56 @@
     "VacuumFreezerInput": {
       "comment": "Vacuum Freezer Max Input (Energy per tick)",
       "value": 64
+    }
+  },
+  "launchpad": {
+    "LaunchpadMaxEnergy": {
+      "comment": "Launchpad Max Energy",
+      "value": 40000
+    },
+    "LaunchpadSpeedLow": {
+      "comment": "Launchpad Low Speed",
+      "value": 1.0
+    },
+    "LaunchpadEnergyExtreme": {
+      "comment": "Launchpad Extreme Energy",
+      "value": 20000
+    },
+    "LaunchpadSpeedExtreme": {
+      "comment": "Launchpad Extreme Speed",
+      "value": 10.0
+    },
+    "LaunchpadInterval": {
+      "comment": "Launchpad Launch Interval in Ticks \u003e 0",
+      "value": 100
+    },
+    "LaunchpadDefaultSelection": {
+      "comment": "Launchpad Default Selection (0-3 for Low-Extreme)",
+      "value": 0
+    },
+    "LaunchpadEnergyMedium": {
+      "comment": "Launchpad Medium Energy",
+      "value": 6000
+    },
+    "LaunchpadMaxInput": {
+      "comment": "Launchpad Max Input (Energy per tick)",
+      "value": 128
+    },
+    "LaunchpadSpeedHigh": {
+      "comment": "Launchpad High Speed",
+      "value": 5.0
+    },
+    "LaunchpadSpeedMedium": {
+      "comment": "Launchpad Medium Speed",
+      "value": 3.0
+    },
+    "LaunchpadEnergyLow": {
+      "comment": "Launchpad Low Energy",
+      "value": 1000
+    },
+    "LaunchpadEnergyHigh": {
+      "comment": "Launchpad High Energy",
+      "value": 10000
     }
   },
   "storage": {
