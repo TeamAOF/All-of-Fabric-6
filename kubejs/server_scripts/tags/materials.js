@@ -6,16 +6,16 @@
 ServerEvents.tags('item', event => {
 
     // Create (Common Tag Conversion)
-    const create_materials = [
-        'zinc'
+    const create_ingots_blocks = [
+        'zinc',
+        'brass',
     ];
 
-    create_materials.forEach((item) => {
-        event.add("c:" + item + "_ingots", "create:" + item + "_ingot")
-        event.add("c:" + item + "_nuggets", "create:" + item + "_nugget")
-        event.add("c:" + item + "_blocks", "create:" + item + "_block")
-        event.add("c:" + item + "_dusts", "create:crushed_" + item + "_ore")
-    });
+    const create_nuggets = [
+        'copper',
+        'brass',
+        'zinc'
+    ];
 
     const create_plates = [
         'copper',
@@ -23,21 +23,25 @@ ServerEvents.tags('item', event => {
         'brass',
     ];
 
-    create_plates.forEach((item) => {
-        event.add("c:" + item + "_plates", "create:" + item + "_sheet")
-    });
-    event.add("c:plates/gold", "modern_industrialization:gold_plate")
-    event.add("c:plates/iron", "modern_industrialization:iron_plate")
-    event.add("c:plates/copper", "modern_industrialization:copper_plate")
-    event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
-    event.add("c:plates/brass", "techreborn:brass_plate")
-    event.add("c:gold_plates", "create:golden_sheet")
-
     const create_crushed = [
         'copper',
         'iron',
         'gold',
+        'zinc',
     ];
+
+    create_ingots_blocks.forEach((item) => {
+        event.add("c:" + item + "_ingots", "create:" + item + "_ingot")
+        event.add("c:" + item + "_blocks", "create:" + item + "_block")
+    });
+
+    create_nuggets.forEach((item) => {
+        event.add("c:" + item + "_nuggets", "create:" + item + "_nugget")
+    });
+
+    create_plates.forEach((item) => {
+        event.add("c:" + item + "_plates", "create:" + item + "_sheet")
+    });
 
     create_crushed.forEach((item) => {
         event.add("c:" + item + "_dusts", "create:crushed_" + item + "_ore")
@@ -49,5 +53,13 @@ ServerEvents.tags('item', event => {
     event.add("c:brass_ingots", "create:brass_ingot")
     event.add("c:brass_blocks", "create:brass_block")
     event.add("c:raw_zinc_ores", "create:raw_zinc")
+
+    event.add("c:plates/gold", "modern_industrialization:gold_plate")
+    event.add("c:plates/iron", "modern_industrialization:iron_plate")
+    event.add("c:plates/copper", "modern_industrialization:copper_plate")
+    event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
+    event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
+    event.add("c:plates/brass", "techreborn:brass_plate")
+    event.add("c:gold_plates", "create:golden_sheet")
 
 });
