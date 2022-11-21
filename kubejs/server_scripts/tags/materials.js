@@ -28,6 +28,11 @@ ServerEvents.tags('item', event => {
         'iron',
         'gold',
         'zinc',
+        'uranium',
+        'silver',
+        'tin',
+        'lead',
+        'nickel'
     ];
 
     create_ingots_blocks.forEach((item) => {
@@ -53,13 +58,18 @@ ServerEvents.tags('item', event => {
     event.add("c:brass_ingots", "create:brass_ingot")
     event.add("c:brass_blocks", "create:brass_block")
     event.add("c:raw_zinc_ores", "create:raw_zinc")
+    event.add("c:gold_plates", "create:golden_sheet")
 
     event.add("c:plates/gold", "modern_industrialization:gold_plate")
     event.add("c:plates/iron", "modern_industrialization:iron_plate")
     event.add("c:plates/copper", "modern_industrialization:copper_plate")
     event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
     event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
+    event.add("c:dusts/uranium", "modern_industrialization:uranium_dust")
+    event.add("c:dusts/silver", "modern_industrialization:silver_dust")
+    event.add("c:dusts/tin", "modern_industrialization:tin_dust")
+
     event.add("c:plates/brass", "techreborn:brass_plate")
-    event.add("c:gold_plates", "create:golden_sheet")
+    event.add("c:nuggets/zinc", "techreborn:zinc_nugget")
 
 });
