@@ -29,6 +29,7 @@ ServerEvents.tags('item', event => {
     event.add("c:plates/gold", "modern_industrialization:gold_plate")
     event.add("c:plates/iron", "modern_industrialization:iron_plate")
     event.add("c:plates/copper", "modern_industrialization:copper_plate")
+    event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
     event.add("c:plates/brass", "techreborn:brass_plate")
     event.add("c:gold_plates", "create:golden_sheet")
 
