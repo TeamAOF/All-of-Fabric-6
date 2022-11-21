@@ -11,7 +11,8 @@ ServerEvents.recipes(event => {
         'invar',
         'nickel',
         'platinum',
-        'stainless_steel'
+        'stainless_steel',
+        'steel'
 
     ];
 
