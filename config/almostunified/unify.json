@@ -3,6 +3,7 @@
     "minecraft",
     "modern_industrialization",
     "create",
+    "ae2",
     "techreborn",
     "ad_astra",
     "indrev",
@@ -10,7 +11,6 @@
     "farmersdelight",
     "croptopia",
     "tinycoal",
-    "ae2",
     "catwalksinc"
   ],
   "stoneStrata": [
@@ -82,7 +82,8 @@
     "bacon",
     "cooked_bacon",
     "garlic",
-    "quartz"
+    "quartz",
+    "ender_pearl"
   ],
   "priorityOverrides": {},
   "ignoredTags": [],
