@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
         'bronze',
         'tin',
         'lead',
+        'silver',
         'nickel',
         'tungsten',
         'titanium',
