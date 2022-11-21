@@ -38,7 +38,6 @@ ServerEvents.recipes(event => {
         'aluminum',
         'carbon',
         'chromium',
-        'diamond',
         'emerald',
         'invar',
         'platinum',
