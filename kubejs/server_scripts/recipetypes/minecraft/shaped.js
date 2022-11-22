@@ -6,17 +6,33 @@
 
 
 ServerEvents.recipes(event => {
+
+// BYG Bookshelfs
+  const byg_bookshelfs = [
+    'oak',
+    'spruce',
+    'birch',
+    'jungle',
+    'acacia',
+    'dark_oak',
+    'mangrove',
+    'crimson',
+    'warped',
+    ];
+
+    byg_bookshelfs.forEach((item) => {
+    event.remove({ output: 'minecraft:bookshelf' });
+    event.shaped('minecraft:bookshelf', [
+      'AAA', 
+      'BBB', 
+      'AAA'
+    ], {
+        A: 'minecraft:' + item + '_planks',
+        B: 'minecraft:book'
+      })
+    });
     
   const recipes = [
-{
-  output: 'minecraft:lectern',
-  pattern: ['AAA', ' B ', ' A '],
-  key: {
-    A: '#minecraft:wooden_slabs',
-    B: 'minecraft:bookshelf',
-},
-  id: 'aof:lectern'
-},
 
 {
   output: 'minecraft:flint',
