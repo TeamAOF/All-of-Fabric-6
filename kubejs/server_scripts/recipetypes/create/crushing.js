@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
         'lead',
         'mozanite',
         'nickel',
+        'silver',
         'salt',
         'tungsten',
         'antimony',
