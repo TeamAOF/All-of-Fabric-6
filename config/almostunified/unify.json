@@ -10,6 +10,7 @@
     "bewitchment",
     "farmersdelight",
     "croptopia",
+    "byg",
     "tinycoal",
     "catwalksinc"
   ],
@@ -89,6 +90,7 @@
   "ignoredTags": [],
   "ignoredItems": [
     "minecraft:quartz_ore",
+    "minecraft:gold_ore",
     "minecraft:nether_gold_ore",
     "minecraft:nether_quartz_ore",
     "minecraft:deepslate_coal_ore",
@@ -107,7 +109,10 @@
     "modern_industrialization:deepslate_tungsten_ore",
     "modern_industrialization:deepslate_uranium_ore",
     "techreborn:deepslate_silver_ore",
-    "techreborn:deepslate_ruby_ore"
+    "techreborn:deepslate_ruby_ore",
+    "byg:blue_nether_gold_ore",
+    "byg:brimstone_nether_gold_ore"
+
   ],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],
