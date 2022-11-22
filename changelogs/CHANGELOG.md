@@ -25,6 +25,14 @@ _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Added steel plate to create pressing.
 * Added silver plate to create pressing.
 * Added mi ores to create crushing.
+
+### Added
+
+  * [Paginated Advancements](https://www.curseforge.com/minecraft/mc-mods/paginated-advancements) (by [DaFuqsy](https://www.curseforge.com/members/DaFuqsy/projects))
+
+### Removed
+
+  * [Better Advancements](https://www.curseforge.com/minecraft/mc-mods/better-advancements) (by [way2muchnoise](https://www.curseforge.com/members/way2muchnoise/projects))
 ---
 
 ### All of Fabric 6 | v0.1.3
