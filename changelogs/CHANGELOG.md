@@ -1,3 +1,32 @@
+### All of Fabric 6 | v0.1.4
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.4.md)_
+
+### Changes
+
+* Big spectrum content update, open the Colorful World Guidebook to unlock all the new stuff you already have all prerequisites for (quests are gonna be updated later).
+* Made text_field texture thinner, now shouldnt overlap search boxes like REI.
+* Buffed zinc ore clusters per chunk (8 > 9).
+
+### Fixes
+
+* Correct waystone IDs in interact_whitelist for FTBChunks.
+
+### Recipes
+
+* Fixed incorrect output of copper nugget variant.
+* Fixed overriding by tag for gold ores in create crushing.
+* Fixed modded bookshelves not being craftable.
+* Fixed conflict between javelins & wands.
+* Fixed conflict between empty small scroll & banner pattern.
+* Fixed REI cycling through tags on recipe lookup.
+* Exclude deeper & darker variants of ores from unification.
+* Exclude ad astra variants of ores from unification.
+* Added steel plate to create pressing.
+* Added silver plate to create pressing.
+* Added mi ores to create crushing.
+---
+
 ### All of Fabric 6 | v0.1.3
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.3.md)_

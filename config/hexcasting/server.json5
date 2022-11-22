@@ -1,0 +1,20 @@
+{
+	"opBreakHarvestLevel": 3,
+	"maxRecurseDepth": 512,
+	"maxSpellCircleLength": 1024,
+	"actionDenyList": [],
+	"circleActionDenyList": [],
+	"villagersOffendedByMindMurder": true,
+	"fewScrollTables": [
+		"minecraft:chests/jungle_temple",
+		"minecraft:chests/simple_dungeon",
+		"minecraft:chests/village/village_cartographer"
+	],
+	"someScrollTables": [
+		"minecraft:chests/bastion_treasure",
+		"minecraft:chests/shipwreck_map"
+	],
+	"manyScrollTables": [
+		"minecraft:chests/stronghold_library"
+	]
+}
