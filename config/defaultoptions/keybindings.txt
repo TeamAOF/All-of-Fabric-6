@@ -73,7 +73,7 @@ key_key.entityculling.toggle:key.keyboard.unknown:NONE
 key_equipmentcompare.key.showTooltips:key.keyboard.left.shift:NONE
 key_key.findme.search:key.keyboard.y:NONE
 key_key.indrev.modular:key.keyboard.k:NONE
-key_key.indrev.gamer_axe_toggle:key.keyboard.g:NONE
+key_key.indrev.gamer_axe_toggle:key.keyboard.unknown:NONE
 key_key.antighost.reveal:key.keyboard.unknown:NONE
 key_key.indrev.jetpack_toggle:key.keyboard.j:NONE
 key_key.lightoverlay.enable_overlay:key.keyboard.f7:NONE
@@ -87,9 +87,6 @@ key_key.quickshulker.config.keybinding:key.keyboard.k:NONE
 key_key.ship_sail:key.keyboard.r:NONE
 key_key.spirit.toggle:key.keyboard.v:NONE
 key_key.toastmanager.clear:key.keyboard.j:NONE
-key_key.trashslot.toggle:key.keyboard.t:NONE
-key_key.trashslot.delete:key.keyboard.delete:NONE
-key_key.trashslot.deleteAll:key.keyboard.delete:NONE
 key_key.travelersbackpack.inventory:key.keyboard.b:NONE
 key_key.travelersbackpack.toggle_tank:key.keyboard.n:NONE
 key_key.travelersbackpack.cycle_tool:key.keyboard.z:NONE

@@ -1,3 +1,18 @@
+### All of Fabric 6 | v0.1.5
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.5.md)_
+
+### Fixes
+
+* A bunch of bugs within Create.
+* Spectrum multiblocks not working on servers.
+* Hopefully fixed G key not being bindable.
+
+### Recipes
+
+* Conflict between Hex Notebook & Wardener's Notebook.
+---
+
 ### All of Fabric 6 | v0.1.4
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.4.md)_
