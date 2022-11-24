@@ -5,8 +5,6 @@ const ORES_TO_REMOVE = [
     "techreborn:deepslate_iridium_ore", 
     "techreborn:lead_ore", 
     "techreborn:deepslate_lead_ore", 
-    "techreborn:deepslate_silver_ore", 
-    "techreborn:silver_ore", 
     "techreborn:tin_ore", 
     "techreborn:deepslate_tin_ore", 
     "techreborn:deepslate_tungsten_ore", 
