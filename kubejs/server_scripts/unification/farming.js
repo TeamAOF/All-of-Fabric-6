@@ -26,4 +26,7 @@ ServerEvents.recipes(event => {
     event.add('fabric:milk', 'croptopia:milk_bottle')
     event.add('fabric:milk', 'croptopia:soy_milk')
     event.add('c:milks', 'farmersdelight:milk_bottle')
+
+    // Dough
+    event.add('c:dough', 'vinery:dough')
   });

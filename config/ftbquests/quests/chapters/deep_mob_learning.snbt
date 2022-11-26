@@ -67,8 +67,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -106,8 +106,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -143,8 +143,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -186,8 +186,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -223,8 +223,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -259,8 +259,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -284,48 +284,48 @@
 						items: [
 							{
 								id: "dml-refabricated:data_model_illager"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_ocean"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_slimy"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_overworld"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_zombie"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_nether"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_skeleton"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_end"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "dml-refabricated:data_model_ghost"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
@@ -340,8 +340,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -381,8 +381,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -414,8 +414,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]
@@ -440,8 +440,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 16747259
-						Name: "Logistics & Storage Lootbag"
 						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
 					}
 				}
 			}]

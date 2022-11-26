@@ -39,6 +39,10 @@ ServerEvents.recipes( (event) => {
     'bewitchment:silver_ingot_from_blasting_raw_silver',
     'bewitchment:raw_silver',
     'bewitchment:raw_silver_block',
+    'farmersdelight:wheat_dough_from_water',
+    'farmersdelight:wheat_dough_from_eggs',
+    'farmersdelight:wheat_dough',
+    'create:crafting/appliances/dough'
 
     ];
 

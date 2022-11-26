@@ -2,6 +2,7 @@
   "modPriorities": [
     "minecraft",
     "modern_industrialization",
+    "farmersdelight",
     "create",
     "ae2",
     "techreborn",
@@ -9,8 +10,8 @@
     "indrev",
     "bewitchment",
     "hexcasting",
-    "farmersdelight",
     "croptopia",
+    "vinery",
     "byg",
     "tinycoal",
     "catwalksinc"
@@ -40,7 +41,9 @@
     "c:raw_{material}_blocks",
     "c:raw_{material}_ores",
     "c:crops/{material}",
-    "c:seeds/{material}"
+    "c:seeds/{material}",
+    "c:dough",
+    "c:flour"
   ],
   "materials": [
     "aluminum",

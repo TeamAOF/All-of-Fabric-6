@@ -1,3 +1,40 @@
+### All of Fabric 6 | v0.1.6
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.6.md)_
+
+## Changes
+
+* Added Alpha Yeti & Snow Queen to Boss Rush.
+* Added most ores to Mining Rig.
+
+### Fixes
+
+* Silver ore not properly generating.
+* Missing rewards in Spectrum chapter.
+* Incorrect advancement IDs for a couple quests in Spectrum chapter.
+* An issue where deepslate silver ore would drop the incorrect raw ore variant.
+* An issue where bedrock bow would crash your game.
+* An issue where yetis could sometimes crash your game.
+* An issue where lootbags would at rare times crash your game due to stack being empty.
+
+### Recipes
+
+* Unified flour & dough.
+* Added proper progression for Dough, may be a bit harder.
+* Fixed an issue where macaw's lights & lamps would only accept echo fences as input.
+
+### Added Mods
+
+  * [Let's do Wine!](https://www.curseforge.com/minecraft/mc-mods/lets-do-wine) (by [satisfyL](https://www.curseforge.com/members/satisfyL/projects))
+  * [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+  * [Porting Lib](https://www.curseforge.com/minecraft/mc-mods/porting-lib) (by [thatguynamedalpha](https://www.curseforge.com/members/thatguynamedalpha/projects))
+
+### Removed Mods
+
+  * [Armor Sound Tweak](https://www.curseforge.com/minecraft/mc-mods/armor-sound-tweak) (by [HeckinChloe](https://www.curseforge.com/members/HeckinChloe/projects))
+  * [VillagerTradeFix](https://www.curseforge.com/minecraft/mc-mods/villagertradefix) (by [Globox_Z](https://www.curseforge.com/members/Globox_Z/projects))
+---
+
 ### All of Fabric 6 | v0.1.5
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.5.md)_

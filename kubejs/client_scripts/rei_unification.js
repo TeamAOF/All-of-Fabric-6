@@ -212,7 +212,11 @@ const DELETED_ITEMS = [
     "indrev:diamond_dust",
     "techreborn:nickel_nugget",
     "techreborn:lead_ingot",
-    "indrev:lead_ingot"
+    "indrev:lead_ingot",
+    "croptopia:dough",
+    "vinery:dough",
+    "create:dough",
+    'croptopia:flour',
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
