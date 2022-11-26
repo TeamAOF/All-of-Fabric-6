@@ -1,3 +1,13 @@
+### All of Fabric 6 | v0.1.7
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.7.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.7.md)_
+
+### Fixes
+
+* Null validators would crash your game.
+* Actually fixed yetis crashing your game...
+---
+
 ### All of Fabric 6 | v0.1.6
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.6.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.6.md)_
