@@ -284,7 +284,21 @@
 					value: 1L
 				}
 				{
-					id: "32108A16CEAA297E"
+					id: "74E281423CE4C2B6"
+					type: "kill"
+					icon: "twilightforest:alpha_yeti_trophy"
+					entity: "twilightforest:alpha_yeti"
+					value: 1L
+				}
+				{
+					id: "192C9369560100D6"
+					type: "kill"
+					icon: "twilightforest:snow_queen_trophy"
+					entity: "twilightforest:snow_queen"
+					value: 1L
+				}
+				{
+					id: "317A1E4E838B40F0"
 					type: "kill"
 					icon: {
 						id: "minecells:tentacle"
