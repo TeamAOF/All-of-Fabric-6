@@ -232,7 +232,7 @@
   * [RoughlyEnoughTrades-1.19-1.0.jar](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-trades/files/3963321) (by [GrigLog](https://www.curseforge.com/members/GrigLog/projects))
   * [Runelic-Fabric-1.19.2-14.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/runelic/files/3963628) (by [DarkhaxDev](https://www.curseforge.com/members/DarkhaxDev/projects))
   * [dragonfight-fabric-1.19.2-2.6.jar](https://www.curseforge.com/minecraft/mc-mods/savage-ender-dragon/files/3941958) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [moonlight-1.19.2-2.1.11-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/4118186) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
+  * [moonlight-1.19.2-2.1.10-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/4096608) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
   * [shulkerboxtooltip-fabric-3.2.2+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip/files/4054090) (by [MisterPeModder](https://www.curseforge.com/members/MisterPeModder/projects))
   * [SimpleDiscordRichPresence-fabric-3.0.4-build.27+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence/files/4076568) (by [Sunekaer](https://www.curseforge.com/members/Sunekaer/projects))
   * [slight-gui-modifications-2.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/slight-gui-modifications/files/3943114) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
