@@ -55,7 +55,7 @@
 			description: [
 				"The Sap is placed into the inventory of the player that is using it."
 				""
-				"It's durability lasts 20 uses before it is destroyed."
+				"Its durability lasts 20 uses before it is destroyed."
 			]
 			dependencies: ["37F10FC248B237FF"]
 			id: "7E7E9BDBB70B25C1"

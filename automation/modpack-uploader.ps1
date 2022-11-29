@@ -49,7 +49,7 @@ function Test-ForDependencies {
     if (-not $is7zAvailable) {
         Clear-Host
         Write-Host 
-        Write-Host "Install 7zip and add it's folder to the environment variable 'Path'`n" -ForegroundColor Red
+        Write-Host "Install 7zip and add its folder to the environment variable 'Path'`n" -ForegroundColor Red
         Write-Host "7zip can be downloaded here: " -NoNewline
         Write-Host "https://www.7-zip.org/download.html" -ForegroundColor Blue
         Write-Host 
@@ -63,7 +63,7 @@ function Test-ForDependencies {
     if (-not $isCurlAvailable) {
         Clear-Host
         Write-Host 
-        Write-Host "Install Curl and add it's folder to the environment variable 'Path'`n" -ForegroundColor Red
+        Write-Host "Install Curl and add its folder to the environment variable 'Path'`n" -ForegroundColor Red
         Write-Host "Curl can be downloaded here: " -NoNewline
         Write-Host "https://curl.se/download.html" -ForegroundColor Blue
         Write-Host "To install it, simply unzip the folder somewhere and point path to it."

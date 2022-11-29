@@ -443,9 +443,9 @@
 				""
 				"> Axe: if present in the inventory, will retrieve any wood and leaves in range (leaves will not consume durability)"
 				""
-				"> Sapling: if present in the inventory, will be planted in every block possible inside it's range."
+				"> Sapling: if present in the inventory, will be planted in every block possible inside its range."
 				""
-				"> Bone meal: will be applied to any saplings inside it's range."
+				"> Bone meal: will be applied to any saplings inside its range."
 				""
 				"Farmer is a machine focused in crop farming, and it also supports enhancement upgrades."
 				""
@@ -457,7 +457,7 @@
 				""
 				"> Sword: if present in the inventory, will kill animals if there are more than 7 in its range."
 				""
-				"> Wheat/Seed/Carrot: if present in the inventory, will be fed to the respective animals in it's range."
+				"> Wheat/Seed/Carrot: if present in the inventory, will be fed to the respective animals in its range."
 				""
 				"Bucket: if present in the inventory, will collect milk from cows."
 			]
@@ -529,7 +529,7 @@
 		{
 			x: -7.5d
 			y: 3.0d
-			subtitle: "Used for advanced infusing with fluids. It's main current use is for ore quadrupling."
+			subtitle: "Used for advanced infusing with fluids. Its main current use is for ore quadrupling."
 			description: ["Can also be used to turn Sand into Clay and Concrete Powder into Concrete."]
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "3984A36C1D03501E"
@@ -665,7 +665,7 @@
 			x: -11.0d
 			y: 2.0d
 			subtitle: "A machine focused in fish farming, and it also supports enhancement upgrades."
-			description: ["It's only requirement is a Fishing Rod."]
+			description: ["Its only requirement is a Fishing Rod."]
 			dependencies: ["47E0E13C53777452"]
 			id: "130566BD27135220"
 			tasks: [{
@@ -1681,7 +1681,7 @@
 			description: [
 				"Notice that installing modules cost time and some energy!"
 				""
-				"The Modular Armor is, on it's own, not much, but when you install modules, it can become very powerful!"
+				"The Modular Armor is, on its own, not much, but when you install modules, it can become very powerful!"
 				""
 			]
 			dependencies: ["2094448C58554B0B"]
