@@ -44,7 +44,7 @@
 				""
 				"Simply make a 3x3 square out of the launch pads and right click with your rocket to place it."
 				""
-				"Shift right click the rocket to open it's GUI. There, you can fill its internal storage with your extra buckets of rocket fuel, oxygen, and launch pads. You can also fuel your rocket itself in this menu."
+				"Shift right click the rocket to open its GUI. There, you can fill its internal storage with your extra buckets of rocket fuel, oxygen, and launch pads. You can also fuel your rocket itself in this menu."
 			]
 			dependencies: [
 				"39553F6B02384BFB"

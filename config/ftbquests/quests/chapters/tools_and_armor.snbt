@@ -290,7 +290,7 @@
 			y: -2.5d
 			subtitle: "Smash modules on it!"
 			description: [
-				"The Modular Armor is, on it's own, not much, but when you install modules, it can become very powerful!"
+				"The Modular Armor is, on its own, not much, but when you install modules, it can become very powerful!"
 				""
 				"Notice that installing modules cost time and some energy!"
 			]
@@ -541,7 +541,7 @@
 			x: -3.0d
 			y: 0.0d
 			subtitle: "Universal tool that combines Pickaxe, Axe, Showel, Sheers and even Sword in one simple rod."
-			description: ["It's mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
+			description: ["Its mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "6974C60B6461BD04"
 			tasks: [{

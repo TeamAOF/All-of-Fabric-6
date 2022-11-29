@@ -19,7 +19,7 @@ $CURSEFORGE_PROJECT_ID = 695890
 #  MAIN MODPACK SETTINGS
 # =====================================================================//
 
-# This is the modpack name as seen in it's CurseForge url: https://www.curseforge.com/minecraft/modpacks/[all-of-fabric-5]
+# This is the modpack name as seen in its CurseForge url: https://www.curseforge.com/minecraft/modpacks/[all-of-fabric-5]
 $MODPACK_NAME = "all-of-fabric-6"
 
 # Name of the Modpack in the ZIP File
