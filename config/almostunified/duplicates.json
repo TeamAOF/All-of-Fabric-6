@@ -5,6 +5,7 @@
     "ignoredFields": [
       "fabric:conditions",
       "cookingTime",
+      "cookTime",
       "group"
     ],
     "rules": {
