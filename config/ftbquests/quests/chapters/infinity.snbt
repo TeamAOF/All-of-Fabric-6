@@ -90,13 +90,6 @@
 					consume_items: true
 				}
 				{
-					id: "2ECF53D6587A8AA1"
-					type: "item"
-					item: "farmersdelight:roast_chicken_block"
-					count: 2500L
-					consume_items: true
-				}
-				{
 					id: "36AD733AEFC78B15"
 					type: "item"
 					item: "croptopia:fish_and_chips"
@@ -135,6 +128,13 @@
 					id: "3B3A38AFCEE30AD1"
 					type: "item"
 					item: "croptopia:pumpkin_spice_latte"
+					count: 2500L
+					consume_items: true
+				}
+				{
+					id: "4B83D0C3A6B25CBC"
+					type: "item"
+					item: "croptopia:the_big_breakfast"
 					count: 2500L
 					consume_items: true
 				}
