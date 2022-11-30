@@ -28,4 +28,7 @@ ServerEvents.tags('item', event => {
         event.add("minecraft:tall_flowers", item)
     });
 
+    // Dyes
+    event.add("byg:brown_dye", "minecraft:cocoa_beans")
+
 });
