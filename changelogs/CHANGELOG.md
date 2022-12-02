@@ -1,3 +1,16 @@
+### All of Fabric 6 | v1.0.1
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.0.1.md)_
+
+### Fixes
+
+* Anything checking Fake Player would crash your game.
+
+### Removed Mods
+
+  * [Better Fabric Console](https://www.curseforge.com/minecraft/mc-mods/better-fabric-console)
+---
+
 ### All of Fabric 6 | v1.0.0 | The Argriculurist Update
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.0.0.md)_
