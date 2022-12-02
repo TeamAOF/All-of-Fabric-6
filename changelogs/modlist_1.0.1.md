@@ -252,7 +252,7 @@
   * [Structory-1.19-v1.3.jar](https://www.curseforge.com/minecraft/mc-mods/structory/files/4033419) (by [botanydev](https://www.curseforge.com/members/botanydev/projects))
   * [subterrestrial-fabric-1.19.2-2.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/subterrestrial/files/4125925) (by [AlexNijjar](https://www.curseforge.com/members/AlexNijjar/projects))
   * [supplementaries-1.19.2-2.2.23-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/4120077) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
-  * [survivalisland-0.2.2+forge.jar](https://www.curseforge.com/minecraft/mc-mods/survival-island/files/4125784) (by [SuperCoder79](https://www.curseforge.com/members/SuperCoder79/projects))
+  * [survivalisland-0.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/survival-island/files/4125783) (by [SuperCoder79](https://www.curseforge.com/members/SuperCoder79/projects))
   * [TechReborn-5.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/techreborn/files/4102770) (by [modmuss50](https://www.curseforge.com/members/modmuss50/projects))
   * [tempad-fabric-1.19.2-1.4.3.jar](https://www.curseforge.com/minecraft/mc-mods/tempad/files/3994389) (by [CodexAdrian](https://www.curseforge.com/members/CodexAdrian/projects))
   * [TerraBlender-fabric-1.19.2-2.0.1.130.jar](https://www.curseforge.com/minecraft/mc-mods/terrablender-fabric/files/4095396) (by [TheAdubbz](https://www.curseforge.com/members/TheAdubbz/projects))

@@ -4,7 +4,8 @@ _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Fixes
 
-* Anything checking Fake Player would crash your game.
+* An issue where anything checking Fake Player would crash your game.
+* An issue where the Survival Island world type wouldnt work.
 
 ### Removed Mods
 
