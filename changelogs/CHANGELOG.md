@@ -42,16 +42,16 @@ _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Added Mods
 
-  * [Better Fabric Console](https://www.curseforge.com/minecraft/mc-mods/better-fabric-console) (by [jmp00000](https://www.curseforge.com/members/jmp00000/projects))
-  * [Croptopia's Chocolaterie [Fabric]](https://www.curseforge.com/minecraft/mc-mods/croptopias-chocolaterie-fabric) (by [slomax907](https://www.curseforge.com/members/slomax907/projects))
-  * [Croptosis](https://www.curseforge.com/minecraft/mc-mods/croptosis) (by [LordDeatHunter](https://www.curseforge.com/members/LordDeatHunter/projects))
-  * [Resourceful Config](https://www.curseforge.com/minecraft/mc-mods/resourceful-config) (by [ThatGravyBoat](https://www.curseforge.com/members/ThatGravyBoat/projects))
-  * [Subterrestrial](https://www.curseforge.com/minecraft/mc-mods/subterrestrial) (by [AlexNijjar](https://www.curseforge.com/members/AlexNijjar/projects))
+  * [Better Fabric Console](https://www.curseforge.com/minecraft/mc-mods/better-fabric-console)
+  * [Croptopia's Chocolaterie [Fabric]](https://www.curseforge.com/minecraft/mc-mods/croptopias-chocolaterie-fabric)
+  * [Croptosis](https://www.curseforge.com/minecraft/mc-mods/croptosis)
+  * [Resourceful Config](https://www.curseforge.com/minecraft/mc-mods/resourceful-config)
+  * [Subterrestrial](https://www.curseforge.com/minecraft/mc-mods/subterrestrial)
 
 ### Removed Mods
 
-  * [Food Effect Tooltips](https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips) (by [DaFuqsy](https://www.curseforge.com/members/DaFuqsy/projects))
-  * [More Bows: Restrung!](https://www.curseforge.com/minecraft/mc-mods/more-bows-restrung) (by [NeRdTheNed](https://www.curseforge.com/members/NeRdTheNed/projects))
+  * [Food Effect Tooltips](https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips)
+  * [More Bows: Restrung!](https://www.curseforge.com/minecraft/mc-mods/more-bows-restrung)
 ---
 
 ### All of Fabric 6 | v0.1.7
