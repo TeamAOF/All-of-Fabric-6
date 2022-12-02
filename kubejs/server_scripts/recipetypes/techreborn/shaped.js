@@ -52,6 +52,16 @@ ServerEvents.recipes(event => {
       },
       id: 'techreborn:crafting_table/machine/alloy_smelter'
     },
+    {
+      output: 'techreborn:iridium_alloy_ingot',
+      pattern: ['CBC', 'BAB', 'CBC'],
+      key: {
+        A: '#c:diamond_dusts',
+        B: 'techreborn:advanced_alloy_plate',
+        C: '#c:iridium_ingots',
+      },
+      id: 'techreborn:crafting_table/ingot/iridium_alloy_ingot'
+    },
   ];
 
   recipes.forEach((recipe) => {

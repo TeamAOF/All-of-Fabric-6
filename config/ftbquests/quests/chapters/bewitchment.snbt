@@ -56,6 +56,8 @@
 				"To get started, craft the Book of Shadows with a Book and a Mandrake Root, the seeds of which are dropped from grass."
 				""
 				"Feel lost? Check the book!"
+				""
+				"DISCLAIMER: Bewitchment Salt is needed for the rituals, can be make with two MI salt 2x1 in a crafting table."
 			]
 			id: "51E68C17C005CD95"
 			tasks: [{
@@ -612,40 +614,20 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "197B01B3DC9E5C8E"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "COMMON"
-							Color: 16747259
-							Name: "Magic Common Lootbag"
-							Loot: "aof:loot_bags/magic/common"
-						}
+			rewards: [{
+				id: "197B01B3DC9E5C8E"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
-				{
-					id: "07C9081F8EE6272D"
-					type: "item"
-				}
-				{
-					id: "3BC810EE61A08367"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "RARE"
-							Color: 16747259
-							Name: "Magic Rare Lootbag"
-							Loot: "aof:loot_bags/magic/rare"
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 7.5d

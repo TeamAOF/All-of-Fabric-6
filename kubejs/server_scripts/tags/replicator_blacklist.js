@@ -103,6 +103,9 @@ ServerEvents.tags('item', event => {
         'modern_industrialization:quantum_sword',
         'modern_industrialization:singularity',
         'techreborn:nuke',
+        'artifacts:everlasting_beef',
+        'artifacts:eternal_steak',
+        'techreborn:heliumplasma_bucket',
     ];
 
     replicator.forEach((item) => {

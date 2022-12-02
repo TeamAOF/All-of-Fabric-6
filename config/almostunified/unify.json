@@ -42,8 +42,12 @@
     "c:raw_{material}_ores",
     "c:crops/{material}",
     "c:seeds/{material}",
+    "c:rice",
     "c:dough",
-    "c:flour"
+    "c:flour",
+    "c:raw_bacon",
+    "c:cooked_bacon"
+
   ],
   "materials": [
     "aluminum",
@@ -82,10 +86,7 @@
     "uranium",
     "tomato",
     "cabbage",
-    "rice",
     "onion",
-    "bacon",
-    "cooked_bacon",
     "garlic",
     "quartz",
     "ender_pearl"
@@ -93,6 +94,8 @@
   "priorityOverrides": {},
   "ignoredTags": [],
   "ignoredItems": [
+    "minecraft:quartz_block",
+    "minecraft:quartz",
     "minecraft:quartz_ore",
     "minecraft:gold_ore",
     "minecraft:nether_gold_ore",
@@ -135,6 +138,6 @@
 
   ],
   "ignoredRecipeTypes": [],
-  "ignoredRecipes": [],
+  "ignoredRecipes": ["croptopia:rice_seed"],
   "itemsHidingJeiRei": true
 }

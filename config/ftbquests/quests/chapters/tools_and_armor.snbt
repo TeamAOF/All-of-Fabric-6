@@ -939,38 +939,29 @@
 			y: 2.5d
 			subtitle: "From Boomerangs to Yo-yos, and Spears to Broadswords."
 			description: [
-				"- Dagger"
-				"A small and nimble weapon. It makes up for short reach with a swift attack speed."
+				"- &bDagger"
+				"&6Extra damage while sneaking/invisible."
 				""
-				"- Spear"
-				"This weapon is slow and has extended reach, but can also be thrown to impale your enemies from a distance."
+				"- &bLongsword"
+				"&6Ability to block attacks."
 				""
-				"- Broadsword"
-				"The classic Broadsword: slow in speed, yet mighty in attack power."
+				"- &bDouble Handed Axe"
+				"&6Basic sweeping damage + blocking."
 				""
-				"- Rapier"
-				"Blazing sharp and swift in speed. Lunge forward to catch up to your enemies!"
+				"- &bHealing Staff"
+				"&6Heals the player itself and creates an aura for support."
 				""
-				"- Haladie"
-				"A unique weapon with a double-hit mechanic. Slap your enemies twice for more impact!"
+				"- &bLance"
+				"&6Extra damage while riding."
 				""
-				"- Waraxe"
-				"The Broadsword version of Axes. Use it to smash the ground around you for an AOE attack!"
+				"- &bMace"
+				"&6Chance of stunning the enemy."
 				""
-				"- Katana"
-				"You are already dead. Teleport behind your enemies with a quick slash and eliminate them with ease."
+				"- &bRapier"
+				"&6Chance of applying bleed effect on the enemy."
 				""
-				"- Bow"
-				"The standard bow, augmented with stronger materials. Each bow offers different damage and draw speed modifications."
-				""
-				"- Shield"
-				"Stronger shields with more durability."
-				""
-				"- Yo-Yo"
-				"A mid-range weapon that is a lot of fun to use. Why hit them with a sword when you could smack them with a Yo-yo?"
-				""
-				"- Boomerang"
-				"Your enemy won't see it coming, quite literally. Dance with grace around your foes as your Boomerang destroys them."
+				"- &bSickle"
+				"&6Scythes wheat?"
 			]
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "39491A7F275A02BD"
@@ -998,508 +989,6 @@
 						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
-			}]
-		}
-		{
-			x: -7.0d
-			y: -4.5d
-			subtitle: "Prevents trampling."
-			dependencies: ["251028DFC955D65F"]
-			id: "6AA43062AC98B59B"
-			tasks: [{
-				id: "0C1F44E719A323DC"
-				type: "item"
-				item: "farmingforblockheads:yellow_fertilizer"
-			}]
-			rewards: [{
-				id: "3987DA35211EFE4D"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: -8.5d
-			y: -5.0d
-			subtitle: "Speeds up growth."
-			dependencies: ["251028DFC955D65F"]
-			id: "4AE1EA3349567401"
-			tasks: [{
-				id: "443CD4678AE9D27A"
-				type: "item"
-				item: "farmingforblockheads:red_fertilizer"
-			}]
-			rewards: [{
-				id: "4A97F2118E96E93B"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: -7.0d
-			y: -6.0d
-			description: ["Well.. does this make you a blockhead?"]
-			id: "251028DFC955D65F"
-			tasks: [{
-				id: "76E7E15CC252A02B"
-				type: "checkmark"
-				title: "Blockhead"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -5.0d
-			subtitle: "Increases crop output."
-			dependencies: ["251028DFC955D65F"]
-			id: "14D42EDBFFCED86E"
-			tasks: [{
-				id: "1604ECD381B21CFB"
-				type: "item"
-				item: "farmingforblockheads:green_fertilizer"
-			}]
-			rewards: [{
-				id: "25E4639758190CED"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: -5.5d
-			y: -7.0d
-			subtitle: "Auto-feeds nearby animals."
-			dependencies: ["251028DFC955D65F"]
-			id: "2607DEA382FF044E"
-			tasks: [{
-				id: "755F341295669BDC"
-				type: "item"
-				item: "farmingforblockheads:feeding_trough"
-			}]
-			rewards: [
-				{
-					id: "6C69C27320454D7A"
-					type: "item"
-					item: "farmingforblockheads:feeding_trough"
-				}
-				{
-					id: "0D9A6A548DB95981"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -7.0d
-			y: -7.5d
-			subtitle: "Collects eggs laid by chickens."
-			dependencies: ["251028DFC955D65F"]
-			id: "16FED75C44853ECA"
-			tasks: [{
-				id: "5F2ADAA3F72E4D09"
-				type: "item"
-				item: "farmingforblockheads:chicken_nest"
-			}]
-			rewards: [
-				{
-					id: "4237D2FD3C16A1B0"
-					type: "item"
-					item: "farmingforblockheads:chicken_nest"
-					count: 2
-				}
-				{
-					id: "0F1327437DEFCBD4"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -8.5d
-			y: -7.0d
-			subtitle: "Your market of choice for seeds and crops."
-			dependencies: ["251028DFC955D65F"]
-			id: "529FA5C3502DBF4D"
-			tasks: [{
-				id: "62B614931DDB6161"
-				type: "item"
-				item: "farmingforblockheads:market"
-			}]
-			rewards: [{
-				id: "1C448F27ADC085DC"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 3.5d
-			y: -5.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "02708D9F4C8C07D6"
-			tasks: [{
-				id: "22F1EEBE89B61279"
-				type: "item"
-				item: "croptopia:olive_oil"
-			}]
-			rewards: [{
-				id: "3DBF7C2323C39DAA"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 4.5d
-			y: -4.5d
-			dependencies: ["68213B32C7BFE139"]
-			id: "7D220360845B3061"
-			tasks: [{
-				id: "0BEEEB3684C7E8AB"
-				type: "item"
-				item: "croptopia:salt"
-			}]
-			rewards: [{
-				id: "0824517F399D2D2B"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 5.5d
-			y: -4.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "4D2AA8AA89158B15"
-			tasks: [{
-				id: "3B71D4720FA8282D"
-				type: "item"
-				item: "croptopia:cooking_pot"
-			}]
-			rewards: [{
-				id: "343AAC4CEAFCFADB"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 7.5d
-			y: -4.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "1C89868B15E15FB9"
-			tasks: [{
-				id: "7698D7F854E0BD43"
-				type: "item"
-				item: "croptopia:coffee"
-			}]
-			rewards: [{
-				id: "46C764EE79EFF5CF"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 8.5d
-			y: -4.5d
-			dependencies: ["68213B32C7BFE139"]
-			id: "6C1DE22E0E2EBE84"
-			tasks: [{
-				id: "59E9757E49E8926D"
-				type: "item"
-				item: "croptopia:food_press"
-			}]
-			rewards: [{
-				id: "58D6760638B6C442"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 9.5d
-			y: -5.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "643E23B7AD7A6863"
-			tasks: [{
-				id: "70F481780658F71B"
-				type: "item"
-				item: "croptopia:pepper"
-			}]
-			rewards: [{
-				id: "1CF343DBAE229C35"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 9.5d
-			y: -7.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "2423CAC6548B8DE0"
-			tasks: [{
-				id: "7E35A6AE21505CA7"
-				type: "item"
-				item: "croptopia:butter"
-			}]
-			rewards: [{
-				id: "618C26DE446B3D6F"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 8.5d
-			y: -7.5d
-			dependencies: ["68213B32C7BFE139"]
-			id: "532B579050FCF665"
-			tasks: [{
-				id: "5EF171AFB4049ADE"
-				type: "item"
-				item: "croptopia:greenonion"
-			}]
-			rewards: [{
-				id: "5EAD41302400B17D"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 7.5d
-			y: -8.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "29DADC10D2308B2E"
-			tasks: [{
-				id: "362E2C0F21ACAE54"
-				type: "item"
-				item: "croptopia:flour"
-			}]
-			rewards: [
-				{
-					id: "590D456AA06B20AE"
-					type: "item"
-					item: "croptopia:lemon_sapling"
-				}
-				{
-					id: "11C43B5E334629CF"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 5.5d
-			y: -8.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "3277A89378B6D52B"
-			tasks: [{
-				id: "5ABFDDA4A799AA50"
-				type: "item"
-				item: "croptopia:mortar_and_pestle"
-			}]
-			rewards: [{
-				id: "1C35015CB502E0B9"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 4.5d
-			y: -7.5d
-			dependencies: ["68213B32C7BFE139"]
-			id: "633893597215AA91"
-			tasks: [{
-				id: "5D150B567A95C5EE"
-				type: "item"
-				item: "croptopia:noodle"
-			}]
-			rewards: [{
-				id: "13567C929D052086"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			x: 3.5d
-			y: -7.0d
-			dependencies: ["68213B32C7BFE139"]
-			id: "73740190C26EDE96"
-			tasks: [{
-				id: "29E1787D0069B2CF"
-				type: "item"
-				item: "croptopia:frying_pan"
-			}]
-			rewards: [{
-				id: "300C0C769C2E4151"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
-			}]
-		}
-		{
-			title: "Kitchen Basics"
-			x: 6.5d
-			y: -6.0d
-			subtitle: "Complete your kitchen. Feed the world."
-			description: ["Complete your kitchen to expand your culinary skills."]
-			id: "68213B32C7BFE139"
-			tasks: [{
-				id: "29764768B3A9EEF6"
-				type: "checkmark"
-				title: "Kitchen basics"
 			}]
 		}
 		{
@@ -1781,6 +1270,205 @@
 						Color: 16103753
 						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "Compact Machines"
+			x: -7.0d
+			y: -7.5d
+			subtitle: "Hide your beloved contraptions in a single block!"
+			description: [
+				"Craft yourself a &bPersonal Shrinking Device."
+				""
+				"It's used to enter your Compact Machines, can also be used for In-Game documentation."
+			]
+			id: "76E2646742A8BEF1"
+			tasks: [{
+				id: "68546B910AF443E8"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "29A07F53246669E8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 6750133
+						Loot: "aof:loot_bags/misc/utilities"
+						Name: "Utilities Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Size Doesnt Matter"
+			x: -7.0d
+			y: -6.0d
+			subtitle: "Pick the size appropriate to your needs."
+			description: [
+				"These are the &bcore components&r of this mod."
+				""
+				"They allow you to build large rooms in a single block space, connected to the outside world."
+				""
+				"They come in various sizes."
+			]
+			dependencies: ["76E2646742A8BEF1"]
+			id: "3972A4B0DF8F37E4"
+			tasks: [{
+				id: "335BE14568E62D4B"
+				type: "item"
+				title: "Compact Machines"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "compactmachines:machine_tiny"
+								Count: 1b
+							}
+							{
+								id: "compactmachines:machine_small"
+								Count: 1b
+							}
+							{
+								id: "compactmachines:machine_normal"
+								Count: 1b
+							}
+							{
+								id: "compactmachines:machine_large"
+								Count: 1b
+							}
+							{
+								id: "compactmachines:machine_giant"
+								Count: 1b
+							}
+							{
+								id: "compactmachines:machine_maximum"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DB7898A43FC390D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 6750133
+						Loot: "aof:loot_bags/misc/utilities"
+						Name: "Utilities Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			subtitle: "Used to connect the outside block faces with the inside."
+			dependencies: ["3972A4B0DF8F37E4"]
+			id: "0C1BD8777D8762CA"
+			tasks: [{
+				id: "03AF98F3F1778B8E"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:item"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7EFDBD6AD8EE05E4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 6750133
+						Loot: "aof:loot_bags/misc/utilities"
+						Name: "Utilities Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			subtitle: "Used to connect the outside block faces with the inside."
+			dependencies: ["3972A4B0DF8F37E4"]
+			id: "2FCC169EF47B2B34"
+			tasks: [{
+				id: "23CB716448DA3AB9"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:fluid"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EC59C96FA93CCDD"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 6750133
+						Loot: "aof:loot_bags/misc/utilities"
+						Name: "Utilities Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			subtitle: "Used to connect the outside block faces with the inside."
+			dependencies: ["3972A4B0DF8F37E4"]
+			id: "295AB20462503CF6"
+			tasks: [{
+				id: "67DA018B4E61A93D"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:energy"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "76856727969C44F6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 6750133
+						Loot: "aof:loot_bags/misc/utilities"
+						Name: "Utilities Lootbag"
 					}
 				}
 			}]

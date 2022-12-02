@@ -72,7 +72,6 @@
     "config_button": false,
     "tooltip_hints": true,
     "placeable_tooltips": true,
-    "anti_reposting_warning": true,
     "test1": 0.0,
     "test2": 0.0,
     "test3": 0.0
@@ -83,7 +82,8 @@
     "clock_right_click": true,
     "compass_right_click": false,
     "placeable_books_glint": false,
-    "banner_pattern_tooltip": true
+    "banner_pattern_tooltip": true,
+    "mob_head_shaders": true
   },
   "items": {
     "slingshot": {

@@ -5,6 +5,9 @@
 	"actionDenyList": [],
 	"circleActionDenyList": [],
 	"villagersOffendedByMindMurder": true,
+	"tpDimDenylist": [
+		"twilightforest:twilight_forest"
+	],
 	"fewScrollTables": [
 		"minecraft:chests/jungle_temple",
 		"minecraft:chests/simple_dungeon",

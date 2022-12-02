@@ -1,0 +1,22 @@
+{
+	"type": "techreborn:blast_furnace",
+	"power": 128,
+	"time": 1000,
+	"heat": 1500,
+	"ingredients": [
+		{
+            "tag": "c:quartz_dusts",
+            "count": 2
+          },
+          {
+            "tag": "c:carbon_dusts",
+            "count": 1
+          }
+	],
+	"results": [
+		{
+			"item": "modern_industrialization:silicon_dust",
+            "count": 2
+		}
+	]
+}

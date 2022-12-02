@@ -1,0 +1,119 @@
+{
+  "#doEntityGravity": "If true, entities will be affected by gravity.",
+  "doEntityGravity": true,
+  "#doLivingEntityGravity": "Do gravity for mobs, players etc.",
+  "doLivingEntityGravity": true,
+  "acidRainBurns": true,
+  "doOxygen": true,
+  "#doSpaceMuffler": "Do sound suppression in orbit dimensions. If it gets annoying, you can turn it off.",
+  "doSpaceMuffler": true,
+  "oxygenTankSize": 40500,
+  "hammerDurability": 64,
+  "giveAstroduxAtSpawn": false,
+  "oxygenBarXOffset": 0,
+  "oxygenBarYOffset": 0,
+  "energyBarXOffset": 0,
+  "energyBarYOffset": 0,
+  "orbitGravity": 3.26,
+  "oxygenDamage": 1,
+  "freezeDamage": 1,
+  "heatDamage": 2,
+  "acidRainDamage": 3,
+  "allowFlagImages": true,
+  "#disabledPlanets": "A list of planets that should be disabled. This is a comma-separated list of planet ids.",
+  "disabledPlanets": "",
+  "spawning": {
+    "spawnCorruptedLunarians": true,
+    "spawnStarCrawlers": true,
+    "spawnMartianRaptors": true,
+    "spawnMoglers": true,
+    "spawnSulfurCreepers": true,
+    "spawnLunarianWanderingTrader": true
+  },
+  "spaceSuit": {
+    "spaceSuitTankSize": 81000,
+    "netheriteSpaceSuitTankSize": 162000,
+    "netheriteSpaceSuitHasFireResistance": true,
+    "#jetSuitSpeed": "The speed when flying forward.",
+    "jetSuitSpeed": 0.8,
+    "#jetSuitUpwardsSpeed": "The speed when idle flying up.",
+    "jetSuitUpwardsSpeed": 0.5,
+    "jetSuitEnergyPerTick": 60,
+    "jetSuitTankSize": 324000,
+    "jetSuitMaxEnergy": 1000000,
+    "enableJetSuitFlight": true,
+    "jetSuitProtectionMultiplier": 1,
+    "jetSuitArmorToughness": 5,
+    "spawnJetSuitParticles": true
+  },
+  "vehicles": {
+    "#fallingExplosionThreshold": "The velocity to trigger a vehicle explosion while falling.",
+    "fallingExplosionThreshold": -1.2,
+    "#fallingExplosionMultiplier": "How much the explosion should be multiplied by when the vehicle has fallen.",
+    "fallingExplosionMultiplier": 0.7,
+    "gravity": -2.0,
+    "#moveCameraInVehicle": "Should the camera move in 3rd person in the rocket and lander for a better view?",
+    "moveCameraInVehicle": true,
+    "lander": {
+      "boosterThreshold": -0.1,
+      "boosterSpeed": 0.1
+    },
+    "rover": {
+      "explodeRoverInLava": true,
+      "fuelPerSecond": 810,
+      "turnSpeed": 3.0,
+      "maxTurnSpeed": 6.0,
+      "deceleration": 0.9,
+      "minSpeed": -0.2,
+      "maxSpeed": 0.3,
+      "tankSize": 243000
+    },
+    "rocket": {
+      "atmosphereLeave": 600,
+      "countDownTicks": 200,
+      "acceleration": 0.005,
+      "maxSpeed": 0.5,
+      "entitiesBurnUnderRocket": true,
+      "tankSize": 243000,
+      "fuelLaunchCost": 243000,
+      "efficientFuelLaunchCost": 81000
+    }
+  },
+  "coalGenerator": {
+    "maxEnergy": 9000,
+    "energyPerTick": 10
+  },
+  "compressor": {
+    "maxEnergy": 9000,
+    "energyPerTick": 10
+  },
+  "fuelRefinery": {
+    "maxEnergy": 9000,
+    "energyPerTick": 30,
+    "tankSize": 243000
+  },
+  "oxygenLoader": {
+    "maxEnergy": 9000,
+    "energyPerTick": 10,
+    "tankSize": 243000
+  },
+  "solarPanel": {
+    "maxEnergy": 18000,
+    "energyMultiplier": 1.0
+  },
+  "waterPump": {
+    "maxEnergy": 9000,
+    "energyPerTick": 10,
+    "tankSize": 486000,
+    "transferPerTick": 8100,
+    "deleteWaterBelowWaterPump": true
+  },
+  "energizer": {
+    "maxEnergy": 2000000,
+    "energyPerTick": 170
+  },
+  "cryoFreezer": {
+    "maxEnergy": 30000,
+    "energyPerTick": 243000
+  }
+}

@@ -1,3 +1,59 @@
+### All of Fabric 6 | v1.0.0 | The Argriculurist Update
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.0.0.md)_
+
+### This release marks AOF6 as stable.
+
+### Changes
+
+* Added the beloved Agriculture quest chapter.
+* Added Vinery quests.
+* Added Compact Machines quest in Tools & Armory chapter.
+* Added FarmingForBlockHeads & BYG farmland to (c:farmland), should fix most planting issues on these.
+* Replaced Roast Chicken with The Big Breakfast in Hell's Kitchen quest.
+* Added a disclaimer notice on how to convert MI salt to BW salt in BW quest chapter.
+* Updated the Medieval Weapons quest info about all the weapons.
+* Added BYG, Twilight Forest & Vinery saplings to FFBH Market.
+* Blacklisted Everlasting Beef, Eternal Steak & Plasma Bucket in replicator.
+
+### Fixes
+
+* Several visual issues caused by Iris has been resolved, this includes outlines/positions for ultimine & waypoints.
+* Grammar corrections by TimStewartJ (#22)
+* An issue where empty recipes would output brown dye due to using an empty tag as input.
+* An issue where you'd crash if reaching a village with vinery structures.
+* An issue where Mechanical Arms would lose their targets.
+
+### Recipes
+
+* Iridium Alloy Ingot (Tech Reborn) will now use Iridium Ingot instead of Iridium Plate, this means you'll no longer need to do MI to progress in TR.
+* Silicon Dust can now be made in the Blast Furnace (Tech Reborn), this means you'll no longer need to do MI to progress in TR.
+* Added recipes for silver door/trapdoor and lead door/trapdoor (Supplementaries)
+* Fixed conflict between timer frame & lattice.
+* Fixed conflict between tool rack and shelf.
+* Fixed conflict between Farmers Delight daggers & MW daggers.
+* Fixed multiple dupes with Quartz.
+* Fixed an issue where Rice in crafting table wouldnt output seed.
+* Fixed an issue where you couldnt make Quartz Block.
+* Fixed an issue where Farmer's Delight bacon wouldnt override the Croptopia bacon in recipes.
+* Fixed a bug where cabbage would output cabbages again.. on cutting board, will now output cabbage leafs instead.
+* Fixed a conflict between Winemaker Boots & Rope Boots.
+* Fixed multiple recipe conflicts between chairs.
+
+### Added Mods
+
+  * [Better Fabric Console](https://www.curseforge.com/minecraft/mc-mods/better-fabric-console) (by [jmp00000](https://www.curseforge.com/members/jmp00000/projects))
+  * [Croptopia's Chocolaterie [Fabric]](https://www.curseforge.com/minecraft/mc-mods/croptopias-chocolaterie-fabric) (by [slomax907](https://www.curseforge.com/members/slomax907/projects))
+  * [Croptosis](https://www.curseforge.com/minecraft/mc-mods/croptosis) (by [LordDeatHunter](https://www.curseforge.com/members/LordDeatHunter/projects))
+  * [Resourceful Config](https://www.curseforge.com/minecraft/mc-mods/resourceful-config) (by [ThatGravyBoat](https://www.curseforge.com/members/ThatGravyBoat/projects))
+  * [Subterrestrial](https://www.curseforge.com/minecraft/mc-mods/subterrestrial) (by [AlexNijjar](https://www.curseforge.com/members/AlexNijjar/projects))
+
+### Removed Mods
+
+  * [Food Effect Tooltips](https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips) (by [DaFuqsy](https://www.curseforge.com/members/DaFuqsy/projects))
+  * [More Bows: Restrung!](https://www.curseforge.com/minecraft/mc-mods/more-bows-restrung) (by [NeRdTheNed](https://www.curseforge.com/members/NeRdTheNed/projects))
+---
+
 ### All of Fabric 6 | v0.1.7
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_0.1.7.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_0.1.7.md)_
