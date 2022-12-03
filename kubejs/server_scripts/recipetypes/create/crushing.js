@@ -32,10 +32,7 @@ ServerEvents.recipes(event => {
     });
 
     const ores  = [
-        'lead',
         'mozanite',
-        'nickel',
-        'silver',
         'salt',
         'tungsten',
         'antimony',
