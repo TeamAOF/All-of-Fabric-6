@@ -1,5 +1,6 @@
 {
   "modPriorities": [
+    "minecraft",
     "modern_industrialization",
     "farmersdelight",
     "create",
@@ -93,6 +94,10 @@
   "priorityOverrides": {},
   "ignoredTags": [],
   "ignoredItems": [
+    "minecraft:copper_block",
+    "minecraft:raw_iron",
+    "minecraft:raw_gold",
+    "minecraft:raw_copper",
     "minecraft:quartz_block",
     "minecraft:quartz",
     "minecraft:quartz_ore",
