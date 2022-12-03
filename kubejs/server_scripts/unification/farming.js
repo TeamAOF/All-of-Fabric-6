@@ -28,6 +28,10 @@ ServerEvents.tags('item', event => {
   // Dough
   event.add('c:dough', 'vinery:dough')
 
+   // Garlic
+   event.add('c:garlic', 'bewitchment:garlic')
+   event.add('c:crops/garlic', 'bewitchment:garlic')
+
   // Bacon
   event.add('c:raw_bacon', 'croptopia:bacon')
   event.add('c:cooked_bacon', 'croptopia:cooked_bacon')
