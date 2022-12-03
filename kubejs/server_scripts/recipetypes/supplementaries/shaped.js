@@ -48,6 +48,24 @@ ServerEvents.recipes(event => {
         A: '#c:lead_ingots'
       },
       id: 'supplementaries:lead_trapdoor'
+    },
+    {
+      output: 'supplementaries:jar_boat',
+      pattern: ['AB '],
+      key: {
+        A: 'supplementaries:jar',
+        B: 'minecraft:oak_boat'
+      },
+      id: 'supplementaries:boat_jar'
+    },
+    {
+      output: 'supplementaries:item_shelf',
+      pattern: ['AAA', 'B B'],
+      key: {
+        A: '#minecraft:wooden_slabs',
+        B: 'minecraft:iron_nugget'
+      },
+      id: 'supplementaries:item_shelf'
     }
   ];
 
