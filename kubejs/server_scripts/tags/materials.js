@@ -48,9 +48,11 @@ ServerEvents.tags('item', event => {
         event.add("c:" + item + "_plates", "create:" + item + "_sheet")
     });
 
+    /*
     create_crushed.forEach((item) => {
         event.add("c:" + item + "_dusts", "create:crushed_" + item + "_ore")
     });
+    */
 
     // Misc
     event.add("c:brass_ingots", "create:brass_ingot")
@@ -65,9 +67,9 @@ ServerEvents.tags('item', event => {
     event.add("c:plates/copper", "modern_industrialization:copper_plate")
     event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
     event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
-    event.add("c:dusts/uranium", "modern_industrialization:uranium_dust")
-    event.add("c:dusts/silver", "modern_industrialization:silver_dust")
-    event.add("c:dusts/tin", "modern_industrialization:tin_dust")
+    // event.add("c:dusts/uranium", "modern_industrialization:uranium_dust")
+    // event.add("c:dusts/silver", "modern_industrialization:silver_dust")
+    // event.add("c:dusts/tin", "modern_industrialization:tin_dust")
 
     event.add("c:plates/brass", "techreborn:brass_plate")
     event.add("c:nuggets/zinc", "techreborn:zinc_nugget")
