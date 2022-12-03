@@ -1,3 +1,28 @@
+### All of Fabric 6 | v1.0.2
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.0.2.md)_
+
+### DISCLAIMER: Be sure to empty your Compact Machines before updating!
+
+### Fixes
+
+* An issue where Twilight Forest portals couldnt be made.
+
+### Recipes
+
+* Brought back crushed ores (Create), to fix resource exploits.
+* Added recipe for cocoa pressed cone, fixing recipes using it.
+* Boat in a Jar not being craftable has been fixed.
+* Item shelf not being craftable has been fixed.
+* Drying rack not being craftable has been fixed.
+* Fixed an issue where garlic (bewitchment) wasnt tagged correctly, recipes using garlic are now fixed.
+* Fixed an issue where block of copper wouldnt be craftable.
+
+### Removed Mods
+
+* [Compact Machines - Fabric](https://www.curseforge.com/minecraft/mc-mods/compact-machines-fabric) (due to all the billion issues that currently cannot be fixed)
+---
+
 ### All of Fabric 6 | v1.0.1
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.0.1.md)_
