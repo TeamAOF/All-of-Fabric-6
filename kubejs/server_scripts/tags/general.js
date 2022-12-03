@@ -4,7 +4,11 @@
 
 
 ServerEvents.tags('item', event => {
-  
+
+
+  // Diamond
+  event.add('c:gems/diamond', 'minecraft:diamond')
+
   event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 
   event.add('c:workbench', 'minecraft:crafting_table')
@@ -20,13 +24,13 @@ ServerEvents.tags('item', event => {
   event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
 });
 
-  ServerEvents.tags('block', event => {
+ServerEvents.tags('block', event => {
 
   // Graves fix
   event.add('minecells:conjunctivius_unbreakable', 'yigd:grave')
 
 
-  
+
 
 
 
