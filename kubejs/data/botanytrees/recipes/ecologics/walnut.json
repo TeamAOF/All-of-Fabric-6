@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "ecologics:walnut_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "ecologics:walnut_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "ecologics:walnut_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "ecologics:walnut_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "minecraft:stick"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "ecologics:walnut"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+      },
+      {
+        "chance": 0.15,
+        "output": {
+          "item": "ecologics:walnut_sapling"
+        }
+      }
+    ]
+  }
