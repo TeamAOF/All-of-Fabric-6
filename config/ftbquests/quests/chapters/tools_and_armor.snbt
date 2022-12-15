@@ -10,8 +10,8 @@
 	quests: [
 		{
 			icon: "xps:block_xp_obelisk"
-			x: 2.0d
-			y: -6.0d
+			x: -2.0d
+			y: -5.5d
 			subtitle: "Enchanting Efficiency"
 			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
 			dependencies: ["25B6D9950B1CF03C"]
@@ -44,8 +44,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -6.0d
+			x: -6.0d
+			y: -5.5d
 			subtitle: "Everlasting Longevity!"
 			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
 			dependencies: ["25B6D9950B1CF03C"]
@@ -70,16 +70,16 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
 			]
 		}
 		{
-			x: 0.0d
-			y: -6.0d
+			x: -4.0d
+			y: -5.5d
 			id: "25B6D9950B1CF03C"
 			tasks: [{
 				id: "00364115C1D01F31"
@@ -99,7 +99,7 @@
 		}
 		{
 			title: "&5Armory of Dragon"
-			x: -5.5d
+			x: -5.0d
 			y: 2.5d
 			subtitle: "Harness the true strength of a dragon."
 			description: ["Scales are dropped by killing the Ender Dragon."]
@@ -160,15 +160,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "&6Gilded Netherite"
-			x: -5.5d
+			x: -6.5d
 			y: -2.5d
 			subtitle: "More durable than the netherite set and has a full set ability."
 			description: [
@@ -235,16 +235,16 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "&bQuantum Armory"
-			x: -8.5d
-			y: 2.5d
+			x: -5.5d
+			y: -2.5d
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "44A2231617CD5156"
 			tasks: [
@@ -278,8 +278,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -327,8 +327,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/rare"
 						Name: "Industrial Revolution Rare Lootbag"
+						Loot: "aof:loot_bags/ind_rev/rare"
 					}
 				}
 			}]
@@ -382,8 +382,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/common"
 						Name: "Tech Reborn Common Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/common"
 					}
 				}
 			}]
@@ -427,8 +427,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -472,8 +472,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -516,8 +516,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -530,8 +530,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/rare"
 							Name: "Industrial Revolution Rare Lootbag"
+							Loot: "aof:loot_bags/ind_rev/rare"
 						}
 					}
 				}
@@ -558,15 +558,15 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
 		}
 		{
 			title: "&5Dragon's Tools"
-			x: 0.0d
+			x: 2.0d
 			y: -2.5d
 			subtitle: "Harness the true strength of a dragon."
 			description: ["Scales are dropped by killing the Ender Dragon."]
@@ -627,15 +627,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "Hammers"
-			x: -1.5d
+			x: -1.0d
 			y: 2.5d
 			subtitle: "3x3 Mining on your doorstep."
 			description: ["Craft any hammer to complete quest."]
@@ -661,15 +661,15 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
 		}
 		{
 			title: "Machetes"
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 			subtitle: "Will break surrounding leaf blocks depending on the tool."
 			dependencies: ["300FAC6161C1BCDB"]
@@ -694,15 +694,15 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
 		}
 		{
 			title: "Scythes"
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 			subtitle: "Harvest crops in a range!"
 			description: [
@@ -736,8 +736,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -779,15 +779,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.5d
+			x: 8.0d
+			y: -2.5d
 			subtitle: "An advanced weapon that can be used against hostile mobs, or players."
 			description: [
 				"The Saber requires power to work, every hit done to an entity will cost 150 Energy."
@@ -820,15 +820,15 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
 		}
 		{
 			title: "Paxels"
-			x: -0.5d
+			x: 0.0d
 			y: 2.5d
 			subtitle: "All in One!"
 			description: [
@@ -883,8 +883,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -927,15 +927,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "Medieval Weapons"
-			x: 7.5d
+			x: 8.0d
 			y: 2.5d
 			subtitle: "Songs of War!"
 			description: [
@@ -985,16 +985,16 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "&cAdvanced Netherite"
-			x: 1.5d
-			y: -2.5d
+			x: -2.0d
+			y: 2.5d
 			subtitle: "Every Netherite tier has its own unique properties."
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "38832A16DF4E54C3"
@@ -1019,8 +1019,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
 							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
 						}
 					}
 				}
@@ -1033,8 +1033,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -1042,7 +1042,7 @@
 		}
 		{
 			title: "&cAdvanced Netherite"
-			x: -7.0d
+			x: -7.5d
 			y: -2.5d
 			subtitle: "Every Netherite tier has its own unique properties."
 			dependencies: ["35F0E2CEEE9D9AD0"]
@@ -1067,15 +1067,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "&bArmory of the Warden"
-			x: -7.0d
+			x: -6.0d
 			y: 2.5d
 			subtitle: "You feel the true power of the Warden!"
 			dependencies: ["35F0E2CEEE9D9AD0"]
@@ -1135,15 +1135,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "&bWeaponry of the Warden"
-			x: 8.0d
+			x: 7.0d
 			y: -2.5d
 			subtitle: "You feel the true power of the Warden!"
 			dependencies: ["5EA2D6174BCFEC05"]
@@ -1168,15 +1168,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
 			title: "&bTools of the Warden"
-			x: -1.5d
+			x: 1.0d
 			y: -2.5d
 			subtitle: "Gardener? Nah, more like... Wardener!"
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1236,14 +1236,14 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
-			x: 6.5d
+			x: 6.0d
 			y: -2.5d
 			subtitle: "The curse be upon you!"
 			dependencies: ["5EA2D6174BCFEC05"]
@@ -1268,209 +1268,730 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
-			title: "Compact Machines"
-			x: -7.0d
-			y: -7.5d
-			subtitle: "Hide your beloved contraptions in a single block!"
-			description: [
-				"Craft yourself a &bPersonal Shrinking Device."
-				""
-				"It's used to enter your Compact Machines, can also be used for In-Game documentation."
-			]
-			id: "76E2646742A8BEF1"
-			tasks: [{
-				id: "68546B910AF443E8"
-				type: "item"
-				item: "compactmachines:personal_shrinking_device"
-			}]
-			rewards: [{
-				id: "29A07F53246669E8"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 6750133
-						Name: "Utilities Lootbag"
-						Loot: "aof:loot_bags/misc/utilities"
-					}
-				}
-			}]
-		}
-		{
-			title: "Size Doesnt Matter"
-			x: -7.0d
-			y: -6.0d
-			subtitle: "Pick the size appropriate to your needs."
-			description: [
-				"These are the &bcore components&r of this mod."
-				""
-				"They allow you to build large rooms in a single block space, connected to the outside world."
-				""
-				"They come in various sizes."
-			]
-			dependencies: ["76E2646742A8BEF1"]
-			id: "3972A4B0DF8F37E4"
-			tasks: [{
-				id: "335BE14568E62D4B"
-				type: "item"
-				title: "Compact Machines"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "compactmachines:machine_tiny"
-								Count: 1b
-							}
-							{
-								id: "compactmachines:machine_small"
-								Count: 1b
-							}
-							{
-								id: "compactmachines:machine_normal"
-								Count: 1b
-							}
-							{
-								id: "compactmachines:machine_large"
-								Count: 1b
-							}
-							{
-								id: "compactmachines:machine_giant"
-								Count: 1b
-							}
-							{
-								id: "compactmachines:machine_maximum"
-								Count: 1b
-							}
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "5DB7898A43FC390D"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 6750133
-						Name: "Utilities Lootbag"
-						Loot: "aof:loot_bags/misc/utilities"
-					}
-				}
-			}]
-		}
-		{
+			title: "&dElementium Armory"
 			x: -8.0d
-			y: -4.5d
-			subtitle: "Used to connect the outside block faces with the inside."
-			dependencies: ["3972A4B0DF8F37E4"]
-			id: "0C1BD8777D8762CA"
-			tasks: [{
-				id: "03AF98F3F1778B8E"
-				type: "item"
-				item: {
-					id: "compactmachines:tunnel"
-					Count: 1b
-					tag: {
-						definition: {
-							id: "compactmachines:item"
+			y: 2.5d
+			subtitle: "Made in the Portal to Alfheim."
+			description: [
+				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
+				""
+				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
+				""
+				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "0A0EE0B8F2CF1840"
+			tasks: [
+				{
+					id: "6443CB4EA4556356"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
+				{
+					id: "3F3830E0938CBB40"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3547154495AA785B"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ED55F2B0C34748D"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "7EFDBD6AD8EE05E4"
+				id: "754CE8CB0336E6D3"
 				type: "item"
 				item: {
 					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						Type: "UNCOMMON"
-						Color: 6750133
-						Name: "Utilities Lootbag"
-						Loot: "aof:loot_bags/misc/utilities"
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
+			title: "&9Manasteel Armory"
+			x: -9.0d
+			y: 2.5d
+			subtitle: "Made out of Iron and Mana."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "69EF6FE796539675"
+			tasks: [
+				{
+					id: "384F8EE2142E565A"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "752FEB2ABDA70713"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16D9A0AFCF03C01C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33420EB93311F590"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A01FBD100578278"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "&aTerrasteel Armory"
 			x: -7.0d
-			y: -4.5d
-			subtitle: "Used to connect the outside block faces with the inside."
-			dependencies: ["3972A4B0DF8F37E4"]
-			id: "2FCC169EF47B2B34"
-			tasks: [{
-				id: "23CB716448DA3AB9"
-				type: "item"
-				item: {
-					id: "compactmachines:tunnel"
-					Count: 1b
-					tag: {
-						definition: {
-							id: "compactmachines:fluid"
+			y: 2.5d
+			subtitle: "Made via an infusion ritual."
+			description: [
+				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
+				""
+				"> Passive generation of 1 Mana per tick."
+				""
+				"> 20% decrease of Mana cost on all Mana-using tools and rods."
+				""
+				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
+				""
+				"> Effects of all Wills applied to the worn Terrasteel Helmet."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "7E9CEA24C62A5EB5"
+			tasks: [
+				{
+					id: "5AC1B88EE4805986"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
+				{
+					id: "3EF0ABC0224C1C77"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "249C7B704AB2BFF6"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73DE3154063549DE"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "2EC59C96FA93CCDD"
+				id: "5E5F8A23E330AF66"
 				type: "item"
 				item: {
 					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						Type: "UNCOMMON"
-						Color: 6750133
-						Name: "Utilities Lootbag"
-						Loot: "aof:loot_bags/misc/utilities"
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
 		}
 		{
-			x: -6.0d
-			y: -4.5d
-			subtitle: "Used to connect the outside block faces with the inside."
-			dependencies: ["3972A4B0DF8F37E4"]
-			id: "295AB20462503CF6"
-			tasks: [{
-				id: "67DA018B4E61A93D"
-				type: "item"
-				item: {
-					id: "compactmachines:tunnel"
-					Count: 1b
-					tag: {
-						definition: {
-							id: "compactmachines:energy"
+			title: "&aTools of Terra"
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "6B2A5C9F8F92975B"
+			tasks: [
+				{
+					id: "0EBC1A262BACB90E"
+					type: "item"
+					item: {
+						id: "botania:terra_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+							mana: 9999
 						}
 					}
 				}
-			}]
+				{
+					id: "1B21CF9911521FE4"
+					type: "item"
+					item: {
+						id: "botania:terra_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "76856727969C44F6"
+				id: "1F58E0896CECAB48"
 				type: "item"
 				item: {
 					id: "lootbags:loot_bag"
 					Count: 1b
 					tag: {
-						Type: "UNCOMMON"
-						Color: 6750133
-						Name: "Utilities Lootbag"
-						Loot: "aof:loot_bags/misc/utilities"
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
+			}]
+		}
+		{
+			title: "&dElementium Tools"
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "491D1CA466F8BEE7"
+			tasks: [
+				{
+					id: "1B7C87583404D823"
+					type: "item"
+					item: {
+						id: "botania:elementium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12761B3B1151BB90"
+					type: "item"
+					item: {
+						id: "botania:elementium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35251431AE99A877"
+					type: "item"
+					item: {
+						id: "botania:elementium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E9208183F259F87"
+					type: "item"
+					item: {
+						id: "botania:elementium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37D446E2E6929333"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			title: "&9Manasteel Tools"
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "1812006D3BD67F42"
+			tasks: [
+				{
+					id: "78AE4A2866D42033"
+					type: "item"
+					item: {
+						id: "botania:manasteel_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "513C28B868CC07B7"
+					type: "item"
+					item: {
+						id: "botania:manasteel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BEDB0B6192BABAB"
+					type: "item"
+					item: {
+						id: "botania:manasteel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4868DD63695C6A9C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2795C286B3F01E19"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7CE1E91CE65BEEB1"
+			tasks: [{
+				id: "5C2A939D465B1339"
+				type: "item"
+				item: {
+					id: "botania:manasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64788C0E06411E05"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7C5DBA5626CE7D7D"
+			tasks: [{
+				id: "3AFC4119E51084AA"
+				type: "item"
+				item: {
+					id: "botania:elementium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D75E74B635299E0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "05F39EED60B5032B"
+			tasks: [{
+				id: "0B6D9A28B4A9B38C"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "494D1269BAC85011"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			subtitle: "Dirty Stick MK II"
+			description: ["This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost."]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "6CFB83CA3C41D891"
+			tasks: [{
+				id: "07E070E14442B2D5"
+				type: "item"
+				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "0AA26F8BD37878A9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "Keep the ocean clean!"
+			description: ["Just like the Rod of the Land, the Rod of the Seas will allow you to use mana to place water source blocks."]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "72D41352FD2B752C"
+			tasks: [{
+				id: "69CE55AF68F39797"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "3F12A313ED7D6735"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			subtitle: "Smoothing Brush in Survival"
+			description: ["The Rod of the Terra Firm is a useful tool for terraforming that allows you to flatten the ground and bring the elevation of the ground closer to your level"]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "503DD3CEEFE78FFF"
+			tasks: [{
+				id: "6E7765039271CC78"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "1ADBB875BD98C512"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			subtitle: "Shift your block of choice."
+			description: [
+				"The Rod of the Shifting Crust is an incredibly useful tool that allows you to swap blocks on a surface with other blocks from your inventory."
+				""
+				"Other staffs listed in this chapter allow you to use mana to replace blocks with blocks generated with mana."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "57A128EE5135A494"
+			tasks: [{
+				id: "5F10EB7947E7C1CB"
+				type: "item"
+				item: "botania:exchange_rod"
+			}]
+			rewards: [{
+				id: "2184A7B7B6E41891"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			subtitle: "It's cobbling time!"
+			description: [
+				"Much like the Rod of the Lands, this rod allows you to place Cobblestone by consuming mana."
+				""
+				"Like its dirty cousin, it also provides the Rod of the Shifting Crust with Cobblestone for swapping."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "009320766602EAAF"
+			tasks: [{
+				id: "5B3866A5E0AD8DCF"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "2BEE4BFA695BF6E9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			subtitle: "Dirty Stick"
+			description: [
+				"A simple tool that allows you to place dirt blocks using mana."
+				""
+				"This isn't useful in and of itself, but when paired with the wand of the shifting crust, it provides dirt to swap blocks with."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "1A7AF56567D80ECB"
+			tasks: [{
+				id: "3AA7A6C9CA235353"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "458366310AF3B9AE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.9761904761904816d
+			y: -5.714285714285715d
+			id: "0ECC48E2B41D4078"
+			tasks: [{
+				id: "7A35F0C8B2C0B1D1"
+				type: "checkmark"
+				title: "Botania Utils"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Blocks as far as the eye can see!"
+			description: ["There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"]
+			id: "30023016124CD227"
+			tasks: [{
+				id: "2468CAEE0E3DFE45"
+				type: "checkmark"
+				title: "Block Variations"
+			}]
+		}
+		{
+			title: "Chisels and Bits"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Sculpture the world!"
+			description: [
+				"Remove small bits from blocks using chisels."
+				""
+				"You can use these bits to build detailed decorations or whatever else you want."
+			]
+			dependencies: ["30023016124CD227"]
+			id: "1503EBD099C0444B"
+			tasks: [{
+				id: "5C9D9AF921A12ED1"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "chiselsandbits:chisel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C0079478B316F06"
+				type: "item"
+				item: "chiselsandbits:chiseled_printer"
 			}]
 		}
 	]
