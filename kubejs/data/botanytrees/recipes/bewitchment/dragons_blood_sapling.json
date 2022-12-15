@@ -1,0 +1,43 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "bewitchment:dragons_blood_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "bewitchment:dragons_blood_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "bewitchment:dragons_blood_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "bewitchment:dragons_blood_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "bewitchment:dragons_blood_resin"
+      }
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "bewitchment:dragons_blood_sapling"
+        }
+      }
+    ]
+  }

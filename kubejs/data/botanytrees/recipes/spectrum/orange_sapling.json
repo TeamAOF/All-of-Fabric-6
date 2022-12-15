@@ -1,0 +1,43 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "spectrum:orange_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "spectrum:orange_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "spectrum:orange_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "spectrum:orange_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "spectrum:orange_pigment"
+      }
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "spectrum:orange_sapling"
+        }
+      }
+    ]
+  }

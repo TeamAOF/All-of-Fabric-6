@@ -1,0 +1,43 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "spectrum:white_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "spectrum:white_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "spectrum:white_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "spectrum:white_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "spectrum:white_pigment"
+      }
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "spectrum:white_sapling"
+        }
+      }
+    ]
+  }

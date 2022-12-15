@@ -1,0 +1,43 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "bewitchment:elder_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "bewitchment:elder_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "bewitchment:elder_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "bewitchment:elder_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "bewitchment:elder_bark"
+      }
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "bewitchment:elder_sapling"
+        }
+      }
+    ]
+  }
