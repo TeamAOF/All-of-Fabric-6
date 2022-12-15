@@ -138,7 +138,9 @@
     "ad_astra:glacio_lapis_ore",
     "ad_astra:glacio_coal_ore",
     "ad_astra:venus_coal_ore",
-    "farmersdelight:cabbage"
+    "farmersdelight:cabbage",
+    "minecraft:waxed_copper_block",
+    "minecraft:waxed_cut_copper"
 
   ],
   "ignoredRecipeTypes": [],
