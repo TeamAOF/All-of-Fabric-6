@@ -28,10 +28,10 @@ _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Added Mods
 
-  * [Applied Botanics Addon](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon) (by [ramidzkh](https://www.curseforge.com/members/ramidzkh/projects))
-  * [Blockus](https://www.curseforge.com/minecraft/mc-mods/blockus) (by [Brandcraft_](https://www.curseforge.com/members/Brandcraft_/projects))
-  * [Botania (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric) (by [williewillus](https://www.curseforge.com/members/williewillus/projects))
-  * [Chisels & Bits - For Fabric](https://www.curseforge.com/minecraft/mc-mods/chisels-bits-for-fabric) (by [OrionOnline](https://www.curseforge.com/members/OrionOnline/projects))
+  * [Applied Botanics Addon](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon)
+  * [Blockus](https://www.curseforge.com/minecraft/mc-mods/blockus)
+  * [Botania (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric)
+  * [Chisels & Bits - For Fabric](https://www.curseforge.com/minecraft/mc-mods/chisels-bits-for-fabric)
 ---
 
 ### All of Fabric 6 | v1.0.2
