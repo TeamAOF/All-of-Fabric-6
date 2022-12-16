@@ -113,8 +113,6 @@
     "minEnergyPerGameTick_comment": "Minimum amount of AE/t the vibration chamber can slow down to when energy is being wasted.",
     "minEnergyPerGameTick": 4,
     "maxEnergyPerGameTick_comment": "Maximum amount of AE/t the vibration chamber can speed up to when generated energy is being fully consumed.",
-    "maxEnergyPerGameTick": 40,
-    "initialEnergyPerGameTick_comment": "An amount of AE/t between minEnergyPerGameTick and maxEnergyPerGameTick that the vibration chamber starts at initially.",
-    "initialEnergyPerGameTick": 20
+    "maxEnergyPerGameTick": 40
   }
 }

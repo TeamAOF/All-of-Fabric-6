@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "accent": "#6fd46c",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": {
+      "y": 0.5
+    },
+    "scale": 1.0
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "minecraft:block.bell.use"
+    }
+  },
+  "item": {
+    "item": "botania:terra_pick",
+    "count": 1
+  },
+  "animation": {
+      "type": "spinning",
+      "speed": 0.20
+    },
+  "name": {
+    "color": "#6fd46c",
+    "text": "Shatterer of Worlds"
+  }
+}

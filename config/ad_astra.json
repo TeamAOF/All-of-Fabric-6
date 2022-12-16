@@ -97,6 +97,15 @@
     "energyPerTick": 10,
     "tankSize": 243000
   },
+  "oxygenDistributor": {
+    "maxEnergy": 20000,
+    "fluidConversionEnergyPerTick": 5,
+    "tankSize": 486000,
+    "maxBlockChecks": 2000,
+    "refreshTicks": 60,
+    "oxygenMultiplier": 1.0,
+    "energyMultiplier": 3.0
+  },
   "solarPanel": {
     "maxEnergy": 18000,
     "energyMultiplier": 1.0
@@ -114,6 +123,7 @@
   },
   "cryoFreezer": {
     "maxEnergy": 30000,
-    "energyPerTick": 243000
+    "energyPerTick": 243000,
+    "tankSize": 243000
   }
 }

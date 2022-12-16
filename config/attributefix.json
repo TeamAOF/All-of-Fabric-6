@@ -209,6 +209,17 @@
         "value": 10000000
       }
     },
+    "botania:pixie_spawn_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {

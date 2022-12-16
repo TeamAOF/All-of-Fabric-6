@@ -1,0 +1,108 @@
+{
+  "settings": {
+    "bit-bag": {
+      "invert-durability-bar-indication": false
+    },
+    "placement": {
+      "render-mode": {
+        "success": "GHOST_BLOCK_MODEL",
+        "failed": "GHOST_BLOCK_MODEL_SOLID_COLOR"
+      },
+      "color": {
+        "success": {
+          "field_21486": 0.1882353,
+          "field_21487": 0.47058824,
+          "field_21488": 0.7882353,
+          "field_21489": 0.7058824
+        },
+        "not-fitting": {
+          "field_21486": 0.7176471,
+          "field_21487": 0.25490198,
+          "field_21488": 0.05490196,
+          "field_21489": 0.7058824
+        },
+        "missing-bits-or-space": {
+          "field_21486": 1.0,
+          "field_21487": 0.85882354,
+          "field_21488": 0.34509805,
+          "field_21489": 0.7058824
+        }
+      }
+    },
+    "chiseling-previews": {
+      "default": {
+        "colors": {
+          "chiseling": [
+            0.85,
+            0.0,
+            0.0,
+            0.65
+          ],
+          "placement": [
+            0.0,
+            0.85,
+            0.0,
+            0.65
+          ]
+        }
+      },
+      "debug": {
+        "mutator": {
+          "colors": {
+            "chiseling": [
+              0.0,
+              0.0,
+              0.85,
+              0.65
+            ],
+            "placement": [
+              0.85,
+              0.85,
+              0.0,
+              0.65
+            ]
+          }
+        },
+        "enabled": false
+      },
+      "renderer": "chiselsandbits:default"
+    },
+    "selected-tool-mode-icons": {
+      "renderer": "chiselsandbits:group"
+    },
+    "clipboard": {
+      "size": 64,
+      "add-broken-blocks": true,
+      "add-picked-blocks": true
+    },
+    "patterns": {
+      "export-path": "./chiselsandbits/patterns"
+    },
+    "warnings": {
+      "show-cool-down-error": false
+    },
+    "invert-pick-block-behaviour": false
+  },
+  "performance": {
+    "caches": {
+      "sizes": {
+        "bit-storage-content-models": 100,
+        "block-models": 10000,
+        "block-faces": 1000000,
+        "stack-models": 100
+      }
+    },
+    "lighting": {
+      "extract-lighting-values-from-faces": true,
+      "extract-lighting-values-from-blockstates": false
+    },
+    "model-building": {
+      "thread-count": 16
+    }
+  },
+  "gui": {
+    "radial-menu": {
+      "display-mouse-indicator": false
+    }
+  }
+}

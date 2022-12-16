@@ -414,7 +414,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "hexcasting:wand_akashic",
+          "name": "hexcasting:birch_staff",
           "functions": [
             {
               "count": 1,
@@ -425,7 +425,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "hexcasting:wand_birch",
+          "name": "hexcasting:crimson_staff",
           "functions": [
             {
               "count": 1,
@@ -436,7 +436,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "hexcasting:wand_crimson",
+          "name": "hexcasting:dark_oak_staff",
           "functions": [
             {
               "count": 1,
@@ -447,7 +447,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "hexcasting:wand_dark_oak",
+          "name": "hexcasting:jungle_staff",
           "functions": [
             {
               "count": 1,
@@ -458,7 +458,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "hexcasting:wand_jungle",
+          "name": "hexcasting:oak_staff",
           "functions": [
             {
               "count": 1,
@@ -469,7 +469,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "hexcasting:wand_oak",
+          "name": "hexcasting:spruce_staff",
           "functions": [
             {
               "count": 1,
@@ -480,18 +480,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "hexcasting:wand_spruce",
-          "functions": [
-            {
-              "count": 1,
-              "function": "set_count"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "hexcasting:wand_warped",
+          "name": "hexcasting:warped_staff",
           "functions": [
             {
               "count": 1,

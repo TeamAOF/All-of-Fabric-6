@@ -3,6 +3,10 @@
     "urn": {
       "critter_spawn_chance": 0.009999999776482582
     },
+    "enderman_head": {
+      "ticks_to_increase_power": 15,
+      "work_from_any_side": false
+    },
     "bamboo_spikes": {
       "player_loot": false,
       "alternative_mode": true

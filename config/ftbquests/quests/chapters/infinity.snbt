@@ -37,9 +37,9 @@
 			}]
 		}
 		{
-			title: "&aHell's Kitchen"
+			title: "&cHell's Kitchen"
 			icon: "farmersdelight:cooking_pot"
-			x: 3.5d
+			x: 4.0d
 			y: 3.0d
 			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
 			description: [
@@ -162,7 +162,7 @@
 					Damage: 0
 				}
 			}
-			x: 2.0d
+			x: 2.5d
 			y: 3.0d
 			subtitle: "Slay 'em All"
 			description: [
@@ -310,6 +310,13 @@
 					entity: "minecells:conjunctivius"
 					value: 1L
 				}
+				{
+					id: "35966A51B41E0561"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
 			]
 			rewards: [{
 				id: "33B8F578C9A9D999"
@@ -327,7 +334,7 @@
 		}
 		{
 			title: "&eRing of Angels"
-			x: 0.0d
+			x: -0.5d
 			y: 3.0d
 			subtitle: "Creative flight at your disposal."
 			dependencies: ["512CAEB25CD9B4E2"]
@@ -358,7 +365,7 @@
 		{
 			title: "&dQuantum Physics"
 			icon: "modern_industrialization:quantum_upgrade"
-			x: -1.5d
+			x: -2.0d
 			y: 3.0d
 			subtitle: "Ethereal powers!"
 			description: [
@@ -438,6 +445,7 @@
 				"- &bBecoming a Michelin Chef"
 				"- &bQuantum Physics"
 				"- &bAngel Flight"
+				"- &bShattering of Worlds"
 				""
 				"Complete them all to become &6The Completionist!"
 			]
@@ -447,6 +455,7 @@
 				"18035D9544EC01DA"
 				"0A87F01B58718A44"
 				"1F0EE1298663FE88"
+				"6DB6324D6D217641"
 			]
 			size: 2.0d
 			id: "477ECBF67056BF45"
@@ -465,6 +474,41 @@
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:completionist"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "&aShatterer of Worlds"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "Craft the ultimate Terra Shatterer!"
+			description: ["Upgrade a &bTerra Shatterer &rto tier &6(SS)&r."]
+			dependencies: ["512CAEB25CD9B4E2"]
+			id: "6DB6324D6D217641"
+			tasks: [{
+				id: "442699A27DC5EE8D"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+						mana: 2147483646
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "465C512BB8E5E72F"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:terra"
 						}
 					}
 				}

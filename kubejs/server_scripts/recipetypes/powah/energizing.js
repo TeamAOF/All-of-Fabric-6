@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
           {"item": "ad_astra:calorite_engine"},
           {"item": "bosses_of_mass_destruction:ancient_anima"},
           {"item": "piercingpaxels:upgrade_unbreakable"},
-          {"item": "modern_industrialization:gravichestplate"}
+          {"item": "botania:gaia_ingot"}
         ],
         "energy": "200000000",
         "result": {

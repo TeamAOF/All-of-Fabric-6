@@ -10,7 +10,7 @@
 	quests: [
 		{
 			icon: "xps:block_xp_obelisk"
-			x: -2.0d
+			x: -5.0d
 			y: -5.5d
 			subtitle: "Enchanting Efficiency"
 			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
@@ -44,7 +44,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -9.0d
 			y: -5.5d
 			subtitle: "Everlasting Longevity!"
 			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
@@ -70,15 +70,15 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
 			]
 		}
 		{
-			x: -4.0d
+			x: -7.0d
 			y: -5.5d
 			id: "25B6D9950B1CF03C"
 			tasks: [{
@@ -160,8 +160,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -235,8 +235,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -278,8 +278,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Name: "Tech Reborn Epic Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/epic"
+						Name: "Tech Reborn Epic Lootbag"
 					}
 				}
 			}]
@@ -327,8 +327,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -382,8 +382,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -427,8 +427,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Name: "Tech Reborn Rare Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
 					}
 				}
 			}]
@@ -472,8 +472,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Name: "Tech Reborn Epic Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/epic"
+						Name: "Tech Reborn Epic Lootbag"
 					}
 				}
 			}]
@@ -516,8 +516,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -530,8 +530,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Name: "Industrial Revolution Rare Lootbag"
 							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
 						}
 					}
 				}
@@ -558,8 +558,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Name: "Tech Reborn Rare Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
 					}
 				}
 			}]
@@ -627,8 +627,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -661,8 +661,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -694,8 +694,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -736,8 +736,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -779,8 +779,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -820,8 +820,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Name: "Tech Reborn Rare Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
 					}
 				}
 			}]
@@ -883,8 +883,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -927,8 +927,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -985,8 +985,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1019,8 +1019,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Name: "Artifact Lootbag"
 							Loot: "aof:loot_bags/misc/artifacts"
+							Name: "Artifact Lootbag"
 						}
 					}
 				}
@@ -1033,8 +1033,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -1067,8 +1067,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1135,8 +1135,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1168,8 +1168,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1236,8 +1236,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1268,8 +1268,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1343,8 +1343,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1411,8 +1411,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1490,8 +1490,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -1536,8 +1536,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1603,8 +1603,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1670,8 +1670,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1701,8 +1701,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1732,8 +1732,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1763,15 +1763,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.5d
+			x: 5.0d
+			y: -5.0d
 			subtitle: "Dirty Stick MK II"
 			description: ["This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost."]
 			dependencies: ["0ECC48E2B41D4078"]
@@ -1790,15 +1790,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
+			x: 6.5d
+			y: -4.5d
 			subtitle: "Keep the ocean clean!"
 			description: ["Just like the Rod of the Land, the Rod of the Seas will allow you to use mana to place water source blocks."]
 			dependencies: ["0ECC48E2B41D4078"]
@@ -1817,15 +1817,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.5d
+			x: 8.0d
+			y: -5.0d
 			subtitle: "Smoothing Brush in Survival"
 			description: ["The Rod of the Terra Firm is a useful tool for terraforming that allows you to flatten the ground and bring the elevation of the ground closer to your level"]
 			dependencies: ["0ECC48E2B41D4078"]
@@ -1844,15 +1844,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 5.5d
-			y: -6.5d
+			x: 8.0d
+			y: -7.0d
 			subtitle: "Shift your block of choice."
 			description: [
 				"The Rod of the Shifting Crust is an incredibly useful tool that allows you to swap blocks on a surface with other blocks from your inventory."
@@ -1875,15 +1875,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 4.0d
-			y: -7.5d
+			x: 6.5d
+			y: -8.0d
 			subtitle: "It's cobbling time!"
 			description: [
 				"Much like the Rod of the Lands, this rod allows you to place Cobblestone by consuming mana."
@@ -1906,15 +1906,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 2.5d
-			y: -7.0d
+			x: 5.0d
+			y: -7.5d
 			subtitle: "Dirty Stick"
 			description: [
 				"A simple tool that allows you to place dirt blocks using mana."
@@ -1937,15 +1937,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 3.9761904761904816d
-			y: -5.714285714285715d
+			x: 6.476190476190482d
+			y: -6.214285714285715d
 			id: "0ECC48E2B41D4078"
 			tasks: [{
 				id: "7A35F0C8B2C0B1D1"

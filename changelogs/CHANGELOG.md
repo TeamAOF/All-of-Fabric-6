@@ -1,3 +1,39 @@
+### All of Fabric 6 | v1.1.0
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.1.0.md)_
+
+### Changes
+
+* Added back Botania quest chapter.
+* Added Shatterer of Worlds quest to Challenges chapter.
+* Added botania entries to Tools & Armor chapter.
+* Added Chisels & Bits quest.
+* Added hexcasting & botania rewards to magic lootbags.
+* Removed Compact Machines quests.
+* No more clay golems, welcome iron golems back.
+* Added Guardian of Gaia entry to Boss Rush quest.
+
+### Fixes
+
+* Many shaders issues has been fixed, this includes most if not all with Ad Astra.
+
+### Recipes
+
+* Added carbon dust in TR centrifuge.
+* Changed Angel Ring recipe, now requires Gaia Ingot instead of Gravichestplate.
+* A recipe conflict between Skipping Stone & Pebble has been fixed.
+* Anything using Croptopia Knife will now use all farmersdelight variants, fixing a couple uncraftable recipes.
+* Added botany trees compat for (biome makeover, byg, croptopia, ecologics twilight forest, bewitchment & more).
+* Fixed multiple issues with waxed copper blocks unification.
+
+### Added Mods
+
+  * [Applied Botanics Addon](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon) (by [ramidzkh](https://www.curseforge.com/members/ramidzkh/projects))
+  * [Blockus](https://www.curseforge.com/minecraft/mc-mods/blockus) (by [Brandcraft_](https://www.curseforge.com/members/Brandcraft_/projects))
+  * [Botania (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric) (by [williewillus](https://www.curseforge.com/members/williewillus/projects))
+  * [Chisels & Bits - For Fabric](https://www.curseforge.com/minecraft/mc-mods/chisels-bits-for-fabric) (by [OrionOnline](https://www.curseforge.com/members/OrionOnline/projects))
+---
+
 ### All of Fabric 6 | v1.0.2
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.0.2.md)_
