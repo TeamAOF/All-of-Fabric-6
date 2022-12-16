@@ -7,6 +7,7 @@ ServerEvents.tags('item', event => {
 
 
   // Diamond
+
   event.add('c:gems/diamond', 'minecraft:diamond')
 
   event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
@@ -22,6 +23,14 @@ ServerEvents.tags('item', event => {
   event.add('c:raw_silver_blocks', 'indrev:raw_silver_block')
   event.add('c:raw_tungsten_blocks', 'indrev:raw_tungsten_block')
   event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
+
+  // Knives
+
+  event.add('c:knives', 'farmersdelight:flint_knife')
+  event.add('c:knives', 'farmersdelight:iron_knife')
+  event.add('c:knives', 'farmersdelight:golden_knife')
+  event.add('c:knives', 'farmersdelight:diamond_knife')
+  event.add('c:knives', 'farmersdelight:netherite_knife')
 });
 
 ServerEvents.tags('block', event => {
