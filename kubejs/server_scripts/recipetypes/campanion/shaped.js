@@ -12,6 +12,14 @@ ServerEvents.recipes(event => {
         A: '#minecraft:logs',
     },
       id: 'campanion:rope_bridge_post'
+    },
+    {
+      output: '8x campanion:skipping_stone',
+      pattern: ['AA'],
+      key: {
+        A: 'minecraft:cobblestone',
+    },
+      id: 'campanion:skipping_stone'
     }
   ];
 
