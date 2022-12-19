@@ -5,7 +5,7 @@ _Fabric Loader 0.14.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ### Changes
 
 * Updated fabric loader to 0.14.11
-* Updated Spectrum quests with a more descriptions, more to come.
+* Updated Spectrum quests with more descriptions, more to come.
 
 ### Fixes
 
