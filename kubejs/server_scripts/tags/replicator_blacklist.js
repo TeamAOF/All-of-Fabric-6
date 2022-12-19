@@ -169,7 +169,7 @@ ServerEvents.tags('item', event => {
 	'travelersbackpack:squid',
 	'travelersbackpack:villager',
 	'travelersbackpack:iron_golem',
-	'lootbags:loot_bag',
+	'lootbags:loot_bag'
 	
     ];
 
