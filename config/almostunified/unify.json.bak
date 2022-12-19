@@ -94,9 +94,9 @@
   ],
   "priorityOverrides": {},
   "ignoredTags": [
-    "minecraft:stairs",
-    "minecraft:slabs",
-    "c:quartz_blocks"
+    "#minecraft:stairs",
+    "#minecraft:slabs",
+    "#c:quartz_blocks"
   ],
   "ignoredItems": [
     "minecraft:copper_block",

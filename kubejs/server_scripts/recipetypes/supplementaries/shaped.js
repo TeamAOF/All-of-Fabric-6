@@ -66,6 +66,16 @@ ServerEvents.recipes(event => {
         B: 'minecraft:iron_nugget'
       },
       id: 'supplementaries:item_shelf'
+    },
+
+    // Stone Tiles
+    {
+      output: '2x supplementaries:stone_tile',
+      pattern: ['AA'],
+      key: {
+        A: 'minecraft:stone_bricks',
+      },
+      id: 'supplementaries:stone_tile'
     }
   ];
 

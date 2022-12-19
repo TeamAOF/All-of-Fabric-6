@@ -1,5 +1,5 @@
 blacklistedOres = []
-enableNoJeiMessage = true
+enableNoEmiMessage = true
 spawnWithGuideBook = true
 respawnWithGuideBook = false
 disableFuelTooltips = false
@@ -11,3 +11,5 @@ enableDebugCommands = false
 enableBidirectionalEnergyCompat = false
 enableAe2Integration = true
 generateOres = true
+datagenOnStartup = false
+loadRuntimeGeneratedResources = true

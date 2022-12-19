@@ -35,8 +35,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -65,8 +65,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -102,8 +102,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -140,8 +140,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -179,8 +179,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -221,8 +221,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 					count: 2
@@ -256,8 +256,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -305,8 +305,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -345,8 +345,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -432,8 +432,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
 							Name: "Create Rare Lootbag"
+							Loot: "aof:loot_bags/create/rare"
 						}
 					}
 				}
@@ -479,8 +479,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
 							Name: "Create Rare Lootbag"
+							Loot: "aof:loot_bags/create/rare"
 						}
 					}
 				}
@@ -525,8 +525,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -560,8 +560,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
 							Name: "Create Rare Lootbag"
+							Loot: "aof:loot_bags/create/rare"
 						}
 					}
 				}
@@ -587,8 +587,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -613,8 +613,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -638,8 +638,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -665,8 +665,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -703,8 +703,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -730,8 +730,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -764,8 +764,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -810,8 +810,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -839,8 +839,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -874,8 +874,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -908,8 +908,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -934,8 +934,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -967,8 +967,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 15576960
-							Name: "Create Epic Lootbag"
 							Loot: "aof:loot_bags/create/epic"
+							Name: "Create Epic Lootbag"
 						}
 					}
 				}
@@ -1000,8 +1000,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 15576960
-							Name: "Create Epic Lootbag"
 							Loot: "aof:loot_bags/create/epic"
+							Name: "Create Epic Lootbag"
 						}
 					}
 				}
@@ -1039,8 +1039,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
 							Name: "Create Rare Lootbag"
+							Loot: "aof:loot_bags/create/rare"
 						}
 					}
 				}
@@ -1081,8 +1081,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
 							Name: "Create Rare Lootbag"
+							Loot: "aof:loot_bags/create/rare"
 						}
 					}
 				}
@@ -1108,8 +1108,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1134,8 +1134,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1190,8 +1190,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
 							Name: "Create Rare Lootbag"
+							Loot: "aof:loot_bags/create/rare"
 						}
 					}
 				}
@@ -1216,8 +1216,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 15576960
-						Name: "Create Epic Lootbag"
 						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
 					}
 				}
 			}]
@@ -1255,8 +1255,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 15576960
-							Name: "Create Epic Lootbag"
 							Loot: "aof:loot_bags/create/epic"
+							Name: "Create Epic Lootbag"
 						}
 					}
 				}
@@ -1282,8 +1282,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -1307,8 +1307,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -1332,8 +1332,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1358,8 +1358,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1384,8 +1384,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -1410,8 +1410,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -1436,8 +1436,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 15576960
-						Name: "Create Epic Lootbag"
 						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
 					}
 				}
 			}]
@@ -1468,8 +1468,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 15576960
-						Name: "Create Epic Lootbag"
 						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
 					}
 				}
 			}]
@@ -1501,8 +1501,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1541,8 +1541,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 					count: 2
@@ -1569,8 +1569,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 				count: 2
@@ -1604,8 +1604,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -1653,8 +1653,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -1685,8 +1685,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1710,8 +1710,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1742,8 +1742,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -1767,8 +1767,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 				count: 2
@@ -1803,8 +1803,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 				count: 2
@@ -1830,8 +1830,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -1856,8 +1856,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -1881,8 +1881,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 15576960
-						Name: "Create Epic Lootbag"
 						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
 					}
 				}
 			}]
@@ -1937,8 +1937,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 				count: 2
@@ -1963,8 +1963,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 15576960
-						Name: "Create Epic Lootbag"
 						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
 					}
 				}
 			}]
@@ -1997,8 +1997,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 15576960
-							Name: "Create Epic Lootbag"
 							Loot: "aof:loot_bags/create/epic"
+							Name: "Create Epic Lootbag"
 						}
 					}
 				}
@@ -2049,8 +2049,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 15576960
-							Name: "Create Legendary Lootbag"
 							Loot: "aof:loot_bags/create/legendary"
+							Name: "Create Legendary Lootbag"
 						}
 					}
 				}
@@ -2087,8 +2087,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -2113,8 +2113,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -2140,8 +2140,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -2169,8 +2169,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 15576960
-						Name: "Create Common Lootbag"
 						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
 					}
 				}
 			}]
@@ -2194,8 +2194,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 15576960
-						Name: "Create Epic Lootbag"
 						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
 					}
 				}
 			}]
@@ -2230,8 +2230,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 15576960
-							Name: "Create Common Lootbag"
 							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
 						}
 					}
 				}
@@ -2268,8 +2268,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
 						Name: "Create Rare Lootbag"
+						Loot: "aof:loot_bags/create/rare"
 					}
 				}
 			}]
@@ -2301,8 +2301,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
 							Name: "Create Rare Lootbag"
+							Loot: "aof:loot_bags/create/rare"
 						}
 					}
 				}
@@ -2340,12 +2340,13 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 15576960
-							Name: "Create Legendary Lootbag"
 							Loot: "aof:loot_bags/create/legendary"
+							Name: "Create Legendary Lootbag"
 						}
 					}
 				}
 			]
 		}
 	]
+	quest_links: [ ]
 }

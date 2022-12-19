@@ -58,11 +58,6 @@ ServerEvents.recipes(event => {
         "probability": 0.1
       },
       {
-        "item": "modern_industrialization:lignite_coal_ore",
-        "amount": 1,
-        "probability": 0.24
-      },
-      {
         "item": "techreborn:galena_ore",
         "amount": 1,
         "probability": 0.10
@@ -225,7 +220,12 @@ ServerEvents.recipes(event => {
         "item": "techreborn:silver_ore",
         "amount": 1,
         "probability": 0.1
-      }
+      },
+      {
+      "item": "modern_industrialization:lignite_coal_ore",
+      "amount": 1,
+      "probability": 0.24
+    }
     ]
   })
 

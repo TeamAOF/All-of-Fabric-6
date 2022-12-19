@@ -32,46 +32,37 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 6.0d
-			description: ["Using your new glow vision helmet, explore the ocean depths. Sparkling sea grass will eventually reveal a treasure."]
-			hide_dependency_lines: true
-			hide: true
-			id: "5584A52CAA574CFC"
-			tasks: [{
-				id: "7D947A422124FBFF"
-				type: "advancement"
-				advancement: "spectrum:collect_mermaids_gem"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "28141F79D0DF5F0F"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
-						Name: "Magic Rare Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 2.0d
+			title: "Geode Hunting!"
+			x: 2.5d
 			y: 1.5d
-			description: ["Find all types of geodes."]
+			subtitle: "&eHow many are there?"
+			description: ["&6Find&r all 3 types of &bgemstone geodes&r. Some are high, some are near the sea, and some are a bit deeper."]
 			dependencies: ["6F9B2ECCE750C280"]
 			hide: true
 			id: "042E7914986F8A32"
-			tasks: [{
-				id: "050348C6180B542B"
-				type: "advancement"
-				advancement: "spectrum:collect_all_basic_shards"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "050348C6180B542B"
+					type: "advancement"
+					advancement: "spectrum:collect_all_basic_shards"
+					criterion: ""
+				}
+				{
+					id: "67803A2E0B44B9EA"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+				}
+				{
+					id: "2D806F66A413BA80"
+					type: "item"
+					item: "spectrum:topaz_shard"
+				}
+				{
+					id: "2C0E639D000DB897"
+					type: "item"
+					item: "spectrum:citrine_shard"
+				}
+			]
 			rewards: [{
 				id: "06A89E62DB34B6E7"
 				type: "item"
@@ -88,36 +79,16 @@
 			}]
 		}
 		{
-			x: 3.5d
+			title: "Construct the Spectrum Focus Structure"
+			x: 4.5d
 			y: 1.5d
+			subtitle: "&eFunneling Magic"
+			description: [
+				"&6Upgrade&r your &bPigment Pedestal&r by using all your collected shards"
+				""
+				"To fully harness the powers of your improved &bPigment Pedestal&r you will need to &6build&r a structure that funnels the energy from gemstones to it"
+			]
 			dependencies: ["042E7914986F8A32"]
-			hide: true
-			id: "74F0C68679B78B5D"
-			tasks: [{
-				id: "495C5302C801134A"
-				type: "advancement"
-				advancement: "spectrum:craft_colored_pedestal"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "192444A37BC9F596"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
-						Name: "Magic Common Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 5.0d
-			y: 1.5d
-			dependencies: ["74F0C68679B78B5D"]
 			hide: true
 			id: "3A53CED5C9ABC06B"
 			tasks: [{
@@ -142,9 +113,15 @@
 			}]
 		}
 		{
+			title: "Craft any pigment pedestal"
 			x: 0.5d
 			y: 3.0d
-			description: ["This new crafting table will help you harness the power of gemstones."]
+			subtitle: "&e A new way to craft"
+			description: [
+				"&6Craft &ra &bPigment Pedestal &rusing your gemstone of choice. This new crafting grid will help you harness the power of gemstones."
+				""
+				"&6Drop&r your newly aquired &banvil&r on a gemstone! Perhaps it will become something useful!"
+			]
 			dependencies: ["6F9B2ECCE750C280"]
 			hide: true
 			id: "777CED8399E65C29"
@@ -177,48 +154,29 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 4.5d
-			description: ["Turns out dropping an anvil on something is pretty useful!"]
-			dependencies: ["777CED8399E65C29"]
-			hide: true
-			id: "1481A572B8751B94"
-			tasks: [{
-				id: "4DCB4066706CAA1D"
-				type: "advancement"
-				advancement: "spectrum:collect_gemstone_powder"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "449E6C231990B8FC"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
-						Name: "Magic Rare Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 12.5d
+			title: "Experiment #2: &bFailing"
+			x: 13.0d
 			y: 0.0d
+			subtitle: "&eWhat Must Not Be"
 			dependencies: [
 				"2F56655D7C4C3882"
 				"24C70DAB3F66ECB2"
 			]
 			hide: true
 			id: "678BCF3361AE5512"
-			tasks: [{
-				id: "5C5AD91BEF4B518D"
-				type: "advancement"
-				advancement: "spectrum:midgame/craft_bottle_of_failing"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "5C5AD91BEF4B518D"
+					type: "advancement"
+					advancement: "spectrum:midgame/craft_bottle_of_failing"
+					criterion: ""
+				}
+				{
+					id: "0FFB352C38FD02BB"
+					type: "item"
+					item: "spectrum:bottle_of_failing"
+				}
+			]
 			rewards: [{
 				id: "025FDC872C9D5C96"
 				type: "item"
@@ -235,10 +193,12 @@
 			}]
 		}
 		{
-			x: 3.5d
+			title: "Toxic Reeds!"
+			x: 4.5d
 			y: 0.0d
+			subtitle: "&eSwamped"
 			description: ["After creating a Spectrum Focus, it has releaved a plant that was hidden from you. Venture into the boglands and find it!"]
-			dependencies: ["74F0C68679B78B5D"]
+			dependencies: ["3A53CED5C9ABC06B"]
 			hide: true
 			id: "24C70DAB3F66ECB2"
 			tasks: [{
@@ -263,18 +223,32 @@
 			}]
 		}
 		{
+			title: "Mine than Craft"
+			icon: "spectrum:paintbrush"
 			x: 0.5d
-			y: 6.0d
-			description: ["Use your Pigment Pedestal to craft an item using gemstone powder. It seems to react to redstone?"]
-			dependencies: ["1481A572B8751B94"]
+			y: 4.5d
+			subtitle: "&eThe Power of Powders"
+			description: [
+				"Smashing! &6Craft&r anything that requires &bgemstone powder&r."
+				""
+				"Starting a craft requires a redstone pulse. The &bPaintbrush&r you crafted can also be used."
+			]
+			dependencies: ["777CED8399E65C29"]
 			hide: true
 			id: "36258B9E1280A188"
-			tasks: [{
-				id: "3248FA069DECAD16"
-				type: "advancement"
-				advancement: "spectrum:craft_using_pedestal"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "3248FA069DECAD16"
+					type: "advancement"
+					advancement: "spectrum:craft_using_pedestal"
+					criterion: ""
+				}
+				{
+					id: "2DB9FF21ECC79ABE"
+					type: "item"
+					item: "spectrum:paintbrush"
+				}
+			]
 			rewards: [{
 				id: "4A96E58E413AD4AD"
 				type: "item"
@@ -291,8 +265,10 @@
 			}]
 		}
 		{
+			title: "Shimmering Stone"
 			x: 0.5d
-			y: 7.5d
+			y: 6.0d
+			subtitle: "&eMore than meets the Eye"
 			description: ["You never noticed this Ore before at all.... weird. Is there more to the world than you previously thought?"]
 			dependencies: ["36258B9E1280A188"]
 			hide: true
@@ -319,8 +295,10 @@
 			}]
 		}
 		{
-			x: 2.0d
+			title: "Experiment #1: &bFading"
+			x: 0.5d
 			y: 7.5d
+			subtitle: "&eWhat Should Not Be"
 			description: [
 				"To unlock this recipe you must now venture to the depths of The Nether and aquire a smoldering ingredient."
 				""
@@ -329,12 +307,19 @@
 			dependencies: ["5E0135DE9E0D30CE"]
 			hide: true
 			id: "1E161856A9975BCE"
-			tasks: [{
-				id: "5312C1B5091577AF"
-				type: "advancement"
-				advancement: "spectrum:craft_bottle_of_fading"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "5312C1B5091577AF"
+					type: "advancement"
+					advancement: "spectrum:craft_bottle_of_fading"
+					criterion: ""
+				}
+				{
+					id: "463ECB502B605A11"
+					type: "item"
+					item: "spectrum:bottle_of_fading"
+				}
+			]
 			rewards: [{
 				id: "67BCF8F7E174975B"
 				type: "item"
@@ -351,8 +336,10 @@
 			}]
 		}
 		{
-			x: 3.5d
+			title: "Life must feed!"
+			x: 2.5d
 			y: 7.5d
+			subtitle: "&eOrganic Matter"
 			description: [
 				"Spill out your microorganisms and place organic blocks around it so it can feast!"
 				""
@@ -361,12 +348,19 @@
 			dependencies: ["1E161856A9975BCE"]
 			hide: true
 			id: "371F3371DC37B760"
-			tasks: [{
-				id: "33D74A4188B867BE"
-				type: "advancement"
-				advancement: "spectrum:collect_vegetal"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "33D74A4188B867BE"
+					type: "advancement"
+					advancement: "spectrum:collect_vegetal"
+					criterion: ""
+				}
+				{
+					id: "7E085DAF14F17EF1"
+					type: "item"
+					item: "spectrum:vegetal"
+				}
+			]
 			rewards: [{
 				id: "2C19D087E84E3392"
 				type: "item"
@@ -383,8 +377,10 @@
 			}]
 		}
 		{
-			x: 5.0d
+			title: "Colored Saplings"
+			x: 4.5d
 			y: 7.5d
+			subtitle: "&eAll around Me are Familiar Aces"
 			description: ["Here come the colors! Craft a colored sapling and bring color into the world!"]
 			dependencies: ["371F3371DC37B760"]
 			hide: true
@@ -411,8 +407,10 @@
 			}]
 		}
 		{
+			title: "Steal the Color of Leaves"
 			x: 6.5d
 			y: 7.5d
+			subtitle: "&eCollect Pure Pigment"
 			description: ["Break the leaves of a colored tree to get the pure pigment you so desired. The leaves release their precious harvest only when broken by you personally."]
 			dependencies: ["265E77D910C56546"]
 			hide: true
@@ -439,8 +437,12 @@
 			}]
 		}
 		{
+			title: "Pigment from colored leaves"
+			icon: "spectrum:creative_ink_assortment"
 			x: 6.5d
 			y: 4.5d
+			subtitle: "&eBrown is weird, and needs something darker to create"
+			description: ["Collect 11 pigments. Saplings can be crafted or Colored Trees can now be seen in the world"]
 			dependencies: [
 				"723E1C665A781C52"
 				"2B9252657949C67E"
@@ -777,8 +779,10 @@
 			}]
 		}
 		{
+			title: "The Power of Fusion"
 			x: 6.5d
 			y: 1.5d
+			subtitle: "&ePowerful Display"
 			dependencies: [
 				"4C06D25DACB5536C"
 				"3A53CED5C9ABC06B"
@@ -807,17 +811,26 @@
 			}]
 		}
 		{
-			x: 8.0d
+			title: "Black Gems"
+			x: 8.5d
 			y: 1.5d
+			subtitle: "&eBack in Black!"
 			dependencies: ["49D9ECC98F3A5E05"]
 			hide: true
 			id: "6F3F4B2ADAAED3C1"
-			tasks: [{
-				id: "7D0EB9275BA39983"
-				type: "advancement"
-				advancement: "spectrum:create_onyx_shard"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "7D0EB9275BA39983"
+					type: "advancement"
+					advancement: "spectrum:create_onyx_shard"
+					criterion: ""
+				}
+				{
+					id: "5B20071AEC6735C0"
+					type: "item"
+					item: "spectrum:onyx_shard"
+				}
+			]
 			rewards: [{
 				id: "73752FA727863338"
 				type: "item"
@@ -834,36 +847,12 @@
 			}]
 		}
 		{
-			x: 9.5d
+			title: "Construct the Spectrum Temple"
+			x: 10.5d
 			y: 1.5d
+			subtitle: "&eOne more can't hurt, right?"
+			description: ["&6Upgrade&r your &bpedestal&r using &bOnyx&r and then &6construct&r the Spectrum Temple."]
 			dependencies: ["6F3F4B2ADAAED3C1"]
-			hide: true
-			id: "6D98F53C0C9748C4"
-			tasks: [{
-				id: "3BD1F28CE6C6D457"
-				type: "advancement"
-				advancement: "spectrum:craft_onyx_pedestal"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "1190704022F63EA7"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
-						Name: "Magic Rare Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 11.0d
-			y: 1.5d
-			dependencies: ["6D98F53C0C9748C4"]
 			hide: true
 			id: "681C638B38019A73"
 			tasks: [{
@@ -888,7 +877,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 13.0d
 			y: 1.5d
 			dependencies: ["681C638B38019A73"]
 			hide: true
@@ -915,22 +904,31 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 1.5d
+			title: "Obsid....Neolith"
+			x: 14.5d
+			y: 0.0d
+			subtitle: "&eNon-Non-Amorphous"
 			description: [
 				"Your first Experiments were successful. But there has to be more..."
 				""
-				"This blob seems likely to be unsatisified with anything but the hardest of materials."
+				"This &bFailing&r blob seems likely to be unsatisified with anything but the hardest of materials."
 			]
 			dependencies: ["678BCF3361AE5512"]
 			hide: true
 			id: "1810EB195B0CC509"
-			tasks: [{
-				id: "7889167DE36DEF22"
-				type: "advancement"
-				advancement: "spectrum:midgame/collect_neolith"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "7889167DE36DEF22"
+					type: "advancement"
+					advancement: "spectrum:midgame/collect_neolith"
+					criterion: ""
+				}
+				{
+					id: "36F3D11DD747FDEE"
+					type: "item"
+					item: "spectrum:neolith"
+				}
+			]
 			rewards: [{
 				id: "191913B9C60F6F4E"
 				type: "item"
@@ -947,12 +945,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 6.0d
-			dependencies: [
-				"5584A52CAA574CFC"
-				"681C638B38019A73"
-			]
+			x: 11.5d
+			y: 3.0d
+			dependencies: ["681C638B38019A73"]
 			hide: true
 			dependency_requirement: "one_completed"
 			id: "0F6E96D9C9F5EF35"
@@ -978,8 +973,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 6.0d
+			x: 11.5d
+			y: 4.5d
 			dependencies: ["0F6E96D9C9F5EF35"]
 			hide: false
 			id: "5EA323A52C146DEA"
@@ -1005,8 +1000,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 3.0d
+			x: 16.0d
+			y: 0.0d
 			description: ["Another ore has beeen revealed. Find and aquire it."]
 			dependencies: ["1810EB195B0CC509"]
 			hide: true
@@ -1033,8 +1028,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 3.0d
+			x: 16.0d
+			y: 1.5d
 			description: ["Is your Failing spreading too far? Reverse its consumption with Decay Away!"]
 			dependencies: ["2AB88707D86F0506"]
 			hide: true
@@ -1061,8 +1056,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 4.5d
+			x: 17.5d
+			y: 0.0d
 			description: ["Refine raw Azurite in the Fusion Shrine. You didn't think it would only be used once did you?"]
 			dependencies: ["2AB88707D86F0506"]
 			hide: true
@@ -1089,8 +1084,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 0.0d
+			x: 14.5d
+			y: -1.5d
 			dependencies: ["1810EB195B0CC509"]
 			id: "38BEF83AFD8EA081"
 			tasks: [{
@@ -1115,17 +1110,27 @@
 			}]
 		}
 		{
-			x: 15.5d
+			title: "Ruinous Aberrations"
+			x: 14.5d
 			y: 1.5d
+			subtitle: "&eThe perfect Compound?"
+			description: ["&e!!WARNING!!&r This recipe has Consequences beyond Comprehension. You have been &e!!WARNED!!"]
 			dependencies: ["1810EB195B0CC509"]
 			hide: true
 			id: "0CF717072CD02B28"
-			tasks: [{
-				id: "35C7CB50261B9E25"
-				type: "advancement"
-				advancement: "spectrum:midgame/create_midnight_aberration"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "35C7CB50261B9E25"
+					type: "advancement"
+					advancement: "spectrum:midgame/create_midnight_aberration"
+					criterion: ""
+				}
+				{
+					id: "51EB982FCF00A934"
+					type: "item"
+					item: "spectrum:midnight_aberration"
+				}
+			]
 			rewards: [{
 				id: "548BFAD6D0CC8479"
 				type: "item"
@@ -1142,18 +1147,27 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 3.0d
-			description: ["Ouch! That hurt! Perhaps we should use the Midnight Solution on an entity..."]
+			title: "Midnight Chip"
+			x: 14.5d
+			y: 6.0d
+			subtitle: "&eThe Lesser Evil"
+			description: ["Ouch! That hurt! Perhaps we should &6lure&r something into the &bMidnight Solution"]
 			dependencies: ["0CF717072CD02B28"]
 			hide: true
 			id: "120A70EB61245315"
-			tasks: [{
-				id: "0C9DCFB386B1AF2A"
-				type: "advancement"
-				advancement: "spectrum:midgame/collect_midnight_chip"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "0C9DCFB386B1AF2A"
+					type: "advancement"
+					advancement: "spectrum:midgame/collect_midnight_chip"
+					criterion: ""
+				}
+				{
+					id: "5D95C87884A46537"
+					type: "item"
+					item: "spectrum:midnight_chip"
+				}
+			]
 			rewards: [{
 				id: "2CAADB08E10BEB07"
 				type: "item"
@@ -1170,17 +1184,33 @@
 			}]
 		}
 		{
+			title: "Black creates Brown"
+			icon: "spectrum:brown_pigment"
 			x: 9.5d
 			y: 3.0d
+			subtitle: "&eGotta Collect Them All!"
+			description: ["With &bOnyx Powder&r you can now &6craft &bBlack&r and &bBrown Saplings"]
 			dependencies: ["681C638B38019A73"]
 			hide: true
 			id: "7B50D9F39BF07C16"
-			tasks: [{
-				id: "4E7D74069D2ABD87"
-				type: "advancement"
-				advancement: "spectrum:collect_all_basic_pigments"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "4E7D74069D2ABD87"
+					type: "advancement"
+					advancement: "spectrum:collect_all_basic_pigments"
+					criterion: ""
+				}
+				{
+					id: "400484F31C800323"
+					type: "item"
+					item: "spectrum:brown_pigment"
+				}
+				{
+					id: "1708662902975ECC"
+					type: "item"
+					item: "spectrum:black_pigment"
+				}
+			]
 			rewards: [{
 				id: "62928FEAA72E7B3D"
 				type: "item"
@@ -1224,10 +1254,11 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 9.5d
 			y: 7.5d
 			description: ["Craft and place down a Color Picker"]
 			hide_dependency_lines: true
+			dependencies: ["681C638B38019A73"]
 			hide: true
 			id: "0A895BEB210EA39C"
 			tasks: [{
@@ -1252,7 +1283,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 11.0d
 			y: 7.5d
 			dependencies: ["0A895BEB210EA39C"]
 			hide: true
@@ -1279,7 +1310,8 @@
 			}]
 		}
 		{
-			x: 14.0d
+			title: "Paint a mob to Death!!"
+			x: 12.5d
 			y: 7.5d
 			dependencies: ["5ADB895DCB77C6A8"]
 			hide: true
@@ -1306,8 +1338,10 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 4.5d
+			title: "Experiment #3: &bRuin"
+			x: 14.5d
+			y: 7.5d
+			subtitle: "&eWhat Should Never Have Been"
 			dependencies: ["120A70EB61245315"]
 			hide: true
 			id: "110822566F9E2DBB"
@@ -1333,8 +1367,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 0.0d
+			x: 16.0d
+			y: -1.5d
 			dependencies: ["38BEF83AFD8EA081"]
 			hide: true
 			id: "78ED7745488BC27E"
@@ -1360,8 +1394,11 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 3.0d
+			title: "Instilling Spirits"
+			x: 16.0d
+			y: 6.0d
+			subtitle: "&eThe Will of the Wisps"
+			description: ["&6Craft&r the &bSpirit Instiller&r and &6construct&r its structure."]
 			dependencies: ["120A70EB61245315"]
 			hide: true
 			id: "1E1E5ECB2C1C95B9"
@@ -1387,8 +1424,10 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 6.0d
+			title: "Through the floor!"
+			x: 16.0d
+			y: 7.5d
+			subtitle: "&eGroundbreaking"
 			dependencies: ["110822566F9E2DBB"]
 			hide: true
 			id: "16AFA6ABBF50A54C"
@@ -1414,8 +1453,10 @@
 			}]
 		}
 		{
-			x: 15.5d
+			title: "Knights of the Spectrum"
+			x: 17.5d
 			y: 7.5d
+			subtitle: "&eBlack Knight"
 			dependencies: ["16AFA6ABBF50A54C"]
 			hide: true
 			id: "7CE00D3A16827F50"
@@ -1441,8 +1482,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 1.5d
+			x: 16.0d
+			y: 4.5d
 			dependencies: ["1E1E5ECB2C1C95B9"]
 			hide: true
 			id: "3DE03D1D2B4BC9D0"
@@ -1468,8 +1509,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 3.0d
+			x: 17.5d
+			y: 6.0d
 			dependencies: ["1E1E5ECB2C1C95B9"]
 			hide: true
 			id: "3E84D82AC7429CF4"
@@ -1495,57 +1536,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 0.0d
-			dependencies: ["1810EB195B0CC509"]
-			id: "6420EDFA9F18BE57"
-			tasks: [{
-				id: "0CC337E14063328D"
-				type: "advancement"
-				advancement: "spectrum:midgame/collect_lightning_stone"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "67D07D2FAF2BC836"
-				type: "command"
-				title: "Magic Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
-				player_command: false
-			}]
-		}
-		{
-			title: "Not Yet Available in Survival"
-			x: 21.5d
-			y: 3.0d
-			description: ["Not Yet Available in Survival"]
-			dependencies: ["27A271B2A51373A6"]
-			hide: true
-			id: "0858F0938EC383B5"
-			tasks: [{
-				id: "4553B6B160CCB2A8"
-				type: "advancement"
-				advancement: "spectrum:midgame/craft_blacklisted_memory_success"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "1B334B7FEC6D8875"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
-						Name: "Magic Legendary Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 20.0d
-			y: 3.0d
+			x: 19.0d
+			y: 6.0d
 			dependencies: ["3E84D82AC7429CF4"]
 			hide: false
 			id: "27A271B2A51373A6"
@@ -1571,8 +1563,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 1.5d
+			x: 17.5d
+			y: 4.5d
 			dependencies: ["3DE03D1D2B4BC9D0"]
 			hide: true
 			id: "117B54FCAF3A40B9"
@@ -1598,47 +1590,8 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 3.0d
-			dependencies: ["27A271B2A51373A6"]
-			hide: true
-			id: "667B4354FA2AF6F7"
-			tasks: [{
-				id: "4B874C7E0BEE0877"
-				type: "advancement"
-				advancement: "spectrum:midgame/craft_blacklisted_memory_success"
-				criterion: ""
-			}]
-		}
-		{
-			x: 20.0d
-			y: 3.0d
-			dependencies: ["3E84D82AC7429CF4"]
-			hide: false
-			id: "66A2F12DEAD0ED43"
-			tasks: [{
-				id: "196A04617F4890D9"
-				type: "advancement"
-				advancement: "spectrum:midgame/craft_blacklisted_memory_fail"
-				criterion: ""
-			}]
-		}
-		{
-			x: 18.5d
-			y: 1.5d
-			dependencies: ["3DE03D1D2B4BC9D0"]
-			hide: true
-			id: "5D3B0B85D44E5199"
-			tasks: [{
-				id: "2DB96965C6F8165C"
-				type: "advancement"
-				advancement: "spectrum:midgame/harvest_moonstruck_nectar"
-				criterion: ""
-			}]
-		}
-		{
-			x: 20.0d
-			y: 1.5d
+			x: 19.0d
+			y: 4.5d
 			dependencies: ["117B54FCAF3A40B9"]
 			hide: true
 			id: "1699D14B24CE2883"
@@ -1664,8 +1617,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 0.0d
+			x: 16.0d
+			y: 3.0d
 			dependencies: ["3DE03D1D2B4BC9D0"]
 			hide: true
 			id: "45A0C4DCB8627325"
@@ -1691,18 +1644,18 @@
 			}]
 		}
 		{
-			title: "Not Yet Available in Survival"
-			x: 17.0d
-			y: 6.0d
-			description: ["Not Yet Available in Survival"]
-			dependencies: ["16AFA6ABBF50A54C"]
+			title: "More to come in a future update"
+			icon: "spectrum:spectral_shard_storage_block"
+			x: 19.5d
+			y: 7.5d
+			description: ["This is the current end of progression until a future update unlocks Spectrum's new dimension!!"]
+			dependencies: ["7CE00D3A16827F50"]
 			hide: true
+			size: 1.5d
 			id: "5F98F94ABEC9673E"
 			tasks: [{
-				id: "45F1F7513D75C6CD"
-				type: "advancement"
-				advancement: "spectrum:midgame/enter_dimension"
-				criterion: ""
+				id: "7AEB317EAD6C59BF"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "45AB8E4F697891A9"
@@ -1720,66 +1673,8 @@
 			}]
 		}
 		{
-			title: "Not Yet Available in Survival"
-			x: 18.5d
-			y: 6.0d
-			description: ["Not Yet Available in Survival"]
-			dependencies: ["5F98F94ABEC9673E"]
-			hide: true
-			id: "6210877F3EE8EE4C"
-			tasks: [{
-				id: "4E87AAAACAB88424"
-				type: "advancement"
-				advancement: "spectrum:midgame/collect_moonstone_shard"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "363A9F71C2A20901"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 16747259
-						Name: "Magic Epic Lootbag"
-						Loot: "aof:loot_bags/magic/epic"
-					}
-				}
-			}]
-		}
-		{
-			title: "Not Yet Available in Survival"
-			x: 20.0d
-			y: 6.0d
-			description: ["Not Yet Available in Survival"]
-			dependencies: ["6210877F3EE8EE4C"]
-			hide: true
-			id: "0023E8716BF866A2"
-			tasks: [{
-				id: "267D7B7EE7A7C67A"
-				type: "advancement"
-				advancement: "spectrum:midgame/craft_moonstone_pedestal"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "78AAD507048E94BA"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16747259
-						Name: "Magic Legendary Lootbag"
-						Loot: "aof:loot_bags/magic/legendary"
-					}
-				}
-			}]
-		}
-		{
-			x: 12.5d
-			y: 4.5d
+			x: 19.0d
+			y: 0.0d
 			dependencies: ["28CB44142633D257"]
 			hide: true
 			id: "3EF90588748BCDE8"
@@ -1804,140 +1699,6 @@
 				}
 			}]
 		}
-		{
-			x: 20.0d
-			y: 1.5d
-			dependencies: ["117B54FCAF3A40B9"]
-			hide: true
-			id: "415041F587AD2F54"
-			tasks: [{
-				id: "00CE3E9281756425"
-				type: "advancement"
-				advancement: "spectrum:midgame/create_budding_onyx"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "5D1DF895ECE5DEC1"
-				type: "command"
-				title: "Magic Legendary Loot Bag"
-				icon: "kubejs:loot_bag_legendary"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_legendary"
-				player_command: false
-			}]
-		}
-		{
-			x: 17.0d
-			y: 0.0d
-			dependencies: ["3DE03D1D2B4BC9D0"]
-			hide: true
-			id: "23F900A90BD1B3F0"
-			tasks: [{
-				id: "77E45818AD1736A7"
-				type: "advancement"
-				advancement: "spectrum:midgame/drink_restoration_tea_with_milk"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "7FAD3FB5088A5D60"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
-			}]
-		}
-		{
-			title: "Not Yet Available in Survival"
-			x: 17.0d
-			y: 6.0d
-			description: ["Not Yet Available in Survival"]
-			dependencies: ["16AFA6ABBF50A54C"]
-			hide: true
-			id: "758FBBEBBE548F84"
-			tasks: [{
-				id: "0C469844199D51E9"
-				type: "advancement"
-				advancement: "spectrum:midgame/enter_dimension"
-				criterion: ""
-			}]
-		}
-		{
-			title: "Not Yet Available in Survival"
-			x: 18.5d
-			y: 6.0d
-			description: ["Not Yet Available in Survival"]
-			dependencies: ["5F98F94ABEC9673E"]
-			hide: true
-			id: "00C734F0D9738F03"
-			tasks: [{
-				id: "3116D019C567A203"
-				type: "advancement"
-				advancement: "spectrum:midgame/collect_moonstone_shard"
-				criterion: ""
-			}]
-		}
-		{
-			title: "Not Yet Available in Survival"
-			x: 20.0d
-			y: 6.0d
-			description: ["Not Yet Available in Survival"]
-			dependencies: ["6210877F3EE8EE4C"]
-			hide: true
-			id: "170C0EA9B803F989"
-			tasks: [{
-				id: "56DA68437383F6E4"
-				type: "advancement"
-				advancement: "spectrum:midgame/craft_moonstone_pedestal"
-				criterion: ""
-			}]
-		}
-		{
-			x: 12.5d
-			y: 4.5d
-			dependencies: ["28CB44142633D257"]
-			hide: true
-			id: "63324AB90E6CACA5"
-			tasks: [{
-				id: "561A16B9AECAA063"
-				type: "advancement"
-				advancement: "spectrum:midgame/get_azure_dike_charge"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "2B97A8CE7AD68D07"
-				type: "command"
-				title: "Magic Epic Loot Bag"
-				icon: "kubejs:loot_bag_epic"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_epic"
-				player_command: false
-			}]
-		}
-		{
-			x: 14.0d
-			y: 6.0d
-			dependencies: ["28CB44142633D257"]
-			hide: false
-			id: "054231A4D84A5569"
-			tasks: [{
-				id: "02067EB7D2A55E90"
-				type: "advancement"
-				advancement: "spectrum:midgame/fill_pigment_palette"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "21DAC1B99E01B22E"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
-						Name: "Magic Epic Lootbag"
-					}
-				}
-			}]
-		}
 	]
+	quest_links: [ ]
 }

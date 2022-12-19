@@ -1,3 +1,28 @@
+### All of Fabric 6 | v1.1.1
+
+_Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.1.1.md)_
+
+### Changes
+
+* Updated fabric loader to 0.14.11
+* Updated Spectrum quests with a more descriptions, more to come.
+
+### Fixes
+
+* Many performance issues/improvements has been done to Powah.
+* An issue where Spark would on rare occasions crash your game on linux.
+* Duplicate spectrum quests being hidden not able to be finished has been fixed.
+* Bumped mana by 1 required for Shatterer of Worlds to hopefully fix completion issues.
+
+### Recipes
+
+* Blacklisted Powah batteries in replicator, fixing a couple dupes.
+* Blacklisted loot bags & mega cells in replicator.
+* Blacklisted botania relics in replicator.
+* Fixed an issue where entire quartz tag would inject into botania quartz recipes.
+* Fixed conflict between stone tiles (blockus & supplementaries).
+---
+
 ### All of Fabric 6 | v1.1.0
 
 _Fabric Loader 0.14.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.1.0.md)_

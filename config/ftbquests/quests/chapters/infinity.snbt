@@ -484,7 +484,11 @@
 			x: 1.0d
 			y: 3.0d
 			subtitle: "Craft the ultimate Terra Shatterer!"
-			description: ["Upgrade a &bTerra Shatterer &rto tier &6(SS)&r."]
+			description: [
+				"Upgrade a &bTerra Shatterer &rto tier &6(SS)&r."
+				""
+				"If the quest by any reason dosent complete when reaching &6(SS) &rtier, let it soak 1 more mana and then pick it up again."
+			]
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "6DB6324D6D217641"
 			tasks: [{
@@ -495,7 +499,7 @@
 					Count: 1b
 					tag: {
 						Damage: 0
-						mana: 2147483646
+						mana: 2147483647
 					}
 				}
 				match_nbt: true
@@ -515,4 +519,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

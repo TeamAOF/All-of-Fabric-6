@@ -21,11 +21,13 @@
     "expandWhenSneak": false,
     "colors": {
       "megane": 7408640,
-      "indrev": 3885790
+      "indrev": 3885790,
+      "modern_industrialization": 11993088
     },
     "units": {
       "megane": "E",
-      "indrev": "LF"
+      "indrev": "LF",
+      "modern_industrialization": "EU"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
