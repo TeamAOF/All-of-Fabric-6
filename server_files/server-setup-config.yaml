@@ -1,0 +1,86 @@
+_specver: 2
+
+modpack:
+  name: All of Fabric 6
+  description: The latest & best of Fabric on 1.19.2.
+  
+install:
+  mcVersion: 1.19.2
+  loaderVersion: 0.14.11
+  modpackUrl: https://media.forgecdn.net/files/4214/115/All-of-Fabric-6-1.1.1.zip
+  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.0/fabric-installer-0.11.0.jar
+  
+  ignoreFiles:
+    - mods/optifine*.jar
+    - resources/**
+  additionalFiles:
+  localFiles: ~
+  
+  installerArguments:
+    - "server"
+    - "-downloadMinecraft"
+    - "-snapshot"
+    - "-mcversion"
+    - "1.19.2"
+    - "-loader"
+    - "0.14.11"
+  modpackFormat: curse
+  
+  formatSpecific:
+    ignoreProject: 
+      - 472772 # Dashloader
+      
+  baseInstallPath: ~
+  
+  checkFolder: true
+  
+  installLoader: true
+  
+  installPack: true
+  
+  spongeBootstrapper: ~
+
+  connectTimeout: 90
+
+  readTimeout: 90
+
+launch:
+  # specifies the max amount of ram the server is supposed to launch with (Xmx)
+  maxRam: 5G
+  # specifies the minimal amount of ram the server is supposed to launch with (Xms)
+  minRam: 3G
+  # specifies whether the server is supposed to auto restart after crash
+  autoRestart: true
+  javaArgs:
+    - "-XX:+UseG1GC"
+    - "-XX:+ParallelRefProcEnabled"
+    - "-XX:MaxGCPauseMillis=100"
+    - "-XX:+UnlockExperimentalVMOptions"
+    - "-XX:+DisableExplicitGC"
+    - "-XX:+AlwaysPreTouch"
+    - "-XX:G1NewSizePercent=30"
+    - "-XX:G1MaxNewSizePercent=40"
+    - "-XX:G1HeapRegionSize=8M"
+    - "-XX:G1ReservePercent=20"
+    - "-XX:G1HeapWastePercent=5" 
+    - "-XX:G1MixedGCCountTarget=4" 
+    - "-XX:InitiatingHeapOccupancyPercent=15" 
+    - "-XX:G1MixedGCLiveThresholdPercent=90" 
+    - "-XX:G1RSetUpdatingPauseTimePercent=5" 
+    - "-XX:SurvivorRatio=32" 
+    - "-XX:+PerfDisableSharedMem" 
+    - "-XX:MaxTenuringThreshold=1" 
+    
+  spongefix: false
+  ramDisk: false
+  checkOffline: true
+  crashLimit: 10
+  crashTimer: 60min
+  preJavaArgs: ~
+  forcedJavaPath: ~
+  startFile: ""
+  startCommand:
+    - "-jar"
+    - "fabric-server-launch.jar"
+    - "nogui"
+    
