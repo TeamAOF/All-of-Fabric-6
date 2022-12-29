@@ -74,4 +74,9 @@ ServerEvents.tags('item', event => {
     event.add("c:plates/brass", "techreborn:brass_plate")
     event.add("c:nuggets/zinc", "techreborn:zinc_nugget")
 
+    // Create Filtering
+    event.add("c:plates", "modern_industrialization:iron_plate")
+    event.add("c:plates", "modern_industrialization:gold_plate")
+    event.add("c:plates", "modern_industrialization:copper_plate")
+
 });
