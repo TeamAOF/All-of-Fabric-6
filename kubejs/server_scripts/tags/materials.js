@@ -79,4 +79,7 @@ ServerEvents.tags('item', event => {
     event.add("c:plates", "modern_industrialization:gold_plate")
     event.add("c:plates", "modern_industrialization:copper_plate")
 
+    // Netherrack
+    event.add("c:netherrack_dusts", "create:cinder_flour")
+
 });

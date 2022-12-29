@@ -47,7 +47,8 @@
     "c:dough",
     "c:flour",
     "c:raw_bacon",
-    "c:cooked_bacon"
+    "c:cooked_bacon",
+    "c:netherrack_dusts"
 
   ],
   "materials": [
