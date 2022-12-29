@@ -13,7 +13,8 @@ ServerEvents.recipes(event => {
         'nickel',
         'platinum',
         'stainless_steel',
-        'steel'
+        'steel',
+        'aluminum'
 
     ];
 
@@ -33,4 +34,19 @@ ServerEvents.recipes(event => {
             ],
         })
     });
+
+    event.custom({
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "techreborn:refined_iron_ingot"
+        }
+    ],
+    "results": [
+        {
+            "item": "techreborn:refined_iron_plate",
+            "count": 1
+        },
+    ],
+})
 })

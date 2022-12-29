@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         })
     });
 
-    const ores  = [
+    const ores = [
         'mozanite',
         'salt',
         'tungsten',
@@ -68,4 +68,128 @@ ServerEvents.recipes(event => {
             "processingTime": 150
         })
     });
+
+    // Coal
+    event.custom({
+        "type": "create:crushing",
+        "group": "minecraft:misc",
+        "ingredients": [
+            {
+                "item": "minecraft:coal"
+            }
+        ],
+        "results": [
+            {
+                "item": "modern_industrialization:coal_dust",
+                "count": 1
+            }
+        ],
+        "processingTime": 150
+    })
+
+    // Lignite Coal
+    event.custom({
+        "type": "create:crushing",
+        "group": "minecraft:misc",
+        "ingredients": [
+            {
+                "item": "modern_industrialization:lignite_coal"
+            }
+        ],
+        "results": [
+            {
+                "item": "modern_industrialization:lignite_coal_dust",
+                "count": 1
+            }
+        ],
+        "processingTime": 150
+    })
+
+        // Bricks
+        event.custom({
+            "type": "create:crushing",
+            "group": "minecraft:misc",
+            "ingredients": [
+                {
+                    "item": "minecraft:brick"
+                }
+            ],
+            "results": [
+                {
+                    "item": "modern_industrialization:brick_dust",
+                    "count": 1
+                }
+            ],
+            "processingTime": 150
+        })
+        event.custom({
+            "type": "create:crushing",
+            "group": "minecraft:misc",
+            "ingredients": [
+                {
+                    "item": "minecraft:bricks"
+                }
+            ],
+            "results": [
+                {
+                    "item": "modern_industrialization:brick_dust",
+                    "count": 4
+                }
+            ],
+            "processingTime": 150
+        })
+
+        // Clay
+        event.custom({
+            "type": "create:crushing",
+            "group": "minecraft:misc",
+            "ingredients": [
+                {
+                    "item": "minecraft:clay_ball"
+                }
+            ],
+            "results": [
+                {
+                    "item": "techreborn:clay_dust",
+                    "count": 1
+                }
+            ],
+            "processingTime": 150
+        })
+
+        const dust_from_ingot = [
+            'bronze',
+            'tin',
+            'lead',
+            'silver',
+            'nickel',
+            'tungsten',
+            'titanium',
+            'chromium',
+            'invar',
+            'nickel',
+            'platinum',
+            'stainless_steel',
+            'steel',
+            'aluminum',
+            'silicon',
+    
+        ];
+    
+        dust_from_ingot.forEach((item) => {
+            event.custom({
+                "type": "create:crushing",
+                "ingredients": [
+                    {
+                        "tag": "c:" + item + "_ingots"
+                    }
+                ],
+                "results": [
+                    {
+                        "item": "modern_industrialization:" + item + "_dust",
+                        "count": 1
+                    },
+                ],
+            })
+        });
 })
