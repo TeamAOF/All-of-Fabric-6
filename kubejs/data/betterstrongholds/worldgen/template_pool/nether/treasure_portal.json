@@ -1,0 +1,60 @@
+{
+  "name": "betterstrongholds:nether/treasure_portal",
+  "fallback": "betterstrongholds:nether/treasure_portal",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/portal/treasure_portal_0",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/portal/treasure_portal_1",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/portal/treasure_portal_2",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/portal/treasure_portal_3",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/portal/treasure_portal_4",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/portal/treasure_portal_5",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

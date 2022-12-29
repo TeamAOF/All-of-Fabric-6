@@ -1,0 +1,79 @@
+{
+  "name": "betterdeserttemples:dark_forest/room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/rooms/room_empty",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "name": "room_filled",
+        "location": "betterdeserttemples:dark_forest/rooms/room_filled",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/rooms/room_pillar",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:dark_forest/rooms/room_tomb_0",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:dark_forest/rooms/room_tomb_1",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:dark_forest/rooms/room_tomb_2",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:dark_forest/rooms/room_tomb_3",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

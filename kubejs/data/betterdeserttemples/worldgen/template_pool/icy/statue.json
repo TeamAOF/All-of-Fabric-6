@@ -1,0 +1,69 @@
+{
+  "name": "betterdeserttemples:icy/statue",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:icy/statues/statue_0",
+        "processors": "betterdeserttemples:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:icy/statues/statue_1",
+        "processors": "betterdeserttemples:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:icy/statues/statue_2",
+        "processors": "betterdeserttemples:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:icy/statues/statue_3",
+        "processors": "betterdeserttemples:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:icy/statues/statue_4",
+        "processors": "betterdeserttemples:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:icy/statues/statue_5",
+        "processors": "betterdeserttemples:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:icy/statues/statue_6",
+        "processors": "betterdeserttemples:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

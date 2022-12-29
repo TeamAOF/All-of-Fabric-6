@@ -1,0 +1,12 @@
+{
+  "mobs" : [
+    {
+      "name" : "minecraft:zombie",
+      "weight" : 90
+    },
+    {
+      "name" : "minecraft:creeper",
+      "weight" : 10
+    }
+  ]
+}

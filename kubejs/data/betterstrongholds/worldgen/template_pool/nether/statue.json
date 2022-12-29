@@ -1,0 +1,87 @@
+{
+  "name": "betterstrongholds:nether/statue",
+  "fallback": "betterstrongholds:nether/statue",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_sword",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_lantern_l",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_lantern_r",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_book_l",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_book_r",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_chest_l",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_chest_r",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_shield_l",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/statues/statue_shield_r",
+        "processors": "betterstrongholds:nether/statues",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

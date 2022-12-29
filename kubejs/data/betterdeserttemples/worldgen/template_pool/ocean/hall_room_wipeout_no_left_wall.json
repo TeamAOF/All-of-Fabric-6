@@ -1,0 +1,15 @@
+{
+  "name": "betterdeserttemples:ocean/hall_room_wipeout_no_left_wall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/hall_room/wipeout/wipeout_0_no_left_wall",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

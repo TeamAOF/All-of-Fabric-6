@@ -1,0 +1,15 @@
+{
+  "name": "betterdeserttemples:dark_forest/hall_room_wipeout_no_left_wall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/hall_room/wipeout/wipeout_0_no_left_wall",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

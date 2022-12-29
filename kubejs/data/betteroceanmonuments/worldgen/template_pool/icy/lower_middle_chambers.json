@@ -1,0 +1,33 @@
+{
+  "name": "betteroceanmonuments:icy/lower_middle_chambers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/lower_middle_chamber/lower_middle_chamber_1",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/lower_middle_chamber/lower_middle_chamber_2",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/lower_middle_chamber/lower_middle_chamber_3",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

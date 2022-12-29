@@ -1,0 +1,61 @@
+{
+  "name": "betterdeserttemples:ocean/parkour_bottom_no_spawner",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "name": "parkour_bottom_0",
+        "location": "betterdeserttemples:ocean/hall_room/parkour/parkour_bottom_0",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "parkour_bottom_1",
+        "location": "betterdeserttemples:ocean/hall_room/parkour/parkour_bottom_1",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "parkour_bottom_4",
+        "location": "betterdeserttemples:ocean/hall_room/parkour/parkour_bottom_4",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "parkour_bottom_5",
+        "location": "betterdeserttemples:ocean/hall_room/parkour/parkour_bottom_5",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "parkour_bottom_6",
+        "location": "betterdeserttemples:ocean/hall_room/parkour/parkour_bottom_6",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

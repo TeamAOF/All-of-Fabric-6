@@ -1,0 +1,15 @@
+{
+  "name": "betterdeserttemples:nether/entrance_hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main_entrance_hall/main_entrance_hall_0",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

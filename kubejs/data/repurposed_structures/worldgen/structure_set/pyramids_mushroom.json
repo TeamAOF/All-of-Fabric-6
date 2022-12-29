@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:pyramid_mushroom",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1253128977,
+    "spacing": 55,
+    "separation": 30,
+    "type": "minecraft:random_spread"
+  }
+}

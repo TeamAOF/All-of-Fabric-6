@@ -1,0 +1,426 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:nether_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:nether_brick_slab",
+            "probability": 0.25,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:air",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "15"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "14"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "13"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "12"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "11"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "10"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "9"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "8"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "7"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "6"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "5"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "4"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "3"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "2"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "1"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "rotation": "0"
+            },
+            "Name": "minecraft:wither_skeleton_skull"
+          },
+          "input_predicate": {
+            "block": "minecraft:skeleton_skull",
+            "probability": 0.0015,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:jukebox",
+            "probability": 0.95,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:blast_furnance",
+            "probability": 0.55,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:crafting_table",
+            "probability": 0.7,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:barrel",
+            "probability": 0.6,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:nether_gold_ore",
+            "probability": 0.45,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:smithing_table",
+            "probability": 0.6,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:damaged_anvil",
+            "probability": 0.65,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cave_air"
+          },
+          "input_predicate": {
+            "block": "minecraft:black_wall_banner",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "betterdungeons:head_processor"
+    },
+    {
+      "processor_type": "betterdungeons:small_dungeon_ceiling_prop_processor"
+    },
+    {
+      "processor_type": "betterdungeons:small_dungeon_ceiling_lamp_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:replace_air_only_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:remove_floating_blocks_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:spawner_randomizing_processor",
+      "rs_spawner_resourcelocation": "repurposed_structures:dungeons/nether"
+    }
+  ]
+}

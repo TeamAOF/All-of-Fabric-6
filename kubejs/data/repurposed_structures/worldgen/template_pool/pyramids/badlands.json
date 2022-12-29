@@ -1,0 +1,15 @@
+{
+  "name": "repurposed_structures:pyramids/badlands",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/starts/center",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

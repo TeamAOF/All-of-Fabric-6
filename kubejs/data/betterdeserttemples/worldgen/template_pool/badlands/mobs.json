@@ -1,0 +1,33 @@
+{
+  "name": "betterdeserttemples:badlands/mobs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/mobs/creeper",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/mobs/slime",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/mobs/pharaoh",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

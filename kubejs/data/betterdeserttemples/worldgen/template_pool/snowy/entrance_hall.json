@@ -1,0 +1,15 @@
+{
+  "name": "betterdeserttemples:snowy/entrance_hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:snowy/main_entrance_hall/main_entrance_hall_0",
+        "processors": "betterdeserttemples:snowy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

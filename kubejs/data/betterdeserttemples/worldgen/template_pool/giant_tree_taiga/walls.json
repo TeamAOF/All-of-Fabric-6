@@ -1,0 +1,33 @@
+{
+  "name": "betterdeserttemples:giant_tree_taiga/walls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/walls/wall_5x1_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/walls/middle_end_outside_wall_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/walls/outer_row_11x1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

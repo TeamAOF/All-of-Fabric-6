@@ -1,0 +1,33 @@
+{
+  "name": "repurposed_structures:witch_huts/birch_start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterwitchhuts:birch/witch_hut_sm",
+        "processors": "betterwitchhuts:birch",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterwitchhuts:birch/witch_hut_lg",
+        "processors": "betterwitchhuts:birch",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterwitchhuts:birch/witch_hut_double",
+        "processors": "betterwitchhuts:birch",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

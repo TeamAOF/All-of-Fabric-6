@@ -1,0 +1,33 @@
+{
+  "name": "betterdeserttemples:end/mobs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/mobs/creeper",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/mobs/slime",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/mobs/pharaoh",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

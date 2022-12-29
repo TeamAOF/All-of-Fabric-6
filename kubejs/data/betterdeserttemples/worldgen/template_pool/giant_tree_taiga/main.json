@@ -1,0 +1,321 @@
+{
+  "name": "betterdeserttemples:giant_tree_taiga/giant_tree_taiga/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/top_center",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/front_puzzle_connector",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/left_puzzle_connector",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/right_puzzle_connector",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/main_corner",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/main_entrance_corner_left",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/main_entrance_corner_right",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/main_corner_top",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/main_puzzle_connector_top",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/main_puzzle_top",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/entrance_connector",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/balcony_straight",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/main_entrance_cover",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/outside_left",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/outside_right",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_entrance_corner/bottom_left_entrance_corner_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_entrance_corner/bottom_left_entrance_corner_1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_entrance_corner/bottom_left_entrance_corner_2",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_entrance_corner/bottom_left_entrance_corner_3",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_left_entrance_corner_front",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_entrance_corner/bottom_right_entrance_corner_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_entrance_corner/bottom_right_entrance_corner_1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_right_entrance_corner_front",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_main_corner/bottom_right_main_corner_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_main_corner/bottom_right_main_corner_1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_main_corner/bottom_right_main_corner_2",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_main_corner/bottom_right_main_corner_3",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_main_corner/bottom_left_main_corner_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_main_corner/bottom_left_main_corner_1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_main_corner_front",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/bottom_entrance_corner_side",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/hall_entrance_corridor",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/statue_corner",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/statue_corner_empty",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/main/tnt_bottom",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

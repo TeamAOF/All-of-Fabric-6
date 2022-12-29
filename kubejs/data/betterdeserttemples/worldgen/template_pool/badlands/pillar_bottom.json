@@ -1,0 +1,37 @@
+{
+  "name": "betterdeserttemples:badlands/pillar_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "betterdeserttemples:badlands/pillars/pillar_bottom_0",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_bottom_1",
+        "location": "betterdeserttemples:badlands/pillars/pillar_bottom_1",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_bottom_2",
+        "location": "betterdeserttemples:badlands/pillars/pillar_bottom_2",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

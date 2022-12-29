@@ -1,0 +1,42 @@
+{
+  "name": "betteroceanmonuments:jungle/top_rings",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/top_ring/top_ring_0",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/top_ring/top_ring_1",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/top_ring/top_ring_2",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/top_ring/top_ring_3",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

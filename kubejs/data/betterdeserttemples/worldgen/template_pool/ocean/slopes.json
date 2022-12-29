@@ -1,0 +1,24 @@
+{
+  "name": "betterdeserttemples:ocean/slopes",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/slopes/slope_6x11",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/slopes/slope_6x11_floored",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

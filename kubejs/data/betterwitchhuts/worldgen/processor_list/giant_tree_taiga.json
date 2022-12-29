@@ -1,0 +1,75 @@
+{
+  "processors": [
+    {
+      "processor_type": "betterwitchhuts:waterlog_processor"
+    },
+    {
+      "processor_type": "betterwitchhuts:brewing_stand_processor"
+    },
+    {
+      "processor_type": "betterwitchhuts:potted_mushroom_processor"
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:potted_pink_tulip"
+          },
+          "input_predicate": {
+            "block": "minecraft:potted_cornflower",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:brown_stained_glass"
+          },
+          "replacement" : {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        }
+      ]
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone"
+          },
+          "input_predicate": {
+            "block": "minecraft:cobblestone",
+            "probability": 0.75,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:mossy_stone_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:cracked_stone_bricks",
+            "probability": 0.33,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    }
+  ]
+}

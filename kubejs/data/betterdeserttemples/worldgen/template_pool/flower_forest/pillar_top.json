@@ -1,0 +1,105 @@
+{
+  "name": "betterdeserttemples:flower_forest/pillar_top",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_0",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_0",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_1",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_1",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_2",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_2",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_3",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_3",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_4",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_4",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_5",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_5",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_6",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_6",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_7",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_7",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_top_8",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_top_8",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "betterstrongholds:nether/hall_wall_cobble",
+  "fallback": "betterstrongholds:nether/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/walls/hall_wall_cobble",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

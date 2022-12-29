@@ -1,0 +1,42 @@
+{
+  "name": "betterdeserttemples:jungle/entrance_doorway",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/main_entrance_doorway/main_entrance_doorway_0",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/main_entrance_doorway/main_entrance_doorway_1",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/main_entrance_doorway/main_entrance_doorway_2",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/main_entrance_doorway/main_entrance_doorway_3",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

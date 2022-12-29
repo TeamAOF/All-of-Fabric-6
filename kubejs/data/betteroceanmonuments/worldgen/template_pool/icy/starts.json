@@ -1,0 +1,15 @@
+{
+  "name": "betteroceanmonuments:icy/starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/start",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

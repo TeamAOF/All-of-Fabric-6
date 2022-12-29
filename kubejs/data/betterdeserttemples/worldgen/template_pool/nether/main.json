@@ -1,0 +1,321 @@
+{
+  "name": "betterdeserttemples:nether/nether/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/top_center",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/front_puzzle_connector",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/left_puzzle_connector",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/right_puzzle_connector",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/main_corner",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/main_entrance_corner_left",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/main_entrance_corner_right",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/main_corner_top",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/main_puzzle_connector_top",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/main_puzzle_top",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/entrance_connector",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/balcony_straight",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/main_entrance_cover",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/outside_left",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/outside_right",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_entrance_corner/bottom_left_entrance_corner_0",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_entrance_corner/bottom_left_entrance_corner_1",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_entrance_corner/bottom_left_entrance_corner_2",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_entrance_corner/bottom_left_entrance_corner_3",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_left_entrance_corner_front",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_entrance_corner/bottom_right_entrance_corner_0",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_entrance_corner/bottom_right_entrance_corner_1",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_right_entrance_corner_front",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_main_corner/bottom_right_main_corner_0",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_main_corner/bottom_right_main_corner_1",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_main_corner/bottom_right_main_corner_2",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_main_corner/bottom_right_main_corner_3",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_main_corner/bottom_left_main_corner_0",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_main_corner/bottom_left_main_corner_1",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_main_corner_front",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/bottom_entrance_corner_side",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/hall_entrance_corridor",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/statue_corner",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/statue_corner_empty",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main/tnt_bottom",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

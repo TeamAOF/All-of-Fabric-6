@@ -1,0 +1,15 @@
+{
+  "name": "betterdeserttemples:giant_tree_taiga/hall_wall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/hall_wall/hall_wall_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

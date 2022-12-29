@@ -1,0 +1,15 @@
+{
+  "name": "repurposed_structures:pyramids/dark_forest",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/starts/center",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

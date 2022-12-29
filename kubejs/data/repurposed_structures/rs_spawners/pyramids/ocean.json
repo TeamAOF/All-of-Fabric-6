@@ -1,0 +1,12 @@
+{
+  "mobs" : [
+    {
+      "name" : "minecraft:pufferfish",
+      "weight" : 99
+    },
+    {
+      "name" : "minecraft:guardian",
+      "weight" : 1
+    }
+  ]
+}

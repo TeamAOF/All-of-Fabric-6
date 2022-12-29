@@ -1,0 +1,320 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:powder_snow"
+          },
+          "input_predicate": {
+            "block": "minecraft:snow_block",
+            "probability": 0.09,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:note_block"
+          },
+          "input_predicate": {
+            "block": "minecraft:redstone_lamp",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:brown_mushroom"
+          },
+          "input_predicate": {
+            "block": "minecraft:brick_slab",
+            "probability": 0.065,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:lapis_block"
+          },
+          "input_predicate": {
+            "block": "minecraft:brick_slab",
+            "probability": 0.01,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:brick_slab",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:blue_stained_glass"
+          },
+          "input_predicate": {
+            "block": "minecraft:light_blue_stained_glass",
+            "probability": 0.075,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          },
+          "input_predicate": {
+            "block": "minecraft:ice",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          },
+          "input_predicate": {
+            "block": "minecraft:packed_ice",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:polished_diorite_slab",
+            "Properties": {
+              "type": "top"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:blue_concrete",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:polished_diorite_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:blue_concrete",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:blue_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:polished_diorite_slab",
+            "Properties": {
+              "type": "top"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:lime_concrete",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:polished_diorite_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:lime_concrete",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:lime_concrete",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:lapis_block"
+          },
+          "input_predicate": {
+            "block": "minecraft:orange_stained_glass",
+            "probability": 0.75,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:orange_stained_glass",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:structure_void"
+          },
+          "input_predicate": {
+            "block": "minecraft:yellow_stained_glass",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
+      "input_block": "minecraft:diorite",
+      "output_block": "minecraft:polished_diorite",
+      "threshold": 0.28,
+      "xz_scale": 0.21,
+      "y_scale": 0.21
+    },
+    {
+      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
+      "input_block": "minecraft:polished_diorite",
+      "output_block": "minecraft:diorite",
+      "threshold": 0.35,
+      "xz_scale": 0.20,
+      "y_scale": 0.20
+    },
+    {
+      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
+      "input_block": "minecraft:polished_diorite_slab",
+      "output_block": "minecraft:diorite_slab",
+      "threshold": 0.35,
+      "xz_scale": 0.20,
+      "y_scale": 0.20
+    },
+    {
+      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
+      "input_block": "minecraft:polished_diorite_stairs",
+      "output_block": "minecraft:diorite_stairs",
+      "threshold": 0.35,
+      "xz_scale": 0.20,
+      "y_scale": 0.20
+    },
+    {
+      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
+      "input_block": "minecraft:diorite",
+      "output_block": "minecraft:polished_diorite",
+      "threshold": 0.35,
+      "xz_scale": 0.20,
+      "y_scale": 0.20
+    },
+    {
+      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
+      "input_block": "minecraft:diorite_slab",
+      "output_block": "minecraft:polished_diorite_slab",
+      "threshold": 0.35,
+      "xz_scale": 0.20,
+      "y_scale": 0.20
+    },
+    {
+      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
+      "input_block": "minecraft:diorite_stairs",
+      "output_block": "minecraft:polished_diorite_stairs",
+      "threshold": 0.35,
+      "xz_scale": 0.20,
+      "y_scale": 0.20
+    },
+    {
+      "input_block": "minecraft:light_blue_stained_glass_pane",
+      "output_block": "minecraft:blue_stained_glass_pane",
+      "probability": 0.075,
+      "processor_type": "repurposed_structures:random_replace_with_properties_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_processor_list": "betteroceanmonuments:icy/main",
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:blue_stained_glass"
+          },
+          "replacement" : {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:structure_void_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:waterlogging_fix_processor"
+    }
+  ]
+}

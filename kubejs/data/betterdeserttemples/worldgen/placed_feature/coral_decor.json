@@ -1,0 +1,8 @@
+{
+  "feature": "betterdeserttemples:coral",
+  "placement": [
+    {
+      "type": "repurposed_structures:snap_to_lower_non_air_placement"
+    }
+  ]
+}

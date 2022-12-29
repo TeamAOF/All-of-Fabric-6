@@ -1,0 +1,42 @@
+{
+  "name": "betterdeserttemples:nether/entrance_doorway",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main_entrance_doorway/main_entrance_doorway_0",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main_entrance_doorway/main_entrance_doorway_1",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main_entrance_doorway/main_entrance_doorway_2",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:nether/main_entrance_doorway/main_entrance_doorway_3",
+        "processors": "betterdeserttemples:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

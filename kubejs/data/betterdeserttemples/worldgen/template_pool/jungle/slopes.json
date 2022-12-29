@@ -1,0 +1,24 @@
+{
+  "name": "betterdeserttemples:jungle/slopes",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/slopes/slope_6x11",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/slopes/slope_6x11_floored",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

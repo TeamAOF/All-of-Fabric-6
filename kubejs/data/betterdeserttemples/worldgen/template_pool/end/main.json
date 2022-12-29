@@ -1,0 +1,321 @@
+{
+  "name": "betterdeserttemples:end/end/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/top_center",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/front_puzzle_connector",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/left_puzzle_connector",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/right_puzzle_connector",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/main_corner",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/main_entrance_corner_left",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/main_entrance_corner_right",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/main_corner_top",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/main_puzzle_connector_top",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/main_puzzle_top",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/entrance_connector",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/balcony_straight",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/main_entrance_cover",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/outside_left",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/outside_right",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_entrance_corner/bottom_left_entrance_corner_0",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_entrance_corner/bottom_left_entrance_corner_1",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_entrance_corner/bottom_left_entrance_corner_2",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_entrance_corner/bottom_left_entrance_corner_3",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_left_entrance_corner_front",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_entrance_corner/bottom_right_entrance_corner_0",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_entrance_corner/bottom_right_entrance_corner_1",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_right_entrance_corner_front",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_main_corner/bottom_right_main_corner_0",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_main_corner/bottom_right_main_corner_1",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_main_corner/bottom_right_main_corner_2",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_main_corner/bottom_right_main_corner_3",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_main_corner/bottom_left_main_corner_0",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_main_corner/bottom_left_main_corner_1",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_main_corner_front",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/bottom_entrance_corner_side",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/hall_entrance_corridor",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/statue_corner",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/statue_corner_empty",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:end/main/tnt_bottom",
+        "processors": "betterdeserttemples:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "processors": [
+    {
+      "processor_type": "betterdeserttemples:lime_banner_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:red_banner_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:infested_cracked_stone_bricks_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:bone_block_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:yellow_wool_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:gravel_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:lit_campfire_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:red_wool_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:armor_stand_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:item_frame_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:spawner_randomizing_processor",
+      "rs_spawner_resourcelocation": "repurposed_structures:pyramids/mushroom"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.11,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:brown_mushroom_block"
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_stained_glass",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_stained_glass",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:torch",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:wall_torch",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:sandstone_slab",
+              "Properties": {
+                  "type": "bottom",
+                  "waterlogged": "false"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:sandstone_slab",
+              "Properties": {
+                  "type": "top",
+                  "waterlogged": "false"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:random_replace_with_properties_processor",
+      "probability": 1,
+      "input_block": "minecraft:diorite",
+      "output_blocks": [
+        "minecraft:red_mushroom_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:mushroom_stem"
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:random_replace_with_properties_processor",
+      "probability": 1,
+      "input_block": "minecraft:end_stone_brick_wall",
+      "output_blocks": [
+        "minecraft:granite_wall"
+      ]
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Properties": {
+              "candles": "4",
+              "lit": "true",
+              "waterlogged": "false"
+            },
+            "Name": "minecraft:candle"
+          },
+          "input_predicate": {
+            "block": "minecraft:candle",
+            "probability": 0.25,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "candles": "3",
+              "lit": "true",
+              "waterlogged": "false"
+            },
+            "Name": "minecraft:candle"
+          },
+          "input_predicate": {
+            "block": "minecraft:candle",
+            "probability": 0.33,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "candles": "2",
+              "lit": "true",
+              "waterlogged": "false"
+            },
+            "Name": "minecraft:candle"
+          },
+          "input_predicate": {
+            "block": "minecraft:candle",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "candles": "1",
+              "lit": "true",
+              "waterlogged": "false"
+            },
+            "Name": "minecraft:candle"
+          },
+          "input_predicate": {
+            "block": "minecraft:candle",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:brown_mushroom_block",
+            "Properties": {
+              "up": "false",
+              "down": "false",
+              "west": "false",
+              "east": "false",
+              "south": "false",
+              "north": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:polished_diorite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:brown_mushroom_block",
+            "Properties": {
+              "up": "false",
+              "down": "false",
+              "west": "false",
+              "east": "false",
+              "south": "false",
+              "north": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:pink_stained_glass",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:redstone_block"
+          },
+          "input_predicate": {
+            "block": "minecraft:spawner",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "repurposed_structures:random_replace_with_properties_processor",
+      "probability": 1,
+      "input_block": "minecraft:candle",
+      "output_blocks": [
+        "minecraft:white_candle",
+        "minecraft:red_candle",
+        "minecraft:brown_candle",
+        "minecraft:magenta_candle",
+        "minecraft:purple_candle",
+        "minecraft:pink_candle"
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_length": 8,
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:purpur_pillar"
+          },
+          "replacement" : {
+            "Name": "minecraft:granite_wall",
+            "Properties": {
+              "waterlogged": "false",
+              "up": "true",
+              "west": "none",
+              "south": "none",
+              "north": "none",
+              "east": "none"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_length": 8,
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:quartz_pillar"
+          },
+          "replacement" : {
+            "Name": "minecraft:mushroom_stem"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:yellow_stained_glass"
+          },
+          "replacement" : {
+            "Name": "minecraft:red_mushroom_block"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:waterlogging_fix_processor"
+    }
+  ]
+}

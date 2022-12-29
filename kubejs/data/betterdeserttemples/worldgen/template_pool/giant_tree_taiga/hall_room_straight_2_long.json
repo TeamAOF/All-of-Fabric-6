@@ -1,0 +1,93 @@
+{
+  "name": "betterdeserttemples:giant_tree_taiga/hall_room_straight_2_long",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/parkour/parkour_top_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/parkour/parkour_top_1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/parkour/parkour_top_2",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/parkour/parkour_top_3",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/parkour/parkour_top_4",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/parkour/parkour_top_5",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "water_maze",
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/water_maze/water_maze_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "water_maze",
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/water_maze/water_maze_1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "water_maze",
+        "location": "betterdeserttemples:giant_tree_taiga/hall_room/water_maze/water_maze_2",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

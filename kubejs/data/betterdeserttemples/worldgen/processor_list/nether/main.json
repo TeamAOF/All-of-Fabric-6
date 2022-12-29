@@ -1,0 +1,473 @@
+{
+  "processors": [
+    {
+      "processor_type": "betterdeserttemples:lime_banner_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:red_banner_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:infested_cracked_stone_bricks_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:bone_block_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:yellow_wool_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:gravel_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:lit_campfire_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:red_wool_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:armor_stand_processor"
+    },
+    {
+      "processor_type": "betterdeserttemples:item_frame_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:spawner_randomizing_processor",
+      "rs_spawner_resourcelocation": "repurposed_structures:pyramids/nether"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_slab",
+            "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.11,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:acacia_wood",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:glowstone"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_stained_glass",
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:white_stained_glass",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:soul_torch",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:wall_torch",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_slab",
+            "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:sandstone_slab",
+              "Properties": {
+                  "type": "bottom",
+                  "waterlogged": "false"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_brick_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+            }
+          },
+          "input_predicate": {
+            "block_state": {
+              "Name": "minecraft:sandstone_slab",
+              "Properties": {
+                  "type": "top",
+                  "waterlogged": "false"
+              }
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:random_replace_with_properties_processor",
+      "probability": 1,
+      "input_block": "minecraft:diorite",
+      "output_blocks": [
+        "minecraft:red_nether_brick",
+        "minecraft:nether_brick_slab",
+        "minecraft:nether_bricks",
+        "minecraft:nether_bricks"
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:random_replace_with_properties_processor",
+      "probability": 1,
+      "input_block": "minecraft:end_stone_brick_wall",
+      "output_blocks": [
+        "minecraft:nether_brick_wall"
+      ]
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:soul_torch"
+          },
+          "input_predicate": {
+            "block": "minecraft:candle",
+            "probability": 0.75,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:candle",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "minecraft:red_nether_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:polished_diorite",
+            "probability": 0.25,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:nether_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:polished_diorite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cracked_polished_blackstone_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:blackstone",
+            "probability": 0.75,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:polished_blackstone_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:blackstone",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cracked_polished_blackstone_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:polished_blackstone_bricks",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:cracked_polished_blackstone_bricks"
+          },
+          "input_predicate": {
+            "block": "minecraft:polished_blackstone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:gilded_blackstone"
+          },
+          "input_predicate": {
+            "block": "minecraft:lodestone",
+            "probability": 0.75,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:respawn_anchor"
+          },
+          "input_predicate": {
+            "block": "minecraft:lodestone",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_length": 8,
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:purpur_pillar"
+          },
+          "replacement" : {
+            "Name": "minecraft:nether_brick_wall",
+            "Properties": {
+              "waterlogged": "false",
+              "up": "true",
+              "west": "none",
+              "south": "none",
+              "north": "none",
+              "east": "none"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_length": 8,
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:quartz_pillar"
+          },
+          "replacement" : {
+            "Name": "minecraft:chiseled_nether_bricks"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_processor_list": "betterdeserttemples:nether/main",
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:yellow_stained_glass"
+          },
+          "replacement" : {
+            "Name": "minecraft:polished_blackstone_bricks"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "repurposed_structures:waterlogging_fix_processor"
+    }
+  ]
+}

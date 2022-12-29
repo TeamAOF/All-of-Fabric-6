@@ -1,0 +1,33 @@
+{
+  "name": "betterdeserttemples:jungle/walls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/walls/wall_5x1_0",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/walls/middle_end_outside_wall_0",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/walls/outer_row_11x1",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

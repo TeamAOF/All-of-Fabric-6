@@ -1,0 +1,24 @@
+{
+  "name": "repurposed_structures:strongholds/end/start_pool",
+  "fallback": "repurposed_structures:strongholds/end/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:end/rooms/grand_library",
+        "processors": "betterstrongholds:end/rooms/grand_library",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "repurposed_structures:strongholds/end/empty_crossing",
+        "processors": "betterstrongholds:end/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

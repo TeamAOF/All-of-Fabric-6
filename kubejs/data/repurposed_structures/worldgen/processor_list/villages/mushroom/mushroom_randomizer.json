@@ -1,0 +1,134 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Properties": {
+              "age": "1"
+            },
+            "Name": "farmersdelight:red_mushroom_colony"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "age": "2"
+            },
+            "Name": "farmersdelight:red_mushroom_colony"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "age": "3"
+            },
+            "Name": "farmersdelight:red_mushroom_colony"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "age": "0"
+            },
+            "Name": "farmersdelight:brown_mushroom_colony"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.2,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "age": "1"
+            },
+            "Name": "farmersdelight:brown_mushroom_colony"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "age": "2"
+            },
+            "Name": "farmersdelight:brown_mushroom_colony"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Properties": {
+              "age": "3"
+            },
+            "Name": "farmersdelight:brown_mushroom_colony"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "farmersdelight:red_mushroom_colony",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    }
+  ]
+}

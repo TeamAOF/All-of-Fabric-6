@@ -1,0 +1,49 @@
+{
+  "type": "repurposed_structures:generic_jigsaw_structure",
+  "start_pool": "repurposed_structures:pyramids/dark_forest",
+  "size": 20,
+  "biomes": "#repurposed_structures:has_structure/pyramids/dark_forest",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "burying_type": "LOWEST_CORNER",
+  "start_height": {
+    "absolute": -1
+  },
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:zombie",
+          "weight": 100,
+          "minCount": 10,
+          "maxCount": 32
+        },
+        {
+          "type": "minecraft:spider",
+          "weight": 50,
+          "minCount": 5,
+          "maxCount": 15
+        }
+      ]
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:rabbit",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ]
+    }
+  }
+}

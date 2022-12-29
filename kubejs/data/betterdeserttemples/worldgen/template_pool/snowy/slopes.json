@@ -1,0 +1,24 @@
+{
+  "name": "betterdeserttemples:snowy/slopes",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:snowy/slopes/slope_6x11",
+        "processors": "betterdeserttemples:snowy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:snowy/slopes/slope_6x11_floored",
+        "processors": "betterdeserttemples:snowy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

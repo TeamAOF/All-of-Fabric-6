@@ -1,0 +1,42 @@
+{
+  "name": "betteroceanmonuments:icy/top_rings",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/top_ring/top_ring_0",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/top_ring/top_ring_1",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/top_ring/top_ring_2",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:icy/top_ring/top_ring_3",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

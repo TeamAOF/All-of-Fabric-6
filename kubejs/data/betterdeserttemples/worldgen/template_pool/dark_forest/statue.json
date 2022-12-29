@@ -1,0 +1,69 @@
+{
+  "name": "betterdeserttemples:dark_forest/statue",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/statues/statue_0",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/statues/statue_1",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/statues/statue_2",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/statues/statue_3",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/statues/statue_4",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/statues/statue_5",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/statues/statue_6",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

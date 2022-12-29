@@ -1,0 +1,114 @@
+{
+  "name": "betterstrongholds:nether/treasure_corner",
+  "fallback": "betterstrongholds:nether/treasure_corner",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_0",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_1",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_2",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_3",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_4",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_5",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_6",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_7",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_8",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_9",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_10",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/treasure/corner/treasure_corner_11",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

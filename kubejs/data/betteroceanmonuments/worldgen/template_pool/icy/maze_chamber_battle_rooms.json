@@ -1,0 +1,116 @@
+{
+  "name": "betteroceanmonuments:icy/maze_chamber_battle_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_0",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_0",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_1",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_1",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_5",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_5_0",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_6",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_6",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_7",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_7_0",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_7",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_7_1",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_8",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_8_0",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_8",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_8_1",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_9",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_9_0",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "maze_chamber_battle_room_9",
+        "location": "betteroceanmonuments:icy/maze_chamber_battle_room/maze_chamber_battle_room_9_1",
+        "processors": "betteroceanmonuments:icy/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

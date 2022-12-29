@@ -1,0 +1,15 @@
+{
+  "name": "repurposed_structures:pyramids/giant_tree_taiga",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/starts/center",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

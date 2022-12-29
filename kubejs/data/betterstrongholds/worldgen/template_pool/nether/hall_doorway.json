@@ -1,0 +1,267 @@
+{
+  "name": "betterstrongholds:nether/hall_doorway",
+  "fallback": "betterstrongholds:nether/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:strongholds/nether/portal_room",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/hallway_trap_0",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1100,
+      "element": {
+        "location": "betterstrongholds:nether/hall_doorways/hall_doorway",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/hall_doorways/hall_doorway_2torch",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/hall_doorways/hall_doorway_banner",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 200,
+      "element": {
+        "location": "betterstrongholds:nether/hall_doorways/hall_doorway_small",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 250,
+      "element": {
+        "location": "betterstrongholds:nether/hall_doorways/hall_door_wood",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "betterstrongholds:nether/hall_doorways/hall_door_iron",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/stairs/stairs_straight",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "betterstrongholds:nether/stairs/spiral_stairs_2floor_0",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "betterstrongholds:nether/stairs/spiral_stairs_2floor_1",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "betterstrongholds:nether/stairs/spiral_stairs_3floor_0",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "betterstrongholds:nether/stairs/spiral_stairs_3floor_1",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 250,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/grand_library",
+        "processors": "betterstrongholds:nether/rooms/grand_library",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/armoury_sm",
+        "processors": "betterstrongholds:nether/rooms/armoury",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/armoury_md",
+        "processors": "betterstrongholds:nether/rooms/armoury",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/bunks_md",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/crypt_sm",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/library_md",
+        "processors": "betterstrongholds:nether/rooms/library_md",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/mess",
+        "processors": "betterstrongholds:nether/rooms/mess",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/prison_lg",
+        "processors": "betterstrongholds:nether/rooms/prison_lg",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/storeroom",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/junction_md",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "repurposed_structures:strongholds/nether/empty_crossing",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/cmd_acarii",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/cmd_yung",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/sealed_cell",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/sealed_collapse",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "betterstrongholds:nether/rooms/treasure_room_lg",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

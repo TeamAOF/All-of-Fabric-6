@@ -1,0 +1,53 @@
+{
+  "name": "betteroceanmonuments:jungle/parthenons",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "name": "parthenon_0",
+        "location": "betteroceanmonuments:jungle/parthenon/parthenon_0",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/parthenon/parthenon_1",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/parthenon/parthenon_2",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/parthenon/parthenon_3",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:jungle/parthenon/parthenon_4",
+        "processors": "betteroceanmonuments:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

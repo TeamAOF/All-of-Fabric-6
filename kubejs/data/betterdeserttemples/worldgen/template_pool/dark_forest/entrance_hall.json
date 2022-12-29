@@ -1,0 +1,15 @@
+{
+  "name": "betterdeserttemples:dark_forest/entrance_hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:dark_forest/main_entrance_hall/main_entrance_hall_0",
+        "processors": "betterdeserttemples:dark_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

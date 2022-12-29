@@ -1,0 +1,33 @@
+{
+  "name": "betteroceanmonuments:nether/mobs",
+  "fallback": "betteroceanmonuments:nether/mobs",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:nether/mobs/super_wither",
+        "processors": "betteroceanmonuments:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:nether/mobs/magma_cube",
+        "processors": "betteroceanmonuments:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:nether/mobs/strider",
+        "processors": "betteroceanmonuments:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

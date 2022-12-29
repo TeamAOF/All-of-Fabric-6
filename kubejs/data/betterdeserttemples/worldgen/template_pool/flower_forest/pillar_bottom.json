@@ -1,0 +1,37 @@
+{
+  "name": "betterdeserttemples:flower_forest/pillar_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_bottom_0",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_bottom_1",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_bottom_1",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "pillar_bottom_2",
+        "location": "betterdeserttemples:flower_forest/pillars/pillar_bottom_2",
+        "processors": "betterdeserttemples:flower_forest/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

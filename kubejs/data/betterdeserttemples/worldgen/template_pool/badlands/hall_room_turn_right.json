@@ -1,0 +1,282 @@
+{
+  "name": "betterdeserttemples:badlands/hall_room_turn_right",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_empty",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_1",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_1",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_4",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_9",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_9",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_clay_pots",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_10",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_clay_pots",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_11",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_scaffolding",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_12",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_scaffolding",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_13",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_gold_ore",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_14",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "lab_room",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_15",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "statue_bait_room",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_16",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "statue_bait_room",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_17",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "statue_bait_room",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_18",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "statue_bait_room",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_19",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_20",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_storage_small",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_24",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_wardrobe_small",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_25",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_storage_small",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_26",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_library_small",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_28",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_29",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_30",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "desert_well_hall_room",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_31",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 1,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_armory",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_32",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 2,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_crushed_corridor",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_34",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 6,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_crushed_corridor",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_35",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 6,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "hall_room_5x5_crushed_corridor",
+        "location": "betterdeserttemples:badlands/hall_room/5x5/hall_room_5x5_36",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "max_count": 6,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

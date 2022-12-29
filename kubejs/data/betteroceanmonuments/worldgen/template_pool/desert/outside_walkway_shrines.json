@@ -1,0 +1,15 @@
+{
+  "name": "betteroceanmonuments:desert/outside_walkway_shrines",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betteroceanmonuments:desert/outside_walkway_shrine_0",
+        "processors": "betteroceanmonuments:desert/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

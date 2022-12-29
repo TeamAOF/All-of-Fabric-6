@@ -1,0 +1,79 @@
+{
+  "name": "betterdeserttemples:giant_tree_taiga/room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/rooms/room_empty",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "name": "room_filled",
+        "location": "betterdeserttemples:giant_tree_taiga/rooms/room_filled",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "betterdeserttemples:giant_tree_taiga/rooms/room_pillar",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:giant_tree_taiga/rooms/room_tomb_0",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:giant_tree_taiga/rooms/room_tomb_1",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:giant_tree_taiga/rooms/room_tomb_2",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "name": "room_tomb",
+        "location": "betterdeserttemples:giant_tree_taiga/rooms/room_tomb_3",
+        "processors": "betterdeserttemples:giant_tree_taiga/main",
+        "projection": "rigid",
+        "max_count": 4,
+        "element_type": "yungsapi:max_count_single_element"
+      }
+    }
+  ]
+}

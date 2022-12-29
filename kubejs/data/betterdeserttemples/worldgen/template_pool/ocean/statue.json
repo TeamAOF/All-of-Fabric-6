@@ -1,0 +1,69 @@
+{
+  "name": "betterdeserttemples:ocean/statue",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/statues/statue_0",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/statues/statue_1",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/statues/statue_2",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/statues/statue_3",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/statues/statue_4",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/statues/statue_5",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/statues/statue_6",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

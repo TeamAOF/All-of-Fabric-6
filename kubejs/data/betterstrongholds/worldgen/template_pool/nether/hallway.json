@@ -1,0 +1,42 @@
+{
+  "name": "betterstrongholds:nether/hallway",
+  "fallback": "betterstrongholds:nether/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterstrongholds:nether/hallways/hallway_2",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterstrongholds:nether/hallways/hallway_3",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterstrongholds:nether/hallways/hallway_4",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/hallways/hallway_turn",
+        "processors": "betterstrongholds:nether/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

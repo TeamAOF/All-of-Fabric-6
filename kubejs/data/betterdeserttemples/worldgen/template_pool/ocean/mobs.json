@@ -1,0 +1,33 @@
+{
+  "name": "betterdeserttemples:ocean/mobs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/mobs/creeper",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/mobs/slime",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:ocean/mobs/pharaoh",
+        "processors": "betterdeserttemples:ocean/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

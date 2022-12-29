@@ -1,0 +1,30 @@
+{
+  "processors": [
+    {
+      "processor_type": "betterwitchhuts:waterlog_processor"
+    },
+    {
+      "processor_type": "betterwitchhuts:brewing_stand_processor"
+    },
+    {
+      "processor_type": "betterwitchhuts:potted_mushroom_processor"
+    },
+    {
+      "processor_type": "repurposed_structures:pillar_processor",
+      "direction": "DOWN",
+      "pillar_trigger_and_replacements": [
+        {
+          "trigger" : {
+            "Name": "minecraft:brown_stained_glass"
+          },
+          "replacement" : {
+            "Name": "minecraft:mangrove_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

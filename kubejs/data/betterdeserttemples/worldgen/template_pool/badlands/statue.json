@@ -1,0 +1,69 @@
+{
+  "name": "betterdeserttemples:badlands/statue",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/statues/statue_0",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/statues/statue_1",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/statues/statue_2",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/statues/statue_3",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/statues/statue_4",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/statues/statue_5",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:badlands/statues/statue_6",
+        "processors": "betterdeserttemples:badlands/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

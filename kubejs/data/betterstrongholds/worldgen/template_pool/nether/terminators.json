@@ -1,0 +1,159 @@
+{
+  "name": "betterstrongholds:nether/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/spiral_stairs_terminator",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hall_doorway_terminator",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_chest",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_chest_trap",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_sword",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_lantern_l",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_lantern_r",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_book_l",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_book_r",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_chest_l",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_chest_r",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_shield_l",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_shield_r",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hallway_end_statue_book_r",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hall_wall_terminator",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterstrongholds:nether/terminators/hall_wall_cobble_terminator",
+        "processors": "betterstrongholds:nether/terminators",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

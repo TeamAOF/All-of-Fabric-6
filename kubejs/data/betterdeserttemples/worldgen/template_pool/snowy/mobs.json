@@ -1,0 +1,33 @@
+{
+  "name": "betterdeserttemples:snowy/mobs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:snowy/mobs/creeper",
+        "processors": "betterdeserttemples:snowy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:snowy/mobs/slime",
+        "processors": "betterdeserttemples:snowy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:snowy/mobs/pharaoh",
+        "processors": "betterdeserttemples:snowy/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

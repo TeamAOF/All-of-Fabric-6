@@ -1,0 +1,15 @@
+{
+  "name": "betterdeserttemples:jungle/hall_room_wipeout",
+  "fallback": "betterdeserttemples:hall_room_wipeout_no_left_wall",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "betterdeserttemples:jungle/hall_room/wipeout/wipeout_0",
+        "processors": "betterdeserttemples:jungle/main",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
