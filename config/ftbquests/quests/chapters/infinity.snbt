@@ -485,9 +485,9 @@
 			y: 3.0d
 			subtitle: "Craft the ultimate Terra Shatterer!"
 			description: [
-				"Upgrade a &bTerra Shatterer &rto tier &6(SS)&r."
+				"Upgrade a &bTerra Shatterer &rto tier &6(SS)&r and reach the max possible &bMana&r of &62,147,483,647&r to complete this quest."
 				""
-				"If the quest by any reason dosent complete when reaching &6(SS) &rtier, let it soak 1 more mana and then pick it up again."
+				"If the quest by any reason dosent complete when reaching &6(SS) &rtier and max &bMana&r, let it soak 1 more &bMana &rand then pick it up again."
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "6DB6324D6D217641"
