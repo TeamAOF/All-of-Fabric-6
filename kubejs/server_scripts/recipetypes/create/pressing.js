@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
         'platinum',
         'stainless_steel',
         'steel',
-        'aluminum'
+        'aluminum',
+        'electrum'
 
     ];
 
