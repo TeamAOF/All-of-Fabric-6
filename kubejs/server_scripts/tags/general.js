@@ -14,16 +14,6 @@ ServerEvents.tags('item', event => {
 
   event.add('c:workbench', 'minecraft:crafting_table')
 
-  // Create / Tech Reborn
-
-  event.add('c:zinc_plates', 'techreborn:zinc_plate')
-  event.add('c:brass_plates', 'techreborn:brass_plate')
-
-  event.add('c:raw_lead_blocks', 'indrev:raw_lead_block')
-  event.add('c:raw_silver_blocks', 'indrev:raw_silver_block')
-  event.add('c:raw_tungsten_blocks', 'indrev:raw_tungsten_block')
-  event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
-
   // Knives
 
   event.add('c:knives', 'farmersdelight:flint_knife')
@@ -31,16 +21,33 @@ ServerEvents.tags('item', event => {
   event.add('c:knives', 'farmersdelight:golden_knife')
   event.add('c:knives', 'farmersdelight:diamond_knife')
   event.add('c:knives', 'farmersdelight:netherite_knife')
+
+const bw_fleece = [
+  'orange',
+  'magenta',
+  'light_blue',
+  'yellow',
+  'lime',
+  'pink',
+  'light_gray',
+  'gray',
+  'cyan',
+  'purple',
+  'blue',
+  'brown',
+  'green',
+  'red',
+  'black'
+];
+
+bw_fleece.forEach((item) => {
+  event.add("bwplus:fleece", 'bwplus:' + item + "_witch_wool")
+ })
 });
 
 ServerEvents.tags('block', event => {
 
   // Graves fix
   event.add('minecells:conjunctivius_unbreakable', 'yigd:grave')
-
-
-
-
-
 
 });
