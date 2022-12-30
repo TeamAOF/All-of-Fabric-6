@@ -42,7 +42,8 @@ ServerEvents.recipes( (event) => {
     'farmersdelight:wheat_dough_from_water',
     'farmersdelight:wheat_dough_from_eggs',
     'farmersdelight:wheat_dough',
-    'create:crafting/appliances/dough'
+    'create:crafting/appliances/dough',
+    'croptopia:shaped_bacon'
 
     ];
 
