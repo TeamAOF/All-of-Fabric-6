@@ -54,6 +54,8 @@ ServerEvents.tags('item', event => {
     event.add("c:plates/brass", "techreborn:brass_plate")
     event.add("c:plates/zinc", "techreborn:zinc_plate")
     event.add("c:nuggets/zinc", "techreborn:zinc_nugget")
+    event.add('c:zinc_plates', 'techreborn:zinc_plate')
+    event.add('c:brass_plates', 'techreborn:brass_plate')
 
     // Modern Industrialization
     event.add("c:copper_rods", "modern_industrialization:copper_rod")
@@ -68,6 +70,12 @@ ServerEvents.tags('item', event => {
     event.add("c:plates/copper", "modern_industrialization:copper_plate")
     event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
     event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
+
+    // Indrev
+    event.add('c:raw_lead_blocks', 'indrev:raw_lead_block')
+    event.add('c:raw_silver_blocks', 'indrev:raw_silver_block')
+    event.add('c:raw_tungsten_blocks', 'indrev:raw_tungsten_block')
+    event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
 
     // Create Filtering
     event.add("c:plates", "modern_industrialization:iron_plate")
