@@ -39,14 +39,14 @@ _Fabric Loader 0.14.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Added Mods
 
-* [Architect's Palette [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/architects-palette-fabric) (by [slomax907](https://www.curseforge.com/members/slomax907/projects))
-* [Besmirchment 2](https://www.curseforge.com/minecraft/mc-mods/besmirchment-2) (by [MrSterner_](https://www.curseforge.com/members/MrSterner_/projects))
-* [Bewitchment Plus](https://www.curseforge.com/minecraft/mc-mods/bewitchment-plus) (by [MrSterner_](https://www.curseforge.com/members/MrSterner_/projects))
-* [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition) (by [MRHminer](https://www.curseforge.com/members/MRHminer/projects))
-* [Fish of Thieves](https://www.curseforge.com/minecraft/mc-mods/fish-of-thieves) (by [SteveKunG](https://www.curseforge.com/members/SteveKunG/projects))
-* [Playdate](https://www.curseforge.com/minecraft/mc-mods/playdate) (by [Frogipher](https://www.curseforge.com/members/Frogipher/projects))
-* [Show Me What You Got](https://www.curseforge.com/minecraft/mc-mods/show-me-what-you-got) (by [Apace100](https://www.curseforge.com/members/Apace100/projects))
-* [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) (by [FlashyReese](https://www.curseforge.com/members/FlashyReese/projects))
+* [Architect's Palette [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/architects-palette-fabric)
+* [Besmirchment 2](https://www.curseforge.com/minecraft/mc-mods/besmirchment-2)
+* [Bewitchment Plus](https://www.curseforge.com/minecraft/mc-mods/bewitchment-plus)
+* [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition)
+* [Fish of Thieves](https://www.curseforge.com/minecraft/mc-mods/fish-of-thieves)
+* [Playdate](https://www.curseforge.com/minecraft/mc-mods/playdate)
+* [Show Me What You Got](https://www.curseforge.com/minecraft/mc-mods/show-me-what-you-got)
+* [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra)
 ---
 
 ### All of Fabric 6 | v1.1.1
