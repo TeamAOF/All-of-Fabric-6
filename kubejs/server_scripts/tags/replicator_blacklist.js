@@ -176,7 +176,15 @@ ServerEvents.tags('item', event => {
         'powah:battery_blazing',
         'powah:battery_niotic',
         'powah:battery_spirited',
-        'powah:battery_nitro'
+        'powah:battery_nitro',
+        'inmis:baby_backpack',
+        'inmis:frayed_backpack',
+        'inmis:plated_backpack',
+        'inmis:gilded_backpack',
+        'inmis:bejeweled_backpack',
+        'inmis:blazing_backpack',
+        'inmis:withered_backpack',
+        'inmis:endless_backpack'
 
     ];
 
