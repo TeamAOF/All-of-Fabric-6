@@ -1,0 +1,18 @@
+{
+  "enableFinalBroom": true,
+  "enableWitchyDye": true,
+  "enableEliteCoffin": true,
+  "enableLovePotion": true,
+  "enableWerepyrism": true,
+  "enableSunscreen": true,
+  "enableTamableDemons": true,
+  "enableLichdom": true,
+  "enablePhasingWhitelist": false,
+  "werepyreWeight": 10,
+  "werepyreMinGroupCount": 1,
+  "werepyreMaxGroupCount": 1,
+  "enableBeelzebub": true,
+  "villagerFamiliarReputationBase": 20,
+  "chickenFamiliarEggChance": 0.005,
+  "universalFamiliars": true
+}

@@ -1,3 +1,54 @@
+### All of Fabric 6 | v1.2.0
+
+_Fabric Loader 0.14.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.2.0.md)_
+
+### DISCLAIMER: Be sure to delete the Mine Cells dimension (world\dimensions\minecells) before updating!
+
+### Changes
+
+* Blacklisted most trinkets from equipment compare.
+* Added proper description and steps to finish the Shatterer of Worlds quest, incorrect info was shown prior to this.
+* Chance of finding a Everlasting Beef has been lowered, weight being (2 > 1).
+* Added all RS datapacks including (BYG, YUNG's & More Villagers), this means better compat in RS structures.
+* Blacklisted all inmis backpacks in replicator, fixing dupes.
+* WTHIT now hides when given advancements.
+* General name tag improvements, now also has a recipe.
+
+### Fixes
+
+* Added correct flowers block tags to all Sria's Flowers, fixing bee pollination/locate.
+* AOF emotes through emojiful has been fixed, raise ya concerns.
+* Chiming lapis geodes would crash the server.
+
+### Recipes
+
+* Broken Tech Reborn recipes using certain cells/fluids has been fixed.
+* Added c:plates tag to (copper, iron & gold), allows for better filtering within Create.
+* Removed shaped raw bacon recipe, can only now be made on the Cutting Board.
+* New Hashed Brown recipe, fixing knife durability issues.
+* Refined iron plate can now be made with create pressing.
+* Coal & lignite dusts can now be made with create crushing.
+* Brick dusts can now be made with create crushing.
+* Clay dust can now be made with create crushing.
+* Dusts can now be made from ingots with create crushing (bronze, tin, lead, silver, nickel, tungsten, titanium, chromium, invar, nickel, platinum, stainless steel, steel, aluminum & silicon).
+* Aluminum plates can now be made with create pressing.
+* Electrum plates can now be made with create pressing.
+* Netherrack dust & cinder flour has be unified with eachother, cinder flour taking priority.
+* Zinc plates has been replaced by zinc sheets in unification priority.
+* Fixed conflicts between terracotta bricks & shingles.
+
+### Added Mods
+
+* [Architect's Palette [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/architects-palette-fabric) (by [slomax907](https://www.curseforge.com/members/slomax907/projects))
+* [Besmirchment 2](https://www.curseforge.com/minecraft/mc-mods/besmirchment-2) (by [MrSterner_](https://www.curseforge.com/members/MrSterner_/projects))
+* [Bewitchment Plus](https://www.curseforge.com/minecraft/mc-mods/bewitchment-plus) (by [MrSterner_](https://www.curseforge.com/members/MrSterner_/projects))
+* [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition) (by [MRHminer](https://www.curseforge.com/members/MRHminer/projects))
+* [Fish of Thieves](https://www.curseforge.com/minecraft/mc-mods/fish-of-thieves) (by [SteveKunG](https://www.curseforge.com/members/SteveKunG/projects))
+* [Playdate](https://www.curseforge.com/minecraft/mc-mods/playdate) (by [Frogipher](https://www.curseforge.com/members/Frogipher/projects))
+* [Show Me What You Got](https://www.curseforge.com/minecraft/mc-mods/show-me-what-you-got) (by [Apace100](https://www.curseforge.com/members/Apace100/projects))
+* [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) (by [FlashyReese](https://www.curseforge.com/members/FlashyReese/projects))
+---
+
 ### All of Fabric 6 | v1.1.1
 
 _Fabric Loader 0.14.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.1.1.md)_

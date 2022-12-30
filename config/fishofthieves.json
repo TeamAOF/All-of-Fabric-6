@@ -1,0 +1,19 @@
+{
+  "general": {
+    "trophyMaxHealth": 5.0,
+    "simpleSpawningCondition": false
+  },
+  "spawnRate": {
+    "trophyProbability": 0.15,
+    "umberSplashtailProbability": 0.1,
+    "brightPondieProbability": 0.1,
+    "ravenIslehopperProbability": 0.1,
+    "boneAncientscaleProbability": 0.1,
+    "bonedustPlentifinProbability": 0.1,
+    "muddyWildsplashProbability": 0.1,
+    "forsakenDevilfishProbability": 0.1,
+    "sandBattlegillProbability": 0.1,
+    "snowWreckerProbability": 0.1,
+    "shadowStormfishProbability": 0.1
+  }
+}

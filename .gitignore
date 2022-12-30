@@ -87,8 +87,6 @@ client_data/
 
 
 
-server_files/
-
 
 
 rhino.local.properties
@@ -109,8 +107,6 @@ chiselsandbits/
 defaultconfigs/
 
 ModListCreator-4.0.1-fatjar.jar
-
-emojiful/
 
 Server/
 

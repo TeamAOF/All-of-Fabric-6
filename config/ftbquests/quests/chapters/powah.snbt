@@ -45,8 +45,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -92,8 +92,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 14731911
-							Loot: "aof:loot_bags/powah/common"
 							Name: "Powah! Common Lootbag"
+							Loot: "aof:loot_bags/powah/common"
 						}
 					}
 				}
@@ -117,38 +117,38 @@
 						items: [
 							{
 								id: "powah:battery_starter"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "powah:battery_basic"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "powah:battery_hardened"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "powah:battery_blazing"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "powah:battery_niotic"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "powah:battery_spirited"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "powah:battery_nitro"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
@@ -163,8 +163,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -227,8 +227,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -302,8 +302,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -329,8 +329,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -356,8 +356,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -383,8 +383,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/epic"
 						Name: "Powah! Epic Lootbag"
+						Loot: "aof:loot_bags/powah/epic"
 					}
 				}
 			}]
@@ -410,8 +410,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/epic"
 						Name: "Powah! Epic Lootbag"
+						Loot: "aof:loot_bags/powah/epic"
 					}
 				}
 			}]
@@ -437,8 +437,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/legendary"
 						Name: "Powah! Legendary Lootbag"
+						Loot: "aof:loot_bags/powah/legendary"
 					}
 				}
 			}]
@@ -509,8 +509,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -535,8 +535,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -599,8 +599,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -626,8 +626,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -701,8 +701,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -764,8 +764,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -827,8 +827,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -890,8 +890,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -954,8 +954,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/common"
 						Name: "Powah! Common Lootbag"
+						Loot: "aof:loot_bags/powah/common"
 					}
 				}
 			}]
@@ -1022,8 +1022,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -1089,8 +1089,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -1152,8 +1152,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]
@@ -1219,8 +1219,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 14731911
-						Loot: "aof:loot_bags/powah/rare"
 						Name: "Powah! Rare Lootbag"
+						Loot: "aof:loot_bags/powah/rare"
 					}
 				}
 			}]

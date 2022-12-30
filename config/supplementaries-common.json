@@ -132,6 +132,11 @@
       "attempts_per_patch": 4,
       "spawn_attempts": 7
     },
+    "basalt_ash": {
+      "enabled": true,
+      "attempts_per_patch": 36,
+      "spawn_attempts": 15
+    },
     "misc": {
       "red_merchant_spawn_multiplier": 1.0
     }
@@ -217,6 +222,11 @@
     },
     "bubble_blower": {
       "stasis_cost": 5
+    },
+    "soap": {
+      "clean_blacklist": [
+        "minecraft:glazed_terracotta"
+      ]
     },
     "wrench": {
       "bypass_when_on": "MAIN_HAND"

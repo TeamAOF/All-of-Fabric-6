@@ -12,7 +12,7 @@
 		#Range: -256 ~ 256
 		horizontal_offset = 0
 		# Hide waila/hwyla/jade popups while plaques are showing.
-		hide_waila = false
+		hide_waila = true
 		# If plaques should show for task advancements (normal advancements).
 		tasks = true
 		# If plaques should show for goal advancements (medium-difficulty advancements).
