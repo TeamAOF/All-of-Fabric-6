@@ -1,3 +1,12 @@
+### All of Fabric 6 | v1.2.2
+
+_Fabric Loader 0.14.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.2.1.md)_
+
+### Fixes
+
+* An issue where the guide books button would overlap with the portable crafting table.
+---
+
 ### All of Fabric 6 | v1.2.1
 
 _Fabric Loader 0.14.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.2.1.md)_
