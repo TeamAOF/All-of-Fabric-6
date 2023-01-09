@@ -1,3 +1,38 @@
+### All of Fabric 6 | v1.2.1
+
+_Fabric Loader 0.14.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.2.1.md)_
+
+### Changes
+
+* Mine Cells dimension has been heavily revamped.
+* Added rubber & azalea saplings to botany trees.
+* A guide books button has been added to your inventory UI, no more books cluttering ur inventory space.
+
+### Fixes
+
+* An issue where you wouldnt be able to attack mobs after hurting a luggage pet.
+* An issue where the Terra Shatterer quest wouldnt complete, it'll now use weak NBT.
+* An issue where vinery shelfs would reset NBT & other data when used.
+
+### Recipes
+
+* Fixed a conflict between tool rack & vinery shelf.
+* Fixed a conflict between railings & top roofs.
+
+### Added Mods
+
+* [Armor Points ++ / Health Stacking](https://www.curseforge.com/minecraft/mc-mods/armorpoints)
+* [Convenient Decor](https://www.curseforge.com/minecraft/mc-mods/convenient-decor)
+* [Nether's Delight (Fabric)](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric)
+* [PatchouliButton](https://www.curseforge.com/minecraft/mc-mods/patchoulibutton)
+* [Reacharound](https://www.curseforge.com/minecraft/mc-mods/reacharound)
+* [Structory: Towers](https://www.curseforge.com/minecraft/mc-mods/structory-towers)
+
+### Removed Mods
+
+* [[Fabric] Extended Armor Bars Forked](https://www.curseforge.com/minecraft/mc-mods/fabric-extended-armor-bars-forked)
+---
+
 ### All of Fabric 6 | v1.2.0
 
 _Fabric Loader 0.14.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.2.0.md)_

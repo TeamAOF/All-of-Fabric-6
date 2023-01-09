@@ -498,11 +498,14 @@
 					id: "botania:terra_pick"
 					Count: 1b
 					tag: {
-						Damage: 0
 						mana: 2147483647
+						enabled: 0b
+						Damage: 0
+						RepairCost: 0
 					}
 				}
 				match_nbt: true
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "465C512BB8E5E72F"

@@ -22,6 +22,8 @@
   "allowFlagImages": true,
   "#disabledPlanets": "A list of planets that should be disabled. This is a comma-separated list of planet ids.",
   "disabledPlanets": "",
+  "#avoidOverworldChecks": "Prevents stuff like gravity and oxygen checks in the overworld as that\u0027s normally not used in Ad Astra. enable if you\u0027re making an addon or something that transforms the overworld into some sort of planet.",
+  "avoidOverworldChecks": true,
   "spawning": {
     "spawnCorruptedLunarians": true,
     "spawnStarCrawlers": true,
@@ -101,9 +103,13 @@
     "maxEnergy": 20000,
     "fluidConversionEnergyPerTick": 5,
     "tankSize": 486000,
+    "#maxBlockChecks": "How many blocks the distributor can distribute oxygen in. Be careful increasing this number, as it can reduce server performance significantly. If you are adamant about increasing this value, consider increasing the Oxygen Loader refresh ticks so the server is not constantly checking thousands of blocks.",
     "maxBlockChecks": 2000,
+    "#refreshTicks": "How often the oxygen loader checks if the structure is sealed. Performing this operation too often can kill server TPS, so be wary.",
     "refreshTicks": 60,
+    "#oxygenMultiplier": "Increases the oxygen requirements as the distributor covers more blocks.",
     "oxygenMultiplier": 1.0,
+    "#energyMultiplier": "Increases the energy requirements as the distributor covers more blocks.",
     "energyMultiplier": 3.0
   },
   "solarPanel": {

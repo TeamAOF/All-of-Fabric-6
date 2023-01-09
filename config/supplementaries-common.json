@@ -28,7 +28,8 @@
     },
     "rope": {
       "block_side_attachment": true,
-      "slide_on_fall": true
+      "slide_on_fall": true,
+      "rope_override": "supplementaries:rope"
     },
     "pedestal": {
       "crystal_enchanting": 3
@@ -218,7 +219,8 @@
     "quiver": {
       "use_without_slow": true,
       "slots": 6,
-      "quiver_skeleton_chance": 0.2
+      "quiver_skeleton_chance": 0.2,
+      "only_works_in_curio": false
     },
     "bubble_blower": {
       "stasis_cost": 5
@@ -232,7 +234,6 @@
       "bypass_when_on": "MAIN_HAND"
     },
     "rope_arrow": {
-      "rope_override": "supplementaries:rope",
       "capacity": 32,
       "exclusive_to_crossbows": false
     },
