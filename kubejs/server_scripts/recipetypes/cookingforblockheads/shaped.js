@@ -9,10 +9,11 @@ ServerEvents.recipes(event => {
   const recipes = [
     {
       output: 'cookingforblockheads:tool_rack',
-      pattern: ['AAA', 'B B', 'B B'],
+      pattern: ['AAA', 'BCB', 'B B'],
       key: {
         A: '#minecraft:wooden_slabs',
-        B: 'minecraft:iron_nugget'
+        B: 'minecraft:iron_nugget',
+        C: 'minecraft:stick'
       },
       id: 'cookingforblockheads:tool_rack'
     }
