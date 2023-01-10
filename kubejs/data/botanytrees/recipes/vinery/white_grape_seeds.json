@@ -16,7 +16,7 @@
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "vinery:white_grape_seeds"
+      "block": "vinery:white_grape_bush"
     },
     "drops": [
       {
