@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "vinery:white_grape_seeds"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "vinery:white_grape_seeds"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "vinery:white_grape_seeds"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "vinery:white_grape"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "vinery:white_grape_seeds"
+        }
+      }
+    ]
+  }
