@@ -96,6 +96,10 @@ ServerEvents.recipes( (event) => {
     'techreborn:steel_chestplate',
     'techreborn:steel_leggings',
     'techreborn:steel_boots',
+    'nethersdelight:iron_machete',
+    'nethersdelight:diamond_machete',
+    'nethersdelight:netherite_machete',
+    'nethersdelight:golden_machete',
     ];
 
     id.forEach((id) => {
