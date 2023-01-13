@@ -13,6 +13,10 @@ const DELETED_ITEMS = [
     'croptosis:apatite',
     'croptosis:potash',
     'croptosis:potash_pieces',
+    'nethersdelight:iron_machete',
+    'nethersdelight:diamond_machete',
+    'nethersdelight:netherite_machete',
+    'nethersdelight:golden_machete',
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
