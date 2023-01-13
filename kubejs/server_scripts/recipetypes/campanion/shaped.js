@@ -20,6 +20,14 @@ ServerEvents.recipes(event => {
         A: 'minecraft:cobblestone',
     },
       id: 'campanion:skipping_stone'
+    },
+    {
+      output: '2x campanion:cracker',
+      pattern: ['A'],
+      key: {
+        A: 'minecraft:wheat',
+    },
+      id: 'campanion:cracker'
     }
   ];
 
