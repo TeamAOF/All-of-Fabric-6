@@ -1,0 +1,12 @@
+{
+  "general": {
+    "colored_text": true,
+    "texture_resolution": 16
+  },
+  "color_settings": {
+    "recolor_texture": true,
+    "color_texture_preset": "PENCIL",
+    "limit_palette": true,
+    "outline": true
+  }
+}

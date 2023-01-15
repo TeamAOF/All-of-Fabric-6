@@ -6,7 +6,7 @@
 	// Save and restore the last selected tab
 	"SaveLastSelectedTab": true,
 	// The identifier of the last opened tab
-	"LastSelectedTab": "spectrum:midgame/spectrum_midgame",
+	"LastSelectedTab": "bwplus:root",
 	// Spacing between horizontal tabs (vanilla default: 4)
 	"SpacingBetweenHorizontalTabs": 4,
 	// Spacing between pinned tabs

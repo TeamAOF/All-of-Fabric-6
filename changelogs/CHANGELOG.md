@@ -1,6 +1,55 @@
+### All of Fabric 6 | v1.3.0
+
+_Fabric Loader 0.14.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.3.0.md)_
+
+### Changes
+
+* Beacons now has a tiered system.
+* The MI, BYG & Hexcasting books are no longer given to you on first join.
+* Removed the create config button from main menu, access it through mods button if needed.
+
+### Fixes
+
+* An issue where vinery textures would sometimes be missing.
+* An issue where bewitchment HUD bars would be overlapped.
+* An issue where farmland would permanently be hydrated, even without water source.
+
+### Recipes
+
+* Vinery grapes has been added to botany pots.
+* White sleeping bag recipe has been changed.
+* Iron, golden, diamond & netherite rapiers not being craftable has been fixed.
+* Conflict between cracker & wheat flour has been fixed.
+* Yew broom recipe has been altered to be on par with the other brooms.
+
+### Added Mods
+
+  * [[Fabric] Extended Armor Bars Forked](https://www.curseforge.com/minecraft/mc-mods/fabric-extended-armor-bars-forked)
+  * [Beacon Overhaul](https://www.curseforge.com/minecraft/mc-mods/beaconoverhaul)
+  * [Brewin' And Chewin' [Fabric]](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin-fabric)
+  * [Chef's Delight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/chefs-delight-fabric)
+  * [Dracomelette](https://www.curseforge.com/minecraft/mc-mods/dracomelette)
+  * [Full Turtle Armor](https://www.curseforge.com/minecraft/mc-mods/full-turtle-armor)
+  * [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted)
+  * [Lil' Wings](https://www.curseforge.com/minecraft/mc-mods/lil-wings)
+  * [Max Health Fix](https://www.curseforge.com/minecraft/mc-mods/max-health-fix)
+  * [More Frogs - Fabric/Quilt/Forge](https://www.curseforge.com/minecraft/mc-mods/more-frogs-fabric)
+  * [More Totems Of Undying](https://www.curseforge.com/minecraft/mc-mods/more-totems-of-undying)
+  * [MoreBeeInfo](https://www.curseforge.com/minecraft/mc-mods/morebeeinfo)
+  * [Muffin's Slime Golem](https://www.curseforge.com/minecraft/mc-mods/muffins-slime-golem)
+  * [Shroom Dealers! [ FORGE / FABRIC ]](https://www.curseforge.com/minecraft/mc-mods/shroom-dealers)
+  * [Storage Labels](https://www.curseforge.com/minecraft/mc-mods/labels)
+  * [VillagersPlus (FABRIC)](https://www.curseforge.com/minecraft/mc-mods/villagersplus-fabric)
+
+### Removed Mods
+
+  * [Armor Points ++ / Health Stacking](https://www.curseforge.com/minecraft/mc-mods/armorpoints)
+  * [Drink Beer Unofficial: Clockwerk Edition](https://www.curseforge.com/minecraft/mc-mods/drink-beer-unofficial-clockwerk-edition)
+---
+
 ### All of Fabric 6 | v1.2.2
 
-_Fabric Loader 0.14.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.2.1.md)_
+_Fabric Loader 0.14.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.2.2.md)_
 
 ### Fixes
 
