@@ -62,6 +62,20 @@ ServerEvents.recipes(event => {
     F: 'twilightforest:raven_feather',
 },
   id: 'bewitchment:elder_broom'
+},
+
+{
+  output: 'bwplus:yew_broom',
+  pattern: [' C ', 'EBF', 'DAD'],
+  key: {
+    A: 'bewitchment:demon_heart',
+    B: 'bewitchment:heaven_extract',
+    C: 'minecraft:elytra',
+    D: 'bwplus:yew_sapling',
+    E: 'reaper:rune_velocitas',
+    F: 'twilightforest:raven_feather',
+},
+  id: 'bwplus:yew_broom'
 }
 ];
 
