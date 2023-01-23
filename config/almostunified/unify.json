@@ -97,7 +97,7 @@
     "quartz",
     "ender_pearl"
   ],
-  "priorityOverrides": {},
+  "priorityOverrides": {"c:salt_dusts": "bewitchment"},
   "ignoredTags": [
     "minecraft:stairs",
     "minecraft:slabs",
