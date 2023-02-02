@@ -150,7 +150,8 @@
     "ad_astra:venus_coal_ore",
     "farmersdelight:cabbage",
     "minecraft:waxed_copper_block",
-    "minecraft:waxed_cut_copper"
+    "minecraft:waxed_cut_copper",
+    "tinycoal:tinycharcoal"
 
   ],
   "ignoredRecipeTypes": [],
