@@ -43,4 +43,19 @@ ServerEvents.recipes(event => {
     ], {
         A: 'minecraft:terracotta',
       })
+
+      const recipes = [
+        {
+          output: 'blockus:polished_deepslate_button',
+          pattern: ['AA'],
+          key: {
+            A: 'minecraft:polished_deepslate',
+        },
+          id: 'blockus:polished_deepslate_button'
+        }
+        ];
+        
+        recipes.forEach((recipe) => {
+        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
+         });
   });
