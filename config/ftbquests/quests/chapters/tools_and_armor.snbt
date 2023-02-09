@@ -70,8 +70,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -160,8 +160,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -235,8 +235,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -278,8 +278,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -327,8 +327,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Loot: "aof:loot_bags/ind_rev/rare"
 						Name: "Industrial Revolution Rare Lootbag"
+						Loot: "aof:loot_bags/ind_rev/rare"
 					}
 				}
 			}]
@@ -382,8 +382,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/common"
 						Name: "Tech Reborn Common Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/common"
 					}
 				}
 			}]
@@ -427,8 +427,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -472,8 +472,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/epic"
 						Name: "Tech Reborn Epic Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/epic"
 					}
 				}
 			}]
@@ -516,8 +516,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -530,8 +530,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Loot: "aof:loot_bags/ind_rev/rare"
 							Name: "Industrial Revolution Rare Lootbag"
+							Loot: "aof:loot_bags/ind_rev/rare"
 						}
 					}
 				}
@@ -558,8 +558,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -627,8 +627,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -661,8 +661,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -694,8 +694,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -736,8 +736,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -779,8 +779,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -820,8 +820,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Loot: "aof:loot_bags/tech_reborn/rare"
 						Name: "Tech Reborn Rare Lootbag"
+						Loot: "aof:loot_bags/tech_reborn/rare"
 					}
 				}
 			}]
@@ -883,8 +883,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -927,41 +927,25 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
 		}
 		{
-			title: "Medieval Weapons"
+			title: "&6Simply Swords"
 			x: 8.0d
 			y: 2.5d
 			subtitle: "Songs of War!"
 			description: [
-				"- &bDagger"
-				"&6Extra damage while sneaking/invisible."
+				"&b- Weapon Variants"
+				"14+ unique weapon variants, each with differing playstyles and attack animations."
 				""
-				"- &bLongsword"
-				"&6Ability to block attacks."
+				"&b- Artifact Weapons"
+				"Uncraftable, Rare, Powerful! Opening any chest throughout your journey, yields a chance to obtain unique weaponry with powerful abilities."
 				""
-				"- &bDouble Handed Axe"
-				"&6Basic sweeping damage + blocking."
-				""
-				"- &bHealing Staff"
-				"&6Heals the player itself and creates an aura for support."
-				""
-				"- &bLance"
-				"&6Extra damage while riding."
-				""
-				"- &bMace"
-				"&6Chance of stunning the enemy."
-				""
-				"- &bRapier"
-				"&6Chance of applying bleed effect on the enemy."
-				""
-				"- &bSickle"
-				"&6Scythes wheat?"
+				"&6Complete this quest by obtaining anything from Simply Swords."
 			]
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "39491A7F275A02BD"
@@ -972,7 +956,7 @@
 					id: "itemfilters:mod"
 					Count: 1b
 					tag: {
-						value: "medievalweapons"
+						value: "simplyswords"
 					}
 				}
 			}]
@@ -985,8 +969,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1019,8 +1003,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Loot: "aof:loot_bags/misc/artifacts"
 							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
 						}
 					}
 				}
@@ -1033,8 +1017,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
 							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
 						}
 					}
 				}
@@ -1067,8 +1051,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1135,8 +1119,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1168,8 +1152,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1236,8 +1220,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1268,8 +1252,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1343,8 +1327,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -1411,8 +1395,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -1490,8 +1474,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1536,8 +1520,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1603,8 +1587,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1670,8 +1654,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -1701,8 +1685,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -1732,8 +1716,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
@@ -1763,8 +1747,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]
@@ -1790,8 +1774,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1817,8 +1801,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1844,8 +1828,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1875,8 +1859,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1906,8 +1890,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1937,8 +1921,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1992,6 +1976,34 @@
 				id: "4C0079478B316F06"
 				type: "item"
 				item: "chiselsandbits:chiseled_printer"
+			}]
+		}
+		{
+			title: "Reforging"
+			x: -7.0d
+			y: -7.5d
+			subtitle: "Reforge your gear at the anvil for a better item tier."
+			description: [
+				"Reforging increases the luck for getting better item tiers."
+				""
+				"&bLeft Slot: &rTiering Item Material (if non exist, default flint."
+				""
+				"&bMiddle Slot: &rTiering Item"
+				""
+				"&bRight Slot: &rAmethyst Shard"
+			]
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "797B2D9A335E8CDD"
+			tasks: [{
+				id: "7143EC1A4778DA85"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+			rewards: [{
+				id: "6F9D821FB246D2C2"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+				count: 2
 			}]
 		}
 	]
