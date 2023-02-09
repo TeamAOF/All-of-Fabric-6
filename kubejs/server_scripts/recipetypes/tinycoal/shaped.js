@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
       key: {
         A: 'tinycoal:tinycoal',
     },
-      id: 'minecraft:coal'
+      id: 'aof:tiny_to_coal'
     },
     {
       output: 'minecraft:charcoal',
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
       key: {
         A: 'tinycoal:tinycharcoal',
     },
-      id: 'minecraft:charcoal'
+      id: 'aof:tiny_to_charcoal'
     }
   ];
 
