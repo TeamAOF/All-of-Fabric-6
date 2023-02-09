@@ -65,12 +65,11 @@ _Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Removed Mods
 
-  * [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
-  * [Lil' Wings](https://www.curseforge.com/minecraft/mc-mods/lil-wings)
-  * [MedievalWeapons](https://www.curseforge.com/minecraft/mc-mods/medievalweapons)
-  * [More Frogs - Fabric/Quilt/Forge](https://www.curseforge.com/minecraft/mc-mods/more-frogs-fabric)
-  * [ToolTipFix](https://www.curseforge.com/minecraft/mc-mods/tooltipfix)
-  * [Towers of the Wild: Additions](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-additions)
+  * [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions) (Issue with cut off tooltips, will be readded once fixed)
+  * [Lil' Wings](https://www.curseforge.com/minecraft/mc-mods/lil-wings) (Lag Issues)
+  * [MedievalWeapons](https://www.curseforge.com/minecraft/mc-mods/medievalweapons) (Replaced with Simply Swords)
+  * [More Frogs - Fabric/Quilt/Forge](https://www.curseforge.com/minecraft/mc-mods/more-frogs-fabric) (Lag Issues)
+  * [ToolTipFix](https://www.curseforge.com/minecraft/mc-mods/tooltipfix) (Replaced by Adaptive Tooltips)
 ---
 
 ### All of Fabric 6 | v1.3.0
