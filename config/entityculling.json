@@ -10,7 +10,7 @@
     "create:gantry_carriage"
   ],
   "entityWhitelist": [
-    "botania:mana_burst", "create:gantry_carriage"
+    "botania:mana_burst", "create:gantry_carriage", "minecells:elevator"
   ],
   "tracingDistance": 128,
   "debugMode": false,
