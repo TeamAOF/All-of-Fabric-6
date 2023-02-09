@@ -76,6 +76,17 @@ ServerEvents.recipes(event => {
         A: 'minecraft:stone_bricks',
       },
       id: 'supplementaries:stone_tile'
+    },
+
+    // Flute
+    {
+      output: 'supplementaries:flute',
+      pattern: ['B', 'A', 'A'],
+      key: {
+        A: 'minecraft:bamboo',
+        B: 'chimes:bamboo_chimes',
+      },
+      id: 'supplementaries:flute'
     }
   ];
 
