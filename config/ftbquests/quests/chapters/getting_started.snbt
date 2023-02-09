@@ -103,8 +103,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 5.5d
-			y: 4.5d
+			x: 5.0d
+			y: 4.0d
 			subtitle: "If you truly love nature, you will find beauty everywhere."
 			description: [
 				"Dont feel like &6running &rthousands of blocks for that favorite biome of yours?"
@@ -155,8 +155,8 @@
 		}
 		{
 			title: "&3Don't be a tourist, be a traveler"
-			x: 9.5d
-			y: 4.5d
+			x: 10.0d
+			y: 4.0d
 			subtitle: "Inventory cramped? Fear not!"
 			description: [
 				"The &bTraveler's Backpack &rcan provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
@@ -185,10 +185,49 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
+			}]
+		}
+		{
+			title: "&6Art of Combat"
+			icon: {
+				id: "simplyswords:stormbringer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.5d
+			y: 5.0d
+			subtitle: "Easy, spectacular and fun melee combat system."
+			description: [
+				"&b- Fancy attack animations"
+				"This mod includes several one-handed, two-handed and dual wielded attack animation resources."
+				""
+				"&b- Accurate weapon collision detection"
+				"No more pixel hunting with your cursor, you can now just swing your weapon and hit whatever is in the way. Enjoy playing in third person view."
+				""
+				"&b- Natural look and feel"
+				"Attacks have an upswing phase before the hit is actually performed, like in real life."
+				""
+				"&b- Weapon combos"
+				"Some weapons have a sequence of different attacks."
+				""
+				"&b- Dual wield any combination"
+				"Dual wield any set of one handed weapons! Use the attack hotkey to alternately attack with main-hand and off-hand."
+				""
+				"&b- Hold to attack"
+				"Hold the attack hotkey to spam attacks on cooldown."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "4D90C42B6E294337"
+			tasks: [{
+				id: "6186C900B11AF9C7"
+				type: "checkmark"
+				title: "Art Of Combat"
 			}]
 		}
 	]
