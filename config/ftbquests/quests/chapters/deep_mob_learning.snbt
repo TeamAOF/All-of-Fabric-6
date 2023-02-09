@@ -369,7 +369,7 @@
 			tasks: [{
 				id: "79866817A5588058"
 				type: "item"
-				item: "dmlsimulacrum:simulation_chamber"
+				item: "dml-refabricated:simulation_chamber"
 			}]
 			rewards: [{
 				id: "2604E932DD35A4D8"
