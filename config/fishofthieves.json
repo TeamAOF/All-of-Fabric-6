@@ -1,7 +1,8 @@
 {
   "general": {
     "trophyMaxHealth": 5.0,
-    "simpleSpawningCondition": false
+    "simpleSpawningCondition": false,
+    "displayAllFishVariantInCreativeTab": false
   },
   "spawnRate": {
     "trophyProbability": 0.15,

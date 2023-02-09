@@ -4,8 +4,7 @@
     "dispensers": true,
     "jar_tab": false,
     "custom_configured_screen": true,
-    "debug_save_dynamic_pack": false,
-    "pack_dependant_assets": true
+    "debug_save_dynamic_pack": false
   },
   "blocks": {
     "planter": true,
@@ -48,6 +47,7 @@
     "netherite_trapdoor": true,
     "lock_block": true,
     "flax": true,
+    "rope": true,
     "pulley_block": true,
     "fodder": true,
     "crimson_lantern": true,

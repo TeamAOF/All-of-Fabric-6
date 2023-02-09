@@ -1,3 +1,78 @@
+### All of Fabric 6 | v1.4.0 | Adventures & Combat Update
+
+_Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.0.md)_
+
+### Changes
+
+* Added back the Deep Mob Learning quest chapter.
+* Added new Simply Swords quest.
+* Added new Art of Combat quest.
+* Added new Reforging quest.
+* You'll now start with 6 hearts instead of 10, eat unique food to gain hearts.
+* You can now auto-swing all your weapons by holding attack button.
+* Removed earthworms drop from grass/dirt.
+* Soul elytra can now be placed in the trinkets elytra slot.
+* Minimum time required to sleep has been changed from 14500 > 12500.
+* Moved ad astra energy bar, now no longer overlaps the map.
+* Gear found through loot will now have a chance of getting random attributes added to them based on tier.
+
+### Fixes
+
+* An issue where cinnamon wouldnt drop from stripping logs using an axe.
+* An issue where tooltips would cut off when centered.
+* An issue where the mine cells elevator would go invis when culled.
+* An issue where the mining gadget wouldnt charge past 1 million.
+* Issues using the mechanical arm with an empty hand has been fixed.
+
+### Recipes
+
+* Salt has been unified towards bewitchment as MI variant cannot be used for rituals (You can convert MI salt to BW salt by putting it in crafting table).
+* Coffee beans has been unified towards respite variants.
+* The recipe for cooler has been changed, now mid-game. (https://i.imgur.com/5U07MYm.png)
+* All building wands has gotten new recipes.
+* Flute has gotten a new recipe to fix conflicts.
+* Polished deepslate button has gotten a new recipe to fix conflicts.
+* Fixed a conflict between grapevine stems and oak beams.
+* Fixed an issue where charcoal wouldnt output tiny charcoal in shapeless recipe.
+* Fixed cut copper block to copper ingot dupe.
+
+### Added Mods
+
+  * [Accelerated Decay](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay)
+  * [Adaptive Tooltips](https://www.curseforge.com/minecraft/mc-mods/adaptive-tooltips)
+  * [AutoTag](https://www.curseforge.com/minecraft/mc-mods/autotag)
+  * [Better Combat [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus)
+  * [Better Statistics Screen (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/better-stats)
+  * [Calibrated Access](https://www.curseforge.com/minecraft/mc-mods/calibrated)
+  * [Deep Mob Learning: Refabricated](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated)
+  * [Drink Beer Unofficial: Clockwerk Edition](https://www.curseforge.com/minecraft/mc-mods/drink-beer-unofficial-clockwerk-edition)
+  * [Farmer's Respite (Fabric)](https://www.curseforge.com/minecraft/mc-mods/farmers-respite-fabric)
+  * [Health Overlay (Fabric)](https://www.curseforge.com/minecraft/mc-mods/health-overlay-fabric)
+  * [Item Model Fix (Fabric)](https://www.curseforge.com/minecraft/mc-mods/item-model-fix)
+  * [Loot Integrations[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/loot-integrations)
+  * [playerAnimator](https://www.curseforge.com/minecraft/mc-mods/playeranimator)
+  * [Projectile Damage Attribute [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/projectile-damage-attribute)
+  * [Runes [Fabric]](https://www.curseforge.com/minecraft/mc-mods/rune-crafting)
+  * [Simply Swords [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/simply-swords)
+  * [So I heard you were talking crap about Minecraft's difficulty?](https://www.curseforge.com/minecraft/mc-mods/sihywtcamd)
+  * [Spell Engine](https://www.curseforge.com/minecraft/mc-mods/spell-engine)
+  * [Spell Power Attributes [Fabric]](https://www.curseforge.com/minecraft/mc-mods/spell-power)
+  * [Spice of Fabric (Fabric)](https://www.curseforge.com/minecraft/mc-mods/spice-of-fabric)
+  * [TieredZ](https://www.curseforge.com/minecraft/mc-mods/tieredz)
+  * [Towers of the Wild: Additional Additions](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-additional-additions)
+  * [VoidZ](https://www.curseforge.com/minecraft/mc-mods/voidz)
+  * [Wizards [Fabric]](https://www.curseforge.com/minecraft/mc-mods/wizards)
+
+### Removed Mods
+
+  * [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+  * [Lil' Wings](https://www.curseforge.com/minecraft/mc-mods/lil-wings)
+  * [MedievalWeapons](https://www.curseforge.com/minecraft/mc-mods/medievalweapons)
+  * [More Frogs - Fabric/Quilt/Forge](https://www.curseforge.com/minecraft/mc-mods/more-frogs-fabric)
+  * [ToolTipFix](https://www.curseforge.com/minecraft/mc-mods/tooltipfix)
+  * [Towers of the Wild: Additions](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-additions)
+---
+
 ### All of Fabric 6 | v1.3.0
 
 _Fabric Loader 0.14.12_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.3.0.md)_

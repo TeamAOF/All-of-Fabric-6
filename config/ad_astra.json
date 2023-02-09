@@ -13,7 +13,7 @@
   "oxygenBarXOffset": 0,
   "oxygenBarYOffset": 0,
   "energyBarXOffset": 0,
-  "energyBarYOffset": 0,
+  "energyBarYOffset": 85,
   "orbitGravity": 3.26,
   "oxygenDamage": 1,
   "freezeDamage": 1,

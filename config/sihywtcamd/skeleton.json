@@ -1,0 +1,19 @@
+{
+  "general": {
+    "fleeGoal": true,
+    "swimGoal": true
+  },
+  "skeleton": {
+    "spectralArrow": true
+  },
+  "stray": {
+    "betterSlowness": true,
+    "frozenArrows": true
+  },
+  "witherSkeleton": {
+    "baby": true,
+    "fireResistant": true,
+    "bow": true,
+    "netheriteSword": true
+  }
+}

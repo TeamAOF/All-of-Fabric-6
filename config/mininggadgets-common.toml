@@ -60,5 +60,5 @@
 		baseCost = 200
 		#Maximum power for the Mining Gadget
 		#Range: > 0
-		maxPower = 1000000
+		maxPower = 10000000
 

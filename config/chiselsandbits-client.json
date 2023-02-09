@@ -89,6 +89,7 @@
         "bit-storage-content-models": 100,
         "block-models": 10000,
         "block-faces": 1000000,
+        "cull-testing": 3500,
         "stack-models": 100
       }
     },

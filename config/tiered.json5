@@ -1,0 +1,15 @@
+{
+	// Items in for example mineshaft chests get modifiers
+	"lootContainerModifier": true,
+	// Decreases the biggest weights by this modifier
+	"reforge_modifier": 0.8999999761581421,
+	// Modify the biggest weights by this modifier per smithing level
+	"levelz_reforge_modifier": 0.009999999776482582,
+	// Modify the biggest weights by this modifier per luck
+	"luck_reforge_modifier": 0.019999999552965164,
+	"showReforgingTab": true,
+	"xIconPosition": 0,
+	"yIconPosition": 0,
+	"tieredTooltip": true,
+	"centerName": true
+}

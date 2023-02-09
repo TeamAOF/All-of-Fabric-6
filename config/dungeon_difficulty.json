@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "comment": "IMPORTANT! Make sure to set `override_with_default` to `false` to allow customization of the config",
+    "override_with_default": true,
+    "sanitize_config": true,
+    "rounding_unit": 0.5
+  },
+  "perPlayerDifficulty": {
+    "entities": [
+      {
+        "entity_matches": {
+          "attitude": "ANY",
+          "entity_id_regex": ".*"
+        },
+        "attributes": [
+          {
+            "attribute": "generic.attack_damage",
+            "value": 0.2
+          },
+          {
+            "attribute": "generic.max_health",
+            "value": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "dimensions": [
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:overworld"
+      },
+      "entities": [],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": "frozen|snowy|ice",
+            "biome_tag_regex": ".*"
+          },
+          "entities": [
+            {
+              "entity_matches": {
+                "attitude": "ANY",
+                "entity_id_regex": "stray|skeleton"
+              },
+              "attributes": [
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "MULTIPLY",
+                  "randomness": 0.25,
+                  "value": 1.25
+                },
+                {
+                  "attribute": "generic.armor",
+                  "operation": "ADD",
+                  "randomness": 0.0,
+                  "value": 4.0
+                }
+              ],
+              "experience_multiplier": 1.5
+            }
+          ],
+          "rewards": {
+            "armor": [],
+            "weapons": [
+              {
+                "item_matches": {
+                  "item_id_regex": "minecraft:bow",
+                  "loot_table_regex": ".*",
+                  "rarity_regex": ".*"
+                },
+                "attributes": [
+                  {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "MULTIPLY",
+                    "randomness": 0.0,
+                    "value": 1.3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "zone_matches": {
+            "biome_regex": "desert",
+            "biome_tag_regex": ".*"
+          },
+          "entities": [
+            {
+              "entity_matches": {
+                "attitude": "ANY",
+                "entity_id_regex": "skeleton"
+              },
+              "attributes": [
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "MULTIPLY",
+                  "randomness": 0.25,
+                  "value": 1.75
+                },
+                {
+                  "attribute": "generic.armor",
+                  "operation": "ADD",
+                  "randomness": 0.0,
+                  "value": 4.0
+                }
+              ],
+              "experience_multiplier": 1.5
+            },
+            {
+              "entity_matches": {
+                "attitude": "ANY",
+                "entity_id_regex": "husk"
+              },
+              "attributes": [
+                {
+                  "attribute": "generic.attack_damage",
+                  "operation": "MULTIPLY",
+                  "randomness": 0.0,
+                  "value": 1.5
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "MULTIPLY",
+                  "randomness": 0.5,
+                  "value": 2.0
+                }
+              ],
+              "experience_multiplier": 1.5
+            }
+          ],
+          "rewards": {
+            "armor": [],
+            "weapons": [
+              {
+                "item_matches": {
+                  "item_id_regex": ".*",
+                  "loot_table_regex": "chests/desert_pyramid",
+                  "rarity_regex": ".*"
+                },
+                "attributes": [
+                  {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY",
+                    "randomness": 0.0,
+                    "value": 1.3
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_nether"
+      },
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": ".*"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "MULTIPLY",
+              "randomness": 0.0,
+              "value": 1.5
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADD",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY",
+              "randomness": 0.1,
+              "value": 1.4
+            }
+          ],
+          "experience_multiplier": 2.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "blaze"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY",
+              "randomness": 0.0,
+              "value": 1.5
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADD",
+              "randomness": 0.0,
+              "value": 2.0
+            }
+          ],
+          "spawners": {
+            "spawn_range_multiplier": 1.0,
+            "spawn_count_multiplier": 2.0,
+            "max_nearby_entities_multiplier": 3.0,
+            "min_spawn_delay_multiplier": 0.5,
+            "max_spawn_delay_multiplier": 0.5,
+            "required_player_range_multiplier": 1.0
+          },
+          "experience_multiplier": 1.0
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY",
+                "randomness": 0.0,
+                "value": 1.2
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADD",
+                "randomness": 0.0,
+                "value": 2.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.attack_damage",
+                "operation": "MULTIPLY",
+                "randomness": 0.2,
+                "value": 1.3
+              },
+              {
+                "attribute": "projectile_damage:generic",
+                "operation": "MULTIPLY",
+                "randomness": 0.2,
+                "value": 1.3
+              }
+            ]
+          }
+        ]
+      },
+      "zones": []
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_end"
+      },
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^((?!dragon).)*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "MULTIPLY",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADD",
+              "randomness": 0.0,
+              "value": 4.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY",
+              "randomness": 0.2,
+              "value": 1.8
+            }
+          ],
+          "experience_multiplier": 3.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "dragon"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADD",
+              "randomness": 0.0,
+              "value": 10.0
+            }
+          ],
+          "experience_multiplier": 2.0
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY",
+                "randomness": 0.0,
+                "value": 1.5
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADD",
+                "randomness": 0.0,
+                "value": 4.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.attack_damage",
+                "operation": "MULTIPLY",
+                "randomness": 0.2,
+                "value": 1.8
+              },
+              {
+                "attribute": "projectile_damage:generic",
+                "operation": "MULTIPLY",
+                "randomness": 0.2,
+                "value": 1.8
+              }
+            ]
+          }
+        ]
+      },
+      "zones": []
+    },
+    {
+      "world_matches": {
+        "dimension_regex": ".*"
+      },
+      "entities": [],
+      "rewards": {
+        "armor": [],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": "rare"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.attack_damage",
+                "operation": "MULTIPLY",
+                "randomness": 0.0,
+                "value": 1.1
+              },
+              {
+                "attribute": "projectile_damage:generic",
+                "operation": "MULTIPLY",
+                "randomness": 0.0,
+                "value": 1.1
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": "epic"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.attack_damage",
+                "operation": "MULTIPLY",
+                "randomness": 0.0,
+                "value": 1.2
+              },
+              {
+                "attribute": "projectile_damage:generic",
+                "operation": "MULTIPLY",
+                "randomness": 0.0,
+                "value": 1.2
+              }
+            ]
+          }
+        ]
+      },
+      "zones": []
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+	/* Reroll item.  Pair an armor piece with Spoorn Armor Attributes on it with this item (vanilla or modded)
+	   in an Anvil to reroll attributes [default = minecraft:lapis_lazuli]
+	*/
+	"rerollItem": "minecraft:lapis_lazuli",
+	// Reroll level cost [default = 0]
+	"rerollLevelCost": 0,
+	/* Upgrade item.  Pair an armor piece with this item in an Anvil to roll bonus attributes and only adds
+	   stats onto the armor if it is an upgrade [default = minecraft:diamond]
+	*/
+	"upgradeItem": "minecraft:diamond",
+	// Upgrade level cost [default = 1]
+	"upgradeLevelCost": 1,
+	// Apply Attributes Automatically on Inventory Tick [default = true]
+	"applyOnInventoryTick": true,
+	// Bonus Max Health attribute config
+	"maxHealthConfig": {
+		// Chance for an armor item to add bonus max health [0 = never, 1 = always] [default = 0.05]
+		"attributeChance": 0.05,
+		/* Set to true to round bonus health to a whole number, so hearts are filled up nicely on the HUD [default = true]
+		   This means bonus health of +2.3 would round to just +2, or bonus health of +2.7 would round to +3
+		*/
+		"roundBonusHealth": true,
+		// Minimum bonus health [default = 1]
+		"minHealth": 1.0,
+		// Maximum bonus health [2 health is 1 heart] [default = 20.0]
+		"maxHealth": 20.0,
+		/* True if bonus health should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minHealth and maxHealth [default = true]
+		*/
+		"useGaussian": true,
+		// Average bonus health [default = 2]
+		"mean": 2,
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 2.5
+	},
+	// Damage Reduction attribute config
+	"dmgReductionConfig": {
+		/* Chance for an armor item to have damage reduction [0 = never, 1 = always] [default = 0.05]
+		   This applies damage reduction to the FINAL damage taken, which means after all other effects such as enchantments have applied.
+		   Note: damage reduction does not stack linearly, but rather exponential.  For example, if you
+		   	have one armor at 50% dmg reduction, and another at 50% dmg reduction, you don't have 100% dmg reduction.
+		   	Instead, it would reduce the final damage you take by 50% once, then 50% again effectively giving 75% dmg reduction.
+		*/
+		"attributeChance": 0.05,
+		// Minimum damage percentage [default = 2.5]
+		"minDmgReduction": 2.5,
+		// Maximum damage percentage] [default = 90]
+		"maxDmgReduction": 90.0,
+		/* True if damage reduction should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minDmgReduction and maxDmgReduction [default = true]
+		*/
+		"useGaussian": true,
+		// Average damage reduction rate [default = 5]
+		"mean": 5.0,
+		// Standard deviation for the distribution [default = 10]
+		"standardDeviation": 10.0
+	},
+	// Movement Speed boost attribute config
+	"movementSpeedConfig": {
+		/* Chance for an armor item to have movement speed boost [0 = never, 1 = always] [default = 0.05]
+		   Bonus movement speed is a percentage applied linearly, meaning each armor item adds a flat % movement speed
+		   from the original movement speed.  So if you have 4 armor items each 25%, you ultimately get 100% bonus movement speed.
+		   Note: The tooltip will show movementSpeed * 10, so it looks like a nicer integer value.
+		*/
+		"attributeChance": 0.05,
+		// Minimum movement speed boost percentage [default = 1]
+		"minSpeed": 1.0,
+		// Maximum movement speed boost percentage [default = 100]
+		"maxSpeed": 100.0,
+		/* True if movement speed boost should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minSpeed and maxSpeed [default = true]
+		*/
+		"useGaussian": true,
+		// Average movement speed boost [default = 5]
+		"mean": 5.0,
+		// Standard deviation for the distribution [default = 15]
+		"standardDeviation": 15.0
+	},
+	// Knockback Resistance attribute config
+	"knockbackResistanceConfig": {
+		/* Chance for an armor item to have knockback resistance [0 = never, 1 = always] [default = 0.05]
+		   Knockback Resistance is a rate from 0 to 1, where 1 means 100% knockback resistance, 0.5 means 50%.
+		   Note: The tooltip will show knockbackResistance * 100, so it looks like a nicer integer value.
+		*/
+		"attributeChance": 0.05,
+		// Minimum knockback resistance (this is a rate from 0 to 1) [default = 0.01]
+		"minKnockbackResistance": 0.01,
+		// Maximum knockback resistance (this is a rate from 0 to 1) [default = 0.25]
+		"maxKnockbackResistance": 0.25,
+		/* True if knockback resistance should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minKnockbackResistance and maxKnockbackResistance [default = true]
+		*/
+		"useGaussian": true,
+		// Average knockback resistance [default = 0.05]
+		"mean": 0.05,
+		// Standard deviation for the distribution [default = 0.1]
+		"standardDeviation": 0.1
+	},
+	// Thorns attribute config
+	"thornsConfig": {
+		/* Chance for an armor item to have thorns attribute. [0 = never, 1 = always] [default = 0.05]
+		   Thorns returns damage back to the attacker.
+		*/
+		"attributeChance": 0.05,
+		// Minimum thorns return damage percentage [default = 1]
+		"minReturnDmg": 1.0,
+		// Maximum thorns return damage percentage [default = 1000]
+		"maxReturnDmg": 1000.0,
+		/* True if thorns return damage percentage should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minReturnDmg and maxReturnDmg [default = true]
+		*/
+		"useGaussian": true,
+		// Average thorns return damage percentage [default = 5]
+		"mean": 5.0,
+		// Standard deviation for the distribution [default = 20]
+		"standardDeviation": 25.0
+	}
+}

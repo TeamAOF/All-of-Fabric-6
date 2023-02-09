@@ -1,0 +1,147 @@
+{
+	/* Reroll item.  Pair a weapon with Spoorn Weapon Attributes on it with this item (vanilla or modded)
+	   in an Anvil to reroll attributes [default = minecraft:lapis_lazuli]
+	*/
+	"rerollItem": "minecraft:lapis_lazuli",
+	// Reroll level cost [default = 0]
+	"rerollLevelCost": 0,
+	/* Upgrade item.  Pair a weapon with this item in an Anvil to roll bonus attributes and only adds
+	   stats onto the weapon if it is an upgrade [default = minecraft:diamond]
+	*/
+	"upgradeItem": "minecraft:diamond",
+	// Upgrade level cost [default = 1]
+	"upgradeLevelCost": 1,
+	// Apply Attributes Automatically on Inventory Tick [default = true]
+	"applyOnInventoryTick": true,
+	// Critical Hit attribute config
+	"critConfig": {
+		// Chance for a weapon to have critical hit property [0 = never, 1 = always] [default = 0.1]
+		"attributeChance": 0.1,
+		// Damage multiplier when critical hit [default = 2.5]
+		"critMultiplier": 2.5,
+		// Minimum crit chance [min = 0, max = 100] [default = 20]
+		"minCritChance": 20,
+		// Maximum crit chance [min = 0, max = 100] [default = 100]
+		"maxCritChance": 100,
+		/* True if crit chance should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minCritChance and maxCritChance [default = true]
+		*/
+		"useGaussian": true,
+		// Average crit chance [min = 0, max = 100] [default = 25]
+		"mean": 25,
+		// Standard deviation for the distribution [default = 20]
+		"standardDeviation": 20
+	},
+	// Fire attribute config
+	"fireConfig": {
+		// Chance for a weapon to have fire damage [0 = never, 1 = always] [default = 0.05]
+		"attributeChance": 0.05,
+		/* Expression for duration in seconds to set target on fire for based on damage
+		   (can just be a scalar value such as '5' for 5 seconds) [0 = don't set on fire] [default = (damage+7)/2]
+		*/
+		"fireDuration": "(damage+7)/2",
+		// Minimum bonus damage [default = 1.0]
+		"minDamage": 1.0,
+		// Maximum bonus damage [default = 30.0]
+		"maxDamage": 30.0,
+		/* True if damage should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minDamage and maxDamage [default = true]
+		*/
+		"useGaussian": true,
+		// Average damage [default = 1]
+		"mean": 1,
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 2.5
+	},
+	// Cold attribute config
+	"coldConfig": {
+		// Chance for a weapon to have cold damage [0 = never, 1 = always] [default = 0.05]
+		"attributeChance": 0.05,
+		// Expression for duration in seconds to slow target [0 = don't slow] [default = (damage+7)/2]
+		"slowDuration": "(damage+7)/2",
+		// Expression for duration in seconds to add frozen effect to target (deals damage over time) [0 = don't freeze] [default = (damage+7)/2]
+		"freezeDuration": "(damage+7)/2",
+		// Minimum bonus damage [default = 1.0]
+		"minDamage": 1.0,
+		// Maximum bonus damage [default = 30.0]
+		"maxDamage": 30.0,
+		/* True if damage should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minDamage and maxDamage [default = true]
+		*/
+		"useGaussian": true,
+		// Average damage [default = 1]
+		"mean": 1,
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 2.5
+	},
+	// Lightning attribute config
+	"lightningConfig": {
+		// Chance for a weapon to have lightning damage [0 = never, 1 = always] [default = 0.03]
+		"attributeChance": 0.03,
+		// Chance to strike the target with lightning [0 = no lightning strikes] [default = 0.5]
+		"lightningStrikeChance": 0.5,
+		// Minimum bonus damage [default = 1.0]
+		"minDamage": 1.0,
+		// Maximum bonus damage [default = 30.0]
+		"maxDamage": 30.0,
+		/* True if damage should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minDamage and maxDamage [default = true]
+		*/
+		"useGaussian": true,
+		// Average damage [default = 1]
+		"mean": 1,
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 2.5
+	},
+	// Poison attribute config
+	"poisonConfig": {
+		// Chance for a weapon to have poison damage [0 = never, 1 = always] [default = 0.05]
+		"attributeChance": 0.05,
+		// Expression for duration in seconds to poison target [0 = don't poison] [default = (damage+17)/2]
+		"poisonDuration": "(damage+17)/2",
+		// Minimum bonus damage [default = 1.0]
+		"minDamage": 1.0,
+		// Maximum bonus damage [default = 30.0]
+		"maxDamage": 30.0,
+		/* True if damage should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minDamage and maxDamage [default = true]
+		*/
+		"useGaussian": true,
+		// Average damage [default = 1]
+		"mean": 1,
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 2.5
+	},
+	// Lifesteal attribute config
+	"lifestealConfig": {
+		// Chance for a weapon to have lifesteal [0 = never, 1 = always] [default = 0.02]
+		"attributeChance": 0.02,
+		// Minimum lifesteal percentage [default = 1]
+		"minLifesteal": 1,
+		// Maximum lifesteal percentage [default = 100]
+		"maxLifesteal": 100,
+		/* True if damage should be calculated using a Gaussian distribution, else it will be a linearly random
+		   value between the minDamage and maxDamage [default = true]
+		*/
+		"useGaussian": true,
+		// Average lifesteal [default = 5]
+		"mean": 5,
+		// Standard deviation for the distribution [default = 10]
+		"standardDeviation": 10
+	},
+	// Explosive attribute config
+	"explosiveConfig": {
+		/* Chance for a weapon to be Explosive [0 = never, 1 = always] [default = 0.02]
+		   The explosion by default does not hurt other players.
+		*/
+		"attributeChance": 0.02,
+		// Chance for each attack to cause an explosion [0 = never, 1 = always] [default = 1.0]
+		"explosionChance": 1.0,
+		// Power of explosion, affects the radius of explosion [default = 2.0]
+		"explosionPower": 2.0,
+		// True if explosions should cause fires, else false [default = false]
+		"causeFires": false,
+		// True if explosions should break blocks [default = false]
+		"breakBlocks": false
+	}
+}

@@ -212,7 +212,8 @@
     "zombie_horse": {
       "zombie_horse_conversion": true,
       "rotten_flesh": 64,
-      "rideable_underwater": true
+      "rideable_underwater": true,
+      "zombie_horse_inverse_conversion": true
     }
   },
   "items": {
@@ -220,7 +221,8 @@
       "use_without_slow": true,
       "slots": 6,
       "quiver_skeleton_chance": 0.2,
-      "only_works_in_curio": false
+      "only_works_in_curio": false,
+      "quiver_pickup": true
     },
     "bubble_blower": {
       "stasis_cost": 5

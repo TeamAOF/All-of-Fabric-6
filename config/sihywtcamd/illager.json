@@ -1,0 +1,20 @@
+{
+  "pillager": {
+    "moreEnchants": true,
+    "speedBonus": true
+  },
+  "vindicator": {
+    "spawnInPatrols": true,
+    "speedBonus": true
+  },
+  "evoker": {
+    "stopArrows": true,
+    "increasedHealth": true
+  },
+  "illusionerInMansions": true,
+  "ravagerInPatrols": true,
+  "witch": {
+    "fleeGoal": true,
+    "moreSpawn": true
+  }
+}

@@ -34,7 +34,7 @@
 	#Range: 1.0 ~ 3.4028234663852886E38
 	filterItemRenderDistance = 10.0
 	#.
-	#Show colourful debug information while the F3-Menu is open.
+	#Show kinetic debug information on blocks while the F3-Menu is open.
 	enableRainbowDebug = true
 	#.
 	#Vertical offset for the Toolbox Hotbar overlay.
@@ -91,6 +91,9 @@
 		#How far away the Camera should zoom when seated on a train
 		#Range: 0.0 ~ 3.4028234663852886E38
 		mountedZoomMultiplier = 3.0
+		#.
+		#Display nodes and edges of a Railway Network while f3 debug mode is active
+		showTrackGraphOnF3 = false
 
 	#.
 	#Settings for the Goggle Overlay
