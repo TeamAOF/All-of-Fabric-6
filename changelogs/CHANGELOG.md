@@ -9,6 +9,7 @@ _Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Botania weapons will no longer use Better Combat due to incompatibility with special attacks.
 * Increased energy costs using Deep Mob Learning.
 * Lowered chances of all types pristine.
+* Made chiseled bits collapsible in REI.
 
 ### Fixes
 
