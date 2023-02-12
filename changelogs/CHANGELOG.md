@@ -1,3 +1,21 @@
+### All of Fabric 6 | v1.4.2
+
+_Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.2.md)_
+
+### Changes
+
+* Crafted gear/tools will no longer have a tier/modifier applied.
+* Added new boss bars for (ender dragon, wither & raids)
+* Botania weapons will no longer use Better Combat due to incompatibility with special attacks.
+* Increased energy costs using Deep Mob Learning.
+* Lowered chances of all types pristine.
+
+### Fixes
+
+* An issue where the simulation chamber would put servers into a crashing loop if loaded.
+* An issue where looking at certain tooltips having the tier attributes would crash your game.
+---
+
 ### All of Fabric 6 | v1.4.1
 
 _Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.1.md)_

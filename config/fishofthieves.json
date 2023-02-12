@@ -2,7 +2,9 @@
   "general": {
     "trophyMaxHealth": 5.0,
     "simpleSpawningCondition": false,
-    "displayAllFishVariantInCreativeTab": false
+    "neutralFishBehavior": false,
+    "displayAllFishVariantInCreativeTab": false,
+    "dropAndPickFishesWithVariant": false
   },
   "spawnRate": {
     "trophyProbability": 0.15,

@@ -1,0 +1,30 @@
+{
+    "providers": [
+	
+	{ "type": "bitmap",
+            "file": "minecraft:font/frostmaw.png",
+            "ascent": 13, "height": 52,
+            "chars": ["\uE905"]
+        },
+	{ "type": "bitmap",
+            "file": "minecraft:font/ferrous.png",
+            "ascent": 13, "height": 52,
+            "chars": ["\uE904"]
+        },
+	{ "type": "bitmap",
+            "file": "minecraft:font/raid.png",
+            "ascent": 13, "height": 52,
+            "chars": ["\uE903"]
+        },
+	{ "type": "bitmap",
+            "file": "minecraft:font/wither.png",
+            "ascent": 13, "height": 52,
+            "chars": ["\uE906"]
+        },
+	{ "type": "bitmap",
+            "file": "minecraft:font/enderdragon.png",
+            "ascent": 13, "height": 52,
+            "chars": ["\uE907"]
+        }
+    ]
+}

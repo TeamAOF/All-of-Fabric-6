@@ -98,20 +98,20 @@
     "extraterrestrialMatterXP": 20
   },
   "pristineChance": {
-    "basic": 5,
-    "advanced": 11,
-    "superior": 24,
-    "self_aware": 42
+    "basic": 4,
+    "advanced": 8,
+    "superior": 20,
+    "self_aware": 35
   },
   "energyCost": {
-    "nether": 300,
-    "slimy": 160,
-    "overworld": 100,
-    "zombie": 300,
-    "skeleton": 80,
-    "end": 512,
-    "ghost": 372,
-    "illager": 412,
-    "ocean": 160
+    "nether": 500,
+    "slimy": 360,
+    "overworld": 300,
+    "zombie": 500,
+    "skeleton": 180,
+    "end": 712,
+    "ghost": 572,
+    "illager": 612,
+    "ocean": 360
   }
 }

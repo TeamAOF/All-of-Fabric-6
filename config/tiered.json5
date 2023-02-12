@@ -1,6 +1,10 @@
 {
 	// Items in for example mineshaft chests get modifiers
 	"lootContainerModifier": true,
+	// Crafted items get modifiers
+	"craftingModifier": false,
+	// Merchant items get modifiers
+	"merchantModifier": true,
 	// Decreases the biggest weights by this modifier
 	"reforge_modifier": 0.8999999761581421,
 	// Modify the biggest weights by this modifier per smithing level

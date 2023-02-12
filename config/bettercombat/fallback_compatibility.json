@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "blacklist_item_id_regex": "pickaxe|farmersdelight",
+  "blacklist_item_id_regex": "pickaxe|farmersdelight|botania",
   "fallback_compatibility": [
     {
       "item_id_regex": "claymore|great_sword|greatsword",
