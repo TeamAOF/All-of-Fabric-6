@@ -3,7 +3,7 @@
   "ghastIncreasedHealth": true,
   "magmaCubeFireCollision": true,
   "piglin": {
-    "goldenArmor": 4,
+    "goldenArmor": 1,
     "rideHoglin": true
   }
 }

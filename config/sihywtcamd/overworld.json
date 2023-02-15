@@ -9,9 +9,9 @@
     "chainExplosions": true
   },
   "phantom": {
-    "throughBlocks": true,
+    "throughBlocks": false,
     "lightFear": true,
-    "translucent": true
+    "translucent": false
   },
   "slime": {
     "biggerSize": true,

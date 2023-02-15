@@ -1,5 +1,5 @@
 {
-  "endermanBlindness": true,
-  "shulkerBlindness": true,
+  "endermanBlindness": false,
+  "shulkerBlindness": false,
   "endermiteInChorus": true
 }
