@@ -32,8 +32,8 @@ _Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Added Mods
 
-* [Hexal](https://www.curseforge.com/minecraft/mc-mods/hexal) (by [talistan0](https://www.curseforge.com/members/talistan0/projects))
-* [Rebind Narrator](https://www.curseforge.com/minecraft/mc-mods/rebind-narrator) (by [quat1024](https://www.curseforge.com/members/quat1024/projects))
+* [Hexal](https://www.curseforge.com/minecraft/mc-mods/hexal)
+* [Rebind Narrator](https://www.curseforge.com/minecraft/mc-mods/rebind-narrator)
 * [XL Packets Fabric](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric)
 
 ### Removed Mods
