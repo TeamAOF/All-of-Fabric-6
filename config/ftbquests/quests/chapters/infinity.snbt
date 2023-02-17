@@ -189,6 +189,9 @@
 				""
 				"&bConjunctivius:"
 				"Can be found in the Mine Cells dimension (See Adventurer quest chapter)."
+				""
+				"&bVoid Shadow:"
+				"A new dimension where you will find and fight the Void Shadow."
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "1F0EE1298663FE88"
@@ -315,6 +318,13 @@
 					type: "kill"
 					icon: "botania:gaia_head"
 					entity: "botania:doppleganger"
+					value: 1L
+				}
+				{
+					id: "51F87D8C62041F73"
+					type: "kill"
+					icon: "fwaystones:void_totem"
+					entity: "adventurez:void_shadow"
 					value: 1L
 				}
 			]

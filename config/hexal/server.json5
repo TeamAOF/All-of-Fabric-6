@@ -1,0 +1,42 @@
+{
+	"generateSlipwayGeodes": true,
+	"miscSpells": {
+		"fallingBlockCost": 1.5,
+		"freezeCost": 1.0,
+		"particlesCost": 0.01,
+		"placeTypeCost": 0.125,
+		"smeltCost": 0.75
+	},
+	"wispSpells": {
+		"moveSpeedSetCost": 1.0,
+		"summonTickingWispCost": 3.0,
+		"summonProjectileWispCost": 1.7,
+		"summonProjectileWispMinCost": 0.5
+	},
+	"wispUpkeep": {
+		"storingPlayerCostScaleFactor": 1.0,
+		"tickingWispUpkeepPerTick": 0.0325,
+		"projectileWispUpkeepPerTick": 0.01625,
+		"untriggeredWispUpkeepDiscount": 0.77,
+		"linkUpkeepPerTick": 5.0E-4,
+		"seonDiscountFactor": 20.0
+	},
+	"linkSpells": {
+		"linkCost": 5.0,
+		"sendIotaCost": 0.01,
+		"unlinkCost": 2.0
+	},
+	"gateSpells": {
+		"makeGateCost": 320.0,
+		"markGateCost": 0.05,
+		"closeGateCost": 2.5
+	},
+	"greatSpells": {
+		"consumeWispOwnCost": 5.0,
+		"consumeWispOthersCostPerMedia": 1.5,
+		"seonWispSetCost": 50.0,
+		"tickConstantCost": 0.1,
+		"tickCostPerTicked": 0.001,
+		"tickRandomTickIProb": 1365
+	}
+}

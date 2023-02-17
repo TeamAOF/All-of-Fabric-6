@@ -1991,6 +1991,8 @@
 				"&bMiddle Slot: &rTiering Item"
 				""
 				"&bRight Slot: &rAmethyst Shard"
+				""
+				"Has to be &6fully repaired &rbefore able to be reforged,"
 			]
 			dependencies: ["25B6D9950B1CF03C"]
 			id: "797B2D9A335E8CDD"

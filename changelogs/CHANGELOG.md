@@ -1,3 +1,48 @@
+### All of Fabric 6 | v1.4.3
+
+_Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.3.md)_
+
+### Changes
+
+* Minimum ticks between two attacks has been increased from 2 to 7.
+* Increased target search range multiplier from 2 to 3.5.
+* Decreased upswing multiplier by 25%.
+* Allow botania axes & swords (except terra blade, starcaller & thundercaller) to be used with Better Combat.
+* Blacklisted wither & ender dragon from WAILA.
+* Increased starting health (hearts) from 6 to 10.
+* Spiders no longer shoot web.
+* Enderman & shulker no longer inflict blindness.
+* Pillagers & vindicators no longer has a chance of speed bonus.
+* Changed the minimum amount of golden armor equipped needed for neutral piglins from 4 to 1.
+* Phantoms can no longer phase through blocks.
+* Phantoms no longer turns translucent.
+* Added a carrot mode quest.
+* Disabled natural spawns of guardians.
+* Clarified reforging quest on needing fully repaired input to work.
+* Dungeons will now spawn more sparsely.
+* Added voidz entry to boss rush quest.
+
+### Fixes
+
+* An issue where the supplementaries quiver would write to empty stack making the nbt data huge.
+* An issue where create fluid pipes would crash the server.
+* An issue where RS compat datapacks would be loaded incorrectly.
+* Performance issues with botany pots.
+* Fixes for packet limit errors.
+
+### Added Mods
+
+* [Hexal](https://www.curseforge.com/minecraft/mc-mods/hexal) (by [talistan0](https://www.curseforge.com/members/talistan0/projects))
+* [Rebind Narrator](https://www.curseforge.com/minecraft/mc-mods/rebind-narrator) (by [quat1024](https://www.curseforge.com/members/quat1024/projects))
+* [XL Packets Fabric](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric)
+
+### Removed Mods
+
+* [Extra Thicc Packets](https://www.curseforge.com/minecraft/mc-mods/extra-thicc-packets)
+* [MoreBeeInfo](https://www.curseforge.com/minecraft/mc-mods/morebeeinfo)
+* [Snowy Spirit](https://www.curseforge.com/minecraft/mc-mods/snowy-spirit)
+---
+
 ### All of Fabric 6 | v1.4.2
 
 _Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.2.md)_

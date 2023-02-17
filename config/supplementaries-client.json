@@ -3,6 +3,9 @@
     "globe": {
       "random_world": true
     },
+    "notice_board": {
+      "centered_text": true
+    },
     "clock_block": {
       "24h_format": true
     },
@@ -71,6 +74,7 @@
     "config_button": false,
     "tooltip_hints": true,
     "placeable_tooltips": true,
+    "custom_configured_screen": true,
     "test1": 0.0,
     "test2": 0.0,
     "test3": 0.0
@@ -82,6 +86,7 @@
     "compass_right_click": false,
     "placeable_books_glint": false,
     "banner_pattern_tooltip": true,
+    "paintings_tooltip": true,
     "mob_head_shaders": true
   },
   "items": {

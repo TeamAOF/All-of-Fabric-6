@@ -22,7 +22,7 @@
     "naturalSpawnDarkForest": true
   },
   "guardian": {
-    "naturalSpawn": true,
+    "naturalSpawn": false,
     "silentKill": true
   }
 }

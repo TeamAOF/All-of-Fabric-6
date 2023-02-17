@@ -9,7 +9,9 @@
     "minecraft:experience_orb",
     "minecraft:fireball",
     "minecraft:firework_rocket",
-    "minecraft:snowball"
+    "minecraft:snowball",
+    "minecraft:wither",
+    "minecraft:ender_dragon"
   ],
   "configVersion": 0,
   "pluginHash": [

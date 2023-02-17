@@ -200,7 +200,7 @@
 					Damage: 0
 				}
 			}
-			x: 7.5d
+			x: 8.5d
 			y: 5.0d
 			subtitle: "Easy, spectacular and fun melee combat system."
 			description: [
@@ -228,6 +228,25 @@
 				id: "6186C900B11AF9C7"
 				type: "checkmark"
 				title: "Art Of Combat"
+			}]
+		}
+		{
+			title: "&6Carrot Mode"
+			icon: "minecraft:carrot"
+			x: 6.5d
+			y: 5.0d
+			subtitle: "Through eating diverse foods you unlock more hearts."
+			dependencies: ["175F5611FB7716A4"]
+			id: "2053C2EB9BE831AD"
+			tasks: [{
+				id: "4EB555F43B761736"
+				type: "checkmark"
+				title: "Carrot Mode"
+			}]
+			rewards: [{
+				id: "6763E838B1A44FFB"
+				type: "item"
+				item: "gofish:carrot_carp"
 			}]
 		}
 	]
