@@ -27,6 +27,10 @@
       "enabled": true,
       "rotate_entities": true
     },
+    "pulley_block": {
+      "enabled": true,
+      "mineshaft_elevator": 0.02
+    },
     "wind_vane": true,
     "clock_block": true,
     "redstone_illuminator": true,
@@ -38,10 +42,9 @@
     "lock_block": true,
     "dispenser_minecart": true,
     "crystal_display": true,
-    "relayer": true,
-    "pulley_block": true
+    "relayer": true
   },
-  "utilities": {
+  "functional": {
     "rope": {
       "enabled": true,
       "block_side_attachment": true,
@@ -57,18 +60,6 @@
       "jar_capture": true,
       "jar_cookies": true,
       "jar_liquids": true
-    },
-    "hourglass": {
-      "enabled": true,
-      "sugar_time": 40,
-      "sand_time": 70,
-      "concrete_time": 105,
-      "dust_time": 150,
-      "glowstone_time": 190,
-      "blaze_powder_time": 277,
-      "redstone_time": 400,
-      "slime_time": 1750,
-      "honey_time": 2000
     },
     "cage": {
       "enabled": true,

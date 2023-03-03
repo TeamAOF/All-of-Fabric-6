@@ -10,7 +10,7 @@
 	quests: [
 		{
 			icon: "xps:block_xp_obelisk"
-			x: -5.0d
+			x: -5.5d
 			y: -5.5d
 			subtitle: "Enchanting Efficiency"
 			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
@@ -44,7 +44,7 @@
 			]
 		}
 		{
-			x: -9.0d
+			x: -8.5d
 			y: -5.5d
 			subtitle: "Everlasting Longevity!"
 			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
@@ -70,8 +70,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -160,8 +160,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -235,8 +235,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -278,8 +278,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Name: "Tech Reborn Epic Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/epic"
+						Name: "Tech Reborn Epic Lootbag"
 					}
 				}
 			}]
@@ -327,8 +327,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 8090608
-						Name: "Industrial Revolution Rare Lootbag"
 						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
 					}
 				}
 			}]
@@ -346,7 +346,7 @@
 		{
 			title: "Basic Tools"
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 			description: [
 				"Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block."
 				""
@@ -382,8 +382,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 3706623
-						Name: "Tech Reborn Common Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
 					}
 				}
 			}]
@@ -391,7 +391,7 @@
 		{
 			title: "Advanced Tools"
 			x: 3.0d
-			y: 0.0d
+			y: -0.5d
 			description: [
 				"Advanced Drill is an advanced version of Basic Drill and works same as Diamond Pickaxe or Diamond Shovel."
 				""
@@ -427,8 +427,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Name: "Tech Reborn Rare Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
 					}
 				}
 			}]
@@ -436,7 +436,7 @@
 		{
 			title: "Industrial Tools"
 			x: 3.0d
-			y: 1.0d
+			y: 0.5d
 			description: [
 				"Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. "
 				""
@@ -472,8 +472,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 3706623
-						Name: "Tech Reborn Epic Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/epic"
+						Name: "Tech Reborn Epic Lootbag"
 					}
 				}
 			}]
@@ -481,7 +481,7 @@
 		{
 			title: "Mining Drills"
 			x: -3.0d
-			y: 1.0d
+			y: -1.5d
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "2206B744E74F22FF"
 			tasks: [
@@ -516,8 +516,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -530,8 +530,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 8090608
-							Name: "Industrial Revolution Rare Lootbag"
 							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
 						}
 					}
 				}
@@ -539,7 +539,7 @@
 		}
 		{
 			x: -3.0d
-			y: 0.0d
+			y: 0.5d
 			subtitle: "Universal tool that combines Pickaxe, Axe, Showel, Sheers and even Sword in one simple rod."
 			description: ["Its mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
 			dependencies: ["300FAC6161C1BCDB"]
@@ -558,8 +558,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Name: "Tech Reborn Rare Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
 					}
 				}
 			}]
@@ -627,8 +627,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -661,8 +661,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -694,8 +694,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -736,8 +736,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -779,8 +779,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -820,8 +820,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 3706623
-						Name: "Tech Reborn Rare Lootbag"
 						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
 					}
 				}
 			}]
@@ -883,8 +883,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -892,7 +892,7 @@
 		{
 			title: "Charms"
 			x: -3.0d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "A practice or expression believed to have magic powers."
 			description: [
 				"The portal charm will allow the wearer to walk through portals instantly."
@@ -927,8 +927,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -969,8 +969,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1003,8 +1003,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16103753
-							Name: "Artifact Lootbag"
 							Loot: "aof:loot_bags/misc/artifacts"
+							Name: "Artifact Lootbag"
 						}
 					}
 				}
@@ -1017,8 +1017,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -1051,8 +1051,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1119,8 +1119,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1152,8 +1152,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1220,8 +1220,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1252,8 +1252,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1327,8 +1327,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1395,8 +1395,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1474,8 +1474,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -1520,8 +1520,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1587,8 +1587,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1654,8 +1654,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -1685,8 +1685,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -1716,8 +1716,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -1747,15 +1747,15 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
 		}
 		{
-			x: 5.0d
-			y: -5.0d
+			x: -1.5d
+			y: -4.5d
 			subtitle: "Dirty Stick MK II"
 			description: ["This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost."]
 			dependencies: ["0ECC48E2B41D4078"]
@@ -1774,15 +1774,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 6.5d
-			y: -4.5d
+			x: 0.0d
+			y: -4.0d
 			subtitle: "Keep the ocean clean!"
 			description: ["Just like the Rod of the Land, the Rod of the Seas will allow you to use mana to place water source blocks."]
 			dependencies: ["0ECC48E2B41D4078"]
@@ -1801,15 +1801,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 8.0d
-			y: -5.0d
+			x: 1.5d
+			y: -4.5d
 			subtitle: "Smoothing Brush in Survival"
 			description: ["The Rod of the Terra Firm is a useful tool for terraforming that allows you to flatten the ground and bring the elevation of the ground closer to your level"]
 			dependencies: ["0ECC48E2B41D4078"]
@@ -1828,15 +1828,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 8.0d
-			y: -7.0d
+			x: 1.5d
+			y: -6.5d
 			subtitle: "Shift your block of choice."
 			description: [
 				"The Rod of the Shifting Crust is an incredibly useful tool that allows you to swap blocks on a surface with other blocks from your inventory."
@@ -1859,15 +1859,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 6.5d
-			y: -8.0d
+			x: 0.0d
+			y: -7.5d
 			subtitle: "It's cobbling time!"
 			description: [
 				"Much like the Rod of the Lands, this rod allows you to place Cobblestone by consuming mana."
@@ -1890,15 +1890,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 5.0d
-			y: -7.5d
+			x: -1.5d
+			y: -7.0d
 			subtitle: "Dirty Stick"
 			description: [
 				"A simple tool that allows you to place dirt blocks using mana."
@@ -1921,15 +1921,15 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
 					}
 				}
 			}]
 		}
 		{
-			x: 6.476190476190482d
-			y: -6.214285714285715d
+			x: -0.023809523809518396d
+			y: -5.714285714285715d
 			id: "0ECC48E2B41D4078"
 			tasks: [{
 				id: "7A35F0C8B2C0B1D1"
@@ -1938,8 +1938,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -6.5d
+			x: 6.5d
+			y: -5.5d
 			subtitle: "Blocks as far as the eye can see!"
 			description: ["There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"]
 			id: "30023016124CD227"
@@ -1951,8 +1951,8 @@
 		}
 		{
 			title: "Chisels and Bits"
-			x: 0.0d
-			y: -5.0d
+			x: 8.0d
+			y: -5.5d
 			subtitle: "Sculpture the world!"
 			description: [
 				"Remove small bits from blocks using chisels."
@@ -1981,7 +1981,7 @@
 		{
 			title: "Reforging"
 			x: -7.0d
-			y: -7.5d
+			y: -7.0d
 			subtitle: "Reforge your gear at the anvil for a better item tier."
 			description: [
 				"Reforging increases the luck for getting better item tiers."
@@ -2006,6 +2006,160 @@
 				type: "item"
 				item: "minecraft:amethyst_shard"
 				count: 2
+			}]
+		}
+		{
+			title: "Chipped"
+			x: 5.0d
+			y: -5.5d
+			subtitle: "Dictionary of Blocks!"
+			dependencies: ["30023016124CD227"]
+			id: "02E965F8A539974E"
+			tasks: [
+				{
+					id: "4C5194D4711FB366"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+				{
+					id: "7A50F12A3184DC0C"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "65658F8D7D833492"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "6A906A81EDACB027"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "16DF97732538F4F7"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "47030C28F6FE2AFC"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "5068B74B183F6031"
+					type: "item"
+					item: "chipped:tinkering_table"
+				}
+			]
+			rewards: [
+				{
+					id: "62C9EB7CD0E9793D"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "762E2B8CDC0E0967"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+					count: 3
+				}
+				{
+					id: "1AA08DD43F50EB66"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Gadgets Against Grind"
+			x: -3.0d
+			y: 1.5d
+			subtitle: "With a hint of laziness."
+			description: [
+				"&nThis mod offers the following items:"
+				""
+				"&6- &bEscape Rope"
+				"A way to easily teleport your way out of caves."
+				""
+				"&6- &bEnergized Hearthstone"
+				"A way to teleport to your personal respawn anchor or bed (Hearthstone) or any set location in the world!"
+				""
+				"&6- &bNo Soliciting! Sign"
+				"A way to block certain pesky intruders from spawning near you."
+				""
+				"&6- &bTemporal Pouch"
+				"A way to tick accelerate blocks, Time-in-a-Bottle style."
+				""
+				"&6- &bSacred Salt, Balm and Salve"
+				"A way to stop mobs from spawning near you temporarily, enabling you to mine in peace."
+				""
+				"&6- &bLabeling Tool"
+				"A way to rename your items on the go without consuming tons of experience."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "2CF0F42113C98D62"
+			tasks: [{
+				id: "62A9D698CC370BEE"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "gag"
+					}
+				}
+			}]
+			rewards: [{
+				id: "082DE961EAB1AF5A"
+				type: "item"
+				item: "luggage:luggage"
+			}]
+		}
+		{
+			title: "Mining Gadgets"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "A quick change of pace in mining."
+			description: [
+				"&nThis mod offers the following:"
+				""
+				"&6- &bUpgrades"
+				"Using the &bModification Table &ryou're able to apply a wide variety of different ugprades like &6Fortune&r, &6Silk Touch&r, &6Magnet&r, &6Radius&r, &6Range&r."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "47F9B7E27F913CC2"
+			tasks: [
+				{
+					id: "0F865A489248D0D1"
+					type: "item"
+					item: {
+						id: "mininggadgets:mininggadget_simple"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4A5FC96FD3773312"
+					type: "item"
+					item: "mininggadgets:modificationtable"
+				}
+			]
+			rewards: [{
+				id: "4FF01C71882A7494"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_1"
 			}]
 		}
 	]

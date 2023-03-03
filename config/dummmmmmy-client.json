@@ -3,6 +3,7 @@
     "animation_intensity": 0.75,
     "show_hearths": false,
     "damage_numbers": true,
+    "full_bright_damage_numbers": true,
     "texture": "DEFAULT",
     "damage_number_colors": {
       "genetic": "ffffff",

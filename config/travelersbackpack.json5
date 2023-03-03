@@ -18,7 +18,11 @@
 	},
 	"world": {
 		// Enables backpacks spawning in loot chests
-		"enableLoot": true
+		"enableLoot": true,
+		// Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
+		"spawnEntitiesWithBackpack": true,
+		// Defines spawn chance of entity with backpack (1 in [selected value])
+		"spawnChance": 100
 	},
 	"abilities": {
 		"enableBackpackAbilities": true,

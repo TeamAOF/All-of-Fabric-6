@@ -48,7 +48,7 @@
 		{
 			title: "&bExcavate"
 			x: 10.0d
-			y: 0.0d
+			y: 0.5d
 			subtitle: "Ores Be Gone!"
 			description: [
 				"&bExcavate &ris by default bound to keybind \"&6Grave&r\""
@@ -74,7 +74,7 @@
 			title: "&9Learning Mods"
 			icon: "techreborn:wrench"
 			x: 5.0d
-			y: 0.0d
+			y: 0.5d
 			subtitle: "Feel lost? Do not worry!"
 			description: [
 				"Mods are split into 4 categories:"
@@ -104,7 +104,7 @@
 				tag: { }
 			}
 			x: 5.0d
-			y: 4.0d
+			y: 3.5d
 			subtitle: "If you truly love nature, you will find beauty everywhere."
 			description: [
 				"Dont feel like &6running &rthousands of blocks for that favorite biome of yours?"
@@ -156,7 +156,7 @@
 		{
 			title: "&3Don't be a tourist, be a traveler"
 			x: 10.0d
-			y: 4.0d
+			y: 3.5d
 			subtitle: "Inventory cramped? Fear not!"
 			description: [
 				"The &bTraveler's Backpack &rcan provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
@@ -185,8 +185,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]

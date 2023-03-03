@@ -1,3 +1,28 @@
+### All of Fabric 6 | v1.4.4
+
+_Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.4.md)_
+
+### Changes
+
+* Added Chipped quest.
+* Added Gadgets Against Grind quest.
+* Added Mning Gadgets quest.
+* Added Zinc Ore to the mining rig.
+
+### Fixes
+
+* An issue where items would convert into mana when entering the ME system.
+* World holes when having the Spirit Instiller oriented in a certain direction.
+
+### Added Mods
+
+  * [CC:C Bridge](https://www.curseforge.com/minecraft/mc-mods/cccbridge)
+  * [Chipped](https://www.curseforge.com/minecraft/mc-mods/chipped)
+  * [CTM Refabricated](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated)
+  * [Gadgets Against Grind](https://www.curseforge.com/minecraft/mc-mods/gag)
+  * [YUNG's Better Nether Fortresses (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric)
+---
+
 ### All of Fabric 6 | v1.4.3
 
 _Fabric Loader 0.14.14_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.3.md)_

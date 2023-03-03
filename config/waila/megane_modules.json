@@ -6,20 +6,29 @@
     "megane-modern-dynamics": {
       "lol.bai.megane.module.moderndynamics.MeganeModernDynamics": true
     },
-    "megane-reborn-core": {
-      "lol.bai.megane.module.reborncore.MeganeRebornCore": true
-    },
     "megane-industrial-revolution": {
       "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true
+    },
+    "modern_industrialization": {
+      "aztech.modern_industrialization.compat.megane.MIMeganeModule": true
+    },
+    "megane-powah": {
+      "lol.bai.megane.module.powah.MeganePowah": true
+    },
+    "megane-deep-mob-learning-simulacrum": {
+      "lol.bai.megane.module.dmlsimulacrum.MeganeDmlSimulacrum": true
+    },
+    "megane-create": {
+      "lol.bai.megane.module.create.MeganeCreate": true
+    },
+    "megane-reborn-core": {
+      "lol.bai.megane.module.reborncore.MeganeRebornCore": true
     },
     "megane-fabric-transfer": {
       "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true
     },
     "megane-tech-reborn": {
       "lol.bai.megane.module.techreborn.MeganeTechReborn": true
-    },
-    "modern_industrialization": {
-      "aztech.modern_industrialization.compat.megane.MIMeganeModule": true
     },
     "megane-luggage": {
       "lol.bai.megane.module.luggage.MeganeLuggage": true
