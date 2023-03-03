@@ -6,7 +6,7 @@ _Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 * Added Chipped quest.
 * Added Gadgets Against Grind quest.
-* Added Mning Gadgets quest.
+* Added Mining Gadgets quest.
 * Added Zinc Ore to the mining rig.
 
 ### Fixes
