@@ -11,6 +11,11 @@
                 "modmenu": ""
             }
         },
+        "chipped": {
+            "-depends": {
+                "ctm": ""
+            }
+        },
         "ftbquests": {
             "-depends": {
                 "ftblibrary": ""
