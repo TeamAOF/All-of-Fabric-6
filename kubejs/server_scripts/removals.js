@@ -46,6 +46,7 @@ ServerEvents.recipes( (event) => {
     'croptopia:shaped_bacon',
     'indrev:shapeless/copper_ingot_from_block',
     'wands:stone_wand2',
+    'modern_industrialization:materials/chromium/craft/dust_from_tiny_dust',
 
     ];
 

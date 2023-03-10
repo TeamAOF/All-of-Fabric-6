@@ -1,3 +1,35 @@
+### All of Fabric 6 | v1.4.5
+
+_Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.5.md)_
+
+### Changes
+
+* Void Shadow boss can now be respawned.
+* Obsidian plates & dusts has been unified towards Tech Reborn.
+* Chipped block variations are now properly grouped in REI.
+* Creepers will no longer inflict mining fatigue and weakness.
+* Disabled adventurez deers from spawning as they exist in naturalist.
+* Removed grubs drop from sand.
+* Blacklisted all applied botanics cells in replicator.
+
+### Fixes
+
+* Incorrect chromium small dusts being output.
+* Lanterns & lamps having missing textures (temp fix for this has been implemented resulting in certain connected textures for chipped not working for now).
+* Improvements to loading times in world creation/joining.
+
+### Added Mods
+
+  * [More Mob Variants](https://www.curseforge.com/minecraft/mc-mods/more-mob-variants)
+
+### Removed Mods
+
+  * [CTM Refabricated](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated) (Issues with Supplementaries, will be readded when fixed)
+  * [Mob Vote 2022 [Fabric] - Sniffer, Rascal, Tuff Golem](https://www.curseforge.com/minecraft/mc-mods/mob-vote-2022)
+  * [Shroom Dealers! [ FORGE / FABRIC ]](https://www.curseforge.com/minecraft/mc-mods/shroom-dealers) (Unbalanced)
+  * [Small Ships [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/small-ships)
+---
+
 ### All of Fabric 6 | v1.4.4
 
 _Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.4.md)_
