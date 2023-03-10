@@ -52,7 +52,8 @@
     "c:flour",
     "c:raw_bacon",
     "c:cooked_bacon",
-    "c:netherrack_dusts"
+    "c:netherrack_dusts",
+    "c:chromium_small_dusts"
 
   ],
   "materials": [
@@ -95,9 +96,10 @@
     "onion",
     "garlic",
     "quartz",
-    "ender_pearl"
+    "ender_pearl",
+    "obsidian"
   ],
-  "priorityOverrides": {"c:salt_dusts": "bewitchment"},
+  "priorityOverrides": {"c:salt_dusts": "bewitchment", "c:chromium_small_dusts": "modern_industrialization", "c:obsidian_plates": "techreborn", "c:obsidian_dusts": "techreborn"},
   "ignoredTags": [
     "minecraft:stairs",
     "minecraft:slabs",
