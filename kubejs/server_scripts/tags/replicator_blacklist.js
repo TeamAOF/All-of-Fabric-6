@@ -184,7 +184,17 @@ ServerEvents.tags('item', event => {
         'inmis:bejeweled_backpack',
         'inmis:blazing_backpack',
         'inmis:withered_backpack',
-        'inmis:endless_backpack'
+        'inmis:endless_backpack',
+        'appbot:mana_storage_cell_1k',
+        'appbot:mana_storage_cell_4k',
+        'appbot:mana_storage_cell_16k',
+        'appbot:mana_storage_cell_64k',
+        'appbot:mana_storage_cell_256k',
+        'appbot:portable_mana_storage_cell_1k',
+        'appbot:portable_mana_storage_cell_4k',
+        'appbot:portable_mana_storage_cell_16k',
+        'appbot:portable_mana_storage_cell_64k',
+        'appbot:portable_mana_storage_cell_256k'
 
     ];
 
