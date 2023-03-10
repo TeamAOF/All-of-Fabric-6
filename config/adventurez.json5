@@ -20,7 +20,7 @@
 	// Chance for spawning when desert well generates; 1/Value
 	"desert_rhino_well_spawn_chance": 1,
 	"shaman_spawn_weight": 1,
-	"deer_spawn_weight": 6,
+	"deer_spawn_weight": 0,
 	"enderwarthog_spawn_weight": 1,
 	"allow_stone_golem_summoning": true,
 	"allow_the_eye_summoning": true,
