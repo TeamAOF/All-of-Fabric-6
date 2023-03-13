@@ -1950,35 +1950,6 @@
 			}]
 		}
 		{
-			title: "Chisels and Bits"
-			x: 8.0d
-			y: -5.5d
-			subtitle: "Sculpture the world!"
-			description: [
-				"Remove small bits from blocks using chisels."
-				""
-				"You can use these bits to build detailed decorations or whatever else you want."
-			]
-			dependencies: ["30023016124CD227"]
-			id: "1503EBD099C0444B"
-			tasks: [{
-				id: "5C9D9AF921A12ED1"
-				type: "item"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "chiselsandbits:chisel"
-					}
-				}
-			}]
-			rewards: [{
-				id: "4C0079478B316F06"
-				type: "item"
-				item: "chiselsandbits:chiseled_printer"
-			}]
-		}
-		{
 			title: "Reforging"
 			x: -7.0d
 			y: -7.0d
@@ -2010,8 +1981,8 @@
 		}
 		{
 			title: "Chipped"
-			x: 5.0d
-			y: -5.5d
+			x: 6.5d
+			y: -4.0d
 			subtitle: "Dictionary of Blocks!"
 			dependencies: ["30023016124CD227"]
 			id: "02E965F8A539974E"
