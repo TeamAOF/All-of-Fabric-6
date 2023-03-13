@@ -1439,7 +1439,7 @@
 			}]
 		}
 		{
-			title: "&3All The Quests"
+			title: "&6All The Quests"
 			icon: "kubejs:quester"
 			x: 0.0d
 			y: 3.75d
@@ -1465,6 +1465,7 @@
 				"- &bSpirit"
 			]
 			dependencies: [
+				"512CAEB25CD9B4E2"
 				"5CF7175F3F5F64F6"
 				"1CB2FC4B816A1192"
 				"7DE1D577EA0AD29D"
@@ -1644,6 +1645,7 @@
 				"110822566F9E2DBB"
 				"53B5B78EB44C710B"
 				"3C991D47C94359E2"
+				"6C054C82F643D744"
 				"72D41352FD2B752C"
 				"71F994F2EE1FC296"
 				"4C06D25DACB5536C"
@@ -2365,7 +2367,6 @@
 				"7E365F45D64DA0C5"
 				"39553F6B02384BFB"
 				"46D4E5DB8C7C388D"
-				"512CAEB25CD9B4E2"
 			]
 			size: 1.5d
 			id: "08FEE3ED55CDFC64"

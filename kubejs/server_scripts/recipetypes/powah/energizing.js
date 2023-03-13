@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
           {"item": "piercingpaxels:upgrade_unbreakable"},
           {"item": "botania:gaia_ingot"}
         ],
-        "energy": "200000000",
+        "energy": "400000000",
         "result": {
           "item": "kibe:angel_ring"
         }

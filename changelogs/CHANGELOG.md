@@ -1,3 +1,23 @@
+### All of Fabric 6 | v1.5.0
+
+_Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.0.md)_
+
+### Changes
+
+* New challenges quest, All The Quests.
+* 15 new trophies to obtain, will be given once 100% completing a quest chapter.
+* Energy required to craft the Angel Ring has been increased (200M > 400M).
+
+### Fixes
+
+* Log-spam caused by MidnightLib.
+* Create obsidian dust quest only accepting the incorrect variant.
+
+### Removed Mods
+
+  * [Chisels & Bits](https://www.curseforge.com/minecraft/mc-mods/chisels-bits-for-fabric) (Horrendous performance, crashes, issues not being fixed)
+---
+
 ### All of Fabric 6 | v1.4.5
 
 _Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.4.5.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.4.5.md)_

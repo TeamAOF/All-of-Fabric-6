@@ -2183,7 +2183,7 @@
 			tasks: [{
 				id: "4934453DAE01C6B6"
 				type: "item"
-				item: "create:powdered_obsidian"
+				item: "techreborn:obsidian_dust"
 			}]
 			rewards: [{
 				id: "43EE5F60822DF0FC"
