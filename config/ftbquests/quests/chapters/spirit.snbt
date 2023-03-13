@@ -1144,6 +1144,81 @@
 				}
 			}]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:spirit"
+					}
+				}
+			}
+			x: 2.0d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"4CAE3462163AC4F6"
+				"1CB2FC4B816A1192"
+				"7DE1D577EA0AD29D"
+				"7A7C4913FD80D16E"
+				"2D52E62B1D6E4CD4"
+				"6EA97C351B54704C"
+				"72C6F4B926DD3EEB"
+				"7F08BC132061C6B7"
+				"202D1FFDC47CBD22"
+				"79A62F463EDF726E"
+				"10D39CBF282C6B93"
+				"110DB71A4679FFFD"
+				"1EDB9374116D4451"
+				"4FE5ADA8DDCAAD93"
+				"2CCDE57D27EA104F"
+				"7ABF88F1883465AF"
+				"621351108945549E"
+				"7066271D88101230"
+				"4DCAFBE2471538E1"
+				"1D669FD8DE06F664"
+				"10856B49C3486098"
+				"3983DD620664505B"
+				"046943F4BC7EEC3D"
+				"0FEB1054AAC70F27"
+				"12F05D8C465678CB"
+				"728998EC35AE202F"
+				"710E6004B2A67C82"
+				"210E3632AB42EF50"
+				"7DB12309CFBAC872"
+				"0872A6D8E2893413"
+				"5A48AB6285838A58"
+				"2718E29F6437CE43"
+				"3C0EA955C527A549"
+				"68224BA2D42CF05B"
+				"63765EF8D9210758"
+				"637307D9C03B6AE6"
+				"17E4B8F4F14E6DA9"
+			]
+			size: 4.0d
+			id: "08895FF260FA0440"
+			tasks: [{
+				id: "3A0D2287E39EA0F6"
+				type: "checkmark"
+				title: "&bSpirit 100%"
+			}]
+			rewards: [{
+				id: "24CD651B56FF35EC"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:spirit"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

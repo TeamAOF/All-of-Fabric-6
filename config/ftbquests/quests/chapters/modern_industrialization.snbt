@@ -2360,91 +2360,6 @@
 			}]
 		}
 		{
-			x: 24.0d
-			y: -4.5d
-			subtitle: "With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
-			description: ["Congratulations, it is now Yourcraft."]
-			dependencies: ["4847BA675A04852F"]
-			id: "2DD7A176E38F67AD"
-			tasks: [{
-				id: "65573E368D0A8C59"
-				type: "item"
-				item: "modern_industrialization:replicator"
-			}]
-			rewards: [{
-				id: "4C56240331B631CE"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16425539
-						Loot: "aof:loot_bags/mi/legendary"
-						Name: "Modern Industrialization Legendary Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			title: "Quantum Physics"
-			x: 25.0d
-			y: -4.5d
-			subtitle: "Unstoppable!"
-			description: [
-				"- Quantum Sword"
-				""
-				"Uses the raw power of the Schrödinger equation to instantly vaporize any foe (or friend!) you hit with it."
-				""
-				"- Quantum Armor"
-				""
-				"Through the gravitational effect of the Heisenberg uncertainty principle, the full Quantum Armor set makes you immune to all damage and grants you creative flight. Each new piece of armour increases by 25% the likelihood of nullifying any damage taken."
-			]
-			dependencies: ["4847BA675A04852F"]
-			id: "6C6FFF91F7E49E1D"
-			tasks: [
-				{
-					id: "0684EF2F47C7A5DF"
-					type: "item"
-					item: "modern_industrialization:quantum_helmet"
-				}
-				{
-					id: "27517665764C7AA0"
-					type: "item"
-					item: "modern_industrialization:quantum_chestplate"
-				}
-				{
-					id: "79941F20E6B0249D"
-					type: "item"
-					item: "modern_industrialization:quantum_leggings"
-				}
-				{
-					id: "4499514AF8A6B84B"
-					type: "item"
-					item: "modern_industrialization:quantum_boots"
-				}
-				{
-					id: "0CDD142D3CF0E152"
-					type: "item"
-					item: "modern_industrialization:quantum_sword"
-				}
-			]
-			rewards: [{
-				id: "67C99C7740908624"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16425539
-						Loot: "aof:loot_bags/mi/legendary"
-						Name: "Modern Industrialization Legendary Lootbag"
-					}
-				}
-			}]
-		}
-		{
 			x: 23.0d
 			y: -0.5d
 			subtitle: "A large multiblock whose purpose is to generate massive amounts of energy by consuming nuclear fuel."
@@ -2904,6 +2819,124 @@
 						Color: 16425539
 						Loot: "aof:loot_bags/mi/rare"
 						Name: "Modern Industrialization Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:modernindustrialization"
+					}
+				}
+			}
+			x: 2.0d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"4AD93229344EA0BE"
+				"6D0310EF6A259AC8"
+				"31BCEF301071F67C"
+				"7F41EEF87B3A8B84"
+				"4575644C7E5F2DEE"
+				"6B15091EC1B119B0"
+				"4847BA675A04852F"
+				"324B15844FC6C305"
+				"24535DA01189CC75"
+				"79F4B68189C05A25"
+				"6B522DC6845DB558"
+				"419F7B74E30C2AF4"
+				"4661838E492BDE53"
+				"7CE18D246F01445D"
+				"75608EDF99965533"
+				"381693770EF21108"
+				"68BD457258EC8CBF"
+				"36ECD7C06649DE78"
+				"04FAF93691F0BD9C"
+				"2050D2FF42E29F6D"
+				"0F7CE2BA2A295A4D"
+				"46D1B0C583A57B12"
+				"0BAB52BE15CE157F"
+				"0DD703B94D202B68"
+				"04B4FB69D88D1C76"
+				"6C1822FED0613FAF"
+				"01BBE636EBB71416"
+				"68E8311AC3140A56"
+				"0D10B5E838DF9196"
+				"43F43FB0B9ED0818"
+				"7D4B8F84394B1B35"
+				"2F6ED192CC3A9AF4"
+				"5F52B24FFE2DDD86"
+				"38F9192F665742BA"
+				"6BEB4461CA08633F"
+				"1EACE9E49BA4B753"
+				"6C8E36B461895C72"
+				"4DCFE7721417E669"
+				"79802A9D4A83E757"
+				"64BACF5B60AD2406"
+				"6F4AE13DA520109C"
+				"385079198388468C"
+				"208DE0E29C636F41"
+				"7D3D156BE9C9E150"
+				"370EE225E8140570"
+				"2D320F78629CC719"
+				"46319F2AE2F90532"
+				"796F33AE4A9CF30C"
+				"19E5E31614FE485E"
+				"2B0219B675E3820F"
+				"65CB5CA13FBD010E"
+				"1B0A4271FCBD581F"
+				"74A278B57EF76B3B"
+				"03896D148D7B4E3B"
+				"586CB8FEAA0A50C6"
+				"2F5A88568154E986"
+				"6314525E36DEA54B"
+				"5310B93F2821826A"
+				"60A05C52ACCBE35D"
+				"7F96B49412F52611"
+				"748D2241F66FF644"
+				"5A27B361EF71A4DF"
+				"26E587E34810A8FE"
+				"2AE689F6495C83A6"
+				"39FADF9C0442304F"
+				"3DC21B6F47A253E4"
+				"18949581A0F3E28B"
+				"036292964BDE4944"
+				"715CEF4FB78310FF"
+				"6B11B8A209763B36"
+				"2DB9C3C383C91BC0"
+				"70CD9F0D26A75E13"
+				"693E05A909195578"
+				"33BF21CF8232FD35"
+				"0A0931D04AE50D4B"
+				"363455215C23E84E"
+				"6B05C72FF31E104D"
+				"7C5C1CA5A7954896"
+				"6F6196A606D3A8EF"
+				"55ED05A197F8D24A"
+			]
+			size: 4.0d
+			id: "7F2EE57E72C10EEF"
+			tasks: [{
+				id: "2D1861811D08F5C2"
+				type: "checkmark"
+				title: "&dModern Industrialization 100%"
+			}]
+			rewards: [{
+				id: "138CCD634C40063E"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:modernindustrialization"
+						}
 					}
 				}
 			}]

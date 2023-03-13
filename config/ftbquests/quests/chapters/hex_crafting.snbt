@@ -328,6 +328,53 @@
 				}
 			}]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:hexcasting"
+					}
+				}
+			}
+			x: 4.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"69395421DAE17328"
+				"103EE7B28300222E"
+				"18AE8D45D703112B"
+				"68FF81FF5F625057"
+				"4A5B2026DD41B03B"
+				"5B94C77A29A3BF35"
+				"4AB770D7E88D2367"
+				"6C1EC07A6CB811D7"
+				"283C1A5435769DC3"
+			]
+			size: 4.0d
+			id: "54BF3B1ABB113E46"
+			tasks: [{
+				id: "2EC4AF48B63D2EE3"
+				type: "checkmark"
+				title: "&dHex Casting 100%"
+			}]
+			rewards: [{
+				id: "297DBFF1A1CBD3A5"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:hexcasting"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

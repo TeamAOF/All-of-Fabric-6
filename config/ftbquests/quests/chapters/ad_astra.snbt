@@ -1131,6 +1131,73 @@
 				}
 			}]
 		}
+		{
+			title: "&cAd Astra 100%"
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ad_astra"
+					}
+				}
+			}
+			x: 3.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"4288B73FA65D8229"
+				"0DED6D5C8A4C96B9"
+				"6E4D99BBFFDFB961"
+				"6DABB3DDA44D6377"
+				"4F0886FF37E1101A"
+				"6114CC6BE5D2627F"
+				"30F1C5601C3ECEF1"
+				"58132755E921E778"
+				"6A298F887D96C0E8"
+				"112810B97BA58A9C"
+				"6E8BF9F8A67D1B66"
+				"3178EF6B62E2D458"
+				"2CDAB93BD674197F"
+				"2223D0AFDF5C10FB"
+				"6E9A973B387987F7"
+				"1C2AAE8F4E119084"
+				"7311ED0FFC4444EB"
+				"6D01C247A8864071"
+				"112C0C7C49867DE2"
+				"1384C1D8BD79C6D0"
+				"40CB98FD334EB3CE"
+				"760572711CF727BB"
+				"1C711856985D4A81"
+				"47D456E43D42EBC9"
+				"6582513D8887DF04"
+				"39553F6B02384BFB"
+				"2DD1E268E40C2508"
+				"5A2581CBAB21D071"
+			]
+			size: 4.0d
+			id: "20B7DEE9C12B2707"
+			tasks: [{
+				id: "29D26752DC1137E6"
+				type: "checkmark"
+				title: "Complete Ad Astra"
+			}]
+			rewards: [{
+				id: "779F3E204FCD52C5"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ad_astra"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

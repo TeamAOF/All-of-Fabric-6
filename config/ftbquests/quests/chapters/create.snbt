@@ -2347,6 +2347,112 @@
 				}
 			]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:create"
+					}
+				}
+			}
+			x: 6.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"5EF7CFC926FDDDC0"
+				"3989950BC95DB959"
+				"610389B121518964"
+				"654DC5DBC9201FBE"
+				"42B701304642314E"
+				"7BF18D6D44DBCED6"
+				"779EFB476D891244"
+				"45F0C664C299D418"
+				"7AABC2C767E9B11D"
+				"1A38D7B854ACC636"
+				"78E1ECB85FDD0C99"
+				"511DD53713406575"
+				"4B0AE2B4B1423DDD"
+				"049F3E0A401BBF2A"
+				"4119B4C0AFB928C5"
+				"333A5294EA4F4944"
+				"58D023C7F2AD421C"
+				"1C705A0B7E050B54"
+				"624B52BE855CF703"
+				"143A00408DFE3DB4"
+				"5E17BD671E9BEB5B"
+				"05CD495BD1007C26"
+				"4FEFC0311E8D9C61"
+				"183637490817875B"
+				"05E920CF3BD43FC6"
+				"6ED900B3B5C0829D"
+				"480EE90E6D0491BD"
+				"4482160B14C40777"
+				"37330BDC53451D14"
+				"22ABB41C70D74A5F"
+				"7A602D4BFFA9B2C2"
+				"38E2D761D7A9C369"
+				"04CB13487A7DC3BD"
+				"330E6E93A6F5592B"
+				"527B53BB9C9A0D1C"
+				"2985444DE5ABB5A5"
+				"23A0E687919F2DFE"
+				"3F89A5E9BF484A60"
+				"53D538AC2AA15316"
+				"18A589CC0F81F038"
+				"0E2A19BB02D47A94"
+				"2C64B8A292C923DD"
+				"67CE448FA832692A"
+				"4B6D44F405106C53"
+				"29C88E6599D99FAE"
+				"2AFA49C5659C94F8"
+				"5C38C92A8D133E5A"
+				"0EF98BA0F698951A"
+				"0A350142075F5FC8"
+				"6AF4AB0374F397E6"
+				"1CA398C195517551"
+				"1BA0F9B77AF73203"
+				"03A9D8346C52AA2C"
+				"4070B38A98387DA1"
+				"371D645B149A2E36"
+				"01FA58FF29DEC036"
+				"317F6B4C741311CE"
+				"3AD5FAE3B0FE39B9"
+				"072862C3F4C6D359"
+				"22616B100E445241"
+				"591563982414C96D"
+				"570CA3CD0D896230"
+				"2F09F7E516004E15"
+				"355A2ABDA57395EF"
+				"7BFBBF45D9BE4BFB"
+				"369F3556A6482D7C"
+				"551F3ACEE626830A"
+				"324A32F85A95B658"
+			]
+			size: 4.0d
+			id: "1D2457909D7F8C17"
+			tasks: [{
+				id: "1D99A86B5CA32704"
+				type: "checkmark"
+				title: "&6Create 100%"
+			}]
+			rewards: [{
+				id: "264E15A6379D9F97"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:create"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

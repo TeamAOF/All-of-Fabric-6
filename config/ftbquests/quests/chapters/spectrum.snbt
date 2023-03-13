@@ -1699,6 +1699,99 @@
 				}
 			}]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:spectrum"
+					}
+				}
+			}
+			x: 10.0d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"4C06D25DACB5536C"
+				"678BCF3361AE5512"
+				"265E77D910C56546"
+				"2B486D1AE4A59F73"
+				"117B54FCAF3A40B9"
+				"6F9B2ECCE750C280"
+				"0CF717072CD02B28"
+				"7CE00D3A16827F50"
+				"38BEF83AFD8EA081"
+				"54A1328F07B4BF16"
+				"1810EB195B0CC509"
+				"3EF90588748BCDE8"
+				"16AFA6ABBF50A54C"
+				"3E84D82AC7429CF4"
+				"1E161856A9975BCE"
+				"5E0135DE9E0D30CE"
+				"1699D14B24CE2883"
+				"27A271B2A51373A6"
+				"5F98F94ABEC9673E"
+				"782330BECD66EFD5"
+				"49D9ECC98F3A5E05"
+				"777CED8399E65C29"
+				"36258B9E1280A188"
+				"0777D896D81DEA4A"
+				"24C70DAB3F66ECB2"
+				"4451D4AA7CB1BFF2"
+				"371F3371DC37B760"
+				"28CB44142633D257"
+				"45A0C4DCB8627325"
+				"2B9252657949C67E"
+				"1FCEEFE4A3804DEF"
+				"2F56655D7C4C3882"
+				"7B50D9F39BF07C16"
+				"3A53CED5C9ABC06B"
+				"0FC449098A9EAD1D"
+				"120A70EB61245315"
+				"2AB88707D86F0506"
+				"349FEF1506100E4D"
+				"5008ED129CAE4EED"
+				"5ADB895DCB77C6A8"
+				"78ED7745488BC27E"
+				"64CFFA9B0256E062"
+				"681C638B38019A73"
+				"3DE03D1D2B4BC9D0"
+				"042E7914986F8A32"
+				"1F17B62A67347D61"
+				"00CE2107C6C46BE1"
+				"0A895BEB210EA39C"
+				"1E1E5ECB2C1C95B9"
+				"723E1C665A781C52"
+				"013FC32A48DE8E39"
+				"0F6E96D9C9F5EF35"
+				"5EA323A52C146DEA"
+				"6F3F4B2ADAAED3C1"
+				"110822566F9E2DBB"
+			]
+			size: 4.0d
+			id: "154FDDB80C66F42C"
+			tasks: [{
+				id: "3D2AD6934C3585CF"
+				type: "checkmark"
+				title: "&eSpec&btrum"
+			}]
+			rewards: [{
+				id: "6F52B0A6DC1A772C"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:spectrum"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

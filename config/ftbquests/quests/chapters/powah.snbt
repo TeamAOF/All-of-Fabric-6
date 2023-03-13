@@ -1245,6 +1245,70 @@
 				title: "Energy Generation"
 			}]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:powah"
+					}
+				}
+			}
+			x: -6.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"3AAEDB182C3919CC"
+				"28C0FEFEEC51B963"
+				"48D9BC5F27EB7EFC"
+				"34CB6C162F5ABA54"
+				"6E73A1FC54068F9D"
+				"28290CA40D704C6B"
+				"3093AD7CAFEA9113"
+				"63E3FE37529D0653"
+				"45E782AC2C3E97EE"
+				"70197A6164010B19"
+				"718CD4D1272E5DD3"
+				"644DEDB36A0827D7"
+				"4768DD5F60DE3F4A"
+				"22E4363ECF659C5B"
+				"4D86F088280981A2"
+				"0DBF3DBFA978291D"
+				"5F4CDC52244B937E"
+				"72868D5235EEB1D1"
+				"75BE62C479A3DDAB"
+				"4E0D6F1DDD305855"
+				"74F0AD6CC49C1CF6"
+				"277D203450B35083"
+				"5D08158FE91F8A63"
+				"47B76A23E66EA846"
+				"4E09AA1CA6FF2AD4"
+				"435B42806E447D20"
+			]
+			size: 4.0d
+			id: "48383E9EB2256146"
+			tasks: [{
+				id: "1E17339264668ACB"
+				type: "checkmark"
+				title: "&4Powah 100%"
+			}]
+			rewards: [{
+				id: "60DC9A5FFB9F7481"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:powah"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -1147,6 +1147,78 @@
 				}
 			}]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:bewitchment"
+					}
+				}
+			}
+			x: 6.0d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"734F1553E293E98D"
+				"40F771A3D6F771A6"
+				"0E8BF0CAF13399B5"
+				"3B25DEDD2D24B914"
+				"5545B850D62C8BF0"
+				"6EA6B28327D944B7"
+				"1DB150821C15E02B"
+				"49754BFA0107FC46"
+				"2E57A82661E1CE1E"
+				"19548DE9DE1B4176"
+				"75F9B10AE73B2D5A"
+				"1A1119610D6F620C"
+				"401DF25766ED31F2"
+				"79E88D5D66EF740D"
+				"5679BA414C1D637D"
+				"1235E760E612015E"
+				"140AEE3F450BD3A2"
+				"6B3BB197C7AF5DDF"
+				"076F277FF3B41B79"
+				"16CC85D681077DFD"
+				"51E68C17C005CD95"
+				"40F6401B8512E29E"
+				"25C8C15C8701B834"
+				"3762AEBC5D56DEEC"
+				"0FDB0002F258E8E5"
+				"07CB7DF58F8AC311"
+				"46E0C43C802E3417"
+				"5528E5058C2D3AA9"
+				"285F5C6F45590CC5"
+				"7B7EC590EF81C282"
+				"4D168D1CF5B9D840"
+				"3980AEE68AB1A5A3"
+				"1DC1A628467897A9"
+				"70D904888ACAEA21"
+			]
+			size: 4.0d
+			id: "6C054C82F643D744"
+			tasks: [{
+				id: "2C2166273BBDFCAC"
+				type: "checkmark"
+				title: "&eBewitchment 100%"
+			}]
+			rewards: [{
+				id: "3754227DEE07E247"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:bewitchment"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

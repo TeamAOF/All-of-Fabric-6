@@ -2010,6 +2010,105 @@
 				}
 			}]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:indrev"
+					}
+				}
+			}
+			x: -4.0d
+			y: -10.0d
+			shape: "gear"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"501F6918D0413C46"
+				"03F6EF819F101266"
+				"38A91661EED44D9D"
+				"66D17897621E815B"
+				"7A607496DD461235"
+				"28BC178B714DD47F"
+				"3ECA6414D58449DD"
+				"130566BD27135220"
+				"01F3CA98E98590FD"
+				"7155E1782D7A5CC3"
+				"2199A3717A0431FB"
+				"65E60EDD6DE18DC2"
+				"24E0748FC28B20F8"
+				"0C00CEF0D380206E"
+				"5AE46F6F569483BF"
+				"2C8663C76CFE101D"
+				"2366955CB2AB1234"
+				"6CC13ADEE091FAA7"
+				"76C21BAB566F66A9"
+				"34998627D22F1DBE"
+				"60A8108BE12AFB39"
+				"4C0B1B9315FEB7D6"
+				"47BB7143EA6AF423"
+				"587B0ABFDC5F2428"
+				"49B55A5E5510AA48"
+				"1CE1C8FC892A6F84"
+				"01EB2FB2EEEB8A04"
+				"298C314EC06AD61E"
+				"3BD2945543D442EB"
+				"7F905EDB05E4BE17"
+				"3BCE5F8D19C6D53F"
+				"13BA3A6E648DF2E4"
+				"2C4C0E81D2335043"
+				"3747C4CCD1F8DBB7"
+				"22B972FA05163190"
+				"2094448C58554B0B"
+				"60E79DB91F2919BD"
+				"21DB7EDD5C496202"
+				"6AC26B6C1525155B"
+				"18B6548E50B087D3"
+				"6F42118FDF2C343D"
+				"1C3E816F7AC2A24E"
+				"6873CA3A8CD43343"
+				"279C25C775C22B7E"
+				"5A66FE8A5EC1BAC5"
+				"72FAE2CEB348AF96"
+				"397827B0621A2FB8"
+				"5126D10B28A64460"
+				"0DFA948FD9DD8943"
+				"735E0A553EDF0FBB"
+				"0BED18C671FC94A5"
+				"3984A36C1D03501E"
+				"5A98B8264695375C"
+				"7A318DEE361289B5"
+				"47E0E13C53777452"
+				"68DB32F00BACEEFD"
+				"53B5B78EB44C710B"
+				"3DF54B764A56AF28"
+				"6F89CD6C818B0B90"
+				"707124C02270FC3E"
+				"61096F382C04254A"
+			]
+			size: 4.0d
+			id: "7BC45B3207E50238"
+			tasks: [{
+				id: "28FBE0DAB8D6BF8F"
+				type: "checkmark"
+				title: "&bIndustrial Revolution 100%"
+			}]
+			rewards: [{
+				id: "47349A13BACC591D"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:indrev"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }
