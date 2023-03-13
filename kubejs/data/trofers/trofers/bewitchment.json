@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#c49b54",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "bewitchment:hellish_bauble",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#c49b54",
+      "text": "Bewitchment Trophy"
+    }
+  }

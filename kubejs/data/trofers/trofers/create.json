@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#cf8302",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 6.0
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "create:mechanical_arm",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#cf8302",
+      "text": "Create Trophy"
+    }
+  }

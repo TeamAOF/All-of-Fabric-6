@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#fa2a2a",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "powah:battery_nitro",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#fa2a2a",
+      "text": "Powah Trophy"
+    }
+  }

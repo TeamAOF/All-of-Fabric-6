@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#69c0e0",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "spirit:soul_cage",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#69c0e0",
+      "text": "Spirit Trophy"
+    }
+  }

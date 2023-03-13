@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#db1f3b",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "ad_astra:tier_4_rocket",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#db1f3b",
+      "text": "Ad Astra Trophy"
+    }
+  }

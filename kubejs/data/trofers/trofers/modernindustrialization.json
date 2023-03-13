@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#e868d7",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "modern_industrialization:singularity",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#e868d7",
+      "text": "Modern Industrialization Trophy"
+    }
+  }

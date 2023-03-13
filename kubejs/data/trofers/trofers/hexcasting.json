@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#f772d8",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "hexcasting:artifact",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#f772d8",
+      "text": "Hex Casting Trophy"
+    }
+  }

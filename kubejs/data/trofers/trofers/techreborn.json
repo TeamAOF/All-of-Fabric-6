@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#3e79f0",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "techreborn:quantum_helmet",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#3e79f0",
+      "text": "Tech Reborn Trophy"
+    }
+  }
