@@ -1227,6 +1227,88 @@
 				}
 			}]
 		}
+		{
+			title: "&9Applied &bEnergistics"
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ae2"
+					}
+				}
+			}
+			x: -2.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"19FBAF9A70549BF5"
+				"6862A2B7639A470E"
+				"1C9473DDA8CA1AC1"
+				"2A358437484E61CF"
+				"34550EB511DF1DBC"
+				"2FB251E717EA2F3C"
+				"1E435A4C1547934D"
+				"42721BC1F7734286"
+				"63DF8DED795008EA"
+				"578F8DD2ACBA9C6C"
+				"0B27217B40C19911"
+				"1286F9F4255B9A38"
+				"5CF50859A98E45FB"
+				"69597F2A6D80AE29"
+				"115B865B26BE47E5"
+				"451C8D5D92F1BAED"
+				"719707385946F7F4"
+				"679955AA48F79365"
+				"4ACC10C8890C306E"
+				"5AB8DB04F4DA2F40"
+				"159C31FE32578AD2"
+				"7814B078C6256761"
+				"215EF29F7DD6B37C"
+				"05F88D164E0A2988"
+				"300343A7965531DD"
+				"20AD73B935309188"
+				"2C7ABB61B3B1AD85"
+				"4555AD508D9C6CEB"
+				"696536A55ED81D6B"
+				"409FDC9E0FBF40CB"
+				"5386766A061332CA"
+				"033814C6CFAF56E6"
+				"5DD87AC2BC5F87F2"
+				"563432F2BB1EE1AF"
+				"2BE8127E1180DA21"
+				"5683C69200EBC4CD"
+				"2B641E7A30686BCF"
+				"4AC1C083537E8706"
+				"44B22A645FC94C64"
+				"7B3F4A3D79F2988B"
+				"3988E16DAA388261"
+				"57507836248CB116"
+				"3C12FD23932C3522"
+			]
+			size: 4.0d
+			id: "1F7D8547A40183BF"
+			tasks: [{
+				id: "11F8FBAD482A9E3E"
+				type: "checkmark"
+				title: "&9Applied &bEnergetics"
+			}]
+			rewards: [{
+				id: "5F4AF240E4659BEF"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ae2"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

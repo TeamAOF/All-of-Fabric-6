@@ -461,6 +461,55 @@
 				item: "dml-refabricated:soot_redstone"
 			}]
 		}
+		{
+			icon: {
+				id: "trofers:medium_pillar"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:dml"
+					}
+				}
+			}
+			x: -6.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "Complete all quests to obtain the trophy!"
+			hide_dependency_lines: true
+			dependencies: [
+				"22AED97627B96620"
+				"2EA2885C13B2C158"
+				"3F69B97A783AC81C"
+				"0CCCC61B10044F46"
+				"0DEE3926C25C2221"
+				"6F9393A8015541A8"
+				"2EF788D6F29C5EDA"
+				"01D568488C874E51"
+				"394DCDE468051067"
+				"5A7277E2D1A1C51D"
+				"7CB1D7180312E135"
+			]
+			size: 4.0d
+			id: "53543DB3FAD9A908"
+			tasks: [{
+				id: "2F6B49B0F2C9ADEA"
+				type: "checkmark"
+				title: "&bDeep Mob Learning 100%"
+			}]
+			rewards: [{
+				id: "1BD2F5AAB8F13744"
+				type: "item"
+				item: {
+					id: "trofers:medium_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:dml"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }
