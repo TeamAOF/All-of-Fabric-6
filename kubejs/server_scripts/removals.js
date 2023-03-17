@@ -47,6 +47,8 @@ ServerEvents.recipes( (event) => {
     'indrev:shapeless/copper_ingot_from_block',
     'wands:stone_wand2',
     'modern_industrialization:materials/chromium/craft/dust_from_tiny_dust',
+    'techreborn:blast_furnace/titanium_ingot_from_small_dust',
+    'techreborn:blast_furnace/titanium_ingot',
 
     ];
 
@@ -92,8 +94,6 @@ ServerEvents.recipes( (event) => {
     'campanion:mre',
     'additionaladditions:fried_egg',
     'twilightforest:uncrafting_table',
-    'kibe:slime_sling',
-    'kibe:slime_boots',
     'twilightforest:jeed/hunger',
     'techreborn:steel_helmet',
     'techreborn:steel_chestplate',
