@@ -5,13 +5,13 @@
         "tag": "c:gems/diamond"
       },
       "g": {
-        "tag": "c:ingots/gold"
+        "tag": "c:gold_ingots"
       },
       "i": {
-        "tag": "c:ingots/iron"
+        "tag": "c:iron_ingots"
       },
       "r": {
-        "tag": "c:dusts/redstone"
+        "tag": "c:redstone_dusts"
       },
       "u": {
         "item": "mininggadgets:upgrade_empty"
