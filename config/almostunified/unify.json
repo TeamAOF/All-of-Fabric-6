@@ -53,7 +53,8 @@
     "c:raw_bacon",
     "c:cooked_bacon",
     "c:netherrack_dusts",
-    "c:chromium_small_dusts"
+    "c:chromium_small_dusts",
+    "c:titanium_small_dusts"
 
   ],
   "materials": [
@@ -99,7 +100,14 @@
     "ender_pearl",
     "obsidian"
   ],
-  "priorityOverrides": {"c:salt_dusts": "bewitchment", "c:chromium_small_dusts": "modern_industrialization", "c:obsidian_plates": "techreborn", "c:obsidian_dusts": "techreborn"},
+  "priorityOverrides": {
+  "c:salt_dusts": "bewitchment",
+  "c:titanium_small_dusts": "modern_industrialization",
+  "c:chromium_small_dusts": "modern_industrialization",
+  "c:obsidian_plates": "techreborn",
+  "c:obsidian_dusts": "techreborn",
+  "c:amethyst_dusts": "hexcasting"
+},
   "ignoredTags": [
     "minecraft:stairs",
     "minecraft:slabs",
