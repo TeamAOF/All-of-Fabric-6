@@ -6,7 +6,7 @@ _Fabric Loader 0.14.18_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 * Data from data models will no longer be removed.
 * Added slime boots & sling quests.
-* Incresed inventory sizes of all iron chests.
+* Increased inventory sizes of all iron chests.
 * Updated Complementary Reimagined to 2.0
 
 ### Fixes
