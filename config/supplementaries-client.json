@@ -1,7 +1,8 @@
 {
   "blocks": {
     "globe": {
-      "random_world": true
+      "random_world": true,
+      "show_coordinates": true
     },
     "notice_board": {
       "centered_text": true

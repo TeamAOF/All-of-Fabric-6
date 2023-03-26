@@ -1,10 +1,10 @@
 {
-  "length": 9,
-  "rows": 6,
-  "inventoryOffset": 8,
+  "length": 10,
+  "rows": 7,
+  "inventoryOffset": 17,
   "menuOffset": 8,
-  "width": 176,
-  "height": 222,
+  "width": 194,
+  "height": 240,
   "properties": {
     "type": "builder",
     "material": "metal",

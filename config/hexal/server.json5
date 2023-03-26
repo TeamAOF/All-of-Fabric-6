@@ -31,6 +31,16 @@
 		"markGateCost": 0.05,
 		"closeGateCost": 2.5
 	},
+	"itemSpells": {
+		"bindStorageCost": 32.0,
+		"bindTemporaryStorageCost": 1.0,
+		"makeItemCost": 0.1,
+		"returnItemCost": 0.1,
+		"craftItemCost": 0.1,
+		"tradeItemCost": 0.1,
+		"maxItemsReturned": 32000,
+		"maxRecordsInMediafiedStorage": 1023
+	},
 	"greatSpells": {
 		"consumeWispOwnCost": 5.0,
 		"consumeWispOthersCostPerMedia": 1.5,

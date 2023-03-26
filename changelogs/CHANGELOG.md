@@ -1,3 +1,40 @@
+### All of Fabric 6 | v1.5.1
+
+_Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.1.md)_
+
+### Changes
+
+* Data from data models will no longer be removed.
+* Added slime boots & sling quests.
+* Incresed inventory sizes of all iron chests.
+* Updated Complementary Reimagined to 2.0
+
+### Fixes
+
+* An issue where you'd crash when you ponder create contraptions including entities.
+* An issue where end & nether would take years to load until timeout/looping.
+
+### Recipes
+
+* Added back slime sling & boots.
+* Fixed an issue where all mining gadgets would use the same recipe.
+* Diesel and oil from other mods can now be used in Ad Astra.
+* Amethyst dusts will now unify towards hex casting for both inputs & outputs.
+* Titanium small dusts has been unified, MI variant taking priority.
+* Added titanium ingot recipe in TR vaccum freezer.
+* Added titanium hot ingot recipe in TR blast furnace.
+* Recipes using eggs will now use the eggs tag, allowing for any eggs item to be used.
+
+### Added Mods
+
+* [Chat Toggle](https://www.curseforge.com/minecraft/mc-mods/chat-toggle)
+* [Spectrum Jetpacks](https://www.curseforge.com/minecraft/mc-mods/spectrum-jetpacks)
+
+### Removed Mods
+
+* [Better Nether Fortresses](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric)
+---
+
 ### All of Fabric 6 | v1.5.0
 
 _Fabric Loader 0.14.17_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.0.md)_

@@ -6,6 +6,8 @@
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 		"invulnerableBackpack": true,
 		"tanksCapacity": 324000,
+		// Prevents backpack disappearing in void
+		"voidProtection": true,
 		// Places backpack at place where player died
 		"backpackDeathPlace": true,
 		// Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)

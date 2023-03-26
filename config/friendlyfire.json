@@ -2,5 +2,6 @@
   "protectPetsFromOwner": true,
   "protectPetsFromPets": true,
   "protectChildren": true,
-  "reflectDamage": false
+  "reflectDamage": false,
+  "displayHitWarning": true
 }

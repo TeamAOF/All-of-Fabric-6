@@ -1,6 +1,11 @@
 {
   "general": {
     "trophyMaxHealth": 5.0,
+    "enableEarthwormsDrop": true,
+    "enableGrubsDrop": true,
+    "enableLeechesDrop": true,
+    "seapostSpacing": 128,
+    "seapostSeparation": 64,
     "simpleSpawningCondition": false,
     "neutralFishBehavior": false,
     "displayAllFishVariantInCreativeTab": false,
@@ -8,15 +13,29 @@
   },
   "spawnRate": {
     "trophyProbability": 0.15,
-    "umberSplashtailProbability": 0.1,
-    "brightPondieProbability": 0.1,
-    "ravenIslehopperProbability": 0.1,
-    "boneAncientscaleProbability": 0.1,
-    "bonedustPlentifinProbability": 0.1,
-    "muddyWildsplashProbability": 0.1,
-    "forsakenDevilfishProbability": 0.1,
-    "sandBattlegillProbability": 0.1,
-    "snowWreckerProbability": 0.1,
-    "shadowStormfishProbability": 0.1
+    "variant": {
+      "umberSplashtailProbability": 0.1,
+      "brightPondieProbability": 0.1,
+      "ravenIslehopperProbability": 0.1,
+      "boneAncientscaleProbability": 0.1,
+      "bonedustPlentifinProbability": 0.1,
+      "muddyWildsplashProbability": 0.1,
+      "forsakenDevilfishProbability": 0.1,
+      "sandBattlegillProbability": 0.1,
+      "snowWreckerProbability": 0.1,
+      "shadowStormfishProbability": 0.1
+    },
+    "fishWeight": {
+      "splashtail": 15,
+      "pondie": 15,
+      "islehopper": 8,
+      "ancientscale": 8,
+      "plentifin": 12,
+      "wildsplash": 10,
+      "devilfish": 4,
+      "battlegill": 5,
+      "wrecker": 50,
+      "stormfish": 12
+    }
   }
 }
