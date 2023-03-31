@@ -75,8 +75,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -111,8 +111,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -155,8 +155,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -239,8 +239,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -285,8 +285,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -316,8 +316,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -362,8 +362,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -397,8 +397,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -430,8 +430,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -467,8 +467,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -500,8 +500,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -531,8 +531,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -569,8 +569,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -608,8 +608,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -636,8 +636,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -682,8 +682,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]
@@ -711,8 +711,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -792,8 +792,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -824,8 +824,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -853,8 +853,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -885,8 +885,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -919,8 +919,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -956,8 +956,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]
@@ -985,8 +985,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]
@@ -1014,8 +1014,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -1051,8 +1051,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -1125,8 +1125,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]

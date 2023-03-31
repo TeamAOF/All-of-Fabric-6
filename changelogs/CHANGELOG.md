@@ -1,3 +1,28 @@
+### All of Fabric 6 | v1.5.2
+
+_Fabric Loader 0.14.18_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.2.md)_
+
+### Changes
+
+* Powah batteries can now charge items in trinket slots.
+* Connected textures are back.
+* Changed out reward for Carrot Mode quest as it'd complete the Fishes & Crates quest.
+
+### Fixes
+
+* An issue where you wasnt able to use grapevines on a grapevine pot.
+* An issue where loading certain structures would kick-in watchdog leading to crashes.
+
+### Added Mods
+
+* [CTM Refabricated](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated)
+* [Extra Sponges](https://www.curseforge.com/minecraft/mc-mods/extra-sponges)
+* [Fishing Ruler](https://www.curseforge.com/minecraft/mc-mods/fishing-ruler)
+* [KubeJS Create](https://www.curseforge.com/minecraft/mc-mods/kubejs-create)
+* [LibZ](https://www.curseforge.com/minecraft/mc-mods/libz)
+* [You've Goat to be Kidding Me!](https://www.curseforge.com/minecraft/mc-mods/goated)
+---
+
 ### All of Fabric 6 | v1.5.1
 
 _Fabric Loader 0.14.18_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.1.md)_

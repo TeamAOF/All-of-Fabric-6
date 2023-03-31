@@ -24,23 +24,8 @@
       "bossBarsOverlap": false
     },
     "color": {
-      "alpha": 75,
-      "themes": [
-        {
-          "id": "waila:dark",
-          "backgroundColor": 1250067,
-          "gradientStart": 3684408,
-          "gradientEnd": 2368548,
-          "fontColor": 10526880
-        },
-        {
-          "id": "waila:vanilla",
-          "backgroundColor": 1048592,
-          "gradientStart": 5243135,
-          "gradientEnd": 2621567,
-          "fontColor": 10526880
-        }
-      ],
+      "backgroundAlpha": 204,
+      "themes": [],
       "activeTheme": "waila:dark"
     },
     "scale": 1.0

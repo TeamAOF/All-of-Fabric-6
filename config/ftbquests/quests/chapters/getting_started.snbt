@@ -185,8 +185,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -246,7 +246,8 @@
 			rewards: [{
 				id: "6763E838B1A44FFB"
 				type: "item"
-				item: "gofish:carrot_carp"
+				item: "minecraft:carrot"
+				count: 3
 			}]
 		}
 	]

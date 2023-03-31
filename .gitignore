@@ -104,8 +104,6 @@ shaderpacks/
 
 chiselsandbits/
 
-defaultconfigs/
-
 ModListCreator-4.0.1-fatjar.jar
 
 Server/
@@ -117,3 +115,7 @@ kubejs/exported/
 testing_server/
 
 spell_engine_tutorial.json
+
+everbook/
+
+debug/

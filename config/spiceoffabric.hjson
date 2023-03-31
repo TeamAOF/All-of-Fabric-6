@@ -84,5 +84,9 @@
 		// Enable a food container that can be crafted from bamboo and holds up to 9 stacks of food.
 		// default: false
 		enable-picnic-basket: false
+		// Whether to use Polymer for server-side only usage.
+		// Using Polymer in other scenarios is not recommended.
+		// default: false
+		use-polymer: false
 	}
 }

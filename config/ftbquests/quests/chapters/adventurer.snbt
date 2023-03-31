@@ -29,7 +29,7 @@
 				}
 			}
 			x: 1.5d
-			y: 0.5d
+			y: 0.0d
 			subtitle: "Fishing should be fun."
 			description: [
 				"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
@@ -90,8 +90,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -125,8 +125,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -165,8 +165,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -206,8 +206,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
 					}
 				}
 			}]
@@ -215,7 +215,7 @@
 		{
 			title: "&5The Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: 0.5d
+			x: 1.0d
 			y: 1.5d
 			subtitle: "Step into the Twilight Realm!"
 			description: [
@@ -240,8 +240,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -290,8 +290,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 11763949
-							Name: "Ad Astra! Rare Lootbag"
 							Loot: "aof:loot_bags/ad_astra/rare"
+							Name: "Ad Astra! Rare Lootbag"
 						}
 					}
 				}
@@ -300,7 +300,7 @@
 		{
 			title: "&dArcheology"
 			x: -2.5d
-			y: 0.5d
+			y: 0.0d
 			subtitle: "Know your prehistory."
 			description: [
 				"&bThe Archeology System &6introduces the following&r:"
@@ -344,8 +344,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -378,15 +378,15 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
 		}
 		{
 			title: "&6Mine Cells"
-			x: -1.5d
+			x: -2.0d
 			y: 1.5d
 			subtitle: "Dive into the story of Dead Cells!"
 			description: [
@@ -415,8 +415,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
@@ -444,8 +444,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Loot: "aof:loot_bags/misc/artifacts"
 					}
 				}
 			}]
