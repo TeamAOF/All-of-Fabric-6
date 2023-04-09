@@ -132,7 +132,7 @@
     },
     "cryoFreezer": {
         "maxEnergy": 30000,
-        "energyPerTick": 243000,
+        "energyPerTick": 18,
         "tankSize": 243000
     }
 }
