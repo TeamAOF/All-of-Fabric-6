@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
