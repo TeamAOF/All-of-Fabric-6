@@ -25,7 +25,7 @@ _Fabric Loader 0.14.19_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 * Fixed conflicts between paper lamps (blockus & macaw)
 * Added white oak saplings to botany pots.
-* Added bewtichment seeds to botany pots.
+* Added bewitchment seeds to botany pots.
 
 ### Added Mods
 
