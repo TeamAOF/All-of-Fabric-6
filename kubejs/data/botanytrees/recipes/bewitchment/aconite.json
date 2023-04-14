@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "bewitchment:aconite_seeds"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "bewitchment:aconite_seeds"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "bewitchment:aconite"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "bewitchment:aconite"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "bewitchment:aconite_seeds"
+        }
+      }
+    ]
+  }
