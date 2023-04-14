@@ -1,11 +1,11 @@
 {
   "configVersion": 4,
   "inventory": {
-    "enabled": false,
+    "enabled": true,
     "itemCount": true,
     "nbt": false,
     "maxWidth": 9,
-    "maxHeight": 3,
+    "maxHeight": 2,
     "blacklist": []
   },
   "entityInventory": {
