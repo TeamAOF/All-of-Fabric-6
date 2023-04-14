@@ -7,7 +7,8 @@
     "create:hose_pulley",
     "create:carriage_contraption",
     "betterend:eternal_pedestal",
-    "create:gantry_carriage"
+    "create:gantry_carriage",
+    "modern_industrialization:large_tank"
   ],
   "entityWhitelist": [
     "botania:mana_burst", "create:gantry_carriage", "minecells:elevator"
