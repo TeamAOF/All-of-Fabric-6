@@ -21,6 +21,16 @@ const DELETED_ITEMS = [
     'adventurez:cooked_venison',
     'fishofthieves:earthworms',
     'fishofthieves:grubs',
+    'blockus:oak_barrel',
+    'blockus:birch_barrel',
+    'blockus:jungle_barrel',
+    'blockus:acacia_barrel',
+    'blockus:dark_oak_barrel',
+    'blockus:crimson_barrel',
+    'blockus:warped_barrel',
+    'blockus:white_oak_barrel',
+    'blockus:bamboo_barrel',
+    'blockus:charred_barrel'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));

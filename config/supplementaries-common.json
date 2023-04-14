@@ -84,7 +84,7 @@
       "enabled": true,
       "tipped_spikes": true,
       "player_loot": false,
-      "alternative_mode": true
+      "only_allow_harmful_effects": true
     },
     "urn": {
       "enabled": true,
@@ -110,6 +110,7 @@
       }
     },
     "fodder": true,
+    "hourglass": true,
     "present": true
   },
   "building": {
@@ -181,7 +182,7 @@
       }
     },
     "daub": true,
-    "ash_brick": true,
+    "ash_bricks": true,
     "lapis_bricks": true,
     "deepslate_lamp": true,
     "end_stone_lamp": true,

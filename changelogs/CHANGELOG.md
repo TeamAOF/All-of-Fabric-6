@@ -1,3 +1,38 @@
+### All of Fabric 6 | v1.5.3
+
+_Fabric Loader 0.14.19_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.3.md)_
+
+### Changes
+
+* Updated loader to 14.19
+* Blacklisted toolboxes, sacks & trinket case in the replicator.
+* MI large tanks will no longer be culled, fixing rendering issues.
+* Disabled cave jockey spiders.
+* Disabled zombie guardian jockeys.
+* Hide blockus barrels from REI.
+* Enabled block inventory module in WAILA.
+
+### Fixes
+
+* Crashing when mounting brooms.
+* Cryo freezer using way more energy than it should.
+* MI machines sometimes wouldnt have animated textures with sodium settings enabled.
+* Removed structure maps from dungeon arises structures, fixing thread locks.
+* Bisecthosting UI wouldnt default to AOF6.
+* TF castle blocks would be invisible & sometimes lock chunks.
+
+### Recipes
+
+* Fixed conflicts between paper lamps (blockus & macaw)
+* Added white oak saplings to botany pots.
+* Added bewtichment seeds to botany pots.
+
+### Added Mods
+
+  * [Befixment](https://www.curseforge.com/minecraft/mc-mods/befixment)
+  * [FullStack Watchdog](https://www.curseforge.com/minecraft/mc-mods/fullstack-watchdog)
+---
+
 ### All of Fabric 6 | v1.5.2
 
 _Fabric Loader 0.14.18_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.2.md)_

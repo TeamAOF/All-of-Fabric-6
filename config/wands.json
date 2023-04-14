@@ -1,4 +1,5 @@
 {
+  "max_limit___increment_this_if_your_machine_can_handle_it": 8192,
   "blocks_per_xp": 0.0,
   "stone_wand_limit": 16,
   "iron_wand_limit": 32,
@@ -16,6 +17,7 @@
   "mend_tools": true,
   "enable_vein_mode": true,
   "enable_blast_mode": true,
+  "disable_destroy_replace": false,
   "magic_bag_1_limit": 17280,
   "magic_bag_2_limit": 172800,
   "wand_mode_display_x_pos": 75.0,
@@ -23,6 +25,8 @@
   "wand_tools_display_x_pos": 0.0,
   "wand_tools_display_y_pos": 100.0,
   "preview_opacity": 0.8,
+  "wand_screen_x_offset": 0,
+  "wand_screen_y_offset": 0,
   "fancy_preview": true,
   "block_outlines": true,
   "fill_outlines": true,
