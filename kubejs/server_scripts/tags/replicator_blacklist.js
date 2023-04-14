@@ -194,7 +194,10 @@ ServerEvents.tags('item', event => {
         'appbot:portable_mana_storage_cell_4k',
         'appbot:portable_mana_storage_cell_16k',
         'appbot:portable_mana_storage_cell_64k',
-        'appbot:portable_mana_storage_cell_256k'
+        'appbot:portable_mana_storage_cell_256k',
+        '#create:toolboxes',
+        'supplementaries:sack',
+        'botania:bauble_box'
 
     ];
 
