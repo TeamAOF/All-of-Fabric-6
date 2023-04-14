@@ -52,6 +52,17 @@ ServerEvents.recipes(event => {
             A: 'minecraft:polished_deepslate',
         },
           id: 'blockus:polished_deepslate_button'
+        },
+
+        // Paper Lamp
+        {
+          output: 'blockus:paper_lamp',
+          pattern: [' A ', 'ABA', ' A '],
+          key: {
+            A: 'minecraft:paper',
+            B: 'minecraft:torch'
+        },
+          id: 'blockus:paper_lamp'
         }
         ];
         
