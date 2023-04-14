@@ -7,6 +7,10 @@
   * [Befixment](https://www.curseforge.com/minecraft/mc-mods/befixment) (by [TheWinABagel](https://www.curseforge.com/members/TheWinABagel/projects))
   * [FullStack Watchdog](https://www.curseforge.com/minecraft/mc-mods/fullstack-watchdog) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
 
+### Removed
+
+  * [KleeSlabs (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
+
 ### Changed
 
   * [vinery-1.2.1.jar](https://www.curseforge.com/minecraft/mc-mods/lets-do-wine/files/4463430) -> [vinery-1.2.4.jar](https://www.curseforge.com/minecraft/mc-mods/lets-do-wine/files/4477441)

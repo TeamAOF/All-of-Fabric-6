@@ -31,6 +31,10 @@ _Fabric Loader 0.14.19_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
   * [Befixment](https://www.curseforge.com/minecraft/mc-mods/befixment)
   * [FullStack Watchdog](https://www.curseforge.com/minecraft/mc-mods/fullstack-watchdog)
+
+### Removed Mods
+
+* [KleeSlabs (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric)
 ---
 
 ### All of Fabric 6 | v1.5.2

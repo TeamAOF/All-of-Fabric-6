@@ -183,7 +183,6 @@
   * [jumpoverfences-fabric-1.19.2-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/jump-over-fences-forge/files/3974481) (by [Kreezxil](https://www.curseforge.com/members/Kreezxil/projects))
   * [javd-fabric-4.0.1-build.2+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/just-another-void-dimension/files/4035526) (by [UnRealDinnerbone](https://www.curseforge.com/members/UnRealDinnerbone/projects))
   * [kibe-1.9.11-BETA+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/kibe/files/4352610) (by [D4rkness_King](https://www.curseforge.com/members/D4rkness_King/projects))
-  * [kleeslabs-fabric-1.19.2-12.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric/files/4440438) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
   * [kubejs-fabric-1902.6.0-build.142.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/4377174) (by [LatvianModder](https://www.curseforge.com/members/LatvianModder/projects))
   * [kubejs-create-fabric-1902.1.1-build.35.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs-create/files/4483303) (by [LatvianModder](https://www.curseforge.com/members/LatvianModder/projects))
   * [labels-1.19.2-1.7-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/labels/files/4329261) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
