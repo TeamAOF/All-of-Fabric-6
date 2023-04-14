@@ -12,6 +12,6 @@
     "tridentSpawn": true,
     "highVelocity": true,
     "betterAnimation": true,
-    "guardianJockeySpawn": true
+    "guardianJockeySpawn": false
   }
 }

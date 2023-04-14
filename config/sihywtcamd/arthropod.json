@@ -9,7 +9,7 @@
   "spider": {
     "baby": true,
     "webProjectileGoal": false,
-    "caveSpiderJockey": true,
+    "caveSpiderJockey": false,
     "caveSpiderNaturalSpawn": true
   }
 }
