@@ -22,6 +22,9 @@ ServerEvents.tags('item', event => {
   event.add('c:knives', 'farmersdelight:diamond_knife')
   event.add('c:knives', 'farmersdelight:netherite_knife')
 
+  // Dough
+  event.add('c:doughs', 'farmersdelight:wheat_dough')
+
 const bw_fleece = [
   'orange',
   'magenta',
