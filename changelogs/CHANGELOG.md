@@ -1,3 +1,34 @@
+### All of Fabric 6 | v1.5.4
+
+_Fabric Loader 0.14.19_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.4.md)_
+
+### Changes
+
+* Re-enabled animate_only_visible_textures sodium setting (fixes certain fps drops in larger bases).
+
+### Fixes
+
+* Slipways spawning absurd numbers of wandering wisps if the wisps are in lazy chunks.
+* Rare crash on worldgen caused by spectrum.
+* Typos in Omni-tool quest.
+* Redstone comparator not functioning.
+
+### Recipes
+
+* Fixed any recipe using c:doughs tag as input.
+* Fixed titanium dust duplication.
+* Remove old un-used AE2 certus quartz ore recipes.
+
+### Added Mods
+
+* [Chat Heads](https://www.curseforge.com/minecraft/mc-mods/chat-heads)
+* [Cherished Worlds (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/cherished-worlds)
+
+### Removed Mods
+
+* [Cherished Worlds (Fabric 1.16.1 - 1.19.2)](https://www.curseforge.com/minecraft/mc-mods/cherished-worlds-fabric)
+---
+
 ### All of Fabric 6 | v1.5.3
 
 _Fabric Loader 0.14.19_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.3.md)_

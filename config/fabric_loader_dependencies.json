@@ -11,6 +11,11 @@
                 "modmenu": ""
             }
         },
+        "railways": {
+            "-depends": {
+                "create": ""
+            }
+        },
         "chipped": {
             "-depends": {
                 "ctm": ""

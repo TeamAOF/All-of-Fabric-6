@@ -1,5 +1,18 @@
 {
+	// Whether to play sounds when using jetpacks (client-side)
 	"soundsEnabled": true,
+	// The frequency of energy drain in ticks
+	"energyDrainTickFrequency": 2,
 	"inkUsagePerTick": 1,
-	"inkUsagePerTickHovering": 2
+	"inkUsagePerTickGoingUp": 2,
+	"gemstoneJetpackMaxFuel": 5000,
+	"gemstoneJetpackMaxVerticalVelocity": 0.30000001192092896,
+	"gemstoneJetpackMaxHorizontalVelocity": 1.5,
+	"gemstoneJetpackVerticalSpeedAdditionPerTick": 0.10000000149011612,
+	"gemstoneJetpackHorizontalSpeedMultiplier": 0.05000000074505806,
+	"bedrockJetpackMaxFuel": 10000,
+	"bedrockJetpackMaxVerticalVelocity": 0.5,
+	"bedrockJetpackMaxHorizontalVelocity": 2.0,
+	"bedrockJetpackVerticalSpeedAdditionPerTick": 0.20000000298023224,
+	"bedrockJetpackHorizontalSpeedMultiplier": 0.10000000149011612
 }

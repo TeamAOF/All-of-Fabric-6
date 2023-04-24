@@ -24,6 +24,7 @@ trySoftApproach = "RADIUS"
 tryStrict = true
 replaceWhenClaimed = true
 persistGraves = false
+onDestroyedDrop = "NONE"
 blacklistDimensions = []
 graveInVoid = true
 ignoreDeathTypes = []

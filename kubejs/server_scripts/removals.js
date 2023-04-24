@@ -49,6 +49,8 @@ ServerEvents.recipes( (event) => {
     'modern_industrialization:materials/chromium/craft/dust_from_tiny_dust',
     'techreborn:blast_furnace/titanium_ingot_from_small_dust',
     'techreborn:blast_furnace/titanium_ingot',
+    'techreborn:crafting_table/dust/titanium_dust_from_small',
+    'techreborn:grinder/certus_quartz_dust_from_ore',
 
     ];
 

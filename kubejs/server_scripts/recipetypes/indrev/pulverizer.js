@@ -22,21 +22,6 @@ ServerEvents.recipes(event => {
 
  });
 
- event.recipes.indrev.pulverize({
-        
-  type: "indrev:pulverize",
-  ingredients: {
-      tag: 'c:certus_quartz_ores',
-      count: 1
-  },
-  output: {
-      item: 'ae2:certus_quartz_dust',
-      count: 4
-  },
-  processTime: 300
-
- });
-
  // Coke
  event.recipes.indrev.pulverize({
         

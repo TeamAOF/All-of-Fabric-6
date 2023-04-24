@@ -7,6 +7,9 @@
 		"placeTypeCost": 0.125,
 		"smeltCost": 0.75
 	},
+	"fabricOnlySpells": {
+		"phaseBlockCostFactor": 1.0E-4
+	},
 	"wispSpells": {
 		"moveSpeedSetCost": 1.0,
 		"summonTickingWispCost": 3.0,
@@ -15,6 +18,7 @@
 	},
 	"wispUpkeep": {
 		"storingPlayerCostScaleFactor": 1.0,
+		"mediaFlowRateOverLink": 0.01,
 		"tickingWispUpkeepPerTick": 0.0325,
 		"projectileWispUpkeepPerTick": 0.01625,
 		"untriggeredWispUpkeepDiscount": 0.77,
