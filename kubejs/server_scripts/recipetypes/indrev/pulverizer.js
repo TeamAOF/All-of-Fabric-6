@@ -22,6 +22,22 @@ ServerEvents.recipes(event => {
 
  });
 
+ // Fluix
+ event.recipes.indrev.pulverize({
+        
+    type: "indrev:pulverize",
+    ingredients: {
+        tag: 'c:fluix',
+        count: 1
+    },
+    output: {
+        item: 'ae2:fluix_dust',
+        count: 1
+    },
+    processTime: 300
+  
+   });
+
  // Coke
  event.recipes.indrev.pulverize({
         
