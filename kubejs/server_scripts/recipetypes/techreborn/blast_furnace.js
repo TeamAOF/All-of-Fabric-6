@@ -25,7 +25,7 @@ event.custom({
 event.custom({    
   "type": "techreborn:blast_furnace",
   "power": 128,
-  "time": 3600,
+  "time": 800,
   "heat": 1700,
   "ingredients": [
     {
