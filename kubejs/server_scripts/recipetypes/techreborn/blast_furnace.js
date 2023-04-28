@@ -21,4 +21,22 @@ event.custom({
     }
   ]
 })
+
+event.custom({    
+  "type": "techreborn:blast_furnace",
+  "power": 128,
+  "time": 3600,
+  "heat": 1700,
+  "ingredients": [
+    {
+      "tag": "c:chromium_tiny_dusts",
+      "count": 9
+    }
+  ],
+  "results": [
+    {
+      "item": "modern_industrialization:chromium_ingot"
+    }
+  ]
+})
     })
