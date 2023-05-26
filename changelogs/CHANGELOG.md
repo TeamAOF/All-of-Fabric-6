@@ -1,3 +1,42 @@
+### All of Fabric 6 | v1.6.0
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.6.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.6.0.md)_
+
+### Changes
+
+* Updated to fabric loader 0.14.21
+
+### Fixes
+
+* Powah cables sending too much energy, leading to crashes.
+
+### Recipes
+
+* Removed carbon plate recipe from indrev compressor.
+* Added recipe for fluix dust from fluix crystals in indrev pulverizer.
+
+### Added Mods
+
+  * [[Beachparty] Let's Do Beachparty](https://www.curseforge.com/minecraft/mc-mods/beachparty)
+  * [Additional Lanterns](https://www.curseforge.com/minecraft/mc-mods/additional-lanterns)
+  * [Chat Heads](https://www.curseforge.com/minecraft/mc-mods/chat-heads)
+  * [Cherished Worlds (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/cherished-worlds)
+  * [Create Deco Fabric](https://www.curseforge.com/minecraft/mc-mods/create-deco-fabric)
+  * [Create Goggles (Create Plus)](https://www.curseforge.com/minecraft/mc-mods/create-goggles)
+  * [Create Slice & Dice](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice)
+  * [Create: Steam 'n' Rails](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails)
+  * [Durability Tooltip](https://www.curseforge.com/minecraft/mc-mods/durability-tooltip)
+  * [Entangled](https://www.curseforge.com/minecraft/mc-mods/entangled)
+  * [Item Collectors](https://www.curseforge.com/minecraft/mc-mods/item-collectors)
+  * [Peripheralium](https://www.curseforge.com/minecraft/mc-mods/peripheralium)
+  * [Re-chiseled](https://www.curseforge.com/minecraft/mc-mods/rechiseled)
+  * [SuperMartijn642's Config Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib)
+  * [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib)
+  * [Tesseract](https://www.curseforge.com/minecraft/mc-mods/tesseract)
+  * [UnlimitedPeripheralWorks](https://www.curseforge.com/minecraft/mc-mods/unlimitedperipheralworks)
+  * [Wireless Chargers](https://www.curseforge.com/minecraft/mc-mods/wireless-chargers)
+---
+
 ### All of Fabric 6 | v1.5.4
 
 _Fabric Loader 0.14.19_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.5.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.5.4.md)_
