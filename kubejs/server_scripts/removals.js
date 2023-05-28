@@ -43,6 +43,7 @@ ServerEvents.recipes( (event) => {
     'farmersdelight:wheat_dough_from_eggs',
     'farmersdelight:wheat_dough',
     'create:crafting/appliances/dough',
+    'vinery:dough',
     'croptopia:shaped_bacon',
     'indrev:shapeless/copper_ingot_from_block',
     'wands:stone_wand2',
