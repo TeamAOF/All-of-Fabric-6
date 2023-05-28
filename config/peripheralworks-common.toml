@@ -1,0 +1,54 @@
+
+[plugins]
+
+	[plugins.specific]
+		#Enables integration for minecraft powered rail
+		enablePoweredRail = true
+		#Enables integration for minecraft beacon
+		enableBeacon = true
+		#Enables integration for minecraft lectern
+		enableLectern = true
+		#Enables integration for minecraft jukebox
+		enableJukebox = true
+		#Enables integration for minecraft note block
+		enableNoteBlock = true
+
+	[plugins.generic]
+		#Limits max fluid transfer per one operation
+		#Range: 1 ~ 9223372036854775807
+		fluidStorageTransferLimit = 5305500
+		#Enables generic integration for inventory types of block entities
+		enableGenericInventory = true
+		#Limits max item transfer per one operation
+		#Range: 1 ~ 9223372036854775807
+		itemStorageTransferLimit = 128
+		#Enables generic integration for item storages, that are not covered by inventory integration
+		enableGenericItemStorage = true
+		#Enables generic integration for fluid storages
+		enableGenericFluidStorage = true
+
+[integrations]
+
+	[integrations.create]
+		#Enables storage integration
+		enableStorage = true
+
+	[integrations.team_reborn_energy]
+		#Enables energy storage integration
+		enableEnergyStorage = true
+		#Controls how many energy required for one fuel point
+		#Range: > 1
+		energyToFuelRate = 50
+		#Enables turtle refueling with items with energy
+		enableTurtleRefuelWithEnergy = true
+
+	[integrations.modern_industrialization]
+		#Enables energy storage integration
+		enableEnergyStorage = true
+		#Enables crafting machine integration
+		enableCraftingMachine = true
+
+	[integrations.ae2]
+		#Enables me interface integration
+		enableMEInterface = true
+

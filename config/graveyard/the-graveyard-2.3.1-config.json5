@@ -1,0 +1,194 @@
+{
+  // Welcome to The Graveyard Config!
+  //
+  // Structures:
+  // Enable or disable structure spawns.
+  //
+  // Mobs:
+  // Configure spawning weight and group size of the spawn (ghoul, revenant, reaper, nightmare, skeleton creeper).
+  // Configure if mobs burn in sunlight and/or if mobs are affected by the wither effect.
+  //
+  // Additional:
+  // Configure graveyard fog particles rising from moss and set the chance of spawning them (higher numbers = lower chance of spawning).
+  // Configure if hordes of graveyard mobs can spawn and set their size and frequency.
+  // Configure if urns have a double chest inventory.
+  // Configure if the wither skeleton spawner in the large graveyard will be replaced by a skeleton spawner.
+  "structureConfigEntries": {
+    "small_grave": {
+      "enabled": true
+    },
+    "crypt": {
+      "enabled": true
+    },
+    "small_graveyard": {
+      "enabled": true
+    },
+    "small_desert_grave": {
+      "enabled": true
+    },
+    "memorial_tree": {
+      "enabled": true
+    },
+    "small_desert_graveyard": {
+      "enabled": true
+    },
+    "large_graveyard": {
+      "enabled": true
+    },
+    "small_savanna_grave": {
+      "enabled": true
+    },
+    "mushroom_grave": {
+      "enabled": true
+    },
+    "haunted_house": {
+      "enabled": true
+    },
+    "giant_mushroom": {
+      "enabled": true
+    },
+    "altar": {
+      "enabled": true
+    },
+    "ruins": {
+      "enabled": true
+    },
+    "medium_graveyard": {
+      "enabled": true
+    },
+    "lich_prison": {
+      "enabled": true
+    },
+    "dead_tree": {
+      "enabled": true
+    },
+    "small_mountain_grave": {
+      "enabled": true
+    }
+  },
+  "particleConfigEntries": {
+    "graveyard_fog_particle": {
+      "canGenerate": true,
+      "spawnChance": 50
+    }
+  },
+  "mobConfigEntries": {
+    "acolyte": {
+      "enabled": false,
+      "weight": 0,
+      "minGroup": 0,
+      "maxGroup": 0,
+      "canBurnInSunlight": false,
+      "canBeWithered": false
+    },
+    "revenant": {
+      "enabled": true,
+      "weight": 25,
+      "minGroup": 5,
+      "maxGroup": 8,
+      "canBurnInSunlight": true,
+      "canBeWithered": false
+    },
+    "wraith": {
+      "enabled": false,
+      "weight": 0,
+      "minGroup": 0,
+      "maxGroup": 0,
+      "canBurnInSunlight": true,
+      "canBeWithered": false
+    },
+    "corrupted_vindicator": {
+      "enabled": false,
+      "weight": 0,
+      "minGroup": 0,
+      "maxGroup": 0,
+      "canBurnInSunlight": true,
+      "canBeWithered": false
+    },
+    "skeleton_creeper": {
+      "enabled": true,
+      "weight": 25,
+      "minGroup": 1,
+      "maxGroup": 4,
+      "canBurnInSunlight": true,
+      "canBeWithered": false
+    },
+    "corrupted_pillager": {
+      "enabled": false,
+      "weight": 0,
+      "minGroup": 0,
+      "maxGroup": 0,
+      "canBurnInSunlight": true,
+      "canBeWithered": false
+    },
+    "ghoul": {
+      "enabled": true,
+      "weight": 25,
+      "minGroup": 2,
+      "maxGroup": 5,
+      "canBurnInSunlight": true,
+      "canBeWithered": false
+    },
+    "reaper": {
+      "enabled": true,
+      "weight": 5,
+      "minGroup": 2,
+      "maxGroup": 3,
+      "canBurnInSunlight": true,
+      "canBeWithered": false
+    },
+    "nightmare": {
+      "enabled": true,
+      "weight": 10,
+      "minGroup": 1,
+      "maxGroup": 1,
+      "canBurnInSunlight": false,
+      "canBeWithered": false
+    }
+  },
+  "hordeConfigEntries": {
+    "horde_spawn": {
+      "enabled": true,
+      "mobSpawnAttempts": 40,
+      "ticksUntilNextSpawn": 24000,
+      "additionalRandomizedTicks": 1200
+    }
+  },
+  "corruptedChampionConfigEntries": {
+    "corrupted_champion": {
+      "healthInCastingPhase": 400.0,
+      "healthInHuntingPhase": 200.0,
+      "damageCastingPhase": 30.0,
+      "damageHuntingPhaseAddition": 40.0,
+      "armor": 14.0,
+      "armorToughness": 12.0,
+      "speedInHuntPhase": 0.15,
+      "durationHuntingPhase": 800,
+      "durationFallingCorpseSpell": 400,
+      "durationHealingSpell": 700,
+      "durationLevitationSpell": 150,
+      "maxAmountSkullsInShootSkullSpell": 5,
+      "maxSummonedMobs": 30,
+      "maxGroupSizeSummonedMobs": 5,
+      "ghoulSpawnTimerInFight": 6000,
+      "isBloodCollectableEntity": [
+        "entity.minecraft.villager"
+      ],
+      "isBossSummonableItem": [
+        "item.minecraft.debug_stick"
+      ],
+      "summoningNeedsStaffFragments": true,
+      "isMultiphaseFight": true,
+      "isInvulnerableDuringSpells": true,
+      "cooldownCorpseSpell": 400,
+      "cooldownTeleportPlayerAndHeal": 600,
+      "cooldownLevitationSpell": 400,
+      "playerTeleportYOffset": -15
+    }
+  },
+  "booleanEntries": {
+    "disableWitherSkeletonSpawner": false,
+    "urnHasDoubleInventory": true,
+    "enableBossMusic": true
+  }
+}

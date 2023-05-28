@@ -5,4 +5,4 @@ chickenNestRange = 8
 fertilizerBonusCropChance = 1.0
 fertilizerBonusGrowthChance = 1.0
 fertilizerRegressionChance = 0.0
-showRegistryWarnings = false
+treatMerchantsLikeBabies = false

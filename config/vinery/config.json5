@@ -1,0 +1,18 @@
+/*
+Vinery Config
+With links:
+dc:
+cf:
+*/
+{
+	"enable_wine_maker_set_bonus": true,
+	"recipe_book_open": false,
+	"craftable_toggle": true,
+	/* Chance
+	   idk
+	   help.
+	*/
+	"wine_trader_chance": 50,
+	// How long should a year be (in days).
+	"year_length_in_days": 16
+}

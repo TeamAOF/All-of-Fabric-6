@@ -1,20 +1,14 @@
 {
-	id: "77498621DD383E8B"
-	group: ""
-	order_index: 0
-	filename: "getting_started"
-	title: "Getting Started"
-	icon: "portable_tables:portable_crafting_table"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "portable_tables:portable_crafting_table"
+	id: "77498621DD383E8B"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "&eWelcome to All of Fabric 6"
-			icon: "kubejs:aof6_logo"
-			x: 7.5d
-			y: 2.0d
-			shape: "hexagon"
-			subtitle: "A Whole New World!"
 			description: [
 				"&bThis chapter &rwill &6introduce &ryou to the basics of the pack."
 				""
@@ -26,56 +20,58 @@
 				""
 				"&6The adventures are ahead&r!"
 			]
-			size: 1.5d
+			icon: "kubejs:aof6_logo"
 			id: "175F5611FB7716A4"
-			tasks: [{
-				id: "25B2DFAFD351900E"
-				type: "checkmark"
-				title: "Welcome to All of Fabric 6"
-				icon: "kubejs:aof6_logo"
-				disable_toast: true
-			}]
 			rewards: [{
 				id: "300CDF28987696BC"
-				type: "item"
 				item: {
-					id: "inmis:baby_backpack"
 					Count: 1b
+					id: "inmis:baby_backpack"
 					tag: { }
 				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "A Whole New World!"
+			tasks: [{
+				disable_toast: true
+				icon: "kubejs:aof6_logo"
+				id: "25B2DFAFD351900E"
+				title: "Welcome to All of Fabric 6"
+				type: "checkmark"
+			}]
+			title: "&eWelcome to All of Fabric 6"
+			x: 7.5d
+			y: 2.0d
 		}
 		{
-			title: "&bExcavate"
-			x: 10.0d
-			y: 0.5d
-			subtitle: "Ores Be Gone!"
+			dependencies: ["175F5611FB7716A4"]
 			description: [
 				"&bExcavate &ris by default bound to keybind \"&6Grave&r\""
 				""
 				"You can change this keybind &rby going into &6options &rand change the &bFTB Ultimine &rkeybinds."
 			]
-			dependencies: ["175F5611FB7716A4"]
 			id: "7050DE96E151D1D1"
+			subtitle: "Ores Be Gone!"
 			tasks: [{
-				id: "520CE3437306804D"
-				type: "checkmark"
-				title: "Excavate"
 				icon: {
-					id: "minecraft:diamond_pickaxe"
 					Count: 1b
+					id: "minecraft:diamond_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
+				id: "520CE3437306804D"
+				title: "Excavate"
+				type: "checkmark"
 			}]
+			title: "&bExcavate"
+			x: 10.0d
+			y: 0.5d
 		}
 		{
-			title: "&9Learning Mods"
-			icon: "techreborn:wrench"
-			x: 5.0d
-			y: 0.5d
-			subtitle: "Feel lost? Do not worry!"
+			dependencies: ["175F5611FB7716A4"]
 			description: [
 				"Mods are split into 4 categories:"
 				""
@@ -88,24 +84,20 @@
 				""
 				"Certain chapters will have &btips and tricks &ron how to ease your adventures with useful trinkets and gadgets."
 			]
-			dependencies: ["175F5611FB7716A4"]
+			icon: "techreborn:wrench"
 			id: "257EAB9268907E1D"
+			subtitle: "Feel lost? Do not worry!"
 			tasks: [{
 				id: "60A1EB763CF25699"
-				type: "checkmark"
 				title: "Learning Mods"
+				type: "checkmark"
 			}]
+			title: "&9Learning Mods"
+			x: 5.0d
+			y: 0.5d
 		}
 		{
-			title: "&aWhere to settle down?"
-			icon: {
-				id: "naturescompass:naturescompass"
-				Count: 1b
-				tag: { }
-			}
-			x: 5.0d
-			y: 3.5d
-			subtitle: "If you truly love nature, you will find beauty everywhere."
+			dependencies: ["175F5611FB7716A4"]
 			description: [
 				"Dont feel like &6running &rthousands of blocks for that favorite biome of yours?"
 				""
@@ -113,29 +105,33 @@
 				""
 				"&6Search for the biome of choice, &rclap 3 times and start running!"
 			]
-			dependencies: ["175F5611FB7716A4"]
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
 			id: "4D39B9BD9B99383E"
-			tasks: [{
-				id: "1E78FE3CAE735910"
-				type: "checkmark"
-				title: "Where to settle down?"
-			}]
 			rewards: [{
 				id: "197C077CA5118D52"
-				type: "item"
 				item: {
-					id: "naturescompass:naturescompass"
 					Count: 1b
+					id: "naturescompass:naturescompass"
 					tag: { }
 				}
+				type: "item"
 			}]
+			subtitle: "If you truly love nature, you will find beauty everywhere."
+			tasks: [{
+				id: "1E78FE3CAE735910"
+				title: "Where to settle down?"
+				type: "checkmark"
+			}]
+			title: "&aWhere to settle down?"
+			x: 5.0d
+			y: 3.5d
 		}
 		{
-			title: "&cRecipe Wizardry"
-			icon: "mcwtrpdoors:print_paper"
-			x: 7.5d
-			y: -1.0d
-			subtitle: "A recipe is a story that ends with a good meal."
+			dependencies: ["175F5611FB7716A4"]
 			description: [
 				"How to use an item? &6Hover over the item in REI &rand press &b\"U\" &rthis will show you the uses, pay attention to the tabs."
 				""
@@ -145,19 +141,20 @@
 				""
 				"&6You may need to look at the recipes &rfor the material's respective &bnugget &ror sometimes even &bpowders&r."
 			]
-			dependencies: ["175F5611FB7716A4"]
+			icon: "mcwtrpdoors:print_paper"
 			id: "2AB91711E9E7B298"
+			subtitle: "A recipe is a story that ends with a good meal."
 			tasks: [{
 				id: "0657F4EC97E5ACAC"
-				type: "checkmark"
 				title: "I know how to use U and R"
+				type: "checkmark"
 			}]
+			title: "&cRecipe Wizardry"
+			x: 7.5d
+			y: -1.0d
 		}
 		{
-			title: "&3Don't be a tourist, be a traveler"
-			x: 10.0d
-			y: 3.5d
-			subtitle: "Inventory cramped? Fear not!"
+			dependencies: ["175F5611FB7716A4"]
 			description: [
 				"The &bTraveler's Backpack &rcan provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
 				""
@@ -165,44 +162,37 @@
 				""
 				"&bThe Backpack &ralso &6provides special buttons &r- &bsort, quick stack &rand &btransfer &rto manage inventory!"
 			]
-			dependencies: ["175F5611FB7716A4"]
 			id: "5A382E13722186FA"
-			tasks: [{
-				id: "418AF38E1BF686D8"
-				type: "item"
-				item: {
-					id: "travelersbackpack:standard"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
 				id: "38AC5FFB000778CC"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "UNCOMMON"
 						Color: 5889627
 						Loot: "aof:loot_bags/misc/agriculturist"
 						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Inventory cramped? Fear not!"
+			tasks: [{
+				id: "418AF38E1BF686D8"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&3Don't be a tourist, be a traveler"
+			x: 10.0d
+			y: 3.5d
 		}
 		{
-			title: "&6Art of Combat"
-			icon: {
-				id: "simplyswords:stormbringer"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 8.5d
-			y: 5.0d
-			subtitle: "Easy, spectacular and fun melee combat system."
+			dependencies: ["175F5611FB7716A4"]
 			description: [
 				"&b- Fancy attack animations"
 				"This mod includes several one-handed, two-handed and dual wielded attack animation resources."
@@ -222,34 +212,44 @@
 				"&b- Hold to attack"
 				"Hold the attack hotkey to spam attacks on cooldown."
 			]
-			dependencies: ["175F5611FB7716A4"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:stormbringer"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4D90C42B6E294337"
+			subtitle: "Easy, spectacular and fun melee combat system."
 			tasks: [{
 				id: "6186C900B11AF9C7"
-				type: "checkmark"
 				title: "Art Of Combat"
+				type: "checkmark"
 			}]
+			title: "&6Art of Combat"
+			x: 8.5d
+			y: 5.0d
 		}
 		{
-			title: "&6Carrot Mode"
-			icon: "minecraft:carrot"
-			x: 6.5d
-			y: 5.0d
-			subtitle: "Through eating diverse foods you unlock more hearts."
 			dependencies: ["175F5611FB7716A4"]
+			icon: "minecraft:carrot"
 			id: "2053C2EB9BE831AD"
+			rewards: [{
+				count: 3
+				id: "6763E838B1A44FFB"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			subtitle: "Through eating diverse foods you unlock more hearts."
 			tasks: [{
 				id: "4EB555F43B761736"
-				type: "checkmark"
 				title: "Carrot Mode"
+				type: "checkmark"
 			}]
-			rewards: [{
-				id: "6763E838B1A44FFB"
-				type: "item"
-				item: "minecraft:carrot"
-				count: 3
-			}]
+			title: "&6Carrot Mode"
+			x: 6.5d
+			y: 5.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Getting Started"
 }

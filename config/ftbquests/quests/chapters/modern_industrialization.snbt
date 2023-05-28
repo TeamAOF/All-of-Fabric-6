@@ -1,19 +1,14 @@
 {
-	id: "5BB4D2FC1908D3D1"
-	group: "0815C5D80307ECDF"
-	order_index: 3
-	filename: "modern_industrialization"
-	title: "Modern Industrialization"
-	icon: "modern_industrialization:steel_upgrade"
-	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "modern_industrialization"
+	group: "0815C5D80307ECDF"
+	icon: "modern_industrialization:steel_upgrade"
+	id: "5BB4D2FC1908D3D1"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Modern Industrialization"
-			icon: "modern_industrialization:guidebook"
-			x: -15.0d
-			y: -1.5d
-			subtitle: "Technology for Newbies!"
 			description: [
 				"Modern Industrialization offers:"
 				""
@@ -34,21 +29,24 @@
 				""
 				"TIP: Hold the book in your main hand while hovering over a machine/multiblock for more info."
 			]
+			icon: "modern_industrialization:guidebook"
 			id: "6F6196A606D3A8EF"
+			rewards: [{
+				id: "3CC4D443B33915F5"
+				item: "modern_industrialization:guidebook"
+				type: "item"
+			}]
+			subtitle: "Technology for Newbies!"
 			tasks: [{
 				id: "3E45F701C61708E1"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "3CC4D443B33915F5"
-				type: "item"
-				item: "modern_industrialization:guidebook"
-			}]
+			title: "Modern Industrialization"
+			x: -15.0d
+			y: -1.5d
 		}
 		{
-			title: "Poor Man's Compressor"
-			x: -13.5d
-			y: -1.5d
+			dependencies: ["6F6196A606D3A8EF"]
 			description: [
 				"Before making bronze, we will need to create a Forge Hammer."
 				""
@@ -58,31 +56,29 @@
 				""
 				"The Hammer increases the ratio in the Forge Hammer and unlocks more recipes, at the cost of some durability"
 			]
-			dependencies: ["6F6196A606D3A8EF"]
 			id: "385079198388468C"
-			tasks: [{
-				id: "1B769C345EAF942C"
-				type: "item"
-				item: "modern_industrialization:forge_hammer"
-			}]
 			rewards: [{
 				id: "32DCAC1EC2A27C87"
-				type: "item"
 				item: {
-					id: "modern_industrialization:iron_hammer"
 					Count: 1b
+					id: "modern_industrialization:iron_hammer"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1B769C345EAF942C"
+				item: "modern_industrialization:forge_hammer"
+				type: "item"
+			}]
+			title: "Poor Man's Compressor"
+			x: -13.5d
+			y: -1.5d
 		}
 		{
-			title: "&6Your First Bronze!"
-			icon: "modern_industrialization:bronze_ingot"
-			x: -12.0d
-			y: -1.5d
-			subtitle: "Welcome to the Steam Age!"
+			dependencies: ["385079198388468C"]
 			description: [
 				"First, you need to make copper and tin (tiny) dusts by hammering copper and tin ingots (nuggets) in the forge hammer."
 				""
@@ -98,64 +94,66 @@
 				""
 				"You can also reduce the maximum number of items in a slot by scrolling."
 			]
-			dependencies: ["385079198388468C"]
+			icon: "modern_industrialization:bronze_ingot"
 			id: "4661838E492BDE53"
-			tasks: [{
-				id: "393032946BC049BC"
-				type: "item"
-				item: "modern_industrialization:bronze_ingot"
-				count: 32L
-			}]
 			rewards: [{
 				id: "6F560B31D5CF1579"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Welcome to the Steam Age!"
+			tasks: [{
+				count: 32L
+				id: "393032946BC049BC"
+				item: "modern_industrialization:bronze_ingot"
+				type: "item"
+			}]
+			title: "&6Your First Bronze!"
+			x: -12.0d
+			y: -1.5d
 		}
 		{
-			x: -9.5d
-			y: 0.5d
-			subtitle: "This is probably the first machine you will want to build!"
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"The Compressor will turn ingots into plates at 1:1 ratio."
 				""
 				"It can also turn each double ingot into 2 plates."
 			]
-			dependencies: ["4661838E492BDE53"]
 			id: "7F96B49412F52611"
-			tasks: [{
-				id: "3F8C83D99FC1C002"
-				type: "item"
-				item: "modern_industrialization:bronze_compressor"
-			}]
 			rewards: [{
 				id: "7001E0BE6F705515"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "This is probably the first machine you will want to build!"
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
 		}
 		{
-			x: -9.5d
-			y: -0.5d
-			subtitle: "Oh, That's Hot!"
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"Steam machines need steam to function, and that's exactly what the boiler provides. It will slowly use fuel to heat up. When it's hot enough, it will start to produce steam. Don't forget to feed it with water or your fuel will burn for nothing."
 				""
@@ -167,34 +165,36 @@
 				""
 				"Bronze machines can only process recipes up to 2 EU/t, meaning that the recipe will use 2 Energy Units per Tick. As 1 millibucket of steam = 1 EU, a boiler at max temperature can power 4 machines simultaneously!"
 			]
-			dependencies: ["4661838E492BDE53"]
 			id: "0BAB52BE15CE157F"
-			tasks: [{
-				id: "047BE723A63F9E5F"
-				type: "item"
-				item: "modern_industrialization:bronze_boiler"
-			}]
 			rewards: [{
 				id: "48FE673386EA9DF8"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Oh, That's Hot!"
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
 		}
 		{
-			title: "Steam Blast Furnace"
-			icon: "modern_industrialization:steam_blast_furnace"
-			x: -5.5d
-			y: -1.5d
-			subtitle: "One doesnt seems enough"
+			dependencies: [
+				"748D2241F66FF644"
+				"0DD703B94D202B68"
+				"4AD93229344EA0BE"
+			]
 			description: [
 				"The Blast Furnace's structure is the same as the Coke Oven's, with Bricks replaced by Fire Clay Bricks and one extra hollow layer on top."
 				""
@@ -202,91 +202,89 @@
 				""
 				"Craft the controller, 29 Fire Clay Bricks and the same three hatches as the Coke Oven."
 			]
-			dependencies: [
-				"748D2241F66FF644"
-				"0DD703B94D202B68"
-				"4AD93229344EA0BE"
-			]
+			icon: "modern_industrialization:steam_blast_furnace"
 			id: "586CB8FEAA0A50C6"
+			rewards: [{
+				id: "396455A4423FE42F"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "One doesnt seems enough"
 			tasks: [
 				{
-					id: "34C10A32EE244F3F"
-					type: "item"
-					item: "modern_industrialization:fire_clay_bricks"
 					count: 29L
+					id: "34C10A32EE244F3F"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
 				}
 				{
 					id: "49215E965FF25243"
-					type: "item"
 					item: "modern_industrialization:steam_blast_furnace"
+					type: "item"
 				}
 				{
 					id: "343625490325E9E0"
-					type: "item"
 					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
 				}
 				{
 					id: "1F0ABBBFABD188C2"
-					type: "item"
 					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
 				}
 				{
 					id: "6056045338C6DD46"
-					type: "item"
 					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "396455A4423FE42F"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
-						Loot: "aof:loot_bags/mi/common"
-					}
-				}
-			}]
+			title: "Steam Blast Furnace"
+			x: -5.5d
+			y: -1.5d
 		}
 		{
-			x: -9.5d
-			y: 1.5d
-			subtitle: "Ore hemiquadrupling for the win!"
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"The Macerator will turn 3 crushed dusts/raw ores into 4.5 dusts."
 				"Make sure to not grind your precious gem ores"
 				""
 				"It can also recycle all kinds of materials by turning them into dust."
 			]
-			dependencies: ["4661838E492BDE53"]
 			id: "5A27B361EF71A4DF"
-			tasks: [{
-				id: "7799145BACA36D6A"
-				type: "item"
-				item: "modern_industrialization:bronze_macerator"
-			}]
 			rewards: [{
 				id: "552FF114A2E605FB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Ore hemiquadrupling for the win!"
+			tasks: [{
+				id: "7799145BACA36D6A"
+				item: "modern_industrialization:bronze_macerator"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
 		}
 		{
-			x: -13.5d
-			y: -3.0d
-			subtitle: "You may want to consider making a Steam Mining Drill to obtain the ores directly without needing a Silk Touch pickaxe."
+			dependencies: ["385079198388468C"]
 			description: [
 				"The Steam Mining Drill can mine 3x3 blocks at the time, perfect for your early game mining needs!"
 				""
@@ -298,99 +296,98 @@
 				""
 				"The fuel will be consumed slowly when you mine."
 			]
-			dependencies: ["385079198388468C"]
 			id: "70CD9F0D26A75E13"
-			tasks: [{
-				id: "4BCB31C3818DC3D7"
-				type: "item"
-				item: "modern_industrialization:steam_mining_drill"
-			}]
 			rewards: [
 				{
 					id: "77CB2BB7884957A3"
-					type: "item"
 					item: "minecraft:water_bucket"
+					type: "item"
 				}
 				{
-					id: "1D21EBE1D2B67222"
-					type: "item"
-					item: "modern_industrialization:coke"
 					count: 16
+					id: "1D21EBE1D2B67222"
+					item: "modern_industrialization:coke"
+					type: "item"
 				}
 			]
+			subtitle: "You may want to consider making a Steam Mining Drill to obtain the ores directly without needing a Silk Touch pickaxe."
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				item: "modern_industrialization:steam_mining_drill"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
 		}
 		{
-			x: -9.5d
-			y: -3.5d
-			subtitle: "The Mixer will help you mix dusts for a cheaper price."
 			dependencies: ["4661838E492BDE53"]
 			dependency_requirement: "one_started"
 			id: "4575644C7E5F2DEE"
-			tasks: [{
-				id: "1CCFC1ADFBB4F858"
-				type: "item"
-				item: "modern_industrialization:bronze_mixer"
-			}]
 			rewards: [
 				{
 					id: "3BF5F814E7572F46"
-					type: "item"
 					item: "farmersdelight:mixed_salad"
+					type: "item"
 				}
 				{
 					id: "14D7470722DF021C"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "The Mixer will help you mix dusts for a cheaper price."
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
 		}
 		{
-			icon: "modern_industrialization:bronze_cutting_machine"
-			x: -9.5d
-			y: -4.5d
-			subtitle: "Better cutting ratios!"
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"The Cutting Machine will give you better ratios for bolts, gears, rings and rods."
 				""
 				"It uses a little bit of lubricant every time."
 			]
-			dependencies: ["4661838E492BDE53"]
+			icon: "modern_industrialization:bronze_cutting_machine"
 			id: "68E8311AC3140A56"
-			tasks: [{
-				id: "05C1EB3A2AEB99EF"
-				type: "item"
-				icon: "modern_industrialization:bronze_cutting_machine"
-				item: "modern_industrialization:bronze_cutting_machine"
-			}]
 			rewards: [{
 				id: "4357A53DDE035679"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Better cutting ratios!"
+			tasks: [{
+				icon: "modern_industrialization:bronze_cutting_machine"
+				id: "05C1EB3A2AEB99EF"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
 		}
 		{
-			title: "Fire Clay"
-			x: -9.5d
-			y: -2.5d
-			subtitle: "Dust into bricks!"
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"To make fire clay bricks, you will need to cook fire clay dusts and in order to craft these, you will need brick dusts."
 				""
@@ -398,69 +395,69 @@
 				""
 				"The process efficiency can be improved in steam machines or with a Hammer."
 			]
-			dependencies: ["4661838E492BDE53"]
 			id: "39FADF9C0442304F"
-			tasks: [{
-				id: "5FB4F9E06ED83BA2"
-				type: "item"
-				item: "modern_industrialization:fire_clay_brick"
-				count: 12L
-			}]
 			rewards: [
 				{
-					id: "12FF8CCB7F2657F8"
-					type: "item"
-					item: "minecraft:clay_ball"
 					count: 16
+					id: "12FF8CCB7F2657F8"
+					item: "minecraft:clay_ball"
+					type: "item"
 				}
 				{
 					id: "7925D86DB1ADBA0A"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Dust into bricks!"
+			tasks: [{
+				count: 12L
+				id: "5FB4F9E06ED83BA2"
+				item: "modern_industrialization:fire_clay_brick"
+				type: "item"
+			}]
+			title: "Fire Clay"
+			x: -9.5d
+			y: -2.5d
 		}
 		{
-			x: -8.0d
-			y: -2.5d
-			subtitle: "The Furnace is... well... a Furnace."
-			description: ["It is as slow as normal Furnaces, but it uses 20 times less fuel because steam is very efficient."]
 			dependencies: ["39FADF9C0442304F"]
+			description: ["It is as slow as normal Furnaces, but it uses 20 times less fuel because steam is very efficient."]
 			id: "4AD93229344EA0BE"
-			tasks: [{
-				id: "747A0D40FA945748"
-				type: "item"
-				item: "modern_industrialization:bronze_furnace"
-			}]
 			rewards: [{
 				id: "42EAC7AF48F058B5"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Furnace is... well... a Furnace."
+			tasks: [{
+				id: "747A0D40FA945748"
+				item: "modern_industrialization:bronze_furnace"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
 		}
 		{
-			icon: "modern_industrialization:coke_oven"
-			x: -9.5d
-			y: -1.5d
-			subtitle: "Coke-A Cola -Technici4n"
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"The Coke Oven block here has the role of a Controller."
 				""
@@ -478,60 +475,61 @@
 				""
 				"Coke will be very useful for steel, but it is also a powerful fuel."
 			]
-			dependencies: ["4661838E492BDE53"]
+			icon: "modern_industrialization:coke_oven"
 			id: "36ECD7C06649DE78"
+			rewards: [{
+				id: "28752E436B412354"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Coke-A Cola -Technici4n"
 			tasks: [
 				{
 					id: "217D2448551C324A"
-					type: "item"
 					item: "modern_industrialization:coke_oven"
+					type: "item"
 				}
 				{
-					id: "2418D8560CE16E75"
-					type: "item"
-					item: "minecraft:bricks"
 					count: 21L
+					id: "2418D8560CE16E75"
+					item: "minecraft:bricks"
+					type: "item"
 				}
 				{
 					id: "1EC4B2642DBB8127"
-					type: "item"
 					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
 				}
 				{
 					id: "510058C68DBCD031"
-					type: "item"
 					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
 				}
 				{
 					id: "267A96FED5F44276"
-					type: "item"
 					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
 				}
 				{
 					id: "092B490D68ACEA49"
-					type: "item"
 					item: "modern_industrialization:bronze_fluid_output_hatch"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "28752E436B412354"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
-						Loot: "aof:loot_bags/mi/common"
-					}
-				}
-			}]
+			x: -9.5d
+			y: -1.5d
 		}
 		{
-			x: -8.0d
-			y: -1.5d
-			subtitle: "Coke it Up!"
+			dependencies: ["36ECD7C06649DE78"]
 			description: [
 				"Once you have had enough of the bronze machines, you can start working toward making steel."
 				""
@@ -539,46 +537,46 @@
 				""
 				"The first step is to make coke, by heating coal without oxygen."
 			]
-			dependencies: ["36ECD7C06649DE78"]
 			id: "748D2241F66FF644"
-			tasks: [
-				{
-					id: "4F5F070D435F875B"
-					type: "item"
-					item: "modern_industrialization:coke"
-				}
-				{
-					id: "6C1E991F4D0A3148"
-					type: "item"
-					item: "modern_industrialization:coke_dust"
-				}
-			]
 			rewards: [
 				{
 					id: "5D4B74FC7E1B82E1"
-					type: "item"
 					item: "modern_industrialization:coke_block"
+					type: "item"
 				}
 				{
 					id: "13869B898AB62912"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Coke it Up!"
+			tasks: [
+				{
+					id: "4F5F070D435F875B"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+				{
+					id: "6C1E991F4D0A3148"
+					item: "modern_industrialization:coke_dust"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -1.5d
 		}
 		{
-			x: -8.0d
-			y: -0.5d
-			subtitle: "Your personal bucketer!"
+			dependencies: ["0BAB52BE15CE157F"]
 			description: [
 				"You may have been wondering if perhaps there was a way to insert water into the boiler automatically? There is!"
 				""
@@ -590,32 +588,32 @@
 				""
 				"The Bronze Water Pump will produce 1/8th of a bucket of water for every adjacent water source every 5 seconds, for a max output of 1 bucket / 5 seconds."
 			]
-			dependencies: ["0BAB52BE15CE157F"]
 			id: "0DD703B94D202B68"
-			tasks: [{
-				id: "510DB26BFE950469"
-				type: "item"
-				item: "modern_industrialization:bronze_water_pump"
-			}]
 			rewards: [{
 				id: "5C2F3FDE9BA07D12"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Your personal bucketer!"
+			tasks: [{
+				id: "510DB26BFE950469"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
 		}
 		{
-			title: "Fluid Transportation"
-			x: -12.0d
-			y: 0.0d
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"Fluid pipes can only contain one type of fluid, and by default they won't connect to empty pipes or blocks."
 				""
@@ -629,42 +627,41 @@
 				""
 				"> Right-clicking a pipe with a wrench will change the connection type, shift-right-clicking will drop the pipe."
 			]
-			dependencies: ["4661838E492BDE53"]
 			id: "75608EDF99965533"
-			tasks: [{
-				id: "2E9298C2FC478FF5"
-				type: "item"
-				item: "modern_industrialization:fluid_pipe"
-				count: 16L
-			}]
 			rewards: [
 				{
-					id: "1E311CE091051941"
-					type: "item"
-					item: "minecraft:red_dye"
 					count: 8
+					id: "1E311CE091051941"
+					item: "minecraft:red_dye"
+					type: "item"
 				}
 				{
 					id: "0172EDB1C9271EBA"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 16L
+				id: "2E9298C2FC478FF5"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			title: "Fluid Transportation"
+			x: -12.0d
+			y: 0.0d
 		}
 		{
-			title: "&8Your First Steel!"
-			x: -4.0d
-			y: -1.5d
-			subtitle: "The finest steel has to go through the hottest fire."
+			dependencies: ["586CB8FEAA0A50C6"]
 			description: [
 				"You can macerate coke to obtain Coke Dust, which you can combine with iron to get Uncooked Steel Dust."
 				""
@@ -674,162 +671,163 @@
 				""
 				"Steel machines can process recipes up to 4 EU/t, and they will process recipes at twice the speed as long as the energy usage doesn't go above 4 EU/t. Basically, they are twice as fast as bronze machines and they may also unlock new recipes."
 			]
-			dependencies: ["586CB8FEAA0A50C6"]
 			id: "7C5C1CA5A7954896"
-			tasks: [{
-				id: "3612549FFBF5E73C"
-				type: "item"
-				item: "modern_industrialization:steel_ingot"
-			}]
 			rewards: [{
 				id: "3DC9B5592507D38E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The finest steel has to go through the hottest fire."
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				item: "modern_industrialization:steel_ingot"
+				type: "item"
+			}]
+			title: "&8Your First Steel!"
+			x: -4.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["70CD9F0D26A75E13"]
+			id: "0D10B5E838DF9196"
+			rewards: [{
+				count: 8
+				id: "468AFB6AC11BDA99"
+				item: "modern_industrialization:lignite_coal_block"
+				type: "item"
+			}]
+			subtitle: "It's brown coal. Great fuel to be used with the Steam Mining Drill."
+			tasks: [{
+				count: 64L
+				id: "5B8A314E5014ADA6"
+				item: "modern_industrialization:lignite_coal"
+				type: "item"
+			}]
 			title: "Lignite coal"
 			x: -13.5d
 			y: -4.5d
-			subtitle: "It's brown coal. Great fuel to be used with the Steam Mining Drill."
-			dependencies: ["70CD9F0D26A75E13"]
-			id: "0D10B5E838DF9196"
-			tasks: [{
-				id: "5B8A314E5014ADA6"
-				type: "item"
-				item: "modern_industrialization:lignite_coal"
-				count: 64L
-			}]
-			rewards: [{
-				id: "468AFB6AC11BDA99"
-				type: "item"
-				item: "modern_industrialization:lignite_coal_block"
-				count: 8
-			}]
 		}
 		{
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "6F4AE13DA520109C"
+			rewards: [{
+				id: "3626C67460F937DB"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "To upgrade a bronze machine, craft a Steel Upgrade and apply it in a Smithing Table."
+			tasks: [{
+				count: 2L
+				id: "763B45889C554D7E"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
 			title: "Faster machines?"
 			x: -3.5d
 			y: 0.5d
-			subtitle: "To upgrade a bronze machine, craft a Steel Upgrade and apply it in a Smithing Table."
-			dependencies: ["7C5C1CA5A7954896"]
-			id: "6F4AE13DA520109C"
-			tasks: [{
-				id: "763B45889C554D7E"
-				type: "item"
-				item: "modern_industrialization:steel_upgrade"
-				count: 2L
-			}]
-			rewards: [{
-				id: "3626C67460F937DB"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
-						Loot: "aof:loot_bags/mi/common"
-					}
-				}
-			}]
 		}
 		{
-			title: "Infinite resources?"
-			icon: "modern_industrialization:steam_quarry"
-			x: -4.0d
-			y: -3.5d
-			subtitle: "So what does it do?"
+			dependencies: ["7C5C1CA5A7954896"]
 			description: [
 				"The Steam Quarry is a steam multiblock machine that consumes bronze drills, uses them to dig deeper than the bedrock and gives you back some ores, as you can see in REI."
 				""
 				"It's recommended that you have multiple SBFs running before you attempt to build it because it requires a lot of steel."
 				""
 			]
-			dependencies: ["7C5C1CA5A7954896"]
+			icon: "modern_industrialization:steam_quarry"
 			id: "26E587E34810A8FE"
+			rewards: [{
+				id: "21D56C8F919971F6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "So what does it do?"
 			tasks: [
 				{
 					id: "0B829B6C4987D67B"
-					type: "item"
 					item: "modern_industrialization:steam_quarry"
+					type: "item"
 				}
 				{
-					id: "3FA8E3781E4BF9AE"
-					type: "item"
-					item: "modern_industrialization:steel_machine_casing"
 					count: 13L
+					id: "3FA8E3781E4BF9AE"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
 				}
 				{
-					id: "4AEC4A5817CF1493"
-					type: "item"
-					item: "modern_industrialization:steel_machine_casing_pipe"
 					count: 6L
+					id: "4AEC4A5817CF1493"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
 				}
 				{
-					id: "05F5685C54F12B88"
-					type: "item"
-					item: "minecraft:chain"
 					count: 4L
+					id: "05F5685C54F12B88"
+					item: "minecraft:chain"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "21D56C8F919971F6"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
-						Loot: "aof:loot_bags/mi/common"
-					}
-				}
-			}]
+			title: "Infinite resources?"
+			x: -4.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "74A278B57EF76B3B"
+			rewards: [{
+				id: "45565E85A3748F82"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used in the quarry. Check REI for outputs."
+			tasks: [{
+				count: 4L
+				id: "624F6E6D7A45923D"
+				item: "modern_industrialization:bronze_drill"
+				type: "item"
+			}]
 			title: "Bronze drill"
 			x: -3.5d
 			y: -6.5d
-			subtitle: "Used in the quarry. Check REI for outputs."
-			dependencies: ["2050D2FF42E29F6D"]
-			id: "74A278B57EF76B3B"
-			tasks: [{
-				id: "624F6E6D7A45923D"
-				type: "item"
-				item: "modern_industrialization:bronze_drill"
-				count: 4L
-			}]
-			rewards: [{
-				id: "45565E85A3748F82"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
-						Loot: "aof:loot_bags/mi/common"
-					}
-				}
-			}]
 		}
 		{
-			x: -2.5d
-			y: -1.5d
-			subtitle: "It... Makes wires?"
+			dependencies: ["7C5C1CA5A7954896"]
 			description: [
 				"Mix Coke Dust with Water in a mixer and you will get Raw Synthetic Oil, which you can burn in a Steam Blast Furnace to get Synthetic Oil."
 				""
@@ -839,52 +837,50 @@
 				""
 				"For the wires, you will need the Wiremill! Combine these wires with rubber sheets to get cables!"
 			]
-			dependencies: ["7C5C1CA5A7954896"]
 			id: "43F43FB0B9ED0818"
+			rewards: [{
+				count: 4
+				id: "1E9D18D104CA30EC"
+				item: "modern_industrialization:steel_plate"
+				type: "item"
+			}]
+			subtitle: "It... Makes wires?"
 			tasks: [{
 				id: "32FF28A50A8B3DD5"
-				type: "item"
 				item: "modern_industrialization:steel_wiremill"
-			}]
-			rewards: [{
-				id: "1E9D18D104CA30EC"
 				type: "item"
-				item: "modern_industrialization:steel_plate"
-				count: 4
 			}]
+			x: -2.5d
+			y: -1.5d
 		}
 		{
-			x: -4.5d
-			y: -6.5d
-			subtitle: "Used in the quarry. Check REI for outputs."
 			dependencies: ["2050D2FF42E29F6D"]
 			id: "2F5A88568154E986"
-			tasks: [{
-				id: "4CB128CC2F0687DD"
-				type: "item"
-				item: "modern_industrialization:copper_drill"
-			}]
 			rewards: [{
 				id: "27105D71D0783646"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Used in the quarry. Check REI for outputs."
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				item: "modern_industrialization:copper_drill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
 		}
 		{
-			title: "&6The Electric Age!"
-			x: -1.0d
-			y: -1.5d
-			shape: "gear"
-			subtitle: "Basics of Electricity"
+			dependencies: ["43F43FB0B9ED0818"]
 			description: [
 				"Electric machines work exactly the same as steam machines, except that they require electricity instead of steam and they progressively overclock recipes up to 32 EU/t."
 				""
@@ -892,34 +888,36 @@
 				""
 				"We strongly suggest that you automate Machine Hull, Analog Circuits, Motors, Pistons, Robot Arms and Conveyor Belts using Assemblers as soon as possible, that will make crafting electric machines basically free!"
 			]
-			dependencies: ["43F43FB0B9ED0818"]
-			size: 1.2d
 			id: "19E5E31614FE485E"
-			tasks: [{
-				id: "33A196551A047E54"
-				type: "item"
-				item: "modern_industrialization:analog_circuit"
-				count: 2L
-			}]
 			rewards: [{
 				id: "6F412718BD1E7E4B"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Basics of Electricity"
+			tasks: [{
+				count: 2L
+				id: "33A196551A047E54"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			title: "&6The Electric Age!"
+			x: -1.0d
+			y: -1.5d
 		}
 		{
-			title: "Item Transportation"
-			x: -4.5d
-			y: 0.5d
+			dependencies: ["7C5C1CA5A7954896"]
 			description: [
 				"Item pipes will not connect to inventories by default, but again you can force a connection."
 				""
@@ -931,77 +929,76 @@
 				""
 				"They can be upgraded with motors."
 			]
-			dependencies: ["7C5C1CA5A7954896"]
 			id: "38F9192F665742BA"
-			tasks: [{
-				id: "52537690D3281DBF"
-				type: "item"
-				item: "modern_industrialization:item_pipe"
-				count: 16L
-			}]
 			rewards: [
 				{
-					id: "0B0E01C14DDDB67F"
-					type: "item"
-					item: "minecraft:blue_dye"
 					count: 8
+					id: "0B0E01C14DDDB67F"
+					item: "minecraft:blue_dye"
+					type: "item"
 				}
 				{
 					id: "586EC7D8B901B2EA"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 16L
+				id: "52537690D3281DBF"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			title: "Item Transportation"
+			x: -4.5d
+			y: 0.5d
 		}
 		{
-			x: 0.5d
-			y: -0.5d
-			subtitle: "The first machine you'll want to make a lot of!"
-			description: ["The Assembler allows you to automate almost all recipes, up to 3 per Assembler if you use slot locking."]
 			dependencies: ["19E5E31614FE485E"]
+			description: ["The Assembler allows you to automate almost all recipes, up to 3 per Assembler if you use slot locking."]
 			id: "79F4B68189C05A25"
-			tasks: [{
-				id: "651D4E443F87E715"
-				type: "item"
-				item: "modern_industrialization:assembler"
-			}]
 			rewards: [
 				{
-					id: "2E44F161981497D4"
-					type: "item"
-					item: "modern_industrialization:robot_arm"
 					count: 2
+					id: "2E44F161981497D4"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
 				}
 				{
 					id: "1E8E41E1C77A88E0"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "The first machine you'll want to make a lot of!"
+			tasks: [{
+				id: "651D4E443F87E715"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
 		}
 		{
-			icon: "modern_industrialization:large_steam_boiler"
-			x: 0.5d
-			y: -2.5d
-			subtitle: "An upgraded version of the smaller Bronze and Steel Boilers."
+			dependencies: ["19E5E31614FE485E"]
 			description: [
 				"It uses fuels 8 times faster than the Furnace, but it produces 256 mb/t of Steam when fully heated. Don't forget Water or it won't work!"
 				""
@@ -1015,60 +1012,61 @@
 				""
 				"Hatches must be placed on the bottom layer."
 			]
-			dependencies: ["19E5E31614FE485E"]
+			icon: "modern_industrialization:large_steam_boiler"
 			id: "2F6ED192CC3A9AF4"
-			tasks: [
-				{
-					id: "7D1063975B5EA66E"
-					type: "item"
-					item: "modern_industrialization:large_steam_boiler"
-				}
-				{
-					id: "13C71839379B60DA"
-					type: "item"
-					item: "modern_industrialization:bronze_machine_casing_pipe"
-					count: 2L
-				}
-				{
-					id: "32E98789AE243D6A"
-					type: "item"
-					item: "modern_industrialization:bronze_plated_bricks"
-					count: 24L
-				}
-				{
-					id: "27E2509D1BD44B95"
-					type: "item"
-					item: "modern_industrialization:heatproof_machine_casing"
-					count: 9L
-				}
-			]
 			rewards: [
 				{
-					id: "66C0E34F6FD976C3"
-					type: "item"
-					item: "modern_industrialization:white_fluid_pipe"
 					count: 16
+					id: "66C0E34F6FD976C3"
+					item: "modern_industrialization:white_fluid_pipe"
+					type: "item"
 				}
 				{
 					id: "62F27AE431AB6A53"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "An upgraded version of the smaller Bronze and Steel Boilers."
+			tasks: [
+				{
+					id: "7D1063975B5EA66E"
+					item: "modern_industrialization:large_steam_boiler"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13C71839379B60DA"
+					item: "modern_industrialization:bronze_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "32E98789AE243D6A"
+					item: "modern_industrialization:bronze_plated_bricks"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "27E2509D1BD44B95"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			x: 0.5d
-			y: -1.5d
-			subtitle: "The Steam Turbine uses Steam to produce electricity."
+			dependencies: ["19E5E31614FE485E"]
 			description: [
 				"It converts every mb of Steam to 1 EU, up to 32 mb converted every tick."
 				""
@@ -1080,68 +1078,67 @@
 				""
 				"Every electric cable has a Tier which determines how many EU/t it can transfer and to which machines it can connect. Copper, Silver and Tin are LV, Cupronickel and Electrum are MV, and so on..."
 			]
-			dependencies: ["19E5E31614FE485E"]
 			id: "55ED05A197F8D24A"
-			tasks: [{
-				id: "0497A2F2D5A65B0C"
-				type: "item"
-				item: "modern_industrialization:lv_steam_turbine"
-			}]
 			rewards: [{
 				id: "3235F60BAD5EF9C1"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Steam Turbine uses Steam to produce electricity."
+			tasks: [{
+				id: "0497A2F2D5A65B0C"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
 		}
 		{
-			x: 2.0d
-			y: -1.5d
-			subtitle: "The Polarizer... polarizes stuff."
-			description: ["It doesn't have many recipes yet, but it is already useful to automate Motors!"]
 			dependencies: ["55ED05A197F8D24A"]
+			description: ["It doesn't have many recipes yet, but it is already useful to automate Motors!"]
 			id: "5F52B24FFE2DDD86"
-			tasks: [{
-				id: "796F845AA4E8F271"
-				type: "item"
-				item: "modern_industrialization:polarizer"
-			}]
 			rewards: [
 				{
-					id: "36D19E83ED7A2C1B"
-					type: "item"
-					item: "modern_industrialization:steel_rod_magnetic"
 					count: 4
+					id: "36D19E83ED7A2C1B"
+					item: "modern_industrialization:steel_rod_magnetic"
+					type: "item"
 				}
 				{
 					id: "5AE03CB2DA0F4299"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "The Polarizer... polarizes stuff."
+			tasks: [{
+				id: "796F845AA4E8F271"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
 		}
 		{
-			icon: "modern_industrialization:electric_blast_furnace"
-			x: 3.5d
-			y: -1.5d
-			subtitle: "The electric version of the Steam Blast Furnace."
+			dependencies: ["5F52B24FFE2DDD86"]
 			description: [
 				"It unlocks new recipes and like other multiblock electric machines, its overclock is bounded to 128 EU/t by default."
 				""
@@ -1151,114 +1148,115 @@
 				""
 				"MV Energy Input Hatches will only connect to MV cables, which can be useful if you need a ton of energy for your EBF! You can't craft them yet, but keep in mind they exist..."
 			]
-			dependencies: ["5F52B24FFE2DDD86"]
+			icon: "modern_industrialization:electric_blast_furnace"
 			id: "796F33AE4A9CF30C"
-			tasks: [
-				{
-					id: "39EB9EA6FC93093F"
-					type: "item"
-					item: "modern_industrialization:electric_blast_furnace"
-				}
-				{
-					id: "3AD3F002BEB84710"
-					type: "item"
-					item: "modern_industrialization:heatproof_machine_casing"
-					count: 17L
-				}
-				{
-					id: "431CC13936EFB564"
-					type: "item"
-					item: "modern_industrialization:cupronickel_coil"
-					count: 16L
-				}
-			]
 			rewards: [
 				{
 					id: "242165A5743BEA2A"
-					type: "item"
 					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
 				}
 				{
 					id: "5969D12E96E787AE"
-					type: "item"
 					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
 				}
 				{
 					id: "5F3136BD99FE1C05"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "The electric version of the Steam Blast Furnace."
+			tasks: [
+				{
+					id: "39EB9EA6FC93093F"
+					item: "modern_industrialization:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3AD3F002BEB84710"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "431CC13936EFB564"
+					item: "modern_industrialization:cupronickel_coil"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "6BEB4461CA08633F"
+			rewards: [{
+				id: "73D52B92963F71FF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Advanced Electricity!"
+			tasks: [{
+				id: "36962E06671E364F"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
 			title: "&bThe Midgame Age!"
 			x: 5.0d
 			y: -1.5d
-			shape: "gear"
-			subtitle: "Advanced Electricity!"
-			dependencies: ["796F33AE4A9CF30C"]
-			size: 1.2d
-			id: "6BEB4461CA08633F"
-			tasks: [{
-				id: "36962E06671E364F"
-				type: "item"
-				item: "modern_industrialization:electronic_circuit"
-			}]
-			rewards: [{
-				id: "73D52B92963F71FF"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
 		}
 		{
-			x: 9.5d
-			y: -4.0d
-			subtitle: "Will turn various fluids into their lighter parts."
-			description: ["This will be very useful for Oil Processing."]
 			dependencies: ["33BF21CF8232FD35"]
+			description: ["This will be very useful for Oil Processing."]
 			id: "036292964BDE4944"
-			tasks: [{
-				id: "25449DE629548BDF"
-				type: "item"
-				item: "modern_industrialization:distillery"
-			}]
 			rewards: [{
 				id: "21FEB18A28B279DF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Will turn various fluids into their lighter parts."
+			tasks: [{
+				id: "25449DE629548BDF"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
 		}
 		{
-			title: "&bDiesel Jetpack and Tools"
-			x: 8.5d
-			y: -6.5d
+			dependencies: ["036292964BDE4944"]
 			description: [
 				"- Jetpack go brrr... The more powerful the fuel, the faster the jetpack! We recommend Rubber Boots and a Rubber Helmet..."
 				""
@@ -1268,77 +1266,76 @@
 				""
 				"Toggle between Silk Touch and Fortune III with shift right-click."
 			]
-			dependencies: ["036292964BDE4944"]
 			id: "6D0310EF6A259AC8"
+			rewards: [{
+				id: "005355ACD6B0E16C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "67C570594E13FA80"
-					type: "item"
 					item: "modern_industrialization:diesel_mining_drill"
+					type: "item"
 				}
 				{
 					id: "7E63F544E1AF7DC1"
-					type: "item"
 					item: "modern_industrialization:diesel_chainsaw"
+					type: "item"
 				}
 				{
 					id: "13107B90179730F8"
-					type: "item"
 					item: "modern_industrialization:diesel_jetpack"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "005355ACD6B0E16C"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
+			title: "&bDiesel Jetpack and Tools"
+			x: 8.5d
+			y: -6.5d
 		}
 		{
-			title: "&9The Lategame Age!"
-			x: 14.000680272108838d
-			y: -4.008163265306102d
-			shape: "gear"
-			subtitle: "A Digital World!"
 			dependencies: [
 				"036292964BDE4944"
 				"64BACF5B60AD2406"
 			]
-			size: 1.2d
 			id: "7CE18D246F01445D"
-			tasks: [{
-				id: "096259C009D8AFC1"
-				type: "item"
-				item: "modern_industrialization:digital_circuit"
-			}]
 			rewards: [{
 				id: "6F8DD6AED5444B14"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "A Digital World!"
+			tasks: [{
+				id: "096259C009D8AFC1"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
+			title: "&9The Lategame Age!"
+			x: 14.000680272108838d
+			y: -4.008163265306102d
 		}
 		{
-			icon: "modern_industrialization:oil_drilling_rig"
-			x: 7.5d
-			y: -4.0d
-			subtitle: "A huge multiblock that can dig for Crude Oil under the bedrock using fluid pipes."
+			dependencies: ["6BEB4461CA08633F"]
 			description: [
 				"Yes, it's an oil quarry basically. Oil processing will give you a ton of byproducts and energy!"
 				""
@@ -1348,78 +1345,79 @@
 				""
 				"Crude Oil can be turned into various fuels and used for more efficient Rubber Sheet production."
 			]
-			dependencies: ["6BEB4461CA08633F"]
+			icon: "modern_industrialization:oil_drilling_rig"
 			id: "33BF21CF8232FD35"
+			rewards: [{
+				id: "183D66E2F7AEB0A6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A huge multiblock that can dig for Crude Oil under the bedrock using fluid pipes."
 			tasks: [
 				{
 					id: "26F6DB1C04F1CF93"
-					type: "item"
 					item: "modern_industrialization:oil_drilling_rig"
+					type: "item"
 				}
 				{
-					id: "0BC5972EF14E4DA5"
-					type: "item"
-					item: "modern_industrialization:steel_machine_casing"
 					count: 38L
+					id: "0BC5972EF14E4DA5"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
 				}
 				{
-					id: "0FF841D00CE1829C"
-					type: "item"
-					item: "modern_industrialization:steel_machine_casing_pipe"
 					count: 6L
+					id: "0FF841D00CE1829C"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
 				}
 				{
-					id: "0806B1D850EDDACE"
-					type: "item"
-					item: "minecraft:chain"
 					count: 18L
+					id: "0806B1D850EDDACE"
+					item: "minecraft:chain"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "183D66E2F7AEB0A6"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
+			x: 7.5d
+			y: -4.0d
 		}
 		{
-			x: 7.5d
-			y: -2.0d
-			subtitle: "Can make items and fluids react with eachother."
 			dependencies: ["6BEB4461CA08633F"]
 			id: "6B11B8A209763B36"
-			tasks: [{
-				id: "4405859846ECFE0E"
-				type: "item"
-				item: "modern_industrialization:chemical_reactor"
-			}]
 			rewards: [{
 				id: "641199FDB7D87CF7"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Can make items and fluids react with eachother."
+			tasks: [{
+				id: "4405859846ECFE0E"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
 		}
 		{
-			x: 9.5d
-			y: -6.5d
-			subtitle: "Diesel generators will only use fuel when it needs to."
+			dependencies: ["036292964BDE4944"]
 			description: [
 				"Various fuels can be burned in the Diesel Generator, and you can check in REI how many EU each fuel produces."
 				""
@@ -1429,90 +1427,90 @@
 				""
 				"A fully heated Large Steam Boiler will roughly produce twice the amount of energy a Diesel Generator would produce using the same quantity of fuel."
 			]
-			dependencies: ["036292964BDE4944"]
 			id: "6C8E36B461895C72"
-			tasks: [{
-				id: "69A5D1E45B60D2DA"
-				type: "item"
-				item: "modern_industrialization:diesel_generator"
-			}]
 			rewards: [{
 				id: "5C70B8E95A5100BB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Diesel generators will only use fuel when it needs to."
+			tasks: [{
+				id: "69A5D1E45B60D2DA"
+				item: "modern_industrialization:diesel_generator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
 		}
 		{
-			x: 14.5d
-			y: -6.5d
-			subtitle: "Once you get some digital circuits going, make sure to build a Distillation Tower."
+			dependencies: ["7CE18D246F01445D"]
 			description: [
 				"The Distillery only gives you one oil processing output, but the tower gives you ONE PER LAYER!"
 				""
 				"To change the height of the Distillation Tower, right-click it with a screwdriver. This applies to other multiblocks with multiple shapes as well, such as the Kanthal tier EBF."
 			]
-			dependencies: ["7CE18D246F01445D"]
 			id: "2AE689F6495C83A6"
-			tasks: [{
-				id: "54C9073262B25D06"
-				type: "item"
-				item: "modern_industrialization:distillation_tower"
-			}]
 			rewards: [{
 				id: "6BB49CCD899CE1BF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Once you get some digital circuits going, make sure to build a Distillation Tower."
+			tasks: [{
+				id: "54C9073262B25D06"
+				item: "modern_industrialization:distillation_tower"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.5d
 		}
 		{
-			x: 15.5d
-			y: -6.5d
-			subtitle: "You can use a Heat Exchanger to recover the HP water for another cycle."
-			description: ["Remember that pressurizing water into HP water costs a lot of energy, but the turbine will not give it back!"]
 			dependencies: ["7CE18D246F01445D"]
+			description: ["Remember that pressurizing water into HP water costs a lot of energy, but the turbine will not give it back!"]
 			id: "7F41EEF87B3A8B84"
-			tasks: [{
-				id: "4223D53BFBB35DEF"
-				type: "item"
-				item: "modern_industrialization:heat_exchanger"
-			}]
 			rewards: [{
 				id: "6B1AAE08EAA7828F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "You can use a Heat Exchanger to recover the HP water for another cycle."
+			tasks: [{
+				id: "4223D53BFBB35DEF"
+				item: "modern_industrialization:heat_exchanger"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.5d
 		}
 		{
-			title: "More upgrades!"
-			x: 11.5d
-			y: -6.5d
+			dependencies: ["6B522DC6845DB558"]
 			description: [
 				"- Overclock Upgrades"
 				""
@@ -1526,282 +1524,282 @@
 				""
 				"Right-click with a crowbar to remove the upgrade."
 			]
-			dependencies: ["6B522DC6845DB558"]
 			id: "65CB5CA13FBD010E"
+			rewards: [{
+				id: "0469FE91B8600125"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5625CE2C5AF1194F"
-					type: "item"
 					item: "modern_industrialization:turbo_upgrade"
+					type: "item"
 				}
 				{
 					id: "08B66500C8E9F4CE"
-					type: "item"
 					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0469FE91B8600125"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
+			title: "More upgrades!"
+			x: 11.5d
+			y: -6.5d
 		}
 		{
-			x: 7.5d
-			y: 0.0d
-			subtitle: "Splits items by spinning them very fast."
-			description: ["You can use it to make carbon dust and unlock better recipes for steel and silicon."]
 			dependencies: ["6BEB4461CA08633F"]
+			description: ["You can use it to make carbon dust and unlock better recipes for steel and silicon."]
 			id: "693E05A909195578"
-			tasks: [{
-				id: "68D837AA6DE85D6F"
-				type: "item"
-				item: "modern_industrialization:centrifuge"
-			}]
 			rewards: [{
 				id: "1C5B1860219126FC"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Splits items by spinning them very fast."
+			tasks: [{
+				id: "68D837AA6DE85D6F"
+				item: "modern_industrialization:centrifuge"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
 		}
 		{
-			icon: "modern_industrialization:electric_quarry"
-			x: 5.0d
-			y: -3.5d
-			subtitle: "The electric equivalent of the Steam Quarry."
+			dependencies: ["6BEB4461CA08633F"]
 			description: [
 				"Provide it with items and energy, and watch your resources GO BRRR!"
 				""
 				"Its structure is exactly the same as the Steam Quarry's."
 			]
-			dependencies: ["6BEB4461CA08633F"]
+			icon: "modern_industrialization:electric_quarry"
 			id: "3DC21B6F47A253E4"
+			rewards: [{
+				id: "396BFBF0CD560873"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The electric equivalent of the Steam Quarry."
 			tasks: [
 				{
 					id: "1004292AA09E90E0"
-					type: "item"
 					item: "modern_industrialization:electric_quarry"
+					type: "item"
 				}
 				{
-					id: "530C5BAAAE5874C2"
-					type: "item"
-					item: "modern_industrialization:steel_machine_casing"
 					count: 16L
+					id: "530C5BAAAE5874C2"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
 				}
 				{
-					id: "2CAD989D39D01AD6"
-					type: "item"
-					item: "modern_industrialization:steel_machine_casing_pipe"
 					count: 6L
+					id: "2CAD989D39D01AD6"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
 				}
 				{
-					id: "773643F90F9A7B82"
-					type: "item"
-					item: "minecraft:chain"
 					count: 4L
+					id: "773643F90F9A7B82"
+					item: "minecraft:chain"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "396BFBF0CD560873"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
+			x: 5.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "381693770EF21108"
+			rewards: [{
+				id: "03EB4768E657D802"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used in the quarry. Check REI for outputs."
+			tasks: [{
+				id: "7B1FED6BDC3FB1FA"
+				item: "modern_industrialization:gold_drill"
+				type: "item"
+			}]
 			title: "&6Gold Drill"
 			x: 5.0d
 			y: -5.0d
-			subtitle: "Used in the quarry. Check REI for outputs."
-			dependencies: ["3DC21B6F47A253E4"]
-			id: "381693770EF21108"
-			tasks: [{
-				id: "7B1FED6BDC3FB1FA"
-				type: "item"
-				item: "modern_industrialization:gold_drill"
-			}]
-			rewards: [{
-				id: "03EB4768E657D802"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "01BBE636EBB71416"
+			rewards: [{
+				id: "36396713C83CF36D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used in the quarry. Check REI for outputs."
+			tasks: [{
+				id: "6A35321C6F3D7D64"
+				item: "modern_industrialization:stainless_steel_drill"
+				type: "item"
+			}]
 			title: "&3Stainless Steel Drill"
 			x: 4.0d
 			y: -5.0d
-			subtitle: "Used in the quarry. Check REI for outputs."
-			dependencies: ["3DC21B6F47A253E4"]
-			id: "01BBE636EBB71416"
-			tasks: [{
-				id: "6A35321C6F3D7D64"
-				type: "item"
-				item: "modern_industrialization:stainless_steel_drill"
-			}]
-			rewards: [{
-				id: "36396713C83CF36D"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
 		}
 		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "04B4FB69D88D1C76"
+			rewards: [{
+				id: "1B77941A10C729BB"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used in the quarry. Check REI for outputs."
+			tasks: [{
+				id: "758EB0D2CB85F803"
+				item: "modern_industrialization:steel_drill"
+				type: "item"
+			}]
 			title: "&8Steel Drill"
 			x: 6.0d
 			y: -5.0d
-			subtitle: "Used in the quarry. Check REI for outputs."
-			dependencies: ["3DC21B6F47A253E4"]
-			id: "04B4FB69D88D1C76"
-			tasks: [{
-				id: "758EB0D2CB85F803"
-				type: "item"
-				item: "modern_industrialization:steel_drill"
-			}]
-			rewards: [{
-				id: "1B77941A10C729BB"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
 		}
 		{
-			title: "Upgrades!"
-			x: 10.5d
-			y: -6.5d
-			subtitle: "You are almost Prepared!"
+			dependencies: ["036292964BDE4944"]
 			description: [
 				""
 				"Now that your Into the Start of MV, you can start working on your oil processing and start working on Basic Upgrades that you can easily then turn into Advanced Upgrades!"
 			]
-			dependencies: ["036292964BDE4944"]
 			id: "6B522DC6845DB558"
-			tasks: [{
-				id: "71B5428A94930A18"
-				type: "item"
-				item: "modern_industrialization:advanced_upgrade"
-			}]
 			rewards: [{
 				id: "01B96DE83B175CEF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "You are almost Prepared!"
+			tasks: [{
+				id: "71B5428A94930A18"
+				item: "modern_industrialization:advanced_upgrade"
+				type: "item"
+			}]
+			title: "Upgrades!"
+			x: 10.5d
+			y: -6.5d
 		}
 		{
-			x: 7.5d
-			y: -3.0d
 			dependencies: ["6BEB4461CA08633F"]
 			id: "7D4B8F84394B1B35"
-			tasks: [{
-				id: "16E814CBBEE5F8AB"
-				type: "item"
-				item: "modern_industrialization:mv_steam_turbine"
-			}]
 			rewards: [{
 				id: "0779AB058E70BD8E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "16E814CBBEE5F8AB"
+				item: "modern_industrialization:mv_steam_turbine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
 		}
 		{
-			x: 12.5d
-			y: -6.5d
-			subtitle: "Another option for small setups is to use an HV steam turbine."
-			description: ["Like other HV generators, it will produce 512 EU/t. This one will only accept regular steam."]
 			dependencies: ["7CE18D246F01445D"]
+			description: ["Like other HV generators, it will produce 512 EU/t. This one will only accept regular steam."]
 			id: "2B0219B675E3820F"
-			tasks: [{
-				id: "54B31CE72767D4C6"
-				type: "item"
-				item: "modern_industrialization:hv_steam_turbine"
-			}]
 			rewards: [{
 				id: "53171C5BA7BBC1F0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Another option for small setups is to use an HV steam turbine."
+			tasks: [{
+				id: "54B31CE72767D4C6"
+				item: "modern_industrialization:hv_steam_turbine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.5d
 		}
 		{
-			x: 13.5d
-			y: -6.5d
-			subtitle: "Keep in mind you can use a Turbo Diesel Generator for compat HV power generation."
+			dependencies: ["7CE18D246F01445D"]
 			description: [
 				"As you might expect, it produces up to 512 EU/t."
 				""
@@ -1809,560 +1807,560 @@
 				""
 				"Once you have access to processing units and highly advanced machine hulls, considering making a few Large Diesel Generators. Each of these bad boys will turn fuel into EU, up to 16384 EU/t!"
 			]
-			dependencies: ["7CE18D246F01445D"]
 			id: "715CEF4FB78310FF"
-			tasks: [{
-				id: "438923113D0A1141"
-				type: "item"
-				item: "modern_industrialization:turbo_diesel_generator"
-			}]
 			rewards: [{
 				id: "0B0768FA3561B409"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Keep in mind you can use a Turbo Diesel Generator for compat HV power generation."
+			tasks: [{
+				id: "438923113D0A1141"
+				item: "modern_industrialization:turbo_diesel_generator"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
 		}
 		{
-			icon: "modern_industrialization:vacuum_freezer"
-			x: 7.5d
-			y: -1.0d
-			subtitle: "You can check the base materials with REI, and the exact shape with a wrench!"
 			dependencies: ["6BEB4461CA08633F"]
+			icon: "modern_industrialization:vacuum_freezer"
 			id: "0A0931D04AE50D4B"
+			rewards: [{
+				id: "3830FD26F201D3E3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "You can check the base materials with REI, and the exact shape with a wrench!"
 			tasks: [
 				{
 					id: "2D292B2E8511A84D"
-					type: "item"
 					item: "modern_industrialization:vacuum_freezer"
+					type: "item"
 				}
 				{
-					id: "43D4C2C2AB9CAA35"
-					type: "item"
-					item: "modern_industrialization:frostproof_machine_casing"
 					count: 33L
+					id: "43D4C2C2AB9CAA35"
+					item: "modern_industrialization:frostproof_machine_casing"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3830FD26F201D3E3"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
+			x: 7.5d
+			y: -1.0d
 		}
 		{
-			x: 7.5d
-			y: 1.0d
-			subtitle: "Can split materials into their different parts using strong electric currents."
 			dependencies: ["6BEB4461CA08633F"]
 			id: "68BD457258EC8CBF"
-			tasks: [{
-				id: "4ECD4D66C0DAB6AC"
-				type: "item"
-				item: "modern_industrialization:electrolyzer"
-			}]
 			rewards: [{
 				id: "04DD0ADC4866C2BE"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Can split materials into their different parts using strong electric currents."
+			tasks: [{
+				id: "4ECD4D66C0DAB6AC"
+				item: "modern_industrialization:electrolyzer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
 		}
 		{
-			x: 9.5d
-			y: -1.0d
-			subtitle: "The next material you will want a large quantity of."
-			description: ["Smelting stainless steel dust in an EBF will give you hot ingots, which you can cool back into regular ingots with a Vacuum Freezer."]
 			dependencies: ["0A0931D04AE50D4B"]
+			description: ["Smelting stainless steel dust in an EBF will give you hot ingots, which you can cool back into regular ingots with a Vacuum Freezer."]
 			id: "64BACF5B60AD2406"
-			tasks: [{
-				id: "323EFEE7EBA4E2AE"
-				type: "item"
-				item: "modern_industrialization:stainless_steel_ingot"
-			}]
 			rewards: [{
 				id: "59E14D9DD9778615"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The next material you will want a large quantity of."
+			tasks: [{
+				id: "323EFEE7EBA4E2AE"
+				item: "modern_industrialization:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
 		}
 		{
-			x: 14.0d
-			y: -1.0d
 			dependencies: ["64BACF5B60AD2406"]
 			id: "6B15091EC1B119B0"
-			tasks: [{
-				id: "2BD708AAF08C5905"
-				type: "item"
-				item: "modern_industrialization:kanthal_coil"
-				count: 16L
-			}]
 			rewards: [{
 				id: "0CCBEBFC08B82D75"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 16L
+				id: "2BD708AAF08C5905"
+				item: "modern_industrialization:kanthal_coil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
 		}
 		{
-			x: 17.5d
-			y: -1.0d
 			dependencies: ["6B15091EC1B119B0"]
 			id: "7D3D156BE9C9E150"
-			tasks: [{
-				id: "040031047A05E0AE"
-				type: "item"
-				item: "modern_industrialization:titanium_ingot"
-			}]
 			rewards: [{
 				id: "03576868670405B7"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "040031047A05E0AE"
+				item: "modern_industrialization:titanium_ingot"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.0d
 		}
 		{
-			x: 14.0d
-			y: -2.5d
 			dependencies: [
 				"6B15091EC1B119B0"
 				"7CE18D246F01445D"
 			]
 			id: "5310B93F2821826A"
-			tasks: [{
-				id: "5D18FA4D68318732"
-				type: "item"
-				item: "modern_industrialization:processing_unit"
-			}]
 			rewards: [{
 				id: "34A778642E411FB6"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5D18FA4D68318732"
+				item: "modern_industrialization:processing_unit"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
 		}
 		{
-			x: 19.5d
-			y: -2.0d
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "6B05C72FF31E104D"
-			tasks: [{
-				id: "7103DFB1F1EF3828"
-				type: "item"
-				item: "modern_industrialization:raw_iridium"
-			}]
 			rewards: [{
 				id: "0BA9AA260BE18BAE"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "7103DFB1F1EF3828"
+				item: "modern_industrialization:raw_iridium"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
 		}
 		{
-			x: 19.5d
-			y: -1.0d
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "1EACE9E49BA4B753"
-			tasks: [{
-				id: "072C3C5C4355E8DF"
-				type: "item"
-				item: "modern_industrialization:blastproof_alloy_plate"
-			}]
 			rewards: [{
 				id: "4B5AD252C810AE64"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "072C3C5C4355E8DF"
+				item: "modern_industrialization:blastproof_alloy_plate"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
 		}
 		{
-			icon: "modern_industrialization:pressurizer"
-			x: 17.5d
-			y: -4.0d
-			subtitle: "A new multiblock made of titanium that can turn water into HP (high pressure) water, steam into HP steam, and the other way around."
 			dependencies: [
 				"7D3D156BE9C9E150"
 				"7CE18D246F01445D"
 			]
+			icon: "modern_industrialization:pressurizer"
 			id: "46319F2AE2F90532"
+			rewards: [{
+				id: "044666AE408A2535"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A new multiblock made of titanium that can turn water into HP (high pressure) water, steam into HP steam, and the other way around."
 			tasks: [
 				{
 					id: "34D13E49CD76D0E5"
-					type: "item"
 					item: "modern_industrialization:pressurizer"
+					type: "item"
 				}
 				{
-					id: "406C11A88083444C"
-					type: "item"
-					item: "modern_industrialization:solid_titanium_machine_casing"
 					count: 10L
+					id: "406C11A88083444C"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
 				}
 				{
-					id: "44B6C74129ADE260"
-					type: "item"
-					item: "modern_industrialization:titanium_machine_casing_pipe"
 					count: 9L
+					id: "44B6C74129ADE260"
+					item: "modern_industrialization:titanium_machine_casing_pipe"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "044666AE408A2535"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
-						Loot: "aof:loot_bags/mi/epic"
-					}
-				}
-			}]
+			x: 17.5d
+			y: -4.0d
 		}
 		{
-			x: 21.5d
-			y: -2.0d
 			dependencies: ["6B05C72FF31E104D"]
 			id: "18949581A0F3E28B"
-			tasks: [{
-				id: "119D5B764A8F7E09"
-				type: "item"
-				item: "modern_industrialization:superconductor_cable"
-			}]
 			rewards: [{
 				id: "3F5E66DB336CE458"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "119D5B764A8F7E09"
+				item: "modern_industrialization:superconductor_cable"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.0d
 		}
 		{
-			x: 23.0d
-			y: -2.5d
-			subtitle: "Uses advanced superconductor technology to invert the gravitational field around the player wearing it."
+			dependencies: ["18949581A0F3E28B"]
 			description: [
 				"It uses EU, and can be charged by right-clicking a block that can output energy."
 				""
 				"Note that the current GSP technology grants fly and prevents fall damage, but it does not protected against other kinds of damage."
 			]
-			dependencies: ["18949581A0F3E28B"]
 			id: "6C1822FED0613FAF"
-			tasks: [{
-				id: "4AEAA8FA55EA9B82"
-				type: "item"
-				item: "modern_industrialization:gravichestplate"
-			}]
 			rewards: [{
 				id: "0F3F2F64ADF73F89"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Uses advanced superconductor technology to invert the gravitational field around the player wearing it."
+			tasks: [{
+				id: "4AEAA8FA55EA9B82"
+				item: "modern_industrialization:gravichestplate"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.5d
 		}
 		{
-			icon: "modern_industrialization:implosion_compressor"
-			x: 21.5d
-			y: -1.0d
-			subtitle: "Using Industrial TNT, the Implosion Compressor is able to compress dust and ingots of the most resistant materials."
+			dependencies: ["1EACE9E49BA4B753"]
 			description: [
 				"This includes Tungsten, Blastproof Alloy, Beryllium - these materials are very important for nuclear fission - and Diamonds at last!"
 				""
 				"Hopefully you have learned to check every REI recipe by now, so you should easily find that Blastproof Mixed Ingots and Tungsten Nuggets can be made with a Compressor... until you have your first Implosion Compressor of course!"
 			]
-			dependencies: ["1EACE9E49BA4B753"]
+			icon: "modern_industrialization:implosion_compressor"
 			id: "0F7CE2BA2A295A4D"
+			rewards: [{
+				id: "7CE4055A59833461"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Using Industrial TNT, the Implosion Compressor is able to compress dust and ingots of the most resistant materials."
 			tasks: [
 				{
 					id: "459C20F94BC31393"
-					type: "item"
 					item: "modern_industrialization:implosion_compressor"
+					type: "item"
 				}
 				{
-					id: "36704F63596BB959"
-					type: "item"
-					item: "modern_industrialization:blastproof_casing"
 					count: 16L
+					id: "36704F63596BB959"
+					item: "modern_industrialization:blastproof_casing"
+					type: "item"
 				}
 				{
-					id: "1D26B3532226028F"
-					type: "item"
-					item: "modern_industrialization:solid_titanium_machine_casing"
 					count: 17L
+					id: "1D26B3532226028F"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7CE4055A59833461"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
-						Loot: "aof:loot_bags/mi/epic"
-					}
-				}
-			}]
+			x: 21.5d
+			y: -1.0d
 		}
 		{
-			x: 23.0d
-			y: -1.5d
 			dependencies: ["0F7CE2BA2A295A4D"]
 			id: "46D1B0C583A57B12"
-			tasks: [{
-				id: "5E67F55373049C23"
-				type: "item"
-				item: "modern_industrialization:mixed_ingot_iridium"
-			}]
 			rewards: [{
 				id: "362A38DC8EE3237B"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5E67F55373049C23"
+				item: "modern_industrialization:mixed_ingot_iridium"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["46D1B0C583A57B12"]
+			id: "363455215C23E84E"
+			rewards: [{
+				id: "761EE1FFEA889D2C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/legendary"
+						Name: "Modern Industrialization Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Just a few more steps for... MAX POWER!"
+			tasks: [{
+				id: "7E4D849D6F611B94"
+				item: "modern_industrialization:quantum_circuit"
+				type: "item"
+			}]
 			title: "&dThe Endgame"
 			x: 24.5d
 			y: -1.5d
-			subtitle: "Just a few more steps for... MAX POWER!"
-			dependencies: ["46D1B0C583A57B12"]
-			id: "363455215C23E84E"
-			tasks: [{
-				id: "7E4D849D6F611B94"
-				type: "item"
-				item: "modern_industrialization:quantum_circuit"
-			}]
-			rewards: [{
-				id: "761EE1FFEA889D2C"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16425539
-						Name: "Modern Industrialization Legendary Lootbag"
-						Loot: "aof:loot_bags/mi/legendary"
-					}
-				}
-			}]
 		}
 		{
-			x: 24.5d
-			y: -3.0d
-			subtitle: "The most powerful machine upgrade ever. Have a look for yourself."
 			dependencies: ["363455215C23E84E"]
 			id: "4847BA675A04852F"
-			tasks: [{
-				id: "4CD547671372F659"
-				type: "item"
-				item: "modern_industrialization:quantum_upgrade"
-			}]
 			rewards: [{
 				id: "6B88385840BCFBA5"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16425539
-						Name: "Modern Industrialization Legendary Lootbag"
 						Loot: "aof:loot_bags/mi/legendary"
+						Name: "Modern Industrialization Legendary Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The most powerful machine upgrade ever. Have a look for yourself."
+			tasks: [{
+				id: "4CD547671372F659"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -3.0d
 		}
 		{
-			icon: "modern_industrialization:fusion_reactor"
-			x: 26.0d
-			y: -1.5d
-			subtitle: "The Fusion Reactor is the ultimate energy source!"
+			dependencies: ["363455215C23E84E"]
 			description: [
 				"It can combine Deuterium, Tritium, and/or Helium-3 into Helium Plasma, the most powerful fuel in the game!"
 				""
 				"However, it requires a large amount of energy to ignite the reaction."
 			]
-			dependencies: ["363455215C23E84E"]
+			icon: "modern_industrialization:fusion_reactor"
 			id: "208DE0E29C636F41"
+			rewards: [{
+				id: "3250ACF1DEC619C2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/legendary"
+						Name: "Modern Industrialization Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The Fusion Reactor is the ultimate energy source!"
 			tasks: [
 				{
 					id: "3F8F140654BCBDCA"
-					type: "item"
 					item: "modern_industrialization:fusion_reactor"
+					type: "item"
 				}
 				{
-					id: "0ED2032159A96066"
-					type: "item"
-					item: "modern_industrialization:fusion_chamber"
 					count: 40L
+					id: "0ED2032159A96066"
+					item: "modern_industrialization:fusion_chamber"
+					type: "item"
 				}
 				{
-					id: "64AE82C5CFDBF6D2"
-					type: "item"
-					item: "modern_industrialization:highly_advanced_machine_hull"
 					count: 203L
+					id: "64AE82C5CFDBF6D2"
+					item: "modern_industrialization:highly_advanced_machine_hull"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3250ACF1DEC619C2"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16425539
-						Name: "Modern Industrialization Legendary Lootbag"
-						Loot: "aof:loot_bags/mi/legendary"
-					}
-				}
-			}]
+			x: 26.0d
+			y: -1.5d
 		}
 		{
-			x: 27.5d
-			y: -1.5d
-			subtitle: "Turns Helium Plasma into EU, at the rate of 100 kEU per millibucket."
-			description: ["Its maximum production rate is roughly 1 MEU/t."]
 			dependencies: ["208DE0E29C636F41"]
+			description: ["Its maximum production rate is roughly 1 MEU/t."]
 			id: "370EE225E8140570"
+			rewards: [{
+				id: "17C119CDEA96BD44"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/legendary"
+						Name: "Modern Industrialization Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Turns Helium Plasma into EU, at the rate of 100 kEU per millibucket."
 			tasks: [
 				{
 					id: "414FC59A3998C675"
-					type: "item"
 					item: "modern_industrialization:plasma_turbine"
+					type: "item"
 				}
 				{
-					id: "2B841E64FB2F9D5D"
-					type: "item"
-					item: "modern_industrialization:iridium_machine_casing_pipe"
 					count: 18L
+					id: "2B841E64FB2F9D5D"
+					item: "modern_industrialization:iridium_machine_casing_pipe"
+					type: "item"
 				}
 				{
-					id: "553244F087ECF3CA"
-					type: "item"
-					item: "modern_industrialization:plasma_handling_iridium_machine_casing"
 					count: 17L
+					id: "553244F087ECF3CA"
+					item: "modern_industrialization:plasma_handling_iridium_machine_casing"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "17C119CDEA96BD44"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16425539
-						Name: "Modern Industrialization Legendary Lootbag"
-						Loot: "aof:loot_bags/mi/legendary"
-					}
-				}
-			}]
+			x: 27.5d
+			y: -1.5d
 		}
 		{
-			x: 23.0d
-			y: -0.5d
-			subtitle: "A large multiblock whose purpose is to generate massive amounts of energy by consuming nuclear fuel."
+			dependencies: ["0F7CE2BA2A295A4D"]
 			description: [
 				"It can produce 100s of times more EU/t than diesel. It comes in several sizes from small to large."
 				""
@@ -2392,204 +2390,204 @@
 				""
 				"The same thing happens for fluids: a bit of fluid is transformed after each neutron absorption. This can be used to mass produce useful isotopes like deuterium and tritium. In both cases, the outcome is shown in REI."
 			]
-			dependencies: ["0F7CE2BA2A295A4D"]
 			id: "03896D148D7B4E3B"
+			rewards: [{
+				id: "1FF91A9F296F1EA6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A large multiblock whose purpose is to generate massive amounts of energy by consuming nuclear fuel."
 			tasks: [
 				{
 					id: "6539BC5A7D008ABE"
-					type: "item"
 					item: "modern_industrialization:nuclear_reactor"
+					type: "item"
 				}
 				{
-					id: "453E60CB97E09F53"
-					type: "item"
-					item: "modern_industrialization:nuclear_alloy_machine_casing_pipe"
 					count: 27L
+					id: "453E60CB97E09F53"
+					item: "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+					type: "item"
 				}
 				{
-					id: "6A65032810E039AA"
-					type: "item"
-					item: "modern_industrialization:nuclear_casing"
 					count: 77L
+					id: "6A65032810E039AA"
+					item: "modern_industrialization:nuclear_casing"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "1FF91A9F296F1EA6"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
-						Loot: "aof:loot_bags/mi/epic"
-					}
-				}
-			}]
+			x: 23.0d
+			y: -0.5d
 		}
 		{
-			x: 24.5d
-			y: -0.5d
-			subtitle: "Does it work?"
 			dependencies: ["03896D148D7B4E3B"]
 			id: "04FAF93691F0BD9C"
-			tasks: [{
-				id: "562F6128B9E139A8"
-				type: "item"
-				item: "modern_industrialization:nuke"
-			}]
 			rewards: [{
 				id: "07E7F15A42476A42"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16425539
-						Name: "Modern Industrialization Legendary Lootbag"
 						Loot: "aof:loot_bags/mi/legendary"
+						Name: "Modern Industrialization Legendary Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Does it work?"
+			tasks: [{
+				id: "562F6128B9E139A8"
+				item: "modern_industrialization:nuke"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -0.5d
 		}
 		{
-			x: 26.0d
-			y: -0.5d
-			subtitle: "What happens when scientists try to build a miniature black hole in their lab?"
-			description: ["The Singularity is the answer: this immensely powerful ball of matter has very useful quantum physics applications with the proper stabilizing materials."]
 			dependencies: ["04FAF93691F0BD9C"]
+			description: ["The Singularity is the answer: this immensely powerful ball of matter has very useful quantum physics applications with the proper stabilizing materials."]
 			id: "6314525E36DEA54B"
-			tasks: [{
-				id: "1A5C0F0D73190307"
-				type: "item"
-				item: "modern_industrialization:singularity"
-			}]
 			rewards: [{
 				id: "63D55445EF5C055D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16425539
-						Name: "Modern Industrialization Legendary Lootbag"
 						Loot: "aof:loot_bags/mi/legendary"
+						Name: "Modern Industrialization Legendary Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "What happens when scientists try to build a miniature black hole in their lab?"
+			tasks: [{
+				id: "1A5C0F0D73190307"
+				item: "modern_industrialization:singularity"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -0.5d
 		}
 		{
-			x: 27.5d
-			y: -0.5d
-			subtitle: "UwU Matter"
-			description: ["With a suitable Electrolyzer setup and a Singularity, large amounts of energy can be turned through Quantum Hawnking Radiation,  into Universally Useable Matter also known as UU Matter, the very fabric of the universe."]
 			dependencies: ["6314525E36DEA54B"]
+			description: ["With a suitable Electrolyzer setup and a Singularity, large amounts of energy can be turned through Quantum Hawnking Radiation,  into Universally Useable Matter also known as UU Matter, the very fabric of the universe."]
 			id: "79802A9D4A83E757"
-			tasks: [{
-				id: "15325EFF41DA3891"
-				type: "item"
-				item: "modern_industrialization:uu_matter_bucket"
-			}]
 			rewards: [{
 				id: "727FD343F9AFD1D1"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16425539
-						Name: "Modern Industrialization Legendary Lootbag"
 						Loot: "aof:loot_bags/mi/legendary"
+						Name: "Modern Industrialization Legendary Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "UwU Matter"
+			tasks: [{
+				id: "15325EFF41DA3891"
+				item: "modern_industrialization:uu_matter_bucket"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -0.5d
 		}
 		{
-			x: 16.0d
-			y: -2.5d
 			dependencies: ["5310B93F2821826A"]
 			id: "60A05C52ACCBE35D"
-			tasks: [{
-				id: "537CE70D027A8B77"
-				type: "item"
-				item: "modern_industrialization:highly_advanced_upgrade"
-			}]
 			rewards: [{
 				id: "13680572A9242A9C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "537CE70D027A8B77"
+				item: "modern_industrialization:highly_advanced_upgrade"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["33BF21CF8232FD35"]
+			id: "419F7B74E30C2AF4"
+			rewards: [{
+				id: "051635AF3BFC0C18"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16425539
+						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used in the quarry. Check REI for outputs."
+			tasks: [{
+				id: "5F35CE6C3C6BAEF9"
+				item: "modern_industrialization:aluminum_drill"
+				type: "item"
+			}]
 			title: "&bAluminum Drill"
 			x: 7.5d
 			y: -5.0d
-			subtitle: "Used in the quarry. Check REI for outputs."
-			dependencies: ["33BF21CF8232FD35"]
-			id: "419F7B74E30C2AF4"
-			tasks: [{
-				id: "5F35CE6C3C6BAEF9"
-				type: "item"
-				item: "modern_industrialization:aluminum_drill"
-			}]
-			rewards: [{
-				id: "051635AF3BFC0C18"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
-						Loot: "aof:loot_bags/mi/rare"
-					}
-				}
-			}]
 		}
 		{
-			x: 19.5d
-			y: 0.0d
-			subtitle: "Used in the quarry. Check REI for outputs."
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "24535DA01189CC75"
-			tasks: [{
-				id: "6448D47D73DD3726"
-				type: "item"
-				item: "modern_industrialization:titanium_drill"
-			}]
 			rewards: [{
 				id: "586C185E7626220E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16425539
-						Name: "Modern Industrialization Epic Lootbag"
 						Loot: "aof:loot_bags/mi/epic"
+						Name: "Modern Industrialization Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Used in the quarry. Check REI for outputs."
+			tasks: [{
+				id: "6448D47D73DD3726"
+				item: "modern_industrialization:titanium_drill"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
 		}
 		{
-			x: -12.0d
-			y: -3.0d
-			subtitle: "Is it a monkey or a wrench?"
+			dependencies: ["4661838E492BDE53"]
 			description: [
 				"Using a wrench, you can rotate any machine by right-clicking."
 				""
@@ -2597,66 +2595,66 @@
 				""
 				"Note that breaking a machine with the wrench will not drop it. Use a pickaxe for that!"
 			]
-			dependencies: ["4661838E492BDE53"]
 			id: "2DB9C3C383C91BC0"
-			tasks: [{
-				id: "68063DD59C50E1A7"
-				type: "item"
-				item: "modern_industrialization:wrench"
-			}]
 			rewards: [{
 				id: "17C01C9AE12107E0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Is it a monkey or a wrench?"
+			tasks: [{
+				id: "68063DD59C50E1A7"
+				item: "modern_industrialization:wrench"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
 		}
 		{
-			x: 3.5d
-			y: 0.0d
-			subtitle: "A Giant Inlet? "
-			description: ["Now that were getting into Electric Muiltiblock Structures you will start using Energy Hatches. You can upgrades the Hatches to other tiers as you wish."]
 			dependencies: ["796F33AE4A9CF30C"]
+			description: ["Now that were getting into Electric Muiltiblock Structures you will start using Energy Hatches. You can upgrades the Hatches to other tiers as you wish."]
 			id: "1B0A4271FCBD581F"
-			tasks: [{
-				id: "13C4EB4423DBF2B5"
-				type: "item"
-				item: "modern_industrialization:lv_energy_input_hatch"
-			}]
 			rewards: [
 				{
 					id: "0CFB0E3E504A70F7"
-					type: "item"
 					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
 				}
 				{
 					id: "7C030FCC64179FA0"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "A Giant Inlet? "
+			tasks: [{
+				id: "13C4EB4423DBF2B5"
+				item: "modern_industrialization:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
 		}
 		{
-			x: -4.0d
-			y: -5.0d
-			subtitle: "Hatchback!"
+			dependencies: ["26E587E34810A8FE"]
 			description: [
 				"Steel hatches have more capacity than bronze hatches, and a multiblock with at least one steel hatch will be upgraded to steel tier."
 				""
@@ -2664,105 +2662,104 @@
 				""
 				"A steel boiler will produce twice as much steam as a bronze one, that means up to 16 EU/t, and a steel water pump will produce twice as much water as its bronze counterpart, so up to 2 buckets / 5 seconds."
 			]
-			dependencies: ["26E587E34810A8FE"]
 			id: "2050D2FF42E29F6D"
-			tasks: [
-				{
-					id: "7A4F57CDD12A6800"
-					type: "item"
-					item: "modern_industrialization:steel_fluid_input_hatch"
-				}
-				{
-					id: "5D7622FC67473FA0"
-					type: "item"
-					item: "modern_industrialization:steel_item_input_hatch"
-				}
-				{
-					id: "4A27BBE015E4B476"
-					type: "item"
-					item: "modern_industrialization:steel_item_output_hatch"
-				}
-			]
 			rewards: [
 				{
 					id: "54AF33022467EEBE"
-					type: "item"
 					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
 				}
 				{
 					id: "4CF31744EC697161"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Hatchback!"
+			tasks: [
+				{
+					id: "7A4F57CDD12A6800"
+					item: "modern_industrialization:steel_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5D7622FC67473FA0"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4A27BBE015E4B476"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.0d
 		}
 		{
-			x: -3.0d
-			y: -3.5d
-			subtitle: "A new machine only available in steel, can perform simple crafts for you."
-			description: ["You can now automate double ingots and pipes, for example! Again, check REI."]
 			dependencies: ["7C5C1CA5A7954896"]
+			description: ["You can now automate double ingots and pipes, for example! Again, check REI."]
 			id: "324B15844FC6C305"
-			tasks: [{
-				id: "52306C6F2E77D371"
-				type: "item"
-				item: "modern_industrialization:steel_packer"
-			}]
 			rewards: [{
 				id: "2F02995FFC62B094"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "A new machine only available in steel, can perform simple crafts for you."
+			tasks: [{
+				id: "52306C6F2E77D371"
+				item: "modern_industrialization:steel_packer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
 		}
 		{
-			x: -5.0d
-			y: -3.5d
-			subtitle: "A new machine only available in steel... Guess what it does."
 			dependencies: ["7C5C1CA5A7954896"]
 			id: "2D320F78629CC719"
-			tasks: [{
-				id: "58691A4447512CEE"
-				type: "item"
-				item: "modern_industrialization:steel_unpacker"
-			}]
 			rewards: [{
 				id: "2073E7B9271D4734"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "A new machine only available in steel... Guess what it does."
+			tasks: [{
+				id: "58691A4447512CEE"
+				item: "modern_industrialization:steel_unpacker"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
 		}
 		{
-			title: "Energy Transfer"
-			x: -1.0d
-			y: 0.5d
-			subtitle: "Cable networks have limitations on the amount of energy they will pull into the network depending on tier."
+			dependencies: ["19E5E31614FE485E"]
 			description: [
 				"256 EU/t for LV cables, 1024 EU/t for MV cables and 8192 EU/t for HV cables."
 				""
@@ -2774,70 +2771,59 @@
 				""
 				"As you would expect, an X to Y Transformer will connect to Y cables on its output side and to X cables on its 5 other sides."
 			]
-			dependencies: ["19E5E31614FE485E"]
 			id: "4DCFE7721417E669"
-			tasks: [{
-				id: "2E9730BA35730C4B"
-				type: "item"
-				item: "modern_industrialization:tin_cable"
-			}]
 			rewards: [{
 				id: "1CB0BB6DD7CFCB9A"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16425539
-						Name: "Modern Industrialization Common Lootbag"
 						Loot: "aof:loot_bags/mi/common"
+						Name: "Modern Industrialization Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Cable networks have limitations on the amount of energy they will pull into the network depending on tier."
+			tasks: [{
+				id: "2E9730BA35730C4B"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
+			title: "Energy Transfer"
+			x: -1.0d
+			y: 0.5d
 		}
 		{
-			x: 5.0d
-			y: 0.0d
-			subtitle: "A better and bigger Large Steam Boiler!"
-			description: ["This advanced version can produce up to 1024 mb/t of steam!"]
 			dependencies: ["6BEB4461CA08633F"]
+			description: ["This advanced version can produce up to 1024 mb/t of steam!"]
 			id: "31BCEF301071F67C"
-			tasks: [{
-				id: "5A4042280D8835FB"
-				type: "item"
-				item: "modern_industrialization:advanced_large_steam_boiler"
-			}]
 			rewards: [{
 				id: "47A6DDF0F4E11A37"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16425539
-						Name: "Modern Industrialization Rare Lootbag"
 						Loot: "aof:loot_bags/mi/rare"
+						Name: "Modern Industrialization Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "A better and bigger Large Steam Boiler!"
+			tasks: [{
+				id: "5A4042280D8835FB"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			icon: {
-				id: "trofers:medium_pillar"
-				Count: 1b
-				tag: {
-					BlockEntityTag: {
-						Trophy: "trofers:modernindustrialization"
-					}
-				}
-			}
-			x: 2.0d
-			y: -8.0d
-			shape: "gear"
-			subtitle: "Complete all quests to obtain the trophy!"
-			hide_dependency_lines: true
 			dependencies: [
 				"4AD93229344EA0BE"
 				"6D0310EF6A259AC8"
@@ -2920,27 +2906,41 @@
 				"6F6196A606D3A8EF"
 				"55ED05A197F8D24A"
 			]
-			size: 4.0d
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:modernindustrialization"
+					}
+				}
+			}
 			id: "7F2EE57E72C10EEF"
-			tasks: [{
-				id: "2D1861811D08F5C2"
-				type: "checkmark"
-				title: "&dModern Industrialization 100%"
-			}]
 			rewards: [{
 				id: "138CCD634C40063E"
-				type: "item"
 				item: {
-					id: "trofers:medium_pillar"
 					Count: 1b
+					id: "trofers:medium_pillar"
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:modernindustrialization"
 						}
 					}
 				}
+				type: "item"
 			}]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "2D1861811D08F5C2"
+				title: "&dModern Industrialization 100%"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -8.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Modern Industrialization"
 }

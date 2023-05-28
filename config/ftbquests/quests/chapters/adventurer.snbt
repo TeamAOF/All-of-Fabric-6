@@ -1,36 +1,26 @@
 {
-	id: "4F80AA2EB0DCC10C"
-	group: ""
-	order_index: 1
-	filename: "adventurer"
-	title: "Adventurer"
-	icon: "artifacts:aqua_dashers"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventurer"
+	group: ""
+	icon: "artifacts:aqua_dashers"
+	id: "4F80AA2EB0DCC10C"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Adventures and Mysteries"
-			x: -0.5d
-			y: -0.5d
-			subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
 			id: "6EC4700B21DB617B"
+			subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
 			tasks: [{
 				id: "40FC0E99020D1BB4"
 				type: "checkmark"
 			}]
+			title: "Adventures and Mysteries"
+			x: -0.5d
+			y: -0.5d
 		}
 		{
-			title: "&bFishes and Crates!"
-			icon: {
-				id: "gofish:celestial_rod"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 1.5d
-			y: 0.0d
-			subtitle: "Fishing should be fun."
+			dependencies: ["6EC4700B21DB617B"]
 			description: [
 				"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
 				""
@@ -68,115 +58,122 @@
 				"&6The End:"
 				"- &bBaked Endfish"
 			]
-			dependencies: ["6EC4700B21DB617B"]
+			icon: {
+				Count: 1b
+				id: "gofish:celestial_rod"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1941554F8883F5BE"
+			rewards: [{
+				id: "401B0FCEDA6E06C3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Fishing should be fun."
 			tasks: [{
 				id: "52BEAE23DF485E51"
-				type: "item"
 				item: {
-					id: "itemfilters:mod"
 					Count: 1b
+					id: "itemfilters:mod"
 					tag: {
 						value: "gofish"
 					}
 				}
-			}]
-			rewards: [{
-				id: "401B0FCEDA6E06C3"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
 			}]
+			title: "&bFishes and Crates!"
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			title: "&3Waystones"
-			x: -1.5d
-			y: -2.5d
-			subtitle: "Discover your first Waystone, can be found in villages."
-			description: ["&6You can break &rthe &bWaystones &rand use them for creative ways of teleportation."]
 			dependencies: ["6EC4700B21DB617B"]
+			description: ["&6You can break &rthe &bWaystones &rand use them for creative ways of teleportation."]
 			id: "23C3589FAFB40AD5"
-			tasks: [{
-				id: "2E15906644124214"
-				type: "item"
-				icon: "fwaystones:waystone"
+			rewards: [{
+				id: "6137857F9A944F31"
 				item: {
-					id: "itemfilters:mod"
 					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Discover your first Waystone, can be found in villages."
+			tasks: [{
+				icon: "fwaystones:waystone"
+				id: "2E15906644124214"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
 					tag: {
 						value: "fwaystones"
 					}
 				}
-			}]
-			rewards: [{
-				id: "6137857F9A944F31"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Name: "Agriculturist Lootbag"
-						Loot: "aof:loot_bags/misc/agriculturist"
-					}
-				}
 			}]
+			title: "&3Waystones"
+			x: -1.5d
+			y: -2.5d
 		}
 		{
-			title: "&4Find a Graveyard"
-			icon: "graveyard:skull_with_rib_cage"
-			x: 0.5d
-			y: -2.5d
-			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
 			dependencies: ["6EC4700B21DB617B"]
+			icon: "graveyard:skull_with_rib_cage"
 			id: "14DE762F4663D1C9"
-			tasks: [{
-				id: "63A78B39851541A7"
-				type: "structure"
-				structure: "graveyard:small_graveyard"
-			}]
 			rewards: [
 				{
 					id: "0D54DD2EDD2B15AD"
-					type: "item"
 					item: {
-						id: "graveyard:bone_dagger"
 						Count: 1b
+						id: "graveyard:bone_dagger"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "36352D142DEEC48C"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
+			tasks: [{
+				id: "63A78B39851541A7"
+				structure: "graveyard:small_graveyard"
+				type: "structure"
+			}]
+			title: "&4Find a Graveyard"
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			title: "&6Artifacts"
-			x: -0.5d
-			y: -3.0d
-			subtitle: "Magical items with great power."
+			dependencies: ["6EC4700B21DB617B"]
 			description: [
 				"The &bitems &radded by this &6mod &rcan be found in &bChests&r."
 				""
@@ -184,78 +181,73 @@
 				""
 				"Additionally, a new &bUnderground Campsite &rstructure has been added. &bMimics &roccasionally &6spawn in these &bCampsites &rinstead of a &bChests&r, which are dangerous &benemies &rthat &6attack &rplayers that get too close. &bMimics &ralways drop a random artifact when killed."
 			]
-			dependencies: ["6EC4700B21DB617B"]
 			id: "32910C1041DE2764"
+			rewards: [{
+				id: "363F3BB07909619A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magical items with great power."
 			tasks: [{
 				id: "51B9513FF8AB7491"
-				type: "item"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "artifacts:artifacts"
 					}
 				}
-			}]
-			rewards: [{
-				id: "363F3BB07909619A"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "UNCOMMON"
-						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
-						Name: "Agriculturist Lootbag"
-					}
-				}
 			}]
+			title: "&6Artifacts"
+			x: -0.5d
+			y: -3.0d
 		}
 		{
-			title: "&5The Twilight Forest"
-			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: 1.0d
-			y: 1.5d
-			subtitle: "Step into the Twilight Realm!"
+			dependencies: ["6EC4700B21DB617B"]
 			description: [
 				"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
 				""
 				"&bTwilight Forest &ris a dimension exploration mod focused on adventure that will &6take you on a journey &rto meet strange &bcreatures&r, &bexploring dungeons&r, &band much more&r."
 			]
-			dependencies: ["6EC4700B21DB617B"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "36D37A1AFFC1B369"
-			tasks: [{
-				id: "64630338E7F2207F"
-				type: "dimension"
-				icon: "twilightforest:twilight_portal_miniature_structure"
-				dimension: "twilightforest:twilight_forest"
-			}]
 			rewards: [{
 				id: "42D3A36BA50C2E3F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Step into the Twilight Realm!"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "64630338E7F2207F"
+				type: "dimension"
+			}]
+			title: "&5The Twilight Forest"
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			title: "&9Space Travels"
-			icon: {
-				id: "ad_astra:tier_1_rocket"
-				Count: 1b
-				tag: { }
-			}
-			x: -2.5d
-			y: -1.5d
-			subtitle: "To the moon!"
+			dependencies: ["6EC4700B21DB617B"]
 			description: [
 				"&6Ad Astra &ris a &btechnology &rand &bspace exploration &rmod."
 				""
@@ -267,41 +259,46 @@
 				""
 				"&6Complete this quest &rby crafting the &bAstrodux&r."
 			]
-			dependencies: ["6EC4700B21DB617B"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
 			id: "1F68089CE40CABC9"
-			tasks: [{
-				id: "5E109F35ECDB37C6"
-				type: "item"
-				item: "ad_astra:astrodux"
-			}]
 			rewards: [
 				{
-					id: "583873BD842B01B4"
-					type: "item"
-					item: "ad_astra:cheese"
 					count: 16
+					id: "583873BD842B01B4"
+					item: "ad_astra:cheese"
+					type: "item"
 				}
 				{
 					id: "465969990392BD70"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 11763949
-							Name: "Ad Astra! Rare Lootbag"
 							Loot: "aof:loot_bags/ad_astra/rare"
+							Name: "Ad Astra! Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "To the moon!"
+			tasks: [{
+				id: "5E109F35ECDB37C6"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			title: "&9Space Travels"
+			x: -2.5d
+			y: -1.5d
 		}
 		{
-			title: "&dArcheology"
-			x: -2.5d
-			y: 0.0d
-			subtitle: "Know your prehistory."
+			dependencies: ["6EC4700B21DB617B"]
 			description: [
 				"&bThe Archeology System &6introduces the following&r:"
 				""
@@ -315,80 +312,80 @@
 				""
 				"While &6brushing&r, you should &6move your cursor &rto stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!"
 			]
-			dependencies: ["6EC4700B21DB617B"]
 			id: "5DDFDC4C2426CF6F"
+			rewards: [
+				{
+					count: 16
+					id: "621538A179E3AD6C"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "38BBC521851C88B3"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Know your prehistory."
 			tasks: [{
 				id: "67902E2781D56FFF"
-				type: "item"
 				item: {
-					id: "archeology:copper_brush"
 					Count: 1b
+					id: "archeology:copper_brush"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "621538A179E3AD6C"
-					type: "item"
-					item: "minecraft:bone"
-					count: 16
-				}
-				{
-					id: "38BBC521851C88B3"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "UNCOMMON"
-							Color: 5889627
-							Name: "Agriculturist Lootbag"
-							Loot: "aof:loot_bags/misc/agriculturist"
-						}
-					}
-				}
-			]
+			title: "&dArcheology"
+			x: -2.5d
+			y: 0.0d
 		}
 		{
-			title: "&6Lootr"
-			x: 1.5d
-			y: -1.5d
-			subtitle: "Unique instanced loot for every player!"
+			dependencies: ["6EC4700B21DB617B"]
 			description: [
 				"What does this mean?"
 				""
 				"When you &6open a loot chest &r(distinctly textured from &bVanilla chests&r), what items you get are unique to you (as though you had opened an &bEnder Chest&r)."
 			]
-			dependencies: ["6EC4700B21DB617B"]
 			id: "34216A1573B90BBB"
-			tasks: [{
-				id: "678FF753E8FC4213"
-				type: "advancement"
-				advancement: "lootr:1chest"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "100D3CA6E3B2212C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Unique instanced loot for every player!"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "678FF753E8FC4213"
+				type: "advancement"
+			}]
+			title: "&6Lootr"
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			title: "&6Mine Cells"
-			x: -2.0d
-			y: 1.5d
-			subtitle: "Dive into the story of Dead Cells!"
+			dependencies: ["6EC4700B21DB617B"]
 			description: [
 				"To start your adventure &rwith &bMine Cells&r, &6find a portal structure&r. The &bportal&r will &6activate&r for you automatically if you've already acquired diamonds in the world."
 				""
@@ -398,58 +395,61 @@
 				""
 				"You can find her lair in the &bPrison structure &r/ &bdimension&r."
 			]
-			dependencies: ["6EC4700B21DB617B"]
 			id: "6AA8C1349BCC891D"
-			tasks: [{
-				id: "09B4372F749D9625"
-				type: "dimension"
-				icon: "minecells:charged_interdimensional_rune"
-				dimension: "minecells:prison"
-			}]
 			rewards: [{
 				id: "75521584B37DD8A1"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16103753
 						Loot: "aof:loot_bags/misc/artifacts"
 						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Dive into the story of Dead Cells!"
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "minecells:charged_interdimensional_rune"
+				id: "09B4372F749D9625"
+				type: "dimension"
+			}]
+			title: "&6Mine Cells"
+			x: -2.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
+			id: "438319FC721F0274"
+			rewards: [{
+				id: "265BD5CE05DD0429"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				id: "4B47C614D6F2C796"
+				type: "dimension"
+			}]
 			title: "&eThe Bumblezone"
 			x: -0.5d
 			y: 2.0d
-			subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
-			description: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
-			dependencies: ["6EC4700B21DB617B"]
-			id: "438319FC721F0274"
-			tasks: [{
-				id: "4B47C614D6F2C796"
-				type: "dimension"
-				icon: "the_bumblezone:bee_queen_spawn_egg"
-				dimension: "the_bumblezone:the_bumblezone"
-			}]
-			rewards: [{
-				id: "265BD5CE05DD0429"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "LEGENDARY"
-						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
-						Name: "Artifact Lootbag"
-					}
-				}
-			}]
 		}
 	]
-	quest_links: [ ]
+	title: "Adventurer"
 }

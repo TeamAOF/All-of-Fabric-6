@@ -1,0 +1,6 @@
+
+#Client configuration settings
+[general]
+	#Display the goggles before the eyes and not on the forehead
+	moveGoggleToEyes = false
+

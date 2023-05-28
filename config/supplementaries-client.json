@@ -86,6 +86,17 @@
     "clock_right_click": true,
     "compass_right_click": false,
     "placeable_books_glint": false,
+    "placeable_books_colors": [
+      "brown",
+      "orange",
+      "yellow",
+      "red",
+      "green",
+      "lime",
+      "cyan",
+      "blue",
+      "purple"
+    ],
     "banner_pattern_tooltip": true,
     "paintings_tooltip": true,
     "mob_head_shaders": true

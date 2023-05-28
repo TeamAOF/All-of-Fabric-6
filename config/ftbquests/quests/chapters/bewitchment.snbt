@@ -1,55 +1,52 @@
 {
-	id: "1B81080941D776C5"
-	group: "1039AC171AB01709"
-	order_index: 0
-	filename: "bewitchment"
-	title: "Bewitchment"
-	icon: "bewitchment:hellish_bauble"
-	default_quest_shape: "octagon"
 	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "bewitchment"
+	group: "1039AC171AB01709"
+	icon: "bewitchment:hellish_bauble"
+	id: "1B81080941D776C5"
 	images: [
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "bewitchment:textures/mob_effect/mortal_coil.png"
+			rotation: 0.0d
+			width: 5.0d
 			x: 4.5d
 			y: -0.5d
-			width: 5.0d
-			height: 5.0d
-			rotation: 0.0d
-			image: "bewitchment:textures/mob_effect/mortal_coil.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "bewitchment:textures/item/demon_heart.png"
+			rotation: 0.0d
+			width: 3.0d
 			x: 13.0d
 			y: -4.0d
-			width: 3.0d
-			height: 3.0d
-			rotation: 0.0d
-			image: "bewitchment:textures/item/demon_heart.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "bewitchment:textures/item/athame.png"
+			rotation: 0.0d
+			width: 3.0d
 			x: 14.5d
 			y: 2.5d
-			width: 3.0d
-			height: 3.0d
-			rotation: 0.0d
-			image: "bewitchment:textures/item/athame.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: 5.5d
-			y: 2.0d
-			subtitle: "An introduction to the world of witchcraft."
 			description: [
 				"Bewitchment offers pacts with powerful demons, the ability to become a vampire or werewolf, brew powerful potions, cast rituals, curse your enemies (or friends), and so much more."
 				""
@@ -58,30 +55,30 @@
 				"Feel lost? Check the book!"
 			]
 			id: "51E68C17C005CD95"
-			tasks: [{
-				id: "30B4F2FED61C13F4"
-				type: "item"
-				item: "bewitchment:book_of_shadows"
-			}]
 			rewards: [{
 				id: "148678122C840FA1"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "An introduction to the world of witchcraft."
+			tasks: [{
+				id: "30B4F2FED61C13F4"
+				item: "bewitchment:book_of_shadows"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 		{
-			x: 0.0d
-			y: 2.5d
-			subtitle: "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
 			description: [
 				"Items can be tossed into the Witch Cauldron once it boils."
 				""
@@ -94,504 +91,505 @@
 				"That destination must be another Witch Cauldron that has been named with a Name Tag."
 			]
 			id: "40F6401B8512E29E"
-			tasks: [{
-				id: "4E8C15D371DB7A1A"
-				type: "item"
-				item: "bewitchment:witch_cauldron"
-			}]
 			rewards: [{
 				id: "4F9D60A4F4375B65"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
+			tasks: [{
+				id: "4E8C15D371DB7A1A"
+				item: "bewitchment:witch_cauldron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			x: -1.0d
-			y: 1.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "1235E760E612015E"
-			tasks: [{
-				id: "769432E98298B4C8"
-				type: "item"
-				item: "bewitchment:aqua_cerate"
-			}]
 			rewards: [{
 				id: "3D990A46A273A9BA"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "769432E98298B4C8"
+				item: "bewitchment:aqua_cerate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
 		}
 		{
-			x: -1.5d
-			y: 2.5d
 			dependencies: ["40F6401B8512E29E"]
 			id: "49754BFA0107FC46"
-			tasks: [{
-				id: "5739D179CD4C5D26"
-				type: "item"
-				item: "bewitchment:fiery_serum"
-			}]
 			rewards: [{
 				id: "2F9E7E82B08AD31E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5739D179CD4C5D26"
+				item: "bewitchment:fiery_serum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			x: 1.0d
-			y: 4.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "3762AEBC5D56DEEC"
-			tasks: [{
-				id: "6F651059DED11014"
-				type: "item"
-				item: "bewitchment:heaven_extract"
-			}]
 			rewards: [
 				{
 					id: "4BD914AE009D5A45"
-					type: "item"
 					item: "kibe:liquid_xp_bucket"
+					type: "item"
 				}
 				{
 					id: "37130F49FAD7BE89"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "6F651059DED11014"
+				item: "bewitchment:heaven_extract"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
 		}
 		{
-			x: 1.0d
-			y: 1.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "79E88D5D66EF740D"
-			tasks: [{
-				id: "5D313A77DF22E070"
-				type: "item"
-				item: "bewitchment:earth_ichor"
-			}]
 			rewards: [{
 				id: "40059E96C692DE16"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5D313A77DF22E070"
+				item: "bewitchment:earth_ichor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 		{
-			x: -1.0d
-			y: 4.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "70D904888ACAEA21"
-			tasks: [{
-				id: "3183D796C616263D"
-				type: "item"
-				item: "bewitchment:cleansing_balm"
-			}]
 			rewards: [{
 				id: "0679878AE22A82A9"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "3183D796C616263D"
+				item: "bewitchment:cleansing_balm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
 		}
 		{
-			x: 1.5d
-			y: 2.5d
 			dependencies: ["40F6401B8512E29E"]
 			id: "1DC1A628467897A9"
-			tasks: [{
-				id: "251EFDBE770E7549"
-				type: "item"
-				item: "bewitchment:grim_elixir"
-			}]
 			rewards: [{
 				id: "5932482FE7A9029A"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "251EFDBE770E7549"
+				item: "bewitchment:grim_elixir"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			x: 1.0d
-			y: -4.0d
-			subtitle: "Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection."
 			description: [
 				"To gather a taglock from an entity, either sneak up from behind or search for their bed."
 				""
 				"To gather a taglock from a Bed, use it while sneaking so you don't accidentally sleep."
 			]
 			id: "3B25DEDD2D24B914"
-			tasks: [{
-				id: "0BB0332E269A468C"
-				type: "item"
-				item: "bewitchment:taglock"
-			}]
 			rewards: [
 				{
-					id: "4922BE265F6943B0"
-					type: "item"
-					item: "minecraft:glass"
 					count: 12
+					id: "4922BE265F6943B0"
+					item: "minecraft:glass"
+					type: "item"
 				}
 				{
 					id: "403F09A8642948B6"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection."
+			tasks: [{
+				id: "0BB0332E269A468C"
+				item: "bewitchment:taglock"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
 		}
 		{
-			x: 2.0d
-			y: -5.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "5679BA414C1D637D"
-			tasks: [{
-				id: "55C622C7F900504C"
-				type: "item"
-				item: {
-					id: "bewitchment:protection_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "4EE10EA390B3E4C2"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "55C622C7F900504C"
+				item: {
+					Count: 1b
+					id: "bewitchment:protection_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
 		}
 		{
-			x: 2.5d
-			y: -4.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "1A1119610D6F620C"
-			tasks: [{
-				id: "17271F13609136DA"
-				type: "item"
-				item: {
-					id: "bewitchment:death_protection_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "0DB8AA159811F50D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "17271F13609136DA"
+				item: {
+					Count: 1b
+					id: "bewitchment:death_protection_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
 		}
 		{
-			x: 0.0d
-			y: -5.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "0E8BF0CAF13399B5"
-			tasks: [{
-				id: "433EA789E4B03C5B"
-				type: "item"
-				item: {
-					id: "bewitchment:voodoo_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "05A83292D29CD735"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "433EA789E4B03C5B"
+				item: {
+					Count: 1b
+					id: "bewitchment:voodoo_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
 		}
 		{
-			x: 2.5d
-			y: -3.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "19548DE9DE1B4176"
-			tasks: [{
-				id: "638ECB265FAE71EB"
-				type: "item"
-				item: {
-					id: "bewitchment:voodoo_protection_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "13FAF7138F13A241"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "638ECB265FAE71EB"
+				item: {
+					Count: 1b
+					id: "bewitchment:voodoo_protection_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
 		}
 		{
-			x: -0.5d
-			y: -4.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "7B7EC590EF81C282"
-			tasks: [{
-				id: "67E2FD8CD240DD97"
-				type: "item"
-				item: {
-					id: "bewitchment:mending_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "51363310CB4EC0AD"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "67E2FD8CD240DD97"
+				item: {
+					Count: 1b
+					id: "bewitchment:mending_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
 		}
 		{
-			x: -0.5d
-			y: -3.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "285F5C6F45590CC5"
-			tasks: [{
-				id: "6C470769345218F8"
-				type: "item"
-				item: {
-					id: "bewitchment:curse_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "5635587AE0A0D41B"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6C470769345218F8"
+				item: {
+					Count: 1b
+					id: "bewitchment:curse_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
 		}
 		{
-			x: 1.0d
-			y: -5.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "5528E5058C2D3AA9"
-			tasks: [{
-				id: "4A5DB934B15056F6"
-				type: "item"
-				item: {
-					id: "bewitchment:vampiric_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "630A27C7B1CA77DB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4A5DB934B15056F6"
+				item: {
+					Count: 1b
+					id: "bewitchment:vampiric_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
 		}
 		{
-			x: 0.5d
-			y: -2.5d
 			dependencies: ["3B25DEDD2D24B914"]
 			id: "4D168D1CF5B9D840"
-			tasks: [{
-				id: "3AD3144A2289E414"
-				type: "item"
-				item: {
-					id: "bewitchment:judgment_poppet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "5E7FF792249DA4BF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
-			}]
-		}
-		{
-			x: 1.5d
-			y: -2.5d
-			dependencies: ["3B25DEDD2D24B914"]
-			id: "401DF25766ED31F2"
-			tasks: [{
-				id: "4837A378979ED1AE"
 				type: "item"
+			}]
+			tasks: [{
+				id: "3AD3144A2289E414"
 				item: {
-					id: "bewitchment:fatigue_poppet"
 					Count: 1b
+					id: "bewitchment:judgment_poppet"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "35FE11868ED36D13"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16747259
-						Name: "Magic Common Lootbag"
-						Loot: "aof:loot_bags/magic/common"
-					}
-				}
 			}]
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			x: 7.5d
-			y: 2.0d
-			subtitle: "Convenient tools for any witch."
+			dependencies: ["3B25DEDD2D24B914"]
+			id: "401DF25766ED31F2"
+			rewards: [{
+				id: "35FE11868ED36D13"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4837A378979ED1AE"
+				item: {
+					Count: 1b
+					id: "bewitchment:fatigue_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51E68C17C005CD95"]
 			description: [
 				"It can be used to gather heads from mobs, among other niche uses."
 				""
@@ -599,91 +597,91 @@
 				""
 				"Athames can also be used to start Rituals from a Dispenser."
 			]
-			dependencies: ["51E68C17C005CD95"]
 			id: "076F277FF3B41B79"
+			rewards: [{
+				id: "197B01B3DC9E5C8E"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Convenient tools for any witch."
 			tasks: [{
 				id: "6BA10BD55A3F1DB4"
-				type: "item"
 				item: {
-					id: "bewitchment:athame"
 					Count: 1b
+					id: "bewitchment:athame"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "197B01B3DC9E5C8E"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16747259
-						Name: "Magic Common Lootbag"
-						Loot: "aof:loot_bags/magic/common"
-					}
-				}
 			}]
+			x: 7.5d
+			y: 2.0d
 		}
 		{
-			x: 7.5d
-			y: 4.0d
-			subtitle: "Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand."
 			dependencies: ["076F277FF3B41B79"]
 			id: "5545B850D62C8BF0"
-			tasks: [{
-				id: "6F360235F1EA98C6"
-				type: "item"
-				item: "bewitchment:bottle_of_blood"
-			}]
 			rewards: [{
 				id: "4931A83E80FD8148"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand."
+			tasks: [{
+				id: "6F360235F1EA98C6"
+				item: "bewitchment:bottle_of_blood"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
 		}
 		{
-			x: 7.5d
-			y: 0.0d
-			subtitle: "Created by putting Bark on a Campfire."
-			description: ["When thrown into a filled Witch Cauldron it will immediately empty it."]
 			dependencies: ["076F277FF3B41B79"]
+			description: ["When thrown into a filled Witch Cauldron it will immediately empty it."]
 			id: "6EA6B28327D944B7"
-			tasks: [{
-				id: "7B461B5FFCDEE357"
-				type: "item"
-				item: "bewitchment:wood_ash"
-			}]
 			rewards: [{
 				id: "5B19CA4F25A94842"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Created by putting Bark on a Campfire."
+			tasks: [{
+				id: "7B461B5FFCDEE357"
+				item: "bewitchment:wood_ash"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
 		}
 		{
-			x: 9.5d
-			y: 2.0d
-			subtitle: "Some say that Bark is the most magically potent part of the tree."
+			dependencies: ["076F277FF3B41B79"]
 			description: [
 				"Early witches learned to strip bark from wood using an Athame."
 				""
@@ -691,32 +689,32 @@
 				""
 				"Bark can be used for many things, one of those being Wood Ash."
 			]
-			dependencies: ["076F277FF3B41B79"]
 			id: "2E57A82661E1CE1E"
-			tasks: [{
-				id: "38B08483C8E278D3"
-				type: "item"
-				item: "bewitchment:oak_bark"
-			}]
 			rewards: [{
 				id: "01110A2F9D5F6799"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Some say that Bark is the most magically potent part of the tree."
+			tasks: [{
+				id: "38B08483C8E278D3"
+				item: "bewitchment:oak_bark"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
 		}
 		{
-			x: 11.5d
-			y: 2.0d
-			subtitle: "Altars are the cornerstone of any witch's lair."
+			dependencies: ["2E57A82661E1CE1E"]
 			description: [
 				"They can be used to collect energy - henceforth referred to as ME (magical energy)."
 				""
@@ -736,32 +734,32 @@
 				""
 				"Nearby altars will fill a player's Internal ME Buffer, which is used for magic such as trinkets or Brooms."
 			]
-			dependencies: ["2E57A82661E1CE1E"]
 			id: "734F1553E293E98D"
-			tasks: [{
-				id: "23AFD5A3B04D25BE"
-				type: "item"
-				item: "bewitchment:stone_witch_altar"
-			}]
 			rewards: [{
 				id: "1CF45DE82151433F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Altars are the cornerstone of any witch's lair."
+			tasks: [{
+				id: "23AFD5A3B04D25BE"
+				item: "bewitchment:stone_witch_altar"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
 		}
 		{
-			x: 11.5d
-			y: 0.0d
-			subtitle: "Crystal Balls are common divination tools."
+			dependencies: ["734F1553E293E98D"]
 			description: [
 				"When used, they will give the caster a fortune, at the cost of some ME drawn from a nearby Altar."
 				""
@@ -769,94 +767,97 @@
 				""
 				"When used with a Taglock, it will give precise information on the target."
 			]
-			dependencies: ["734F1553E293E98D"]
 			id: "25C8C15C8701B834"
-			tasks: [{
-				id: "693CE5B86EF9DA53"
-				type: "item"
-				item: "bewitchment:crystal_ball"
-			}]
 			rewards: [{
 				id: "3DA892D969F3279C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Crystal Balls are common divination tools."
+			tasks: [{
+				id: "693CE5B86EF9DA53"
+				item: "bewitchment:crystal_ball"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 		{
-			x: 9.5d
-			y: 0.0d
 			dependencies: [
 				"25C8C15C8701B834"
 				"6EA6B28327D944B7"
 			]
 			id: "140AEE3F450BD3A2"
+			rewards: [{
+				id: "63432E061B2D2063"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "372B31C55E138C15"
-				type: "item"
 				item: {
-					id: "bewitchment:chalk"
 					Count: 1b
+					id: "bewitchment:chalk"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "63432E061B2D2063"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16747259
-						Name: "Magic Common Lootbag"
-						Loot: "aof:loot_bags/magic/common"
-					}
-				}
 			}]
+			x: 9.5d
+			y: 0.0d
 		}
 		{
-			x: 11.5d
-			y: -2.0d
 			dependencies: [
 				"25C8C15C8701B834"
 				"140AEE3F450BD3A2"
 			]
 			id: "40F771A3D6F771A6"
-			tasks: [{
-				id: "0B6E7536EA8FC60D"
-				type: "item"
-				item: "bewitchment:demon_heart"
-			}]
 			rewards: [{
 				id: "2821962D0E9F1AE3"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0B6E7536EA8FC60D"
+				item: "bewitchment:demon_heart"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
 		}
 		{
-			x: 13.5d
-			y: 0.0d
-			subtitle: "Brooms are magical devices commonly used by witches."
+			dependencies: [
+				"25C8C15C8701B834"
+				"40F771A3D6F771A6"
+			]
 			description: [
 				"They enable the user to fly through the skies. Brooms come in four variants, each with unique properties:"
 				""
@@ -872,49 +873,46 @@
 				"- Dragon's Blood"
 				"Can have Active Sigils applied to them, much like any other Dragon's Blood block."
 			]
-			dependencies: [
-				"25C8C15C8701B834"
-				"40F771A3D6F771A6"
-			]
 			id: "75F9B10AE73B2D5A"
-			tasks: [{
-				id: "304B313C6A41FD87"
-				type: "item"
-				item: "bewitchment:juniper_broom"
-			}]
 			rewards: [
 				{
-					id: "482BC1F93336875E"
-					type: "item"
-					item: "minecraft:crimson_nylium"
 					count: 12
+					id: "482BC1F93336875E"
+					item: "minecraft:crimson_nylium"
+					type: "item"
 				}
 				{
-					id: "6DA0374A298E1188"
-					type: "item"
-					item: "minecraft:warped_nylium"
 					count: 12
+					id: "6DA0374A298E1188"
+					item: "minecraft:warped_nylium"
+					type: "item"
 				}
 				{
 					id: "4025B11483CCF66D"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 16747259
-							Name: "Magic Rare Lootbag"
 							Loot: "aof:loot_bags/magic/rare"
+							Name: "Magic Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Brooms are magical devices commonly used by witches."
+			tasks: [{
+				id: "304B313C6A41FD87"
+				item: "bewitchment:juniper_broom"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
 		}
 		{
-			x: 13.5d
-			y: -2.0d
-			subtitle: "Gross."
+			dependencies: ["40F771A3D6F771A6"]
 			description: [
 				"This questionable stew is part of the pledging rite."
 				""
@@ -922,32 +920,32 @@
 				""
 				"Pledging to a Greater Demon has unique benefits depending on the Demon."
 			]
-			dependencies: ["40F771A3D6F771A6"]
 			id: "6B3BB197C7AF5DDF"
-			tasks: [{
-				id: "7C20D7008EA37334"
-				type: "item"
-				item: "bewitchment:grotesque_stew"
-			}]
 			rewards: [{
 				id: "3F7CD0CEFA8D42B2"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Gross."
+			tasks: [{
+				id: "7C20D7008EA37334"
+				item: "bewitchment:grotesque_stew"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
 		}
 		{
-			x: 9.0d
-			y: -4.0d
-			subtitle: "Baphomet's tool of choice."
+			dependencies: ["1DB150821C15E02B"]
 			description: [
 				"It has multiple-tool functionality comparable to Netherite."
 				""
@@ -955,213 +953,201 @@
 				""
 				"The Caduceus can be repaired with Netherite Ingots."
 			]
-			dependencies: ["1DB150821C15E02B"]
 			id: "16CC85D681077DFD"
+			rewards: [{
+				id: "14822D397A64A55F"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Baphomet's tool of choice."
 			tasks: [{
 				id: "5AD904C0970364E4"
-				type: "item"
 				item: {
-					id: "bewitchment:caduceus"
 					Count: 1b
+					id: "bewitchment:caduceus"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "14822D397A64A55F"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Name: "Magic Rare Lootbag"
-						Loot: "aof:loot_bags/magic/rare"
-					}
-				}
 			}]
+			x: 9.0d
+			y: -4.0d
 		}
 		{
-			x: 9.5d
-			y: -2.0d
 			dependencies: ["140AEE3F450BD3A2"]
 			id: "1DB150821C15E02B"
-			tasks: [{
-				id: "416484CF2AB4D71B"
-				type: "item"
-				item: "bewitchment:demon_horn"
-			}]
 			rewards: [{
 				id: "36C67E1882AB1288"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "416484CF2AB4D71B"
+				item: "bewitchment:demon_horn"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
 		}
 		{
-			x: 8.0d
-			y: -4.0d
-			subtitle: "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
+			dependencies: ["1DB150821C15E02B"]
 			description: [
 				"Because of their dark energies, the undead are neutral to the wearer."
 				""
 				"Harbinger can be repaired using Netherite Ingots."
 			]
-			dependencies: ["1DB150821C15E02B"]
 			id: "07CB7DF58F8AC311"
+			rewards: [{
+				id: "290B4F394364281B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
 			tasks: [{
 				id: "6CDB1DB5399B31F8"
-				type: "item"
 				item: {
-					id: "bewitchment:harbinger"
 					Count: 1b
+					id: "bewitchment:harbinger"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "290B4F394364281B"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Name: "Magic Rare Lootbag"
-						Loot: "aof:loot_bags/magic/rare"
-					}
-				}
 			}]
+			x: 8.0d
+			y: -4.0d
 		}
 		{
-			x: 10.0d
-			y: -4.0d
-			subtitle: "This powerful relic is obtained by defeating Leonard."
+			dependencies: ["1DB150821C15E02B"]
 			description: [
 				"It can be combined with a Splash Potion, which can then be thrown four times using the Scepter at the cost of ME."
 				""
 				"The Scepter can be repaired using Netherie Ingots."
 			]
-			dependencies: ["1DB150821C15E02B"]
 			id: "3980AEE68AB1A5A3"
+			rewards: [{
+				id: "36C770DEFFEFA3B5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This powerful relic is obtained by defeating Leonard."
 			tasks: [{
 				id: "21DC85807695CFAB"
-				type: "item"
 				item: {
-					id: "bewitchment:scepter"
 					Count: 1b
+					id: "bewitchment:scepter"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "36C770DEFFEFA3B5"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Name: "Magic Rare Lootbag"
-						Loot: "aof:loot_bags/magic/rare"
-					}
-				}
 			}]
+			x: 10.0d
+			y: -4.0d
 		}
 		{
-			x: 11.0d
-			y: -4.0d
-			subtitle: "This spear is the hunting weapon of Herne."
+			dependencies: ["1DB150821C15E02B"]
 			description: [
 				"Much like a Trident, it can be thrown towards a target, and will always return to whoever threw it."
 				""
 				"The Horned Spear can be repaired using Netherite Ingots."
 			]
-			dependencies: ["1DB150821C15E02B"]
 			id: "46E0C43C802E3417"
+			rewards: [{
+				id: "1D91D2EEE1A19966"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This spear is the hunting weapon of Herne."
 			tasks: [{
 				id: "2F68CB0B56C94B78"
-				type: "item"
 				item: {
-					id: "bewitchment:horned_spear"
 					Count: 1b
+					id: "bewitchment:horned_spear"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "1D91D2EEE1A19966"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Name: "Magic Rare Lootbag"
-						Loot: "aof:loot_bags/magic/rare"
-					}
-				}
 			}]
+			x: 11.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["734F1553E293E98D"]
+			id: "0FDB0002F258E8E5"
+			rewards: [{
+				id: "3EDB0EB02FACC67B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "2A76279AD6285265"
+				title: "Find a nether fortress"
+				type: "advancement"
+			}]
 			title: "Find a Nether Fortress"
 			x: 11.5d
 			y: 4.0d
-			dependencies: ["734F1553E293E98D"]
-			id: "0FDB0002F258E8E5"
-			tasks: [{
-				id: "2A76279AD6285265"
-				type: "advancement"
-				title: "Find a nether fortress"
-				advancement: "minecraft:nether/find_fortress"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "3EDB0EB02FACC67B"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Name: "Magic Rare Lootbag"
-						Loot: "aof:loot_bags/magic/rare"
-					}
-				}
-			}]
 		}
 		{
-			icon: {
-				id: "trofers:medium_pillar"
-				Count: 1b
-				tag: {
-					BlockEntityTag: {
-						Trophy: "trofers:bewitchment"
-					}
-				}
-			}
-			x: 6.0d
-			y: -6.0d
-			shape: "hexagon"
-			subtitle: "Complete all quests to obtain the trophy!"
-			hide_dependency_lines: true
 			dependencies: [
 				"734F1553E293E98D"
 				"40F771A3D6F771A6"
@@ -1198,27 +1184,41 @@
 				"1DC1A628467897A9"
 				"70D904888ACAEA21"
 			]
-			size: 4.0d
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:bewitchment"
+					}
+				}
+			}
 			id: "6C054C82F643D744"
-			tasks: [{
-				id: "2C2166273BBDFCAC"
-				type: "checkmark"
-				title: "&eBewitchment 100%"
-			}]
 			rewards: [{
 				id: "3754227DEE07E247"
-				type: "item"
 				item: {
-					id: "trofers:medium_pillar"
 					Count: 1b
+					id: "trofers:medium_pillar"
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:bewitchment"
 						}
 					}
 				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "2C2166273BBDFCAC"
+				title: "&eBewitchment 100%"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -6.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Bewitchment"
 }

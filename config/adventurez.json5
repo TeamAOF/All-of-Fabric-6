@@ -37,5 +37,7 @@
 	"warthog_rare_chance": 0.009999999776482582,
 	"stoned_heart_duration": 72000,
 	"stoned_heart_amplifier": 0,
+	"stone_golem_armor_effect_duration": 1200,
+	"stone_golem_armor_dodge_chance": 0.20000000298023224,
 	"allow_other_dragon_hatching": false
 }

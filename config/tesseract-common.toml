@@ -1,0 +1,5 @@
+[General]
+    # At what interval should tesseract data be saved? A value of '5' means tesseract data gets saved every 5 minutes.
+    # Allowed range: 1 ~ 30 - Default: 3
+    saveInterval = 3
+

@@ -1,355 +1,352 @@
 {
-	id: "33C9E52EF9326063"
-	group: "1039AC171AB01709"
-	order_index: 1
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "botania"
-	title: "Botania"
+	group: "1039AC171AB01709"
 	icon: {
-		id: "botania:lexicon"
 		Count: 1b
+		id: "botania:lexicon"
 		tag: {
 			"botania:elven_unlock": 1b
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "33C9E52EF9326063"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "This is Botania"
 			icon: "botania:lexicon"
-			x: -6.0d
-			y: -0.5d
-			subtitle: "Natural magic, revolving around flora."
 			id: "1DF75AD90E44CA46"
+			rewards: [{
+				id: "3CEE2D5320850B8F"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			subtitle: "Natural magic, revolving around flora."
 			tasks: [{
 				id: "39154A42F9C284B4"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "3CEE2D5320850B8F"
-				type: "item"
-				item: "botania:lexicon"
-			}]
+			title: "This is Botania"
+			x: -6.0d
+			y: -0.5d
 		}
 		{
-			x: -4.5d
-			y: 0.5d
 			dependencies: ["1DF75AD90E44CA46"]
 			id: "5309927D0A001918"
-			tasks: [{
-				id: "4C569B32E08A8574"
-				type: "advancement"
-				title: "Find Mystical Flowers"
-				icon: "botania:magenta_double_flower"
-				advancement: "botania:main/flower_pickup"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "377968C872FCBDF0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				advancement: "botania:main/flower_pickup"
+				criterion: ""
+				icon: "botania:magenta_double_flower"
+				id: "4C569B32E08A8574"
+				title: "Find Mystical Flowers"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 0.5d
 		}
 		{
-			x: 3.5d
-			y: 0.5d
 			dependencies: ["5309927D0A001918"]
 			id: "04C2CA40AEA918DB"
-			tasks: [{
-				id: "56C6E89025BDF94C"
-				type: "item"
-				item: "botania:apothecary_default"
-			}]
 			rewards: [{
 				id: "48797CA504683D78"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "56C6E89025BDF94C"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
 		}
 		{
-			x: 11.5d
-			y: 0.5d
 			dependencies: ["04C2CA40AEA918DB"]
 			id: "1FFF999BC54B6400"
-			tasks: [{
-				id: "1A247FF180E6481A"
-				type: "item"
-				item: "botania:pure_daisy"
-			}]
 			rewards: [{
 				id: "5B71AC391E1EC79D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1A247FF180E6481A"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
 		}
 		{
-			x: 13.5d
-			y: 0.5d
 			dependencies: ["1FFF999BC54B6400"]
 			id: "67698F78A76E5EDE"
-			tasks: [{
-				id: "03CC428B8A7A61D7"
-				type: "item"
-				item: "botania:livingrock"
-			}]
 			rewards: [{
 				id: "2C5CA4C1153A8AC3"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "03CC428B8A7A61D7"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
 		}
 		{
-			x: 11.5d
-			y: 3.5d
 			dependencies: ["1FFF999BC54B6400"]
 			id: "009F51E069A5AE9F"
-			tasks: [{
-				id: "26F8B595973C58E6"
-				type: "item"
-				item: "botania:livingwood_log"
-				count: 4L
-			}]
 			rewards: [{
 				id: "00CC4D5E5EB6A87F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "26F8B595973C58E6"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["5309927D0A001918"]
+			id: "1DCA13B8B677B0CC"
+			rewards: [{
+				count: 16
+				id: "3BB9604773FFFDAC"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			subtitle: "There are 16 different mystical flowers, this pouch can hold them all!"
+			tasks: [{
+				id: "36B856AD96BA8E03"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
 			title: "Where do i store all this flowers?"
 			x: -4.5d
 			y: 2.5d
-			subtitle: "There are 16 different mystical flowers, this pouch can hold them all!"
-			dependencies: ["5309927D0A001918"]
-			id: "1DCA13B8B677B0CC"
-			tasks: [{
-				id: "36B856AD96BA8E03"
-				type: "item"
-				item: "botania:flower_bag"
-			}]
-			rewards: [{
-				id: "3BB9604773FFFDAC"
-				type: "item"
-				item: "botania:fertilizer"
-				count: 16
-			}]
 		}
 		{
-			x: 10.5d
-			y: 5.0d
-			subtitle: "A botanist's most important tool"
+			dependencies: ["009F51E069A5AE9F"]
 			description: [
 				"> Has 2 modes, bind and function"
 				"> Sneak right click air to switch between modes"
 				"> Blocks with orientation like chests can be rotated"
 				"> Dispenser can use the wand while triggering with redstone"
 			]
-			dependencies: ["009F51E069A5AE9F"]
 			id: "0518BBF4C16E24F6"
-			tasks: [{
-				id: "0C751A483EC49827"
-				type: "item"
-				item: {
-					id: "botania:twig_wand"
-					Count: 1b
-					tag: {
-						color2: 0
-						color1: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "1AFA764C7869E13A"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "A botanist's most important tool"
+			tasks: [{
+				id: "0C751A483EC49827"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
 		}
 		{
-			x: 15.0d
-			y: 0.5d
 			dependencies: ["67698F78A76E5EDE"]
 			id: "7441E4C296790479"
-			tasks: [{
-				id: "751C161E36704045"
-				type: "item"
-				item: "botania:mana_pool"
-			}]
 			rewards: [{
 				id: "1CFCF7DB9BEACEB4"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "751C161E36704045"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
 		}
 		{
-			x: 11.5d
-			y: 5.0d
 			dependencies: ["009F51E069A5AE9F"]
 			id: "22342F3F0F03F1E6"
-			tasks: [{
-				id: "033EEA4C276D2C05"
-				type: "item"
-				item: "botania:mana_spreader"
-			}]
 			rewards: [{
 				id: "5F674B9DC30D0961"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "033EEA4C276D2C05"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
 		}
 		{
-			x: 3.5d
-			y: -1.5d
-			description: ["Craft an Endoflame or Hydroageas using the Petal Apothecary."]
 			dependencies: ["04C2CA40AEA918DB"]
+			description: ["Craft an Endoflame or Hydroageas using the Petal Apothecary."]
 			id: "5CF7175F3F5F64F6"
-			tasks: [{
-				id: "4943D9BC69DE51CE"
-				type: "advancement"
-				advancement: "botania:main/generating_flower"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "0BEB2EC09EEBE13D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				advancement: "botania:main/generating_flower"
+				criterion: ""
+				id: "4943D9BC69DE51CE"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -1.5d
 		}
 		{
-			x: 16.5d
-			y: -1.0d
 			dependencies: ["7441E4C296790479"]
 			id: "40E77B17CF9C3C07"
-			tasks: [{
-				id: "08B8B55A0ECA17E3"
-				type: "item"
-				item: "botania:mana_pearl"
-			}]
 			rewards: [{
 				id: "5B05FB9AB9CA1CC1"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "08B8B55A0ECA17E3"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
 		}
 		{
-			x: 16.5d
-			y: -7.5d
 			dependencies: ["40E77B17CF9C3C07"]
 			id: "79D5AADE25625395"
-			tasks: [{
-				id: "4F7F9DFD86FC79D8"
-				type: "item"
-				item: "botania:runic_altar"
-			}]
 			rewards: [{
 				id: "1421BC9127177F66"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4F7F9DFD86FC79D8"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.5d
 		}
 		{
-			title: "Mana Lenses"
-			x: 11.5d
-			y: 7.0d
-			subtitle: "A Mana Spreader can be upgraded with Mana Lenses"
+			dependencies: ["22342F3F0F03F1E6"]
 			description: [
 				"> The most basic Mana Lens does absolutely nothing."
 				"> A Lens can be dyed by crafting it with any color of dye to give it that color"
@@ -358,1641 +355,1655 @@
 				"> They can be upgraded with all sorts of materials to create all sorts of effects with their Mana Bursts"
 				"> Combining two lenses with a Slimeball in a crafting table will unite them into one lens with the effects of both"
 			]
-			dependencies: ["22342F3F0F03F1E6"]
 			id: "081EE3168F8B1FC7"
-			tasks: [{
-				id: "142422A08A522594"
-				type: "item"
-				item: "botania:lens_normal"
-			}]
 			rewards: [{
 				id: "4BA5EF510B33217A"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "A Mana Spreader can be upgraded with Mana Lenses"
+			tasks: [{
+				id: "142422A08A522594"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			title: "Mana Lenses"
+			x: 11.5d
+			y: 7.0d
 		}
 		{
-			x: 8.5d
-			y: 9.0d
-			subtitle: "The Velocity Lens will dramatically increase the speed at which a Mana Burst travels, but at the expense of initial capacity and faster Mana Loss."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "25D128009CF159B3"
-			tasks: [{
-				id: "50B7612C256651A0"
-				type: "item"
-				item: "botania:lens_speed"
-			}]
 			rewards: [{
 				id: "1BAA35E4F6F5B86C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Velocity Lens will dramatically increase the speed at which a Mana Burst travels, but at the expense of initial capacity and faster Mana Loss."
+			tasks: [{
+				id: "50B7612C256651A0"
+				item: "botania:lens_speed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
 		}
 		{
-			x: 8.5d
-			y: 6.0d
-			subtitle: "The Potency Lens will double the amount of Mana a Mana Burst can carry; however, the beam travels slower, and after it starts to lose mana, does so at a much faster rate."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "2459749B47E708FA"
-			tasks: [{
-				id: "1A12C87BCC4E9F1E"
-				type: "item"
-				item: "botania:lens_power"
-			}]
 			rewards: [{
 				id: "31C2B928388DC15B"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Potency Lens will double the amount of Mana a Mana Burst can carry; however, the beam travels slower, and after it starts to lose mana, does so at a much faster rate."
+			tasks: [{
+				id: "1A12C87BCC4E9F1E"
+				item: "botania:lens_power"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
 		}
 		{
-			x: 12.5d
-			y: 9.0d
-			subtitle: "The Resistance Lens will significantly increase the amount of time a Mana Burst can go without starting to lose Mana, but slows it as well."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "66F353DAEF962091"
-			tasks: [{
-				id: "658B1C4634D5D9C0"
-				type: "item"
-				item: "botania:lens_time"
-			}]
 			rewards: [{
 				id: "710813CACCF021EE"
 				type: "random"
 			}]
+			subtitle: "The Resistance Lens will significantly increase the amount of time a Mana Burst can go without starting to lose Mana, but slows it as well."
+			tasks: [{
+				id: "658B1C4634D5D9C0"
+				item: "botania:lens_time"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
 		}
 		{
-			x: 8.5d
-			y: 8.0d
-			subtitle: "The Efficiency Lens will decrease the amount of time it takes for a Mana Burst to start losing its Mana, but will also decrease its rate of loss."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "2857140F38349D53"
-			tasks: [{
-				id: "2D69A8FF842FE028"
-				type: "item"
-				item: "botania:lens_efficiency"
-			}]
 			rewards: [{
 				id: "3F20647D116D6C69"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Efficiency Lens will decrease the amount of time it takes for a Mana Burst to start losing its Mana, but will also decrease its rate of loss."
+			tasks: [{
+				id: "2D69A8FF842FE028"
+				item: "botania:lens_efficiency"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
 		}
 		{
-			x: 9.5d
-			y: 5.0d
-			subtitle: "The Bounce Lens will allow a Mana Burst to bounce off walls, rather than dissipating on collision."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "78B424948B4C7F02"
-			tasks: [{
-				id: "6BA864FB26017C8B"
-				type: "item"
-				item: "botania:lens_bounce"
-			}]
 			rewards: [{
 				id: "3982C2F03068B51F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Bounce Lens will allow a Mana Burst to bounce off walls, rather than dissipating on collision."
+			tasks: [{
+				id: "6BA864FB26017C8B"
+				item: "botania:lens_bounce"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
 		}
 		{
-			x: 13.5d
-			y: 5.0d
-			subtitle: "The Gravity Lens makes gravity affect a Mana Burst, making the burst move in an arc. As compensation, it also slightly increases the time before Mana Loss sets in."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "68E6F02353701423"
-			tasks: [{
-				id: "67297EF22DD381F9"
-				type: "item"
-				item: "botania:lens_gravity"
-			}]
 			rewards: [{
 				id: "38F133ACD689609E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Gravity Lens makes gravity affect a Mana Burst, making the burst move in an arc. As compensation, it also slightly increases the time before Mana Loss sets in."
+			tasks: [{
+				id: "67297EF22DD381F9"
+				item: "botania:lens_gravity"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
 		}
 		{
-			x: 14.5d
-			y: 7.0d
-			subtitle: "The Bore Lens charges a Mana Burst with the ability to use its own Mana to break any blocks it hits."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "66FB1ED1E2A9A7F8"
-			tasks: [{
-				id: "360305905AE274EE"
-				type: "item"
-				item: "botania:lens_mine"
-			}]
 			rewards: [{
 				id: "2A62A2E2845F5CF0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Bore Lens charges a Mana Burst with the ability to use its own Mana to break any blocks it hits."
+			tasks: [{
+				id: "360305905AE274EE"
+				item: "botania:lens_mine"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
 		}
 		{
-			x: 14.5d
-			y: 9.0d
-			subtitle: "The Damaging Lens allows a Mana Burst to use its own mana to damage any living beings it hits."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "56FE803D8ECA0B77"
-			tasks: [{
-				id: "22F68D1743ACEAE5"
-				type: "item"
-				item: "botania:lens_damage"
-			}]
 			rewards: [{
 				id: "23F5E3F6820D00D7"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Damaging Lens allows a Mana Burst to use its own mana to damage any living beings it hits."
+			tasks: [{
+				id: "22F68D1743ACEAE5"
+				item: "botania:lens_damage"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
 		}
 		{
-			x: 14.5d
-			y: 6.0d
-			subtitle: "The Phantom Lens is an interesting one. By leveraging the Abstruse Platform's properties, the lens allows a Mana Burst to pass through blocks. In doing so, the time it can survive without losing mana is decreased."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "6F4FE2BA11D1CB0B"
-			tasks: [{
-				id: "05C6A0BA48C3A008"
-				type: "item"
-				item: "botania:lens_phantom"
-			}]
 			rewards: [{
 				id: "5848D09421DC26C1"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Phantom Lens is an interesting one. By leveraging the Abstruse Platform's properties, the lens allows a Mana Burst to pass through blocks. In doing so, the time it can survive without losing mana is decreased."
+			tasks: [{
+				id: "05C6A0BA48C3A008"
+				item: "botania:lens_phantom"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
 		}
 		{
-			x: 9.5d
-			y: 9.0d
-			subtitle: "The Magnetizing Lens (as its name states) allows a Mana Burst to home in (or \"magnetize\") on any nearby blocks that can receive Mana. Doing so slightly decreases the speed of the burst."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "2A50FF9D44A31F35"
-			tasks: [{
-				id: "2454510C24AA70B7"
-				type: "item"
-				item: "botania:lens_magnet"
-			}]
 			rewards: [{
 				id: "5F632164B49FC772"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Magnetizing Lens (as its name states) allows a Mana Burst to home in (or \"magnetize\") on any nearby blocks that can receive Mana. Doing so slightly decreases the speed of the burst."
+			tasks: [{
+				id: "2454510C24AA70B7"
+				item: "botania:lens_magnet"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
 		}
 		{
-			x: 14.5d
-			y: 8.0d
-			subtitle: "The Entropic Lens imbues a Mana Burst with entropic forces, causing it to release its energy in the form of an explosion when it collides against something that can't receive Mana."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "45421DF9BD942C62"
-			tasks: [{
-				id: "3B9C4E7B7BD885EF"
-				type: "item"
-				item: "botania:lens_explosive"
-			}]
 			rewards: [{
 				id: "7198BEA4B274D5BB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Entropic Lens imbues a Mana Burst with entropic forces, causing it to release its energy in the form of an explosion when it collides against something that can't receive Mana."
+			tasks: [{
+				id: "3B9C4E7B7BD885EF"
+				item: "botania:lens_explosive"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
 		}
 		{
-			x: 14.5d
-			y: 5.0d
-			subtitle: "The Influence Lens allows a Mana Burst to have influence over any nearby dropped items, experience orbs and even falling blocks, having them move in the exact same vector of motion as the burst itself."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "6EA1683223AEAEBE"
-			tasks: [{
-				id: "437247E67D5A5F54"
-				type: "item"
-				item: "botania:lens_influence"
-			}]
 			rewards: [{
 				id: "65ECA4856DB09072"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Influence Lens allows a Mana Burst to have influence over any nearby dropped items, experience orbs and even falling blocks, having them move in the exact same vector of motion as the burst itself."
+			tasks: [{
+				id: "437247E67D5A5F54"
+				item: "botania:lens_influence"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
 		}
 		{
-			x: 10.5d
-			y: 9.0d
-			subtitle: "The Weight Lens places a strong downward force within a Mana Burst, making any block hit by it (as long as it has space below) fall like Sand and Gravel do."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "5081102A7CED9AA5"
-			tasks: [{
-				id: "256DE524215998F7"
-				type: "item"
-				item: "botania:lens_weight"
-			}]
 			rewards: [{
 				id: "2261D6222A0EBF1C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Weight Lens places a strong downward force within a Mana Burst, making any block hit by it (as long as it has space below) fall like Sand and Gravel do."
+			tasks: [{
+				id: "256DE524215998F7"
+				item: "botania:lens_weight"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
 		}
 		{
-			x: 11.0d
-			y: 13.0d
-			subtitle: "The Paintslinger lens needs to be dyed one of the 16 colors of the spectrum to function. "
-			description: ["> When a burst that's passed through it hits a colorable block (Wool, Stained Clay or Glass...), it'll turn that block (and any connected blocks of the same type and color) into the color of the Mana Burst. It seems to work on Sheep too."]
 			dependencies: ["4780D2B6E5831DBB"]
+			description: ["> When a burst that's passed through it hits a colorable block (Wool, Stained Clay or Glass...), it'll turn that block (and any connected blocks of the same type and color) into the color of the Mana Burst. It seems to work on Sheep too."]
 			id: "7236D801CE365132"
-			tasks: [{
-				id: "4CDB835CFD56D946"
-				type: "item"
-				item: "botania:lens_paint"
-			}]
 			rewards: [{
 				id: "441D1885849247DF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Paintslinger lens needs to be dyed one of the 16 colors of the spectrum to function. "
+			tasks: [{
+				id: "4CDB835CFD56D946"
+				item: "botania:lens_paint"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.0d
 		}
 		{
-			x: 12.5d
-			y: 5.0d
-			subtitle: "The Kindle Lens is infused with a burning spark. When a Mana Burst fired through it hits a block, the block will catch fire. It doesn't seem to ignite living beings, though.It has the ability to both ignite and close Nether Portals, but to close them it needs to be aimed at the frame, lest the burst it carries end up going through the portal."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "74F0CD823C4EABF0"
-			tasks: [{
-				id: "6761710FE51D1828"
-				type: "item"
-				item: "botania:lens_fire"
-			}]
 			rewards: [{
 				id: "3F60F7F20AE3E90C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Kindle Lens is infused with a burning spark. When a Mana Burst fired through it hits a block, the block will catch fire. It doesn't seem to ignite living beings, though.It has the ability to both ignite and close Nether Portals, but to close them it needs to be aimed at the frame, lest the burst it carries end up going through the portal."
+			tasks: [{
+				id: "6761710FE51D1828"
+				item: "botania:lens_fire"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
 		}
 		{
-			x: 8.5d
-			y: 5.0d
-			subtitle: "The Force Lens acts as a Piston. When a Mana Burst fired through it hits a block that a piston can move, it'll do just that."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "059E5A9B039D5A75"
-			tasks: [{
-				id: "4F80BF93E5458491"
-				type: "item"
-				item: "botania:lens_piston"
-			}]
 			rewards: [{
 				id: "6F65790F4F8EC799"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Force Lens acts as a Piston. When a Mana Burst fired through it hits a block that a piston can move, it'll do just that."
+			tasks: [{
+				id: "4F80BF93E5458491"
+				item: "botania:lens_piston"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
 		}
 		{
-			x: 8.5d
-			y: 7.0d
-			subtitle: "The Flash Lens creates a flame on a block, of the same color as the burst that caused it. The flame provides light and is purely decorative.If a burst hits one of these flames, it puts the flame out instead."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "6280D759A26A0268"
-			tasks: [{
-				id: "33EF0F3BD67B95B7"
-				type: "item"
-				item: "botania:lens_light"
-			}]
 			rewards: [{
 				id: "0CCF33C93F1B8B93"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Flash Lens creates a flame on a block, of the same color as the burst that caused it. The flame provides light and is purely decorative.If a burst hits one of these flames, it puts the flame out instead."
+			tasks: [{
+				id: "33EF0F3BD67B95B7"
+				item: "botania:lens_light"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
 		}
 		{
-			x: 13.5d
-			y: 11.5d
-			subtitle: "The Warp Lens is an interesting one. "
-			description: ["> A burst under its effects that collides with a Force Relay will teleport to the target of said Force Relay, maintaining its momentum, but making its Mana irrecoverable.Furthermore, when it's combined with a Bore Lens (the Bore Lens must be first), it'll prevent bursts from breaking Force Relays or Pistons, and teleport any blocks broken by the Bore Lens to the burst's origin."]
 			dependencies: ["4780D2B6E5831DBB"]
+			description: ["> A burst under its effects that collides with a Force Relay will teleport to the target of said Force Relay, maintaining its momentum, but making its Mana irrecoverable.Furthermore, when it's combined with a Bore Lens (the Bore Lens must be first), it'll prevent bursts from breaking Force Relays or Pistons, and teleport any blocks broken by the Bore Lens to the burst's origin."]
 			id: "1080D58DE23C93FD"
-			tasks: [{
-				id: "530972159B061274"
-				type: "item"
-				item: "botania:lens_warp"
-			}]
 			rewards: [{
 				id: "03AC2B76CE1E16C0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Warp Lens is an interesting one. "
+			tasks: [{
+				id: "530972159B061274"
+				item: "botania:lens_warp"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.5d
 		}
 		{
-			x: 12.0d
-			y: 13.0d
-			subtitle: "The Redirective Lens will only take effect when fired from a Mana Spreader. "
-			description: ["> Any burst under its effects that collides with a Mana Spreader will (apart from transferring Mana like normal) make the receiving spreader point towards the one that fired the burst."]
 			dependencies: ["4780D2B6E5831DBB"]
+			description: ["> Any burst under its effects that collides with a Mana Spreader will (apart from transferring Mana like normal) make the receiving spreader point towards the one that fired the burst."]
 			id: "46D4E5DB8C7C388D"
-			tasks: [{
-				id: "2AFCE6FE9DA3A83D"
-				type: "item"
-				item: "botania:lens_redirect"
-			}]
 			rewards: [{
 				id: "1F21A25E427A3FDB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Redirective Lens will only take effect when fired from a Mana Spreader. "
+			tasks: [{
+				id: "2AFCE6FE9DA3A83D"
+				item: "botania:lens_redirect"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
 		}
 		{
-			x: 13.0d
-			y: 12.5d
-			subtitle: "The Celebratory Lens functions much like the common Entropic Lens"
-			description: ["> Instead of an explosion, it creates a festive firework dyed the color of the burst."]
 			dependencies: ["4780D2B6E5831DBB"]
+			description: ["> Instead of an explosion, it creates a festive firework dyed the color of the burst."]
 			id: "53AD87221951C4FB"
-			tasks: [{
-				id: "50CF2DA93433621A"
-				type: "item"
-				item: "botania:lens_firework"
-			}]
 			rewards: [{
 				id: "3F85DDACD78FA33D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Celebratory Lens functions much like the common Entropic Lens"
+			tasks: [{
+				id: "50CF2DA93433621A"
+				item: "botania:lens_firework"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.5d
 		}
 		{
-			x: 9.5d
-			y: 11.5d
-			subtitle: "The Flare Lens takes over a Mana Spreader's functionality, preventing it from firing any bursts"
+			dependencies: ["4780D2B6E5831DBB"]
 			description: [
 				"> This type of lens is called a Control Lens."
 				"> The effect of this particular Control Lens is to make the spreader fire a continuous particle burst of the color the lens is dyed, in the direction the spreader is aimed. No mana is consumed; there're surely plenty of decorative uses for this."
 			]
-			dependencies: ["4780D2B6E5831DBB"]
 			id: "1CE263AEA234D241"
-			tasks: [{
-				id: "671F1A0A43D2F334"
-				type: "item"
-				item: "botania:lens_flare"
-			}]
 			rewards: [{
 				id: "0A196EF44D36ACCB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Flare Lens takes over a Mana Spreader's functionality, preventing it from firing any bursts"
+			tasks: [{
+				id: "671F1A0A43D2F334"
+				item: "botania:lens_flare"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.5d
 		}
 		{
-			x: 13.5d
-			y: 9.0d
-			subtitle: "The Messenger Lens greatly decreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and maximum distance.This can be very useful for interactions with blocks such as the Mana Detector, Drum of the Wild, or Animated Torch."
 			dependencies: ["081EE3168F8B1FC7"]
 			id: "1B3F5E8FB78901BF"
-			tasks: [{
-				id: "71E55691160B7472"
-				type: "item"
-				item: "botania:lens_messenger"
-			}]
 			rewards: [{
 				id: "61CA4D84BD25A2AF"
 				type: "random"
 			}]
+			subtitle: "The Messenger Lens greatly decreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and maximum distance.This can be very useful for interactions with blocks such as the Mana Detector, Drum of the Wild, or Animated Torch."
+			tasks: [{
+				id: "71E55691160B7472"
+				item: "botania:lens_messenger"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
 		}
 		{
-			x: 10.0d
-			y: 12.5d
-			subtitle: "The Tripwire Lens is another Control Lens."
-			description: ["> The Tripwire Lens is another Control Lens."]
 			dependencies: ["4780D2B6E5831DBB"]
+			description: ["> The Tripwire Lens is another Control Lens."]
 			id: "7C0ACFE540BFAB6F"
-			tasks: [{
-				id: "1A40F407B8B8B8DB"
-				type: "item"
-				item: "botania:lens_tripwire"
-			}]
 			rewards: [{
 				id: "0100250B4124E6E4"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The Tripwire Lens is another Control Lens."
+			tasks: [{
+				id: "1A40F407B8B8B8DB"
+				item: "botania:lens_tripwire"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.5d
 		}
 		{
-			x: 16.5d
-			y: 2.0d
 			dependencies: ["7441E4C296790479"]
 			id: "251841F2B986110E"
-			tasks: [{
-				id: "70CA060AFF348B7C"
-				type: "item"
-				item: "botania:manasteel_ingot"
-			}]
 			rewards: [{
 				id: "031E8F72E7A9D203"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "70CA060AFF348B7C"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
 		}
 		{
-			x: 16.5d
-			y: 0.5d
 			dependencies: ["7441E4C296790479"]
 			id: "07504FA280147E7A"
-			tasks: [{
-				id: "612EB016B5BC49E7"
-				type: "item"
-				item: "botania:mana_diamond"
-			}]
 			rewards: [{
 				id: "27859E66ADA1DA79"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "612EB016B5BC49E7"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
 		}
 		{
-			x: 18.0d
-			y: 0.5d
 			dependencies: [
 				"251841F2B986110E"
 				"07504FA280147E7A"
 				"40E77B17CF9C3C07"
 			]
 			id: "3D1F205E8A402999"
-			tasks: [{
-				id: "255BBC441DCAFF74"
-				type: "item"
-				item: "botania:terra_plate"
-			}]
 			rewards: [{
 				id: "644ED4ADA56A325B"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "255BBC441DCAFF74"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
 		}
 		{
-			x: 19.5d
-			y: 0.5d
 			dependencies: ["3D1F205E8A402999"]
 			id: "184DC69C5AA4D79E"
-			tasks: [{
-				id: "3AE4940037C330E2"
-				type: "item"
-				item: "botania:terrasteel_ingot"
-			}]
 			rewards: [{
 				id: "5E45FE27B9AD2854"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "3AE4940037C330E2"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
 		}
 		{
-			title: "Open the Portal to Alfheim"
-			icon: "botania:glimmering_livingwood"
-			x: 11.5d
-			y: 9.5d
-			subtitle: "The knowledge of Alfheim's Mana-handling methods comes, of course, with an array of new and useful Mana Lenses."
 			dependencies: ["081EE3168F8B1FC7"]
+			icon: "botania:glimmering_livingwood"
 			id: "4780D2B6E5831DBB"
+			subtitle: "The knowledge of Alfheim's Mana-handling methods comes, of course, with an array of new and useful Mana Lenses."
 			tasks: [{
 				id: "58CBEE0C60B24303"
-				type: "checkmark"
 				title: "Open the Portal to Alfheim"
+				type: "checkmark"
 			}]
+			title: "Open the Portal to Alfheim"
+			x: 11.5d
+			y: 9.5d
 		}
 		{
-			x: 18.5d
-			y: -5.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "1A8013123EE132C4"
-			tasks: [{
-				id: "31C09D28B3D46599"
-				type: "item"
-				item: "botania:rune_water"
-			}]
 			rewards: [{
 				id: "04DAD9A90309EB37"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "31C09D28B3D46599"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.0d
 		}
 		{
-			x: 17.5d
-			y: -4.5d
 			dependencies: ["79D5AADE25625395"]
 			id: "6D78481FEDC9D0A7"
-			tasks: [{
-				id: "5BD51D8F645A3D41"
-				type: "item"
-				item: "botania:rune_fire"
-			}]
 			rewards: [{
 				id: "6A4FBD2F70BE7FEC"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5BD51D8F645A3D41"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
 		}
 		{
-			x: 15.5d
-			y: -4.5d
 			dependencies: ["79D5AADE25625395"]
 			id: "4C13452863C755A9"
-			tasks: [{
-				id: "55446945F5B5105D"
-				type: "item"
-				item: "botania:rune_air"
-			}]
 			rewards: [{
 				id: "34A3EC8309BB81DC"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "55446945F5B5105D"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.5d
 		}
 		{
-			x: 14.5d
-			y: -5.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "2ABABA4788FC09C6"
-			tasks: [{
-				id: "69B7FE88BE929946"
-				type: "item"
-				item: "botania:rune_earth"
-			}]
 			rewards: [{
 				id: "10D2801E413D1BB0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "69B7FE88BE929946"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.0d
 		}
 		{
-			x: 19.5d
-			y: -7.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "53D8AA95C8769AC8"
-			tasks: [{
-				id: "700E45EB85D36ACA"
-				type: "item"
-				item: "botania:rune_spring"
-			}]
 			rewards: [{
 				id: "4F776D25F215DFDB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "700E45EB85D36ACA"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -7.0d
 		}
 		{
-			x: 13.5d
-			y: -7.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "4DA53004CCB8E9DE"
-			tasks: [{
-				id: "0698275E9AACD5DA"
-				type: "item"
-				item: "botania:rune_summer"
-			}]
 			rewards: [{
 				id: "5E28E239F8893E84"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0698275E9AACD5DA"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.0d
 		}
 		{
-			x: 14.0d
-			y: -8.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "4177EE55AD46B9CB"
-			tasks: [{
-				id: "3DDE1896FC655F9B"
-				type: "item"
-				item: "botania:rune_autumn"
-			}]
 			rewards: [{
 				id: "336CA44F384902D9"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "3DDE1896FC655F9B"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.0d
 		}
 		{
-			x: 19.0d
-			y: -8.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "2C8BA594589C6198"
-			tasks: [{
-				id: "2FA5BD9ED7275F54"
-				type: "item"
-				item: "botania:rune_winter"
-			}]
 			rewards: [{
 				id: "700C4483594E4C14"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2FA5BD9ED7275F54"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -8.0d
 		}
 		{
-			x: 18.5d
-			y: -9.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "0F85822E390DF0B4"
-			tasks: [{
-				id: "3473574CE0C28CD3"
-				type: "item"
-				item: "botania:rune_mana"
-			}]
 			rewards: [{
 				id: "5B5928995C3B563D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "3473574CE0C28CD3"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -9.0d
 		}
 		{
-			x: 14.0d
-			y: -6.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "138C114FB4538FD1"
-			tasks: [{
-				id: "0010DF1C431429F8"
-				type: "item"
-				item: "botania:rune_lust"
-			}]
 			rewards: [{
 				id: "53D51051D4C7930C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0010DF1C431429F8"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
 		}
 		{
-			x: 19.0d
-			y: -6.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "16773A4E07202691"
-			tasks: [{
-				id: "595A795242AEA62E"
-				type: "item"
-				item: "botania:rune_gluttony"
-			}]
 			rewards: [{
 				id: "498914E2C3C3D406"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "595A795242AEA62E"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -6.0d
 		}
 		{
-			x: 16.0d
-			y: -10.5d
 			dependencies: ["79D5AADE25625395"]
 			id: "493AA22743B295FA"
-			tasks: [{
-				id: "0428E1195AC84722"
-				type: "item"
-				item: "botania:rune_greed"
-			}]
 			rewards: [{
 				id: "1CCA1DBB1CFC0968"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0428E1195AC84722"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -10.5d
 		}
 		{
-			x: 14.5d
-			y: -9.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "161F53BA8F91BECD"
-			tasks: [{
-				id: "7ACCEE9E2C1511BA"
-				type: "item"
-				item: "botania:rune_sloth"
-			}]
 			rewards: [{
 				id: "5756F0A3AD4BF8AD"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "7ACCEE9E2C1511BA"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.0d
 		}
 		{
-			x: 18.0d
-			y: -10.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "3722CB1CC95696A8"
-			tasks: [{
-				id: "4F4D821C430DAA59"
-				type: "item"
-				item: "botania:rune_wrath"
-			}]
 			rewards: [{
 				id: "2E7B8573247C8F13"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4F4D821C430DAA59"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -10.0d
 		}
 		{
-			x: 15.0d
-			y: -10.0d
 			dependencies: ["79D5AADE25625395"]
 			id: "2C2EA55CCABBC095"
-			tasks: [{
-				id: "23712C90550070AE"
-				type: "item"
-				item: "botania:rune_envy"
-			}]
 			rewards: [{
 				id: "5AC98911DB2E7169"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "23712C90550070AE"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
 		}
 		{
-			x: 17.0d
-			y: -10.5d
 			dependencies: ["79D5AADE25625395"]
 			id: "63D35A30B1F90E63"
-			tasks: [{
-				id: "36B116051592EA3D"
-				type: "item"
-				item: "botania:rune_pride"
-			}]
 			rewards: [{
 				id: "4B079902C0756E46"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "36B116051592EA3D"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -10.5d
 		}
 		{
-			x: 3.5d
-			y: 5.5d
 			dependencies: ["04C2CA40AEA918DB"]
 			id: "2F21F31455F11527"
-			tasks: [{
-				id: "1253D4C168819A25"
-				type: "advancement"
-				advancement: "botania:main/functional_flower"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "0D17C60EE1C0B0ED"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				advancement: "botania:main/functional_flower"
+				criterion: ""
+				id: "1253D4C168819A25"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 5.5d
 		}
 		{
-			x: 10.5d
-			y: -5.0d
-			subtitle: "Trinkets are accessories that offer all sorts of different effects when worn. Unlock Manasteel Ingot quest to gain access."
-			hide_dependency_lines: true
 			dependencies: ["251841F2B986110E"]
+			hide_dependency_lines: true
 			id: "5DD7363C76855F9D"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+				icon: "kubejs:loot_bag_rare"
+				id: "4AC973452A9DAA62"
+				player_command: false
+				title: "Magic Rare Loot Bag"
+				type: "command"
+			}]
+			subtitle: "Trinkets are accessories that offer all sorts of different effects when worn. Unlock Manasteel Ingot quest to gain access."
 			tasks: [{
 				id: "4BEA70A00A6E590B"
-				type: "item"
 				item: "botania:bauble_box"
+				type: "item"
 			}]
-			rewards: [{
-				id: "4AC973452A9DAA62"
-				type: "command"
-				title: "Magic Rare Loot Bag"
-				icon: "kubejs:loot_bag_rare"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
-				player_command: false
-			}]
+			x: 10.5d
+			y: -5.0d
 		}
 		{
-			x: 0.5d
-			y: -0.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "4C234967C9D8F506"
-			tasks: [{
-				id: "36962A45E463CC89"
-				type: "item"
-				item: "botania:dandelifeon"
-			}]
 			rewards: [{
 				id: "223CC775363BAEBD"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "36962A45E463CC89"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
 		}
 		{
-			x: 0.5d
-			y: -1.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "0844D86D1B6B6E42"
-			tasks: [{
-				id: "12F80AD79FA56E86"
-				type: "item"
-				item: "botania:endoflame"
-			}]
 			rewards: [{
 				id: "4B797BAAD0220731"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "12F80AD79FA56E86"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
 		}
 		{
-			x: 0.5d
-			y: -2.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "5AB6E536CDEA24F0"
-			tasks: [{
-				id: "2E0DAF08C6243635"
-				type: "item"
-				item: "botania:entropinnyum"
-			}]
 			rewards: [{
 				id: "64ED97731C188A0D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2E0DAF08C6243635"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			x: 0.5d
-			y: -3.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "4BE13A145FDF53A2"
-			tasks: [{
-				id: "799D4FA5D1044A0B"
-				type: "item"
-				item: "botania:gourmaryllis"
-			}]
 			rewards: [{
 				id: "71EA877E6574596D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "799D4FA5D1044A0B"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
 		}
 		{
-			x: 1.5d
-			y: -3.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "0F9A8BE9693CFC9A"
-			tasks: [{
-				id: "0D3228DBF1F3139B"
-				type: "item"
-				item: "botania:hydroangeas"
-			}]
 			rewards: [{
 				id: "294307143E874510"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0D3228DBF1F3139B"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
 		}
 		{
-			x: 2.5d
-			y: -3.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "5795D205F1485AAC"
-			tasks: [{
-				id: "1C4509685FD3253C"
-				type: "item"
-				item: "botania:kekimurus"
-			}]
 			rewards: [{
 				id: "20B9E19C503A0099"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1C4509685FD3253C"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
 		}
 		{
-			x: 3.5d
-			y: -3.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "32C2713F7D594E64"
-			tasks: [{
-				id: "67065A9C2A01679A"
-				type: "item"
-				item: "botania:munchdew"
-			}]
 			rewards: [{
 				id: "766B93FF53661B71"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "67065A9C2A01679A"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
 		}
 		{
-			x: 4.5d
-			y: -3.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "17B01D55D08BA669"
-			tasks: [{
-				id: "6DBA08661F495716"
-				type: "item"
-				item: "botania:narslimmus"
-			}]
 			rewards: [{
 				id: "11A3597E83D73452"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6DBA08661F495716"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
 		}
 		{
-			x: 5.5d
-			y: -3.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "26CB81E6EA208B67"
-			tasks: [{
-				id: "4D7288D8EE4B0670"
-				type: "item"
-				item: "botania:rafflowsia"
-			}]
 			rewards: [{
 				id: "63A780D9B85169F8"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4D7288D8EE4B0670"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
 		}
 		{
-			x: 8.5d
-			y: -6.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "228CA2867203BA12"
-			tasks: [{
-				id: "6F8C3D231D508088"
-				type: "item"
-				item: "botania:holy_cloak"
-			}]
 			rewards: [{
 				id: "43515CC88DB151EB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6F8C3D231D508088"
+				item: "botania:holy_cloak"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
 		}
 		{
-			x: 12.0d
-			y: -7.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "7173A81A1D77BFD3"
-			tasks: [{
-				id: "232B6DCD720FDA70"
-				type: "item"
-				item: "botania:unholy_cloak"
-			}]
 			rewards: [{
 				id: "28457B7BEB4F2F56"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "232B6DCD720FDA70"
+				item: "botania:unholy_cloak"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
 		}
 		{
-			x: 9.0d
-			y: -7.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "42D6242513AAC971"
-			tasks: [{
-				id: "7C1D38DE12D541D0"
-				type: "item"
-				item: "botania:balance_cloak"
-			}]
 			rewards: [{
 				id: "639FA6A59B1850DF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "7C1D38DE12D541D0"
+				item: "botania:balance_cloak"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
 		}
 		{
-			x: 6.5d
-			y: -3.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "6C2B3C5D7F27B3CE"
-			tasks: [{
-				id: "5CEEF05B019B86E3"
-				type: "item"
-				item: "botania:rosa_arcana"
-			}]
 			rewards: [{
 				id: "377D0586A04607ED"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5CEEF05B019B86E3"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
 		}
 		{
-			x: 12.5d
-			y: -6.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "0E1376C287B4D8E4"
-			tasks: [{
-				id: "15F3E22562D703CF"
-				type: "item"
-				item: "botania:invisibility_cloak"
-			}]
 			rewards: [{
 				id: "4C5D981C59888F83"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "15F3E22562D703CF"
+				item: "botania:invisibility_cloak"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
 		}
 		{
-			x: 6.5d
-			y: -2.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "6102D86326F893AB"
-			tasks: [{
-				id: "49515826071B0A55"
-				type: "item"
-				item: "botania:shulk_me_not"
-			}]
 			rewards: [{
 				id: "797E08C81F184764"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "49515826071B0A55"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
 		}
 		{
-			x: 6.5d
-			y: -1.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "2588EEB1BAEA2377"
-			tasks: [{
-				id: "3C9BCEEF0E066A77"
-				type: "item"
-				item: "botania:spectrolus"
-			}]
 			rewards: [{
 				id: "03BA92596A170BBA"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "3C9BCEEF0E066A77"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
 		}
 		{
-			x: 6.5d
-			y: -0.5d
 			dependencies: ["5CF7175F3F5F64F6"]
 			id: "795033354BF674AF"
-			tasks: [{
-				id: "0E5A48F15685FA5C"
-				type: "item"
-				item: "botania:thermalily"
-			}]
 			rewards: [{
 				id: "61E92C399AD97351"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0E5A48F15685FA5C"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
 		}
 		{
-			x: 10.5d
-			y: -2.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "6BBBC76E6E722C86"
-			tasks: [{
-				id: "2C4B43629EE0BAE8"
-				type: "item"
-				item: "botania:travel_belt"
-			}]
 			rewards: [{
 				id: "4187AEF005A4870F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2C4B43629EE0BAE8"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
 		}
 		{
-			x: 10.5d
-			y: -7.5d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "4E28F29232291984"
+			rewards: [{
+				id: "1259C4CEF50607A4"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "51D923B2C882AAE4"
-				type: "item"
 				item: {
-					id: "botania:knockback_belt"
 					Count: 1b
+					id: "botania:knockback_belt"
 					tag: {
 						baubleUUID: [I;
 							-266142487
@@ -2002,308 +2013,308 @@
 						]
 					}
 				}
-			}]
-			rewards: [{
-				id: "1259C4CEF50607A4"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
-						Name: "Magic Rare Lootbag"
-					}
-				}
 			}]
+			x: 10.5d
+			y: -7.5d
 		}
 		{
-			x: 10.0d
-			y: -1.0d
 			dependencies: ["6BBBC76E6E722C86"]
 			id: "7F0ADAF93FF58572"
-			tasks: [{
-				id: "3EE9CCD6CFF5D1D7"
-				type: "item"
-				item: "botania:super_travel_belt"
-			}]
 			rewards: [{
 				id: "16A3E98FC38C5221"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "3EE9CCD6CFF5D1D7"
+				item: "botania:super_travel_belt"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
 		}
 		{
-			x: 11.0d
-			y: -1.0d
 			dependencies: ["6BBBC76E6E722C86"]
 			id: "0B4420623B4BC69A"
-			tasks: [{
-				id: "60BDA1A9C06A4103"
-				type: "item"
-				item: "botania:speed_up_belt"
-			}]
 			rewards: [{
 				id: "347BE4F620DB72BF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "60BDA1A9C06A4103"
+				item: "botania:speed_up_belt"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
 		}
 		{
-			x: 9.5d
-			y: -2.5d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "3EBFB9BBC420F762"
-			tasks: [{
-				id: "6FE162FA3C68D87F"
-				type: "item"
-				item: "botania:magnet_ring"
-			}]
 			rewards: [{
 				id: "12A2AD9A470AC965"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6FE162FA3C68D87F"
+				item: "botania:magnet_ring"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
 		}
 		{
-			x: 9.0d
-			y: -1.5d
 			dependencies: ["3EBFB9BBC420F762"]
 			id: "47DF546851CDA84C"
-			tasks: [{
-				id: "68A22D489E97D991"
-				type: "item"
-				item: "botania:magnet_ring_greater"
-			}]
 			rewards: [{
 				id: "6FA4C7EB616ECFE3"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "68A22D489E97D991"
+				item: "botania:magnet_ring_greater"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
 		}
 		{
-			x: 13.0d
-			y: -5.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "1CCA3BDF1407C1CF"
-			tasks: [{
-				id: "25BE601B8DCD67A8"
-				type: "item"
-				item: "botania:mana_ring"
-			}]
 			rewards: [{
 				id: "7DF680E9E1A6AC92"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "25BE601B8DCD67A8"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
 		}
 		{
-			x: 11.5d
-			y: -2.5d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "1B945E921F2EEA9C"
-			tasks: [{
-				id: "19F6189D4D9DFB0F"
-				type: "item"
-				item: "botania:aura_ring"
-			}]
 			rewards: [{
 				id: "1066D86AFAEECBA3"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "19F6189D4D9DFB0F"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
 		}
 		{
-			x: 12.0d
-			y: -1.5d
 			dependencies: ["1B945E921F2EEA9C"]
 			id: "6D17CD1F90431FCC"
-			tasks: [{
-				id: "2C84F468D7C75C5F"
-				type: "item"
-				item: "botania:aura_ring_greater"
-			}]
 			rewards: [{
 				id: "1FBE1732C4E4A452"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2C84F468D7C75C5F"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
 		}
 		{
-			x: 8.0d
-			y: -5.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "6894A057F9E9658C"
-			tasks: [{
-				id: "59C05FB82489D92A"
-				type: "item"
-				item: "botania:water_ring"
-			}]
 			rewards: [{
 				id: "1900B3F81F99192A"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "59C05FB82489D92A"
+				item: "botania:water_ring"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
 		}
 		{
-			x: 8.0d
-			y: -4.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "0C598D3C097961D9"
-			tasks: [{
-				id: "1EE667BA218E3F1F"
-				type: "item"
-				item: "botania:swap_ring"
-			}]
 			rewards: [{
 				id: "188680DE316C619C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1EE667BA218E3F1F"
+				item: "botania:swap_ring"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
 		}
 		{
-			x: 8.5d
-			y: -3.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "683CEC6590173287"
-			tasks: [{
-				id: "777070D4A189539A"
-				type: "item"
-				item: "botania:dodge_ring"
-			}]
 			rewards: [{
 				id: "37979B39886AB1A3"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "777070D4A189539A"
+				item: "botania:dodge_ring"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
 		}
 		{
-			x: 12.5d
-			y: -3.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "09556EE472CE76C1"
-			tasks: [{
-				id: "6E2A3C62890F04AF"
-				type: "item"
-				item: "botania:mining_ring"
-			}]
 			rewards: [{
 				id: "11D5F9F10BCA3D46"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6E2A3C62890F04AF"
+				item: "botania:mining_ring"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
 		}
 		{
-			x: 13.0d
-			y: -4.0d
 			dependencies: ["5DD7363C76855F9D"]
 			id: "03D8166AAAF1B0CA"
+			rewards: [{
+				id: "56F9E6DF5C9A51C6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "228165CB2AE09454"
-				type: "item"
 				item: {
-					id: "botania:reach_ring"
 					Count: 1b
+					id: "botania:reach_ring"
 					tag: {
 						baubleUUID: [I;
 							1332369587
@@ -2313,962 +2324,937 @@
 						]
 					}
 				}
-			}]
-			rewards: [{
-				id: "56F9E6DF5C9A51C6"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
-						Name: "Magic Rare Lootbag"
-					}
-				}
 			}]
+			x: 13.0d
+			y: -4.0d
 		}
 		{
-			x: 15.0d
-			y: -2.5d
 			dependencies: ["7441E4C296790479"]
 			id: "2C917AF574869CE3"
-			tasks: [{
-				id: "1E4C5F07C8E3EC85"
-				type: "item"
-				item: "botania:mana_pylon"
-			}]
 			rewards: [{
 				id: "25E839A506FA85E0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1E4C5F07C8E3EC85"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
 		}
 		{
-			x: 19.5d
-			y: -2.5d
 			dependencies: [
 				"2C917AF574869CE3"
 				"184DC69C5AA4D79E"
 			]
 			id: "212723528F0C4958"
-			tasks: [{
-				id: "0E62314EE896D07B"
-				type: "item"
-				item: "botania:natura_pylon"
-			}]
 			rewards: [{
 				id: "41840242FF210A43"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0E62314EE896D07B"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
 		}
 		{
-			x: 20.5d
-			y: 2.0d
 			dependencies: ["56C906CE38A975D7"]
 			id: "5194E917E6900897"
-			tasks: [{
-				id: "05C2A877F11FB24D"
-				type: "item"
-				item: "botania:glimmering_livingwood"
-			}]
 			rewards: [{
 				id: "7E807B4B90A582CD"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "05C2A877F11FB24D"
+				item: "botania:glimmering_livingwood"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
 		}
 		{
-			x: 19.5d
-			y: 3.5d
 			dependencies: [
 				"009F51E069A5AE9F"
 				"184DC69C5AA4D79E"
 			]
 			id: "56C906CE38A975D7"
-			tasks: [{
-				id: "7EFAEC63EE3BCFCF"
-				type: "item"
-				item: "botania:alfheim_portal"
-			}]
 			rewards: [{
 				id: "2AD4D250D36A70DE"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "7EFAEC63EE3BCFCF"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
 		}
 		{
-			x: 21.5d
-			y: 0.5d
 			dependencies: [
 				"184DC69C5AA4D79E"
 				"212723528F0C4958"
 				"5194E917E6900897"
 			]
 			id: "742BA596EA51DDEE"
-			tasks: [{
-				id: "282D182F0B8AF0E0"
-				type: "advancement"
-				advancement: "botania:main/elf_portal_open"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "3B1C503D02D0381E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				advancement: "botania:main/elf_portal_open"
+				criterion: ""
+				id: "282D182F0B8AF0E0"
+				type: "advancement"
+			}]
+			x: 21.5d
+			y: 0.5d
 		}
 		{
-			x: 1.0d
-			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "447998034CA345DC"
-			tasks: [{
-				id: "4CF539B076353B98"
-				type: "item"
-				item: "botania:agricarnation"
-			}]
 			rewards: [
 				{
-					id: "3DDD10F220C8155E"
-					type: "command"
-					title: "Magic Rare Loot Bag"
-					icon: "kubejs:loot_bag_rare"
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
+					icon: "kubejs:loot_bag_rare"
+					id: "3DDD10F220C8155E"
 					player_command: false
+					title: "Magic Rare Loot Bag"
+					type: "command"
 				}
 				{
 					id: "40C0B9D8A740AA76"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 16747259
-							Name: "Magic Rare Lootbag"
 							Loot: "aof:loot_bags/magic/rare"
+							Name: "Magic Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "4CF539B076353B98"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			x: 0.5d
-			y: 2.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "687FF4AB8C83958C"
-			tasks: [{
-				id: "02C2CC2683A44F06"
-				type: "item"
-				item: "botania:bubbell"
-			}]
 			rewards: [{
 				id: "6C9C9B8629C12749"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "02C2CC2683A44F06"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
 		}
 		{
-			x: 0.5d
-			y: 3.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "747848C9CCEF6E48"
-			tasks: [{
-				id: "6CDBC82FF62E5E58"
-				type: "item"
-				item: "botania:clayconia"
-			}]
 			rewards: [{
 				id: "3BE2365BAF34A266"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6CDBC82FF62E5E58"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
 		}
 		{
-			x: 0.5d
-			y: 4.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "60F2B286DB504476"
-			tasks: [{
-				id: "67D6122CC1110961"
-				type: "item"
-				item: "botania:daffomill"
-			}]
 			rewards: [{
 				id: "563B2407611E3EF5"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "67D6122CC1110961"
+				item: "botania:daffomill"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
 		}
 		{
-			x: 0.5d
-			y: 5.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "15E7C03B46764247"
-			tasks: [{
-				id: "2834D9B064E702A9"
-				type: "item"
-				item: "botania:dreadthorn"
-			}]
 			rewards: [{
 				id: "581EFCE26B3FFC84"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2834D9B064E702A9"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
 		}
 		{
-			x: 0.5d
-			y: 6.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "719DECC59783C5C4"
-			tasks: [{
-				id: "240BEDF4B65A4503"
-				type: "item"
-				item: "botania:exoflame"
-			}]
 			rewards: [{
 				id: "4974700E32FA2C5D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "240BEDF4B65A4503"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
 		}
 		{
-			x: 0.5d
-			y: 7.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "7E98207BE8D79ED6"
-			tasks: [{
-				id: "1DE0756CB7505F8D"
-				type: "item"
-				item: "botania:fallen_kanade"
-			}]
 			rewards: [{
 				id: "762793CAB4CD978B"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1DE0756CB7505F8D"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
 		}
 		{
-			x: 0.5d
-			y: 8.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "68C41CCC8C70D512"
-			tasks: [{
-				id: "01152A13CD01BE2D"
-				type: "item"
-				item: "botania:heisei_dream"
-			}]
 			rewards: [{
 				id: "70F7B690002ECC39"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "01152A13CD01BE2D"
+				item: "botania:heisei_dream"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
 		}
 		{
-			x: 0.5d
-			y: 9.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "431FBC3C47792302"
-			tasks: [{
-				id: "4450954132C7B88E"
-				type: "item"
-				item: "botania:hopperhock"
-			}]
 			rewards: [{
 				id: "4E45C37CDE07FC39"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4450954132C7B88E"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
 		}
 		{
-			x: 2.5d
-			y: 11.0d
 			dependencies: ["2F21F31455F11527"]
 			id: "1F9B422C0A66A843"
-			tasks: [{
-				id: "4D03DD5DB2E741B1"
-				type: "item"
-				item: "botania:hyacidus"
-			}]
 			rewards: [{
 				id: "1E58C83B285B1815"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4D03DD5DB2E741B1"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
 		}
 		{
-			x: 4.5d
-			y: 11.0d
 			dependencies: ["2F21F31455F11527"]
 			id: "18B56B2A88091276"
-			tasks: [{
-				id: "022915BBE155CB09"
-				type: "item"
-				item: "botania:jaded_amaranthus"
-			}]
 			rewards: [{
 				id: "65557C925C0DEF8C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "022915BBE155CB09"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
 		}
 		{
-			x: 2.0d
-			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "1C199BA634278AAC"
-			tasks: [{
-				id: "37340E43F396F16F"
-				type: "item"
-				item: "botania:jiyuulia"
-			}]
 			rewards: [{
 				id: "558AD5CE1B031E25"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "37340E43F396F16F"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
 		}
 		{
-			x: 5.0d
-			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "0DE9901B8006BDAD"
-			tasks: [{
-				id: "1401946B8766469F"
-				type: "item"
-				item: "botania:labellia"
-			}]
 			rewards: [{
 				id: "3DA751012B5A570F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1401946B8766469F"
+				item: "botania:labellia"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
 		}
 		{
-			x: 5.5d
-			y: 10.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "5242AF70A593F53F"
-			tasks: [{
-				id: "7540AC03FDD9BA4E"
-				type: "item"
-				item: "botania:loonium"
-			}]
 			rewards: [{
 				id: "4EE3C8C7673B4D28"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "7540AC03FDD9BA4E"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
 		}
 		{
-			x: 1.5d
-			y: 10.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "77E2134442089F03"
-			tasks: [{
-				id: "7D78C2B4C0823016"
-				type: "item"
-				item: "botania:marimorphosis"
-			}]
 			rewards: [{
 				id: "5CCC232B063F3FD9"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "7D78C2B4C0823016"
+				item: "botania:marimorphosis"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
 		}
 		{
-			x: 6.5d
-			y: 9.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "2C4DCA236F05B182"
-			tasks: [{
-				id: "2192AD1EDEB9A193"
-				type: "item"
-				item: "botania:medumone"
-			}]
 			rewards: [{
 				id: "0152E7576462958E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2192AD1EDEB9A193"
+				item: "botania:medumone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
 		}
 		{
-			x: 6.5d
-			y: 7.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "7E365F45D64DA0C5"
-			tasks: [{
-				id: "1269C1BA4D369F31"
-				type: "item"
-				item: "botania:orechid"
-			}]
 			rewards: [{
 				id: "099EBDE9DA1076C0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1269C1BA4D369F31"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
 		}
 		{
-			x: 6.5d
-			y: 8.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "41CAE7398EE9D80D"
-			tasks: [{
-				id: "2CAEF4358AD9DBA5"
-				type: "item"
-				item: "botania:orechid_ignem"
-			}]
 			rewards: [{
 				id: "1E8B1397F12CDCE0"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2CAEF4358AD9DBA5"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
 		}
 		{
-			x: 6.5d
-			y: 6.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "2FD468F7DE1093D4"
-			tasks: [{
-				id: "5D07D651B8E87940"
-				type: "item"
-				item: "botania:pollidisiac"
-			}]
 			rewards: [{
 				id: "7815805BCCEF427C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5D07D651B8E87940"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
 		}
 		{
-			x: 6.5d
-			y: 5.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "05B3D66A73D3E0F0"
-			tasks: [{
-				id: "716E9075F3A1E978"
-				type: "item"
-				item: "botania:rannuncarpus"
-			}]
 			rewards: [{
 				id: "71CC798D73E471E5"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "716E9075F3A1E978"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
 		}
 		{
-			x: 6.5d
-			y: 4.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "16CCB74BF86788A0"
-			tasks: [{
-				id: "6D0EBBF3A211F3D8"
-				type: "item"
-				item: "botania:solegnolia"
-			}]
 			rewards: [{
 				id: "1D1B5CB7DD123EE4"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6D0EBBF3A211F3D8"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
 		}
 		{
-			x: 6.5d
-			y: 3.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "4E6A1C0623B28736"
-			tasks: [{
-				id: "2E9F1D905187B838"
-				type: "item"
-				item: "botania:spectranthemum"
-			}]
 			rewards: [{
 				id: "02C314AF05035D99"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2E9F1D905187B838"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
 		}
 		{
-			x: 6.5d
-			y: 2.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "096F86F805D3E6DC"
-			tasks: [{
-				id: "333E0441FF3E202E"
-				type: "item"
-				item: "botania:tangleberrie"
-			}]
 			rewards: [{
 				id: "2131401AC4A10C5B"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "333E0441FF3E202E"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
 		}
 		{
-			x: 3.5d
-			y: 11.0d
 			dependencies: ["2F21F31455F11527"]
 			id: "0E68CE727EBFFDED"
-			tasks: [{
-				id: "4C11AFC7156A8C3C"
-				type: "item"
-				item: "botania:tigerseye"
-			}]
 			rewards: [{
 				id: "0300791B43D957F8"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4C11AFC7156A8C3C"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
 		}
 		{
-			x: 6.0d
-			y: 1.5d
 			dependencies: ["2F21F31455F11527"]
 			id: "3DCE379666133771"
-			tasks: [{
-				id: "112F66232405056A"
-				type: "item"
-				item: "botania:vinculotus"
-			}]
 			rewards: [{
 				id: "13A4D659751FD5CD"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "112F66232405056A"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
 		}
 		{
-			x: 23.5d
-			y: -1.0d
 			dependencies: ["742BA596EA51DDEE"]
 			id: "2352E1A00B9DBF2D"
-			tasks: [{
-				id: "38F56D554C18D6D2"
-				type: "item"
-				item: "botania:dreamwood"
-			}]
 			rewards: [{
 				id: "1727AE0BA6E4B82E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "38F56D554C18D6D2"
+				item: "botania:dreamwood"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.0d
 		}
 		{
-			x: 23.5d
-			y: 2.0d
 			dependencies: ["742BA596EA51DDEE"]
 			id: "677B6A2B465A6EBE"
-			tasks: [{
-				id: "1094A24287B0EB2A"
-				type: "item"
-				item: "botania:dragonstone"
-			}]
 			rewards: [{
 				id: "712F7FC67A171F12"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1094A24287B0EB2A"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.0d
 		}
 		{
-			x: 23.5d
-			y: 0.0d
 			dependencies: ["742BA596EA51DDEE"]
 			id: "0F0DA021FACC4D78"
-			tasks: [{
-				id: "0C8AB123274A393C"
-				type: "item"
-				item: "botania:pixie_dust"
-			}]
 			rewards: [{
 				id: "39848234E5B8F671"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0C8AB123274A393C"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
 		}
 		{
-			x: 23.5d
-			y: 1.0d
 			dependencies: ["742BA596EA51DDEE"]
 			id: "10D2CA05EE8B6806"
-			tasks: [{
-				id: "0662886FB1AD8C04"
-				type: "item"
-				item: "botania:elementium_ingot"
-			}]
 			rewards: [{
 				id: "1AEABB56C5B8744E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/epic"
 						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0662886FB1AD8C04"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.0d
 		}
 		{
-			x: 25.0d
-			y: 0.5d
 			dependencies: [
 				"0F0DA021FACC4D78"
 				"10D2CA05EE8B6806"
 			]
 			id: "1C6262A33463553B"
-			tasks: [{
-				id: "1F91699F1E976516"
-				type: "item"
-				item: "botania:gaia_pylon"
-			}]
 			rewards: [{
 				id: "13F3CA4DAE224F69"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1F91699F1E976516"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.5d
 		}
 		{
-			x: 26.5d
-			y: 0.5d
 			dependencies: ["1C6262A33463553B"]
 			id: "34C7A89EC09CD2CA"
-			tasks: [{
-				id: "5F77A7BDC54D87E7"
-				type: "advancement"
-				advancement: "botania:main/gaia_guardian_kill"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "29EFAE1789A780BE"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "LEGENDARY"
 						Color: 16747259
 						Loot: "aof:loot_bags/magic/legendary"
 						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				advancement: "botania:main/gaia_guardian_kill"
+				criterion: ""
+				id: "5F77A7BDC54D87E7"
+				type: "advancement"
+			}]
+			x: 26.5d
+			y: 0.5d
 		}
 		{
-			icon: {
-				id: "trofers:medium_pillar"
-				Count: 1b
-				tag: {
-					BlockEntityTag: {
-						Trophy: "trofers:botania"
-					}
-				}
-			}
-			x: 20.0d
-			y: 8.0d
-			shape: "hexagon"
-			subtitle: "Complete all quests to obtain the trophy!"
-			hide_dependency_lines: true
 			dependencies: [
 				"0844D86D1B6B6E42"
 				"5CF7175F3F5F64F6"
@@ -3398,27 +3384,41 @@
 				"79D5AADE25625395"
 				"46D4E5DB8C7C388D"
 			]
-			size: 4.0d
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:botania"
+					}
+				}
+			}
 			id: "14CC28EE98D23825"
-			tasks: [{
-				id: "1BB26E6136C0D968"
-				type: "checkmark"
-				title: "&aBotania 100%"
-			}]
 			rewards: [{
 				id: "62DE45247A3A8B24"
-				type: "item"
 				item: {
-					id: "trofers:medium_pillar"
 					Count: 1b
+					id: "trofers:medium_pillar"
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:botania"
 						}
 					}
 				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "1BB26E6136C0D968"
+				title: "&aBotania 100%"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 8.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Botania"
 }

@@ -1,0 +1,8 @@
+
+#General configuration settings
+[general]
+	#Uses custom curio slot for goggles instead of the head slot
+	customCurioGoggleSlot = false
+	#Uses custom curio slot for backtank instead of the back slot
+	customCurioBacktankSlot = false
+

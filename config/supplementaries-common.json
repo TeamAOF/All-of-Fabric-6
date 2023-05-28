@@ -111,7 +111,10 @@
     },
     "fodder": true,
     "hourglass": true,
-    "present": true
+    "present": {
+      "enabled": true,
+      "trapped_present": true
+    }
   },
   "building": {
     "blackboard": {
@@ -283,6 +286,9 @@
     "dispenser_tweaks": {
       "axe_strip": true,
       "shoot_ender_pearls": true
+    },
+    "dye_blocks": {
+      "enabled": false
     },
     "cake_tweaks": {
       "double_cake": true,

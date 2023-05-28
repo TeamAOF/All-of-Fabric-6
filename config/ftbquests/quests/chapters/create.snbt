@@ -1,18 +1,14 @@
 {
-	id: "5811BFDF9E484981"
-	group: "0815C5D80307ECDF"
-	order_index: 1
-	filename: "create"
-	title: "Create"
-	icon: "create:mechanical_arm"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "0815C5D80307ECDF"
+	icon: "create:mechanical_arm"
+	id: "5811BFDF9E484981"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Create: Getting Started"
-			x: 0.0d
-			y: 0.5d
-			subtitle: "Alliterations Ahoy"
 			description: [
 				"> When you start mining, grab as much andesite as possible and don't forget to grab some zinc too."
 				"> Smelt down your Zinc/Iron, turn them to Ingots, and Craft them to Andesite Alloys"
@@ -20,227 +16,223 @@
 				"> This quest chapter will guide you to the basics and the progression of Create Mod, you can check the advancements as well to see what else this mod has to offer"
 			]
 			id: "610389B121518964"
-			tasks: [{
-				id: "26F489361F50BBF5"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 32L
-			}]
 			rewards: [{
 				id: "69EDCF0376B96184"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Alliterations Ahoy"
+			tasks: [{
+				count: 32L
+				id: "26F489361F50BBF5"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Create: Getting Started"
+			x: 0.0d
+			y: 0.5d
 		}
 		{
-			x: 2.0d
-			y: 0.5d
-			subtitle: "Press goes Bonk"
+			dependencies: ["610389B121518964"]
 			description: [
 				"> If getting andesite alloy is the first step, then getting plates is the next."
 				"> Craft a Mechanical Press and use the hand crank given to you from the previous quest and bonk some iron"
 			]
-			dependencies: ["610389B121518964"]
 			id: "1C705A0B7E050B54"
-			tasks: [{
-				id: "2D938D2D18443AF2"
-				type: "item"
-				item: "create:mechanical_press"
-			}]
 			rewards: [{
 				id: "179FDF0BD3CBD5FB"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Press goes Bonk"
+			tasks: [{
+				id: "2D938D2D18443AF2"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["610389B121518964"]
+			description: ["> Do you know how to gear up and gear down?"]
+			id: "480EE90E6D0491BD"
+			rewards: [{
+				id: "3EDDE5E314AE3B7D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Cogs"
+			tasks: [
+				{
+					count: 8L
+					id: "40B111C90B0CB6C6"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1787F1E83E6F1475"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
 			title: "Cogwheels"
 			x: 2.0d
 			y: -1.5d
-			subtitle: "Cogs"
-			description: ["> Do you know how to gear up and gear down?"]
-			dependencies: ["610389B121518964"]
-			id: "480EE90E6D0491BD"
-			tasks: [
-				{
-					id: "40B111C90B0CB6C6"
-					type: "item"
-					item: "create:cogwheel"
-					count: 8L
-				}
-				{
-					id: "1787F1E83E6F1475"
-					type: "item"
-					item: "create:large_cogwheel"
-					count: 8L
-				}
-			]
-			rewards: [{
-				id: "3EDDE5E314AE3B7D"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-			}]
 		}
 		{
-			title: "Water Wheels"
-			x: 4.0d
-			y: -1.5d
-			subtitle: "No more hand cranking"
+			dependencies: ["480EE90E6D0491BD"]
 			description: [
 				"> Tired of spinning the hand crank? Then craft yourself a water wheel!"
 				"> Make sure that it's spinning the right way for maximum rotational force value."
 			]
-			dependencies: ["480EE90E6D0491BD"]
 			id: "38E2D761D7A9C369"
-			tasks: [{
-				id: "5D72C3AFC662F113"
-				type: "item"
-				item: "create:water_wheel"
-				count: 2L
-			}]
 			rewards: [
 				{
 					id: "595524E0057DF146"
-					type: "item"
 					item: "minecraft:water_bucket"
+					type: "item"
 				}
 				{
 					id: "02E5826376F7D45B"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "No more hand cranking"
+			tasks: [{
+				count: 2L
+				id: "5D72C3AFC662F113"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Water Wheels"
+			x: 4.0d
+			y: -1.5d
 		}
 		{
-			title: "Engineering Tools"
-			x: 4.0d
-			y: 0.5d
-			subtitle: "Why does every mod have a wrench?"
+			dependencies: ["1C705A0B7E050B54"]
 			description: [
 				"The wrench can be used to rotate your Create Machines while the Goggles can be used to view the stress units and other helpful tooltips on your contraptions."
 				"As an added Bonus, here's a refund of your gold and some more."
 			]
-			dependencies: ["1C705A0B7E050B54"]
 			id: "511DD53713406575"
-			tasks: [
-				{
-					id: "75A99982ED1EA91D"
-					type: "item"
-					item: "create:wrench"
-				}
-				{
-					id: "74DCBAF28E4DC3F2"
-					type: "item"
-					item: "create:goggles"
-				}
-			]
 			rewards: [{
 				id: "6DD793EEBBED087C"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
-		}
-		{
-			title: "Measuring Tools"
-			x: -2.0d
-			y: 0.5d
-			subtitle: "How Fast? How Stressed?"
-			description: ["> These two are interchangable once you craft the other. That's a good way to cheat this quest actually. Why did I tell you that?"]
-			dependencies: ["610389B121518964"]
-			id: "624B52BE855CF703"
+			subtitle: "Why does every mod have a wrench?"
 			tasks: [
 				{
-					id: "6274F7DCF4A79756"
+					id: "75A99982ED1EA91D"
+					item: "create:wrench"
 					type: "item"
-					item: "create:speedometer"
 				}
 				{
-					id: "2B91B823C4B0491B"
+					id: "74DCBAF28E4DC3F2"
+					item: "create:goggles"
 					type: "item"
-					item: "create:stressometer"
 				}
 			]
+			title: "Engineering Tools"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["610389B121518964"]
+			description: ["> These two are interchangable once you craft the other. That's a good way to cheat this quest actually. Why did I tell you that?"]
+			id: "624B52BE855CF703"
 			rewards: [
 				{
-					id: "3C92A0C3F95854DC"
-					type: "item"
-					item: "create:builders_tea"
 					count: 8
+					id: "3C92A0C3F95854DC"
+					item: "create:builders_tea"
+					type: "item"
 				}
 				{
+					count: 2
 					id: "63AD7FD405944249"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
-					count: 2
+					type: "item"
 				}
 			]
+			subtitle: "How Fast? How Stressed?"
+			tasks: [
+				{
+					id: "6274F7DCF4A79756"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "2B91B823C4B0491B"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			title: "Measuring Tools"
+			x: -2.0d
+			y: 0.5d
 		}
 		{
-			x: -4.0d
-			y: 0.5d
-			subtitle: "It's not the endgame autocrafting, but it's close enough"
-			description: ["Crafting &bBlueprints &rcan be used to craft a &bTemplate &ryou placed on the blueprint without placing the items on the crafting Menu. Convenient while you still don't have an ME system."]
 			dependencies: ["624B52BE855CF703"]
+			description: ["Crafting &bBlueprints &rcan be used to craft a &bTemplate &ryou placed on the blueprint without placing the items on the crafting Menu. Convenient while you still don't have an ME system."]
 			id: "2AFA49C5659C94F8"
-			tasks: [{
-				id: "418FE5A825CCB147"
-				type: "item"
-				item: "create:crafting_blueprint"
-			}]
 			rewards: [
 				{
 					id: "23286979E10F6999"
@@ -249,114 +241,119 @@
 				}
 				{
 					id: "1DDC4E3B445257FF"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "It's not the endgame autocrafting, but it's close enough"
+			tasks: [{
+				id: "418FE5A825CCB147"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
 		}
 		{
-			title: "Windmills"
-			x: 6.0d
-			y: -1.5d
-			subtitle: "In case of nether, break water wheel"
+			dependencies: ["38E2D761D7A9C369"]
 			description: [
 				"> While the water wheel is useful, you need water(duh) to move it. What if you're in the nether? Use Lava? Actualy I haven't checked that- What do you mean Magma Wheel advancement?"
 				"> Ehem, what I mean is that you can use windmills instead! "
 				"> Windmill's rotational force increases the more sails you attach, but you must start with 8."
 				"> Yes, you can attach 8 sails to just one side. But that looks ugly."
 			]
-			dependencies: ["38E2D761D7A9C369"]
 			id: "5C38C92A8D133E5A"
-			tasks: [
-				{
-					id: "75956303577A74BE"
-					type: "item"
-					item: "create:windmill_bearing"
-				}
-				{
-					id: "6092717A9755F2BD"
-					type: "item"
-					item: "create:white_sail"
-					count: 8L
-				}
-			]
 			rewards: [
 				{
-					id: "0C74BCF4A647DC59"
-					type: "item"
-					item: "create:white_sail"
 					count: 8
+					id: "0C74BCF4A647DC59"
+					item: "create:white_sail"
+					type: "item"
 				}
 				{
 					id: "49E1B8D1EC858D0D"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "In case of nether, break water wheel"
+			tasks: [
+				{
+					id: "75956303577A74BE"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6092717A9755F2BD"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Windmills"
+			x: 6.0d
+			y: -1.5d
 		}
 		{
-			title: "Minecart Contraptions"
-			x: -2.0d
-			y: -3.5d
-			subtitle: "What? How is that Powered?"
+			dependencies: ["610389B121518964"]
 			description: [
 				"> You can also create minecart contraptions and they will not need any power from the previous quests.   "
 				"> However, you'll need to power the minecart. Good thing we have Furnace Minecart, right?"
 				"> You do remember Minecart Furnaces right? Right?"
 			]
-			dependencies: ["610389B121518964"]
 			id: "143A00408DFE3DB4"
-			tasks: [{
-				id: "59FFD46CE7E0FEE5"
-				type: "item"
-				item: "create:cart_assembler"
-			}]
 			rewards: [
 				{
-					id: "4D7ECC99BD1B65CD"
-					type: "item"
-					item: "minecraft:coal"
 					count: 32
+					id: "4D7ECC99BD1B65CD"
+					item: "minecraft:coal"
+					type: "item"
 				}
 				{
 					id: "453152B872C3CAFC"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "What? How is that Powered?"
+			tasks: [{
+				id: "59FFD46CE7E0FEE5"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "Minecart Contraptions"
+			x: -2.0d
+			y: -3.5d
 		}
 		{
-			title: "Let's Get Mechanical!"
-			x: 6.0d
-			y: 0.5d
-			subtitle: "This is where you get creative with your farms"
+			dependencies: ["1C705A0B7E050B54"]
 			description: [
 				"> Mechanical Harvesters Harvests crops and replants them"
 				"> Mechanical Saws can cut Trees and damage Mobs. Farming them automatically has to wait until the Brass Age"
@@ -365,132 +362,132 @@
 				"> Mechanical Mixer needs a basin to work. This is your first step in getting to Brass Age."
 				"> Mechanical Bearing spins. Yep"
 			]
-			dependencies: ["1C705A0B7E050B54"]
 			id: "4119B4C0AFB928C5"
-			tasks: [
-				{
-					id: "5C3F98D60C5BD858"
-					type: "item"
-					item: "create:mechanical_saw"
-				}
-				{
-					id: "7563616EEF6AC5F1"
-					type: "item"
-					item: "create:mechanical_harvester"
-				}
-				{
-					id: "02731E6B9C2B077F"
-					type: "item"
-					item: "create:mechanical_drill"
-				}
-				{
-					id: "58CD66BA144F05D6"
-					type: "item"
-					item: "create:mechanical_mixer"
-				}
-				{
-					id: "0477272B50AB9B8F"
-					type: "item"
-					item: "create:mechanical_bearing"
-				}
-				{
-					id: "062E8F5415B2007D"
-					type: "item"
-					item: "create:mechanical_plough"
-				}
-				{
-					id: "5F37A1DFF0919C9A"
-					type: "item"
-					item: "create:millstone"
-				}
-			]
 			rewards: [
 				{
-					id: "5B2CACBB3C2926A2"
-					type: "item"
-					item: "create:portable_storage_interface"
 					count: 2
+					id: "5B2CACBB3C2926A2"
+					item: "create:portable_storage_interface"
+					type: "item"
 				}
 				{
+					count: 8
 					id: "643608A4B5BB34A9"
-					type: "item"
 					item: "create:linear_chassis"
-					count: 8
+					type: "item"
 				}
 				{
-					id: "434EC466681C44CC"
-					type: "item"
-					item: "create:radial_chassis"
 					count: 8
+					id: "434EC466681C44CC"
+					item: "create:radial_chassis"
+					type: "item"
 				}
 				{
 					id: "3AE0BAFF7CEFFDFC"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 15576960
-							Name: "Create Rare Lootbag"
 							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "This is where you get creative with your farms"
+			tasks: [
+				{
+					id: "5C3F98D60C5BD858"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "7563616EEF6AC5F1"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "02731E6B9C2B077F"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "58CD66BA144F05D6"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "0477272B50AB9B8F"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "062E8F5415B2007D"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "5F37A1DFF0919C9A"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			title: "Let's Get Mechanical!"
+			x: 6.0d
+			y: 0.5d
 		}
 		{
-			title: "Brass Age Incoming?"
-			x: 8.0d
-			y: 0.5d
-			subtitle: "I wonder how do we make Brass?"
+			dependencies: ["4119B4C0AFB928C5"]
+			dependency_requirement: "all_started"
 			description: [
 				"> It's simple really, kidnap a Blaze from the nether"
 				"> By the way, did you gear up the speed? Because Mixers need a certain speed to work."
 			]
-			dependencies: ["4119B4C0AFB928C5"]
-			dependency_requirement: "all_started"
 			id: "01FA58FF29DEC036"
-			tasks: [
-				{
-					id: "09B2CD16CA964794"
-					type: "item"
-					item: "create:blaze_burner"
-				}
-				{
-					id: "6813CD3587C015C9"
-					type: "item"
-					item: "create:basin"
-				}
-			]
 			rewards: [
 				{
-					id: "05B9E07ECDB6CA33"
-					type: "item"
-					item: "create:zinc_ingot"
 					count: 8
+					id: "05B9E07ECDB6CA33"
+					item: "create:zinc_ingot"
+					type: "item"
 				}
 				{
 					id: "4DC3A930BA4B079E"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 15576960
-							Name: "Create Rare Lootbag"
 							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "I wonder how do we make Brass?"
+			tasks: [
+				{
+					id: "09B2CD16CA964794"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "6813CD3587C015C9"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Brass Age Incoming?"
+			x: 8.0d
+			y: 0.5d
 		}
 		{
-			title: "Fan it Up!"
-			x: 6.0d
-			y: -3.5d
-			subtitle: "Pushing and Pulling Entities"
+			dependencies: ["38E2D761D7A9C369"]
 			description: [
 				"The Encased Fan is a mechanical component that can create air streams."
 				""
@@ -498,53 +495,46 @@
 				""
 				"The Encased Fan connects to other rotational components from the back."
 			]
-			dependencies: ["38E2D761D7A9C369"]
 			id: "3989950BC95DB959"
-			tasks: [{
-				id: "2E585309D2A5E70B"
-				type: "item"
-				item: "create:encased_fan"
-			}]
 			rewards: [
 				{
 					id: "284F437BC5FD1C3F"
-					type: "item"
 					item: "create:nozzle"
+					type: "item"
 				}
 				{
 					id: "0DD9C155401E40E5"
-					type: "item"
 					item: "create:chute"
+					type: "item"
 				}
 				{
 					id: "5E00EAF6A7D0B404"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Pushing and Pulling Entities"
+			tasks: [{
+				id: "2E585309D2A5E70B"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Fan it Up!"
+			x: 6.0d
+			y: -3.5d
 		}
 		{
-			title: "Brass Casings"
-			x: 10.0d
-			y: 0.5d
-			subtitle: "The start of Brass Age"
 			dependencies: ["01FA58FF29DEC036"]
 			id: "049F3E0A401BBF2A"
-			tasks: [{
-				id: "1E56B026B862A109"
-				type: "item"
-				item: "create:brass_casing"
-				count: 32L
-			}]
 			rewards: [
 				{
 					id: "75CF00B6F9CB419C"
@@ -553,141 +543,143 @@
 				}
 				{
 					id: "51471F5CB46993E8"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 15576960
-							Name: "Create Rare Lootbag"
 							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "The start of Brass Age"
+			tasks: [{
+				count: 32L
+				id: "1E56B026B862A109"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Brass Casings"
+			x: 10.0d
+			y: 0.5d
 		}
 		{
-			x: 2.0d
-			y: 5.0d
-			subtitle: "Your Omnidirectional Hopper"
 			dependencies: ["4B6D44F405106C53"]
 			id: "53D538AC2AA15316"
-			tasks: [{
-				id: "4BA1B52879A48988"
-				type: "item"
-				item: "create:andesite_funnel"
-			}]
 			rewards: [{
 				id: "67433A84C3A2C5FC"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Your Omnidirectional Hopper"
+			tasks: [{
+				id: "4BA1B52879A48988"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
 		}
 		{
-			x: 2.0d
-			y: 8.0d
-			subtitle: "Andesite Funnel, but better"
 			dependencies: ["324A32F85A95B658"]
 			id: "78E1ECB85FDD0C99"
-			tasks: [{
-				id: "43D789B3D3A4BE27"
-				type: "item"
-				item: "create:brass_funnel"
-			}]
 			rewards: [{
 				id: "0FABCA33426406C6"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 15576960
-						Name: "Create Rare Lootbag"
 						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Andesite Funnel, but better"
+			tasks: [{
+				id: "43D789B3D3A4BE27"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
 		}
 		{
-			x: 12.0d
-			y: 0.5d
 			dependencies: ["049F3E0A401BBF2A"]
 			id: "4FEFC0311E8D9C61"
-			tasks: [{
-				id: "33A7C5B40D06682F"
-				type: "item"
-				item: "create:polished_rose_quartz"
-			}]
 			rewards: [{
 				id: "4504764E238D8930"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 15576960
-						Name: "Create Rare Lootbag"
 						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "33A7C5B40D06682F"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["4B6D44F405106C53"]
+			id: "6ED900B3B5C0829D"
+			rewards: [{
+				id: "0335713E26806CA2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Do you want your items to fly?"
+			tasks: [{
+				id: "510658A8DBBB0222"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
 			title: "Springboard"
 			x: -1.0d
 			y: 5.0d
-			subtitle: "Do you want your items to fly?"
-			dependencies: ["4B6D44F405106C53"]
-			id: "6ED900B3B5C0829D"
-			tasks: [{
-				id: "510658A8DBBB0222"
-				type: "item"
-				item: "create:weighted_ejector"
-			}]
-			rewards: [{
-				id: "0335713E26806CA2"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-			}]
 		}
 		{
-			x: 0.0d
-			y: 5.0d
-			subtitle: "I can suck and blow."
-			description: ["> Chutes drags items from an inventory, or interface downards, unless there's an encased fan blowing upwards"]
 			dependencies: ["4B6D44F405106C53"]
+			description: ["> Chutes drags items from an inventory, or interface downards, unless there's an encased fan blowing upwards"]
 			id: "45F0C664C299D418"
-			tasks: [{
-				id: "42C4596A9EE0766C"
-				type: "item"
-				item: "create:chute"
-			}]
 			rewards: [
 				{
 					id: "3A35054389ED4381"
-					type: "item"
 					item: "create:encased_fan"
+					type: "item"
 				}
 				{
 					id: "6A1BE4D55FB85AA2"
@@ -696,59 +688,57 @@
 				}
 				{
 					id: "4AC078040C3E1FDF"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "I can suck and blow."
+			tasks: [{
+				id: "42C4596A9EE0766C"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
 		}
 		{
-			x: 0.0d
-			y: 8.0d
-			subtitle: "I choose what I suck and blow"
 			dependencies: ["324A32F85A95B658"]
 			id: "1A38D7B854ACC636"
-			tasks: [{
-				id: "2A3ACB440D93F24D"
-				type: "item"
-				item: "create:smart_chute"
-			}]
 			rewards: [{
 				id: "077DE0792FB90191"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 15576960
-						Name: "Create Rare Lootbag"
 						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "I choose what I suck and blow"
+			tasks: [{
+				id: "2A3ACB440D93F24D"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
 		}
 		{
-			title: "Rotational Transfer"
-			x: 0.0d
-			y: -1.5d
-			subtitle: "The most basic way of transfering rotational force in a straight line"
 			dependencies: ["610389B121518964"]
 			id: "04CB13487A7DC3BD"
-			tasks: [{
-				id: "3219B93CA3092A92"
-				type: "item"
-				item: "create:shaft"
-				count: 16L
-			}]
 			rewards: [
 				{
 					id: "238CBBC4DC4DD6AE"
@@ -757,44 +747,44 @@
 				}
 				{
 					id: "63968E53AD8BC6DA"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "The most basic way of transfering rotational force in a straight line"
+			tasks: [{
+				count: 16L
+				id: "3219B93CA3092A92"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Rotational Transfer"
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			title: "Just like in the factories"
-			x: 0.0d
-			y: 2.5d
-			subtitle: "You don't put these in your trousers"
+			dependencies: ["610389B121518964"]
 			description: [
 				"> Mechanical Belts have two purpose:"
 				"> First is that it can move items"
 				"> Second is that it can transfer rotational power"
 			]
-			dependencies: ["610389B121518964"]
 			id: "4B6D44F405106C53"
-			tasks: [{
-				id: "56A29EFD21A45310"
-				type: "item"
-				item: "create:belt_connector"
-				count: 8L
-			}]
 			rewards: [
 				{
-					id: "398B4C3C4FA571FF"
-					type: "item"
-					item: "minecraft:kelp"
 					count: 64
+					id: "398B4C3C4FA571FF"
+					item: "minecraft:kelp"
+					type: "item"
 				}
 				{
 					id: "1217EEBF15A922C9"
@@ -803,378 +793,357 @@
 				}
 				{
 					id: "18CE6AA6D3C60E07"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "You don't put these in your trousers"
+			tasks: [{
+				count: 8L
+				id: "56A29EFD21A45310"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Just like in the factories"
+			x: 0.0d
+			y: 2.5d
 		}
 		{
+			dependencies: ["04CB13487A7DC3BD"]
+			id: "779EFB476D891244"
+			rewards: [{
+				id: "3A1DB402D0064C1A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "For multiple stationary contraptions in a row"
+			tasks: [{
+				count: 8L
+				id: "37CA2EF15B3BD8CC"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
 			title: "Encased Chain Drive"
 			x: 0.0d
 			y: -3.5d
-			subtitle: "For multiple stationary contraptions in a row"
-			dependencies: ["04CB13487A7DC3BD"]
-			id: "779EFB476D891244"
-			tasks: [{
-				id: "37CA2EF15B3BD8CC"
-				type: "item"
-				item: "create:encased_chain_drive"
-				count: 8L
-			}]
-			rewards: [{
-				id: "3A1DB402D0064C1A"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-			}]
 		}
 		{
-			title: "Gearboxes"
-			x: 4.0d
-			y: -3.5d
-			subtitle: "If you want your rotation mirrored or angled"
 			dependencies: ["480EE90E6D0491BD"]
 			id: "3AD5FAE3B0FE39B9"
-			tasks: [{
-				id: "32294B520ED00F7A"
-				type: "item"
-				item: "create:gearbox"
-				count: 8L
-			}]
 			rewards: [
 				{
-					id: "3FAEC5485A1313E6"
-					type: "item"
-					item: "create:vertical_gearbox"
 					count: 8
+					id: "3FAEC5485A1313E6"
+					item: "create:vertical_gearbox"
+					type: "item"
 				}
 				{
 					id: "6F2FBA4BA2264E6A"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "If you want your rotation mirrored or angled"
+			tasks: [{
+				count: 8L
+				id: "32294B520ED00F7A"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "Gearboxes"
+			x: 4.0d
+			y: -3.5d
 		}
 		{
-			x: 2.0d
-			y: -3.5d
 			dependencies: ["04CB13487A7DC3BD"]
 			id: "072862C3F4C6D359"
-			tasks: [
-				{
-					id: "0F0AB8625378E24A"
-					type: "item"
-					item: "create:gantry_carriage"
-				}
-				{
-					id: "6C7180AB943EC4BF"
-					type: "item"
-					item: "create:gantry_shaft"
-					count: 8L
-				}
-			]
 			rewards: [{
 				id: "065A398D3A8D98B2"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [
+				{
+					id: "0F0AB8625378E24A"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6C7180AB943EC4BF"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.5d
 		}
 		{
-			x: 8.0d
-			y: -1.5d
-			subtitle: "Programmable Gearshift"
 			dependencies: ["049F3E0A401BBF2A"]
 			id: "527B53BB9C9A0D1C"
-			tasks: [{
-				id: "3A6BB402FC70037F"
-				type: "item"
-				item: "create:sequenced_gearshift"
-			}]
 			rewards: [{
 				id: "2D9024597762EC72"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 15576960
-						Name: "Create Rare Lootbag"
 						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Programmable Gearshift"
+			tasks: [{
+				id: "3A6BB402FC70037F"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
 		}
 		{
-			x: 14.0d
-			y: -3.5d
-			subtitle: "The fast and the furious"
 			dependencies: ["67CE448FA832692A"]
 			id: "18A589CC0F81F038"
-			tasks: [{
-				id: "39125E2551F0473A"
-				type: "item"
-				item: "create:rotation_speed_controller"
-			}]
 			rewards: [
 				{
-					id: "69E4AC1C529FDB32"
-					type: "item"
-					item: "create:large_cogwheel"
 					count: 4
+					id: "69E4AC1C529FDB32"
+					item: "create:large_cogwheel"
+					type: "item"
 				}
 				{
 					id: "27B6B0447715E83F"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "EPIC"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/epic"
 							Name: "Create Epic Lootbag"
+							Type: "EPIC"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "The fast and the furious"
+			tasks: [{
+				id: "39125E2551F0473A"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
 		}
 		{
-			x: 14.0d
-			y: 0.5d
-			subtitle: "Poke"
 			dependencies: ["4FEFC0311E8D9C61"]
 			id: "22616B100E445241"
-			tasks: [{
-				id: "755D0B78024267FC"
-				type: "item"
-				item: "create:deployer"
-			}]
 			rewards: [
 				{
 					id: "5BC2720763573A21"
-					type: "item"
 					item: "create:brass_hand"
+					type: "item"
 				}
 				{
 					id: "7458CBBA5DDC4FC2"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "EPIC"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/epic"
 							Name: "Create Epic Lootbag"
+							Type: "EPIC"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Poke"
+			tasks: [{
+				id: "755D0B78024267FC"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
 		}
 		{
-			title: "Mechanical Crafters"
-			x: 11.0d
-			y: 2.5d
-			subtitle: "Trust me, you'll want 21."
 			dependencies: [
 				"4FEFC0311E8D9C61"
 				"049F3E0A401BBF2A"
 			]
 			id: "1BA0F9B77AF73203"
-			tasks: [{
-				id: "5F2F997F86DEA58E"
-				type: "item"
-				item: "create:mechanical_crafter"
-				count: 21L
-			}]
 			rewards: [
 				{
-					id: "20B8F411391930F5"
-					type: "item"
-					item: "create:crafter_slot_cover"
 					count: 21
+					id: "20B8F411391930F5"
+					item: "create:crafter_slot_cover"
+					type: "item"
 				}
 				{
 					id: "084AE2B5E1BAA08E"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 15576960
-							Name: "Create Rare Lootbag"
 							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Trust me, you'll want 21."
+			tasks: [{
+				count: 21L
+				id: "5F2F997F86DEA58E"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Mechanical Crafters"
+			x: 11.0d
+			y: 2.5d
 		}
 		{
-			title: "Crushing Wheels"
-			x: 13.0d
-			y: 2.5d
-			subtitle: "Told ya, you need 21."
 			dependencies: ["1BA0F9B77AF73203"]
 			id: "591563982414C96D"
-			tasks: [{
-				id: "0F1616D9FFA85EDD"
-				type: "item"
-				item: "create:crushing_wheel"
-				count: 2L
-			}]
 			rewards: [
 				{
-					id: "08DEE5CA24BB5C4D"
-					type: "item"
-					item: "minecraft:copper_ore"
 					count: 16
+					id: "08DEE5CA24BB5C4D"
+					item: "minecraft:copper_ore"
+					type: "item"
 				}
 				{
-					id: "36A4FF7A76D0CBD4"
-					type: "item"
-					item: "create:zinc_ore"
 					count: 16
+					id: "36A4FF7A76D0CBD4"
+					item: "create:zinc_ore"
+					type: "item"
 				}
 				{
 					id: "7470D6BDB2DD769A"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 15576960
-							Name: "Create Rare Lootbag"
 							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Told ya, you need 21."
+			tasks: [{
+				count: 2L
+				id: "0F1616D9FFA85EDD"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: 13.0d
+			y: 2.5d
 		}
 		{
-			x: 6.0d
-			y: 2.5d
-			subtitle: "The start of your fluid journey"
 			dependencies: ["1C705A0B7E050B54"]
 			id: "2F09F7E516004E15"
-			tasks: [{
-				id: "53FA98C8307C834A"
-				type: "item"
-				item: "create:copper_casing"
-			}]
 			rewards: [{
 				id: "1B6D434BF6BCF5A5"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "The start of your fluid journey"
+			tasks: [{
+				id: "53FA98C8307C834A"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
 		}
 		{
-			x: 6.0d
-			y: 5.0d
-			subtitle: "Fluid Storage"
 			dependencies: ["2F09F7E516004E15"]
 			id: "183637490817875B"
-			tasks: [{
-				id: "2FE59458C9981F42"
-				type: "item"
-				item: "create:fluid_tank"
-			}]
 			rewards: [{
 				id: "2F51E2F9BC99552D"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Fluid Storage"
+			tasks: [{
+				id: "2FE59458C9981F42"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
 		}
 		{
-			title: "Fluid Transport"
-			x: 6.0d
-			y: 6.5d
-			subtitle: "All the ways to transfer fluid"
-			description: ["> You'll need a mechanical pump to move fluids"]
 			dependencies: ["183637490817875B"]
+			description: ["> You'll need a mechanical pump to move fluids"]
 			id: "317F6B4C741311CE"
-			tasks: [
-				{
-					id: "0524F2FB37D57532"
-					type: "item"
-					item: "create:mechanical_pump"
-				}
-				{
-					id: "0D4134E552F93EA3"
-					type: "item"
-					item: "create:fluid_pipe"
-				}
-				{
-					id: "47859A1FC6D12AB4"
-					type: "item"
-					item: "create:hose_pulley"
-				}
-				{
-					id: "623D21CBC3619CCE"
-					type: "item"
-					item: "create:spout"
-				}
-				{
-					id: "57C308F38E96324D"
-					type: "item"
-					item: "create:portable_fluid_interface"
-				}
-			]
 			rewards: [
 				{
 					id: "3E56F3FDAF253B37"
@@ -1183,438 +1152,466 @@
 				}
 				{
 					id: "031977CB74BE2DBD"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 15576960
-							Name: "Create Rare Lootbag"
 							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "All the ways to transfer fluid"
+			tasks: [
+				{
+					id: "0524F2FB37D57532"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "0D4134E552F93EA3"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "47859A1FC6D12AB4"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+				{
+					id: "623D21CBC3619CCE"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "57C308F38E96324D"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+			]
+			title: "Fluid Transport"
+			x: 6.0d
+			y: 6.5d
 		}
 		{
-			x: 14.0d
-			y: -1.5d
 			dependencies: ["22616B100E445241"]
 			id: "67CE448FA832692A"
-			tasks: [{
-				id: "357E032E895E7510"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
 			rewards: [{
 				id: "59E64FFE6EFE09C2"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/epic"
 						Name: "Create Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "357E032E895E7510"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
 		}
 		{
-			x: 9.0d
-			y: 2.5d
-			subtitle: "When you have too many crops"
 			dependencies: ["1BA0F9B77AF73203"]
 			id: "03A9D8346C52AA2C"
-			tasks: [{
-				id: "171641F6600EC441"
-				type: "item"
-				item: {
-					id: "create:potato_cannon"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
-					id: "00A8373D4D35C0B8"
-					type: "item"
-					item: "minecraft:poisonous_potato"
 					count: 32
+					id: "00A8373D4D35C0B8"
+					item: "minecraft:poisonous_potato"
+					type: "item"
 				}
 				{
 					id: "3901D5A420576077"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "EPIC"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/epic"
 							Name: "Create Epic Lootbag"
+							Type: "EPIC"
 						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 8.0d
-			y: 8.0d
-			subtitle: "A bethesda staple"
-			dependencies: ["317F6B4C741311CE"]
-			id: "2985444DE5ABB5A5"
+			subtitle: "When you have too many crops"
 			tasks: [{
-				id: "494AEF60DD62281A"
-				type: "item"
-				item: "create:sweet_roll"
-			}]
-			rewards: [{
-				id: "575B52C987AC7222"
-				type: "item"
+				id: "171641F6600EC441"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 15576960
-						Name: "Create Rare Lootbag"
-						Loot: "aof:loot_bags/create/rare"
-					}
-				}
-			}]
-		}
-		{
-			x: 5.0d
-			y: 9.0d
-			dependencies: ["317F6B4C741311CE"]
-			id: "654DC5DBC9201FBE"
-			tasks: [{
-				id: "378CBD18668E1B73"
-				type: "item"
-				item: "create:chocolate_glazed_berries"
-			}]
-			rewards: [{
-				id: "167AE13096FAE1D7"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 15576960
-						Name: "Create Rare Lootbag"
-						Loot: "aof:loot_bags/create/rare"
-					}
-				}
-			}]
-		}
-		{
-			x: 4.0d
-			y: 8.0d
-			dependencies: ["317F6B4C741311CE"]
-			id: "570CA3CD0D896230"
-			tasks: [{
-				id: "1CF55C47026EF25D"
-				type: "item"
-				item: "create:honeyed_apple"
-			}]
-			rewards: [{
-				id: "57E821B12459BBDB"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 4.0d
-			y: 6.5d
-			subtitle: "It's tea time"
-			dependencies: ["317F6B4C741311CE"]
-			id: "37330BDC53451D14"
-			tasks: [{
-				id: "735486F36BD795C3"
-				type: "item"
-				item: "create:builders_tea"
-			}]
-			rewards: [{
-				id: "0403C09973EF08E3"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 8.0d
-			y: 6.5d
-			subtitle: "Not for human consumption"
-			dependencies: ["317F6B4C741311CE"]
-			id: "6AF4AB0374F397E6"
-			tasks: [{
-				id: "7AD9FA6044222875"
-				type: "item"
-				item: "create:blaze_cake"
-			}]
-			rewards: [{
-				id: "3929398C102E76C9"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 15576960
-						Name: "Create Rare Lootbag"
-						Loot: "aof:loot_bags/create/rare"
-					}
-				}
-			}]
-		}
-		{
-			x: 7.0d
-			y: 9.0d
-			subtitle: "Come with me and you'll be in a world of pure imagination"
-			dependencies: ["317F6B4C741311CE"]
-			id: "0EF98BA0F698951A"
-			tasks: [{
-				id: "1AF838CDD9E9B36C"
-				type: "item"
-				item: "create:bar_of_chocolate"
-			}]
-			rewards: [{
-				id: "6F580D1F490D2212"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 15576960
-						Name: "Create Rare Lootbag"
-						Loot: "aof:loot_bags/create/rare"
-					}
-				}
-			}]
-		}
-		{
-			x: 12.0d
-			y: 4.0d
-			subtitle: "A builder's favorite"
-			dependencies: ["1BA0F9B77AF73203"]
-			id: "333A5294EA4F4944"
-			tasks: [{
-				id: "4CF962AB7943C158"
-				type: "item"
-				item: "create:wand_of_symmetry"
-			}]
-			rewards: [{
-				id: "439BBCD76A257219"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "EPIC"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/epic"
-						Name: "Create Epic Lootbag"
-					}
-				}
-			}]
-		}
-		{
-			x: 9.5d
-			y: 4.0d
-			subtitle: "Also try Terraria!"
-			dependencies: ["1BA0F9B77AF73203"]
-			id: "05E920CF3BD43FC6"
-			tasks: [{
-				id: "6886E9FB38FC363D"
-				type: "item"
-				item: {
-					id: "create:extendo_grip"
-					Count: 1b
+					id: "create:potato_cannon"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "6F0CA1CB40339EA2"
 				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["317F6B4C741311CE"]
+			id: "2985444DE5ABB5A5"
+			rewards: [{
+				id: "575B52C987AC7222"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A bethesda staple"
+			tasks: [{
+				id: "494AEF60DD62281A"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["317F6B4C741311CE"]
+			id: "654DC5DBC9201FBE"
+			rewards: [{
+				id: "167AE13096FAE1D7"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "378CBD18668E1B73"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["317F6B4C741311CE"]
+			id: "570CA3CD0D896230"
+			rewards: [{
+				id: "57E821B12459BBDB"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CF55C47026EF25D"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["317F6B4C741311CE"]
+			id: "37330BDC53451D14"
+			rewards: [{
+				id: "0403C09973EF08E3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "It's tea time"
+			tasks: [{
+				id: "735486F36BD795C3"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["317F6B4C741311CE"]
+			id: "6AF4AB0374F397E6"
+			rewards: [{
+				id: "3929398C102E76C9"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Not for human consumption"
+			tasks: [{
+				id: "7AD9FA6044222875"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["317F6B4C741311CE"]
+			id: "0EF98BA0F698951A"
+			rewards: [{
+				id: "6F580D1F490D2212"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Come with me and you'll be in a world of pure imagination"
+			tasks: [{
+				id: "1AF838CDD9E9B36C"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1BA0F9B77AF73203"]
+			id: "333A5294EA4F4944"
+			rewards: [{
+				id: "439BBCD76A257219"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
 						Color: 15576960
 						Loot: "aof:loot_bags/create/epic"
 						Name: "Create Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "A builder's favorite"
+			tasks: [{
+				id: "4CF962AB7943C158"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
 		}
 		{
-			title: "How do I take items from Contraptions?"
-			x: -2.0d
-			y: 5.0d
-			subtitle: "I can't open the chests"
+			dependencies: ["1BA0F9B77AF73203"]
+			id: "05E920CF3BD43FC6"
+			rewards: [{
+				id: "6F0CA1CB40339EA2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Also try Terraria!"
+			tasks: [{
+				id: "6886E9FB38FC363D"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B6D44F405106C53"]
 			description: [
 				"> Create Contraptions are treated as entities, thus you can't open any inventory you attached to them."
 				"> This is where the Portable Storage Interface comes in, put one in your contraption, and another one block away from it, and you're transfering items from the contraption to the interface."
 				"> What's left is to move the items out of the Interface, that's where the Funnels, and Chutes come in"
 			]
-			dependencies: ["4B6D44F405106C53"]
 			id: "7A602D4BFFA9B2C2"
-			tasks: [{
-				id: "35A41EFB50414849"
-				type: "item"
-				item: "create:portable_storage_interface"
-				count: 2L
-			}]
 			rewards: [{
 				id: "2D452691BE00632F"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "I can't open the chests"
+			tasks: [{
+				count: 2L
+				id: "35A41EFB50414849"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			title: "How do I take items from Contraptions?"
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			x: -6.0d
-			y: 2.5d
-			subtitle: "It's like litematica, but with a cannon"
 			dependencies: ["330E6E93A6F5592B"]
 			id: "355A2ABDA57395EF"
-			tasks: [
-				{
-					id: "327E02A860C477B0"
-					type: "item"
-					item: "create:schematicannon"
-				}
-				{
-					id: "269723EDD5279715"
-					type: "item"
-					item: "create:schematic_table"
-				}
-			]
 			rewards: [
 				{
-					id: "2E9490114C5D2520"
-					type: "item"
-					item: "minecraft:gunpowder"
 					count: 32
+					id: "2E9490114C5D2520"
+					item: "minecraft:gunpowder"
+					type: "item"
 				}
 				{
+					count: 2
 					id: "2468D8DF9C39352C"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
-					count: 2
+					type: "item"
 				}
 			]
+			subtitle: "It's like litematica, but with a cannon"
+			tasks: [
+				{
+					id: "327E02A860C477B0"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "269723EDD5279715"
+					item: "create:schematic_table"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.5d
 		}
 		{
-			x: -6.0d
-			y: 0.5d
-			subtitle: "I know you're doing it from a creative world first"
 			dependencies: ["2AFA49C5659C94F8"]
 			id: "330E6E93A6F5592B"
-			tasks: [{
-				id: "7625AC75CF47A965"
-				type: "item"
-				item: "create:schematic_and_quill"
-			}]
 			rewards: [{
+				count: 2
 				id: "3AE348CB80C51BFF"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
-				count: 2
+				type: "item"
 			}]
+			subtitle: "I know you're doing it from a creative world first"
+			tasks: [{
+				id: "7625AC75CF47A965"
+				item: "create:schematic_and_quill"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
 		}
 		{
-			x: 12.0d
-			y: -1.5d
 			dependencies: [
 				"4FEFC0311E8D9C61"
 				"049F3E0A401BBF2A"
 			]
 			id: "371D645B149A2E36"
-			tasks: [{
-				id: "711D6F812404ECB8"
-				type: "item"
-				item: "create:nixie_tube"
-			}]
 			rewards: [
 				{
 					id: "681CDBE5E160CC80"
-					type: "item"
 					item: "minecraft:name_tag"
+					type: "item"
 				}
 				{
 					id: "1EAD846295A6E758"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "711D6F812404ECB8"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
 		}
 		{
-			x: 1.0d
-			y: 6.5d
-			subtitle: "Wheat Seeds away"
 			dependencies: [
 				"53D538AC2AA15316"
 				"29C88E6599D99FAE"
@@ -1622,366 +1619,362 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "324A32F85A95B658"
+			rewards: [{
+				id: "6B196118BBDDB8FA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Wheat Seeds away"
 			tasks: [
 				{
 					id: "100B2DCB7CD6C455"
-					type: "item"
 					item: {
-						id: "create:filter"
 						Count: 1b
+						id: "create:filter"
 						tag: {
 							Items: { }
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "298A23CB6BCE3275"
-					type: "item"
 					item: {
-						id: "create:attribute_filter"
 						Count: 1b
+						id: "create:attribute_filter"
 						tag: { }
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "6B196118BBDDB8FA"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 15576960
-						Name: "Create Rare Lootbag"
-						Loot: "aof:loot_bags/create/rare"
-					}
-				}
-			}]
+			x: 1.0d
+			y: 6.5d
 		}
 		{
-			x: -2.0d
-			y: -1.5d
 			dependencies: ["610389B121518964"]
 			id: "5E17BD671E9BEB5B"
+			rewards: [{
+				id: "3CE19B99F7E1F288"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7BA850D5A017F5A8"
-					type: "item"
 					item: "create:powered_latch"
+					type: "item"
 				}
 				{
 					id: "07AD7FEB87BF41DF"
-					type: "item"
 					item: "create:powered_toggle_latch"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3CE19B99F7E1F288"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-			}]
+			x: -2.0d
+			y: -1.5d
 		}
 		{
-			x: -6.0d
-			y: -1.5d
 			dependencies: ["0A350142075F5FC8"]
 			id: "4070B38A98387DA1"
-			tasks: [{
-				id: "258E4C69FC71067C"
-				type: "item"
-				item: "create:redstone_link"
-			}]
 			rewards: [{
 				id: "317E449D09B0A531"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "258E4C69FC71067C"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			x: -6.0d
-			y: -3.5d
 			dependencies: ["4070B38A98387DA1"]
 			id: "1CA398C195517551"
+			rewards: [{
+				id: "6A0F8621A189759C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "37D4B6FC20747FAB"
-					type: "item"
 					item: "create:pulse_repeater"
+					type: "item"
 				}
 				{
 					id: "789C7A82603F8DF1"
-					type: "item"
 					item: "create:pulse_extender"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "6A0F8621A189759C"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 15576960
-						Name: "Create Rare Lootbag"
-						Loot: "aof:loot_bags/create/rare"
-					}
-				}
-			}]
+			x: -6.0d
+			y: -3.5d
 		}
 		{
-			x: -4.0d
-			y: -1.5d
 			dependencies: ["5E17BD671E9BEB5B"]
 			id: "0A350142075F5FC8"
-			tasks: [{
-				id: "0F7B5D23E83C4C8C"
-				type: "item"
-				item: "create:analog_lever"
-			}]
 			rewards: [{
+				count: 2
 				id: "58831C4873F7A42E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
-				count: 2
+				type: "item"
 			}]
+			tasks: [{
+				id: "0F7B5D23E83C4C8C"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
 		}
 		{
-			title: "Toolboxes"
-			x: -4.0d
-			y: 2.5d
-			subtitle: "The poor man's shulker box"
-			description: ["> You can use items from a nearby placed toolbox without opening it."]
 			dependencies: ["2AFA49C5659C94F8"]
+			description: ["> You can use items from a nearby placed toolbox without opening it."]
 			id: "3F89A5E9BF484A60"
+			rewards: [{
+				count: 2
+				id: "2F024B9278C814CF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The poor man's shulker box"
 			tasks: [{
 				id: "7ECE7137CB80BB36"
-				type: "item"
-				title: "Any #create:toolboxes"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "create:toolboxes"
 					}
 				}
-			}]
-			rewards: [{
-				id: "2F024B9278C814CF"
+				title: "Any #create:toolboxes"
 				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-				count: 2
 			}]
+			title: "Toolboxes"
+			x: -4.0d
+			y: 2.5d
 		}
 		{
-			x: 1.0d
-			y: 5.0d
-			subtitle: "Make belts look pretty"
 			dependencies: ["4B6D44F405106C53"]
 			id: "29C88E6599D99FAE"
-			tasks: [{
-				id: "17234DF9E970CD30"
-				type: "item"
-				item: "create:andesite_tunnel"
-			}]
 			rewards: [{
 				id: "6EB034A0C261A612"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Make belts look pretty"
+			tasks: [{
+				id: "17234DF9E970CD30"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
 		}
 		{
-			x: 1.0d
-			y: 8.0d
-			subtitle: "Use with filter to create separate belt lines of items from a single line"
 			dependencies: ["324A32F85A95B658"]
 			id: "05CD495BD1007C26"
-			tasks: [{
-				id: "792A0ECBB96534E6"
-				type: "item"
-				item: "create:brass_tunnel"
-			}]
 			rewards: [{
 				id: "58D1F763518E5DCA"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 15576960
-						Name: "Create Rare Lootbag"
 						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Use with filter to create separate belt lines of items from a single line"
+			tasks: [{
+				id: "792A0ECBB96534E6"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
 		}
 		{
-			x: 16.0d
-			y: -1.5d
 			dependencies: ["67CE448FA832692A"]
 			id: "369F3556A6482D7C"
-			tasks: [{
-				id: "722EF3CA0452388D"
-				type: "item"
-				item: "create:mechanical_arm"
-			}]
 			rewards: [{
 				id: "593885096E3935AA"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/epic"
 						Name: "Create Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "722EF3CA0452388D"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
 		}
 		{
-			x: -2.0d
-			y: 2.5d
-			subtitle: "Voyage au centre de la Terre"
 			dependencies: ["610389B121518964"]
 			id: "4482160B14C40777"
+			rewards: [{
+				count: 2
+				id: "475CB6BBE2254CCC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Voyage au centre de la Terre"
 			tasks: [
 				{
 					id: "2721582C052343E1"
-					type: "item"
 					item: {
-						id: "create:diving_helmet"
 						Count: 1b
+						id: "create:diving_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6FD576D1B9442B12"
-					type: "item"
 					item: {
-						id: "create:diving_boots"
 						Count: 1b
+						id: "create:diving_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "314976D5CD5B3ADD"
-					type: "item"
 					item: {
-						id: "create:copper_backtank"
 						Count: 1b
+						id: "create:copper_backtank"
 						tag: {
 							Air: 900
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "475CB6BBE2254CCC"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 15576960
-						Loot: "aof:loot_bags/create/common"
-						Name: "Create Common Lootbag"
-					}
-				}
-				count: 2
-			}]
+			x: -2.0d
+			y: 2.5d
 		}
 		{
-			x: 16.0d
-			y: 0.5d
 			dependencies: ["22616B100E445241"]
 			id: "0E2A19BB02D47A94"
-			tasks: [{
-				id: "1779510A85EEF6ED"
-				type: "item"
-				item: "create:track"
-			}]
 			rewards: [{
 				id: "594F6A3AA4E24010"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/epic"
 						Name: "Create Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1779510A85EEF6ED"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
 		}
 		{
-			x: 18.0d
-			y: 2.5d
 			dependencies: [
 				"22616B100E445241"
 				"2C64B8A292C923DD"
 			]
 			id: "23A0E687919F2DFE"
-			tasks: [{
-				id: "5469658009BCA6AC"
-				type: "item"
-				item: "create:railway_casing"
-			}]
 			rewards: [
 				{
 					id: "439D9512BA989602"
@@ -1990,341 +1983,334 @@
 				}
 				{
 					id: "4BEE1BCE2FCE24FE"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "EPIC"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/epic"
 							Name: "Create Epic Lootbag"
+							Type: "EPIC"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "5469658009BCA6AC"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
 		}
 		{
-			x: 18.0d
-			y: 0.5d
 			dependencies: [
 				"23A0E687919F2DFE"
 				"0E2A19BB02D47A94"
 			]
 			id: "42B701304642314E"
-			tasks: [
-				{
-					id: "37D1FF8ECA160E23"
-					type: "item"
-					item: "create:track_station"
-				}
-				{
-					id: "7EC6DB89045723DE"
-					type: "item"
-					item: "create:controls"
-				}
-			]
 			rewards: [
 				{
 					id: "75EC0195740DB95A"
-					type: "item"
 					item: "create:red_seat"
+					type: "item"
 				}
 				{
 					id: "2992FD7FC9922899"
-					type: "item"
 					item: "create:schedule"
+					type: "item"
 				}
 				{
 					id: "6C2DD9A128651BB4"
-					type: "item"
 					item: "minecraft:lead"
+					type: "item"
 				}
 				{
 					id: "374CE0AA020014CB"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "LEGENDARY"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/legendary"
 							Name: "Create Legendary Lootbag"
+							Type: "LEGENDARY"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "37D1FF8ECA160E23"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "7EC6DB89045723DE"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.5d
 		}
 		{
-			x: 8.0d
-			y: 5.0d
-			subtitle: "Endgame Rotational Force"
 			dependencies: ["183637490817875B"]
 			id: "7BFBBF45D9BE4BFB"
-			tasks: [{
-				id: "4F57647E2D2E0B6A"
-				type: "item"
-				item: "create:steam_engine"
-			}]
 			rewards: [
 				{
 					id: "3C468264516F9D2C"
-					type: "item"
 					item: "create:steam_whistle"
+					type: "item"
 				}
 				{
 					id: "7DC01EB5C711EA9D"
-					type: "item"
 					item: "minecraft:lever"
+					type: "item"
 				}
 				{
 					id: "6014202EB5B75F80"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Endgame Rotational Force"
+			tasks: [{
+				id: "4F57647E2D2E0B6A"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
 		}
 		{
-			x: 10.0d
-			y: -1.5d
 			dependencies: ["049F3E0A401BBF2A"]
 			id: "22ABB41C70D74A5F"
-			tasks: [{
-				id: "641F6E4CED6FB5DC"
-				type: "item"
-				item: "create:display_link"
-			}]
 			rewards: [{
 				id: "1C786904BBBB6F0E"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "641F6E4CED6FB5DC"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
 		}
 		{
-			x: 10.0d
-			y: -3.5d
-			subtitle: "This looks like the Flight information display system"
-			description: ["> Create Planes next update?"]
 			dependencies: ["22ABB41C70D74A5F"]
+			description: ["> Create Planes next update?"]
 			id: "7BF18D6D44DBCED6"
-			tasks: [{
-				id: "4F13246919A2B6DF"
-				type: "item"
-				item: "create:display_board"
-			}]
 			rewards: [{
 				id: "63A7DD6EFB600BC3"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "RARE"
 						Color: 15576960
-						Name: "Create Rare Lootbag"
 						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "This looks like the Flight information display system"
+			tasks: [{
+				id: "4F13246919A2B6DF"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
 		}
 		{
-			x: 2.0d
-			y: 2.5d
-			subtitle: "No, this is All of Fabric."
 			dependencies: [
 				"53D538AC2AA15316"
 				"1C705A0B7E050B54"
 			]
 			id: "5EF7CFC926FDDDC0"
-			tasks: [{
-				id: "3BD7EB5A4BE1F97C"
-				type: "item"
-				item: "create:item_vault"
-			}]
 			rewards: [{
 				id: "29B7CA2294F20339"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "COMMON"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/common"
 						Name: "Create Common Lootbag"
+						Type: "COMMON"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "No, this is All of Fabric."
+			tasks: [{
+				id: "3BD7EB5A4BE1F97C"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
 		}
 		{
-			x: 16.0d
-			y: 2.5d
 			dependencies: ["591563982414C96D"]
 			id: "2C64B8A292C923DD"
-			tasks: [{
-				id: "4934453DAE01C6B6"
-				type: "item"
-				item: "techreborn:obsidian_dust"
-			}]
 			rewards: [{
 				id: "43EE5F60822DF0FC"
-				type: "item"
 				item: {
-					id: "lootbags:loot_bag"
 					Count: 1b
+					id: "lootbags:loot_bag"
 					tag: {
-						Type: "EPIC"
 						Color: 15576960
 						Loot: "aof:loot_bags/create/epic"
 						Name: "Create Epic Lootbag"
+						Type: "EPIC"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4934453DAE01C6B6"
+				item: "techreborn:obsidian_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
 		}
 		{
-			x: 4.0d
-			y: 5.0d
 			dependencies: ["317F6B4C741311CE"]
 			id: "7AABC2C767E9B11D"
-			tasks: [{
-				id: "47E12615F45B3084"
-				type: "item"
-				item: "create:item_drain"
-			}]
 			rewards: [
 				{
 					id: "5B74D497C1F963F9"
-					type: "item"
 					item: "minecraft:milk_bucket"
+					type: "item"
 				}
 				{
 					id: "03246123C8206D34"
-					type: "item"
 					item: "minecraft:water_bucket"
+					type: "item"
 				}
 				{
 					id: "747C048080E3B2D9"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "COMMON"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/common"
 							Name: "Create Common Lootbag"
+							Type: "COMMON"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "47E12615F45B3084"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
 		}
 		{
-			x: -4.0d
-			y: -3.5d
 			dependencies: ["1CA398C195517551"]
 			id: "58D023C7F2AD421C"
+			rewards: [{
+				id: "53D16E2241F0BD54"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1DB3FA8EA2E95BEE"
-					type: "item"
 					item: "create:stockpile_switch"
+					type: "item"
 				}
 				{
 					id: "7E118B6DEA380E1F"
-					type: "item"
 					item: "create:content_observer"
+					type: "item"
 				}
 				{
 					id: "1CD731F9EDD2C4A6"
-					type: "item"
 					item: "create:redstone_contact"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "53D16E2241F0BD54"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "RARE"
-						Color: 15576960
-						Name: "Create Rare Lootbag"
-						Loot: "aof:loot_bags/create/rare"
-					}
-				}
-			}]
+			x: -4.0d
+			y: -3.5d
 		}
 		{
-			x: 8.0d
-			y: -3.5d
-			subtitle: "This is why the creeper blew up your chests"
 			dependencies: ["3989950BC95DB959"]
 			id: "551F3ACEE626830A"
-			tasks: [{
-				id: "43168C6D8B02F900"
-				type: "item"
-				item: "create:haunted_bell"
-			}]
 			rewards: [
 				{
-					id: "02B4529C59249460"
-					type: "item"
-					item: "minecraft:torch"
 					count: 64
+					id: "02B4529C59249460"
+					item: "minecraft:torch"
+					type: "item"
 				}
 				{
 					id: "171ACD486F3F96C0"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "RARE"
 							Color: 15576960
-							Name: "Create Rare Lootbag"
 							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "This is why the creeper blew up your chests"
+			tasks: [{
+				id: "43168C6D8B02F900"
+				item: "create:haunted_bell"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
 		}
 		{
-			x: 18.0d
-			y: -1.5d
 			dependencies: ["42B701304642314E"]
 			id: "4B0AE2B4B1423DDD"
-			tasks: [
-				{
-					id: "208C1FCC036F1828"
-					type: "item"
-					item: "create:track_signal"
-				}
-				{
-					id: "640C9B3AB5110BC7"
-					type: "item"
-					item: "create:track_observer"
-				}
-			]
 			rewards: [
 				{
 					id: "6288CBE6F49A9C78"
@@ -2333,35 +2319,35 @@
 				}
 				{
 					id: "4C81E432D17CD97A"
-					type: "item"
 					item: {
-						id: "lootbags:loot_bag"
 						Count: 1b
+						id: "lootbags:loot_bag"
 						tag: {
-							Type: "LEGENDARY"
 							Color: 15576960
 							Loot: "aof:loot_bags/create/legendary"
 							Name: "Create Legendary Lootbag"
+							Type: "LEGENDARY"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "208C1FCC036F1828"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "640C9B3AB5110BC7"
+					item: "create:track_observer"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -1.5d
 		}
 		{
-			icon: {
-				id: "trofers:medium_pillar"
-				Count: 1b
-				tag: {
-					BlockEntityTag: {
-						Trophy: "trofers:create"
-					}
-				}
-			}
-			x: 6.0d
-			y: -6.0d
-			shape: "gear"
-			subtitle: "Complete all quests to obtain the trophy!"
-			hide_dependency_lines: true
 			dependencies: [
 				"5EF7CFC926FDDDC0"
 				"3989950BC95DB959"
@@ -2432,27 +2418,41 @@
 				"551F3ACEE626830A"
 				"324A32F85A95B658"
 			]
-			size: 4.0d
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:create"
+					}
+				}
+			}
 			id: "1D2457909D7F8C17"
-			tasks: [{
-				id: "1D99A86B5CA32704"
-				type: "checkmark"
-				title: "&6Create 100%"
-			}]
 			rewards: [{
 				id: "264E15A6379D9F97"
-				type: "item"
 				item: {
-					id: "trofers:medium_pillar"
 					Count: 1b
+					id: "trofers:medium_pillar"
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:create"
 						}
 					}
 				}
+				type: "item"
 			}]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "1D99A86B5CA32704"
+				title: "&6Create 100%"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -6.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Create"
 }

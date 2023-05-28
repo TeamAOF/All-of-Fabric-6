@@ -1,6 +1,8 @@
 {
 	// Items in for example mineshaft chests get modifiers
 	"lootContainerModifier": true,
+	// Equipped items on entities get modifiers
+	"entityItemModifier": true,
 	// Crafted items get modifiers
 	"craftingModifier": false,
 	// Merchant items get modifiers

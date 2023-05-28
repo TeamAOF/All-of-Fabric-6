@@ -13,16 +13,24 @@
 	"spell_cost_durability_allowed": true,
 	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
 	"projectiles_pass_thru_irrelevant_targets": true,
+	"spell_book_binding_level_requirement": 3,
+	"spell_book_binding_level_cost": 1,
+	// Apply `Spell Casting from Spell Book` capability to anything that subclasses Sword
+	"add_spell_casting_to_swords": true,
+	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
+	"add_spell_casting_regex": "",
+	// Do not apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
+	"blacklist_spell_casting_regex": "",
 	/* Allow actions based on relations:
-	   +----------------+-----------+----------+----------+
-	   |                | FRIENDLY  | NEUTRAL  | HOSTILE  |
-	   +----------------+-----------+----------+----------+
-	   | DIRECT DAMAGE  | 🚫        | ✅      | ✅       |
-	   | AREA DAMAGE    | 🚫        | 🚫      | ✅       |
-	   | DIRECT HEALING | ✅        | ✅      | 🚫       |
-	   | AREA HEALING   | ✅        | 🚫      | 🚫       |
-	   +----------------+-----------+----------+----------+
-	   Entities within the same team are considered FRIENDLY
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   |                | FRIENDLY  | SEMI_FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   | DIRECT DAMAGE  | 🚫        | ✅            | ✅       | ✅       | ✅    |
+	   | AREA DAMAGE    | 🚫        | 🚫            | 🚫       | ✅       | ✅    |
+	   | DIRECT HEALING | ✅        | ✅            | ✅       | 🚫       | ✅    |
+	   | AREA HEALING   | ✅        | ✅            | 🚫       | 🚫       | ✅    |
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   Any entities within the same team are considered FRIENDLY for each other.
 	*/
 	"player_relation_to_teamless_players": "NEUTRAL",
 	"player_relation_to_villagers": "NEUTRAL",
