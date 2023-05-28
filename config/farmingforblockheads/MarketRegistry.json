@@ -71,16 +71,6 @@
       "category": "farmingforblockheads:saplings"
     },
 
-    {
-      "output": {
-        "item": "vinery:old_cherry_sapling"
-      },
-      "payment": {
-        "item": "minecraft:emerald"
-      },
-      "category": "farmingforblockheads:saplings"
-    },
-
 
     {
       "output": {
