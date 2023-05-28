@@ -36,7 +36,6 @@ ServerEvents.recipes(event => {
 
     const mi_plates_compat = [
         'aluminum',
-        'carbon',
         'chromium',
         'emerald',
         'invar',
