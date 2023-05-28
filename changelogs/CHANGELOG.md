@@ -1,3 +1,23 @@
+### All of Fabric 6 | v1.6.1
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.6.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.6.1.md)_
+
+### Changes
+
+* Beach party recipes now have REI support.
+* Added Re-Chiseled quest.
+
+### Fixes
+
+* Elephants will no longer have insanely high max health.
+
+### Recipes
+
+* Fixed recipes for dough.
+* Fixed conflict between chisel & iron sai.
+* Fixed conflicts between table & chair (Beach Party & Vinery).
+---
+
 ### All of Fabric 6 | v1.6.0
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.6.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.6.0.md)_
