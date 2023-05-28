@@ -48,7 +48,7 @@
     "c:crops/{material}",
     "c:seeds/{material}",
     "c:rice",
-    "c:dough",
+    "c:doughs",
     "c:flour",
     "c:raw_bacon",
     "c:cooked_bacon",
@@ -102,6 +102,7 @@
   "priorityOverrides": {
     "c:chromium_small_dusts": "modern_industrialization",
     "c:salt_dusts": "bewitchment",
+    "c:dough": "farmersdelight",
     "c:obsidian_plates": "techreborn",
     "c:obsidian_dusts": "techreborn",
     "c:amethyst_dusts": "hexcasting",

@@ -4,11 +4,6 @@
 ////////////////////////
 
 
-ServerEvents.recipes(event => {
-
-
-});
-
 ServerEvents.tags('item', event => {
 
   // Farmland
@@ -26,7 +21,8 @@ ServerEvents.tags('item', event => {
   event.add('c:milks', 'farmersdelight:milk_bottle')
 
   // Dough
-  event.add('c:dough', 'vinery:dough')
+  event.add('c:doughs', 'vinery:dough')
+  event.add('c:doughs', 'create:dough')
 
    // Garlic
    event.add('c:garlic', 'bewitchment:garlic')
