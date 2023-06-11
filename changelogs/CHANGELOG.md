@@ -14,6 +14,7 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Parrots spawning even tho hitting the mob limit.
 * Durability of tools being shown twice (disabled toolstats option).
 * Dimension hopping sometimes soft-locking your game.
+* Simply swords abilities not working due to changes in spell engine (blacklisted simplyswords namespace in the casting regex).
 
 ### Recipes
 
