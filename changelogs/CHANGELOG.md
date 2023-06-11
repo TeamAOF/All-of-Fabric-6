@@ -1,3 +1,42 @@
+### All of Fabric 6 | v1.6.2
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.6.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.6.2.md)_
+
+### Changes
+
+* Turnt REI cheat mode off.. My bad.
+* Added Trowel quest.
+* Compressed blocks has been replaced by another mod due to file pathing issues since their changes to resource packs (This sadly results in currently placed/stored compressed blocks will be deleted when loading this update).
+
+### Fixes
+
+* Text legibility issues with in game books.
+* Parrots spawning even tho hitting the mob limit.
+* Durability of tools being shown twice (disabled toolstats option).
+* Dimension hopping sometimes soft-locking your game.
+
+### Recipes
+
+* Fixed slime recipe from dough & lime dye.
+* Many entries has been added to the replicator blacklist (see the replicator_blacklist tag for more info on which).
+* Cutting board now accepts any axe from c:axes tag.
+* Cutting board now accepts any pickaxe from c:pickaxes tag.
+* Cutting board now accepts any shovel from c:shovels tag.
+
+### Added Mods
+
+* [Clean Tooltips](https://www.curseforge.com/minecraft/mc-mods/clean-tooltips)
+* [Compressed Mod](https://www.curseforge.com/minecraft/mc-mods/compressed-mod)
+* [CorgiLib](https://www.curseforge.com/minecraft/mc-mods/corgilib)
+* [Trowel](https://www.curseforge.com/minecraft/mc-mods/trowel)
+
+### Removed Mods
+
+* [Compressor (Fabric)](https://www.curseforge.com/minecraft/mc-mods/compressor)
+* [Durability Tooltip](https://www.curseforge.com/minecraft/mc-mods/durability-tooltip)
+* [Emojiful](https://www.curseforge.com/minecraft/mc-mods/emojiful)
+---
+
 ### All of Fabric 6 | v1.6.1
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.6.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.6.1.md)_

@@ -17,12 +17,4 @@ Appearing on elevated flat terrain ABOVE weirdness 0, here is the "plateau_biome
 All keys passed in must be valid in the biome registry!
 In slots containing "minecraft:the_void", biomes at the equivalent temperature/humidity index in "plateau_biomes" will be used instead.
 */
-{
-	"value": [
-		[ "minecraft:ice_spikes", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:meadow", "minecraft:meadow", "minecraft:old_growth_pine_taiga" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:forest", "minecraft:birch_forest", "minecraft:the_void" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ],
-		[ "minecraft:eroded_badlands", "minecraft:eroded_badlands", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ]
-	]
-}
+"plateau_biomes_variant/plateau_biomes_variant_vanilla"

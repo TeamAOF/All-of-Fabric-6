@@ -17,12 +17,4 @@ Appearing on terrain BELOW weirdness 0 or in unfilled("NULL(nothing)") spots in 
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "byg:frosted_coniferous_forest", "byg:frosted_coniferous_forest", "byg:frosted_taiga", "byg:autumnal_forest", "byg:autumnal_taiga" ],
-		[ "byg:rose_fields", "byg:fragment_forest", "byg:zelkova_forest", "byg:coconino_meadow", "byg:redwood_thicket" ],
-		[ "byg:temperate_grove", "byg:orchard", "byg:orchard", "byg:red_oak_forest", "byg:jacaranda_forest" ],
-		[ "byg:firecracker_shrubland", "byg:firecracker_shrubland", "byg:amaranth_fields", "byg:crag_gardens", "byg:tropical_rainforest" ],
-		[ "byg:atacama_desert", "byg:atacama_desert", "byg:sierra_badlands", "byg:atacama_desert", "byg:mojave_desert" ]
-	]
-}
+"middle_biomes/middle_biomes_2"

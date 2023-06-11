@@ -17,12 +17,4 @@ Appearing on elevated flat terrain BELOW weirdness 0 or in unfilled("NULL(nothin
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_taiga" ],
-		[ "minecraft:meadow", "minecraft:meadow", "minecraft:forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ],
-		[ "minecraft:meadow", "minecraft:meadow", "minecraft:meadow", "minecraft:meadow", "minecraft:dark_forest" ],
-		[ "minecraft:savanna_plateau", "minecraft:savanna_plateau", "minecraft:forest", "minecraft:forest", "minecraft:jungle" ],
-		[ "minecraft:badlands", "minecraft:badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ]
-	]
-}
+"plateau_biomes/plateau_biomes_vanilla"

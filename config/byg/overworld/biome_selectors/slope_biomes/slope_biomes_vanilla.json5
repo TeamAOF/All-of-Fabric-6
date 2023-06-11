@@ -17,12 +17,4 @@ Appearing on sloped terrain, near mountainous terrain, & BELOW weirdness 0, here
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
-		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
-		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
-		[ "minecraft:savanna_plateau", "minecraft:savanna_plateau", "minecraft:forest", "minecraft:forest", "minecraft:jungle" ],
-		[ "minecraft:badlands", "minecraft:badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ]
-	]
-}
+"slope_biomes/slope_biomes_vanilla"

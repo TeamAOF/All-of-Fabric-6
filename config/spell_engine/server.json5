@@ -20,7 +20,7 @@
 	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
 	"add_spell_casting_regex": "",
 	// Do not apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
-	"blacklist_spell_casting_regex": "",
+	"blacklist_spell_casting_regex": "simplyswords:storms_edge|simplyswords:stormbringer|simplyswords:emberblade|simplyswords:hearthflame|simplyswords:soulkeeper|simplyswords:twisted_blade|simplyswords:soulstealer|simplyswords:soulrender|simplyswords:soul_pyre|simplyswords:frostfall|simplyswords:molten_edge|simplyswords:livyatan|simplyswords:icewhisper|simplyswords:arcanethyst|simplyswords:thunderbrand|simplyswords:mjolnir|simplyswords:waking_lichblade|simplyswords:awakened_lichblade|simplyswords:shadowsting",
 	/* Allow actions based on relations:
 	   +----------------+-----------+---------------+----------+----------+--------+
 	   |                | FRIENDLY  | SEMI_FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |

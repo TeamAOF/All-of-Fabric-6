@@ -17,12 +17,4 @@ Appearing on mountainous terrain & ABOVE weirdness 0, here is the "peak_biome_va
 All keys passed in must be valid in the biome registry!
 In slots containing "minecraft:the_void", biomes at the equivalent temperature/humidity index in "slope_biomes" will be used instead.
 */
-{
-	"value": [
-		[ "minecraft:frozen_peaks", "minecraft:frozen_peaks", "minecraft:frozen_peaks", "minecraft:frozen_peaks", "minecraft:frozen_peaks" ],
-		[ "minecraft:frozen_peaks", "minecraft:frozen_peaks", "minecraft:frozen_peaks", "minecraft:frozen_peaks", "minecraft:frozen_peaks" ],
-		[ "minecraft:frozen_peaks", "minecraft:frozen_peaks", "minecraft:frozen_peaks", "byg:dacite_ridges", "byg:dacite_ridges" ],
-		[ "minecraft:stony_peaks", "minecraft:stony_peaks", "minecraft:stony_peaks", "minecraft:stony_peaks", "minecraft:stony_peaks" ],
-		[ "minecraft:badlands", "minecraft:badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ]
-	]
-}
+"peak_biomes_variant/peak_biomes_variant_vanilla"

@@ -54,13 +54,6 @@ to make editing this file much easier.
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:aspen_tree1"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
 							"featureID": "byg:aspen_tree2"
 						},
 						"weight": 1
@@ -69,6 +62,55 @@ to make editing this file much easier.
 						"data": {
 							// Registry ID of the configured feature.
 							"featureID": "byg:aspen_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"xxx",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:aspen_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:aspen_tree4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x x",
+					" x ",
+					"x x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:aspen_tree5"
 						},
 						"weight": 1
 					}
@@ -112,7 +154,9 @@ to make editing this file much easier.
 				   Max size is 5x5.
 				*/
 				"pattern": [
-					"x"
+					" x ",
+					"xxx",
+					" x "
 				],
 				// Configured Feature spawner.
 				"spawners": [
@@ -121,12 +165,19 @@ to make editing this file much easier.
 							// Registry ID of the configured feature.
 							"featureID": "byg:blue_enchanted_tree1"
 						},
-						"weight": 1
+						"weight": 2
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
 							"featureID": "byg:blue_enchanted_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:blue_enchanted_tree3"
 						},
 						"weight": 1
 					}
@@ -293,34 +344,6 @@ to make editing this file much easier.
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_brown_tree1"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_brown_tree2"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_brown_tree3"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_brown_tree4"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
 							"featureID": "byg:brown_oak_tree1"
 						},
 						"weight": 1
@@ -390,21 +413,21 @@ to make editing this file much easier.
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:zelkova_brown_tree1"
+							"featureID": "byg:brown_zelkova_tree1"
 						},
 						"weight": 1
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:zelkova_brown_tree2"
+							"featureID": "byg:brown_zelkova_tree2"
 						},
 						"weight": 1
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:zelkova_brown_tree3"
+							"featureID": "byg:brown_zelkova_tree3"
 						},
 						"weight": 1
 					}
@@ -950,7 +973,9 @@ to make editing this file much easier.
 				   Max size is 5x5.
 				*/
 				"pattern": [
-					"x"
+					" x ",
+					"xxx",
+					" x "
 				],
 				// Configured Feature spawner.
 				"spawners": [
@@ -959,7 +984,7 @@ to make editing this file much easier.
 							// Registry ID of the configured feature.
 							"featureID": "byg:green_enchanted_tree1"
 						},
-						"weight": 1
+						"weight": 2
 					},
 					{
 						"data": {
@@ -1430,34 +1455,6 @@ to make editing this file much easier.
 				],
 				// Configured Feature spawner.
 				"spawners": [
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_orange_tree1"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_orange_tree2"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_orange_tree3"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_orange_tree4"
-						},
-						"weight": 1
-					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
@@ -1956,7 +1953,7 @@ to make editing this file much easier.
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:large_rainbow_eucalyptus_tree1"
+							"featureID": "byg:rainbow_eucalyptus_tree1"
 						},
 						"weight": 1
 					}
@@ -2044,34 +2041,6 @@ to make editing this file much easier.
 				],
 				// Configured Feature spawner.
 				"spawners": [
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_red_tree1"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_red_tree2"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_red_tree3"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:deciduous_red_tree4"
-						},
-						"weight": 1
-					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
@@ -2552,9 +2521,9 @@ to make editing this file much easier.
 				   Max size is 5x5.
 				*/
 				"pattern": [
-					"  x  ",
-					"x   x",
-					"  x  "
+					" x ",
+					"x x",
+					" x "
 				],
 				// Configured Feature spawner.
 				"spawners": [
@@ -2649,36 +2618,42 @@ to make editing this file much easier.
 				   Max size is 5x5.
 				*/
 				"pattern": [
-					"xx",
-					"xx"
+					"x"
 				],
 				// Configured Feature spawner.
 				"spawners": [
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:hazel_tree1"
+							"featureID": "byg:witch_hazel1"
 						},
-						"weight": 4
+						"weight": 2
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:hazel_tree2"
+							"featureID": "byg:witch_hazel2"
 						},
-						"weight": 4
+						"weight": 2
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:dead_hazel_tree1"
+							"featureID": "byg:witch_hazel3"
 						},
 						"weight": 1
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:dead_hazel_tree2"
+							"featureID": "byg:witch_hazel4"
+						},
+						"weight": 3
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:witch_hazel5"
 						},
 						"weight": 1
 					}
@@ -2936,21 +2911,21 @@ to make editing this file much easier.
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:zelkova_brown_tree1"
+							"featureID": "byg:brown_zelkova_tree1"
 						},
 						"weight": 1
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:zelkova_brown_tree2"
+							"featureID": "byg:brown_zelkova_tree2"
 						},
 						"weight": 1
 					},
 					{
 						"data": {
 							// Registry ID of the configured feature.
-							"featureID": "byg:zelkova_brown_tree3"
+							"featureID": "byg:brown_zelkova_tree3"
 						},
 						"weight": 1
 					}

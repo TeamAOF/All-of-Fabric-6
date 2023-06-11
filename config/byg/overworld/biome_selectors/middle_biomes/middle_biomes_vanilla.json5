@@ -17,12 +17,4 @@ Appearing on terrain BELOW weirdness 0 or in unfilled("NULL(nothing)") spots in 
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:taiga" ],
-		[ "minecraft:plains", "minecraft:plains", "minecraft:forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ],
-		[ "minecraft:flower_forest", "minecraft:plains", "minecraft:forest", "minecraft:birch_forest", "minecraft:dark_forest" ],
-		[ "minecraft:savanna", "minecraft:savanna", "minecraft:forest", "minecraft:jungle", "minecraft:jungle" ],
-		[ "minecraft:desert", "minecraft:desert", "minecraft:desert", "minecraft:desert", "minecraft:desert" ]
-	]
-}
+"middle_biomes/middle_biomes_vanilla"

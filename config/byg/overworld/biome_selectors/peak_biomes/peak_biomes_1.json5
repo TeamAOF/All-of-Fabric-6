@@ -17,12 +17,4 @@ Appearing on mountainous terrain & BELOW weirdness 0, here is the "peak_biomes" 
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks" ],
-		[ "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks" ],
-		[ "byg:canadian_shield", "byg:canadian_shield", "byg:dacite_ridges", "byg:dacite_ridges", "byg:dacite_ridges" ],
-		[ "byg:canadian_shield", "byg:canadian_shield", "byg:guiana_shield", "byg:guiana_shield", "byg:guiana_shield" ],
-		[ "minecraft:eroded_badlands", "minecraft:eroded_badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ]
-	]
-}
+"peak_biomes/peak_biomes_1"

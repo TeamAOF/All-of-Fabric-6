@@ -17,12 +17,4 @@ Appearing on mountainous terrain & BELOW weirdness 0, here is the "peak_biomes" 
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks" ],
-		[ "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks" ],
-		[ "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks", "minecraft:jagged_peaks" ],
-		[ "minecraft:stony_peaks", "minecraft:stony_peaks", "minecraft:stony_peaks", "minecraft:stony_peaks", "minecraft:stony_peaks" ],
-		[ "minecraft:eroded_badlands", "minecraft:eroded_badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ]
-	]
-}
+"peak_biomes/peak_biomes_vanilla"

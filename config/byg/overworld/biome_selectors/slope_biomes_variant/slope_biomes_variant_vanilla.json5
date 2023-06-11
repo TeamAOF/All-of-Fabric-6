@@ -17,12 +17,4 @@ Appearing on sloped terrain, near mountainous terrain, & ABOVE weirdness 0, here
 All keys passed in must be valid in the biome registry!
 In slots containing "minecraft:the_void", biomes at the equivalent temperature/humidity index in "slope_biomes" will be used instead.
 */
-{
-	"value": [
-		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
-		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
-		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ],
-		[ "minecraft:eroded_badlands", "minecraft:eroded_badlands", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ]
-	]
-}
+"slope_biomes_variant/slope_biomes_variant_vanilla"

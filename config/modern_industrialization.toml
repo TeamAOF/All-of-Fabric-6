@@ -14,3 +14,4 @@ enableAe2Integration = true
 generateOres = true
 datagenOnStartup = false
 loadRuntimeGeneratedResources = true
+removeIndustrialistTrades = false

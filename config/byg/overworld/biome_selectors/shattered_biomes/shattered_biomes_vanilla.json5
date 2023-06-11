@@ -17,12 +17,4 @@ Appearing on shattered terrain here is the "shattered_biomes" layout:
 All keys passed in must be valid in the biome registry!
 In slots containing "minecraft:the_void", biomes at the equivalent temperature/humidity index in "middle_biomes" will be used instead.
 */
-{
-	"value": [
-		[ "minecraft:windswept_gravelly_hills", "minecraft:windswept_gravelly_hills", "minecraft:windswept_hills", "minecraft:windswept_forest", "minecraft:windswept_forest" ],
-		[ "minecraft:windswept_gravelly_hills", "minecraft:windswept_gravelly_hills", "minecraft:windswept_hills", "minecraft:windswept_forest", "minecraft:windswept_forest" ],
-		[ "minecraft:windswept_hills", "minecraft:windswept_hills", "minecraft:windswept_hills", "minecraft:windswept_forest", "minecraft:windswept_forest" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ]
-	]
-}
+"shattered_biomes/shattered_biomes_vanilla"

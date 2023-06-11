@@ -13,9 +13,4 @@ Appearing on terrain below sea level, here is the "ocean_biomes" layout:
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:ocean", "byg:lush_stacks", "byg:dead_sea" ],
-		[ "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:ocean", "byg:lush_stacks", "byg:dead_sea" ]
-	]
-}
+"oceans/oceans_1"

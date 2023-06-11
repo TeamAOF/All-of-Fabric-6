@@ -1,6 +1,7 @@
 {
 	"worldgen": {
 		"generate_in_villages": true,
+		"unbreakable_generated_waystones": false,
 		"min_per_village": 1,
 		"max_per_village": 1,
 		"village_waystone_weight": 2

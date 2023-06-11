@@ -17,12 +17,4 @@ Appearing on terrain ABOVE weirdness 0, here is the "middle_biomes_variant" layo
 All keys passed in must be valid in the biome registry!
 In slots containing "minecraft:the_void", biomes at the equivalent temperature/humidity index in "middle_biomes" will be used instead.
 */
-{
-	"value": [
-		[ "minecraft:ice_spikes", "minecraft:the_void", "minecraft:snowy_taiga", "minecraft:the_void", "minecraft:the_void" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:old_growth_pine_taiga" ],
-		[ "minecraft:sunflower_plains", "minecraft:the_void", "minecraft:the_void", "minecraft:old_growth_birch_forest", "minecraft:the_void" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:plains", "minecraft:sparse_jungle", "minecraft:bamboo_jungle" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ]
-	]
-}
+"middle_biomes_variant/middle_biomes_variant_vanilla"

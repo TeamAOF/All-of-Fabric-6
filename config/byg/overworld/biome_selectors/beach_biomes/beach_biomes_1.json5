@@ -17,12 +17,4 @@ Appearing on terrain bordering oceans, here is the "beach_biomes" layout:
 All keys passed in must be valid in the biome registry!
 "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 */
-{
-	"value": [
-		[ "minecraft:snowy_beach", "minecraft:snowy_beach", "minecraft:snowy_beach", "minecraft:snowy_beach", "minecraft:snowy_beach" ],
-		[ "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach", "minecraft:beach" ],
-		[ "byg:basalt_barrera", "byg:basalt_barrera", "byg:basalt_barrera", "byg:basalt_barrera", "byg:basalt_barrera" ],
-		[ "byg:rainbow_beach", "byg:rainbow_beach", "byg:rainbow_beach", "byg:rainbow_beach", "byg:rainbow_beach" ],
-		[ "byg:windswept_desert", "byg:windswept_desert", "byg:windswept_desert", "byg:windswept_desert", "byg:windswept_desert" ]
-	]
-}
+"beach_biomes/beach_biomes_1"
