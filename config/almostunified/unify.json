@@ -19,7 +19,9 @@
     "vinery",
     "byg",
     "tinycoal",
-    "catwalksinc"
+    "catwalksinc",
+    "mysticalagriculture"
+
   ],
   "stoneStrata": [
     "stone",
@@ -164,7 +166,7 @@
     "minecraft:copper_block",
     "ad_astra:mars_diamond_ore"
   ],
-  "ignoredRecipeTypes": [],
+  "ignoredRecipeTypes": ["cucumber:shaped_tag"],
   "ignoredRecipes": [
     "croptopia:rice_seed"
   ],

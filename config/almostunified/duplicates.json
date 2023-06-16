@@ -1,5 +1,5 @@
 {
-  "ignoredRecipeTypes": [],
+  "ignoredRecipeTypes": ["cucumber:shaped_tag"],
   "ignoredRecipes": [],
   "defaultDuplicateRules": {
     "ignoredFields": [
