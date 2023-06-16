@@ -509,6 +509,39 @@
               "function": "set_count"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalagriculture:inferium_furnace",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalagriculture:inferium_essence",
+          "functions": [
+            {
+              "count": 10,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalagriculture:inferium_growth_accelerator",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
         }
       ]
     }

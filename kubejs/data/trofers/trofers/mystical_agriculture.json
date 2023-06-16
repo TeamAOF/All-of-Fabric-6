@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "accent": "#b24dff",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": {
+      "y": 0.5
+    },
+    "scale": 1.0
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "minecraft:block.bell.use"
+    }
+  },
+  "item": {
+    "item": "mysticalagriculture:awakened_supremium_essence",
+    "count": 1
+  },
+  "animation": {
+      "type": "spinning",
+      "speed": 0.20
+    },
+  "name": {
+    "color": "#b24dff",
+    "text": "Mystical Agriculture"
+  }
+}

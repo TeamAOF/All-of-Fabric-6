@@ -465,6 +465,17 @@
               "function": "set_count"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalagriculture:inferium_essence",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
         }
       ]
     }
