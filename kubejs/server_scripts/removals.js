@@ -54,6 +54,9 @@ ServerEvents.recipes( (event) => {
     'techreborn:blast_furnace/titanium_ingot',
     'techreborn:crafting_table/dust/titanium_dust_from_small',
     'techreborn:grinder/certus_quartz_dust_from_ore',
+    'compressed:soul_sand_ii_unpack',
+    'compressed:soul_sand_i_unpack',
+    'architects_palette:heavy_stone_bricks',
 
     ];
 
@@ -108,6 +111,7 @@ ServerEvents.recipes( (event) => {
     'nethersdelight:diamond_machete',
     'nethersdelight:netherite_machete',
     'nethersdelight:golden_machete',
+    'compressed:soul_sand_i',
     ];
 
     id.forEach((id) => {
