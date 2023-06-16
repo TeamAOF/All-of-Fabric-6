@@ -30,7 +30,8 @@ const DELETED_ITEMS = [
     'blockus:warped_barrel',
     'blockus:white_oak_barrel',
     'blockus:bamboo_barrel',
-    'blockus:charred_barrel'
+    'blockus:charred_barrel',
+    'compressed:soul_sand_i'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
