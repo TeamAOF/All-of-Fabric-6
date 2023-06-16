@@ -14,6 +14,20 @@
 				"03444CDB7A2CD366"
 			]
 			id: "48F4A7436860B08A"
+			rewards: [{
+				id: "4C44AC0FFF145F93"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Used to create higher tier Essences."
 			tasks: [{
@@ -37,6 +51,20 @@
 				"6B49E97B958E845E"
 			]
 			id: "15AF05A55B4E23BD"
+			rewards: [{
+				id: "32E26B5CB04B7FB2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "548C9769EADC49B0"
@@ -77,6 +105,20 @@
 		{
 			dependencies: ["313AFD5A20C647EE"]
 			id: "6B49E97B958E845E"
+			rewards: [{
+				id: "1E3332A091EEB0C6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.9d
 			subtitle: "Tier 5"
@@ -92,6 +134,20 @@
 		{
 			dependencies: ["04A2DF20D4EE841B"]
 			id: "313AFD5A20C647EE"
+			rewards: [{
+				id: "72DF7BC345FDF151"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.7d
 			subtitle: "Tier 4"
@@ -107,6 +163,20 @@
 		{
 			dependencies: ["0133C856F9CC5051"]
 			id: "04A2DF20D4EE841B"
+			rewards: [{
+				id: "0DFC5CDA182FD2BE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Tier 3"
@@ -122,6 +192,20 @@
 		{
 			dependencies: ["5959CBA5237F9C73"]
 			id: "0133C856F9CC5051"
+			rewards: [{
+				id: "7B0C28AD185D4FD5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.3d
 			subtitle: "Tier 2"
@@ -135,8 +219,22 @@
 			y: 1.0d
 		}
 		{
-			description: ["Found as an ore and dropped from mobs"]
+			description: ["Obtained from &bOres &for &bMobs."]
 			id: "5959CBA5237F9C73"
+			rewards: [{
+				id: "5266E8B12F53BE6D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.1d
 			subtitle: "Tier 1"
@@ -150,9 +248,27 @@
 			y: 1.0d
 		}
 		{
-			description: ["Found as an ore"]
 			id: "03444CDB7A2CD366"
+			rewards: [
+				{
+					id: "4ED6EDDE3C6456C8"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mysticalagriculture:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EDB42EB7DF5C16C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			shape: "hexagon"
+			subtitle: "Obtained from Prosperity Ore, found in the overworld."
 			tasks: [{
 				id: "455CE24C10972114"
 				item: "mysticalagriculture:prosperity_shard"
@@ -171,6 +287,20 @@
 			]
 			icon: "mysticalagriculture:infusion_altar"
 			id: "112AE10A0C538A73"
+			rewards: [{
+				id: "38F905E888401C2B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
 			subtitle: "Used to craft seeds and augments."
@@ -194,8 +324,22 @@
 		{
 			dependencies: ["03444CDB7A2CD366"]
 			id: "12282D139E7F28D2"
+			rewards: [{
+				id: "4CA5B2A184520245"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Used to craft all kinds of mystical seeds"
+			subtitle: "Used to craft mystical seeds."
 			tasks: [{
 				id: "0F0E5A4DAAF4FABB"
 				item: "mysticalagriculture:prosperity_seed_base"
@@ -206,10 +350,23 @@
 		}
 		{
 			dependencies: ["12282D139E7F28D2"]
-			description: [""]
 			id: "5B4FD21921FD194A"
+			rewards: [{
+				id: "6FEDC7FF3F228808"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Used to craft Mob Seeds"
+			subtitle: "Used to craft Mob Seeds."
 			tasks: [{
 				id: "5C21CEA3E9F32B4F"
 				item: "mysticalagriculture:soulium_seed_base"
@@ -227,8 +384,22 @@
 				}
 			}
 			id: "7564BBC841B14DF3"
+			rewards: [{
+				id: "45D6EB2E1A786F1A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
-			subtitle: "Kill entities using the Soulium Dagger with a Soul Jar to collect their Essence"
+			subtitle: "Kill entities using the Soulium Dagger with a Soul Jar to collect their Essence."
 			tasks: [
 				{
 					id: "282A02DF168899AD"
@@ -258,6 +429,20 @@
 				"313AFD5A20C647EE"
 			]
 			id: "65EA3F59C33D069B"
+			rewards: [{
+				id: "245BC4A43E15308E"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "3F78A9AD0FA91D74"
@@ -301,6 +486,20 @@
 				"04A2DF20D4EE841B"
 			]
 			id: "32F33441848844A4"
+			rewards: [{
+				id: "778BC14561B28198"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "20713239B2788524"
@@ -344,6 +543,20 @@
 				"0133C856F9CC5051"
 			]
 			id: "6E8F1D295A535EE1"
+			rewards: [{
+				id: "62CB456182CE35AA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "73847BB84B366391"
@@ -384,6 +597,20 @@
 		{
 			dependencies: ["5959CBA5237F9C73"]
 			id: "383F99234DA60CF7"
+			rewards: [{
+				id: "41E35269076CD2DC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6DE75481D0E6DC32"
@@ -426,10 +653,23 @@
 				"7564BBC841B14DF3"
 				"5B4FD21921FD194A"
 			]
-			description: ["Literally mob farming!"]
 			id: "0DD91AE68BE1F0D6"
+			rewards: [{
+				id: "7D2783318D29F39A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Mob Seed"
+			subtitle: "Literally Mob Farming."
 			tasks: [{
 				id: "45504C3A94BAADD3"
 				item: {
@@ -518,7 +758,21 @@
 		{
 			dependencies: ["5959CBA5237F9C73"]
 			id: "6B441E26FFE1818B"
-			subtitle: "Make all of the Elemental Seeds"
+			rewards: [{
+				id: "6447B24B8C035DEF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft yourself all of the Elemental Seeds."
 			tasks: [
 				{
 					id: "2D04F8678B37E090"
@@ -548,8 +802,22 @@
 		{
 			dependencies: ["5959CBA5237F9C73"]
 			id: "6C47CDEB3FD675D4"
+			rewards: [{
+				id: "119F9EBF65D99177"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 1 Seed"
+			subtitle: "Craft atleast one Tier 1 Seed of choice."
 			tasks: [{
 				id: "5673EA6ED4749658"
 				item: {
@@ -590,8 +858,22 @@
 		{
 			dependencies: ["0133C856F9CC5051"]
 			id: "678AADE864918029"
+			rewards: [{
+				id: "413234CCAA6B49FE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 2 Seed"
+			subtitle: "Craft atleast one Tier 2 Seed of choice."
 			tasks: [{
 				id: "4EC38AAE5E51AAB8"
 				item: {
@@ -684,8 +966,22 @@
 		{
 			dependencies: ["04A2DF20D4EE841B"]
 			id: "03874BDAF185C053"
+			rewards: [{
+				id: "7394B1D1494D6106"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 3 Seed"
+			subtitle: "Craft atleast one Tier 3 Seed of choice."
 			tasks: [{
 				id: "777CB0E0D182ED3B"
 				item: {
@@ -786,8 +1082,22 @@
 		{
 			dependencies: ["313AFD5A20C647EE"]
 			id: "23CDEC6717BA5316"
+			rewards: [{
+				id: "371349262F1A47E9"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 4 Seed"
+			subtitle: "Craft atleast one Tier 4 Seed of choice."
 			tasks: [{
 				id: "25BCD142429070D8"
 				item: {
@@ -880,8 +1190,22 @@
 		{
 			dependencies: ["6B49E97B958E845E"]
 			id: "4D227D41B1BABB1F"
+			rewards: [{
+				id: "6DC1841D54B8D7DC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 5 Seed"
+			subtitle: "Craft atleast one Tier 5 Seed of choice."
 			tasks: [{
 				id: "668BE58F09E1B023"
 				item: {
@@ -926,8 +1250,22 @@
 		{
 			dependencies: ["5959CBA5237F9C73"]
 			id: "3481B2ECD345F798"
+			rewards: [{
+				id: "13E15043C433E40F"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 1 Augment"
+			subtitle: "Craft atleast one Tier 1 Augment of choice."
 			tasks: [{
 				id: "7D9C29926EE639BC"
 				item: {
@@ -960,8 +1298,22 @@
 		{
 			dependencies: ["0133C856F9CC5051"]
 			id: "6ECB8661E26F5631"
+			rewards: [{
+				id: "6074F50D448E79BC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 2 Augment"
+			subtitle: "Craft atleast one Tier 2 Augment of choice."
 			tasks: [{
 				id: "275EC7CC9E6C2832"
 				item: {
@@ -1018,8 +1370,22 @@
 		{
 			dependencies: ["04A2DF20D4EE841B"]
 			id: "0B9C69E28F7896D2"
+			rewards: [{
+				id: "63B539D3D04D4C47"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 3 Augment"
+			subtitle: "Craft atleast one Tier 3 Augment of choice."
 			tasks: [{
 				id: "570E9922B82E2450"
 				item: {
@@ -1088,8 +1454,22 @@
 		{
 			dependencies: ["313AFD5A20C647EE"]
 			id: "19E20BD9F65719FD"
+			rewards: [{
+				id: "25C387D2D74D013F"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 4 Augment"
+			subtitle: "Craft atleast one Tier 4 Augment of choice."
 			tasks: [{
 				id: "7589A5010566D148"
 				item: {
@@ -1154,8 +1534,22 @@
 		{
 			dependencies: ["6B49E97B958E845E"]
 			id: "5329FBD23EC6A4BF"
+			rewards: [{
+				id: "0B77B8BE63F41E3A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
-			subtitle: "Make atleast one type of Tier 5 Augment"
+			subtitle: "Craft atleast one Tier 5 Augment of choice."
 			tasks: [{
 				id: "34D4FEDF55E32F74"
 				item: {
@@ -1207,11 +1601,25 @@
 		}
 		{
 			dependencies: ["6B49E97B958E845E"]
-			description: ["Great for autocrafting"]
+			description: ["Useful for &6Auto Crafting."]
 			id: "718EAFA3588AF395"
+			rewards: [{
+				id: "193167ADE031E4F7"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
-			subtitle: "An Infusion Crystal with unlimited uses"
+			subtitle: "An Infusion Crystal with unlimited uses."
 			tasks: [{
 				id: "58943F450C7C14AA"
 				item: "mysticalagriculture:master_infusion_crystal"
@@ -1225,8 +1633,23 @@
 			dependencies: ["6B49E97B958E845E"]
 			icon: "mysticalagriculture:awakening_altar"
 			id: "554C6758091C266B"
+			rewards: [{
+				id: "0E68411C8C647221"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.2d
+			subtitle: "Opens up crafting of Awakened Tools and Gear."
 			tasks: [
 				{
 					id: "4579BE08F4013962"
@@ -1247,6 +1670,20 @@
 		{
 			dependencies: ["554C6758091C266B"]
 			id: "01E4346780A688AC"
+			rewards: [{
+				id: "07BEB3E55C8217CD"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.1d
 			tasks: [{
@@ -1261,6 +1698,20 @@
 		{
 			dependencies: ["5959CBA5237F9C73"]
 			id: "2F258AF011DF628C"
+			rewards: [{
+				id: "09B52C36B33BB40E"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
 			subtitle: "Boost your farm with these simple steps."
@@ -1283,6 +1734,20 @@
 		{
 			dependencies: ["01E4346780A688AC"]
 			id: "2D63737E54DA5D0D"
+			rewards: [{
+				id: "5E6FB87ED50D2ECF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
 			tasks: [
@@ -1297,25 +1762,81 @@
 					type: "item"
 				}
 			]
-			title: "Awakened Supremium Machines"
+			title: "&6Awakened &cSupremium &4Machines"
 			x: 21.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["01E4346780A688AC"]
 			id: "568F97D872A54938"
+			rewards: [{
+				id: "10F2583E1242A6AE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "7E85E697A886607D"
-				item: "mysticalagriculture:awakened_supremium_sword"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_sword"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_shovel"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_axe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_hoe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_watering_can"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
+			title: "&6Awakened &cSupremium &4Tools"
 			x: 21.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0133C856F9CC5051"]
 			id: "6DF25C5B3BE96D59"
+			rewards: [{
+				id: "0F90CB29A723C2A8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
 			tasks: [
@@ -1337,6 +1858,20 @@
 		{
 			dependencies: ["04A2DF20D4EE841B"]
 			id: "1E882F6104017E7F"
+			rewards: [{
+				id: "1891A6C10C6AC41D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
 			tasks: [
@@ -1358,6 +1893,20 @@
 		{
 			dependencies: ["313AFD5A20C647EE"]
 			id: "1E5130B24773E941"
+			rewards: [{
+				id: "68EB7E99797006DD"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
 			tasks: [
@@ -1379,6 +1928,20 @@
 		{
 			dependencies: ["6B49E97B958E845E"]
 			id: "7AFC159D8D90BFE9"
+			rewards: [{
+				id: "401916A4811B775F"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.1d
 			tasks: [
@@ -1396,6 +1959,82 @@
 			title: "Supremium Machines"
 			x: 16.5d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"112AE10A0C538A73"
+				"5329FBD23EC6A4BF"
+				"23CDEC6717BA5316"
+				"4D227D41B1BABB1F"
+				"2F258AF011DF628C"
+				"313AFD5A20C647EE"
+				"0DD91AE68BE1F0D6"
+				"6B441E26FFE1818B"
+				"01E4346780A688AC"
+				"2D63737E54DA5D0D"
+				"568F97D872A54938"
+				"03874BDAF185C053"
+				"383F99234DA60CF7"
+				"19E20BD9F65719FD"
+				"1E5130B24773E941"
+				"6E8F1D295A535EE1"
+				"0B9C69E28F7896D2"
+				"03444CDB7A2CD366"
+				"65EA3F59C33D069B"
+				"12282D139E7F28D2"
+				"1E882F6104017E7F"
+				"7AFC159D8D90BFE9"
+				"6DF25C5B3BE96D59"
+				"678AADE864918029"
+				"48F4A7436860B08A"
+				"32F33441848844A4"
+				"5B4FD21921FD194A"
+				"6B49E97B958E845E"
+				"554C6758091C266B"
+				"7564BBC841B14DF3"
+				"6C47CDEB3FD675D4"
+				"5959CBA5237F9C73"
+				"3481B2ECD345F798"
+				"718EAFA3588AF395"
+				"6ECB8661E26F5631"
+				"04A2DF20D4EE841B"
+				"0133C856F9CC5051"
+				"15AF05A55B4E23BD"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:mystical_agriculture"
+					}
+				}
+			}
+			id: "2C61F2B453030388"
+			rewards: [{
+				id: "6776AF3683F767E2"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:mystical_agriculture"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "3AC82C71355942DD"
+				title: "&5Mystical &bAgriculture"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -6.0d
 		}
 	]
 	title: "Mystical Agriculture"
