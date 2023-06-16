@@ -112,6 +112,7 @@ ServerEvents.recipes( (event) => {
     'nethersdelight:netherite_machete',
     'nethersdelight:golden_machete',
     'compressed:soul_sand_i',
+    'mysticalagriculture:flight_augment',
     ];
 
     id.forEach((id) => {
