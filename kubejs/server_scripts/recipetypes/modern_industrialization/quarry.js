@@ -76,6 +76,11 @@ ServerEvents.recipes(event => {
         "item": "powah:uraninite_ore",
         "amount": 1,
         "probability": 0.08
+      },
+      {
+        "item": "mysticalagriculture:inferium_ore",
+        "amount": 1,
+        "probability": 0.1
       }
     ]
   })
