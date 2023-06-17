@@ -1,0 +1,5 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "c:rubies": "techreborn:ruby_gem",
+  "c:sapphires": "techreborn:sapphire_gem"
+}

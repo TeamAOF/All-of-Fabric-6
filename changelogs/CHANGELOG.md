@@ -1,3 +1,44 @@
+### All of Fabric 6 | v1.7.0
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.7.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.7.0.md)_
+
+### Changes
+
+* New Mystical Agriculture quest chapter.
+* Added Trowel quest to All The Quests challenge.
+* Added Rechiseled quest to All The Quests challenge.
+* Added Mystical Agriculture quests to All The Quests challenge.
+* Added Mystical Agriculture trophy.
+* Flying structures has been removed.
+* Netherite has been removed from all overworld chests, including the biggest and hardest dungeons, encouraging players to visit the Nether.
+* Diamond has been removed from most minor structures.
+* Overall resource quantity has been reduced, and replaced by other kind of loot (leather, slimeballs, lapislazuli, etc.).
+* Enchanted armor and tools has been made much harder to find.
+* Night Vision Goggles: added to head/face slot (credits to, SubordinalBlue).
+* Flugel Tiara: added to head/crown (credits to, SubordinalBlue).
+* Artifact's Snorkel: added to head/face slot (credits to, SubordinalBlue).
+* Extra Alchemy's Potion Ring: added to offhand/ring (credits to, SubordinalBlue).
+* Void dimension now has a day/night cycle, gives off a better vibe with shaders (This change does NOT cause mobs to spawn). Credits to, officialkeno.
+* Improved integration between Create & Farmer's Delight.
+
+### Recipes
+
+* Fixed conflicts between compressed soul sands.
+* Fixed conflict between Heavy Stone Bricks & Compressed Stone.
+* Added Inferium Ore to Steel Drill (MI Quarry).
+
+### Added Mods
+
+  * [Cucumber Library: Refabricated](https://www.curseforge.com/minecraft/mc-mods/cucumber-library-refabricated)
+  * [Delightful Creators Fabric](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric)
+  * [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+  * [Mystical Agriculture: Refabricated](https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture-refabricated)
+
+### Removed Mods
+
+  * [Create Slice & Dice](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice)
+---
+
 ### All of Fabric 6 | v1.6.2
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.6.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.6.2.md)_

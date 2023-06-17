@@ -1249,6 +1249,7 @@
 		}
 		{
 			dependencies: ["5959CBA5237F9C73"]
+			description: ["Augments can be appiled to tools and armors using the &bTinkering Table."]
 			id: "3481B2ECD345F798"
 			rewards: [{
 				id: "13E15043C433E40F"
