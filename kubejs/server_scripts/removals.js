@@ -57,6 +57,10 @@ ServerEvents.recipes( (event) => {
     'compressed:soul_sand_ii_unpack',
     'compressed:soul_sand_i_unpack',
     'architects_palette:heavy_stone_bricks',
+    'techreborn:crafting_table/small_dust/platinum_small_dust_from_dust',
+    'techreborn:crafting_table/dust/platinum_dust_from_small',
+    'techreborn:smelting/platinum_ingot_from_c_platinum_dusts',
+    'techreborn:blasting/platinum_ingot_from_c_platinum_dusts',
 
     ];
 

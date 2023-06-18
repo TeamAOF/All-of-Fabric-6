@@ -39,4 +39,21 @@ event.custom({
     }
   ]
 })
+
+event.custom({    
+  "type": "techreborn:blast_furnace",
+  "power": 128,
+  "time": 3600,
+  "heat": 1700,
+  "ingredients": [
+    {
+      "tag": "c:platinum_dusts"
+    }
+  ],
+  "results": [
+    {
+      "item": "modern_industrialization:platinum_hot_ingot"
+    }
+  ]
+})
     })
