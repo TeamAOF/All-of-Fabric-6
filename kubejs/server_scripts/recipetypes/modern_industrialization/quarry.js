@@ -80,7 +80,12 @@ ServerEvents.recipes(event => {
       {
         "item": "mysticalagriculture:inferium_ore",
         "amount": 1,
-        "probability": 0.1
+        "probability": 0.09
+      },
+      {
+        "item": "mysticalagriculture:prosperity_ore",
+        "amount": 1,
+        "probability": 0.09
       }
     ]
   })
