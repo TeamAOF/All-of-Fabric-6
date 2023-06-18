@@ -165,6 +165,11 @@ ServerEvents.recipes(event => {
         "item": "techreborn:cinnabar_ore",
         "amount": 1,
         "probability": 0.04
+      },
+      {
+        "item": "mysticalagriculture:soulium_ore",
+        "amount": 1,
+        "probability": 0.10
       }
     ]
   })
