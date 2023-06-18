@@ -1658,9 +1658,15 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 4L
 					id: "3AC01A1F6C2902EB"
 					item: "mysticalagriculture:awakening_pedestal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "33059ECBEE4D3BAD"
+					item: "mysticalagriculture:essence_vessel"
 					type: "item"
 				}
 			]
