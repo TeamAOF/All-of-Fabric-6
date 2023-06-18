@@ -607,17 +607,6 @@
                   "count": 8
                 }
               ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "vinery:cooking_pot",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
             }
           ]
         }
