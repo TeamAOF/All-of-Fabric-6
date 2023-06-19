@@ -1,3 +1,35 @@
+### All of Fabric 6 | v1.7.1
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.7.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.7.1.md)_
+
+### Changes
+
+* Added Prosperity ore to Steel Drill (MI Quarry).
+* Added Soulium Ore to Gold Drill (MI Quarry).
+* Added Inferium Ore to Indrev mining rig.
+* Added Prosperity Ore to Indrev mining rig.
+* Added Soulium Ore to Indrev mining rig.
+* Disabled the Imparius Grove end biome for now as it's causing crashes.
+
+### Fixes
+
+* Receiving no loot from agriculturist loot bag.
+* Corrected Awakening Rituals quest tasks.
+* Incorrect inputs of trinket face slot.
+* GUI looping between quests & REI.
+* Pedestals/rituals outputting just one item even tho using stacks in input (deleting items).
+
+### Recipes
+
+* Unified platinum small dusts.
+* Added Platinum Hot Ingot recipe to Blast Furnace (Tech Reborn).
+* Removed Platinum Dust > Platinum Ingot in furnaces.
+
+### Added Mods
+
+  * [[Let's Do] API ](https://www.curseforge.com/minecraft/mc-mods/do-api)
+---
+
 ### All of Fabric 6 | v1.7.0
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.7.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.7.0.md)_

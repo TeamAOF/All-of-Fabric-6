@@ -64,7 +64,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:imparius_grove",
-				"weight": 3
+				"weight": 0
 			},
 			{
 				"data": "minecraft:small_end_islands",
