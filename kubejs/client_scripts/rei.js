@@ -31,7 +31,25 @@ const DELETED_ITEMS = [
     'blockus:white_oak_barrel',
     'blockus:bamboo_barrel',
     'blockus:charred_barrel',
-    'compressed:soul_sand_i'
+    'compressed:soul_sand_i',
+    'mysticalagriculture:aluminum_seeds',
+    'mysticalagriculture:chromium_seeds',
+    'mysticalagriculture:electrum_seeds',
+    'mysticalagriculture:invar_seeds',
+    'mysticalagriculture:iridium_seeds',
+    'mysticalagriculture:platinum_seeds',
+    'mysticalagriculture:steel_seeds',
+    'mysticalagriculture:titanium_seeds',
+    'mysticalagriculture:tungsten_seeds',
+    'mysticalagriculture:aluminum_essence',
+    'mysticalagriculture:chromium_essence',
+    'mysticalagriculture:electrum_essence',
+    'mysticalagriculture:invar_essence',
+    'mysticalagriculture:iridium_essence',
+    'mysticalagriculture:platinum_essence',
+    'mysticalagriculture:steel_essence',
+    'mysticalagriculture:titanium_essence',
+    'mysticalagriculture:tungsten_essence'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
