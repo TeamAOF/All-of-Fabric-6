@@ -7,5 +7,4 @@ StartupEvents.registry('item', event => {
 	event.create('empty_fertilizer_bag').displayName('Empty Fertilizer Bag')
 	event.create('glue').displayName('Glue')
 	event.create('croptopia_mulch').displayName('Croptopia Mulch')
-	event.create('el_risitas').displayName('El Risitas')
 });
