@@ -1,7 +1,7 @@
 {
-    "variants": {
-      "": {
-        "model": "modern_industrialization:block/mystical_incubator"
-      }
+  "variants": {
+    "": {
+      "model": "modern_industrialization:block/mystical_incubator"
     }
   }
+}
