@@ -17,6 +17,16 @@ ServerEvents.recipes(event => {
       },
       id: 'croptopia:hashed_brown'
     },
+    //Purple Dye
+      {
+      output: '1x minecraft:purple_dye',
+      pattern: ['GP'],
+      key: {
+        G: 'croptopia:grape',
+        P: 'croptopia:mortar_and_pestle'
+      },
+      id: 'croptopia:purple_dye'
+    },
   ];
 
   recipes.forEach((recipe) => {
