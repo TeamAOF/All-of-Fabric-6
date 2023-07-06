@@ -164,7 +164,7 @@ ServerEvents.recipes(e => {
             { amount: 1, item: ('minecraft:cactus'), probability: 0.02 },
             { amount: 1, item: ('minecraft:lily_pad'), probability: 0.02 },
             { amount: 1, item: ('minecraft:spore_blossom'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:twisting_vines'), probability: 0.02 },
+            { amount: 1, item: ('minecraft:twisting_vines'), probability: 0.02 }
     
             ],
             [
