@@ -911,10 +911,6 @@
 							}
 							{
 								Count: 1b
-								id: "mysticalagriculture:copper_seeds"
-							}
-							{
-								Count: 1b
 								id: "mysticalagriculture:aluminum_seeds"
 							}
 							{
@@ -1044,6 +1040,10 @@
 							{
 								Count: 1b
 								id: "mysticalagriculture:tin_seeds"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:copper_seeds"
 							}
 							{
 								Count: 1b
