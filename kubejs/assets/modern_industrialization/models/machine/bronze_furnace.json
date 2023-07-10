@@ -1,0 +1,13 @@
+{
+  "default_overlays": {
+    "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
+    "front": "modern_industrialization:block/machines/furnace/bronze_overlay_front",
+    "front_active": "modern_industrialization:block/machines/furnace/bronze_overlay_front_active",
+    "side": "modern_industrialization:block/machines/furnace/bronze_overlay_side",
+    "side_active": "modern_industrialization:block/machines/furnace/bronze_overlay_side_active",
+    "back": "modern_industrialization:block/machines/furnace/bronze_overlay_back",
+    "top": "modern_industrialization:block/machines/furnace/bronze_overlay_top",
+    "item_auto": "modern_industrialization:block/overlays/item_auto",
+    "output": "modern_industrialization:block/overlays/output"
+  }
+}

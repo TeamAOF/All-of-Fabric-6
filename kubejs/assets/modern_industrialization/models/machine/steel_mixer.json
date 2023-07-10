@@ -1,0 +1,15 @@
+{
+  "default_overlays": {
+    "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
+    "front": "modern_industrialization:block/machines/mixer/steel_overlay_front",
+    "front_active": "modern_industrialization:block/machines/mixer/steel_overlay_front_active",
+    "item_auto": "modern_industrialization:block/overlays/item_auto",
+    "output": "modern_industrialization:block/overlays/output",
+    "right": "modern_industrialization:block/machines/mixer/steel_overlay_right",
+    "right_active": "modern_industrialization:block/machines/mixer/steel_overlay_right_active",
+    "top_n": "modern_industrialization:block/machines/mixer/steel_overlay_top",
+    "top_e": "modern_industrialization:block/machines/mixer/steel_overlay_top_east",
+    "top_s": "modern_industrialization:block/machines/mixer/steel_overlay_top_south",
+    "top_w": "modern_industrialization:block/machines/mixer/steel_overlay_top_west"
+  }
+}

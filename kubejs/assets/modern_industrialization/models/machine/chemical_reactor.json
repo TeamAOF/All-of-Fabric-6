@@ -1,0 +1,17 @@
+{
+  "default_overlays": {
+    "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
+    "front": "modern_industrialization:block/machines/chemical_reactor/overlay_front",
+    "front_active": "modern_industrialization:block/machines/chemical_reactor/overlay_front_active",
+    "left": "modern_industrialization:block/machines/chemical_reactor/overlay_left",
+    "left_active": "modern_industrialization:block/machines/chemical_reactor/overlay_left_active",
+    "right": "modern_industrialization:block/machines/chemical_reactor/overlay_right",
+    "right_active": "modern_industrialization:block/machines/chemical_reactor/overlay_right_active",
+    "top_n": "modern_industrialization:block/machines/chemical_reactor/overlay_top",
+    "top_e": "modern_industrialization:block/machines/chemical_reactor/overlay_top_east",
+    "top_s": "modern_industrialization:block/machines/chemical_reactor/overlay_top_south",
+    "top_w": "modern_industrialization:block/machines/chemical_reactor/overlay_top_west",
+    "item_auto": "modern_industrialization:block/overlays/item_auto",
+    "output": "modern_industrialization:block/overlays/output"
+  }
+}

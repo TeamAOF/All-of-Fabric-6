@@ -1,0 +1,14 @@
+{
+  "default_overlays": {
+    "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
+    "front": "modern_industrialization:block/machines/water_pump/bronze_overlay_front",
+    "item_auto": "modern_industrialization:block/overlays/item_auto",
+    "output": "modern_industrialization:block/overlays/output",
+    "side": "modern_industrialization:block/machines/water_pump/bronze_overlay_side",
+    "side_active": "modern_industrialization:block/machines/water_pump/bronze_overlay_side_active",
+    "top_n": "modern_industrialization:block/machines/water_pump/bronze_overlay_top",
+    "top_e": "modern_industrialization:block/machines/water_pump/bronze_overlay_top_east",
+    "top_s": "modern_industrialization:block/machines/water_pump/bronze_overlay_top_south",
+    "top_w": "modern_industrialization:block/machines/water_pump/bronze_overlay_top_west"
+  }
+}
