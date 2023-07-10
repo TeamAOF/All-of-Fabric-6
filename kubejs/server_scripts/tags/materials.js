@@ -90,4 +90,8 @@ ServerEvents.tags('item', event => {
     // Netherrack
     event.add("c:netherrack_dusts", "create:cinder_flour")
 
+    // fix copper block dupe
+    event.remove("c:copper_blocks", "minecraft:cut_copper")
+
+
 });
