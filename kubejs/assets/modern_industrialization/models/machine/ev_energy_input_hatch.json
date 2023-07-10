@@ -1,9 +1,9 @@
 {
   "default_overlays": {
+    "output": "modern_industrialization:block/machines/hatch_energy/ev_overlay_output",
     "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
-    "front": "modern_industrialization:block/machines/hatch_energy/overlay_front",
+    "front": "modern_industrialization:block/machines/hatch_energy/ev_overlay_input",
     "item_auto": "modern_industrialization:block/overlays/item_auto",
-    "output": "modern_industrialization:block/overlays/output",
-    "side": "modern_industrialization:block/machines/hatch_energy/overlay_side"
+    "side": "modern_industrialization:block/machines/hatch_energy/ev_overlay_input"
   }
 }

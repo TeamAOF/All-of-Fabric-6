@@ -3,9 +3,19 @@
     "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
     "front": "modern_industrialization:block/machines/macerator/overlay_front",
     "front_active": "modern_industrialization:block/machines/macerator/overlay_front_active",
+    "left": "modern_industrialization:block/machines/macerator/overlay_left",
+    "left_active": "modern_industrialization:block/machines/macerator/overlay_left_active",
+    "right": "modern_industrialization:block/machines/macerator/overlay_right",
+    "right_active": "modern_industrialization:block/machines/macerator/overlay_right_active",
     "item_auto": "modern_industrialization:block/overlays/item_auto",
     "output": "modern_industrialization:block/overlays/output",
-    "top": "modern_industrialization:block/machines/macerator/overlay_top",
-    "top_active": "modern_industrialization:block/machines/macerator/overlay_top_active"
+    "top_n": "modern_industrialization:block/machines/macerator/overlay_top",
+    "top_n_active": "modern_industrialization:block/machines/macerator/overlay_top_active",
+    "top_s": "modern_industrialization:block/machines/macerator/overlay_top",
+    "top_s_active": "modern_industrialization:block/machines/macerator/overlay_top_active",
+    "top_e": "modern_industrialization:block/machines/macerator/overlay_top_ew",
+    "top_e_active": "modern_industrialization:block/machines/macerator/overlay_top_active_ew",
+    "top_w": "modern_industrialization:block/machines/macerator/overlay_top_ew",
+    "top_w_active": "modern_industrialization:block/machines/macerator/overlay_top_active_ew"
   }
 }

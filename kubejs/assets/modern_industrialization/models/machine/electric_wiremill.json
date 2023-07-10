@@ -5,7 +5,66 @@
     "front_active": "modern_industrialization:block/machines/wiremill/overlay_front_active",
     "item_auto": "modern_industrialization:block/overlays/item_auto",
     "output": "modern_industrialization:block/overlays/output",
-    "top": "modern_industrialization:block/machines/wiremill/overlay_top",
-    "top_active": "modern_industrialization:block/machines/wiremill/overlay_top_active"
+    "top_n": "modern_industrialization:block/machines/wiremill/overlay_top",
+    "top_n_active": "modern_industrialization:block/machines/wiremill/overlay_top_active",
+    "top_e": "modern_industrialization:block/machines/wiremill/overlay_top_east",
+    "top_e_active": "modern_industrialization:block/machines/wiremill/overlay_top_active_east",
+    "top_s": "modern_industrialization:block/machines/wiremill/overlay_top_south",
+    "top_s_active": "modern_industrialization:block/machines/wiremill/overlay_top_active_south",
+    "top_w": "modern_industrialization:block/machines/wiremill/overlay_top_west",
+    "top_w_active": "modern_industrialization:block/machines/wiremill/overlay_top_active_west",
+    "left": "modern_industrialization:block/machines/wiremill/overlay_left",
+    "left_active": "modern_industrialization:block/machines/wiremill/overlay_left_active"
+  },
+  "tiered overlays": {
+    "mv": {
+      "front": "modern_industrialization:block/machines/wiremill/mv_overlay_front",
+      "front_active": "modern_industrialization:block/machines/wiremill/mv_overlay_front_active",
+      "top_n": "modern_industrialization:block/machines/wiremill/mv_overlay_top",
+      "top_n_active": "modern_industrialization:block/machines/wiremill/mv_overlay_top_active",
+      "top_e": "modern_industrialization:block/machines/wiremill/mv_overlay_top_east",
+      "top_e_active": "modern_industrialization:block/machines/wiremill/mv_overlay_top_active_east",
+      "top_s": "modern_industrialization:block/machines/wiremill/mv_overlay_top_south",
+      "top_s_active": "modern_industrialization:block/machines/wiremill/mv_overlay_top_active_south",
+      "top_w": "modern_industrialization:block/machines/wiremill/mv_overlay_top_west",
+      "top_w_active": "modern_industrialization:block/machines/wiremill/mv_overlay_top_active_west",
+      "left_active": "modern_industrialization:block/machines/wiremill/mv_overlay_left_active"
+    },
+    "hv": {
+      "front_active": "modern_industrialization:block/machines/wiremill/hv_overlay_front_active",
+      "top_n": "modern_industrialization:block/machines/wiremill/hv_overlay_top",
+      "top_n_active": "modern_industrialization:block/machines/wiremill/hv_overlay_top_active",
+      "top_e": "modern_industrialization:block/machines/wiremill/hv_overlay_top_east",
+      "top_e_active": "modern_industrialization:block/machines/wiremill/hv_overlay_top_active_east",
+      "top_s": "modern_industrialization:block/machines/wiremill/hv_overlay_top_south",
+      "top_s_active": "modern_industrialization:block/machines/wiremill/hv_overlay_top_active_south",
+      "top_w": "modern_industrialization:block/machines/wiremill/hv_overlay_top_west",
+      "top_w_active": "modern_industrialization:block/machines/wiremill/hv_overlay_top_active_west",
+      "left_active": "modern_industrialization:block/machines/wiremill/hv_overlay_left_active"
+    },
+    "ev": {
+      "front_active": "modern_industrialization:block/machines/wiremill/ev_overlay_front_active",
+      "top_n": "modern_industrialization:block/machines/wiremill/ev_overlay_top",
+      "top_n_active": "modern_industrialization:block/machines/wiremill/ev_overlay_top_active",
+      "top_e": "modern_industrialization:block/machines/wiremill/ev_overlay_top_east",
+      "top_e_active": "modern_industrialization:block/machines/wiremill/ev_overlay_top_active_east",
+      "top_s": "modern_industrialization:block/machines/wiremill/ev_overlay_top_south",
+      "top_s_active": "modern_industrialization:block/machines/wiremill/ev_overlay_top_active_south",
+      "top_w": "modern_industrialization:block/machines/wiremill/ev_overlay_top_west",
+      "top_w_active": "modern_industrialization:block/machines/wiremill/ev_overlay_top_active_west",
+      "left_active": "modern_industrialization:block/machines/wiremill/ev_overlay_left_active"
+    },
+    "super": {
+      "front_active": "modern_industrialization:block/machines/wiremill/super_overlay_front_active",
+      "top_n": "modern_industrialization:block/machines/wiremill/super_overlay_top",
+      "top_n_active": "modern_industrialization:block/machines/wiremill/super_overlay_top_active",
+      "top_e": "modern_industrialization:block/machines/wiremill/super_overlay_top_east",
+      "top_e_active": "modern_industrialization:block/machines/wiremill/super_overlay_top_active_east",
+      "top_s": "modern_industrialization:block/machines/wiremill/super_overlay_top_south",
+      "top_s_active": "modern_industrialization:block/machines/wiremill/super_overlay_top_active_south",
+      "top_w": "modern_industrialization:block/machines/wiremill/super_overlay_top_west",
+      "top_w_active": "modern_industrialization:block/machines/wiremill/super_overlay_top_active_west",
+      "left_active": "modern_industrialization:block/machines/wiremill/super_overlay_left_active"
+    }
   }
 }

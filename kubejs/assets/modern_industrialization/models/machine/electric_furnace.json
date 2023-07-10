@@ -3,7 +3,45 @@
     "fluid_auto": "modern_industrialization:block/overlays/fluid_auto",
     "front": "modern_industrialization:block/machines/furnace/overlay_front",
     "front_active": "modern_industrialization:block/machines/furnace/overlay_front_active",
+    "side": "modern_industrialization:block/machines/furnace/overlay_side",
+    "side_active": "modern_industrialization:block/machines/furnace/overlay_side_active",
+    "back": "modern_industrialization:block/machines/furnace/overlay_back",
+    "top": "modern_industrialization:block/machines/furnace/overlay_top",
     "item_auto": "modern_industrialization:block/overlays/item_auto",
     "output": "modern_industrialization:block/overlays/output"
+  },
+    "tiered_overlays": {
+      "mv": {
+        "front": "modern_industrialization:block/machines/furnace/mv_overlay_front",
+        "front_active": "modern_industrialization:block/machines/furnace/mv_overlay_front_active",
+        "side": "modern_industrialization:block/machines/furnace/mv_overlay_side",
+        "side_active": "modern_industrialization:block/machines/furnace/mv_overlay_side_active",
+        "back": "modern_industrialization:block/machines/furnace/mv_overlay_back",
+        "top": "modern_industrialization:block/machines/furnace/mv_overlay_top"
+      },
+      "hv": {
+        "front": "modern_industrialization:block/machines/furnace/hv_overlay_front",
+        "front_active": "modern_industrialization:block/machines/furnace/hv_overlay_front_active",
+        "side": "modern_industrialization:block/machines/furnace/hv_overlay_side",
+        "side_active": "modern_industrialization:block/machines/furnace/hv_overlay_side_active",
+        "back": "modern_industrialization:block/machines/furnace/hv_overlay_back",
+        "top": "modern_industrialization:block/machines/furnace/hv_overlay_top"
+      },
+      "ev": {
+        "front": "modern_industrialization:block/machines/furnace/ev_overlay_front",
+        "front_active": "modern_industrialization:block/machines/furnace/ev_overlay_front_active",
+        "side": "modern_industrialization:block/machines/furnace/ev_overlay_side",
+        "side_active": "modern_industrialization:block/machines/furnace/ev_overlay_side_active",
+        "back": "modern_industrialization:block/machines/furnace/ev_overlay_back",
+        "top": "modern_industrialization:block/machines/furnace/ev_overlay_top"
+      },
+      "superconductor": {
+        "front": "modern_industrialization:block/machines/furnace/super_overlay_front",
+        "front_active": "modern_industrialization:block/machines/furnace/super_overlay_front_active",
+        "side": "modern_industrialization:block/machines/furnace/super_overlay_side",
+        "side_active": "modern_industrialization:block/machines/furnace/super_overlay_side_active",
+        "back": "modern_industrialization:block/machines/furnace/super_overlay_back",
+        "top": "modern_industrialization:block/machines/furnace/super_overlay_top"
+      }
+    }
   }
-}

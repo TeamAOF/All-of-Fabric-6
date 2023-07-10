@@ -5,9 +5,11 @@
     "front_active": "modern_industrialization:block/machines/mixer/overlay_front_active",
     "item_auto": "modern_industrialization:block/overlays/item_auto",
     "output": "modern_industrialization:block/overlays/output",
-    "side": "modern_industrialization:block/machines/mixer/overlay_side",
-    "side_active": "modern_industrialization:block/machines/mixer/overlay_side_active",
-    "top": "modern_industrialization:block/machines/mixer/overlay_top",
-    "top_active": "modern_industrialization:block/machines/mixer/overlay_top_active"
+    "right": "modern_industrialization:block/machines/mixer/overlay_right",
+    "right_active": "modern_industrialization:block/machines/mixer/overlay_right_active",
+    "top_n": "modern_industrialization:block/machines/mixer/overlay_top",
+    "top_e": "modern_industrialization:block/machines/mixer/overlay_top_east",
+    "top_s": "modern_industrialization:block/machines/mixer/overlay_top_south",
+    "top_w": "modern_industrialization:block/machines/mixer/overlay_top_west"
   }
 }

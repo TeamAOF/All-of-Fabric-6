@@ -5,9 +5,7 @@
     "front_active": "modern_industrialization:block/machines/compressor/overlay_front_active",
     "item_auto": "modern_industrialization:block/overlays/item_auto",
     "output": "modern_industrialization:block/overlays/output",
-    "side": "modern_industrialization:block/machines/compressor/overlay_side",
-    "side_active": "modern_industrialization:block/machines/compressor/overlay_side_active",
-    "top": "modern_industrialization:block/machines/compressor/overlay_top",
-    "top_active": "modern_industrialization:block/machines/compressor/overlay_top_active"
+    "left": "modern_industrialization:block/machines/compressor/overlay_left",
+    "left_active": "modern_industrialization:block/machines/compressor/overlay_left_active"
   }
 }
