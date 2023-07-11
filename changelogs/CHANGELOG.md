@@ -27,7 +27,7 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
    * **Mystical Incubator**  
    (Produces Mystical Agriculture essences, chance to output additional seeds).
    * **Electric Reprocessor**  
-   (Turns Mystical Agrilculture seeds into essences).  
+   (Turns Mystical Agriculture seeds into essences).  
 
 * New custom MI textures (AK & Keno).
 * Added recipes for Polluted & Seastar Sand (AK).
