@@ -117,6 +117,14 @@ ServerEvents.recipes((event) => {
         'nethersdelight:golden_machete',
         'compressed:soul_sand_i',
         'mysticalagriculture:flight_augment',
+        'indrev:bronze_helmet',
+        'indrev:bronze_chestplate',
+        'indrev:bronze_leggings',
+        'indrev:bronze_boots',
+        'indrev:silver_helmet',
+        'indrev:silver_chestplate',
+        'indrev:silver_leggings',
+        'indrev:silver_boots'
     ];
 
     id.forEach((id) => {

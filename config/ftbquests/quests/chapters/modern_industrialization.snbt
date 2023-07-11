@@ -3,7 +3,7 @@
 	default_quest_shape: "rsquare"
 	filename: "modern_industrialization"
 	group: "0815C5D80307ECDF"
-	icon: "modern_industrialization:steel_upgrade"
+	icon: "modern_industrialization:singularity"
 	id: "5BB4D2FC1908D3D1"
 	order_index: 3
 	quest_links: [ ]

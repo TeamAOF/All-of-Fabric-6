@@ -49,7 +49,7 @@ function Test-ForDependencies {
     if (-not $is7zAvailable) {
         Clear-Host
         Write-Host 
-        Write-Host "Install 7zip and add its folder to the environment variable 'Path'`n" -ForegroundColor Red
+        Write-Host "Install 7zip and add it's folder to the environment variable 'Path'`n" -ForegroundColor Red
         Write-Host "7zip can be downloaded here: " -NoNewline
         Write-Host "https://www.7-zip.org/download.html" -ForegroundColor Blue
         Write-Host 
@@ -63,7 +63,7 @@ function Test-ForDependencies {
     if (-not $isCurlAvailable) {
         Clear-Host
         Write-Host 
-        Write-Host "Install Curl and add its folder to the environment variable 'Path'`n" -ForegroundColor Red
+        Write-Host "Install Curl and add it's folder to the environment variable 'Path'`n" -ForegroundColor Red
         Write-Host "Curl can be downloaded here: " -NoNewline
         Write-Host "https://curl.se/download.html" -ForegroundColor Blue
         Write-Host "To install it, simply unzip the folder somewhere and point path to it."
@@ -104,6 +104,17 @@ function New-ClientFiles {
             if (!(Test-Path -Path $destinationFolder)) {
                 New-Item $destinationFolder -Type Directory
             }
+            Copy-Item -Path $_ -Destination "$overridesFolder/$_" -Recurse
+        }
+
+        $destinationFolder = "$overridesFolder/mods"
+        if (!(Test-Path -Path $destinationFolder)) {
+            New-Item $destinationFolder -Type Directory
+        }
+        $FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES | ForEach-Object {
+            Write-Host "Adding " -ForegroundColor Cyan -NoNewline
+            Write-Host $_ -ForegroundColor Blue -NoNewline
+            Write-Host " to the mods folder in the client files." -ForegroundColor Cyan
             Copy-Item -Path $_ -Destination "$overridesFolder/$_" -Recurse
         }
 
@@ -363,12 +374,9 @@ function New-GitHubRelease {
         };
     
         $Body = @{
-            tag_name         = $MODPACK_VERSION
-            target_commitish = 'master'
-            name             = $MODPACK_VERSION
-            body             = ''
-            draft            = $false
-            prerelease       = $false
+            tag_name               = $MODPACK_VERSION
+            name                   = $MODPACK_VERSION
+            generate_release_notes = $true
         } | ConvertTo-Json
 
     

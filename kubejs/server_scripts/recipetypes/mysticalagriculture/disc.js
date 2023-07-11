@@ -7,10 +7,10 @@
 
         const recipes = [
 
-            //Cat Disc
+            // Cat Disc
             {
                 output: 'minecraft:music_disc_cat',
-                pattern: ['BC ','S  ','  '],
+                pattern: ['BC ', 'S  '],
                 key: {
                     S: 'mysticalagriculture:skeleton_essence',
                     B: 'mysticalagriculture:blank_record',
@@ -19,7 +19,7 @@
                 id: 'mysticalagriculture:essence/minecraft/music_disc_cat'
             },
 
-            //13 Disc
+            // 13 Disc
             {
                 output: 'minecraft:music_disc_13',
                 pattern: ['BCS', '   ', '   '],

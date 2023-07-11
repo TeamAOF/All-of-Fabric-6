@@ -26,11 +26,11 @@ $MODPACK_NAME = "all-of-fabric-6"
 $CLIENT_NAME = "All-of-Fabric-6"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.7.1"
+$MODPACK_VERSION = "1.8.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.7.0"
+$LAST_MODPACK_VERSION = "1.7.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -89,6 +89,10 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("spark")
 
 # Accepts directories
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt")
+
+# Example: 
+# $FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES = @("mods/Apotheosis-1.19.2-6.2.1.jar", "mods/create-1.19.2-0.5.1.b.jar")
+$FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES = @()
 
 #=====================================================================//
 #  SERVER FILE SETTINGS

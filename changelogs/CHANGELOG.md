@@ -1,3 +1,61 @@
+### All of Fabric 6 | v1.8.0 | Beautify & Rebalance
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.8.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.8.0.md)_
+
+## DISCLAIMER: Botany Pots has been removed, make sure to remove any seeds/soils before updating.
+
+### Added Mods
+
+  * [Ad Astra: Giselle Addon](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon)
+  * [Cosmetic Armor [FABRIC]](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-fabric)
+  * [Diet (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/diet)
+  * [Fusion (Connected Textures)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures)
+
+### Removed Mods
+
+  * [Botany Pots](https://www.curseforge.com/minecraft/mc-mods/botany-pots) (Severe lag issues & unbalanced)
+  * [Botany Trees](https://www.curseforge.com/minecraft/mc-mods/botany-trees) (Severe lag issues & unbalanced)
+  * [PatchouliButton](https://www.curseforge.com/minecraft/mc-mods/patchoulibutton)
+
+### Changes/Improvements
+
+* Added **4** new custom MI machines (Keno).  
+   * **Growth Chamber**  
+   (Produces Croptopia, Farmer's Delight, BYG, Bewitchment & Vanilla crops & trees).
+   * **Electric Composter**  
+   (Crafting of Mulch & Fertilizer, 2 new materials).
+   * **Mystical Incubator**  
+   (Produces Mystical Agriculture essences, chance to output additional seeds).
+   * **Electric Reprocessor**  
+   (Turns Mystical Agrilculture seeds into essences).  
+
+* New custom MI textures (AK & Keno).
+* Added recipes for Polluted & Seastar Sand (AK).
+* Removed MI alloys from Mystical Agriculture (AK).
+* Disabled random spawning of entities with travelers backpack (AK).
+* Added Invisible Armor, used with Cosmetic Armor mod (Keno).
+* Added chipped recipes to the stonecutter (Trent).
+* Moved copper seeds from tier 2 > 3 in quests (jjs98).
+* Revamped the Replicator recipe (Keno).
+* New nutrition system.
+* Re-enabled Imparius Grove end biome (AK).
+* Added recipe for Wailing Bell Blossom in stonecutter (AK).
+* Made chipped mud blocks collapsible in REI (AK).
+* Unified saw dusts, TR taking priority (AK).
+* Hide blockus barrel from REI as not functional (AK).
+
+### Bug Fixes
+
+* Inventory scanning for quests sometimes not working.
+* Recipes for vanilla music discs (Keno).
+* Recipe conflict of purple dye from grape (Keno).
+* Copper dupe using cut copper blocks (spokrr).
+* BYG crafting tables not being craftable (AK).
+* Recipe conflict between therium lantern & lamp (AK).
+* Recipe conflict between cryptic lantern & redstone lantern (AK).
+* Bronze & silver gear will now output the correct variant (AK).
+---
+
 ### All of Fabric 6 | v1.7.1
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.7.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.7.1.md)_

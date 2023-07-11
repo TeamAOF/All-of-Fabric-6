@@ -35,7 +35,7 @@
 		// Enables backpacks spawning in loot chests
 		"enableLoot": true,
 		// Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
-		"spawnEntitiesWithBackpack": true,
+		"spawnEntitiesWithBackpack": false,
 		// List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
 		"possibleOverworldEntityTypes": [
 			"minecraft:zombie",
@@ -97,7 +97,37 @@
 	},
 	"backpackAbilities": {
 		"enableBackpackAbilities": true,
-		"forceAbilityEnabled": false
+		"forceAbilityEnabled": false,
+		// List of backpacks that are allowed to have an ability. DO NOT ADD anything to this list, because the game will crash, remove entries if backpack should not have ability
+		"allowedAbilities": [
+			"travelersbackpack:netherite",
+			"travelersbackpack:diamond",
+			"travelersbackpack:gold",
+			"travelersbackpack:emerald",
+			"travelersbackpack:iron",
+			"travelersbackpack:lapis",
+			"travelersbackpack:redstone",
+			"travelersbackpack:bookshelf",
+			"travelersbackpack:sponge",
+			"travelersbackpack:cake",
+			"travelersbackpack:cactus",
+			"travelersbackpack:melon",
+			"travelersbackpack:pumpkin",
+			"travelersbackpack:creeper",
+			"travelersbackpack:dragon",
+			"travelersbackpack:enderman",
+			"travelersbackpack:blaze",
+			"travelersbackpack:ghast",
+			"travelersbackpack:magma_cube",
+			"travelersbackpack:spider",
+			"travelersbackpack:wither",
+			"travelersbackpack:bat",
+			"travelersbackpack:bee",
+			"travelersbackpack:ocelot",
+			"travelersbackpack:cow",
+			"travelersbackpack:chicken",
+			"travelersbackpack:squid"
+		]
 	},
 	"slownessDebuff": {
 		// Player gets slowness effect, if carries too many backpacks in inventory

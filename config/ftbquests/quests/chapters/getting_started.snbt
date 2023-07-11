@@ -240,7 +240,7 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			subtitle: "Through eating diverse foods you unlock more hearts."
+			subtitle: "Through eating diverse foods you unlock more hearts and unique effects."
 			tasks: [{
 				id: "4EB555F43B761736"
 				title: "Carrot Mode"

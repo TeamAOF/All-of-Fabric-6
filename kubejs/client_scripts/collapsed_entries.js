@@ -31,7 +31,7 @@ REIEvents.groupEntries(event => {
     }
     event.groupItems('kubejs:reigroups/chipped/terracotta', getNameOfID('minecraft:terracotta'), terracottas);
 
-    event.groupItemsByTag(`kubejs:rei_groups/chipped/mud`, 'Minecraft Packed Mud Blocks', 'chipped:packed_muc');
+    event.groupItemsByTag(`kubejs:rei_groups/chipped/packed_mud`, 'Minecraft Packed Mud Blocks', 'chipped:packed_muc');
     event.groupItemsByTag(`kubejs:rei_groups/chipped/mud`, 'Minecraft Mud Blocks', 'chipped:mud');
     event.groupItemsByTag(`kubejs:rei_groups/chipped/waxed_exposed_copper`, 'Minecraft Waxed Exposed Copper Blocks', 'chipped:waxed_exposed_copper_block');
 });

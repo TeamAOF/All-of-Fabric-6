@@ -35,16 +35,44 @@ ServerEvents.recipes(event => {
     'zelkova',
     'sythian',
     'embur',
-    ];
+  ];
 
-    byg.forEach((byg) => {
+  byg.forEach((byg) => {
     event.remove({ output: 'byg:' + byg + '_crafting_table' });
     event.shaped('byg:' + byg + '_crafting_table', [
-      'AA ', 
-      'AA ', 
+      'AA ',
+      'AA ',
       '   '
     ], {
-        A: 'byg:' + byg + '_planks',
-      })
-    });
+      A: 'byg:' + byg + '_planks',
+    })
   });
+  const recipes = [
+
+    // Therium Lantern
+    {
+      output: 'byg:therium_lantern',
+      pattern: [' A ', 'ABA', ' A '],
+      key: {
+        A: 'minecraft:iron_nugget',
+        B: 'byg:therium_crystal_shard'
+      },
+      id: 'byg:therium_lantern'
+    },
+    
+    // Cryptic Lantern
+    {
+      output: 'byg:cryptic_lantern',
+      pattern: [' A ', 'ABA', ' A '],
+      key: {
+        A: 'minecraft:iron_nugget',
+        B: 'minecraft:redstone_torch'
+      },
+      id: 'byg:cryptic_lantern'
+    }
+  ];
+
+  recipes.forEach((recipe) => {
+    event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
+  });
+});

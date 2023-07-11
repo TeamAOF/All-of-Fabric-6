@@ -33,7 +33,9 @@
 	"gateSpells": {
 		"makeGateCost": 320.0,
 		"markGateCost": 0.05,
-		"closeGateCost": 2.5
+		"closeGateCost": 2.5,
+		"closeGateDistanceCostFactor": 0.1,
+		"maxGateOffset": 32.0
 	},
 	"itemSpells": {
 		"bindStorageCost": 32.0,
@@ -42,6 +44,7 @@
 		"returnItemCost": 0.1,
 		"craftItemCost": 0.1,
 		"tradeItemCost": 0.1,
+		"useItemOnCost": 0.125,
 		"maxItemsReturned": 32000,
 		"maxRecordsInMediafiedStorage": 1023
 	},
@@ -51,6 +54,10 @@
 		"seonWispSetCost": 50.0,
 		"tickConstantCost": 0.1,
 		"tickCostPerTicked": 0.001,
-		"tickRandomTickIProb": 1365
+		"tickRandomTickIProb": 1365,
+		"accelerateDenyList": [
+			"hexcasting:impetus_look",
+			"create:deployer"
+		]
 	}
 }
