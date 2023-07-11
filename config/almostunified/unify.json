@@ -58,7 +58,8 @@
     "c:netherrack_dusts",
     "c:chromium_small_dusts",
     "c:titanium_small_dusts",
-    "c:platinum_small_dusts"
+    "c:platinum_small_dusts",
+    "c:emerald_small_dusts"
   ],
   "materials": [
     "aluminum",
@@ -101,11 +102,13 @@
     "garlic",
     "quartz",
     "ender_pearl",
-    "obsidian"
+    "obsidian",
+    "saw"
   ],
   "priorityOverrides": {
     "c:chromium_small_dusts": "modern_industrialization",
     "c:platinum_small_dusts": "modern_industrialization",
+    "c:emerald_small_dusts": "modern_industrialization",
     "c:salt_dusts": "bewitchment",
     "c:dough": "farmersdelight",
     "c:obsidian_plates": "techreborn",
