@@ -1370,19 +1370,57 @@
 			]
 			icon: "kubejs:completionist"
 			id: "477ECBF67056BF45"
-			rewards: [{
-				id: "05B5B34C0CBCD83A"
-				item: {
-					Count: 1b
-					id: "trofers:medium_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:completionist"
+			rewards: [
+				{
+					id: "05B5B34C0CBCD83A"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:completionist"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "67A688FC4C2517F1"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+				{
+					id: "53450413B791F48B"
+					item: {
+						Count: 1b
+						id: "wands:creative_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FCF6FE870519226"
+					item: "harvest_scythes:creative_scythe"
+					type: "item"
+				}
+				{
+					id: "63E02A178358728B"
+					item: "harvest_scythes:creative_machete"
+					type: "item"
+				}
+				{
+					id: "5AEA808AD2D7910A"
+					item: "croptosis:creative_watering_can"
+					type: "item"
+				}
+				{
+					id: "773B10A73EC09668"
+					item: "hexcasting:creative_unlocker"
+					type: "item"
+				}
+			]
 			size: 2.5d
 			subtitle: "Complete them all, become the best!"
 			tasks: [{
