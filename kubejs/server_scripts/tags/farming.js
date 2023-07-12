@@ -22,6 +22,7 @@ ServerEvents.tags('item', event => {
 
   // Dough
   event.add('c:doughs', 'create:dough')
+  event.add('c:doughs', 'bakery:dough')
 
    // Garlic
    event.add('c:garlic', 'bewitchment:garlic')
@@ -36,4 +37,7 @@ ServerEvents.tags('item', event => {
   event.add('balm:eggs', 'duckling:duck_egg')
   event.add('naturalist:snake_temp_items', 'duckling:duck_egg')
   event.add('farmersdelight:cabbage_roll_ingredients', 'duckling:duck_egg')
+
+   // Strawberries
+   event.add('c:strawberries', 'bakery:strawberry')
 });

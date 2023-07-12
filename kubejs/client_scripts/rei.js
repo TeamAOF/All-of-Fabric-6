@@ -49,7 +49,8 @@ const DELETED_ITEMS = [
     'mysticalagriculture:platinum_essence',
     'mysticalagriculture:steel_essence',
     'mysticalagriculture:titanium_essence',
-    'mysticalagriculture:tungsten_essence'
+    'mysticalagriculture:tungsten_essence',
+    'bakery:strawberry_seeds'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));

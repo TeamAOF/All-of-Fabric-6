@@ -5,6 +5,7 @@
 	"energyDrainTickFrequency": 2,
 	"inkUsagePerTick": 1,
 	"inkUsagePerTickGoingUp": 2,
+	"inkUsagePerTickForward": 1,
 	"gemstoneJetpackMaxFuel": 5000,
 	"gemstoneJetpackMaxVerticalVelocity": 0.30000001192092896,
 	"gemstoneJetpackMaxHorizontalVelocity": 1.5,

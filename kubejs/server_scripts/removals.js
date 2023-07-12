@@ -124,7 +124,8 @@ ServerEvents.recipes((event) => {
         'indrev:silver_helmet',
         'indrev:silver_chestplate',
         'indrev:silver_leggings',
-        'indrev:silver_boots'
+        'indrev:silver_boots',
+        'bakery:strawberry_seeds'
     ];
 
     id.forEach((id) => {

@@ -21,7 +21,8 @@
     "tinycoal",
     "catwalksinc",
     "mysticalagriculture",
-    "createdeco"
+    "createdeco",
+    "bakery"
 
   ],
   "stoneStrata": [
@@ -59,7 +60,8 @@
     "c:chromium_small_dusts",
     "c:titanium_small_dusts",
     "c:platinum_small_dusts",
-    "c:emerald_small_dusts"
+    "c:emerald_small_dusts",
+    "c:strawberries"
   ],
   "materials": [
     "aluminum",

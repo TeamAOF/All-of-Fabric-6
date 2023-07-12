@@ -1,3 +1,29 @@
+### All of Fabric 6 | v1.8.1
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.8.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.8.1.md)_
+
+### Added Mods
+
+  * [[Let's Do] Bakery](https://www.curseforge.com/minecraft/mc-mods/lets-do-bakery)
+  * [CreateFabric&REIBugFix](https://www.curseforge.com/minecraft/mc-mods/createfabricreibugfix)
+
+### Changes/Improvements
+
+* Added 6 creative items as rewards to The Completionist quest (AK).
+* Added glue recipe in Mixer (AK).
+* Added 2 recipes for tree fertilizer in Mixer (AK).
+* Added wood pulp recipe in Grinder (AK).
+* Added fluid thatch to plant oil recipe in Centrifuge (AK).
+* Turn shaders off by default (AK).
+* Blacklisted network tool in replicator (AK).
+* Blacklisted crocs to be used in cosmetic slot, prevents crash (AK).
+
+### Bug Fixes
+
+* Recipe conflict between Sheet Metal Blocks and Iron Trapdoors (Keno).
+* A Colorful World book not working (AK).
+---
+
 ### All of Fabric 6 | v1.8.0 | Beautify & Rebalance
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.8.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.8.0.md)_
