@@ -61,6 +61,7 @@ ServerEvents.recipes((event) => {
         'techreborn:crafting_table/dust/platinum_dust_from_small',
         'techreborn:smelting/platinum_ingot_from_c_platinum_dusts',
         'techreborn:blasting/platinum_ingot_from_c_platinum_dusts',
+        'ad_astra:hammering/steel_plate'
 
     ];
 
