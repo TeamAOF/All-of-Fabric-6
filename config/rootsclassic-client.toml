@@ -1,0 +1,9 @@
+
+#Client settings
+[client]
+	#The number of pixels above the bottom of the screen that the mana bar should be rendered. If it's conflicting with a bar from another mod, raising it by 10 will normally position it right
+	#Range: 0 ~ 32767
+	manaBarOffset = 49
+	#Toggles the wave effect in the Runic Tablet GUI
+	showTabletWave = true
+

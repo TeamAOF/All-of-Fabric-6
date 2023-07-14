@@ -1,5 +1,5 @@
 {
-  "requireHoe": true,
+  "requireHoe": false,
   "harvestInRadius": true,
-  "useHunger": true
+  "hungerLevel": "NORMAL"
 }

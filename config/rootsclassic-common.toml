@@ -1,0 +1,45 @@
+
+#Settings related to actual gameplay-affecting features
+[items]
+	#Old Roots will drop from tall grass with a 1/oldRootDropChance probability
+	#Range: 0 ~ 32767
+	oldRootDropChance = 40
+	#Dragon's Eyes will drop from chorus flowers with a 1/dragonsEyeDropChance probability
+	#Range: 0 ~ 32767
+	dragonsEyeDropChance = 10
+	#Verdant Sprigs will drop from grown crops with a 1/verdantSprigDropChance probability
+	#Range: 0 ~ 32767
+	verdantSprigDropChance = 30
+	#Infernal Bulbs will drop from nether wart with a 1/infernalBulbDropChance probability
+	#Range: 0 ~ 32767
+	infernalStemDropChance = 20
+	#Chance that the bark knife will strip the log, 1 is always strip on first harvest
+	#Range: 0.10000000149011612 ~ 1.0
+	barkKnifeBlockStripChance = 0.30000001192092896
+	#Berries will drop from oak leaves with a 1/berriesDropChance probability
+	#Range: 0 ~ 32767
+	berriesDropChance = 25
+
+#Settings related to actual gameplay-affecting features
+[magic]
+	#The number of additional uses each efficiency modifier gives
+	#Range: 0 ~ 32767
+	efficiencyBonusUses = 32
+	#Whether or not damaging spells can affect players
+	disablePVP = false
+	#Number of basic uses for one spell staff
+	#Range: 1 ~ 100
+	staffUsesBasic = 15
+	#Number of ticks between each mana regeneration (20 ticks = 1 second)
+	#Range: 1 ~ 100
+	ticksPerManaRegen = 15
+	#The number of uses an unmodified staff will have upon being crafted
+	#Range: 0 ~ 32767
+	staffUses = 65
+	#The number of ticks required to prepare a spell with a staff
+	#Range: 1 ~ 32767
+	staffChargeTicks = 20
+	#Number of uses added by each efficiency level on a spell
+	#Range: 1 ~ 100
+	staffUsesEfficiency = 15
+

@@ -308,7 +308,7 @@
   * [sodium-fabric-mc1.19.2-0.4.4+build.18.jar](https://www.curseforge.com/minecraft/mc-mods/sodium/files/3957319) (by [jellysquid3_](https://www.curseforge.com/members/jellysquid3_/projects))
   * [sodium-extra-0.4.16+mc1.19.2-build.90.jar](https://www.curseforge.com/minecraft/mc-mods/sodium-extra/files/4279044) (by [FlashyReese](https://www.curseforge.com/members/FlashyReese/projects))
   * [spark-1.10.37-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/spark/files/4505310) (by [Iucko](https://www.curseforge.com/members/Iucko/projects))
-  * [spectrum-1.6.10-1.19.2-leisure_time.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/4492664) (by [DaFuqsy](https://www.curseforge.com/members/DaFuqsy/projects))
+  * [spectrum-1.6.11-1.19.2-leisure_time.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/4585327) (by [DaFuqsy](https://www.curseforge.com/members/DaFuqsy/projects))
   * [spectrum-jetpacks-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum-jetpacks/files/4637517) (by [Mayaqq](https://www.curseforge.com/members/Mayaqq/projects))
   * [spell_engine-fabric-0.9.24+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/spell-engine/files/4565272) (by [daedelus_dev](https://www.curseforge.com/members/daedelus_dev/projects))
   * [spell_power-fabric-0.9.12+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/spell-power/files/4543602) (by [daedelus_dev](https://www.curseforge.com/members/daedelus_dev/projects))

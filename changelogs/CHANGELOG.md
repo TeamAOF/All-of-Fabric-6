@@ -1,3 +1,46 @@
+### All of Fabric 6 | v1.8.2
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.8.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.8.2.md)_
+
+### Added Mods
+
+  * [All of Fabric Emissive Ores](https://www.curseforge.com/minecraft/texture-packs/all-of-fabric-emissive-ores)
+  * [Chunky (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)
+  * [Roots Classic (Fabric)](https://www.curseforge.com/minecraft/mc-mods/roots-classic-fabric)
+
+### Removed Mods
+
+  * [Cosmetic Armor](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-fabric) (Crashes with certain armor combinations)
+
+### Changes/Improvements
+
+* Proper log/console filtering (Trent).
+* Added recipes for prosperity shards in macerator, grinder, crusher & pulverizer (AK). 
+* Added recipe for iron, gold & copper dust from ingots in crusher (AK).
+* Added recipe for tree fertilizer in MI mixer (AK).
+* Added recipe for glue in MI mixer (AK).
+* Ammount of acrylic glue in the making of glue in create mixer has been lowered, 100mb > 50mb (AK).
+* Right click harvest no longer requires a hoe in your hand (AK).
+* Lich health has been increased, 300 > 400 (AK).
+* Lich damage has been increased, 9 > 10 (AK).
+* Obsidilith health has been increased, 300 > 400 (AK).
+* Obsidilith armor has been increased, 14 > 16 (AK).
+* Gauntlet health has been increased, 250 > 350 (AK).
+* Gauntlet armor has been increased, 8 > 10 (AK).
+* Void Blossom health has been increased, 350 > 450 (AK).
+* Void Blossom damage has been increased 12 > 15 (AK).
+* Remove unused terralith script (AK).
+* Remove steel plate recipe using hammer (AK).
+
+### Bug Fixes
+
+* Custom MI machines missing their loot tables (Trent).
+* Recipe conflict between spice rack & planks path (AK).
+* Quest book not being craftable (AK).
+* REI hiding not functioning with unification.
+* Spectrum entries crashing your game.
+---
+
 ### All of Fabric 6 | v1.8.1
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.8.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.8.1.md)_
