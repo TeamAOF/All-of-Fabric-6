@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "modern_industrialization:electric_composter",
+      "modern_industrialization:electric_seed_reprocessor",
+      "modern_industrialization:growth_chamber",
+      "modern_industrialization:mystical_incubator"
+    ]
+  }
