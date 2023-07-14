@@ -16,6 +16,17 @@ ServerEvents.recipes(event => {
         C: 'minecraft:stick'
       },
       id: 'cookingforblockheads:tool_rack'
+    },
+
+    // Spice Rack
+    {
+      output: 'cookingforblockheads:spice_rack',
+      pattern: ['BAB'],
+      key: {
+        A: '#minecraft:wooden_slabs',
+        B: 'minecraft:iron_nugget'
+      },
+      id: 'cookingforblockheads:spice_rack'
     }
   ];
 
