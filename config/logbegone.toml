@@ -2,7 +2,35 @@
 
 [logbegone]
 # If a log message has one of these phrases, it will be filtered out from logging
-phrases = ["the_aether"]
+phrases = [
+    "Hanging entity",
+	"Is the server overloaded",
+	"moved too quickly!",
+	"Ignored advancement",
+    "DeeperAndDarker",
+	"Tried to access a block entity",
+	"Empty or non-existent pool",
+	"vecbegin", 
+    "[com.ishland.vmp.common.networking.priority.PacketPriorityHandler]",
+	"was slain by fake", 
+    "NetherPortalFix",
+	"Async chunk loading for player",
+	"Tried to load a",
+	"Loading PlayerData for player",
+	"owo",
+	"Paragon",
+	"WandsMod",
+	"moved wrongly!",
+	"[net.projectile_damage.mixin.ServerWorldMixin]",
+	"Launching modified arrow",
+	"Priority overwritten for player",
+	"Tried to register an overly",
+	"No data fixer registered",
+	"Ignoring unknown attribute",
+	"Loading PlayerProfile for player",
+	"protocol version: 2.0",
+	"Exceeded time limit of"
+    ]
 
 # If a log message matches one of these regex patterns, it will be filtered out from logging. EX: 
 regex = ["^1$"]
