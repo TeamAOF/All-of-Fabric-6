@@ -19,7 +19,7 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Added recipe for iron, gold & copper dust from ingots in crusher (AK).
 * Added recipe for tree fertilizer in MI mixer (AK).
 * Added recipe for glue in MI mixer (AK).
-* Ammount of acrylic glue in the making of glue in create mixer has been lowered, 100mb > 50mb (AK).
+* Amount of acrylic glue in the making of glue in create mixer has been lowered, 100mb > 50mb (AK).
 * Right click harvest no longer requires a hoe in your hand (AK).
 * Lich health has been increased, 300 > 400 (AK).
 * Lich damage has been increased, 9 > 10 (AK).
