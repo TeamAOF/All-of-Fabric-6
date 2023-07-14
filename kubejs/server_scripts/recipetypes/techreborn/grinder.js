@@ -5,7 +5,7 @@
 
 ServerEvents.recipes(event => {
 
-  
+  // Wood Pulp
     event.custom({    
       "type": "techreborn:grinder",
       "power": 3,
@@ -21,5 +21,23 @@ ServerEvents.recipes(event => {
           "count": 10
         }
       ]
+})
+
+ // Prosperity Shards
+ event.custom({    
+  "type": "techreborn:grinder",
+  "power": 2,
+  "time": 100,
+  "ingredients": [
+    {
+      "tag": "c:prosperity_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:prosperity_shard",
+      "count": 2
+    }
+  ]
 })
     })

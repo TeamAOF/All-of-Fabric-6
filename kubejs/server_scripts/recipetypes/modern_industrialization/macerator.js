@@ -70,4 +70,24 @@ ServerEvents.recipes(event => {
   })
 });
 
+// Prosperity Shards
+event.custom({
+  "type": "modern_industrialization:macerator",
+  "id": "aof:mi_macerator_prosperity_shards",
+  "eu": 2,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "tag": "c:prosperity_ores",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "mysticalagriculture:prosperity_shard",
+      "amount": 2
+    }
+  ]
+})
+
 })
