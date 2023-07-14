@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "fluid": "modern_industrialization:acrylic_glue",
-                "amount": 8100
+                "amount": 4050
             }
         ],
         "results": [
