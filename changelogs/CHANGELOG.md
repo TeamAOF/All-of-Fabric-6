@@ -4,9 +4,9 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Added Mods
 
-  * [All of Fabric Emissive Ores](https://www.curseforge.com/minecraft/texture-packs/all-of-fabric-emissive-ores)
-  * [Chunky (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)
-  * [Roots Classic (Fabric)](https://www.curseforge.com/minecraft/mc-mods/roots-classic-fabric)
+  * [AOF: Emissive Ores](https://www.curseforge.com/minecraft/texture-packs/all-of-fabric-emissive-ores)
+  * [Chunky](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)
+  * [Roots Classic](https://www.curseforge.com/minecraft/mc-mods/roots-classic-fabric)
 
 ### Removed Mods
 
