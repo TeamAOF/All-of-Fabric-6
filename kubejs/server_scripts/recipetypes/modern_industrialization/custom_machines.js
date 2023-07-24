@@ -88,5 +88,19 @@ ServerEvents.recipes(event => {
         P: 'minecraft:paper',
         G: 'kubejs:glue'
       }
-    )
+    ),
+    event.shaped(
+      Item.of('modern_industrialization:basic_growth_chamber', 1),
+      [ 
+        'BAB',
+        'ZCW',
+        'BBB'
+      ],
+      {
+        C: 'minecraft:composter',
+        B: 'minecraft:bricks',
+        W: 'modern_industrialization:bronze_water_pump',
+        Z: 'modern_industrialization:bronze_barrel',
+        A: 'supplementaries:clock_block'
+      })
 })

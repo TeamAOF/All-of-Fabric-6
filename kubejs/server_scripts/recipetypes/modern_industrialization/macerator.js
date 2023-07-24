@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
 
   event.custom({
     "type": "modern_industrialization:macerator",
-    "id": "aof:mi_macerator_crushed_zinc_ore",
+    "id": "aof:mi_macerator_crushed_raw_zinc",
     "eu": 2,
     "duration": 200,
     "item_inputs": [
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
     ],
     "item_outputs": [
       {
-        "item": "create:crushed_zinc_ore",
+        "item": "create:crushed_raw_zinc",
         "amount": 2
       }
     ]
