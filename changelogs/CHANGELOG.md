@@ -40,7 +40,7 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Compat between Chef's Delight & CTOV villages, you can now find restaurants.
 * Added button/ui icons (AK).
 * Removed coal/charcoal compressed blocks due to exploits, fuel calculations are off (AK).
-* Blacklised Void Shadow to be picked up with lassos (AK).
+* Blacklisted Void Shadow to be picked up with lassos (AK).
 
 ### Bug Fixes
 
