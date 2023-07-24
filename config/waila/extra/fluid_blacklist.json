@@ -1,0 +1,13 @@
+{
+  "_comment": [
+    "The game needs to be restarted for the changes to apply.",
+    "Along with this file, the server can also use datapack tag to disable the feature for connecting players.",
+    "Block tag            : data/waila/tags/blocks/extra/fluid_blacklist.json",
+    "Block entity type tag: data/waila/tags/block_entity_type/extra/fluid_blacklist.json",
+    "Entity type tag      : data/waila/tags/entity_types/extra/extra/fluid_blacklist.json",
+    "Note that block_entity_type is not plural like blocks and entity_types, this is not an error."
+  ],
+  "blocks": [],
+  "blockEntityTypes": [],
+  "entityTypes": []
+}

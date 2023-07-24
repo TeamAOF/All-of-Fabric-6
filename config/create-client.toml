@@ -64,6 +64,18 @@
 	enableTooltips = true
 
 	#.
+	#Configure your vision range when submerged in Create's custom fluids
+	[client.fluidFogSettings]
+		#.
+		#The vision range through honey will be multiplied by this factor
+		#Range: 0.125 ~ 256.0
+		honey = 1.0
+		#.
+		#The vision range though chocolate will be multiplied by this factor
+		#Range: 0.125 ~ 256.0
+		chocolate = 1.0
+
+	#.
 	#Sound settings
 	[client.sound]
 		#.
@@ -91,6 +103,9 @@
 		#How far away the Camera should zoom when seated on a train
 		#Range: 0.0 ~ 3.4028234663852886E38
 		mountedZoomMultiplier = 3.0
+		#.
+		#Additionally display materials of a Rail Network while f3 debug mode is active
+		showExtendedTrackGraphOnF3 = false
 		#.
 		#Display nodes and edges of a Railway Network while f3 debug mode is active
 		showTrackGraphOnF3 = false

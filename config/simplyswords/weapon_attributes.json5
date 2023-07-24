@@ -22,6 +22,7 @@
   "greathammer_positive_damage_modifier": 4.0,
   "chakram_positive_damage_modifier": 0.0,
   "scythe_positive_damage_modifier": 1.0,
+  "halberd_positive_damage_modifier": 3.0,
 
 // -- Negative Damage Modifiers -- 
 // Example use-case: Adding 3 to a value below will DECREASE the in-game damage of that weapon type by 3 
@@ -40,15 +41,39 @@
   "greathammer_negative_damage_modifier": 0.0,
   "chakram_negative_damage_modifier": 1.0,
   "scythe_negative_damage_modifier": 0.0,
+  "halberd_negative_damage_modifier": 0.0,
 
 // -- Base Damage Modifiers -- 
 // Positive & Negative damage modifiers scale off these base values 
 // --------------------------- 
   "iron_damage_modifier": 3.0,
-  "gold_damage_modifier": 2.0,
+  "gold_damage_modifier": 3.0,
   "diamond_damage_modifier": 3.0,
   "netherite_damage_modifier": 3.0,
   "runic_damage_modifier": 3.0,
+  "adamantite_damage_modifier": 3.0,
+  "aquarium_damage_modifier": 3.0,
+  "banglum_damage_modifier": 3.0,
+  "carmot_damage_modifier": 3.0,
+  "kyber_damage_modifier": 3.0,
+  "mythril_damage_modifier": 3.0,
+  "orichalcum_damage_modifier": 3.0,
+  "durasteel_damage_modifier": 3.0,
+  "osmium_damage_modifier": 3.0,
+  "prometheum_damage_modifier": 3.0,
+  "quadrillum_damage_modifier": 3.0,
+  "runite_damage_modifier": 3.0,
+  "star_platinum_damage_modifier": 3.0,
+  "bronze_damage_modifier": 3.0,
+  "copper_damage_modifier": 3.0,
+  "steel_damage_modifier": 3.0,
+  "palladium_damage_modifier": 3.0,
+  "stormyx_damage_modifier": 3.0,
+  "celestium_damage_modifier": 3.0,
+  "metallurgium_damage_modifier": 3.0,
+  "gobber_damage_modifier": 1.0,
+  "gobber_nether_damage_modifier": 3.0,
+  "gobber_end_damage_modifier": 6.0,
 
 // -- Attack Speed Modifiers -- 
 // Recommended range: -1.0 to -3.7, with -1.0 being fast and -3.7 being slow 
@@ -67,6 +92,7 @@
   "greathammer_attackspeed": -3.2,
   "chakram_attackspeed": -3.0,
   "scythe_attackspeed": -2.7,
+  "halberd_attackspeed": -2.8,
 
 
 // -- UNIQUE ATTRIBUTES CONFIGURATION -- 
@@ -101,6 +127,9 @@
   "arcanethyst_damage_modifier": 7.0,
   "thunderbrand_damage_modifier": 7.0,
   "lichblade_damage_modifier": 7.0,
+  "shadowsting_damage_modifier": -2.0,
+  "sunfire_damage_modifier": 3.0,
+  "harbinger_damage_modifier": 3.0,
 
 // -- Attack Speed Modifiers -- 
 // Recommended range: -1.0 to -3.7, with -1.0 being fast and -3.7 being slow 
@@ -125,8 +154,11 @@
   "frostfall_attackspeed": -2.5,
   "moltenedge_attackspeed": -2.1,
   "livyatan_attackspeed": -2.1,
-  "icewhisper_attackspeed": -3.1,
-  "arcanethyst_attackspeed": -3.1,
-  "thunderbrand_attackspeed": -3.1,
-  "lichblade_attackspeed": -3.1
+  "icewhisper_attackspeed": -2.7,
+  "arcanethyst_attackspeed": -2.7,
+  "thunderbrand_attackspeed": -2.7,
+  "lichblade_attackspeed": -3.1,
+  "shadowsting_attackspeed": -1.7,
+  "sunfire_attackspeed": -2.4,
+  "harbinger_attackspeed": -2.4
 }

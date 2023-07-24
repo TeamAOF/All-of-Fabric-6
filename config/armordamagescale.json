@@ -1,0 +1,18 @@
+{
+  "armorFormula": {
+    "desc:": "Armor damage reduction formula. Input values: armor,damage Default formula:damage*(15/(armor+15))",
+    "armorFormula": "damage*(15/(armor+15))"
+  },
+  "toughnessFormula": {
+    "desc:": "Armor toughness reduces damage in relation to percent health lost.Input values:hitpct(0-1), toughness, damage. Default: damage*(1/(toughness/10+1)*hitpct+(1-hitpct))",
+    "toughnessFormula": "damage*(1/(toughness/10+1)*hitpct+(1-hitpct))"
+  },
+  "playerdamageFormula": {
+    "desc:": "Player damage normalization, scales player damage caused to better balance modded weapons and combat. Input values:damage . To disable put just: damage",
+    "playerdamageFormula": "damage*(100/(damage+100))"
+  },
+  "debugprint": {
+    "desc:": "Set to true to enable log debug output, default: false.",
+    "debugprint": false
+  }
+}

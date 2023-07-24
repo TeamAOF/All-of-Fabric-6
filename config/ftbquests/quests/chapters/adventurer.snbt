@@ -413,7 +413,7 @@
 			subtitle: "Dive into the story of Dead Cells!"
 			tasks: [{
 				dimension: "minecells:prison"
-				icon: "minecells:charged_interdimensional_rune"
+				icon: "minecells:conjunctivius_respawn_rune"
 				id: "09B4372F749D9625"
 				type: "dimension"
 			}]

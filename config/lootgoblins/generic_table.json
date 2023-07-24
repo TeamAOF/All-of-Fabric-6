@@ -1,0 +1,494 @@
+[
+  {
+    "field_13353": "minecraft",
+    "field_13355": "granite"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "andesite"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "diorite"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "blackstone"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "tuff"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "stone"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "deepslate"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "lapis_lazuli"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "emerald"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "saddle"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "lead"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "acacia_wood"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "birch_wood"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "dark_oak_wood"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "jungle_wood"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "oak_wood"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "spruce_wood"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "gold_nugget"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "iron_nugget"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "amethyst_shard"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "apple"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "potato"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "beetroot"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "bamboo"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "honeycomb"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "gunpowder"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "ice"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "glistering_melon_slice"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "golden_carrot"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "melon"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "pumpkin"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "fishing_rod"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "coal"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "charcoal"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "fire_charge"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "beef"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "porkchop"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "chicken"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "cod"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "salmon"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "bread"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "sponge"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "glass"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "tinted_glass"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "white_wool"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "obsidian"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "crying_obsidian"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "bone"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "rotten_flesh"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "spider_eye"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "string"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "blaze_rod"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "nether_wart"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "kelp"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "end_rod"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "red_mushroom"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "brown_mushroom"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "crimson_fungus"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "warped_fungus"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "torch"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "redstone_torch"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "soul_torch"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "soul_sand"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "soul_soil"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "soul_campfire"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "soul_lantern"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "lantern"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "campfire"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "ender_eye"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "ender_pearl"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "diamond"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "iron_ingot"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "gold_ingot"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "lily_pad"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "shulker_shell"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "egg"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "scaffolding"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "dragon_head"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "dragon_breath"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "dragon_egg"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "creeper_head"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "zombie_head"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "honeycomb"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "honey_bottle"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "candle"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "minecart"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "tnt"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "rail"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "powered_rail"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "activator_rail"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "detector_rail"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "stick"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "piston"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "sticky_piston"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "carrot_on_a_stick"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "warped_fungus_on_a_stick"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "slime_ball"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "bucket"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "milk_bucket"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "lava_bucket"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "water_bucket"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "brick"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "feather"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "scute"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "clay_ball"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "leather"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "rabbit_foot"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "rabbit_hide"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "rabbit_stew"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "mushroom_stew"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "cocoa_beans"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "glowstone_dust"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "glow_berries"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "item_frame"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "glow_item_frame"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "gunpowder"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "iron_block"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "gold_block"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "copper_block"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "diamond"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "redstone_block"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "cobweb"
+  },
+  {
+    "field_13353": "minecraft",
+    "field_13355": "redstone"
+  }
+]

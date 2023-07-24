@@ -156,11 +156,11 @@
   },
   "corruptedChampionConfigEntries": {
     "corrupted_champion": {
-      "healthInCastingPhase": 400.0,
-      "healthInHuntingPhase": 200.0,
-      "damageCastingPhase": 30.0,
-      "damageHuntingPhaseAddition": 40.0,
-      "armor": 14.0,
+      "healthInCastingPhase": 500.0,
+      "healthInHuntingPhase": 400.0,
+      "damageCastingPhase": 34.0,
+      "damageHuntingPhaseAddition": 45.0,
+      "armor": 17.0,
       "armorToughness": 12.0,
       "speedInHuntPhase": 0.15,
       "durationHuntingPhase": 800,
@@ -168,8 +168,8 @@
       "durationHealingSpell": 700,
       "durationLevitationSpell": 150,
       "maxAmountSkullsInShootSkullSpell": 5,
-      "maxSummonedMobs": 30,
-      "maxGroupSizeSummonedMobs": 5,
+      "maxSummonedMobs": 35,
+      "maxGroupSizeSummonedMobs": 6,
       "ghoulSpawnTimerInFight": 6000,
       "isBloodCollectableEntity": [
         "entity.minecraft.villager"

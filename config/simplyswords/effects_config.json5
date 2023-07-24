@@ -91,6 +91,16 @@
   "frostward_radius": 5.0,
   "frostward_slow_duration": 60.0,
 
+// --------------------------- 
+// -- Runic Power: Momentum -- 
+// --------------------------- 
+  "momentum_cooldown": 140.0,
+
+// ------------------------- 
+// -- Runic Power: Imbued -- 
+// ------------------------- 
+  "imbued_chance": 15.0,
+
 // ---------------------------- 
 // -- Unique Effect: Watcher -- 
 // -- Restore amount refers to health gained from each enemy in range -- 
@@ -105,13 +115,13 @@
 // -- Instantkill Threshold refers to the % of maxhealth an enemy must be UNDER in order for the effect to proc. Where 1 = 100% -- 
 // ------------------------- 
   "omen_chance": 75.0,
-  "omen_absorption_amount": 1.0,
-  "omen_instantkill_threshold": 0.25,
 
 // ------------------------------- 
 // -- Unique Effect: Soul Steal -- 
 // Duration refers to the haste, slow, and glow effects 
 // ------------------------------- 
+  "omen_absorption_amount": 1.0,
+  "omen_instantkill_threshold": 0.25,
   "steal_chance": 25.0,
   "steal_duration": 400.0,
   "steal_invis_duration": 120.0,
@@ -154,7 +164,7 @@
 // ------------------------------ 
 // -- Unique Effect: Ember Ire -- 
 // ------------------------------ 
-  "ember_ire_chance": 15.0,
+  "ember_ire_chance": 30.0,
   "ember_ire_duration": 150.0,
 
 // ---------------------------------- 
@@ -257,7 +267,7 @@
 // -- Unique Effect: Soul Anguish -- 
 // --------------------------------- 
   "soulanguish_radius": 3.0,
-  "soulanguish_damage": 1.0,
+  "soulanguish_damage": 4.0,
   "soulanguish_cooldown": 700.0,
   "soulanguish_duration": 500.0,
   "soulanguish_heal": 0.5,
@@ -269,5 +279,28 @@
   "shockdeflect_block_duration": 35.0,
   "shockdeflect_damage": 12.0,
   "shockdeflect_cooldown": 90.0,
-  "shockdeflect_parry_duration": 10.0
+  "shockdeflect_parry_duration": 10.0,
+
+// ------------------------------- 
+// -- Unique Effect: Shadowmist -- 
+// ------------------------------- 
+  "shadowmist_cooldown": 200.0,
+  "shadowmist_chance": 25.0,
+  "shadowmist_damage_multiplier": 0.8,
+  "shadowmist_blind_duration": 60.0,
+  "shadowmist_radius": 4.0,
+
+// ------------------------------------- 
+// -- Unique Effect: Abyssal Standard -- 
+// ------------------------------------- 
+  "abyssalstandard_cooldown": 700.0,
+  "abyssalstandard_chance": 15.0,
+  "abyssalstandard_damage": 3.0,
+
+// --------------------------------------- 
+// -- Unique Effect: Righteous Standard -- 
+// --------------------------------------- 
+  "righteousstandard_cooldown": 700.0,
+  "righteousstandard_chance": 15.0,
+  "righteousstandard_damage": 3.0
 }

@@ -1,3 +1,54 @@
+### All of Fabric 6 | v1.9.0 | Explorer's Update
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.9.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.9.0.md)_
+
+## DISCLAIMER: Delete the Mincecells dimension before updating!
+
+### Added Mods
+
+  * [Armor & damage scaling[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/armor-damage-scaling-forge-fabric) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+  * [Banilla Claws](https://www.curseforge.com/minecraft/mc-mods/banilla-claws)
+  * [Create Jetpack](https://www.curseforge.com/minecraft/mc-mods/create-jetpack)
+  * [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard)
+  * [Eldritch Mobs](https://www.curseforge.com/minecraft/mc-mods/eldritch-mobs)
+  * [Level Text Fix](https://www.curseforge.com/minecraft/mc-mods/level-text-fix)
+  * [Loot Goblins](https://www.curseforge.com/minecraft/mc-mods/loot-goblins)
+  * [Marium's Soulslike Weaponry](https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry)
+  * [Minerally](https://www.curseforge.com/minecraft/mc-mods/minerally)
+  * [ModernFix](https://www.curseforge.com/minecraft/mc-mods/modernfix)
+  * [Rechiseled: Create](https://www.curseforge.com/minecraft/mc-mods/rechiseled-create)
+  * [SkyLib](https://www.curseforge.com/minecraft/mc-mods/skylib)
+  * [Strange Berries](https://www.curseforge.com/minecraft/mc-mods/strange-berries)
+
+### Changes/Improvements
+
+* Create updated!
+* More MI retextures (Facu)
+* Added the Basic Growth Chamber custom machine, early game version of the Growth Chamber (Trent).
+* Loading times has been greatly improved.
+* Simply swords rare & unique drop chances has been lowered (AK).
+* Added Corrupted Champion to Boss Rush quest (AK).
+* Corrupted Champion health in casting phase has been increased, 400 > 500 (AK).
+* Corrupted Champion health in hunting phase has been increased, 200 > 300 (AK).
+* Corrupted Champion damage in casting phase has been increased, 30 > 34 (AK).
+* Corrupted Champion damage in hunting phase has been increased, 40 > 45 (AK).
+* Corrupted Champion armor has been increased, 14 > 17 (AK).
+* Corrupted Champion max summoned mobs has been increased, 30 > 35 (AK).
+* Corrupted Champion max group size of summoned mobs has been increased, 5 > 6 (AK).
+* Hide Iron Chests: Restocked barrels from REI (AK).
+* Added farmers delight crops to CTOV villages.
+* Compat between Chef's Delight & CTOV villages, you can now find restaurants.
+* Added button/ui icons (AK).
+* Removed coal/charcoal compressed blocks due to exploits, fuel calculations are off (AK).
+* Blacklised Void Shadow to be picked up with lassos (AK).
+
+### Bug Fixes
+
+* Spectrum jetpacks crashing when sprinting.
+* Mechanical pumps not working.
+* Old roots not dropping from grass.
+---
+
 ### All of Fabric 6 | v1.8.2
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.8.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.8.2.md)_

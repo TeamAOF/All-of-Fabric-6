@@ -14,7 +14,5 @@ ServerEvents.recipes(e => {
     S: 'modern_industrialization:singularity',
     G: 'modern_industrialization:quantum_upgrade',
     H: 'modern_industrialization:quantum_machine_hull'
-  }
-    )
-    .id('modern_industrialization:electric_age/machine/assembler/replicator')
+  })
 })
