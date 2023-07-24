@@ -183,6 +183,20 @@
 				""
 				"&bVoid Shadow:"
 				"A new dimension where you will find and fight the Void Shadow."
+				""
+				"&bCorrupted Champion:"
+				"Collect the three bone staff pieces (Ominous Bone Staff Fragment) from the Ruins structure. Every Ruin has a unique fragment (upper, middle and lower bone staff fragment)."
+				""
+				"Obtain a bone dagger from an Acolyte, or craft it yourself."
+				""
+				"Hold a glass bottle in your offhand and start killing villager with the bone dagger. You'll get a Vial of Blood. Fill the vial to the limit."
+				""
+				"Find the Lich Prison structure, a large floating island above the oceans."
+				""
+				"Wait until it is night, place the bone staff pieces (from upper to lower) on the dark corrupted deepslate blocks in front of the altar (they should fairly stand out)."
+				""
+				"Pour the Vial of Blood into the altar."
+				"{@pagebreak}"
 			]
 			icon: {
 				Count: 1b
@@ -336,6 +350,13 @@
 					entity: "adventurez:void_shadow"
 					icon: "fwaystones:void_totem"
 					id: "51F87D8C62041F73"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "graveyard:lich"
+					icon: "graveyard:upper_bone_staff"
+					id: "5F2CD2613002D74C"
 					type: "kill"
 					value: 1L
 				}
