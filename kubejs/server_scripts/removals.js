@@ -61,7 +61,12 @@ ServerEvents.recipes((event) => {
         'techreborn:crafting_table/dust/platinum_dust_from_small',
         'techreborn:smelting/platinum_ingot_from_c_platinum_dusts',
         'techreborn:blasting/platinum_ingot_from_c_platinum_dusts',
-        'ad_astra:hammering/steel_plate'
+        'ad_astra:hammering/steel_plate',
+        'modern_industrialization:electric_age/machine/assembler/replicator',
+        'wands:stone_wand2',
+        'techreborn:blast_furnace/steel_ingot_from_small_dust',
+        'techreborn:crafting_table/dust/steel_dust_from_small',
+        'techreborn:crafting_table/small_dust/steel_small_dust_from_dust'
 
     ];
 
@@ -126,7 +131,17 @@ ServerEvents.recipes((event) => {
         'indrev:silver_chestplate',
         'indrev:silver_leggings',
         'indrev:silver_boots',
-        'bakery:strawberry_seeds'
+        'bakery:strawberry_seeds',
+        'compressed:charcoal_block',
+        'compressed:charcoal_block_i',
+        'compressed:charcoal_block_ii',
+        'compressed:charcoal_block_iii',
+        'compressed:charcoal_block_iv',
+        'compressed:coal_block',
+        'compressed:coal_block_i',
+        'compressed:coal_block_ii',
+        'compressed:coal_block_iii',
+        'compressed:coal_block_iv'
     ];
 
     id.forEach((id) => {
