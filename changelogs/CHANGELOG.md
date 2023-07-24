@@ -6,7 +6,7 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Added Mods
 
-  * [Armor & damage scaling[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/armor-damage-scaling-forge-fabric) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+  * [Armor & damage scaling](https://www.curseforge.com/minecraft/mc-mods/armor-damage-scaling-forge-fabric)
   * [Banilla Claws](https://www.curseforge.com/minecraft/mc-mods/banilla-claws)
   * [Create Jetpack](https://www.curseforge.com/minecraft/mc-mods/create-jetpack)
   * [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard)
