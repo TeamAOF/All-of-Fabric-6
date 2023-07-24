@@ -41,6 +41,7 @@ ServerEvents.tags('item', event => {
     event.add("c:brass_ingots", "create:brass_ingot")
     event.add("c:brass_blocks", "create:brass_block")
     event.add("c:raw_zinc_ores", "create:raw_zinc")
+    event.add("c:zinc_dusts", "create:crushed_raw_zinc")
     event.add("c:gold_plates", "create:golden_sheet")
 
     // Create Additions
@@ -69,6 +70,7 @@ ServerEvents.tags('item', event => {
     event.add("c:titanium_small_dusts", "modern_industrialization:titanium_tiny_dust")
     event.add("c:platinum_small_dusts", "modern_industrialization:platinum_tiny_dust")
     event.add("c:emerald_small_dusts", "modern_industrialization:emerald_tiny_dust")
+    event.add("c:steel_small_dusts", "modern_industrialization:steel_tiny_dust")
 
     event.add("c:plates/gold", "modern_industrialization:gold_plate")
     event.add("c:plates/iron", "modern_industrialization:iron_plate")
