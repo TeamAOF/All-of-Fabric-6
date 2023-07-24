@@ -1911,7 +1911,7 @@
 					id: "2721582C052343E1"
 					item: {
 						Count: 1b
-						id: "create:diving_helmet"
+						id: "create:copper_diving_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -1922,7 +1922,7 @@
 					id: "6FD576D1B9442B12"
 					item: {
 						Count: 1b
-						id: "create:diving_boots"
+						id: "create:copper_diving_boots"
 						tag: {
 							Damage: 0
 						}
