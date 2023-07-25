@@ -2183,6 +2183,54 @@
 			x: 6.5d
 			y: -7.0d
 		}
+		{
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "669EB4F734C6C683"
+			rewards: [
+				{
+					id: "1682BA59A40B7BE0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "686D428C7E96848E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Prevents buffed mobs from spawning in a chunk when activated with redstone."
+			tasks: [{
+				id: "716C3716D26DAACE"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						HideFlags: 127
+						"Polymer$itemId": "eldritch_mobs:soothing_lantern"
+						SkullOwner: {
+							Id: [I;
+								0
+								0
+								0
+								0
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzNWNhODY0N2MxZjJiYmU0NGU0ZmM4NDYxZDU1YjlmMDJiMjFmN2Y5YWJlM2JjNmFkZDk4MjgwMjk5NmJmOSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"italic\":false,\"color\":\"white\",\"extra\":[{\"extra\":[{\"text\":\"Soothing Lantern\"}],\"text\":\"\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
 	]
 	title: "Tools and Armory"
 }

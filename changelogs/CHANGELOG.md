@@ -1,3 +1,27 @@
+### All of Fabric 6 | v1.9.1
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.9.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.9.1.md)_
+
+### Added Mods
+
+  * [Create Slice & Dice](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice)
+
+### Removed Mods
+
+  * [Loot Goblins](https://www.curseforge.com/minecraft/mc-mods/loot-goblins)
+  * [SkyLib](https://www.curseforge.com/minecraft/mc-mods/skylib)
+
+### Changes/Improvements
+
+* Added Soothing Lantern quest (AK).
+
+### Bug Fixes
+
+* Right-click special features not working with certain weapons (AK).
+* Generated without fuel crashes.
+* Strange berries not dropping when broken.
+---
+
 ### All of Fabric 6 | v1.9.0 | Explorer's Update
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.9.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.9.0.md)_
