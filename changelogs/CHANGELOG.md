@@ -14,10 +14,12 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ### Changes/Improvements
 
 * Added Soothing Lantern quest (AK).
+* Buffed soul's bosses health (AK).
 
 ### Bug Fixes
 
 * Right-click special features not working with certain weapons (AK).
+* Roots mana bar being overlapped (AK).
 * Generated without fuel crashes.
 * Strange berries not dropping when broken.
 ---
