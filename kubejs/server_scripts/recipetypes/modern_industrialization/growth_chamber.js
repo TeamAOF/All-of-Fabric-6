@@ -175,6 +175,37 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
+        ('aof6:modern_industrialization/b_botania_flowers'),
+        12,
+        300,
+        [
+            { amount: 1, item: ('kubejs:botania_fertilizer') }
+        ],
+        [
+            { amount: 1, item: ('botania:white_mystical_flower') },
+            { amount: 1, item: ('botania:orange_mystical_flower') },
+            { amount: 1, item: ('botania:magenta_mystical_flower') },
+            { amount: 1, item: ('botania:light_blue_mystical_flower') },
+            { amount: 1, item: ('botania:yellow_mystical_flower') },
+            { amount: 1, item: ('botania:lime_mystical_flower') },
+            { amount: 1, item: ('botania:pink_mystical_flower') },
+            { amount: 1, item: ('botania:gray_mystical_flower') },
+            { amount: 1, item: ('botania:light_gray_mystical_flower') },
+            { amount: 1, item: ('botania:cyan_mystical_flower') },
+            { amount: 1, item: ('botania:purple_mystical_flower') },
+            { amount: 1, item: ('botania:blue_mystical_flower') },
+            { amount: 1, item: ('botania:brown_mystical_flower') },
+            { amount: 1, item: ('botania:green_mystical_flower') },
+            { amount: 1, item: ('botania:red_mystical_flower') },
+            { amount: 1, item: ('botania:black_mystical_flower') }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
         ('aof6:modern_industrialization/oak_sapling'),
         12,
         300,
