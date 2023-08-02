@@ -99,11 +99,11 @@ ServerEvents.recipes(e => {
 
     // -- croptopia mulch and water to trees
     growthChamber(
-        ('aof6:modern_industrialization/croptopia_trees'),
+        ('aof6:modern_industrialization/a_croptopia_trees'),
         12,
         600,
         [
-            { amount: 1, item: ('kubejs:a_croptopia_mulch'), probability: 0.33 }
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.33 }
         ],
         [
             { amount: 2, item: ('croptopia:almond'), probability: 0.02 },
@@ -3380,7 +3380,7 @@ ServerEvents.recipes(e => {
             { amount: 2, item: ('byg:redwood_log') },
             { amount: 1, item: ('byg:redwood_sapling'), probability: 0.2 },
             { amount: 1, item: ('minecraft:stick'), probability: 0.2 },
-            { amount: 1-, item: ('byg:redwood_leaves') }
+            { amount: 10, item: ('byg:redwood_leaves') }
     
         ],
         [
