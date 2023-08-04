@@ -1302,7 +1302,7 @@
 			subtitle: "Complete all quests to obtain the trophy!"
 			tasks: [{
 				id: "11F8FBAD482A9E3E"
-				title: "&9Applied &bEnergetics"
+				title: "&9Applied &bEnergistics"
 				type: "checkmark"
 			}]
 			title: "&9Applied &bEnergistics"
