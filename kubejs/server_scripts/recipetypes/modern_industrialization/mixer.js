@@ -88,4 +88,30 @@ ServerEvents.recipes(event => {
       "amount": 5
     }
   })
+
+  // Botania Flowers Fertilizer
+  event.custom({
+    "type": "modern_industrialization:mixer",
+    "id": "aof:mi_mixer_botania_fertilizer",
+    "eu": 2,
+    "duration": 100,
+    "item_inputs": [
+      {
+        "item": "botania:fertilizer",
+        "amount": 1
+      },
+      {
+        "tag": "botania:petals",
+        "amount": 2
+      },
+      {
+        "item": "kubejs:empty_fertilizer_bag",
+        "amount": 1
+      }
+    ],
+    "item_outputs": {
+      "item": "kubejs:botania_fertilizer",
+      "amount": 4
+    }
+  })
 })

@@ -12,6 +12,7 @@ StartupEvents.registry('item', event => {
 	event.create('invisible_chestplate', 'chestplate').displayName('Invisible Chestplate').tier('invisible').tooltip('§6Works in cosmetic slots too!')
 	event.create('invisible_leggings', 'leggings').displayName('Invisible Leggings').tier('invisible').tooltip('§6Works in cosmetic slots too!')
 	event.create('invisible_boots', 'boots').displayName('Invisible Boots').tier('invisible').tooltip('§6Works in cosmetic slots too!')
+	event.create('botania_fertilizer').displayName('Botania Fertilizer') //original bag texture from sukuro120 on planetminecraft
 });
 
 ItemEvents.armorTierRegistry(event => {

@@ -33,7 +33,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 2, item: ('mysticalagriculture:inferium_essence') },
-            { amount: 1, item: ('mysticalagriculture:inferium_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:inferium_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
 
         ],
         [
@@ -54,7 +55,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:air_essence') },
-            { amount: 1, item: ('mysticalagriculture:air_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:air_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -76,7 +78,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:earth_essence') },
-            { amount: 1, item: ('mysticalagriculture:earth_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:earth_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -98,7 +101,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:water_essence') },
-            { amount: 1, item: ('mysticalagriculture:water_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:water_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -120,7 +124,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:fire_essence') },
-            { amount: 1, item: ('mysticalagriculture:fire_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:fire_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -142,7 +147,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:stone_essence') },
-            { amount: 1, item: ('mysticalagriculture:stone_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:stone_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -164,7 +170,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:dirt_essence') },
-            { amount: 1, item: ('mysticalagriculture:dirt_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:dirt_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -186,7 +193,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:wood_essence') },
-            { amount: 1, item: ('mysticalagriculture:wood_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:wood_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -208,7 +216,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:ice_essence') },
-            { amount: 1, item: ('mysticalagriculture:ice_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:ice_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -230,7 +239,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:deepslate_essence') },
-            { amount: 1, item: ('mysticalagriculture:deepslate_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:deepslate_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -252,7 +262,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:nature_essence') },
-            { amount: 1, item: ('mysticalagriculture:nature_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:nature_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -274,7 +285,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:dye_essence') },
-            { amount: 1, item: ('mysticalagriculture:dye_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:dye_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -296,7 +308,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:nether_essence') },
-            { amount: 1, item: ('mysticalagriculture:nether_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:nether_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -318,7 +331,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:coal_essence') },
-            { amount: 1, item: ('mysticalagriculture:coal_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:coal_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -340,7 +354,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:coral_essence') },
-            { amount: 1, item: ('mysticalagriculture:coral_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:coral_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -362,7 +377,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:honey_essence') },
-            { amount: 1, item: ('mysticalagriculture:honey_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:honey_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -384,7 +400,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:amethyst_essence') },
-            { amount: 1, item: ('mysticalagriculture:amethyst_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:amethyst_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -406,7 +423,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:pig_essence') },
-            { amount: 1, item: ('mysticalagriculture:pig_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:pig_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -428,7 +446,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:chicken_essence') },
-            { amount: 1, item: ('mysticalagriculture:chicken_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:chicken_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -450,7 +469,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:cow_essence') },
-            { amount: 1, item: ('mysticalagriculture:cow_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:cow_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -472,7 +492,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:sheep_essence') },
-            { amount: 1, item: ('mysticalagriculture:sheep_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:sheep_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -494,7 +515,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:squid_essence') },
-            { amount: 1, item: ('mysticalagriculture:squid_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:squid_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -516,7 +538,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:fish_essence') },
-            { amount: 1, item: ('mysticalagriculture:fish_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:fish_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -538,7 +561,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:slime_essence') },
-            { amount: 1, item: ('mysticalagriculture:slime_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:slime_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -560,7 +584,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:turtle_essence') },
-            { amount: 1, item: ('mysticalagriculture:turtle_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:turtle_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -582,7 +607,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:iron_essence') },
-            { amount: 1, item: ('mysticalagriculture:iron_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:iron_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -604,7 +630,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:copper_essence') },
-            { amount: 1, item: ('mysticalagriculture:copper_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:copper_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -626,7 +653,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:nether_quartz_essence') },
-            { amount: 1, item: ('mysticalagriculture:nether_quartz_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:nether_quartz_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -648,7 +676,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:glowstone_essence') },
-            { amount: 1, item: ('mysticalagriculture:glowstone_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:glowstone_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -670,7 +699,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:redstone_essence') },
-            { amount: 1, item: ('mysticalagriculture:redstone_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:redstone_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -692,7 +722,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:obsidian_essence') },
-            { amount: 1, item: ('mysticalagriculture:obsidian_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:obsidian_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -714,7 +745,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:prismarine_essence') },
-            { amount: 1, item: ('mysticalagriculture:prismarine_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:prismarine_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -736,7 +768,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:zombie_essence') },
-            { amount: 1, item: ('mysticalagriculture:zombie_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:zombie_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -758,7 +791,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:skeleton_essence') },
-            { amount: 1, item: ('mysticalagriculture:skeleton_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:skeleton_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -780,7 +814,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:creeper_essence') },
-            { amount: 1, item: ('mysticalagriculture:creeper_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:creeper_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -802,7 +837,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:spider_essence') },
-            { amount: 1, item: ('mysticalagriculture:spider_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:spider_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -824,7 +860,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:rabbit_essence') },
-            { amount: 1, item: ('mysticalagriculture:rabbit_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:rabbit_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -846,7 +883,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:gold_essence') },
-            { amount: 1, item: ('mysticalagriculture:gold_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:gold_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -868,7 +906,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:lapis_lazuli_essence') },
-            { amount: 1, item: ('mysticalagriculture:lapis_lazuli_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:lapis_lazuli_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -890,7 +929,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:end_essence') },
-            { amount: 1, item: ('mysticalagriculture:end_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:end_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -912,7 +952,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:experience_essence') },
-            { amount: 1, item: ('mysticalagriculture:experience_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:experience_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -934,7 +975,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:blaze_essence') },
-            { amount: 1, item: ('mysticalagriculture:blaze_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:blaze_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -956,7 +998,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:ghast_essence') },
-            { amount: 1, item: ('mysticalagriculture:ghast_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:ghast_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -978,7 +1021,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:enderman_essence') },
-            { amount: 1, item: ('mysticalagriculture:enderman_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:enderman_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1000,7 +1044,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:diamond_essence') },
-            { amount: 1, item: ('mysticalagriculture:diamond_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:diamond_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1022,7 +1067,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:emerald_essence') },
-            { amount: 1, item: ('mysticalagriculture:emerald_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:emerald_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1044,7 +1090,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:netherite_essence') },
-            { amount: 1, item: ('mysticalagriculture:netherite_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:netherite_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1066,7 +1113,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:wither_skeleton_essence') },
-            { amount: 1, item: ('mysticalagriculture:wither_skeleton_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:wither_skeleton_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1088,7 +1136,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:sulfur_essence') },
-            { amount: 1, item: ('mysticalagriculture:sulfur_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:sulfur_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1110,7 +1159,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:tin_essence') },
-            { amount: 1, item: ('mysticalagriculture:tin_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:tin_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1132,7 +1182,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:bronze_essence') },
-            { amount: 1, item: ('mysticalagriculture:bronze_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:bronze_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1154,7 +1205,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:zinc_essence') },
-            { amount: 1, item: ('mysticalagriculture:zinc_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:zinc_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1176,7 +1228,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:brass_essence') },
-            { amount: 1, item: ('mysticalagriculture:brass_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:brass_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1198,7 +1251,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:silver_essence') },
-            { amount: 1, item: ('mysticalagriculture:silver_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:silver_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1220,7 +1274,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:lead_essence') },
-            { amount: 1, item: ('mysticalagriculture:lead_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:lead_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1242,7 +1297,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:nickel_essence') },
-            { amount: 1, item: ('mysticalagriculture:nickel_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:nickel_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1264,7 +1320,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:nikolite_essence') },
-            { amount: 1, item: ('mysticalagriculture:nikolite_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:nikolite_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1286,7 +1343,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:antimony_essence') },
-            { amount: 1, item: ('mysticalagriculture:antimony_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:antimony_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1308,7 +1366,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:sky_stone_essence') },
-            { amount: 1, item: ('mysticalagriculture:sky_stone_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:sky_stone_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1330,7 +1389,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:certus_quartz_essence') },
-            { amount: 1, item: ('mysticalagriculture:certus_quartz_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:certus_quartz_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1352,7 +1412,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:fluix_essence') },
-            { amount: 1, item: ('mysticalagriculture:fluix_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:fluix_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1374,7 +1435,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:rubber_essence') },
-            { amount: 1, item: ('mysticalagriculture:rubber_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:rubber_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1396,7 +1458,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:ruby_essence') },
-            { amount: 1, item: ('mysticalagriculture:ruby_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:ruby_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1418,7 +1481,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:sapphire_essence') },
-            { amount: 1, item: ('mysticalagriculture:sapphire_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:sapphire_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
@@ -1440,7 +1504,8 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 1, item: ('mysticalagriculture:peridot_essence') },
-            { amount: 1, item: ('mysticalagriculture:peridot_seeds'), probability: 0.05 }
+            { amount: 1, item: ('mysticalagriculture:peridot_seeds'), probability: 0.05 },
+            { amount: 1, item: ('mysticalagriculture:fertilized_essence'), probability: 0.05 }
             
 
         ],
