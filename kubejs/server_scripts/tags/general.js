@@ -53,4 +53,20 @@ ServerEvents.tags('block', event => {
   // Graves fix
   event.add('minecells:conjunctivius_unbreakable', 'yigd:grave')
 
+  //fix BYG bookshelves not working for enchanting
+  event.add('chipped:bookshelf', /^byg:.+_bookshelf$/)
+
+  // AE2 growth accelerator support for additional budding blocks
+  const budding_blocks = [
+    'byg:budding_ametrine_ore',
+    'byg:budding_subzero_crystal',
+    'byg:budding_therium_crystal',
+    'spectrum:budding_topaz',
+    'spectrum:budding_citrine',
+    'spectrum:budding_onyx'
+  ];
+
+  budding_blocks.forEach((block) => {
+    event.add('c:budding_blocks', block)
+  });
 });
