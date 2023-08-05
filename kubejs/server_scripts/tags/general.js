@@ -53,4 +53,7 @@ ServerEvents.tags('block', event => {
   // Graves fix
   event.add('minecells:conjunctivius_unbreakable', 'yigd:grave')
 
+  //fix BYG bookshelves not working for enchanting
+  event.add('chipped:bookshelf', /^byg:.+_bookshelf$/)
+
 });
