@@ -2204,27 +2204,7 @@
 				id: "716C3716D26DAACE"
 				item: {
 					Count: 1b
-					id: "minecraft:player_head"
-					tag: {
-						HideFlags: 127
-						"Polymer$itemId": "eldritch_mobs:soothing_lantern"
-						SkullOwner: {
-							Id: [I;
-								0
-								0
-								0
-								0
-							]
-							Properties: {
-								textures: [{
-									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzNWNhODY0N2MxZjJiYmU0NGU0ZmM4NDYxZDU1YjlmMDJiMjFmN2Y5YWJlM2JjNmFkZDk4MjgwMjk5NmJmOSJ9fX0="
-								}]
-							}
-						}
-						display: {
-							Name: "{\"italic\":false,\"color\":\"white\",\"extra\":[{\"extra\":[{\"text\":\"Soothing Lantern\"}],\"text\":\"\"}],\"text\":\"\"}"
-						}
-					}
+					id: "eldritch_mobs:soothing_lantern"
 				}
 				type: "item"
 			}]
