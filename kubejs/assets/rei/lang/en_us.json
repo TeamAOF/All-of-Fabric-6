@@ -1,6 +1,7 @@
 {
-    "rei_categories.modern_industrialization.growth_chamber": "Growth Chamber",
-    "rei_categories.modern_industrialization.basic_growth_chamber": "Basic Growth Chamber",
+    "rei_categories.modern_industrialization.electric_growth_chamber": "Electric Growth Chamber",
+    "rei_categories.modern_industrialization.steel_growth_chamber": "Steel Growth Chamber",
+    "rei_categories.modern_industrialization.bronze_growth_chamber": "Bronze Growth Chamber",
     "rei_categories.modern_industrialization.electric_seed_reprocessor": "Seed Reprocessor",
     "rei_categories.modern_industrialization.electric_composter": "Electric Composter",
     "rei_categories.modern_industrialization.mystical_incubator": "Mystical Incubator"
