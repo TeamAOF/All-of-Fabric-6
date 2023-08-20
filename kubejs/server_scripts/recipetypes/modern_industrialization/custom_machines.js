@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
       }
     ),
     event.shaped(
-      Item.of('modern_industrialization:growth_chamber', 1),
+      Item.of('modern_industrialization:electric_growth_chamber', 1),
       [ 
         'SCS',
         'TMB',
@@ -46,6 +46,23 @@ ServerEvents.recipes(event => {
         B: 'modern_industrialization:aluminum_barrel',
         E: 'modern_industrialization:electronic_circuit',
         L: 'modern_industrialization:large_pump'
+      }
+    ),
+    event.shaped(
+      Item.of('modern_industrialization:bronze_growth_chamber', 1),
+      [ 
+        'SCS',
+        'TMB',
+        'LEL'
+      ],
+      {
+        S: 'modern_industrialization:bronze_machine_casing_pipe',
+        C: 'supplementaries:clock_block',
+        T: 'modern_industrialization:bronze_tank',
+        M: 'modern_industrialization:bronze_machine_casing',
+        B: 'modern_industrialization:bronze_barrel',
+        E: 'modern_industrialization:bronze_large_plate',
+        L: 'modern_industrialization:bronze_rotor'
       }
     ),
     event.shaped(
@@ -89,18 +106,5 @@ ServerEvents.recipes(event => {
         G: 'kubejs:glue'
       }
     ),
-    event.shaped(
-      Item.of('modern_industrialization:basic_growth_chamber', 1),
-      [ 
-        'BAB',
-        'ZCW',
-        'BBB'
-      ],
-      {
-        C: 'minecraft:composter',
-        B: 'minecraft:bricks',
-        W: 'modern_industrialization:bronze_water_pump',
-        Z: 'modern_industrialization:bronze_barrel',
-        A: 'supplementaries:clock_block'
-      })
+    event.smithing('modern_industrialization:steel_growth_chamber', 'modern_industrialization:bronze_growth_chamber', 'modern_industrialization:steel_upgrade')
 })
