@@ -220,7 +220,7 @@
       "enabled": true,
       "use_without_slow": true,
       "slots": 6,
-      "quiver_skeleton_chance": 0.2,
+      "quiver_skeleton_spawn_chance": 0.025,
       "only_works_in_curio": false,
       "quiver_pickup": true
     },

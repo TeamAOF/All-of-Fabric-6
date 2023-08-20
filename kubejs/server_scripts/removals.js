@@ -141,7 +141,12 @@ ServerEvents.recipes((event) => {
         'compressed:coal_block_i',
         'compressed:coal_block_ii',
         'compressed:coal_block_iii',
-        'compressed:coal_block_iv'
+        'compressed:coal_block_iv',
+        'compressed:kelp_block',
+        'compressed:kelp_block_i',
+        'compressed:kelp_block_ii',
+        'compressed:kelp_block_iii',
+        'compressed:kelp_block_iv'
     ];
 
     id.forEach((id) => {

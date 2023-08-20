@@ -2202,10 +2202,7 @@
 			subtitle: "Prevents buffed mobs from spawning in a chunk when activated with redstone."
 			tasks: [{
 				id: "716C3716D26DAACE"
-				item: {
-					Count: 1b
-					id: "eldritch_mobs:soothing_lantern"
-				}
+				item: "eldritch_mobs:soothing_lantern"
 				type: "item"
 			}]
 			x: -7.0d

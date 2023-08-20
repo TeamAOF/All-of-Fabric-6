@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    e.recipes.create.mechanicalCrafting('modern_industrialization:replicator', [
+    e.recipes.create.mechanical_crafting('modern_industrialization:replicator', [
     'UTCBU',
     'TSGSB',
     'CGHGC',

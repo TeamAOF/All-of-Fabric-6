@@ -54,6 +54,7 @@
     "energy.enabled_entity": true,
     "fluid.enabled_block": true,
     "fluid.enabled_entity": true,
+    "fluid.display_unit": "MILLIBUCKETS",
     "progress.enabled_block": true,
     "progress.enabled_entity": true,
     "item.enabled_block": true,

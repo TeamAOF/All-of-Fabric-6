@@ -1,3 +1,39 @@
+### All of Fabric 6 | v1.10.0
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.10.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.10.0.md)_
+
+## DISCLAIMER: Growth Chamber & Mystical Incubator multiblocks has been removed, be sure to empty them.
+
+### Added Mods
+
+  * [FTB Essentials (Forge & Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-essentials-forge)
+  * [Respite Creators [Fabric] (Create and Farmer's Respite Addon)](https://www.curseforge.com/minecraft/mc-mods/respite-creators-fabric)
+
+### Changes/Improvements
+
+* Reworked Spectrum quest chapter (Gronglegrowth).
+* Rework of how the Growth Chamber & Mystical Incubator work (Keno).
+* Tempad recipe has been changed (AK).
+* Added shearing versions of tree recipes for higher leaf output (Keno).
+* AE2 growth accelerator support for additional budding blocks (Hypermoron).
+* Added botania fertilizer recipe to MI mixer (Keno).
+* Added botania flowers to growth chamber, uses botania fertilizer (Keno).
+* Remove menu icons (AK).
+* Update wax texture to be on par with new MI textures (Facu).
+* Iron chests barrels are now functional.
+
+### Bug Fixes
+
+* Typos in AE2 quests (spok).
+* Hopefully fixed the Shatterer of Worlds quest sometimes not triggering (AK).
+* BYG bookshelves not working for enchanting (Hypermoron).
+* Soothing Lantern quest not triggering (Keno).
+* Growth Chamber not dropping (Keno).
+* REI Categories for Custom MI Machines being unlocalized (Keno).
+* Missing loot tables due to outdated RS datapacks (AK).
+* G key not being bindable (Bagel).
+---
+
 ### All of Fabric 6 | v1.9.1
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.9.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.9.1.md)_

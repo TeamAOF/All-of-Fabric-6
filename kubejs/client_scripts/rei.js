@@ -52,13 +52,6 @@ const DELETED_ITEMS = [
     'mysticalagriculture:tungsten_essence',
     'bakery:strawberry_seeds',
     'create_jetpack:jetpack_placeable',
-    'ironchests:gold_barrel',
-    'ironchests:diamond_barrel',
-    'ironchests:copper_barrel',
-    'ironchests:crystal_barrel',
-    'ironchests:obsidian_barrel',
-    'ironchests:netherite_barrel',
-    'ironchests:iron_barrel',
     'spectrumjetpacks:ink_charger',
     'compressed:charcoal_block',
     'compressed:charcoal_block_i',
@@ -69,7 +62,12 @@ const DELETED_ITEMS = [
     'compressed:coal_block_i',
     'compressed:coal_block_ii',
     'compressed:coal_block_iii',
-    'compressed:coal_block_iv'
+    'compressed:coal_block_iv',
+    'compressed:kelp_block',
+    'compressed:kelp_block_i',
+    'compressed:kelp_block_ii',
+    'compressed:kelp_block_iii',
+    'compressed:kelp_block_iv'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
