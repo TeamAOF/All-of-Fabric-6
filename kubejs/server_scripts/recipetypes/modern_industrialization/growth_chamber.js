@@ -3,170 +3,1507 @@ ServerEvents.recipes(e => {
     let mi = (id) => `modern_industrialization:${id}`;
 
     let growthChamber = (id, eu, duration, item_inputs, item_outputs, fluid_inputs) => {
-        let newRecipe = {
+        let r = {
             type: mi('growth_chamber'),
             eu: eu,
-            duration: duration,
-            id: id
+            duration: duration
         }
-
-        if (item_inputs)
-            newRecipe['item_inputs'] = item_inputs;
-        if (item_outputs)
-            newRecipe['item_outputs'] = item_outputs;
-        if (fluid_inputs)
-            newRecipe['fluid_inputs'] = fluid_inputs;
-
-        e.custom(newRecipe);
+    
+        if (item_inputs) r.item_inputs = item_inputs;
+        if (item_outputs) r.item_outputs = item_outputs;
+        if (fluid_inputs) r.fluid_inputs = fluid_inputs;
+    
+        e.custom(r).id(id)
     }
 
-
-    // -- croptopia fertilizer and water to crops
     growthChamber(
-        ('aof6:modern_industrialization/a_croptopia_crops'),
-        12,
-        600,
+        ('aof6:modern_industrialization/a_artichoke'),
+        15,
+        400,
         [
-            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.33 }
+            { amount: 1, item: ('croptopia:artichoke_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
         ],
         [
-            { amount: 1, item: ('croptopia:artichoke'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:asparagus'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:barley'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:basil'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:bellpepper'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:blackbean'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:blackberry'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:blueberry'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:broccoli'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:cantaloupe'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:cauliflower'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:celery'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:chile_pepper'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:coffee_beans'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:corn'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:cranberry'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:cucumber'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:currant'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:eggplant'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:elderberry'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:ginger'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:grape'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:greenbean'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:greenonion'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:honeydew'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:hops'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:kale'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:kiwi'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:leek'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:lettuce'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:mustard'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:oat'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:olive'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:peanut'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:pepper'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:pineapple'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:radish'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:raspberry'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:rhubarb'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:rutabaga'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:saguaro'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:soybean'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:spinach'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:squash'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:strawberry'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:sweetpotato'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:tea_leaves'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:tomatillo'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:turmeric'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:turnip'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:vanilla'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:yam'), probability: 0.02 },
-            { amount: 1, item: ('croptopia:zucchini'), probability: 0.02 },
-            { amount: 1, item: ('farmersdelight:cabbage'), probability: 0.02 },
-            { amount: 1, item: ('farmersdelight:tomato'), probability: 0.02 },
-            { amount: 1, item: ('farmersdelight:onion'), probability: 0.02 },
-            { amount: 1, item: ('farmersdelight:rice'), probability: 0.02 },
-            { amount: 1, item: ('farmersdelight:rotten_tomato'), probability: 0.02 },
-
+            { amount: 2, item: ('croptopia:artichoke') },
+            { amount: 1, item: ('croptopia:artichoke_seed'), probability: 0.02 }
+    
         ],
         [
             { amount: 1000, fluid: ('minecraft:water')}
         ]
-
-    
     );
 
-    // -- croptopia mulch and water to trees
     growthChamber(
-        ('aof6:modern_industrialization/a_croptopia_trees'),
-        12,
-        600,
+        ('aof6:modern_industrialization/a_asparagus'),
+        15,
+        400,
         [
-            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.33 }
+            { amount: 1, item: ('croptopia:asparagus_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
         ],
         [
-            { amount: 2, item: ('croptopia:almond'), probability: 0.02 },
-            { amount: 2, item: ('minecraft:apple'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:apricot'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:avocado'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:banana'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:cashew'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:cherry'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:coconut'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:date'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:dragonfruit'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:fig'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:grapefruit'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:kumquat'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:lemon'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:lime'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:mango'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:nectarine'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:nutmeg'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:orange'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:peach'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:pear'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:pecan'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:persimmon'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:plum'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:starfruit'), probability: 0.02 },
-            { amount: 2, item: ('croptopia:walnut'), probability: 0.02 }
+            { amount: 2, item: ('croptopia:asparagus') },
+            { amount: 1, item: ('croptopia:asparagus_seed'), probability: 0.02 }
     
-            ],
-            [
-                { amount: 3000, fluid: ('minecraft:water')}
-            ]
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
     );
 
-    // -- bonemeal and water to vanilla crops
     growthChamber(
-        ('aof6:modern_industrialization/a_minecraft_crops'),
-        12,
+        ('aof6:modern_industrialization/a_barley'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:barley_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:barley') },
+            { amount: 1, item: ('croptopia:barley_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_basil'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:basil_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:basil') },
+            { amount: 1, item: ('croptopia:basil_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_bellpepper'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:bellpepper_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:bellpepper') },
+            { amount: 1, item: ('croptopia:bellpepper_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_blackbean'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:blackbean_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:blackbean') },
+            { amount: 1, item: ('croptopia:blackbean_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_blackberry'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:blackberry_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:blackberry') },
+            { amount: 1, item: ('croptopia:blackberry_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_blueberry'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:blueberry_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:blueberry') },
+            { amount: 1, item: ('croptopia:blueberry_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_broccoli'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:broccoli_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:broccoli') },
+            { amount: 1, item: ('croptopia:broccoli_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_cantaloupe'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:cantaloupe_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:cantaloupe') },
+            { amount: 1, item: ('croptopia:cantaloupe_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_cauliflower'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:cauliflower_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:cauliflower') },
+            { amount: 1, item: ('croptopia:cauliflower_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_celery'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:celery_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:celery') },
+            { amount: 1, item: ('croptopia:celery_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_chile_pepper'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:chile_pepper_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:chile_pepper') },
+            { amount: 1, item: ('croptopia:chile_pepper_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_coffee_beans'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:coffee_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:coffee_beans') },
+            { amount: 1, item: ('croptopia:coffee_beans_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_corn'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:corn_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:corn') },
+            { amount: 1, item: ('croptopia:corn_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_cranberry'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:cranberry_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:cranberry') },
+            { amount: 1, item: ('croptopia:cranberry_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_cucumber'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:cucumber_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:cucumber') },
+            { amount: 1, item: ('croptopia:cucumber_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_currant'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:currant_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:currant') },
+            { amount: 1, item: ('croptopia:currant_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_eggplant'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:eggplant_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:eggplant') },
+            { amount: 1, item: ('croptopia:eggplant_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_elderberry'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:elderberry_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:elderberry') },
+            { amount: 1, item: ('croptopia:elderberry_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_ginger'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:ginger_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:ginger') },
+            { amount: 1, item: ('croptopia:ginger_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_grape'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:grape_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:grape') },
+            { amount: 1, item: ('croptopia:grape_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_greenbean'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:greenbean_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:greenbean') },
+            { amount: 1, item: ('croptopia:greenbean_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_greenonion'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:greenonion_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:greenonion') },
+            { amount: 1, item: ('croptopia:greenonion_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_honeydew'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:honeydew_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:honeydew') },
+            { amount: 1, item: ('croptopia:honeydew_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_hops'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:hops_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:hops') },
+            { amount: 1, item: ('croptopia:hops_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_kale'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:kale_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:kale') },
+            { amount: 1, item: ('croptopia:kale_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_kiwi'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:kiwi_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:kiwi') },
+            { amount: 1, item: ('croptopia:kiwi_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_leek'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:leek_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:leek') },
+            { amount: 1, item: ('croptopia:leek_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_lettuce'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:lettuce_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:lettuce') },
+            { amount: 1, item: ('croptopia:lettuce_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_mustard'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:mustard_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:mustard') },
+            { amount: 1, item: ('croptopia:mustard_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_oat'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:oat_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:oat') },
+            { amount: 1, item: ('croptopia:oat_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_olive'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:olive_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:olive') },
+            { amount: 1, item: ('croptopia:olive_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_peanut'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:peanut_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:peanut') },
+            { amount: 1, item: ('croptopia:peanut_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_pepper'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:pepper_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:pepper') },
+            { amount: 1, item: ('croptopia:pepper_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_pineapple'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:pineapple_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:pineapple') },
+            { amount: 1, item: ('croptopia:pineapple_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_radish'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:radish_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:radish') },
+            { amount: 1, item: ('croptopia:radish_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_raspberry'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:raspberry_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:raspberry') },
+            { amount: 1, item: ('croptopia:raspberry_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_rhubarb'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:rhubarb_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:rhubarb') },
+            { amount: 1, item: ('croptopia:rhubarb_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_rutabaga'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:rutabaga_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:rutabaga') },
+            { amount: 1, item: ('croptopia:rutabaga_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_saguaro'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:saguaro_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:saguaro') },
+            { amount: 1, item: ('croptopia:saguaro_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_soybean'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:soybean_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:soybean') },
+            { amount: 1, item: ('croptopia:soybean_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_spinach'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:spinach_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:spinach') },
+            { amount: 1, item: ('croptopia:spinach_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_squash'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:squash_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:squash') },
+            { amount: 1, item: ('croptopia:squash_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_strawberry'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:strawberry_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:strawberry') },
+            { amount: 1, item: ('croptopia:strawberry_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_sweetpotato'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:sweetpotato_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:sweetpotato') },
+            { amount: 1, item: ('croptopia:sweetpotato_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_tea_leaves'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:tea_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:tea_leaves') },
+            { amount: 1, item: ('croptopia:tea_leaves_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_tomatillo'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:tomatillo_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:tomatillo') },
+            { amount: 1, item: ('croptopia:tomatillo_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_turmeric'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:turmeric_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:turmeric') },
+            { amount: 1, item: ('croptopia:turmeric_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_turnip'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:turnip_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:turnip') },
+            { amount: 1, item: ('croptopia:turnip_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_vanilla'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:vanilla_seeds'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:vanilla') },
+            { amount: 1, item: ('croptopia:vanilla_seeds'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_yam'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:yam_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:yam') },
+            { amount: 1, item: ('croptopia:yam_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_zucchini'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:zucchini_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:zucchini') },
+            { amount: 1, item: ('croptopia:zucchini_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_cabbage'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('farmersdelight:cabbage_seeds'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('farmersdelight:cabbage') },
+            { amount: 1, item: ('farmersdelight:cabbage_seeds'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_tomato'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('farmersdelight:tomato_seeds'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('farmersdelight:tomato') },
+            { amount: 1, item: ('farmersdelight:rotton_tomato'), probability: 0.01 },
+            { amount: 1, item: ('farmersdelight:tomato_seeds'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_onion'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('croptopia:onion_seed'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('farmersdelight:onion') },
+            { amount: 1, item: ('croptopia:onion_seed'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/a_rice'),
+        15,
+        400,
+        [
+            { amount: 1, item: ('farmersdelight:rice_panicle'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_fertilizer'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('farmersdelight:rice') },
+            { amount: 1, item: ('farmersdelight:rice_panicle'), probability: 0.04 }
+    
+        ],
+        [
+            { amount: 1000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_almond'),
+        18,
         600,
         [
+            { amount: 1, item: ('croptopia:almond_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:almond') },
+            { amount: 1, item: ('croptopia:almond_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_apple'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:apple_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:apple') },
+            { amount: 1, item: ('croptopia:apple_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_apricot'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:apricot_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:apricot') },
+            { amount: 1, item: ('croptopia:apricot_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_avocado'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:avocado_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:avocado') },
+            { amount: 1, item: ('croptopia:avocado_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_banana'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:banana_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:banana') },
+            { amount: 1, item: ('croptopia:banana_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_cashew'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:cashew_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:cashew') },
+            { amount: 1, item: ('croptopia:cashew_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_cherry'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:cherry_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:cherry') },
+            { amount: 1, item: ('croptopia:cherry_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_coconut'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:coconut_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:coconut') },
+            { amount: 1, item: ('croptopia:coconut_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_date'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:date_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:date') },
+            { amount: 1, item: ('croptopia:date_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_dragonfruit'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:dragonfruit_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:dragonfruit') },
+            { amount: 1, item: ('croptopia:dragonfruit_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_fig'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:fig_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:fig') },
+            { amount: 1, item: ('croptopia:fig_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_grapefruit'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:grapefruit_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:grapefruit') },
+            { amount: 1, item: ('croptopia:grapefruit_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_kumquat'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:kumquat_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:kumquat') },
+            { amount: 1, item: ('croptopia:kumquat_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_lemon'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:lemon_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:lemon') },
+            { amount: 1, item: ('croptopia:lemon_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_lime'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:lime_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:lime') },
+            { amount: 1, item: ('croptopia:lime_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_mango'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:mango_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:mango') },
+            { amount: 1, item: ('croptopia:mango_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_nectarine'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:nectarine_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:nectarine') },
+            { amount: 1, item: ('croptopia:nectarine_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_nutmeg'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:nutmeg_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:nutmeg') },
+            { amount: 1, item: ('croptopia:nutmeg_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_orange'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:orange_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:orange') },
+            { amount: 1, item: ('croptopia:orange_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_peach'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:peach_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:peach') },
+            { amount: 1, item: ('croptopia:peach_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_pear'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:pear_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:pear') },
+            { amount: 1, item: ('croptopia:pear_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_pecan'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:pecan_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:pecan') },
+            { amount: 1, item: ('croptopia:pecan_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_plum'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:plum_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:plum') },
+            { amount: 1, item: ('croptopia:plum_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_starfruit'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:starfruit_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:starfruit') },
+            { amount: 1, item: ('croptopia:starfruit_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/b_walnut'),
+        18,
+        600,
+        [
+            { amount: 1, item: ('croptopia:walnut_sapling'), probability: 0 },
+            { amount: 1, item: ('kubejs:croptopia_mulch'), probability: 0.01 }
+        ],
+        [
+            { amount: 2, item: ('croptopia:walnut') },
+            { amount: 1, item: ('croptopia:walnut_sapling'), probability: 0.02 }
+    
+        ],
+        [
+            { amount: 3000, fluid: ('minecraft:water')}
+        ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/c_wheat'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:wheat_seeds') },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
-            { amount: 1, item: ('minecraft:wheat'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:sugar_cane'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:carrot'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:potato'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:poisonous_potato'), probability: 0.01 },
-            { amount: 1, item: ('minecraft:beetroot'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:sweet_berries'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:glow_berries'), probability: 0.01 },
-            { amount: 1, item: ('minecraft:cocoa_beans'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:pumpkin'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:melon'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:bamboo'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:kelp'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:cactus'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:lily_pad'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:spore_blossom'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:twisting_vines'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:warped_fungus'), probability: 0.02 },
-            { amount: 1, item: ('minecraft:crimson_fungus'), probability: 0.02 }
+            { amount: 2, item: ('minecraft:wheat') },
+            { amount: 1, item: ('minecraft:wheat_seeds'), probability: 0.02 },
     
             ],
             [
@@ -175,39 +1512,146 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/b_botania_flowers'),
-        12,
-        300,
+        ('aof6:modern_industrialization/c_sugar_cane'),
+        2,
+        600,
         [
-            { amount: 1, item: ('kubejs:botania_fertilizer') }
+            { amount: 1, item: ('minecraft:sugar_cane') },
+            { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
-            { amount: 1, item: ('botania:white_mystical_flower') },
-            { amount: 1, item: ('botania:orange_mystical_flower') },
-            { amount: 1, item: ('botania:magenta_mystical_flower') },
-            { amount: 1, item: ('botania:light_blue_mystical_flower') },
-            { amount: 1, item: ('botania:yellow_mystical_flower') },
-            { amount: 1, item: ('botania:lime_mystical_flower') },
-            { amount: 1, item: ('botania:pink_mystical_flower') },
-            { amount: 1, item: ('botania:gray_mystical_flower') },
-            { amount: 1, item: ('botania:light_gray_mystical_flower') },
-            { amount: 1, item: ('botania:cyan_mystical_flower') },
-            { amount: 1, item: ('botania:purple_mystical_flower') },
-            { amount: 1, item: ('botania:blue_mystical_flower') },
-            { amount: 1, item: ('botania:brown_mystical_flower') },
-            { amount: 1, item: ('botania:green_mystical_flower') },
-            { amount: 1, item: ('botania:red_mystical_flower') },
-            { amount: 1, item: ('botania:black_mystical_flower') }
+            { amount: 2, item: ('minecraft:sugar_cane') }
     
-        ],
-        [
-            { amount: 1000, fluid: ('minecraft:water')}
-        ]
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/oak_sapling'),
-        12,
+        ('aof6:modern_industrialization/c_carrot'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:carrot') },
+            { amount: 1, item: ('minecraft:bone_meal') }
+        ],
+        [
+            { amount: 2, item: ('minecraft:carrot') }
+    
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/c_potato'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:potato') },
+            { amount: 1, item: ('minecraft:bone_meal') }
+        ],
+        [
+            { amount: 2, item: ('minecraft:potato') },
+            { amount: 1, item: ('minecraft:poisonous_potato'), probability: 0.02 },
+    
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/c_beetroot'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:beetroot_seeds') },
+            { amount: 1, item: ('minecraft:bone_meal') }
+        ],
+        [
+            { amount: 2, item: ('minecraft:beetroot') },
+            { amount: 1, item: ('minecraft:beetroot_seeds'), probability: 0.02 },
+    
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/c_sweet_berries'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:sweet_berries') },
+            { amount: 1, item: ('minecraft:bone_meal') }
+        ],
+        [
+            { amount: 2, item: ('minecraft:sweet_berries') }
+    
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/c_cocoa_beans'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:cocoa_beans') },
+            { amount: 1, item: ('minecraft:bone_meal') }
+        ],
+        [
+            { amount: 2, item: ('minecraft:cocoa_beans') }
+    
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/c_pumpkin'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:pumpkin') },
+            { amount: 1, item: ('minecraft:bone_meal') }
+        ],
+        [
+            { amount: 2, item: ('minecraft:pumpkin') }
+    
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/c_melon'),
+        2,
+        600,
+        [
+            { amount: 1, item: ('minecraft:melon') },
+            { amount: 1, item: ('minecraft:bone_meal') }
+        ],
+        [
+            { amount: 2, item: ('minecraft:melon') }
+    
+            ],
+            [
+                { amount: 1000, fluid: ('minecraft:water')}
+            ]
+    );
+
+    growthChamber(
+        ('aof6:modern_industrialization/d_oak_sapling'),
+        2,
         300,
         [
             { amount: 1, item: ('minecraft:oak_sapling'), probability: 0 }
@@ -225,8 +1669,8 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/spruce_sapling'),
-        12,
+        ('aof6:modern_industrialization/d_spruce_sapling'),
+        2,
         300,
         [
             { amount: 1, item: ('minecraft:spruce_sapling'), probability: 0 }
@@ -244,8 +1688,8 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/birch_sapling'),
-        12,
+        ('aof6:modern_industrialization/d_birch_sapling'),
+        2,
         300,
         [
             { amount: 1, item: ('minecraft:birch_sapling'), probability: 0 }
@@ -263,8 +1707,8 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/jungle_sapling'),
-        12,
+        ('aof6:modern_industrialization/d_jungle_sapling'),
+        2,
         300,
         [
             { amount: 1, item: ('minecraft:jungle_sapling'), probability: 0 }
@@ -282,8 +1726,8 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/acacia_sapling'),
-        12,
+        ('aof6:modern_industrialization/d_acacia_sapling'),
+        2,
         300,
         [
             { amount: 1, item: ('minecraft:acacia_sapling'), probability: 0 }
@@ -301,8 +1745,8 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/dark_oak_sapling'),
-        12,
+        ('aof6:modern_industrialization/d_dark_oak_sapling'),
+        2,
         300,
         [
             { amount: 1, item: ('minecraft:dark_oak_sapling'), probability: 0 }
@@ -320,8 +1764,8 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/mangrove_propagule'),
-        12,
+        ('aof6:modern_industrialization/d_mangrove_propagule'),
+        2,
         300,
         [
             { amount: 1, item: ('minecraft:mangrove_propagule'), probability: 0 }
@@ -340,7 +1784,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/twisted_sapling'),
+        ('aof6:modern_industrialization/d_twisted_sapling'),
         12,
         300,
         [
@@ -359,7 +1803,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/palm_sapling'),
+        ('aof6:modern_industrialization/d_palm_sapling'),
         12,
         300,
         [
@@ -378,7 +1822,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/juniper_sapling'),
+        ('aof6:modern_industrialization/d_juniper_sapling'),
         12,
         300,
         [
@@ -397,7 +1841,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/cypress_sapling'),
+        ('aof6:modern_industrialization/d_cypress_sapling'),
         12,
         300,
         [
@@ -416,7 +1860,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/elder_sapling'),
+        ('aof6:modern_industrialization/d_elder_sapling'),
         12,
         300,
         [
@@ -435,7 +1879,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/dragons_blood_sapling'),
+        ('aof6:modern_industrialization/d_dragons_blood_sapling'),
         12,
         300,
         [
@@ -454,7 +1898,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/blighted_balsa_sapling'),
+        ('aof6:modern_industrialization/d_blighted_balsa_sapling'),
         12,
         300,
         [
@@ -473,7 +1917,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/willow_sapling'),
+        ('aof6:modern_industrialization/d_willow_sapling'),
         12,
         300,
         [
@@ -493,7 +1937,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/swamp_cypress_sapling'),
+        ('aof6:modern_industrialization/d_swamp_cypress_sapling'),
         12,
         300,
         [
@@ -512,7 +1956,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/ancient_oak_sapling'),
+        ('aof6:modern_industrialization/d_ancient_oak_sapling'),
         12,
         300,
         [
@@ -531,7 +1975,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/white_oak_sapling'),
+        ('aof6:modern_industrialization/d_white_oak_sapling'),
         12,
         300,
         [
@@ -550,7 +1994,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/legacy_sapling'),
+        ('aof6:modern_industrialization/d_legacy_sapling'),
         12,
         300,
         [
@@ -569,7 +2013,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/yew_sapling'),
+        ('aof6:modern_industrialization/d_yew_sapling'),
         12,
         300,
         [
@@ -588,7 +2032,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/aspen_sapling'),
+        ('aof6:modern_industrialization/d_aspen_sapling'),
         12,
         300,
         [
@@ -607,7 +2051,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/baobab_sapling'),
+        ('aof6:modern_industrialization/d_baobab_sapling'),
         12,
         300,
         [
@@ -626,7 +2070,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/blue_enchanted_sapling'),
+        ('aof6:modern_industrialization/d_blue_enchanted_sapling'),
         12,
         300,
         [
@@ -645,7 +2089,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/purple_bulbis_oddity'),
+        ('aof6:modern_industrialization/d_purple_bulbis_oddity'),
         12,
         300,
         [
@@ -665,7 +2109,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/bulbis_oddity'),
+        ('aof6:modern_industrialization/d_bulbis_oddity'),
         12,
         300,
         [
@@ -685,7 +2129,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/pink_cherry_sapling'),
+        ('aof6:modern_industrialization/d_pink_cherry_sapling'),
         12,
         300,
         [
@@ -704,7 +2148,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/white_cherry_sapling'),
+        ('aof6:modern_industrialization/d_white_cherry_sapling'),
         12,
         300,
         [
@@ -723,7 +2167,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/cika_sapling'),
+        ('aof6:modern_industrialization/d_cika_sapling'),
         12,
         300,
         [
@@ -742,7 +2186,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/cypress_sapling'),
+        ('aof6:modern_industrialization/d_cypress_sapling'),
         12,
         300,
         [
@@ -761,7 +2205,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/ebony_sapling'),
+        ('aof6:modern_industrialization/d_ebony_sapling'),
         12,
         300,
         [
@@ -780,7 +2224,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/ether_sapling'),
+        ('aof6:modern_industrialization/d_ether_sapling'),
         12,
         300,
         [
@@ -799,7 +2243,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/fir_sapling'),
+        ('aof6:modern_industrialization/d_fir_sapling'),
         12,
         300,
         [
@@ -818,7 +2262,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/green_enchanted_sapling'),
+        ('aof6:modern_industrialization/d_green_enchanted_sapling'),
         12,
         300,
         [
@@ -837,7 +2281,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/holly_sapling'),
+        ('aof6:modern_industrialization/d_holly_sapling'),
         12,
         300,
         [
@@ -856,7 +2300,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/fungal_imparius'),
+        ('aof6:modern_industrialization/d_fungal_imparius'),
         12,
         300,
         [
@@ -876,7 +2320,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/imparius_mushroom'),
+        ('aof6:modern_industrialization/d_imparius_mushroom'),
         12,
         300,
         [
@@ -896,7 +2340,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/lament_sapling'),
+        ('aof6:modern_industrialization/d_lament_sapling'),
         12,
         300,
         [
@@ -915,7 +2359,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/indigo_jacaranda_sapling'),
+        ('aof6:modern_industrialization/d_indigo_jacaranda_sapling'),
         12,
         300,
         [
@@ -934,7 +2378,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/jacaranda_sapling'),
+        ('aof6:modern_industrialization/d_jacaranda_sapling'),
         12,
         300,
         [
@@ -953,7 +2397,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/jacaranda_bush'),
+        ('aof6:modern_industrialization/d_jacaranda_bush'),
         12,
         300,
         [
@@ -969,7 +2413,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/indigo_jacaranda_bush'),
+        ('aof6:modern_industrialization/d_indigo_jacaranda_bush'),
         12,
         300,
         [
@@ -985,7 +2429,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/mahogany_sapling'),
+        ('aof6:modern_industrialization/d_mahogany_sapling'),
         12,
         300,
         [
@@ -1004,7 +2448,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/white_mangrove_sapling'),
+        ('aof6:modern_industrialization/d_white_mangrove_sapling'),
         12,
         300,
         [
@@ -1023,7 +2467,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/red_maple_sapling'),
+        ('aof6:modern_industrialization/d_red_maple_sapling'),
         12,
         300,
         [
@@ -1042,7 +2486,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/silver_maple_sapling'),
+        ('aof6:modern_industrialization/d_silver_maple_sapling'),
         12,
         300,
         [
@@ -1061,7 +2505,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/maple_sapling'),
+        ('aof6:modern_industrialization/d_maple_sapling'),
         12,
         300,
         [
@@ -1080,7 +2524,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/mightshade_sapling'),
+        ('aof6:modern_industrialization/d_mightshade_sapling'),
         12,
         300,
         [
@@ -1101,7 +2545,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/palm_sapling'),
+        ('aof6:modern_industrialization/d_palm_sapling'),
         12,
         300,
         [
@@ -1120,7 +2564,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/palo_verde_sapling'),
+        ('aof6:modern_industrialization/d_palo_verde_sapling'),
         12,
         300,
         [
@@ -1139,7 +2583,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/pine_sapling'),
+        ('aof6:modern_industrialization/d_pine_sapling'),
         12,
         300,
         [
@@ -1158,7 +2602,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/rainbow_eucalyptus_sapling'),
+        ('aof6:modern_industrialization/d_rainbow_eucalyptus_sapling'),
         12,
         300,
         [
@@ -1177,7 +2621,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/redwood_sapling'),
+        ('aof6:modern_industrialization/d_redwood_sapling'),
         12,
         300,
         [
@@ -1196,7 +2640,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/skyris_sapling'),
+        ('aof6:modern_industrialization/d_skyris_sapling'),
         12,
         300,
         [
@@ -1217,7 +2661,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/willow_sapling'),
+        ('aof6:modern_industrialization/d_willow_sapling'),
         12,
         300,
         [
@@ -1236,7 +2680,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/witch_hazel_sapling'),
+        ('aof6:modern_industrialization/d_witch_hazel_sapling'),
         12,
         300,
         [
@@ -1257,7 +2701,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/zelkova_sapling'),
+        ('aof6:modern_industrialization/d_zelkova_sapling'),
         12,
         300,
         [
@@ -1276,7 +2720,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/sythian_fungus'),
+        ('aof6:modern_industrialization/d_sythian_fungus'),
         12,
         300,
         [
@@ -1297,7 +2741,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/embur_wart'),
+        ('aof6:modern_industrialization/d_embur_wart'),
         12,
         300,
         [
@@ -1318,7 +2762,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/withering_oak_sapling'),
+        ('aof6:modern_industrialization/d_withering_oak_sapling'),
         12,
         300,
         [
@@ -1337,7 +2781,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/araucaria_sapling'),
+        ('aof6:modern_industrialization/d_araucaria_sapling'),
         12,
         300,
         [
@@ -1356,7 +2800,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/blue_spruce_sapling'),
+        ('aof6:modern_industrialization/d_blue_spruce_sapling'),
         12,
         300,
         [
@@ -1375,7 +2819,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/brown_birch_sapling'),
+        ('aof6:modern_industrialization/d_brown_birch_sapling'),
         12,
         300,
         [
@@ -1394,7 +2838,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/brown_oak_sapling'),
+        ('aof6:modern_industrialization/d_brown_oak_sapling'),
         12,
         300,
         [
@@ -1413,7 +2857,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/brown_zelkova_sapling'),
+        ('aof6:modern_industrialization/d_brown_zelkova_sapling'),
         12,
         300,
         [
@@ -1432,7 +2876,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/joshua_sapling'),
+        ('aof6:modern_industrialization/d_joshua_sapling'),
         12,
         300,
         [
@@ -1453,7 +2897,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/orange_birch_sapling'),
+        ('aof6:modern_industrialization/d_orange_birch_sapling'),
         12,
         300,
         [
@@ -1472,7 +2916,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/orange_oak_sapling'),
+        ('aof6:modern_industrialization/d_orange_oak_sapling'),
         12,
         300,
         [
@@ -1491,7 +2935,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/orange_spruce_sapling'),
+        ('aof6:modern_industrialization/d_orange_spruce_sapling'),
         12,
         300,
         [
@@ -1510,7 +2954,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/orchard_sapling'),
+        ('aof6:modern_industrialization/d_orchard_sapling'),
         12,
         300,
         [
@@ -1532,7 +2976,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/red_birch_sapling'),
+        ('aof6:modern_industrialization/d_red_birch_sapling'),
         12,
         300,
         [
@@ -1551,7 +2995,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/red_oak_sapling'),
+        ('aof6:modern_industrialization/d_red_oak_sapling'),
         12,
         300,
         [
@@ -1570,7 +3014,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/red_spruce_sapling'),
+        ('aof6:modern_industrialization/d_red_spruce_sapling'),
         12,
         300,
         [
@@ -1589,7 +3033,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/yellow_birch_sapling'),
+        ('aof6:modern_industrialization/d_yellow_birch_sapling'),
         12,
         300,
         [
@@ -1608,7 +3052,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/yellow_spruce_sapling'),
+        ('aof6:modern_industrialization/d_yellow_spruce_sapling'),
         12,
         300,
         [
@@ -1627,7 +3071,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/soul_shroom'),
+        ('aof6:modern_industrialization/d_soul_shroom'),
         12,
         300,
         [
@@ -1646,7 +3090,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/shulkren_fungus'),
+        ('aof6:modern_industrialization/d_shulkren_fungus'),
         12,
         300,
         [
@@ -1667,7 +3111,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/death_cap'),
+        ('aof6:modern_industrialization/d_death_cap'),
         12,
         300,
         [
@@ -1686,7 +3130,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/orange_azalea_sapling'),
+        ('aof6:modern_industrialization/d_orange_azalea_sapling'),
         12,
         300,
         [
@@ -1709,7 +3153,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/red_azalea_sapling'),
+        ('aof6:modern_industrialization/d_red_azalea_sapling'),
         12,
         300,
         [
@@ -1732,7 +3176,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/blue_azalea_sapling'),
+        ('aof6:modern_industrialization/d_blue_azalea_sapling'),
         12,
         300,
         [
@@ -1755,7 +3199,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/yellow_azalea_sapling'),
+        ('aof6:modern_industrialization/d_yellow_azalea_sapling'),
         12,
         300,
         [
@@ -1778,7 +3222,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/pink_azalea_sapling'),
+        ('aof6:modern_industrialization/d_pink_azalea_sapling'),
         12,
         300,
         [
@@ -1801,7 +3245,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/purple_azalea_sapling'),
+        ('aof6:modern_industrialization/d_purple_azalea_sapling'),
         12,
         300,
         [
@@ -1824,7 +3268,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/white_azalea_sapling'),
+        ('aof6:modern_industrialization/d_white_azalea_sapling'),
         12,
         300,
         [
@@ -1847,7 +3291,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/cinnamon_sapling'),
+        ('aof6:modern_industrialization/d_cinnamon_sapling'),
         12,
         300,
         [
@@ -1866,7 +3310,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/cherry_sapling'),
+        ('aof6:modern_industrialization/d_cherry_sapling'),
         12,
         300,
         [
@@ -1886,7 +3330,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/apple_tree_sapling'),
+        ('aof6:modern_industrialization/d_apple_tree_sapling'),
         12,
         300,
         [
@@ -1906,7 +3350,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/walnut_sapling'),
+        ('aof6:modern_industrialization/d_walnut_sapling'),
         12,
         300,
         [
@@ -1925,7 +3369,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/rubber_sapling'),
+        ('aof6:modern_industrialization/d_rubber_sapling'),
         12,
         300,
         [
@@ -1944,7 +3388,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/orange_sapling'),
+        ('aof6:modern_industrialization/d_orange_sapling'),
         12,
         300,
         [
@@ -1963,7 +3407,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/magenta_sapling'),
+        ('aof6:modern_industrialization/d_magenta_sapling'),
         12,
         300,
         [
@@ -1982,7 +3426,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/light_blue_sapling'),
+        ('aof6:modern_industrialization/d_light_blue_sapling'),
         12,
         300,
         [
@@ -2001,7 +3445,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/yellow_sapling'),
+        ('aof6:modern_industrialization/d_yellow_sapling'),
         12,
         300,
         [
@@ -2020,7 +3464,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/lime_sapling'),
+        ('aof6:modern_industrialization/d_lime_sapling'),
         12,
         300,
         [
@@ -2039,7 +3483,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/pink_sapling'),
+        ('aof6:modern_industrialization/d_pink_sapling'),
         12,
         300,
         [
@@ -2058,7 +3502,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/cyan_sapling'),
+        ('aof6:modern_industrialization/d_cyan_sapling'),
         12,
         300,
         [
@@ -2077,7 +3521,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/purple_sapling'),
+        ('aof6:modern_industrialization/d_purple_sapling'),
         12,
         300,
         [
@@ -2096,7 +3540,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/blue_sapling'),
+        ('aof6:modern_industrialization/d_blue_sapling'),
         12,
         300,
         [
@@ -2115,7 +3559,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/brown_sapling'),
+        ('aof6:modern_industrialization/d_brown_sapling'),
         12,
         300,
         [
@@ -2134,7 +3578,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/green_sapling'),
+        ('aof6:modern_industrialization/d_green_sapling'),
         12,
         300,
         [
@@ -2153,7 +3597,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/red_sapling'),
+        ('aof6:modern_industrialization/d_red_sapling'),
         12,
         300,
         [
@@ -2172,7 +3616,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/black_sapling'),
+        ('aof6:modern_industrialization/d_black_sapling'),
         12,
         300,
         [
@@ -2191,7 +3635,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/white_sapling'),
+        ('aof6:modern_industrialization/d_white_sapling'),
         12,
         300,
         [
@@ -2210,7 +3654,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/twilight_oak_sapling'),
+        ('aof6:modern_industrialization/d_twilight_oak_sapling'),
         12,
         300,
         [
@@ -2229,7 +3673,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/canopy_sapling'),
+        ('aof6:modern_industrialization/d_canopy_sapling'),
         12,
         300,
         [
@@ -2249,7 +3693,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/mangrove_sapling'),
+        ('aof6:modern_industrialization/d_mangrove_sapling'),
         12,
         300,
         [
@@ -2272,7 +3716,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/darkwood_sapling'),
+        ('aof6:modern_industrialization/d_darkwood_sapling'),
         12,
         300,
         [
@@ -2290,7 +3734,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/hollow_oak_sapling'),
+        ('aof6:modern_industrialization/d_hollow_oak_sapling'),
         12,
         300,
         [
@@ -2312,7 +3756,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/time_sapling'),
+        ('aof6:modern_industrialization/d_time_sapling'),
         12,
         300,
         [
@@ -2333,7 +3777,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/transformation_sapling'),
+        ('aof6:modern_industrialization/d_transformation_sapling'),
         12,
         300,
         [
@@ -2353,7 +3797,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/mining_sapling'),
+        ('aof6:modern_industrialization/d_mining_sapling'),
         12,
         300,
         [
@@ -2373,7 +3817,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/sorting_sapling'),
+        ('aof6:modern_industrialization/d_sorting_sapling'),
         12,
         300,
         [
@@ -2393,7 +3837,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/rainbow_oak_sapling'),
+        ('aof6:modern_industrialization/d_rainbow_oak_sapling'),
         12,
         300,
         [
@@ -2412,7 +3856,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_oak_sapling'),
+        ('aof6:modern_industrialization/e_oak_sapling'),
         12,
         300,
         [
@@ -2432,7 +3876,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_spruce_sapling'),
+        ('aof6:modern_industrialization/e_spruce_sapling'),
         12,
         300,
         [
@@ -2452,7 +3896,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_birch_sapling'),
+        ('aof6:modern_industrialization/e_birch_sapling'),
         12,
         300,
         [
@@ -2472,7 +3916,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_jungle_sapling'),
+        ('aof6:modern_industrialization/e_jungle_sapling'),
         12,
         300,
         [
@@ -2492,7 +3936,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_acacia_sapling'),
+        ('aof6:modern_industrialization/e_acacia_sapling'),
         12,
         300,
         [
@@ -2512,7 +3956,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_dark_oak_sapling'),
+        ('aof6:modern_industrialization/e_dark_oak_sapling'),
         12,
         300,
         [
@@ -2532,7 +3976,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_mangrove_propagule'),
+        ('aof6:modern_industrialization/e_mangrove_propagule'),
         12,
         300,
         [
@@ -2553,7 +3997,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_twisted_sapling'),
+        ('aof6:modern_industrialization/e_twisted_sapling'),
         12,
         300,
         [
@@ -2573,7 +4017,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_palm_sapling'),
+        ('aof6:modern_industrialization/e_palm_sapling'),
         12,
         300,
         [
@@ -2593,7 +4037,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_juniper_sapling'),
+        ('aof6:modern_industrialization/e_juniper_sapling'),
         12,
         300,
         [
@@ -2613,7 +4057,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_cypress_sapling'),
+        ('aof6:modern_industrialization/e_cypress_sapling'),
         12,
         300,
         [
@@ -2633,7 +4077,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_elder_sapling'),
+        ('aof6:modern_industrialization/e_elder_sapling'),
         12,
         300,
         [
@@ -2653,7 +4097,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_dragons_blood_sapling'),
+        ('aof6:modern_industrialization/e_dragons_blood_sapling'),
         12,
         300,
         [
@@ -2673,7 +4117,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_blighted_balsa_sapling'),
+        ('aof6:modern_industrialization/e_blighted_balsa_sapling'),
         12,
         300,
         [
@@ -2693,7 +4137,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_willow_sapling'),
+        ('aof6:modern_industrialization/e_willow_sapling'),
         12,
         300,
         [
@@ -2714,7 +4158,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_swamp_cypress_sapling'),
+        ('aof6:modern_industrialization/e_swamp_cypress_sapling'),
         12,
         300,
         [
@@ -2734,7 +4178,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_ancient_oak_sapling'),
+        ('aof6:modern_industrialization/e_ancient_oak_sapling'),
         12,
         300,
         [
@@ -2754,7 +4198,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_white_oak_sapling'),
+        ('aof6:modern_industrialization/e_white_oak_sapling'),
         12,
         300,
         [
@@ -2774,7 +4218,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_legacy_sapling'),
+        ('aof6:modern_industrialization/e_legacy_sapling'),
         12,
         300,
         [
@@ -2794,7 +4238,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_yew_sapling'),
+        ('aof6:modern_industrialization/e_yew_sapling'),
         12,
         300,
         [
@@ -2814,7 +4258,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_aspen_sapling'),
+        ('aof6:modern_industrialization/e_aspen_sapling'),
         12,
         300,
         [
@@ -2834,7 +4278,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_baobab_sapling'),
+        ('aof6:modern_industrialization/e_baobab_sapling'),
         12,
         300,
         [
@@ -2854,7 +4298,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_blue_enchanted_sapling'),
+        ('aof6:modern_industrialization/e_blue_enchanted_sapling'),
         12,
         300,
         [
@@ -2874,7 +4318,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_purple_bulbis_oddity'),
+        ('aof6:modern_industrialization/e_purple_bulbis_oddity'),
         12,
         300,
         [
@@ -2895,7 +4339,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_bulbis_oddity'),
+        ('aof6:modern_industrialization/e_bulbis_oddity'),
         12,
         300,
         [
@@ -2916,7 +4360,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_pink_cherry_sapling'),
+        ('aof6:modern_industrialization/e_pink_cherry_sapling'),
         12,
         300,
         [
@@ -2936,7 +4380,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_white_cherry_sapling'),
+        ('aof6:modern_industrialization/e_white_cherry_sapling'),
         12,
         300,
         [
@@ -2956,7 +4400,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_cika_sapling'),
+        ('aof6:modern_industrialization/e_cika_sapling'),
         12,
         300,
         [
@@ -2976,7 +4420,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_cypress_sapling'),
+        ('aof6:modern_industrialization/e_cypress_sapling'),
         12,
         300,
         [
@@ -2996,7 +4440,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_ebony_sapling'),
+        ('aof6:modern_industrialization/e_ebony_sapling'),
         12,
         300,
         [
@@ -3016,7 +4460,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_ether_sapling'),
+        ('aof6:modern_industrialization/e_ether_sapling'),
         12,
         300,
         [
@@ -3036,7 +4480,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_fir_sapling'),
+        ('aof6:modern_industrialization/e_fir_sapling'),
         12,
         300,
         [
@@ -3056,7 +4500,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_green_enchanted_sapling'),
+        ('aof6:modern_industrialization/e_green_enchanted_sapling'),
         12,
         300,
         [
@@ -3076,7 +4520,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_holly_sapling'),
+        ('aof6:modern_industrialization/e_holly_sapling'),
         12,
         300,
         [
@@ -3096,7 +4540,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_fungal_imparius'),
+        ('aof6:modern_industrialization/e_fungal_imparius'),
         12,
         300,
         [
@@ -3117,7 +4561,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_imparius_mushroom'),
+        ('aof6:modern_industrialization/e_imparius_mushroom'),
         12,
         300,
         [
@@ -3138,7 +4582,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_lament_sapling'),
+        ('aof6:modern_industrialization/e_lament_sapling'),
         12,
         300,
         [
@@ -3158,7 +4602,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_indigo_jacaranda_sapling'),
+        ('aof6:modern_industrialization/e_indigo_jacaranda_sapling'),
         12,
         300,
         [
@@ -3178,7 +4622,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_jacaranda_sapling'),
+        ('aof6:modern_industrialization/e_jacaranda_sapling'),
         12,
         300,
         [
@@ -3198,7 +4642,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_mahogany_sapling'),
+        ('aof6:modern_industrialization/e_mahogany_sapling'),
         12,
         300,
         [
@@ -3218,7 +4662,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_white_mangrove_sapling'),
+        ('aof6:modern_industrialization/e_white_mangrove_sapling'),
         12,
         300,
         [
@@ -3238,7 +4682,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_ed_maple_sapling'),
+        ('aof6:modern_industrialization/e_ed_maple_sapling'),
         12,
         300,
         [
@@ -3258,7 +4702,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_silver_maple_sapling'),
+        ('aof6:modern_industrialization/e_silver_maple_sapling'),
         12,
         300,
         [
@@ -3278,7 +4722,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_maple_sapling'),
+        ('aof6:modern_industrialization/e_maple_sapling'),
         12,
         300,
         [
@@ -3298,7 +4742,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_mightshade_sapling'),
+        ('aof6:modern_industrialization/e_mightshade_sapling'),
         12,
         300,
         [
@@ -3320,7 +4764,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_palm_sapling'),
+        ('aof6:modern_industrialization/e_palm_sapling'),
         12,
         300,
         [
@@ -3340,7 +4784,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_palo_verde_sapling'),
+        ('aof6:modern_industrialization/e_palo_verde_sapling'),
         12,
         300,
         [
@@ -3360,7 +4804,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_pine_sapling'),
+        ('aof6:modern_industrialization/e_pine_sapling'),
         12,
         300,
         [
@@ -3380,7 +4824,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_rainbow_eucalyptus_sapling'),
+        ('aof6:modern_industrialization/e_rainbow_eucalyptus_sapling'),
         12,
         300,
         [
@@ -3400,7 +4844,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_redwood_sapling'),
+        ('aof6:modern_industrialization/e_redwood_sapling'),
         12,
         300,
         [
@@ -3420,7 +4864,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_skyris_sapling'),
+        ('aof6:modern_industrialization/e_skyris_sapling'),
         12,
         300,
         [
@@ -3442,7 +4886,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_willow_sapling'),
+        ('aof6:modern_industrialization/e_willow_sapling'),
         12,
         300,
         [
@@ -3462,7 +4906,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_witch_hazel_sapling'),
+        ('aof6:modern_industrialization/e_witch_hazel_sapling'),
         12,
         300,
         [
@@ -3484,7 +4928,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_zelkova_sapling'),
+        ('aof6:modern_industrialization/e_zelkova_sapling'),
         12,
         300,
         [
@@ -3504,7 +4948,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_sythian_fungus'),
+        ('aof6:modern_industrialization/e_sythian_fungus'),
         12,
         300,
         [
@@ -3526,7 +4970,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_embur_wart'),
+        ('aof6:modern_industrialization/e_embur_wart'),
         12,
         300,
         [
@@ -3548,7 +4992,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_withering_oak_sapling'),
+        ('aof6:modern_industrialization/e_withering_oak_sapling'),
         12,
         300,
         [
@@ -3568,7 +5012,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_araucaria_sapling'),
+        ('aof6:modern_industrialization/e_araucaria_sapling'),
         12,
         300,
         [
@@ -3588,7 +5032,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_blue_spruce_sapling'),
+        ('aof6:modern_industrialization/e_blue_spruce_sapling'),
         12,
         300,
         [
@@ -3608,7 +5052,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_brown_birch_sapling'),
+        ('aof6:modern_industrialization/e_brown_birch_sapling'),
         12,
         300,
         [
@@ -3628,7 +5072,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_brown_oak_sapling'),
+        ('aof6:modern_industrialization/e_brown_oak_sapling'),
         12,
         300,
         [
@@ -3648,7 +5092,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_brown_zelkova_sapling'),
+        ('aof6:modern_industrialization/e_brown_zelkova_sapling'),
         12,
         300,
         [
@@ -3668,7 +5112,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_joshua_sapling'),
+        ('aof6:modern_industrialization/e_joshua_sapling'),
         12,
         300,
         [
@@ -3690,7 +5134,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_orange_birch_sapling'),
+        ('aof6:modern_industrialization/e_orange_birch_sapling'),
         12,
         300,
         [
@@ -3710,7 +5154,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_orange_oak_sapling'),
+        ('aof6:modern_industrialization/e_orange_oak_sapling'),
         12,
         300,
         [
@@ -3730,7 +5174,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_orange_spruce_sapling'),
+        ('aof6:modern_industrialization/e_orange_spruce_sapling'),
         12,
         300,
         [
@@ -3750,7 +5194,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_orchard_sapling'),
+        ('aof6:modern_industrialization/e_orchard_sapling'),
         12,
         300,
         [
@@ -3773,7 +5217,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_red_birch_sapling'),
+        ('aof6:modern_industrialization/e_red_birch_sapling'),
         12,
         300,
         [
@@ -3793,7 +5237,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_red_oak_sapling'),
+        ('aof6:modern_industrialization/e_red_oak_sapling'),
         12,
         300,
         [
@@ -3813,7 +5257,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_red_spruce_sapling'),
+        ('aof6:modern_industrialization/e_red_spruce_sapling'),
         12,
         300,
         [
@@ -3833,7 +5277,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_yellow_birch_sapling'),
+        ('aof6:modern_industrialization/e_yellow_birch_sapling'),
         12,
         300,
         [
@@ -3853,7 +5297,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_yellow_spruce_sapling'),
+        ('aof6:modern_industrialization/e_yellow_spruce_sapling'),
         12,
         300,
         [
@@ -3873,7 +5317,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_soul_shroom'),
+        ('aof6:modern_industrialization/e_soul_shroom'),
         12,
         300,
         [
@@ -3893,7 +5337,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_shulkren_fungus'),
+        ('aof6:modern_industrialization/e_shulkren_fungus'),
         12,
         300,
         [
@@ -3915,7 +5359,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_death_cap'),
+        ('aof6:modern_industrialization/e_death_cap'),
         12,
         300,
         [
@@ -3935,7 +5379,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_orange_azalea_sapling'),
+        ('aof6:modern_industrialization/e_orange_azalea_sapling'),
         12,
         300,
         [
@@ -3959,7 +5403,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_red_azalea_sapling'),
+        ('aof6:modern_industrialization/e_red_azalea_sapling'),
         12,
         300,
         [
@@ -3983,7 +5427,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_blue_azalea_sapling'),
+        ('aof6:modern_industrialization/e_blue_azalea_sapling'),
         12,
         300,
         [
@@ -4007,7 +5451,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_yellow_azalea_sapling'),
+        ('aof6:modern_industrialization/e_yellow_azalea_sapling'),
         12,
         300,
         [
@@ -4031,7 +5475,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_pink_azalea_sapling'),
+        ('aof6:modern_industrialization/e_pink_azalea_sapling'),
         12,
         300,
         [
@@ -4055,7 +5499,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_purple_azalea_sapling'),
+        ('aof6:modern_industrialization/e_purple_azalea_sapling'),
         12,
         300,
         [
@@ -4079,7 +5523,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_white_azalea_sapling'),
+        ('aof6:modern_industrialization/e_white_azalea_sapling'),
         12,
         300,
         [
@@ -4103,7 +5547,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_cherry_sapling'),
+        ('aof6:modern_industrialization/e_cherry_sapling'),
         12,
         300,
         [
@@ -4124,7 +5568,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_apple_tree_sapling'),
+        ('aof6:modern_industrialization/e_apple_tree_sapling'),
         12,
         300,
         [
@@ -4145,7 +5589,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_walnut_sapling'),
+        ('aof6:modern_industrialization/e_walnut_sapling'),
         12,
         300,
         [
@@ -4165,7 +5609,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_rubber_sapling'),
+        ('aof6:modern_industrialization/e_rubber_sapling'),
         12,
         300,
         [
@@ -4185,7 +5629,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_orange_sapling'),
+        ('aof6:modern_industrialization/e_orange_sapling'),
         12,
         300,
         [
@@ -4205,7 +5649,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_magenta_sapling'),
+        ('aof6:modern_industrialization/e_magenta_sapling'),
         12,
         300,
         [
@@ -4225,7 +5669,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_light_blue_sapling'),
+        ('aof6:modern_industrialization/e_light_blue_sapling'),
         12,
         300,
         [
@@ -4245,7 +5689,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_yellow_sapling'),
+        ('aof6:modern_industrialization/e_yellow_sapling'),
         12,
         300,
         [
@@ -4265,7 +5709,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_lime_sapling'),
+        ('aof6:modern_industrialization/e_lime_sapling'),
         12,
         300,
         [
@@ -4285,7 +5729,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_pink_sapling'),
+        ('aof6:modern_industrialization/e_pink_sapling'),
         12,
         300,
         [
@@ -4305,7 +5749,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_cyan_sapling'),
+        ('aof6:modern_industrialization/e_cyan_sapling'),
         12,
         300,
         [
@@ -4325,7 +5769,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_purple_sapling'),
+        ('aof6:modern_industrialization/e_purple_sapling'),
         12,
         300,
         [
@@ -4345,7 +5789,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_blue_sapling'),
+        ('aof6:modern_industrialization/e_blue_sapling'),
         12,
         300,
         [
@@ -4365,7 +5809,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_brown_sapling'),
+        ('aof6:modern_industrialization/e_brown_sapling'),
         12,
         300,
         [
@@ -4385,7 +5829,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_green_sapling'),
+        ('aof6:modern_industrialization/e_green_sapling'),
         12,
         300,
         [
@@ -4405,7 +5849,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_red_sapling'),
+        ('aof6:modern_industrialization/e_red_sapling'),
         12,
         300,
         [
@@ -4425,7 +5869,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_black_sapling'),
+        ('aof6:modern_industrialization/e_black_sapling'),
         12,
         300,
         [
@@ -4445,7 +5889,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_white_sapling'),
+        ('aof6:modern_industrialization/e_white_sapling'),
         12,
         300,
         [
@@ -4465,7 +5909,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_twilight_oak_sapling'),
+        ('aof6:modern_industrialization/e_twilight_oak_sapling'),
         12,
         300,
         [
@@ -4485,7 +5929,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_canopy_sapling'),
+        ('aof6:modern_industrialization/e_canopy_sapling'),
         12,
         300,
         [
@@ -4506,7 +5950,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_mangrove_sapling'),
+        ('aof6:modern_industrialization/e_mangrove_sapling'),
         12,
         300,
         [
@@ -4530,7 +5974,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_darkwood_sapling'),
+        ('aof6:modern_industrialization/e_darkwood_sapling'),
         12,
         300,
         [
@@ -4549,7 +5993,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_hollow_oak_sapling'),
+        ('aof6:modern_industrialization/e_hollow_oak_sapling'),
         12,
         300,
         [
@@ -4572,7 +6016,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_time_sapling'),
+        ('aof6:modern_industrialization/e_time_sapling'),
         12,
         300,
         [
@@ -4594,7 +6038,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_transformation_sapling'),
+        ('aof6:modern_industrialization/e_transformation_sapling'),
         12,
         300,
         [
@@ -4615,7 +6059,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_mining_sapling'),
+        ('aof6:modern_industrialization/e_mining_sapling'),
         12,
         300,
         [
@@ -4636,7 +6080,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_sorting_sapling'),
+        ('aof6:modern_industrialization/e_sorting_sapling'),
         12,
         300,
         [
@@ -4657,7 +6101,7 @@ ServerEvents.recipes(e => {
     );
 
     growthChamber(
-        ('aof6:modern_industrialization/z_rainbow_oak_sapling'),
+        ('aof6:modern_industrialization/e_rainbow_oak_sapling'),
         12,
         300,
         [

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modern_industrialization:basic_growth_chamber"
+          "name": "modern_industrialization:bronze_growth_chamber"
         }
       ],
       "rolls": 1.0
