@@ -203,6 +203,7 @@ ServerEvents.tags('item', event => {
 	    '#supplementaries:trapped_presents',
         'kibe:cooler',
         'supplementaries:safe',
+	'supplementaries:cage',
         'create:chest_minecart_contraption',
         'create:furnace_minecart_contraption',
         'create:minecart_contraption',
