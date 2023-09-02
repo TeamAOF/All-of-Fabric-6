@@ -278,7 +278,24 @@ ServerEvents.tags('item', event => {
         'the_bumblezone:honey_cocoon',
         'portable_tables:portable_furnace',
         'portable_tables:portable_blast_furnace',
-        'portable_tables:portable_smoker'
+        'portable_tables:portable_smoker',
+        'archeology:clay_pot',
+        'archeology:white_clay_pot',
+        'archeology:orange_clay_pot',
+        'archeology:magenta_clay_pot',
+        'archeology:light_blue_clay_pot',
+        'archeology:yellow_clay_pot',
+        'archeology:lime_clay_pot',
+        'archeology:pink_clay_pot',
+        'archeology:gray_clay_pot',
+        'archeology:light_gray_clay_pot',
+        'archeology:cyan_clay_pot',
+        'archeology:purple_clay_pot',
+        'archeology:blue_clay_pot',
+        'archeology:brown_clay_pot',
+        'archeology:green_clay_pot',
+        'archeology:red_clay_pot',
+        'archeology:black_clay_pot'
     ];
 
     replicator.forEach((item) => {
