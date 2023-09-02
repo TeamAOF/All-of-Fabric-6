@@ -998,7 +998,7 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 2, item: ('farmersdelight:tomato') },
-            { amount: 1, item: ('farmersdelight:rotton_tomato'), probability: 0.01 },
+            { amount: 1, item: ('farmersdelight:rotten_tomato'), probability: 0.01 },
             { amount: 1, item: ('farmersdelight:tomato_seeds'), probability: 0.02 }
     
         ],
@@ -1498,7 +1498,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:wheat_seeds') },
+            { amount: 1, item: ('minecraft:wheat_seeds'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1516,7 +1516,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:sugar_cane') },
+            { amount: 1, item: ('minecraft:sugar_cane'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1533,7 +1533,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:carrot') },
+            { amount: 1, item: ('minecraft:carrot'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1550,7 +1550,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:potato') },
+            { amount: 1, item: ('minecraft:potato'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1568,7 +1568,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:beetroot_seeds') },
+            { amount: 1, item: ('minecraft:beetroot_seeds'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1586,7 +1586,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:sweet_berries') },
+            { amount: 1, item: ('minecraft:sweet_berries'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1603,7 +1603,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:cocoa_beans') },
+            { amount: 1, item: ('minecraft:cocoa_beans'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1620,7 +1620,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:pumpkin') },
+            { amount: 1, item: ('minecraft:pumpkin_seeds'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1637,7 +1637,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:melon') },
+            { amount: 1, item: ('minecraft:melon_seeds'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
