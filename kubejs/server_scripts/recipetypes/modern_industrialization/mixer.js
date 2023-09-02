@@ -114,4 +114,26 @@ ServerEvents.recipes(event => {
       "amount": 4
     }
   })
+
+  //floral fertilizer
+  event.custom({
+    "type": "modern_industrialization:mixer",
+    "id": "aof:mi_mixer_floral_fertilizer",
+    "eu": 2,
+    "duration": 100,
+    "item_inputs": [
+      {
+        "tag": "c:dye",
+        "amount": 4
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "amount": 1
+      }
+    ],
+    "item_outputs": {
+      "item": "botania:fertilizer",
+      "amount": 1
+    }
+  })
 })
