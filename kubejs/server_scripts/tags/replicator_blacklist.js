@@ -275,7 +275,10 @@ ServerEvents.tags('item', event => {
         'create:creative_blaze_cake',
         'wands:creative_wand',
         'hexcasting:creative_unlocker',
-        'the_bumblezone:honey_cocoon'
+        'the_bumblezone:honey_cocoon',
+        'portable_tables:portable_furnace',
+        'portable_tables:portable_blast_furnace',
+        'portable_tables:portable_smoker'
     ];
 
     replicator.forEach((item) => {
