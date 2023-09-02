@@ -998,7 +998,7 @@ ServerEvents.recipes(e => {
         ],
         [
             { amount: 2, item: ('farmersdelight:tomato') },
-            { amount: 1, item: ('farmersdelight:rotton_tomato'), probability: 0.01 },
+            { amount: 1, item: ('farmersdelight:rotten_tomato'), probability: 0.01 },
             { amount: 1, item: ('farmersdelight:tomato_seeds'), probability: 0.02 }
     
         ],
@@ -1498,7 +1498,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:wheat_seeds') },
+            { amount: 1, item: ('minecraft:wheat_seeds'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
@@ -1568,7 +1568,7 @@ ServerEvents.recipes(e => {
         2,
         600,
         [
-            { amount: 1, item: ('minecraft:beetroot_seeds') },
+            { amount: 1, item: ('minecraft:beetroot_seeds'), probability: 0 },
             { amount: 1, item: ('minecraft:bone_meal') }
         ],
         [
