@@ -1,4 +1,4 @@
 REIEvents.removeCategories((event) => {
     
-    event.yeet('minecraft:plugins/tag')
+    event.remove('minecraft:plugins/tag')
   })

@@ -14,7 +14,6 @@ ServerEvents.recipes((event) => {
         'techreborn:compressor/iridium_plate',
         'techreborn:compressor/iridium_plate_from_block',
         'indrev:infusing/steel_dust',
-        'indrev:infusing/electrum_dust',
         'indrev:compressing/empty_upgrade',
         'techreborn:crafting_table/machine_block/basic_machine_frame_alt',
         'techreborn:crafting_table/machine/iron_furnace',
@@ -66,7 +65,11 @@ ServerEvents.recipes((event) => {
         'wands:stone_wand2',
         'techreborn:blast_furnace/steel_ingot_from_small_dust',
         'techreborn:crafting_table/dust/steel_dust_from_small',
-        'techreborn:crafting_table/small_dust/steel_small_dust_from_dust'
+        'techreborn:crafting_table/small_dust/steel_small_dust_from_dust',
+        'modern_industrialization:quarry/bronze',
+        'modern_industrialization:quarry/gold',
+        'modern_industrialization:quarry/steel',
+        'modern_industrialization:quarry/titanium'
 
     ];
 

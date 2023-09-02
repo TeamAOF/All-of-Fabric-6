@@ -1,0 +1,32 @@
+## all-of-fabric-6 - 1.10.0 -> 1.10.1
+
+### Changed
+
+  * [Ad-Astra-Giselle-Addon-fabric-1.19.2-1.17.jar](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon/files/4712393) -> [Ad-Astra-Giselle-Addon-fabric-1.19.2-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon/files/4718911)
+  * [appliedenergistics2-fabric-12.9.6.jar](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/4646169) -> [appliedenergistics2-fabric-12.9.8.jar](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/4733125)
+  * [brewinandchewin-fabric-2.1.5+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin-fabric/files/4677951) -> [brewinandchewin-fabric-2.3.1+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin-fabric/files/4726334)
+  * [builtin-servers-2.0-BETA+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/builtin-servers/files/3857552) -> [builtin-servers-2.1+1.19-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/builtin-servers/files/4716313)
+  * [convenientdecor-0.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/convenient-decor/files/4384741) -> [convenientdecor-0.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/convenient-decor/files/4725224)
+  * [create-fabric-0.5.1-b-build.1089+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/create-fabric/files/4622426) -> [create-fabric-0.5.1-c-build.1160+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/create-fabric/files/4721055)
+  * [create_jetpack-fabric-3.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/create-jetpack/files/4649795) -> [create_jetpack-fabric-3.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/create-jetpack/files/4729272)
+  * [Steam_Rails-1.4.3+fabric-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails/files/4630216) -> [Steam_Rails-1.5.0+fabric-mc1.19.2-build.14.jar](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails/files/4726372)
+  * [cupboard-fabric-1.19.2-1.7.jar](https://www.curseforge.com/minecraft/mc-mods/cupboard/files/4708859) -> [cupboard-fabric-1.19.2-1.9.jar](https://www.curseforge.com/minecraft/mc-mods/cupboard/files/4730032)
+  * [dynamic-fps-2.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/files/3829250) -> [dynamic-fps-3.0.0+minecraft-1.19.jar](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/files/4734036)
+  * [entangled-1.3.15-fabric-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/entangled/files/4676269) -> [entangled-1.3.16-fabric-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/entangled/files/4720130)
+  * [fabric-language-kotlin-1.10.8+kotlin.1.9.0.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/4654791) -> [fabric-language-kotlin-1.10.10+kotlin.1.9.10.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/4719981)
+  * [ftb-chunks-fabric-1902.4.1-build.290.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/4663737) -> [ftb-chunks-fabric-1902.4.2-build.302.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/files/4727832)
+  * [kubejs-fabric-1902.6.1-build.364.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/4708435) -> [kubejs-fabric-1902.6.1-build.370.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/4726169)
+  * [merequester-fabric-1.19.2-1.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/merequester/files/4667956) -> [merequester-fabric-1.19.2-1.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/merequester/files/4720765)
+  * [megacells-fabric-2.0.2-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/mega-cells/files/4692399) -> [megacells-fabric-2.0.3-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/mega-cells/files/4727131)
+  * [modernfix-fabric-5.7.0+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/4711157) -> [modernfix-fabric-5.7.2+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/4728402)
+  * [Powah-4.0.10.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/4525231) -> [Powah-4.0.11.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/4729360)
+  * [repurposed_structures_fabric-6.3.24+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric/files/4499781) -> [repurposed_structures_fabric-6.3.26+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric/files/4715246)
+  * [rhino-fabric-1902.2.2-build.268.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/4476055) -> [rhino-fabric-1902.2.2-build.272.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/4715266)
+  * [RoughlyEnoughItems-9.1.643.jar](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items/files/4690210) -> [RoughlyEnoughItems-9.1.650.jar](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items/files/4732225)
+  * [supermartijn642configlib-1.1.7-fabric-mc1.19.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/files/4629801) -> [supermartijn642configlib-1.1.8-fabric-mc1.19.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/files/4715412)
+  * [supermartijn642corelib-1.1.12-fabric-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/4660152) -> [supermartijn642corelib-1.1.12b-fabric-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/4733506)
+  * [supplementaries-1.19.2-2.3.23-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/4713341) -> [supplementaries-1.19.2-2.3.24-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/4717634)
+  * [tesseract-1.0.35-fabric-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/tesseract/files/4628377) -> [tesseract-1.0.35a-fabric-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/tesseract/files/4720193)
+  * [the_bumblezone_fabric-6.7.28+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-fabric/files/4676694) -> [the_bumblezone_fabric-6.7.32+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-fabric/files/4734043)
+  * [Trowel-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/trowel/files/4578554) -> [Trowel-1.2.1-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/trowel/files/4734070)
+

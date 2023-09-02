@@ -1,3 +1,22 @@
+### All of Fabric 6 | v1.10.1
+
+_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.10.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.10.1.md)_
+
+### Changes/Improvements
+
+* Added Floral Fertilizer recipe to the MI Mixer (Inno).
+* Added Assembler recipe for Empty Fertilizer Bag (Inno).
+* Changed assembler empty bag recipe to use acrylic glue (Inno).
+* Removed 0 probability on acrylic glue for glue recipe (Inno).
+* Updated vanilla crops to not consume seeds (Inno).
+
+### Bug Fixes
+
+* Fixed consumable wheat and beetroot seeds, and fixed tomato recipe (Inno).
+* Incorrect MI quarry recipe outputs (AK).
+* Incompatibility between Entangled & Powah.
+---
+
 ### All of Fabric 6 | v1.10.0
 
 _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.10.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.10.0.md)_
