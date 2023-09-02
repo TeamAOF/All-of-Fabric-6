@@ -9,6 +9,7 @@ _Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Changed assembler empty bag recipe to use acrylic glue (Inno).
 * Removed 0 probability on acrylic glue for glue recipe (Inno).
 * Updated vanilla crops to not consume seeds (Inno).
+* Allow electrum dust to be made in the infuser (AK).
 
 ### Bug Fixes
 
