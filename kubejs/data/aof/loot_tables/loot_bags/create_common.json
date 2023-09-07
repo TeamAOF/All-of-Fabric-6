@@ -106,17 +106,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "create:andesite_encased_large_cogwheel",
-          "functions": [
-            {
-              "count": 2,
-              "function": "set_count"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "create:goggles",
           "functions": [
             {
