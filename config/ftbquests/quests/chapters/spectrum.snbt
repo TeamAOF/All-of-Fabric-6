@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "spectrum"
 	group: "1039AC171AB01709"
+	hide_quest_until_deps_visible: true
 	icon: "spectrum:pigment_palette"
 	id: "06E76B49ED832B81"
 	order_index: 3
@@ -10,17 +11,18 @@
 	quests: [
 		{
 			description: [
-				"&6Spectrum&r is a story driven and exploration-based magic mod, focusing on the natural energies that flow in the world, represented in color."
+				"&6Spectrum&r is a story driven, exploration-based magic mod, focusing on the natural energies that flow in the world, represented in color."
 				""
-				"Trying not to give everything away at first glance, Spectrum uses &6advancements&r and an in-game manual, &bColorful World&r, to guide you through. If you are stuck, &6check these&r!"
+				"Trying not to give everything away at first glance, Spectrum uses &6advancements&r and a book, &bColorful World&r, to guide you through. If you are stuck, &6check these&r!"
 				""
-				"These quests don't cover everything in Spectrum, but they touch on the main progression and some notable side content."
+				"These quests don't cover everything in Spectrum, but they touch on the main progression and some notable side content. You're &bencouraged&r to discover on your own. &o&7Square-shaped quests mark dead ends.&r"
 				""
 				"To begin, find some &bgemstones&r."
 			]
+			hide: false
 			icon: "spectrum:guidebook"
 			id: "6F9B2ECCE750C280"
-			subtitle: "The energies growing like roots, they sprout magic of nature overflowing 'til you discover what it's all about."
+			subtitle: "The energies growing like roots, they sprout magic of nature overflowing 'til you discover what's all about."
 			tasks: [{
 				id: "3FFA395CAB5C258F"
 				item: "spectrum:guidebook"
@@ -67,16 +69,21 @@
 					type: "item"
 				}
 			]
-			title: "Geode Hunting!"
+			title: "Geode Hunting"
 			x: 2.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["042E7914986F8A32"]
+			dependencies: [
+				"042E7914986F8A32"
+				"36258B9E1280A188"
+			]
 			description: [
-				"&6Upgrade&r your &bPigment Pedestal&r by using all three shards you have collected thus far."
+				"&6Upgrade&r your &bPigment Pedestal&r to the CMY Variant by using all three shards you have collected thus far."
 				""
-				"To fully harness the powers of your improved &bPigment Pedestal&r you will need to &6build&r a structure that funnels the energy from gemstones to it. &6Right-click&r the &bPedestal&r to view a preview of the structure."
+				"To properly use the powers of your improved &bPigment Pedestal&r you will need to &6build&r a focus structure."
+				""
+				"&7&oThere is a button in its GUI that will display a preview of this structure.&r"
 			]
 			hide: true
 			icon: "spectrum:chiseled_polished_basalt"
@@ -96,22 +103,15 @@
 				type: "item"
 			}]
 			subtitle: "&eFunneling Magic"
-			tasks: [
-				{
-					advancement: "spectrum:build_basic_pedestal_structure"
-					criterion: ""
-					id: "5A0D90E9F122144F"
-					type: "advancement"
-				}
-				{
-					id: "4CBBB8A015AC79DB"
-					item: "spectrum:pedestal_all_basic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				advancement: "spectrum:build_basic_pedestal_structure"
+				criterion: ""
+				id: "5A0D90E9F122144F"
+				type: "advancement"
+			}]
 			title: "Construct the Spectrum Focus"
-			x: 4.5d
-			y: 1.5d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6F9B2ECCE750C280"]
@@ -143,7 +143,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&e A new way to craft"
+			subtitle: "&eA new way to craft"
 			tasks: [{
 				advancement: "spectrum:place_pedestal"
 				criterion: ""
@@ -191,12 +191,18 @@
 				}
 			]
 			title: "Experiment #2: &bFailing"
-			x: 13.0d
-			y: 0.0d
+			x: 11.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3A53CED5C9ABC06B"]
-			description: ["After constructing the &bSpectrum Focus&r, it has releaved &ba plant&r that was hidden from you. &6Venture into the swamps and find it&r!"]
+			description: [
+				"After constructing the &bSpectrum Focus&r, it has revealed &btwo plants&r that were once hidden from you."
+				""
+				"One grows in the &bswamps&r, and the other at the bottom of the &bsea&r... time for an &6adventure&r."
+				""
+				"&7&oYou'll want to bring shears with you for that last one.&r"
+			]
 			hide: true
 			id: "24C70DAB3F66ECB2"
 			rewards: [{
@@ -214,22 +220,30 @@
 				type: "item"
 			}]
 			subtitle: "&eSwamped"
-			tasks: [{
-				advancement: "spectrum:collect_quitoxic_reeds"
-				criterion: ""
-				id: "36D473C7A3DA8BED"
-				type: "advancement"
-			}]
-			title: "Toxic Reeds!"
-			x: 4.5d
-			y: 0.0d
+			tasks: [
+				{
+					advancement: "spectrum:collect_quitoxic_reeds"
+					criterion: ""
+					id: "36D473C7A3DA8BED"
+					type: "advancement"
+				}
+				{
+					advancement: "spectrum:collect_mermaids_gem"
+					criterion: ""
+					id: "73BC604353FC129E"
+					type: "advancement"
+				}
+			]
+			title: "Elusive Plants"
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["777CED8399E65C29"]
 			description: [
-				"Smashing! &6Craft&r anything that requires &bgemstone powder&r."
+				"Smashing! &6Craft&r anything that requires &bgemstone powder&r, such as a Crafting Tablet."
 				""
-				"Starting a craft requires either &6right-clicking&r with your &bPaintbrush&r, or applying a &bredstone pulse&r."
+				"&o&7Starting a craft requires either right-clicking with your Paintbrush, or applying a redstone signal.&r"
 			]
 			hide: true
 			icon: "spectrum:paintbrush"
@@ -268,7 +282,7 @@
 		}
 		{
 			dependencies: ["36258B9E1280A188"]
-			description: ["You never noticed this &bOre&r before at all.... weird. Is there more to the world than you previously thought?"]
+			description: ["Crafting with your Pedestal has caused you to see things you couldn't before. This &bOre&r is one of them."]
 			hide: true
 			id: "5E0135DE9E0D30CE"
 			rewards: [{
@@ -298,7 +312,7 @@
 		}
 		{
 			dependencies: ["5E0135DE9E0D30CE"]
-			description: ["Time to tinker with your new magical abilities by creating life!"]
+			description: ["Time to tinker with your new magical abilities by &6creating life&r!"]
 			hide: true
 			id: "1E161856A9975BCE"
 			rewards: [{
@@ -330,15 +344,15 @@
 				}
 			]
 			title: "Experiment #1: &bFading"
-			x: 0.5d
-			y: 7.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1E161856A9975BCE"]
 			description: [
 				"Let your clump of microorganisms out and &6place them food&r. But what do they eat? Definitely &bsomething organic&r."
 				""
-				"In the leftovers, you can find a new resource."
+				"&o&7In the leftovers, you can find a new resource.&r"
 			]
 			hide: true
 			id: "371F3371DC37B760"
@@ -372,7 +386,7 @@
 			]
 			title: "Life must feed!"
 			x: 2.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["371F3371DC37B760"]
@@ -401,8 +415,8 @@
 				type: "advancement"
 			}]
 			title: "Colored Saplings"
-			x: 4.5d
-			y: 7.5d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["265E77D910C56546"]
@@ -431,8 +445,8 @@
 				type: "advancement"
 			}]
 			title: "Steal the Color of Leaves"
-			x: 6.5d
-			y: 7.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -453,7 +467,7 @@
 			description: [
 				"&6Collect&r 11 colors of &bpigment&r."
 				""
-				"Colored Trees can now be seen in the world, or you can craft the saplings."
+				"&o&7Colored Trees can now be seen in the world, or you can craft the saplings.&r"
 			]
 			hide: true
 			icon: "spectrum:creative_ink_assortment"
@@ -480,8 +494,8 @@
 				type: "advancement"
 			}]
 			title: "Pigment from colored leaves"
-			x: 6.5d
-			y: 4.5d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -508,8 +522,8 @@
 				item: "spectrum:orange_pigment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -536,8 +550,8 @@
 				item: "spectrum:magenta_pigment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.5d
+			x: 9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -564,8 +578,8 @@
 				item: "spectrum:light_blue_pigment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.5d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -592,8 +606,8 @@
 				item: "spectrum:yellow_pigment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -620,8 +634,8 @@
 				item: "spectrum:lime_pigment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -648,8 +662,8 @@
 				item: "spectrum:pink_pigment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.5d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -676,8 +690,8 @@
 				item: "spectrum:cyan_pigment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -704,8 +718,8 @@
 				item: "spectrum:purple_pigment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.5d
+			x: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -732,8 +746,8 @@
 				item: "spectrum:blue_pigment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -760,8 +774,8 @@
 				item: "spectrum:green_pigment"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -788,15 +802,15 @@
 				item: "spectrum:red_pigment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.5d
+			x: 9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"4C06D25DACB5536C"
 				"3A53CED5C9ABC06B"
 			]
-			description: ["&6Craft&r the &bFusion Shrine&r and &6construct&r its structure."]
+			description: ["&6Craft&r the &bFusion Shrine&r and &6construct&r its structure. &o&7Right clicking on the placed shrine will show the structure preview.&r"]
 			hide: true
 			id: "49D9ECC98F3A5E05"
 			rewards: [{
@@ -821,12 +835,16 @@
 				type: "advancement"
 			}]
 			title: "The Power of Fusion"
-			x: 6.5d
-			y: 1.5d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["49D9ECC98F3A5E05"]
-			description: ["&6Fuse&r your three gemstones together to create &bOnyx&r, the fourth gemstone."]
+			description: [
+				"&6Fuse&r your three gemstones together to create &bOnyx&r, the fourth gemstone."
+				""
+				"&7&oYou can craft up to a stack at one time with only one lava bucket. Just place multiple shards in!&r"
+			]
 			hide: true
 			id: "6F3F4B2ADAAED3C1"
 			rewards: [{
@@ -858,7 +876,7 @@
 				}
 			]
 			title: "The Fourth Gemstone"
-			x: 8.5d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -888,12 +906,16 @@
 				type: "advancement"
 			}]
 			title: "Construct the Spectrum Temple"
-			x: 10.5d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["681C638B38019A73"]
-			description: ["The Nether has more &bsecrets&r for you. Might not want to carry too much at once."]
+			description: [
+				"The Nether has more &bsecrets&r for you. Might not want to carry too much at once."
+				""
+				"&7&oIf you are particularly Fortunate, you might uncover something special when mining this.&r"
+			]
 			hide: true
 			id: "2F56655D7C4C3882"
 			rewards: [{
@@ -918,7 +940,7 @@
 				type: "advancement"
 			}]
 			title: "An Ore with Gravity"
-			x: 13.0d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -968,7 +990,7 @@
 			description: [
 				"&6Craft&r and stand in &bliquid crystal&r."
 				""
-				"This magical liquid has &binteresting properties&r when &6mixed&r with other liquids. &7&oWhat can you discover?&r"
+				"This magical liquid has &binteresting properties&r when &6mixed&r with other liquids... and might have interesting results when exposed to certain plants. &7&oWhat can you discover?&r"
 			]
 			hide: true
 			id: "0F6E96D9C9F5EF35"
@@ -986,16 +1008,16 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&eLiquid Magic"
+			subtitle: "Liquid Chro-wait, that's not it"
 			tasks: [{
 				advancement: "spectrum:midgame/enter_liquid_crystal"
 				criterion: ""
 				id: "6D58C64A9CC63876"
 				type: "advancement"
 			}]
-			title: "Crystalline Waters"
-			x: 11.5d
-			y: 3.0d
+			title: "Liquid Magic"
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F6E96D9C9F5EF35"]
@@ -1031,13 +1053,13 @@
 					type: "item"
 				}
 			]
-			title: "Enchantments Aplenty"
+			title: "Prismatic Enchanting"
 			x: 11.5d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1810EB195B0CC509"]
-			description: ["Another new &bore&r, down in the &6depths&r."]
+			description: ["Another new &bore&r, down in the &6depths&r, near the very bottom of the world."]
 			hide: true
 			id: "2AB88707D86F0506"
 			rewards: [{
@@ -1090,6 +1112,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eBetter Safe than Sorry"
 			tasks: [{
 				advancement: "spectrum:midgame/craft_bottle_of_decay_away"
@@ -1244,7 +1267,7 @@
 			]
 			title: "Midnight Chips"
 			x: 14.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["681C638B38019A73"]
@@ -1286,13 +1309,13 @@
 				}
 			]
 			title: "Black Creates Brown"
-			x: 9.5d
-			y: 3.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7B50D9F39BF07C16"]
 			description: [
-				"Watch the night skies! Occasionally the night might yield &bsomething useful&r."
+				"&6Watch&r the night skies! Occasionally the night might yield &bsomething useful&r. Improving your sight with night vision and a spyglass might be beneficial."
 				""
 				"&7&oYou can pick them up as blocks by sneak-rightclicking.&r"
 			]
@@ -1320,8 +1343,8 @@
 				type: "advancement"
 			}]
 			title: "Stargazing"
-			x: 9.5d
-			y: 4.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["681C638B38019A73"]
@@ -1351,13 +1374,14 @@
 				type: "advancement"
 			}]
 			title: "Ink Magic"
-			x: 9.5d
-			y: 7.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A895BEB210EA39C"]
 			description: ["&6Fill&r an &bInk container&r with your color picker. Ink can be created with a few different resources, but the best one is &bPigment&r."]
 			hide: true
+			icon: "spectrum:ink_assortment"
 			id: "5ADB895DCB77C6A8"
 			rewards: [{
 				id: "35807A800E23B170"
@@ -1381,8 +1405,8 @@
 				type: "advancement"
 			}]
 			title: "An Inky Situation"
-			x: 11.0d
-			y: 7.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["120A70EB61245315"]
@@ -1416,7 +1440,7 @@
 			}]
 			title: "Experiment #3: &bRuin"
 			x: 14.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["38BEF83AFD8EA081"]
@@ -1437,6 +1461,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eHaving a Break"
 			tasks: [{
 				advancement: "spectrum:midgame/collect_gemstone_shard_using_crystal_apothecary"
@@ -1445,8 +1470,8 @@
 				type: "advancement"
 			}]
 			title: "Gemstone Stockpiling"
-			x: 16.0d
-			y: -1.5d
+			x: 14.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["120A70EB61245315"]
@@ -1474,9 +1499,9 @@
 				id: "64BC2C12B83AF299"
 				type: "advancement"
 			}]
-			title: "Instilling Spirits"
+			title: "Elemental Resonances"
 			x: 16.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["110822566F9E2DBB"]
@@ -1504,9 +1529,9 @@
 				id: "6C1D187007F8798F"
 				type: "advancement"
 			}]
-			title: "Through the floor!"
-			x: 16.0d
-			y: 7.5d
+			title: "Impossibilities made real"
+			x: 14.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["16AFA6ABBF50A54C"]
@@ -1535,11 +1560,14 @@
 				type: "advancement"
 			}]
 			title: "Black Knight"
-			x: 17.5d
+			x: 14.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["1E1E5ECB2C1C95B9"]
+			dependencies: [
+				"1E1E5ECB2C1C95B9"
+				"1610C5C3629192DE"
+			]
 			description: [
 				"&6Exploring ruins&r, you can &6find&r and &6revive&r a &bwondrous plant&r."
 				""
@@ -1606,11 +1634,11 @@
 			}]
 			title: "I Can Only Remember"
 			x: 17.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3DE03D1D2B4BC9D0"]
-			description: ["When your &bJade Vines&r are fully grown, indicated by the petals being pink, you can &6harvest them with glass bottles&r to obtain this valuable nectar."]
+			description: ["When your &bJade Vines&r are fully grown on a full moon, indicated by the petals being pink, you can &6harvest them with glass bottles&r to obtain this valuable nectar."]
 			hide: true
 			id: "117B54FCAF3A40B9"
 			rewards: [{
@@ -1640,7 +1668,7 @@
 		}
 		{
 			dependencies: ["117B54FCAF3A40B9"]
-			description: ["Could've used this earlier, couldn't you?"]
+			description: ["Could've used this a long time ago, couldn't you?"]
 			hide: true
 			id: "1699D14B24CE2883"
 			rewards: [{
@@ -1657,6 +1685,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eMy Best Bud"
 			tasks: [{
 				advancement: "spectrum:midgame/create_budding_onyx"
@@ -1692,6 +1721,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			size: 1.5d
 			subtitle: "&eSomewhere over the Rainbow"
 			tasks: [{
@@ -1721,6 +1751,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eShield Up"
 			tasks: [{
 				advancement: "spectrum:midgame/get_azure_dike_charge"
@@ -1752,7 +1783,17 @@
 				"503381C10054E786"
 				"1AD3C42442918E43"
 				"7DF89E1482BD6640"
+				"439BD58EDC4A7E0E"
+				"1CA39582DBDF988F"
+				"50DDD70E7A15E464"
+				"22F639012D1DA888"
+				"11A5FBBF5B0CFDF2"
+				"4158090E8412A5A2"
+				"7E44EC6478278800"
+				"7B9F90BB805EFA02"
+				"6F9B2ECCE750C280"
 			]
+			hide: false
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1785,7 +1826,7 @@
 				title: "&bSpe&dctr&eum&r 100%"
 				type: "checkmark"
 			}]
-			x: 10.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -1814,6 +1855,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eTo the Sky!"
 			tasks: [{
 				id: "5F72EAFC2DFD5EA3"
@@ -1821,8 +1863,8 @@
 				type: "item"
 			}]
 			title: "I Dream of Flying"
-			x: 9.5d
-			y: 6.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5ADB895DCB77C6A8"]
@@ -1846,6 +1888,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eGoing Full Blast"
 			tasks: [{
 				advancement: "spectrum:midgame/build_cinderhearth_structure"
@@ -1854,18 +1897,18 @@
 				type: "advancement"
 			}]
 			title: "State-of-your-art Blasting"
-			x: 12.5d
-			y: 7.0d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"042E7914986F8A32"
-				"36258B9E1280A188"
+				"265E77D910C56546"
 			]
 			description: [
-				"There are &6three types&r of strange &bRuins&r made out of unbreakable rock, around where the stone becomes deepslate. What secrets do they hold?"
+				"There are three types of &bPreservation Ruins&r made out of unbreakable rock, around where the stone becomes deepslate. What secrets do they hold? &6Finding&r them all will be necessary eventually."
 				""
-				"If you can't figure out how to enter them now, best to &6come back later&r, with more tools at your disposal."
+				"&o&7If you can't figure out how to enter them now, best to come back later, with more tools at your disposal.&r"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1892,8 +1935,8 @@
 				type: "advancement"
 			}]
 			title: "An Impenetrable Fort"
-			x: 2.5d
-			y: 3.0d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["723E1C665A781C52"]
@@ -1919,6 +1962,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eCracking Open a Cold One"
 			tasks: [{
 				advancement: "spectrum:tap_titration_barrel"
@@ -1927,8 +1971,8 @@
 				type: "advancement"
 			}]
 			title: "Painter's Distillery"
-			x: 6.5d
-			y: 9.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2F56655D7C4C3882"]
@@ -1964,10 +2008,10 @@
 			}]
 			title: "Pigment Potioncrafting"
 			x: 13.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["38BEF83AFD8EA081"]
+			dependencies: ["681C638B38019A73"]
 			description: [
 				"Several &bupgrades&r can be made for your constructs, which can make them &6craft faster&r, use &6less materials&r, and more."
 				""
@@ -1988,6 +2032,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eEnhance"
 			tasks: [{
 				advancement: "spectrum:midgame/use_all_pedestal_upgrades"
@@ -1996,11 +2041,17 @@
 				type: "advancement"
 			}]
 			title: "Fully Upgraded"
-			x: 14.5d
-			y: -3.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["6F43CAFE8DFC15D4"]
+			dependencies: [
+				"6F43CAFE8DFC15D4"
+				"110822566F9E2DBB"
+			]
+			description: ["A ruin whose entrance is protected by unbreakable &bbedrock&r, with no obvious way of getting in. &o&7Or is there?&r"]
+			hide_dependency_lines: true
+			icon: "minecraft:bedrock"
 			id: "2E12C8D6A35B7405"
 			rewards: [{
 				id: "37116783B941E4D3"
@@ -2016,19 +2067,35 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eShort Wired"
-			tasks: [{
-				advancement: "spectrum:enter_wireless_redstone_puzzle_structure"
-				criterion: ""
-				id: "137C97DDFF7B6C75"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "spectrum:enter_wireless_redstone_puzzle_structure"
+					criterion: ""
+					id: "137C97DDFF7B6C75"
+					type: "advancement"
+				}
+				{
+					id: "37AEAC6EEF8473EC"
+					item: "spectrum:blood_orchid_petal"
+					title: "Ruin #3's treasure"
+					type: "item"
+				}
+			]
 			title: "Ruin #3"
-			x: 3.5d
-			y: 4.0d
+			x: 12.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["6F43CAFE8DFC15D4"]
+			dependencies: [
+				"6F43CAFE8DFC15D4"
+				"3EF90588748BCDE8"
+			]
+			description: ["A ruin with a strange blue &bforcefield&r, blocking the way. Beside it are &bsymbols&r that have an aura of defense. &o&7Where might you have seen that before?&r"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "spectrum:dike_chiseled_preservation_stone"
 			id: "1610C5C3629192DE"
 			rewards: [{
 				id: "787A5F96344C7C46"
@@ -2045,18 +2112,33 @@
 				type: "item"
 			}]
 			subtitle: "&eA Sturdy Dike"
-			tasks: [{
-				advancement: "spectrum:enter_ancient_ruins"
-				criterion: ""
-				id: "7C9EEA97A3823C23"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "spectrum:enter_ancient_ruins"
+					criterion: ""
+					id: "7C9EEA97A3823C23"
+					type: "advancement"
+				}
+				{
+					id: "7F481808A87E8712"
+					item: "spectrum:hibernating_jade_vine_seeds"
+					title: "Ruin #2's treasure"
+					type: "item"
+				}
+			]
 			title: "Ruin #2"
-			x: 2.5d
-			y: 4.5d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["6F43CAFE8DFC15D4"]
+			dependencies: [
+				"6F43CAFE8DFC15D4"
+				"265E77D910C56546"
+			]
+			description: ["A ruin with &bcolored spore blossoms&r out front, and a strangely familiar &bsymbol&r on the wall. &7&oIt must be something you've become very accustomed to using.&r"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "spectrum:powder_chiseled_preservation_stone"
 			id: "38049A1334A76694"
 			rewards: [{
 				id: "548BA8124FDEB174"
@@ -2073,15 +2155,23 @@
 				type: "item"
 			}]
 			subtitle: "&eMixed Up"
-			tasks: [{
-				advancement: "spectrum:enter_color_mixing_puzzle_structure"
-				criterion: ""
-				id: "0B60876EA0C8B079"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "spectrum:enter_color_mixing_puzzle_structure"
+					criterion: ""
+					id: "0B60876EA0C8B079"
+					type: "advancement"
+				}
+				{
+					id: "28BEB7CE6AA205AF"
+					item: "spectrum:amaranth_grains"
+					title: "Ruin #1's treasure"
+					type: "item"
+				}
+			]
 			title: "Ruin #1"
-			x: 1.5d
-			y: 4.0d
+			x: 11.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5EA323A52C146DEA"]
@@ -2101,6 +2191,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eLosing Its Mind"
 			tasks: [{
 				advancement: "spectrum:midgame/collect_mob_head_using_treasure_hunter"
@@ -2110,7 +2201,7 @@
 			}]
 			title: "Off With Their Heads"
 			x: 11.5d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5ADB895DCB77C6A8"]
@@ -2136,6 +2227,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eA Draining Experience"
 			tasks: [{
 				id: "5B5C350FE5324090"
@@ -2162,11 +2254,14 @@
 				title: "Ink-powered Trinkets"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.0d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["3E84D82AC7429CF4"]
+			dependencies: [
+				"3E84D82AC7429CF4"
+				"38049A1334A76694"
+			]
 			description: [
 				"Time to create life for real!"
 				""
@@ -2187,6 +2282,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&eOnce Only a Tale"
 			tasks: [{
 				advancement: "spectrum:midgame/remember_egg_laying_wooly_pig"
@@ -2196,7 +2292,7 @@
 			}]
 			title: "Combination Animal"
 			x: 19.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3DE03D1D2B4BC9D0"]
@@ -2216,6 +2312,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "Turns out mistakes can be beneficial... sometimes"
 			tasks: [{
 				id: "54AD4CAE26648E45"
@@ -2224,11 +2321,15 @@
 			}]
 			title: "Sweet Rewards"
 			x: 16.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6ACFFCD1F7A32369"]
-			description: ["&6Use&r the &bPotion Workshop&r to craft a potion with a &bLevel IV effect&r."]
+			description: [
+				"&6Use&r the &bPotion Workshop&r to craft a potion with a &bLevel IV effect&r."
+				""
+				"To do this, you'll need to &6combine reagents&r - you can't use the same one twice. All of the reagents' stats are described in REI as well as the book."
+			]
 			hide: true
 			icon: {
 				Count: 1b
@@ -2261,12 +2362,12 @@
 			}]
 			title: "Pigment Potion Mastery"
 			x: 13.0d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["096D77E6F44B5D27"]
 			description: [
-				"Can be &6filled&r in the &bPotion Workshop&r with one effect up to Level III. When worn, the Pendant constantly applies that effect."
+				"Can be &6filled&r in the &bPotion Workshop&r with one effect up to Level III. When worn, the Pendant constantly applies that effect, at the cost of &bInk&r."
 				""
 				"&7&oHow useful!&r"
 			]
@@ -2286,15 +2387,279 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "&ePotent Pendant"
 			tasks: [{
 				id: "5D761BA4099F131F"
 				item: "spectrum:lesser_potion_pendant"
 				type: "item"
 			}]
-			title: "Potioneering"
+			title: "Crystal Potion Pendants"
 			x: 13.0d
-			y: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1F17B62A67347D61"]
+			description: ["The &bRadiance Staff&r is more than a torch alternative. It can quickly &6flood&r a dark area with &blight&r."]
+			id: "22F639012D1DA888"
+			shape: "square"
+			subtitle: "Light the way"
+			tasks: [{
+				id: "499F6625842EF2FC"
+				item: "spectrum:radiance_staff"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B50D9F39BF07C16"]
+			description: ["Bone mealing is far more convenient with the &bNature's Staff&r. It's also capable of &6reviving&r certain plants..."]
+			id: "1CA39582DBDF988F"
+			shape: "square"
+			subtitle: "Are you a painter or a gardener?"
+			tasks: [{
+				id: "182523417E8C8013"
+				item: "spectrum:natures_staff"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F56655D7C4C3882"]
+			description: ["The &bBlack Hole Chest&r sucks up items into it within a decent range, and has several filter slots."]
+			id: "11A5FBBF5B0CFDF2"
+			rewards: [{
+				id: "4B73AFCB3A4FCB86"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Keeping your art studio mess-free"
+			tasks: [{
+				id: "2BC07E4E1C15B978"
+				item: "spectrum:sucking_chest"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F56655D7C4C3882"]
+			description: ["The &bConstructor's Staff&r is a kind of building wand, using Ink as its fuel."]
+			id: "7E44EC6478278800"
+			rewards: [{
+				id: "123B223646027E8C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Building your canvas"
+			tasks: [{
+				id: "671AD2194E7DC60F"
+				item: "spectrum:constructors_staff"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49D9ECC98F3A5E05"]
+			description: [
+				"These special &bBoots&r grant you many &bbonuses&r to movement, and can be &6enchanted&r with Power for more of a boost."
+				""
+				"&o&7You'll require something very lucky to be able to craft this.&r"
+			]
+			id: "439BD58EDC4A7E0E"
+			rewards: [{
+				id: "4429A17CE7C8C193"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Boots of the Trav- wait, wrong mod"
+			tasks: [{
+				id: "72B3B667597313E5"
+				item: "spectrum:seven_league_boots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36258B9E1280A188"]
+			description: ["A variety of &bspecially-made tools&r with innate &benchantments&r, helpful before you have an enchanting setup yourself."]
+			icon: {
+				Count: 1b
+				id: "spectrum:tender_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "50DDD70E7A15E464"
+			rewards: [{
+				id: "1243AA4CE12CE0BC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Carefully forged"
+			tasks: [{
+				id: "7D7E646D31B14648"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spectrum:tender_pickaxe"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:silk_touch"
+										lvl: 1s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "spectrum:lucky_pickaxe"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 3s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "spectrum:razor_falchion"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:looting"
+										lvl: 3s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "spectrum:oblivion_pickaxe"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "spectrum:voiding"
+										lvl: 1s
+									}]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enchanted Tools"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36258B9E1280A188"]
+			description: ["&6Automatically crafts&r certain recipes, such as turning &bingots&r into &bblocks&r, or the reverse."]
+			id: "4158090E8412A5A2"
+			rewards: [{
+				id: "6882B8A264C842E1"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Neat, tidy"
+			tasks: [{
+				id: "4B17BAC55432C5CB"
+				item: "spectrum:compacting_chest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["371F3371DC37B760"]
+			description: ["&bGlistering melon&r can be &6crushed&r with an anvil to get &bgold nuggets&r. These seeds let you &6farm&r glistering melon, and, by extension, gold!"]
+			id: "7B9F90BB805EFA02"
+			rewards: [{
+				id: "23B9E58E8076BC3C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Greed is good"
+			tasks: [{
+				id: "35604ACB77854B84"
+				item: "spectrum:glistering_melon_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
 		}
 	]
 	title: "Spectrum"
