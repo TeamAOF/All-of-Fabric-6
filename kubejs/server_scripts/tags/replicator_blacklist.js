@@ -274,7 +274,8 @@ ServerEvents.tags('item', event => {
         'harvest_scythes:creative_machete',
         'create:creative_blaze_cake',
         'wands:creative_wand',
-        'hexcasting:creative_unlocker'
+        'hexcasting:creative_unlocker',
+	'the_bumblezone:honey_cocoon'
 
     ];
 
