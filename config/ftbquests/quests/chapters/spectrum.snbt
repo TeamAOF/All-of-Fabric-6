@@ -16,7 +16,7 @@
 				""
 				"These quests don't cover everything in Spectrum, but they touch on the main progression and some notable side content."
 				""
-				"To begin, find some &bgemstones&r."
+				"To begin, find some &bGemstone Geodes&r."
 			]
 			icon: "spectrum:guidebook"
 			id: "6F9B2ECCE750C280"
@@ -1480,7 +1480,7 @@
 		}
 		{
 			dependencies: ["110822566F9E2DBB"]
-			description: ["&7&oUnbreakable? Really?&r"]
+			description: ["&7&oUnbreakable? Really?&r I wonder what is beneath?"]
 			hide: true
 			id: "16AFA6ABBF50A54C"
 			rewards: [{
@@ -1505,7 +1505,7 @@
 				type: "advancement"
 			}]
 			title: "Through the floor!"
-			x: 16.0d
+			x: 17.5d
 			y: 7.5d
 		}
 		{
@@ -1536,7 +1536,7 @@
 			}]
 			title: "Black Knight"
 			x: 17.5d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1E1E5ECB2C1C95B9"]
@@ -1669,40 +1669,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7CE00D3A16827F50"]
-			description: [
-				"This is the current &6end of progression&r, until a future update brings what awaits &bbelow the bedrock floor&r...."
-				""
-				"&7&oUntil then, why not explore the parts of Spectrum the quests didn't go over?&r"
-			]
-			hide: true
-			icon: "spectrum:end_portal_cracker"
-			id: "5F98F94ABEC9673E"
-			rewards: [{
-				id: "45AB8E4F697891A9"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
-						Name: "Magic Epic Lootbag"
-						Type: "EPIC"
-					}
-				}
-				type: "item"
-			}]
-			size: 1.5d
-			subtitle: "&eSomewhere over the Rainbow"
-			tasks: [{
-				id: "7AEB317EAD6C59BF"
-				type: "checkmark"
-			}]
-			title: "More to come in a future update"
-			x: 19.5d
-			y: 7.5d
-		}
-		{
 			dependencies: ["28CB44142633D257"]
 			description: ["The &bazurite trinkets&r give you a &6shield&r, protecting you from harm with comforting blue hues."]
 			hide: true
@@ -1734,7 +1700,6 @@
 		}
 		{
 			dependencies: [
-				"5F98F94ABEC9673E"
 				"1610C5C3629192DE"
 				"38049A1334A76694"
 				"2E12C8D6A35B7405"
@@ -1886,7 +1851,7 @@
 			}]
 			subtitle: "&eWhat came before"
 			tasks: [{
-				advancement: "spectrum:find_ancient_ruins"
+				advancement: "spectrum:find_preservation_ruins"
 				criterion: ""
 				id: "489D435703F74E80"
 				type: "advancement"
@@ -2018,7 +1983,7 @@
 			}]
 			subtitle: "&eShort Wired"
 			tasks: [{
-				advancement: "spectrum:enter_wireless_redstone_puzzle_structure"
+				advancement: "spectrum:enter_wireless_redstone_preservation_ruin"
 				criterion: ""
 				id: "137C97DDFF7B6C75"
 				type: "advancement"
@@ -2046,7 +2011,7 @@
 			}]
 			subtitle: "&eA Sturdy Dike"
 			tasks: [{
-				advancement: "spectrum:enter_ancient_ruins"
+				advancement: "spectrum:enter_dike_gate_preservation_ruin"
 				criterion: ""
 				id: "7C9EEA97A3823C23"
 				type: "advancement"
@@ -2074,7 +2039,7 @@
 			}]
 			subtitle: "&eMixed Up"
 			tasks: [{
-				advancement: "spectrum:enter_color_mixing_puzzle_structure"
+				advancement: "spectrum:enter_color_mixing_preservation_ruin"
 				criterion: ""
 				id: "0B60876EA0C8B079"
 				type: "advancement"
@@ -2295,6 +2260,1002 @@
 			title: "Potioneering"
 			x: 13.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["16AFA6ABBF50A54C"]
+			description: ["Find out was lies beneath the once impenetrable Bedrock Floor"]
+			hide: true
+			id: "74CF7A3D9F383FCE"
+			rewards: [{
+				id: "00C4B5B0227CC783"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eOpen a Portal... Deeper Down"
+			tasks: [{
+				advancement: "spectrum:midgame/open_deeper_down_portal"
+				criterion: ""
+				id: "1297F806C14F7457"
+				type: "advancement"
+			}]
+			title: "Abyssmal"
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			hide: true
+			id: "69700EE38D87B3AE"
+			rewards: [{
+				id: "233D215CEB7F6A1E"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eEnter a Fortgotten City"
+			tasks: [{
+				advancement: "spectrum:lategame/find_forgotten_city"
+				criterion: ""
+				id: "27FDE8EAF24848D2"
+				type: "advancement"
+			}]
+			title: "Remnants of the Past"
+			x: 21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			hide: true
+			id: "22E2CD17FE2A8869"
+			rewards: [{
+				id: "5799426896D7A81D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eDiscover a Moonstone Geode"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_moonstone_shard"
+				criterion: ""
+				id: "363612FADF86B22F"
+				type: "advancement"
+			}]
+			title: "The Brightest of Whites"
+			x: 21.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			hide: true
+			id: "631BD7F1DB0495DD"
+			rewards: [{
+				id: "65446F314FEAC009"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eReach the Bottom of the Deeper Down"
+			tasks: [{
+				advancement: "spectrum:lategame/reached_dd_floor"
+				criterion: ""
+				id: "11DBD80F85036455"
+				type: "advancement"
+			}]
+			title: "Bedrock 2: Electric Boogaloo"
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			hide: true
+			id: "527E5EE02005FDC4"
+			rewards: [{
+				id: "5A287731B2848B84"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eVisit each of the biomes in the Deeper Down"
+			tasks: [{
+				advancement: "spectrum:lategame/visit_all_deeper_down_biomes"
+				criterion: ""
+				id: "7B36AEB600F0386F"
+				type: "advancement"
+			}]
+			title: "Biomes Below Bedrock"
+			x: 21.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			hide: true
+			id: "1A19BCABF7117AB2"
+			rewards: [{
+				id: "52AFAAA2781D4147"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCollect all the resources in the Deeper Down"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_dd_resources"
+				criterion: ""
+				id: "316909DDD20437A4"
+				type: "advancement"
+			}]
+			title: "Hoarder"
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69700EE38D87B3AE"]
+			hide: true
+			id: "01ABB62DDB06DB72"
+			rewards: [{
+				id: "7B61C5217AE7E732"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eFind all the Cook Books of the culture that is long gone"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_all_cookbooks"
+				criterion: ""
+				id: "186E2D6E480931BB"
+				type: "advancement"
+			}]
+			title: "Yet Another's Requim"
+			x: 23.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["69700EE38D87B3AE"]
+			hide: true
+			id: "36F0E27B93D491A1"
+			rewards: [{
+				id: "3AAC7C9C873D64A4"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eFind a Moonstone Core in one of the Underground Cities"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_moonstone_core"
+				criterion: ""
+				id: "1B7B5EAD32A2C5E4"
+				type: "advancement"
+			}]
+			title: "Bright Powerhouse"
+			x: 24.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["22E2CD17FE2A8869"]
+			hide: true
+			id: "085118625BB0EA90"
+			rewards: [{
+				id: "0A64D12C79AA21C8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eUse a Moonstone Shard to upgrade you Pigment Pedestal once more"
+			tasks: [{
+				advancement: "spectrum:lategame/craft_moonstone_pedestal"
+				criterion: ""
+				id: "377EC45A387CF6A5"
+				type: "advancement"
+			}]
+			title: "Incandescence"
+			x: 23.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4481B249C18CCF9A"]
+			hide: true
+			id: "31FD82420EC61E94"
+			rewards: [{
+				id: "519B7E1DF69E9E62"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eUpgrade your Pedestal Structure to its true potentional"
+			tasks: [{
+				advancement: "spectrum:lategame/build_complex_pedestal_structure"
+				criterion: ""
+				id: "34795377F5276F77"
+				type: "advancement"
+			}]
+			title: "Construct the Spectrum Complex"
+			x: 26.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["085118625BB0EA90"]
+			hide: true
+			id: "4481B249C18CCF9A"
+			rewards: [{
+				id: "1DAD146EE321A4EA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eSomething is still missing from your Structure"
+			tasks: [{
+				advancement: "spectrum:lategame/build_complex_pedestal_structure_without_moonstone"
+				criterion: ""
+				id: "77A62BC07A783079"
+				type: "advancement"
+			}]
+			title: "A Missing Puzzle Piece"
+			x: 24.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31FD82420EC61E94"]
+			hide: true
+			id: "73120DB783503541"
+			rewards: [{
+				id: "39CD55544D4DA20A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eFind Malachite in the Deeper Down"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_malachite"
+				criterion: ""
+				id: "5108F32ACD5790CD"
+				type: "advancement"
+			}]
+			title: "A Mesmerizing Shade of Green"
+			x: 26.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31FD82420EC61E94"]
+			hide: true
+			id: "07BA16929E2AC0E8"
+			rewards: [{
+				id: "735DC05D9B2AA890"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCollect a fragment of Paltaeria from The End"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_paltaeria"
+				criterion: ""
+				id: "3AC3A4FAAE70EE5A"
+				type: "advancement"
+			}]
+			title: "Watch it Fly By"
+			x: 27.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31FD82420EC61E94"]
+			id: "0DC376CC3CB12C7E"
+			rewards: [{
+				id: "2058DF9E2354A996"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eFinish your collection of Pigments"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_grayscale_pigments"
+				criterion: ""
+				id: "09A4942BF3D556D2"
+				type: "advancement"
+			}]
+			title: "Four Shades of Gray"
+			x: 24.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["07BA16929E2AC0E8"]
+			hide: true
+			id: "7254C86E24938CE4"
+			rewards: [{
+				id: "46E5CB7910166CB8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCreate and Enchant an Exchanging Staff"
+			tasks: [{
+				advancement: "spectrum:lategame/enchant_exchanging_staff"
+				criterion: ""
+				id: "0BC2FB28046550B6"
+				type: "advancement"
+			}]
+			title: "More than a Building Tool"
+			x: 29.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"07BA16929E2AC0E8"
+				"044E7F9EC3D8C60C"
+			]
+			hide: true
+			id: "2E764AFD13AE3047"
+			rewards: [{
+				id: "0D7867B032164B2A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCraft the Resonant Pickaxe"
+			tasks: [{
+				advancement: "spectrum:lategame/craft_resonant_pickaxe"
+				criterion: ""
+				id: "477D77DAF18D410C"
+				type: "advancement"
+			}]
+			title: "Good Vibrations"
+			x: 29.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E764AFD13AE3047"]
+			hide: true
+			id: "105C09C867052F3A"
+			rewards: [{
+				id: "60A0E37C079F5EEC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCraft a Resonance Book with the Enchanter"
+			tasks: [{
+				advancement: "spectrum:lategame/create_resonance_enchanted_book"
+				criterion: ""
+				id: "5EA77345EC534054"
+				type: "advancement"
+			}]
+			title: "Better Vibrations"
+			x: 30.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E764AFD13AE3047"]
+			hide: true
+			id: "4BD5F19B354B9027"
+			rewards: [{
+				id: "5EDF38F293F2816D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eBreak a Mob Spawner with Resonance"
+			tasks: [{
+				advancement: "spectrum:lategame/break_spawner_with_resonance_tool"
+				criterion: ""
+				id: "16979DBFFB2B1C59"
+				type: "advancement"
+			}]
+			title: "The Evil Within"
+			x: 30.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E764AFD13AE3047"]
+			hide: true
+			id: "183AE5E1F4D3423F"
+			rewards: [{
+				id: "65475261EDD96F0D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eBreak a Budding Block using Resonance"
+			tasks: [{
+				advancement: "spectrum:lategame/break_budding_block_with_resonance_tool"
+				criterion: ""
+				id: "2E1A7A6A6434BA74"
+				type: "advancement"
+			}]
+			title: "Budding Friendship"
+			x: 30.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["73120DB783503541"]
+			hide: true
+			id: "5D0AFBC2301FB938"
+			rewards: [{
+				id: "63AC2CB41368F0F8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCreate a Tool made out of Malachite"
+			tasks: [{
+				advancement: "spectrum:lategame/create_malachite_tool"
+				criterion: ""
+				id: "44921BFC6CD1269A"
+				type: "advancement"
+			}]
+			title: "Green Dream"
+			x: 27.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5D0AFBC2301FB938"
+				"36F0E27B93D491A1"
+			]
+			hide: true
+			id: "5B502145123A5A3B"
+			rewards: [{
+				id: "41C1830ACC41F845"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eSocket a Malachite Tool with a Moonstone Core to unlock its active abillities"
+			tasks: [{
+				advancement: "spectrum:lategame/create_glass_crest_tool"
+				criterion: ""
+				id: "1CC54F6D0C6DB852"
+				type: "advancement"
+			}]
+			title: "Ink Powered"
+			x: 27.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["631BD7F1DB0495DD"]
+			hide: true
+			id: "326BC4ED65D85897"
+			rewards: [{
+				id: "613AFCC22FBFE8A4"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eStumple upon an Excavation Site"
+			tasks: [{
+				advancement: "spectrum:lategame/find_excavation_site"
+				criterion: ""
+				id: "6036480B1FAA4CC8"
+				type: "advancement"
+			}]
+			title: "Very Boring"
+			x: 23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["326BC4ED65D85897"]
+			hide: true
+			id: "074A9E3BB501CFEB"
+			rewards: [{
+				id: "246140D85AFA7FCA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eFind Downstone Fragments"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_downstone_fragments"
+				criterion: ""
+				id: "00F6EF46413C2AF5"
+				type: "advancement"
+			}]
+			title: "Massive Mechanisms"
+			x: 24.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A19BCABF7117AB2"]
+			hide: true
+			id: "53ACD1C086D4B1DA"
+			rewards: [{
+				id: "6C401AE70FCBF310"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCrack and Break Dragonbone"
+			tasks: [{
+				advancement: "spectrum:lategame/break_cracked_dragonbone"
+				criterion: ""
+				id: "2C4FA979CF6E5A59"
+				type: "advancement"
+			}]
+			title: "The Dragon Lies Bleeding"
+			x: 23.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53ACD1C086D4B1DA"]
+			id: "04022EAAA963A501"
+			rewards: [{
+				id: "4EDD0BB9836E666B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eAlmost a Dragon"
+			tasks: [{
+				advancement: "spectrum:lategame/remember_kindling"
+				criterion: ""
+				id: "103C638854D75E04"
+				type: "advancement"
+			}]
+			title: "False Idols My Beloved"
+			x: 24.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A19BCABF7117AB2"]
+			hide: true
+			id: "06937CA1C299031F"
+			rewards: [{
+				id: "7FA652263F3927A6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCollect Hummingstone"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_hummingstone"
+				criterion: ""
+				id: "26786333D1F6CC22"
+				type: "advancement"
+			}]
+			title: "Songbird"
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A19BCABF7117AB2"]
+			hide: true
+			id: "26A045E41ED17C9D"
+			rewards: [{
+				id: "37428BCDFDB2ADC4"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCollect Bismuth"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_bismuth"
+				criterion: ""
+				id: "31E2E37F848CECF7"
+				type: "advancement"
+			}]
+			title: "50 Shades of Everything"
+			x: 23.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A045E41ED17C9D"]
+			hide: true
+			id: "3F9C5EF2DEFCF732"
+			rewards: [{
+				id: "6694D2CDD6757F29"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eGrow Bismuth on a metal block"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_bismuth_crystal"
+				criterion: ""
+				id: "76D46881C0D97EDD"
+				type: "advancement"
+			}]
+			title: "Primordial Dream"
+			x: 26.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["135B0DDDE09498A5"]
+			hide: true
+			id: "4059CD807EC64624"
+			rewards: [{
+				id: "4F2D5F267895D2B5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eGrow Bismuth using your new Crystallarieum"
+			tasks: [{
+				advancement: "spectrum:lategame/grow_bismuth_in_crystallarieum"
+				criterion: ""
+				id: "08FBBA994A990B75"
+				type: "advancement"
+			}]
+			title: "A Solid Improvement"
+			x: 29.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["135B0DDDE09498A5"]
+			hide: true
+			id: "1F655261AADEF7E9"
+			rewards: [{
+				id: "50D9487451EE18BC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eGrow Pure Resource Clusters"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_pure_resource"
+				criterion: ""
+				id: "4D3488867594ABF7"
+				type: "advancement"
+			}]
+			title: "Same, but Different"
+			x: 29.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06937CA1C299031F"]
+			description: ["With enough &bHummingstone&r reacting together maybe something will happen?"]
+			hide: true
+			id: "044E7F9EC3D8C60C"
+			rewards: [{
+				id: "143C1D5EBCCAAED8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eStrike a Hummingtone Hymn"
+			tasks: [{
+				advancement: "spectrum:lategame/strike_up_hummingstone_hymn"
+				criterion: ""
+				id: "1771AD7DF7491E3D"
+				type: "advancement"
+			}]
+			title: "Symphony"
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04022EAAA963A501"]
+			hide: true
+			id: "4EB60A42F7F0A2A0"
+			rewards: [{
+				id: "60039F8EFA0FB15B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eTheir Feathers look very pluckable"
+			tasks: [{
+				advancement: "spectrum:lategame/pluck_effulgent_feather"
+				criterion: ""
+				id: "26C2D2173FCC1CC7"
+				type: "advancement"
+			}]
+			title: "RUN"
+			x: 26.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4EB60A42F7F0A2A0"
+				"135B0DDDE09498A5"
+			]
+			hide: true
+			id: "3469B3EDFFA6484E"
+			rewards: [{
+				id: "261B36A529ACAF50"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eGrow Bloodstone"
+			tasks: [{
+				advancement: "spectrum:lategame/grow_bloodstone_in_crystallarieum"
+				criterion: ""
+				id: "7A3E3067BC83786B"
+				type: "advancement"
+			}]
+			title: "Strength of Will"
+			x: 29.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3F9C5EF2DEFCF732"
+				"07BA16929E2AC0E8"
+			]
+			hide: true
+			id: "135B0DDDE09498A5"
+			rewards: [{
+				id: "7D1E1277CD2BE984"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCraft the Crystallarieum"
+			tasks: [{
+				id: "748030008665FA22"
+				item: "spectrum:crystallarieum"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 3.0d
 		}
 	]
 	title: "Spectrum"

@@ -84,7 +84,15 @@
 			"required": false
 		},
 		{
+			"id": "lootr:lootr_trapped_chest",
+			"required": false
+		},
+		{
 			"id": "lootr:lootr_barrel",
+			"required": false
+		},
+		{
+			"id": "lootr:lootr_shulker",
 			"required": false
 		},
 		{
