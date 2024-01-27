@@ -2188,6 +2188,7 @@
 		{
 			dependencies: ["3DE03D1D2B4BC9D0"]
 			description: ["With the help of a &bCinderhearth&r, you can &6smelt&r this jelly into &bjaramel&r, and make all kinds of tasty treats."]
+			hide: true
 			id: "1AD3C42442918E43"
 			rewards: [{
 				id: "1054087C01982D32"
@@ -3406,6 +3407,7 @@
 		{
 			dependencies: ["418776D548B71C96"]
 			description: ["&bMyceylon&r adds great flavor to baked goods and drinks"]
+			hide: true
 			id: "421BF4C4A342DD80"
 			rewards: [{
 				id: "5E704AEEA6A87BE0"
@@ -3428,6 +3430,7 @@
 				id: "1E3ABA11B17640AC"
 				type: "advancement"
 			}]
+			title: "Mushroom Aromatics"
 			x: 22.5d
 			y: 0.0d
 		}
