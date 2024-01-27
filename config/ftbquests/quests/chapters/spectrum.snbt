@@ -16,6 +16,8 @@
 				""
 				"These quests don't cover everything in Spectrum, but they touch on the main progression and some notable side content."
 				""
+				"Quests are hidden and will appear as you can complete them. "
+				""
 				"To begin, find some &bGemstone Geodes&r."
 			]
 			icon: "spectrum:guidebook"
@@ -1000,7 +1002,7 @@
 		{
 			dependencies: ["0F6E96D9C9F5EF35"]
 			description: ["&6Construct&r the &bEnchanter&r. This structure allows you to &6conveniently enchant&r items, &6copy enchanted books&r, and offers many &bunique enchantments&r."]
-			hide: false
+			hide: true
 			icon: "spectrum:enchanter"
 			id: "5EA323A52C146DEA"
 			rewards: [{
@@ -1134,6 +1136,7 @@
 		{
 			dependencies: ["1810EB195B0CC509"]
 			description: ["Thunderstorms are powerful indeed. Surely &6lightning&r leaves &bsomething of interest&r behind?"]
+			hide: true
 			id: "38BEF83AFD8EA081"
 			rewards: [{
 				id: "699401FD4954F141"
@@ -1717,8 +1720,22 @@
 				"503381C10054E786"
 				"1AD3C42442918E43"
 				"7DF89E1482BD6640"
+				"4BD5F19B354B9027"
+				"1F655261AADEF7E9"
+				"5B502145123A5A3B"
+				"183AE5E1F4D3423F"
+				"105C09C867052F3A"
+				"4059CD807EC64624"
+				"074A9E3BB501CFEB"
+				"3469B3EDFFA6484E"
+				"7254C86E24938CE4"
+				"527E5EE02005FDC4"
+				"1A19BCABF7117AB2"
 			]
+			hide: false
 			hide_dependency_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
 			icon: {
 				Count: 1b
 				id: "trofers:medium_pillar"
@@ -1796,6 +1813,7 @@
 				""
 				"&7&oYou wanted ore doubling?&r"
 			]
+			hide: true
 			id: "093E8238C4E5B9DC"
 			rewards: [{
 				id: "1E08AC5ADAB83401"
@@ -1820,20 +1838,16 @@
 			}]
 			title: "State-of-your-art Blasting"
 			x: 12.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
-			dependencies: [
-				"042E7914986F8A32"
-				"36258B9E1280A188"
-			]
+			dependencies: ["042E7914986F8A32"]
 			description: [
 				"There are &6three types&r of strange &bRuins&r made out of unbreakable rock, around where the stone becomes deepslate. What secrets do they hold?"
 				""
 				"If you can't figure out how to enter them now, best to &6come back later&r, with more tools at your disposal."
 			]
 			hide: true
-			hide_dependency_lines: true
 			id: "6F43CAFE8DFC15D4"
 			rewards: [{
 				id: "2128283B6A77323D"
@@ -1869,6 +1883,7 @@
 				""
 				"&o&7Recipes take real-life hours to process, and you can't tick-accelerate them. However, it tracks time passed even when your game is closed.&r"
 			]
+			hide: true
 			id: "6D9E0A35748F36F8"
 			rewards: [{
 				id: "385D7AFF4D12782D"
@@ -1938,6 +1953,7 @@
 				""
 				"&6Place&r as many upgrades as possible onto your &bPigment Pedestal structure&r."
 			]
+			hide: true
 			id: "55D9BA50B2741773"
 			rewards: [{
 				id: "0F5B43D0C98CB8F3"
@@ -1966,6 +1982,7 @@
 		}
 		{
 			dependencies: ["6F43CAFE8DFC15D4"]
+			hide: true
 			id: "2E12C8D6A35B7405"
 			rewards: [{
 				id: "37116783B941E4D3"
@@ -1994,6 +2011,7 @@
 		}
 		{
 			dependencies: ["6F43CAFE8DFC15D4"]
+			hide: true
 			id: "1610C5C3629192DE"
 			rewards: [{
 				id: "787A5F96344C7C46"
@@ -2022,6 +2040,7 @@
 		}
 		{
 			dependencies: ["6F43CAFE8DFC15D4"]
+			hide: true
 			id: "38049A1334A76694"
 			rewards: [{
 				id: "548BA8124FDEB174"
@@ -2051,6 +2070,7 @@
 		{
 			dependencies: ["5EA323A52C146DEA"]
 			description: ["&6Kill&r a mob with the &bTreasure Hunter enchantment&r to acquire its head."]
+			hide: true
 			id: "58FE2DC83ADD005F"
 			rewards: [{
 				id: "0E3BD519AF1E3BAB"
@@ -2086,6 +2106,7 @@
 				""
 				"&7&oYou'll need a lot of Ink to make them truly potent.&r"
 			]
+			hide: true
 			id: "60D12546F28D7C78"
 			rewards: [{
 				id: "5BCB70FB5725CA93"
@@ -2128,7 +2149,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3E84D82AC7429CF4"]
@@ -2137,6 +2158,7 @@
 				""
 				"&6Craft&r and &6manifest&r the memory of an &bEgg Laying Wooly Pig&r. &7&oYou will probably want two of them.&r"
 			]
+			hide: true
 			id: "6CAD13315766D55D"
 			rewards: [{
 				id: "7B460CDAA8B537AD"
@@ -2288,7 +2310,7 @@
 				type: "advancement"
 			}]
 			title: "Abyssmal"
-			x: 20.0d
+			x: 21.0d
 			y: 7.5d
 		}
 		{
@@ -2317,11 +2339,12 @@
 				type: "advancement"
 			}]
 			title: "Remnants of the Past"
-			x: 21.5d
+			x: 22.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["74CF7A3D9F383FCE"]
+			description: ["Somewhere in the Deeper Down lies a pure Geode"]
 			hide: true
 			id: "22E2CD17FE2A8869"
 			rewards: [{
@@ -2346,11 +2369,12 @@
 				type: "advancement"
 			}]
 			title: "The Brightest of Whites"
-			x: 21.5d
+			x: 22.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["74CF7A3D9F383FCE"]
+			description: ["Discover the Downstone floor. "]
 			hide: true
 			id: "631BD7F1DB0495DD"
 			rewards: [{
@@ -2375,8 +2399,8 @@
 				type: "advancement"
 			}]
 			title: "Bedrock 2: Electric Boogaloo"
-			x: 21.5d
-			y: 1.5d
+			x: 21.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["74CF7A3D9F383FCE"]
@@ -2404,11 +2428,19 @@
 				type: "advancement"
 			}]
 			title: "Biomes Below Bedrock"
-			x: 21.5d
-			y: 10.5d
+			x: 22.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["74CF7A3D9F383FCE"]
+			dependencies: [
+				"06937CA1C299031F"
+				"53ACD1C086D4B1DA"
+				"26A045E41ED17C9D"
+				"0291CC08A51C832E"
+				"6A5C85C0D60E2D44"
+				"421BF4C4A342DD80"
+				"074A9E3BB501CFEB"
+			]
 			hide: true
 			id: "1A19BCABF7117AB2"
 			rewards: [{
@@ -2433,8 +2465,8 @@
 				type: "advancement"
 			}]
 			title: "Hoarder"
-			x: 21.5d
-			y: 4.5d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["69700EE38D87B3AE"]
@@ -2462,7 +2494,7 @@
 				type: "advancement"
 			}]
 			title: "Yet Another's Requim"
-			x: 23.0d
+			x: 24.0d
 			y: 9.0d
 		}
 		{
@@ -2491,11 +2523,12 @@
 				type: "advancement"
 			}]
 			title: "Bright Powerhouse"
-			x: 24.5d
+			x: 25.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["22E2CD17FE2A8869"]
+			description: ["Using a &bMoonstone Shard&r upgrade your Pigment Pedestal"]
 			hide: true
 			id: "085118625BB0EA90"
 			rewards: [{
@@ -2512,7 +2545,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&eUse a Moonstone Shard to upgrade you Pigment Pedestal once more"
+			subtitle: "&eUpgrade you Pigment Pedestal"
 			tasks: [{
 				advancement: "spectrum:lategame/craft_moonstone_pedestal"
 				criterion: ""
@@ -2520,7 +2553,7 @@
 				type: "advancement"
 			}]
 			title: "Incandescence"
-			x: 23.0d
+			x: 24.0d
 			y: 7.5d
 		}
 		{
@@ -2549,11 +2582,12 @@
 				type: "advancement"
 			}]
 			title: "Construct the Spectrum Complex"
-			x: 26.0d
+			x: 27.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["085118625BB0EA90"]
+			description: ["Your Palace seems to be missing &bMoonstone Chiseled Blocks&r. Perhaps you can find some in the Cities you found below."]
 			hide: true
 			id: "4481B249C18CCF9A"
 			rewards: [{
@@ -2578,7 +2612,7 @@
 				type: "advancement"
 			}]
 			title: "A Missing Puzzle Piece"
-			x: 24.5d
+			x: 25.5d
 			y: 7.5d
 		}
 		{
@@ -2607,11 +2641,12 @@
 				type: "advancement"
 			}]
 			title: "A Mesmerizing Shade of Green"
-			x: 26.0d
+			x: 27.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["31FD82420EC61E94"]
+			description: ["You feel a strange urge to travel to The End, as though something new can be found there."]
 			hide: true
 			id: "07BA16929E2AC0E8"
 			rewards: [{
@@ -2628,7 +2663,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&eCollect a fragment of Paltaeria from The End"
+			subtitle: "&eCollect a fragment of Paltaeria"
 			tasks: [{
 				advancement: "spectrum:lategame/collect_paltaeria"
 				criterion: ""
@@ -2636,11 +2671,13 @@
 				type: "advancement"
 			}]
 			title: "Watch it Fly By"
-			x: 27.5d
+			x: 28.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["31FD82420EC61E94"]
+			description: ["Now that you can craft with &bMoonstone Powder&r you can finally create White and Grays."]
+			hide: true
 			id: "0DC376CC3CB12C7E"
 			rewards: [{
 				id: "2058DF9E2354A996"
@@ -2664,7 +2701,7 @@
 				type: "advancement"
 			}]
 			title: "Four Shades of Gray"
-			x: 24.5d
+			x: 25.5d
 			y: 9.0d
 		}
 		{
@@ -2693,7 +2730,7 @@
 				type: "advancement"
 			}]
 			title: "More than a Building Tool"
-			x: 29.0d
+			x: 30.0d
 			y: 7.5d
 		}
 		{
@@ -2701,6 +2738,7 @@
 				"07BA16929E2AC0E8"
 				"044E7F9EC3D8C60C"
 			]
+			description: ["This tool is capable of picking up &bBudding Blocks"]
 			hide: true
 			id: "2E764AFD13AE3047"
 			rewards: [{
@@ -2725,7 +2763,7 @@
 				type: "advancement"
 			}]
 			title: "Good Vibrations"
-			x: 29.0d
+			x: 30.0d
 			y: 6.0d
 		}
 		{
@@ -2754,7 +2792,7 @@
 				type: "advancement"
 			}]
 			title: "Better Vibrations"
-			x: 30.5d
+			x: 31.5d
 			y: 6.0d
 		}
 		{
@@ -2783,7 +2821,7 @@
 				type: "advancement"
 			}]
 			title: "The Evil Within"
-			x: 30.5d
+			x: 31.5d
 			y: 4.5d
 		}
 		{
@@ -2812,7 +2850,7 @@
 				type: "advancement"
 			}]
 			title: "Budding Friendship"
-			x: 30.5d
+			x: 31.5d
 			y: 7.5d
 		}
 		{
@@ -2841,7 +2879,7 @@
 				type: "advancement"
 			}]
 			title: "Green Dream"
-			x: 27.5d
+			x: 28.5d
 			y: 9.0d
 		}
 		{
@@ -2849,6 +2887,7 @@
 				"5D0AFBC2301FB938"
 				"36F0E27B93D491A1"
 			]
+			description: ["This also requires the creation of &bPure Resources"]
 			hide: true
 			id: "5B502145123A5A3B"
 			rewards: [{
@@ -2865,7 +2904,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&eSocket a Malachite Tool with a Moonstone Core to unlock its active abillities"
+			subtitle: "&eSocket a Malachite Tool with a Moonstone Core"
 			tasks: [{
 				advancement: "spectrum:lategame/create_glass_crest_tool"
 				criterion: ""
@@ -2873,11 +2912,12 @@
 				type: "advancement"
 			}]
 			title: "Ink Powered"
-			x: 27.5d
+			x: 28.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["631BD7F1DB0495DD"]
+			description: ["Seems like Downstone was somewhat harvestable as attested by the machinery of these dig sites"]
 			hide: true
 			id: "326BC4ED65D85897"
 			rewards: [{
@@ -2902,11 +2942,12 @@
 				type: "advancement"
 			}]
 			title: "Very Boring"
-			x: 23.0d
-			y: 1.5d
+			x: 21.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["326BC4ED65D85897"]
+			description: ["Perhaps there are still resources to find in these dig sites"]
 			hide: true
 			id: "074A9E3BB501CFEB"
 			rewards: [{
@@ -2931,12 +2972,13 @@
 				type: "advancement"
 			}]
 			title: "Massive Mechanisms"
-			x: 24.5d
-			y: 1.5d
+			x: 21.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1A19BCABF7117AB2"]
+			dependencies: ["74CF7A3D9F383FCE"]
 			hide: true
+			hide_dependency_lines: true
 			id: "53ACD1C086D4B1DA"
 			rewards: [{
 				id: "6C401AE70FCBF310"
@@ -2960,11 +3002,12 @@
 				type: "advancement"
 			}]
 			title: "The Dragon Lies Bleeding"
-			x: 23.0d
+			x: 24.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["53ACD1C086D4B1DA"]
+			hide: true
 			id: "04022EAAA963A501"
 			rewards: [{
 				id: "4EDD0BB9836E666B"
@@ -2988,12 +3031,14 @@
 				type: "advancement"
 			}]
 			title: "False Idols My Beloved"
-			x: 24.5d
+			x: 25.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["1A19BCABF7117AB2"]
+			dependencies: ["74CF7A3D9F383FCE"]
+			description: ["Hummingstone can be found in the &bCrystal Gardens"]
 			hide: true
+			hide_dependency_lines: true
 			id: "06937CA1C299031F"
 			rewards: [{
 				id: "7FA652263F3927A6"
@@ -3017,12 +3062,14 @@
 				type: "advancement"
 			}]
 			title: "Songbird"
-			x: 23.0d
+			x: 24.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["1A19BCABF7117AB2"]
+			dependencies: ["74CF7A3D9F383FCE"]
+			description: ["A metal that shimmers in all the colors of the rainbow. Found in the &bCrystal Gardens"]
 			hide: true
+			hide_dependency_lines: true
 			id: "26A045E41ED17C9D"
 			rewards: [{
 				id: "37428BCDFDB2ADC4"
@@ -3046,11 +3093,12 @@
 				type: "advancement"
 			}]
 			title: "50 Shades of Everything"
-			x: 23.0d
+			x: 24.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["26A045E41ED17C9D"]
+			description: ["&bBismuth&r seems to grow in proximity to other metals. Perhaps try placing it on a &bBlock of Iron&r? It may consume it for energy to grow"]
 			hide: true
 			id: "3F9C5EF2DEFCF732"
 			rewards: [{
@@ -3067,7 +3115,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&eGrow Bismuth on a metal block"
+			subtitle: "&ePerhaps the flakes can grow?"
 			tasks: [{
 				advancement: "spectrum:lategame/collect_bismuth_crystal"
 				criterion: ""
@@ -3075,11 +3123,12 @@
 				type: "advancement"
 			}]
 			title: "Primordial Dream"
-			x: 26.0d
+			x: 27.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["135B0DDDE09498A5"]
+			description: ["This is a much more reliable way to grow Bismuth"]
 			hide: true
 			id: "4059CD807EC64624"
 			rewards: [{
@@ -3104,11 +3153,12 @@
 				type: "advancement"
 			}]
 			title: "A Solid Improvement"
-			x: 29.0d
+			x: 30.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["135B0DDDE09498A5"]
+			description: ["Use the Crystallarieum to grow all the things"]
 			hide: true
 			id: "1F655261AADEF7E9"
 			rewards: [{
@@ -3133,7 +3183,7 @@
 				type: "advancement"
 			}]
 			title: "Same, but Different"
-			x: 29.0d
+			x: 30.0d
 			y: 1.5d
 		}
 		{
@@ -3163,7 +3213,7 @@
 				type: "advancement"
 			}]
 			title: "Symphony"
-			x: 26.0d
+			x: 27.0d
 			y: 6.0d
 		}
 		{
@@ -3192,7 +3242,7 @@
 				type: "advancement"
 			}]
 			title: "RUN"
-			x: 26.0d
+			x: 27.0d
 			y: 4.5d
 		}
 		{
@@ -3224,7 +3274,7 @@
 				type: "advancement"
 			}]
 			title: "Strength of Will"
-			x: 29.0d
+			x: 30.0d
 			y: 4.5d
 		}
 		{
@@ -3254,8 +3304,132 @@
 				item: "spectrum:crystallarieum"
 				type: "item"
 			}]
-			x: 27.5d
+			x: 28.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			description: ["A Mushroom Tree found all across the &bNoxshroom Forest&r. They come in 4 different colors."]
+			hide: true
+			hide_dependency_lines: true
+			id: "418776D548B71C96"
+			rewards: [{
+				id: "72B4101BF841FB2C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eStumble upon Noxwood"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_noxwood"
+				criterion: ""
+				id: "51CA679F448822BA"
+				type: "advancement"
+			}]
+			title: "Mushroom Trees?"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			description: ["&6Shear&r a Leaf off of a &bPrickly Bayleaf&r plant. They smell amazing in stews, but aren't too great to eat raw."]
+			hide: true
+			hide_dependency_lines: true
+			id: "6A5C85C0D60E2D44"
+			rewards: [{
+				id: "76FBC4AD7D8ADF06"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eShear a Prickly Bayleaf Plant"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_prickly_bayleaf"
+				criterion: ""
+				id: "5843C381150D1251"
+				type: "advancement"
+			}]
+			title: "Pain Flavored"
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CF7A3D9F383FCE"]
+			description: [
+				"A howling fire, explosions, death, and a seed or two."
+				"A delicate Touch is required to break this plant without creating an explosion of fire."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "0291CC08A51C832E"
+			rewards: [{
+				id: "062BC0875239FDC2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eCollect a Doombloom Seed"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_doombloom_seed"
+				criterion: ""
+				id: "27A08123022B2FAE"
+				type: "advancement"
+			}]
+			title: "Death Candle"
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["418776D548B71C96"]
+			description: ["&bMyceylon&r adds great flavor to baked goods and drinks"]
+			id: "421BF4C4A342DD80"
+			rewards: [{
+				id: "5E704AEEA6A87BE0"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&eStrip a Noxwood Mushroom"
+			tasks: [{
+				advancement: "spectrum:lategame/collect_myceylon"
+				criterion: ""
+				id: "1E3ABA11B17640AC"
+				type: "advancement"
+			}]
+			x: 22.5d
+			y: 0.0d
 		}
 	]
 	title: "Spectrum"
