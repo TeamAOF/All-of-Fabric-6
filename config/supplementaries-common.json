@@ -196,6 +196,7 @@
     "sconce": true,
     "sconce_lever": true,
     "sconce_green": false,
+    "altimeter": false,
     "pancake": true,
     "netherite_door": true,
     "netherite_trapdoor": true,
@@ -224,6 +225,11 @@
       "only_works_in_curio": false,
       "quiver_pickup": true
     },
+    "slice_map": {
+      "enabled": true,
+      "range_multiplier": 0.25
+    },
+    "altimeter": true,
     "bubble_blower": {
       "enabled": true,
       "stasis_cost": 5,
@@ -338,7 +344,10 @@
     },
     "map_tweaks": {
       "random_adventurer_maps": true,
-      "block_map_markers": true
+      "random_adventurer_maps_select_random_structure": true,
+      "block_map_markers": true,
+      "death_marker": "WITH_COMPASS",
+      "colored_map": true
     },
     "ceiling_banners": {
       "enabled": true

@@ -2,6 +2,48 @@
 # If you're a modpack maker, use the defaultconfigs folder instead!
 
 {
+	# Settings related to dynamite
+	dynamite: {
+		# Describes the amount of additional fish (generated from the vanilla loot table) that may be dropped by Fishing Dynamite
+		# (This value is random and biased towards dropping less the more fish were already hit by the explosion)
+		# Default: 5
+		# Range: 0 ~ 16
+		fishingAdditionalLoot: 5
+		
+		# Controls whether the Fishing Dynamite should deal damage to all entities, or only to fish
+		# Default: true
+		fishingDamageAll: true
+		
+		# Controls whether the Fishing Dynamite should instakill fish
+		# If false, the Fishing Dynamite will instead deal 2x damage to fish
+		# Default: true
+		fishingInstakillFish: true
+		
+		# Radius (in blocks) of the Fishing Dynamite's explosion, default is 4
+		# Default: 4
+		# Range: 1 ~ 64
+		fishingRadius: 4
+		
+		# Controls what entities the Fishing Dynamite should target as fish
+		# Valid values are: tag, water_animal, abstract_fish, hybrid (default)
+		# tag: Only entities with the 'gag:fishing_dynamite_fish' tag will be targeted, this includes all vanilla fish by default
+		# water_animal: Only entities that are instances of WaterAnimal will be targeted, note this *will* also include dolphins and other water animals!
+		# abstract_fish: Only entities that are instances of AbstractFish will be targeted, this might not work with some modded fish that do not extend AbstractFish
+		# hybrid: Combines the abstract_fish check with the tag filter, this is the default value since it should be the most reliable
+		# Default: "hybrid"
+		# Valid values: "tag", "water_animal", "abstract_fish", "hybrid"
+		fishingTargetFilter: "hybrid"
+		
+		# Controls whether the Mining Dynamite should give the Haste status effect if it hits a player
+		# Default: true
+		miningGivesHaste: true
+		
+		# Radius (in blocks) of the Mining Dynamite's explosion, default is 7
+		# Default: 7
+		# Range: 1 ~ 64
+		miningRadius: 7
+	}
+	
 	# Settings related to the Escape Rope
 	escape_rope: {
 		# Time (in ticks) the player has to wait after using the rope, default is 10 seconds

@@ -28,7 +28,8 @@
       "themes": [],
       "activeTheme": "waila:dark"
     },
-    "scale": 1.0
+    "scale": 1.0,
+    "fps": 30
   },
   "formatter": {
     "modName": "§9§o%s",

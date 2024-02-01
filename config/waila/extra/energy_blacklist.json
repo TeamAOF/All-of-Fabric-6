@@ -1,15 +1,23 @@
 {
   "_comment": [
     "The game needs to be restarted for the changes to apply.",
-    "Along with this file, the server can also use datapack tag to disable the feature for connecting players.",
-    "Block tag            : data/waila/tags/blocks/extra/energy_blacklist.json",
-    "Block entity type tag: data/waila/tags/block_entity_type/extra/energy_blacklist.json",
-    "Entity type tag      : data/waila/tags/entity_types/extra/extra/energy_blacklist.json",
-    "Note that block_entity_type is not plural like blocks and entity_types, this is not an error."
+    "",
+    "Operators:",
+    "@namespace - Filter objects based on their namespace location",
+    "#tag       - Filter objects based on data pack tags",
+    "/regex/    - Filter objects based on regular expression",
+    "default    - Filter objects with specific ID",
+    "",
+    "The #waila:extra/energy_blacklist tag rule can not be removed"
   ],
   "blocks": [
+    "#waila:extra/energy_blacklist",
     "appliedenergistics2:energy_acceptor"
   ],
-  "blockEntityTypes": [],
-  "entityTypes": []
+  "blockEntityTypes": [
+    "#waila:extra/energy_blacklist"
+  ],
+  "entityTypes": [
+    "#waila:extra/energy_blacklist"
+  ]
 }

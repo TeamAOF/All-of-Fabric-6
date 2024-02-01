@@ -3,5 +3,6 @@ enableSingleTransfer = true
 enableBulkTransfer = true
 enableBulkTransferAll = true
 enableBulkDrop = true
+enableScreenBulkDrop = true
 allowBulkTransferAllOnEmptySlot = false
 enableShiftDrag = true

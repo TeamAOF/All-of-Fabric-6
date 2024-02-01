@@ -1,0 +1,17 @@
+{
+  "spawn_something_from_ancient_vase_chance": 0.16,
+  "sculk_leeches_from_ancient_vase_chance": 0.7,
+  "render_warden_helmet_horns": true,
+  "geysers_apply_slow_falling": false,
+  "geyser_launch_velocity": 2.5,
+  "portal_min_width": 8,
+  "portal_min_height": 4,
+  "portal_max_width": 48,
+  "portal_max_height": 24,
+  "portal_min_search_height": 2,
+  "portal_max_search_height": 122,
+  "generated_portal_width": 8,
+  "generated_portal_height": 4,
+  "warden_heart_pulses": true,
+  "change_phantom_textures": true
+}

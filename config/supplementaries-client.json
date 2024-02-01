@@ -72,6 +72,7 @@
     }
   },
   "general": {
+    "no_optifine_warn_screen": false,
     "config_button": false,
     "tooltip_hints": true,
     "placeable_tooltips": true,
@@ -99,9 +100,22 @@
     ],
     "banner_pattern_tooltip": true,
     "paintings_tooltip": true,
-    "mob_head_shaders": true
+    "mob_head_shaders": true,
+    "tinted_maps": {
+      "enabled": true,
+      "tall_grass_color": true,
+      "accurate_colors": false
+    }
   },
   "items": {
+    "altimeter": {
+      "click_action": true,
+      "extra_dimension_textures": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "texture_precision_multiplier": 1
+    },
     "slingshot": {
       "overlay": true,
       "stasis_block_outline": true,

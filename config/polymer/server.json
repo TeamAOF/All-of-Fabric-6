@@ -24,5 +24,7 @@
   "_c11": "Makes polymer report time it's handshake took",
   "logHandshakeTime": false,
   "_c12": "Enables logging of BlockState ids rebuilds",
-  "logBlockStateRebuilds": true
+  "logBlockStateRebuilds": true,
+  "_c13": "Enables logging of more exceptions. Useful when debugging",
+  "logAllExceptions": false
 }

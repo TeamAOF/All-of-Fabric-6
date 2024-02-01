@@ -6,6 +6,9 @@
 	#Use a scanline shader when spying through a conductor
 	useConductorSpyShader = true
 	#.
+	#Disable the optifine warning screen [DANGER]: Using optifine With Steam 'n' Rails may cause issues and you will not get any support for optifine related issues.
+	disableOptifineNag = false
+	#.
 	#Whether to actually apply the dev cape (ignored for non-devs)
 	#This setting may require a relog to take effect
 	useDevCape = true

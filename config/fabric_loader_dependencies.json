@@ -21,6 +21,11 @@
                 "ctm": ""
             }
         },
+        "compressed": {
+            "-depends": {
+              "fabricloader": ""
+            }
+          },
         "ftbquests": {
             "-depends": {
                 "ftblibrary": ""
