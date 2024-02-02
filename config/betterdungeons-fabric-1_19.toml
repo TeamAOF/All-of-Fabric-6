@@ -10,7 +10,7 @@ chestMinCount = 1
 chestMaxCount = 2
 enableOreProps = true
 [betterDungeons.smallNetherDungeon]
-enabled = false
+enabled = true
 witherSkeletonsDropWitherSkulls = true
 blazesDropBlazeRods = true
 bannerMaxCount = 2
