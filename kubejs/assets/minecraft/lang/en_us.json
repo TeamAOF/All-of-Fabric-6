@@ -8,5 +8,8 @@
   "entity.minecraft.ender_dragon": "\uE907",
   "event.minecraft.raid.raiders_remaining": "",
   "event.minecraft.raid.victory": "",
-  "event.minecraft.raid.defeat": ""
+  "event.minecraft.raid.defeat": "",
+  "chat.type.team.sent": "-> %s %s §8❯❯ %s",
+  "chat.type.team.text": "%s %s %s",
+  "chat.type.text": "%s §8❯❯ %s"
 }
