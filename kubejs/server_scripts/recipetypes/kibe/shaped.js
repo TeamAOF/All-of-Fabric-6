@@ -25,7 +25,19 @@ ServerEvents.recipes(event => {
         D: 'minecraft:white_stained_glass'
     },
       id: 'kibe:cooler'
-    }
+    },
+
+    {
+      output: 'coxinhautilities:grannys_sink',
+      pattern: ['ADA', 'BCB', 'BBB'],
+      key: {
+        A: 'minecraft:gray_concrete',
+        B: 'minecraft:white_concrete',
+        C: 'botania:rune_water',
+        D: 'travelersbackpack:hose'
+    },
+      id: 'coxinhautilities:grannys_sink'
+    },
   ];
 
   recipes.forEach((recipe) => {
