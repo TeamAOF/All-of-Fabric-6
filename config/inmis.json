@@ -2,7 +2,7 @@
   "backpacks": [
     {
       "name": "baby",
-      "rowWidth": 3,
+      "rowWidth": 5,
       "numberOfRows": 1,
       "isFireImmune": false,
       "dyeable": false,
