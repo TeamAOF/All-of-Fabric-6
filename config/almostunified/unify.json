@@ -177,7 +177,15 @@
     "ad_astra:mercury_iron_ore",
     "deeperdarker:sculk_stone_copper_ore",
     "ad_astra:mars_diamond_ore",
-    "minecraft:raw_iron"
+    "minecraft:raw_iron",
+    "spectrum:topaz_shard",
+    "spectrum:blackslag_coal_ore",
+    "spectrum:blackslag_copper_ore",
+    "spectrum:blackslag_iron_ore",
+    "spectrum:blackslag_gold_ore",
+    "spectrum:blackslag_lapis_ore",
+    "spectrum:blackslag_diamond_ore",
+    "spectrum:blackslag_emerald_ore"
   ],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
