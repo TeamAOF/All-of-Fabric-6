@@ -1,21 +1,30 @@
-### All of Fabric 6 | v1.10.1
+### All of Fabric 6 | v1.11.0
 
-_Fabric Loader 0.14.21_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.10.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.10.1.md)_
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/changelog_mods_1.11.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-6/blob/main/changelogs/modlist_1.11.0.md)_
 
-### Changes/Improvements
+### Added Mods ✅
 
-* Added Floral Fertilizer recipe to the MI Mixer (Inno).
-* Added Assembler recipe for Empty Fertilizer Bag (Inno).
-* Changed assembler empty bag recipe to use acrylic glue (Inno).
-* Removed 0 probability on acrylic glue for glue recipe (Inno).
-* Updated vanilla crops to not consume seeds (Inno).
-* Allow electrum dust to be made in the infuser (AK).
+  * [Complementary Shaders - Reimagined](https://www.curseforge.com/minecraft/shaders/complementary-reimagined)
+  * [Complementary Shaders - Unbound](https://www.curseforge.com/minecraft/shaders/complementary-unbound)
+  * [Sawmill](https://www.curseforge.com/minecraft/mc-mods/sawmill)
 
-### Bug Fixes
+### Changes/Improvements ⚙️
 
-* Fixed consumable wheat and beetroot seeds, and fixed tomato recipe (Inno).
-* Incorrect MI quarry recipe outputs (AK).
-* Incompatibility between Entangled & Powah.
+* Updated Spectrum quest chapter, matching the Deeper Down update (Trent).
+* New Granny's Sink recipe (AK).
+* Disabled wheel tweak feature, issues with AE2 terminals (AK).
+* Touch-ups of all Indrev machine textures (rightus).
+* Added MI packer recipes for Zinc, Desh, Ostrum, Calorite, Manasteel, Terrasteel, Elementium, Netherite Scrap, Cast Iron, Diamond, Emerald, Hot Tungstensteel, Netherite, Refined Iron, Tungstensteel (AK).
+* Enabled small dungeons to generate in the nether (AK).
+* Updated Spectrum Trophy completion dependencies (AK).
+* Increased Baby Backpack inventory size from 3 > 5 (AK).
+* Better & cooler chat text formatting (AK).
+* Removed Eternal & Everlasting beef drop from cows (AK).
+
+### Bug Fixes 🐛
+
+* A ton of fixes, should probably have been writing them down as I went but its been a bit. They therefore all fixed!
+* Quest trophies missing colors on stand. A workaround has been implemented for this. DISCLAIMER: Colors start blending into each other when you place trophies less than 2 blocks apart.
 ---
 
 ### All of Fabric 6 | v1.10.0

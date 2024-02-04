@@ -1519,7 +1519,6 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
 				icon: "kubejs:loot_bag_rare"
 				id: "4AC973452A9DAA62"
-				player_command: false
 				title: "Magic Rare Loot Bag"
 				type: "command"
 			}]
@@ -2473,7 +2472,6 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot aof:loot_bags/magic_rare"
 					icon: "kubejs:loot_bag_rare"
 					id: "3DDD10F220C8155E"
-					player_command: false
 					title: "Magic Rare Loot Bag"
 					type: "command"
 				}

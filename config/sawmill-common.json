@@ -1,0 +1,6 @@
+{
+  "general": {
+    "allow_non_blocks": true,
+    "allow_non_variant": true
+  }
+}
