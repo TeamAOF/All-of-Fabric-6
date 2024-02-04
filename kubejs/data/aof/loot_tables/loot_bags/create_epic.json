@@ -40,17 +40,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "create:brass_encased_shaft",
-          "functions": [
-            {
-              "count": 4,
-              "function": "set_count"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "create:brass_ingot",
           "functions": [
             {
