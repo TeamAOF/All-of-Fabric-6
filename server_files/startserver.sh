@@ -1,4 +1,6 @@
-﻿DO_RAMDISK=0
+#!/bin/bash
+
+DO_RAMDISK=0
 if [[ $(cat server-setup-config.yaml | grep 'ramDisk:' | awk 'BEGIN {FS=":"}{print $2}') =~ "yes" ]]; then
     SAVE_DIR=$(cat server.properties | grep 'level-name' | awk 'BEGIN {FS="="}{print $2}')
     mv $SAVE_DIR "${SAVE_DIR}_backup"
