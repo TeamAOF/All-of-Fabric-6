@@ -1654,7 +1654,8 @@ ServerEvents.recipes(e => {
         2,
         300,
         [
-            { amount: 1, item: ('minecraft:oak_sapling'), probability: 0 }
+            { amount: 1, item: ('minecraft:oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:oak_log') },
@@ -1673,7 +1674,8 @@ ServerEvents.recipes(e => {
         2,
         300,
         [
-            { amount: 1, item: ('minecraft:spruce_sapling'), probability: 0 }
+            { amount: 1, item: ('minecraft:spruce_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:spruce_log') },
@@ -1692,7 +1694,8 @@ ServerEvents.recipes(e => {
         2,
         300,
         [
-            { amount: 1, item: ('minecraft:birch_sapling'), probability: 0 }
+            { amount: 1, item: ('minecraft:birch_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:birch_log') },
@@ -1711,7 +1714,8 @@ ServerEvents.recipes(e => {
         2,
         300,
         [
-            { amount: 1, item: ('minecraft:jungle_sapling'), probability: 0 }
+            { amount: 1, item: ('minecraft:jungle_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:jungle_log') },
@@ -1730,7 +1734,8 @@ ServerEvents.recipes(e => {
         2,
         300,
         [
-            { amount: 1, item: ('minecraft:acacia_sapling'), probability: 0 }
+            { amount: 1, item: ('minecraft:acacia_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:acacia_log') },
@@ -1749,7 +1754,8 @@ ServerEvents.recipes(e => {
         2,
         300,
         [
-            { amount: 1, item: ('minecraft:dark_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('minecraft:dark_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:dark_oak_log') },
@@ -1768,7 +1774,8 @@ ServerEvents.recipes(e => {
         2,
         300,
         [
-            { amount: 1, item: ('minecraft:mangrove_propagule'), probability: 0 }
+            { amount: 1, item: ('minecraft:mangrove_propagule'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:mangrove_log') },
@@ -1788,7 +1795,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('architects_palette:twisted_sapling'), probability: 0 }
+            { amount: 1, item: ('architects_palette:twisted_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('architects_palette:twisted_log') },
@@ -1807,7 +1815,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('beachparty:palm_sapling'), probability: 0 }
+            { amount: 1, item: ('beachparty:palm_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('beachparty:palm_log') },
@@ -1826,7 +1835,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('bewitchment:juniper_sapling'), probability: 0 }
+            { amount: 1, item: ('bewitchment:juniper_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('bewitchment:juniper_log') },
@@ -1845,7 +1855,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('bewitchment:cypress_sapling'), probability: 0 }
+            { amount: 1, item: ('bewitchment:cypress_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('bewitchment:cypress_log') },
@@ -1864,7 +1875,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('bewitchment:elder_sapling'), probability: 0 }
+            { amount: 1, item: ('bewitchment:elder_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('bewitchment:elder_log') },
@@ -1883,7 +1895,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('bewitchment:dragons_blood_sapling'), probability: 0 }
+            { amount: 1, item: ('bewitchment:dragons_blood_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('bewitchment:dragons_blood_log') },
@@ -1902,7 +1915,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('biomemakeover:blighted_balsa_sapling'), probability: 0 }
+            { amount: 1, item: ('biomemakeover:blighted_balsa_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('biomemakeover:blighted_balsa_log') },
@@ -1921,7 +1935,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('biomemakeover:willow_sapling'), probability: 0 }
+            { amount: 1, item: ('biomemakeover:willow_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('biomemakeover:willow_log') },
@@ -1941,7 +1956,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('biomemakeover:swamp_cypress_sapling'), probability: 0 }
+            { amount: 1, item: ('biomemakeover:swamp_cypress_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('biomemakeover:swamp_cypress_log') },
@@ -1960,7 +1976,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('biomemakeover:ancient_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('biomemakeover:ancient_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('biomemakeover:ancient_oak_log') },
@@ -1979,7 +1996,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('blockus:white_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('blockus:white_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('blockus:white_oak_log') },
@@ -1998,7 +2016,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('blockus:legacy_sapling'), probability: 0 }
+            { amount: 1, item: ('blockus:legacy_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('blockus:legacy_log') },
@@ -2017,7 +2036,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('bwplus:yew_sapling'), probability: 0 }
+            { amount: 1, item: ('bwplus:yew_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('bwplus:yew_log') },
@@ -2036,7 +2056,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:aspen_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:aspen_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:aspen_log') },
@@ -2055,7 +2076,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:baobab_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:baobab_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:baobab_log') },
@@ -2074,7 +2096,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:blue_enchanted_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:blue_enchanted_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:blue_enchanted_log') },
@@ -2093,7 +2116,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:purple_bulbis_oddity'), probability: 0 }
+            { amount: 1, item: ('byg:purple_bulbis_oddity'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:bulbis_stem') },
@@ -2113,7 +2137,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:bulbis_oddity'), probability: 0 }
+            { amount: 1, item: ('byg:bulbis_oddity'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:bulbis_stem') },
@@ -2133,7 +2158,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:pink_cherry_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:pink_cherry_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:cherry_log') },
@@ -2152,7 +2178,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:white_cherry_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:white_cherry_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:cherry_log') },
@@ -2171,7 +2198,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:cika_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:cika_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:cika_log') },
@@ -2190,7 +2218,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:cypress_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:cypress_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:cypress_log') },
@@ -2209,7 +2238,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:ebony_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:ebony_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:ebony_log') },
@@ -2228,7 +2258,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:ether_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:ether_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:ether_log') },
@@ -2247,7 +2278,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:fir_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:fir_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:fir_log') },
@@ -2266,7 +2298,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:green_enchanted_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:green_enchanted_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:green_enchanted_log') },
@@ -2285,7 +2318,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:holly_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:holly_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:holly_log') },
@@ -2304,7 +2338,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:fungal_imparius'), probability: 0 }
+            { amount: 1, item: ('byg:fungal_imparius'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:fungal_imparius_stem') },
@@ -2324,7 +2359,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:imparius_mushroom'), probability: 0 }
+            { amount: 1, item: ('byg:imparius_mushroom'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:imparius_stem') },
@@ -2344,7 +2380,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:lament_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:lament_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:lament_log') },
@@ -2363,7 +2400,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:indigo_jacaranda_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:indigo_jacaranda_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:jacaranda_log') },
@@ -2382,7 +2420,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:jacaranda_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:jacaranda_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:jacaranda_log') },
@@ -2401,7 +2440,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:jacaranda_bush'), probability: 0 }
+            { amount: 1, item: ('byg:jacaranda_bush'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:flowering_jacaranda_bush') }
@@ -2417,7 +2457,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:indigo_jacaranda_bush'), probability: 0 }
+            { amount: 1, item: ('byg:indigo_jacaranda_bush'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:flowering_indigo_jacaranda_bush') }
@@ -2433,7 +2474,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:mahogany_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:mahogany_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:mahogany_log') },
@@ -2452,7 +2494,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:white_mangrove_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:white_mangrove_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:white_mangrove_log') },
@@ -2471,7 +2514,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:red_maple_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:red_maple_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:maple_log') },
@@ -2490,7 +2534,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:silver_maple_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:silver_maple_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:maple_log') },
@@ -2509,7 +2554,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:maple_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:maple_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:maple_log') },
@@ -2528,7 +2574,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:nightshade_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:nightshade_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:nightshade_log') },
@@ -2549,7 +2596,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:palm_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:palm_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:palm_log') },
@@ -2568,7 +2616,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:palo_verde_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:palo_verde_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:palo_verde_log') },
@@ -2587,7 +2636,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:pine_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:pine_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:pine_log') },
@@ -2606,7 +2656,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:rainbow_eucalyptus_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:rainbow_eucalyptus_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:rainbow_eucalyptus_log') },
@@ -2625,7 +2676,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:redwood_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:redwood_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:redwood_log') },
@@ -2644,7 +2696,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:skyris_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:skyris_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:skyris_log') },
@@ -2665,7 +2718,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:willow_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:willow_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:willow_log') },
@@ -2684,7 +2738,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:witch_hazel_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:witch_hazel_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:witch_hazel_log') },
@@ -2705,7 +2760,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:zelkova_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:zelkova_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:zelkova_log') },
@@ -2724,7 +2780,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:sythian_fungus'), probability: 0 }
+            { amount: 1, item: ('byg:sythian_fungus'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:sythian_stem') },
@@ -2745,7 +2802,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:embur_wart'), probability: 0 }
+            { amount: 1, item: ('byg:embur_wart'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:embur_pedu') },
@@ -2766,7 +2824,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:withering_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:withering_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:withering_oak_log') },
@@ -2785,7 +2844,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:araucaria_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:araucaria_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:pine_log') },
@@ -2804,7 +2864,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:blue_spruce_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:blue_spruce_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:spruce_log') },
@@ -2823,7 +2884,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:brown_birch_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:brown_birch_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:birch_log') },
@@ -2842,7 +2904,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:brown_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:brown_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:oak_log') },
@@ -2861,7 +2924,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:brown_zelkova_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:brown_zelkova_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:zelkova_log') },
@@ -2880,7 +2944,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:joshua_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:joshua_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:oak_log') },
@@ -2901,7 +2966,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:orange_birch_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:orange_birch_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:birch_log') },
@@ -2920,7 +2986,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:orange_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:orange_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:oak_log') },
@@ -2939,7 +3006,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:orange_spruce_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:orange_spruce_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:spruce_log') },
@@ -2958,7 +3026,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:orchard_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:orchard_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:oak_log') },
@@ -2980,7 +3049,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:red_birch_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:red_birch_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:birch_log') },
@@ -2999,7 +3069,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:red_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:red_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:oak_log') },
@@ -3018,7 +3089,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:red_spruce_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:red_spruce_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:spruce_log') },
@@ -3037,7 +3109,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:yellow_birch_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:yellow_birch_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:birch_log') },
@@ -3056,7 +3129,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:yellow_spruce_sapling'), probability: 0 }
+            { amount: 1, item: ('byg:yellow_spruce_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:spruce_log') },
@@ -3075,7 +3149,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:soul_shroom'), probability: 0 }
+            { amount: 1, item: ('byg:soul_shroom'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:soul_shroom_stem') },
@@ -3094,7 +3169,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:shulkren_fungus'), probability: 0 }
+            { amount: 1, item: ('byg:shulkren_fungus'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('byg:white_mushroom_stem') },
@@ -3115,7 +3191,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('byg:death_cap'), probability: 0 }
+            { amount: 1, item: ('byg:death_cap'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('minecraft:mushroom_stem') },
@@ -3134,7 +3211,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('colorful-azaleas:orange_azalea_sapling'), probability: 0 }
+            { amount: 1, item: ('colorful-azaleas:orange_azalea_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('colorful-azaleas:tecal_azalea_wood') },
@@ -3157,7 +3235,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('colorful-azaleas:red_azalea_sapling'), probability: 0 }
+            { amount: 1, item: ('colorful-azaleas:red_azalea_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('colorful-azaleas:roze_azalea_wood') },
@@ -3180,7 +3259,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('colorful-azaleas:blue_azalea_sapling'), probability: 0 }
+            { amount: 1, item: ('colorful-azaleas:blue_azalea_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('colorful-azaleas:azule_azalea_wood') },
@@ -3203,7 +3283,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('colorful-azaleas:yellow_azalea_sapling'), probability: 0 }
+            { amount: 1, item: ('colorful-azaleas:yellow_azalea_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('colorful-azaleas:fiss_azalea_wood') },
@@ -3226,7 +3307,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('colorful-azaleas:pink_azalea_sapling'), probability: 0 }
+            { amount: 1, item: ('colorful-azaleas:pink_azalea_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('colorful-azaleas:bright_azalea_wood') },
@@ -3249,7 +3331,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('colorful-azaleas:purple_azalea_sapling'), probability: 0 }
+            { amount: 1, item: ('colorful-azaleas:purple_azalea_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('colorful-azaleas:walnut_azalea_wood') },
@@ -3272,7 +3355,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('colorful-azaleas:white_azalea_sapling'), probability: 0 }
+            { amount: 1, item: ('colorful-azaleas:white_azalea_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('colorful-azaleas:titanium_azalea_wood') },
@@ -3295,7 +3379,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('croptopia:cinnamon_sapling'), probability: 0 }
+            { amount: 1, item: ('croptopia:cinnamon_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('croptopia:cinnamon_log') },
@@ -3314,7 +3399,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('vinery:cherry_sapling'), probability: 0 }
+            { amount: 1, item: ('vinery:cherry_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('vinery:cherry_log') },
@@ -3334,7 +3420,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('vinery:apple_tree_sapling'), probability: 0 }
+            { amount: 1, item: ('vinery:apple_tree_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('vinery:apple_log') },
@@ -3354,7 +3441,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('ecologics:walnut_sapling'), probability: 0 }
+            { amount: 1, item: ('ecologics:walnut_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('ecologics:walnut_log') },
@@ -3373,7 +3461,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('techreborn:rubber_sapling'), probability: 0 }
+            { amount: 1, item: ('techreborn:rubber_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('techreborn:rubber_log') },
@@ -3392,7 +3481,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:orange_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:orange_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:orange_log') },
@@ -3411,7 +3501,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:magenta_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:magenta_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:magenta_log') },
@@ -3430,7 +3521,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:light_blue_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:light_blue_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:light_blue_log') },
@@ -3449,7 +3541,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:yellow_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:yellow_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:yellow_log') },
@@ -3468,7 +3561,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:lime_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:lime_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:lime_log') },
@@ -3487,7 +3581,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:pink_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:pink_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:pink_log') },
@@ -3506,7 +3601,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:cyan_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:cyan_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:cyan_log') },
@@ -3525,7 +3621,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:purple_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:purple_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:purple_log') },
@@ -3544,7 +3641,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:blue_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:blue_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:blue_log') },
@@ -3563,7 +3661,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:brown_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:brown_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:brown_log') },
@@ -3582,7 +3681,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:green_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:green_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:green_log') },
@@ -3601,7 +3701,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:red_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:red_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:red_log') },
@@ -3620,7 +3721,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:black_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:black_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:black_log') },
@@ -3639,7 +3741,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('spectrum:white_sapling'), probability: 0 }
+            { amount: 1, item: ('spectrum:white_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('spectrum:white_log') },
@@ -3658,7 +3761,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:twilight_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:twilight_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:twilight_oak_log') },
@@ -3677,7 +3781,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:canopy_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:canopy_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:canopy_log') },
@@ -3697,7 +3802,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:mangrove_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:mangrove_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:mangrove_log') },
@@ -3720,7 +3826,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:darkwood_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:darkwood_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:iron_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:dark_log') },
@@ -3738,7 +3845,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:hollow_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:hollow_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 5, item: ('twilightforest:twilight_oak_log') },
@@ -3760,7 +3868,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:time_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:time_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:time_wood') },
@@ -3781,7 +3890,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:transformation_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:transformation_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:transformation_log') },
@@ -3801,7 +3911,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:mining_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:mining_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:mining_log') },
@@ -3821,7 +3932,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:sorting_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:sorting_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:sorting_log') },
@@ -3841,7 +3953,8 @@ ServerEvents.recipes(e => {
         12,
         300,
         [
-            { amount: 1, item: ('twilightforest:rainbow_oak_sapling'), probability: 0 }
+            { amount: 1, item: ('twilightforest:rainbow_oak_sapling'), probability: 0 },
+            { amount: 1, item: ('minecraft:diamond_axe'), probability: 0}
         ],
         [
             { amount: 2, item: ('twilightforest:twilight_oak_log') },

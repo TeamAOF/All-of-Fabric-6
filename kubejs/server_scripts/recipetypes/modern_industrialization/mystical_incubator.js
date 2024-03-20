@@ -994,12 +994,12 @@ ServerEvents.recipes(e => {
         14,
         800,
         [
-            { amount: 1, item: ('mysticalagriculture:mystical_fertilizer'), probability: 0.50 },
+            { amount: 1, item: ('mysticalagriculture:mystical_fertilizer'), probability: 0.40 },
             { amount: 1, item: ('mysticalagriculture:diamond_seeds'), probability: 0 }
 
         ],
         [
-            { amount: 1, item: ('mysticalagriculture:diamond_essence') },
+            { amount: 2, item: ('mysticalagriculture:diamond_essence') },
             { amount: 1, item: ('mysticalagriculture:diamond_seeds'), probability: 0.05 }
             
 
